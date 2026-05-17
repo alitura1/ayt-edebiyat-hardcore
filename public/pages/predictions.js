@@ -55,6 +55,62 @@ export async function renderPredictions() {
       </div>
     </section>
 
+    ${p.periyodik_desen ? `
+    <section class="mb-8">
+      <h2 class="text-xl font-bold mb-3">Periyodik Desen Analizi (2-3 yıllık döngüler)</h2>
+      <p class="text-sm text-slate-500 mb-3">ÖSYM bazı konuları periyodik olarak boş bırakıp tekrar getiriyor. Bu desenler 2026 tahminlerinin temelidir.</p>
+      <div class="overflow-x-auto bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700">
+        <table class="w-full text-sm">
+          <thead class="bg-primary-700 text-white">
+            <tr>
+              <th class="text-left px-3 py-2">Konu</th>
+              <th class="text-left px-2 py-2">Periyot</th>
+              <th class="text-center px-2 py-2">Son Geldiği</th>
+              <th class="text-left px-2 py-2">2026 Tahmin</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${p.periyodik_desen.map(d => `
+              <tr class="border-t border-slate-200 dark:border-slate-800">
+                <td class="px-3 py-2 font-semibold">${d.konu}</td>
+                <td class="px-2 py-2 text-xs">${d.periyot}</td>
+                <td class="text-center px-2 py-2 text-xs text-slate-500">${d.son_geldigi}</td>
+                <td class="px-2 py-2 text-xs ${guvenColor(d.tahmin)}">${d.tahmin}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </section>` : ''}
+
+    ${p.yazar_son_yil_haritasi ? `
+    <section class="mb-8">
+      <h2 class="text-xl font-bold mb-3">Yazar — Son Geldiği Yıl Haritası</h2>
+      <p class="text-sm text-slate-500 mb-3">Uzun süre çıkmamış favori yazarlar 2026 için yüksek aday. Az önce çıkmış olanlar düşük olası.</p>
+      <div class="overflow-x-auto bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700">
+        <table class="w-full text-sm">
+          <thead class="bg-primary-700 text-white">
+            <tr>
+              <th class="text-left px-3 py-2">Yazar</th>
+              <th class="text-center px-2 py-2">Son Geldiği</th>
+              <th class="text-center px-2 py-2">Boş Yıl</th>
+              <th class="text-left px-2 py-2">2026 Öncelik</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${p.yazar_son_yil_haritasi.map(y => `
+              <tr class="border-t border-slate-200 dark:border-slate-800">
+                <td class="px-3 py-2 font-semibold">${y.yazar}</td>
+                <td class="text-center px-2 py-2 text-slate-500">${y.son_geldigi}</td>
+                <td class="text-center px-2 py-2 font-bold ${y.bos_yil >= 3 ? 'text-accent-500' : y.bos_yil >= 1 ? 'text-warn-500' : 'text-slate-500'}">${y.bos_yil} yıl</td>
+                <td class="px-2 py-2 text-xs ${guvenColor(y.oncelik)}">${y.oncelik}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </section>` : ''}
+
     <section>
       <h2 class="text-xl font-bold mb-3">Alt Başlık Boşluk Haritası</h2>
       <p class="text-sm text-slate-500 mb-3">Konuya çalışırken bu alt başlıklara özellikle bak — 8 yılda hiç sorulmamış ama MEBİ özetinde var.</p>

@@ -18,6 +18,7 @@ from collections import defaultdict
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))  # Edebiyat Analiz/
 from mebi_map import MEBI_TOPIC, MEBI_SUB, MEBI_AUTHOR
+from sections_authors_predictions import EXTRA_WORKS_BY_AUTHOR as EXTRA_WORKS
 
 BASE = Path(__file__).parent.parent.parent  # Edebiyat Analiz/
 SITE = Path(__file__).parent.parent / 'public' / 'data'
@@ -277,23 +278,23 @@ NAZIM_BICIMI = {
     'Terci-i Bend': 'Bentlerden + her bent sonunda VASITA BEYTİ (TEKRARLANIR)',
 }
 
-# Söz sanatları
+# Söz sanatları + gerçek beyit/cümle örnekleri (REVİZYON 4)
 SOZ_SANATI_TANIM = {
-    'Benzetme (Teşbih)': "Bir varlığı başka varlığa benzetme. 4 unsur: benzeyen, kendisine benzetilen, yön, edat (\"gibi\", \"kadar\").",
-    'İstiare (Açık)': 'Sadece KENDİSİNE BENZETİLEN söylenir. "Aslan geliyor" (kahraman için).',
-    'İstiare (Kapalı)': 'BENZEYEN söylenir + kendisine benzetilenin özelliği verilir. "Gül açtı, saçları dağıldı" (sevgili için).',
-    'Mecaz-ı Mürsel': 'Benzetme amacı OLMADAN ilgi yoluyla aktarma. "Sobayı yaktım" (yakıtı).',
-    'Teşhis-İntak': 'Cansıza canlı özellikleri (teşhis) / konuşturma (intak). "Ağaç bana dedi ki..."',
-    'Tezat': 'Karşıt anlamlı sözcükler bir arada. "Akşamda dağ, sabahta ova"',
-    'Tenasüp': 'Anlamca İLGİLİ sözcükler bir arada. (Savaş-asker-kılıç)',
-    'Telmih': 'Tarihi/dini bir olaya gönderme. "Mecnun gibi çöllerde"',
-    'Hüsn-i Talil': 'Gerçek bir olaya hayali güzel bir sebep yakıştırma. "Gül açtı çünkü sevgili geldi"',
-    'Tevriye': 'Sözcüğün YAKIN ve UZAK iki anlamından UZAK olanını kastetme (Divan)',
-    'Mübalağa': 'Aşırı abartma. "Sesi dağları yıkıyor"',
-    'Kinaye': 'Açık ve gizli iki anlam, gizli anlam kastedilir',
-    'Tariz': 'İğneleme, tersini söyleme',
-    'Nida': 'Ünlem (ey, hey, ah!)',
-    'Tecahül-i Ârif': 'Bilineni bilmiyormuş gibi sorma',
+    'Benzetme (Teşbih)': 'Bir varlığı başka varlığa benzetme. 4 unsur: benzeyen, kendisine benzetilen, yön, edat. Örnek: "Aslan gibi cesur bir delikanlı" (delikanlı=benzeyen, aslan=k.b., cesur=yön, gibi=edat).',
+    'İstiare (Açık)': 'Sadece KENDİSİNE BENZETİLEN söylenir. Örnek: "Bir hilal uğruna ya Rab ne güneşler batıyor" (Mehmet Akif) — güneşler = şehit askerler.',
+    'İstiare (Kapalı)': 'BENZEYEN söylenir + kendisine benzetilenin özelliği verilir. Örnek: "Gül açıldı saçları dağıldı" — gül = sevgili (saç insan özelliği).',
+    'Mecaz-ı Mürsel': 'Benzetme amacı OLMADAN ilgi yoluyla aktarma. Örnek: "Sobayı yaktım" (içindeki yakıtı), "Bu akşam Yahya Kemal okudum" (eserlerini).',
+    'Teşhis-İntak': 'Cansıza canlı özellikleri (teşhis) / konuşturma (intak). Örnek: "Ağaçlar el sallıyor" (Cahit Sıtkı). Fabllarda hayvanları konuşturma = intak.',
+    'Tezat': 'Karşıt anlamlı sözcükler bir arada. Örnek: "Aşk derdiyle hoşem el çek ilacımdan tabip" (Fuzuli) — dert + hoş (mutluluk).',
+    'Tenasüp': 'Anlamca İLGİLİ sözcükler bir arada. Örnek: "Bende Mecnun\'dan füzun aşıklık istidadı var / Aşık-ı sadık benim Mecnun\'un ancak adı var" (Fuzuli) — Mecnun + aşık + sevgi.',
+    'Telmih': 'Tarihi/dini bir olaya gönderme. Örnek: "Süzme çeşmin gelmesin müjgan müjgan üstüne" (Şeyh Galip) — Mecnun-Leyla aşkına atıf.',
+    'Hüsn-i Talil': 'Gerçek bir olaya hayali güzel bir sebep yakıştırma. Örnek: "Güller açmış çünkü bahar gelmiş" (gerçek) → "Güller açmış çünkü sevgilim geldi" (hüsn-i talil).',
+    'Tevriye': 'Sözcüğün YAKIN ve UZAK iki anlamından UZAK olanını kastetme (Divan). Örnek: "Bana Tahir Efendi kelp demiş / İltifatı bu sözde zahirdir" (Nef\'i) — "tahir" hem kişi adı hem "temiz" anlamında.',
+    'Mübalağa': 'Aşırı abartma. Örnek: "Sözleriyle dağları söker, denizleri kurutur" (klasik abartı).',
+    'Kinaye': 'Açık ve gizli iki anlam, gizli anlam kastedilir. Örnek: "Elinin hamuruyla erkek işine karışma" (deyim, gerçek anlamda hamur değil).',
+    'Tariz': 'İğneleme, tersini söyleme. Örnek: Tembele "Senin gibi çalışkanı bulamadım" demek.',
+    'Nida': 'Ünlem. Örnek: "Ey Türk istikbalinin evladı!" (Atatürk - Gençliğe Hitabe).',
+    'Tecahül-i Ârif': 'Bilineni bilmiyormuş gibi sorma. Örnek: "Şakaklarıma kar mı yağdı ne var?" (Cahit Sıtkı) — yaşlandığını bildiği halde sorma.',
 }
 
 # Tanzimat "ilk"leri (kavram-tanım)
@@ -879,6 +880,343 @@ def gen_masal_destan_cards():
     return cards
 
 
+def gen_soylenmez_cards():
+    """ÖSYM'nin EN SIK kalıbı: 'Aşağıdakilerden hangisi söylenemez/değildir?'"""
+    cards = []
+
+    # Yazar negatif eleme (Fuzuli için söylenemez vb.)
+    yazar_negatif = [
+        ('Fuzuli', 'divan_edebiyati', '56-57',
+         ['16. yüzyıl Divan şairidir', 'Bağdat çevresinde yaşamıştır', 'Türkçe, Arapça, Farsça divanı vardır', 'Leyla vü Mecnun mesnevisini yazmıştır'],
+         'Mesnevi türünden ÖRNEK vermemiştir'),
+        ('Şeyh Galip', 'divan_edebiyati', '58-59',
+         ['18. yüzyılın son büyük Divan şairidir', 'Mevlevi tarikatına mensuptur', 'Hüsn ü Aşk adlı alegorik mesneviyi yazmıştır', 'Sebk-i Hindi üslubunu benimsemiştir'],
+         'Lale Devri\'nde mahallileşme akımının kurucusudur'),  # Bu Nedim — söylenemez
+        ('Halit Ziya Uşaklıgil', 'servet_i_funun_fecr_i_ati', '131',
+         ['Servet-i Fünun romanının en güçlü ismidir', 'Mai ve Siyah, Aşk-ı Memnu, Kırık Hayatlar romanlarını yazmıştır', 'Türk romanını Batılı standarda taşımıştır', 'Realizm-natüralizm etkisindedir'],
+         'Türk edebiyatında ilk psikolojik roman olan Eylül\'ün yazarıdır'),  # Eylül Mehmet Rauf
+        ('Nazım Hikmet', 'cumhuriyet', '79, 82',
+         ['Serbest nazımın Türk edebiyatındaki öncüsüdür', 'Toplumcu gerçekçi şiir akımının önemli ismidir', 'Memleketimden İnsan Manzaraları adlı uzun şiiri vardır', 'Kuvâyi Milliye Destanı\'nı yazmıştır'],
+         'Garip akımının kurucularındandır'),  # Garip Orhan Veli
+        ('Yahya Kemal Beyatlı', 'cumhuriyet', '77',
+         ['Saf şiir geleneğinin önemli temsilcisidir', 'Aruz ölçüsünü Türkçeyle ustaca uyumlu kullanmıştır', 'Kendi Gök Kubbemiz adlı şiir kitabı vardır', 'Aziz İstanbul adlı nesir eseri vardır'],
+         'Garip akımının üyelerindendir'),
+        ('Sait Faik Abasıyanık', 'cumhuriyet', '115',
+         ['Burgazada balıkçılarını, küçük insanları anlattı', 'Çehov tarzı durum hikayesinin Türk edebiyatındaki en güçlü temsilcisi sayılır', 'Semaver, Sarnıç, Lüzumsuz Adam adlı kitapları vardır', 'Hikayelerinde şiirsel bir dil kullanmıştır'],
+         'Toplumcu gerçekçi roman akımının kurucusudur'),
+        ('Yakup Kadri Karaosmanoğlu', 'milli_edebiyat', '134-135',
+         ['Türk romanının dört kuşağını yazmıştır', 'Yaban, Kiralık Konak, Nur Baba, Hüküm Gecesi gibi eserleri vardır', 'Sosyo-tarihsel roman geleneğinin önemli temsilcisidir', 'Önce Fecr-i Âti\'ye sonra Milli Edebiyat\'a katılmıştır'],
+         'İlk psikolojik roman olan Eylül\'ün yazarıdır'),
+        ('Tevfik Fikret', 'servet_i_funun_fecr_i_ati', '66',
+         ['Servet-i Fünun şiirinin en güçlü ismidir', 'Rübab-ı Şikeste ve Halûk\'un Defteri kitapları vardır', 'Sis ve Hân-ı Yağma şiirleri toplumsal eleştiri içerir', 'Şermin adlı çocuk şiirlerini heceyle yazmıştır'],
+         'Mistik şiirin Türk edebiyatındaki en güçlü temsilcisidir'),  # Bu Necip Fazıl
+        ('Namık Kemal', 'tanzimat', '62, 154',
+         ['Tanzimat I. dönemin en önemli yazarlarındandır', 'İntibah (ilk edebi roman) ve Cezmi (ilk tarihi roman) kitaplarını yazmıştır', 'Vatan yahut Silistre tiyatrosu ünlüdür', 'Hürriyet kasidesini yazmıştır'],
+         'Türk romanını Batılı standarda taşıyan ilk yazardır'),  # Halit Ziya
+        ('Ömer Seyfettin', 'milli_edebiyat', '113',
+         ['Türk hikayeciliğinin en önemli isimlerindendir', 'Genç Kalemler dergisinin kurucularındandır', 'Bomba, Pembe İncili Kaftan, Falaka, Kaşağı gibi hikayeleri vardır', 'Sade dil hareketinin pratik öncülerindendir'],
+         'İlk romanı Çalıkuşu\'dur'),  # Çalıkuşu Reşat Nuri
+    ]
+    for yazar, konu, mebi, dogru_secenekler, yanlis in yazar_negatif:
+        cel = dogru_secenekler[:4]  # 4 doğru özellik çeldirici olur
+        id_ = f"sn_{len(cards):04d}"
+        cards.append(card(id_, konu, yazar.lower().replace(' ', '_'), 'soylenemez-yazar',
+            f"<strong>{yazar}</strong> ile ilgili aşağıdakilerden hangisi <strong>SÖYLENEMEZ</strong>?",
+            yanlis, cel,
+            f"<strong>{yazar}</strong> için söylenebilenler: " + '; '.join(dogru_secenekler[:3]) + ". Soruda istenen YANLIŞ ifade '" + yanlis + "' idi.",
+            "Negatif eleme sorularında YANLIŞ bilgi DOĞRU CEVAP olur. Tüm şıkları kontrol et, biri kesin yanlış olmalı.",
+            mebi, 'orta'))
+
+    # Akım negatif eleme
+    akim_negatif = [
+        ('Realizm', 'edebi_akimlar', '188',
+         ['Gözlem ve gerçeklik esastır', 'Sıradan insan ve günlük yaşam konu edilir', 'Balzac, Stendhal, Flaubert, Tolstoy temsilcileridir', 'Romantizme tepki olarak ortaya çıkmıştır'],
+         'Şiirde objektif anlatımı amaçlayan ve antik konuları işleyen akımdır'),  # Parnasizm
+        ('Sembolizm', 'edebi_akimlar', '190',
+         ['Şiirde müzikalite ve sezgi esastır', 'Baudelaire, Verlaine, Rimbaud, Mallarmé temsilcileridir', 'Anlam kapalı, simgesel bir anlatım benimser', 'Ahmet Haşim Türk edebiyatında en güçlü temsilcisidir'],
+         'Bilinçaltını ve rüyayı sanatın merkezine alır'),  # Sürrealizm
+        ('Klasisizm', 'edebi_akimlar', '187',
+         ['17. yüzyılda Fransa\'da doğmuştur', 'Akıl ve sağduyu esastır', 'Üç birlik kuralı (zaman-mekan-eylem) tiyatroda uygulanır', 'Molière, Racine, Corneille temsilcileridir'],
+         'Halk hayatı ve doğa övgüsü merkezdedir'),  # Romantizm
+        ('Romantizm', 'edebi_akimlar', '188',
+         ['19. yüzyılın başlarında Fransa\'da doğdu', 'Klasisizme tepki olarak ortaya çıktı', 'Duygu, hayal ve doğa öne çıkar', 'Victor Hugo, Lamartine, Goethe temsilcileridir'],
+         'Bilimsel determinizm ve çevre-genetik tutsağı insan tasviri yapılır'),  # Natüralizm
+        ('Natüralizm', 'edebi_akimlar', '188',
+         ['Realizmin aşırı halidir', 'Bilimsel determinizm benimser', 'İnsanın çevre ve genetik tutsağı olduğunu savunur', 'Émile Zola en güçlü temsilcisidir'],
+         'Antik konuları işler ve biçim mükemmelliğini hedefler'),  # Parnasizm
+        ('Sürrealizm', 'edebi_akimlar', '190',
+         ['1924\'te André Breton manifestosuyla başladı', 'Bilinçaltı, rüya ve otomatik yazım önemlidir', 'Freud\'un psikanalizinden etkilenmiştir', 'Dadaizmin devamı niteliğindedir'],
+         'Geçmişin reddi, hız ve makine övgüsü esastır'),  # Fütürizm
+    ]
+    for akim, konu, mebi, dogru_secenekler, yanlis in akim_negatif:
+        cel = dogru_secenekler[:4]
+        id_ = f"sn_{len(cards):04d}"
+        cards.append(card(id_, konu, akim.lower(), 'soylenemez-akim',
+            f"<strong>{akim}</strong> akımı ile ilgili aşağıdakilerden hangisi <strong>SÖYLENEMEZ</strong>?",
+            yanlis, cel,
+            f"<strong>{akim}</strong> akımının temel özellikleri: " + '; '.join(dogru_secenekler[:3]) + ". Yanlış ifade '" + yanlis + "' başka akıma aittir.",
+            "Akım özellikleri sürekli karıştırılır. Hangi özellik hangi akıma ait olduğunu ezberlemek lazım.",
+            mebi, 'zor'))
+
+    # Eser negatif eleme
+    eser_negatif = [
+        ('Hüsn ü Aşk', 'divan_edebiyati', '58-59',
+         ['Şeyh Galip tarafından yazılmıştır', 'Mesnevi nazım biçiminde kaleme alınmıştır', 'Alegorik tasavvufi bir eserdir', 'Son büyük Divan mesnevisi sayılır'],
+         'Halk hikayesi geleneğinin önemli ürünlerindendir'),
+        ('Çalıkuşu', 'milli_edebiyat', '135',
+         ['Reşat Nuri Güntekin\'in en bilinen romanıdır', 'Anadolu öğretmeni Feride\'nin hikayesini anlatır', 'Milli Edebiyat döneminin önemli eseridir', 'Halk diline yakın sade Türkçeyle yazılmıştır'],
+         'Toplumcu gerçekçi akımın ilk örneklerindendir'),
+        ('Tutunamayanlar', 'cumhuriyet', '120, 142',
+         ['Oğuz Atay\'ın romanıdır', 'Türk postmodernizminin başlangıcı sayılır', 'Anti-roman özellikleri taşır', 'İroni ve parçalanmış anlatım kullanır'],
+         'Toplumcu gerçekçi akımın temel eserlerindendir'),
+        ('Kutadgu Bilig', 'islamiyet_oncesi_gecis', '28-29',
+         ['Yusuf Has Hacip tarafından 1069\'da yazılmıştır', 'Allegorik bir mesnevidir', 'Devlet yönetimi ve mutluluk üzerinedir', 'İlk büyük Türk-İslam mesnevisi sayılır'],
+         'Halk şiiri geleneğinin temel eseridir'),
+    ]
+    for eser, konu, mebi, dogru_secenekler, yanlis in eser_negatif:
+        cel = dogru_secenekler[:4]
+        id_ = f"sn_{len(cards):04d}"
+        cards.append(card(id_, konu, eser.lower().replace(' ', '_'), 'soylenemez-eser',
+            f"<strong>«{eser}»</strong> adlı eser için aşağıdakilerden hangisi <strong>SÖYLENEMEZ</strong>?",
+            yanlis, cel,
+            f"<strong>{eser}</strong> için söylenebilecekler: " + '; '.join(dogru_secenekler[:3]) + ". '" + yanlis + "' yanlıştır.",
+            "Eser hakkındaki yanlış iddia, başka bir akım/tür/yazara ait olabilir.",
+            mebi, 'zor'))
+
+    # Dönem/akım negatif
+    donem_negatif = [
+        ('Servet-i Fünun', 'servet_i_funun_fecr_i_ati', '65-69',
+         ['1896-1901 yıllarını kapsar', 'Sanat sanat içindir anlayışı benimsenir', 'Aruz ölçüsü ve sembolizm-parnasizm etkisi vardır', 'Halit Ziya, Tevfik Fikret, Cenap Şahabettin önde gelen isimlerdir'],
+         'Sade Türkçe ve milli tema öne çıkarılır'),
+        ('Milli Edebiyat', 'milli_edebiyat', '70-74',
+         ['1911-1923 dönemini kapsar', 'Sade Türkçe + hece vezni + milli tema üç ilkesidir', 'Genç Kalemler dergisi etrafında başlamıştır', 'Ömer Seyfettin, Ziya Gökalp, Ali Canip kurucudur'],
+         'Sanat sanat içindir anlayışı ile aruz ölçüsü kullanılır'),  # SF
+        ('Garip akımı', 'cumhuriyet', '79-80',
+         ['1941\'de Orhan Veli, Oktay Rifat, Melih Cevdet kurmuştur', 'Şiire ait her şeyi reddeder (ölçü, kafiye, söz sanatı)', 'Gündelik konuşma dili kullanılır', 'Küçük insan ve günlük yaşam konu edilir'],
+         'Kapalı imge ve müzikalite ile soyutlama esastır'),  # II. Yeni
+    ]
+    for donem, konu, mebi, dogru_secenekler, yanlis in donem_negatif:
+        cel = dogru_secenekler[:4]
+        id_ = f"sn_{len(cards):04d}"
+        cards.append(card(id_, konu, donem.lower().replace(' ', '_').replace('-',''), 'soylenemez-donem',
+            f"<strong>{donem}</strong> dönemi/akımı ile ilgili aşağıdakilerden hangisi <strong>SÖYLENEMEZ</strong>?",
+            yanlis, cel,
+            f"<strong>{donem}</strong> özellikleri: " + '; '.join(dogru_secenekler[:3]) + ".",
+            "Dönem özellikleri yakın dönemlerle karıştırılır. Bilinen özelliğin yokluğu = farklı dönem.",
+            mebi, 'orta'))
+
+    return cards
+
+
+def gen_paragraf_tani_cards():
+    """ÖSYM klasiği: yazarın tarzı/dönemi/eseri uzun paragrafla → yazar bul"""
+    cards = []
+
+    # Format: (yazar_dogru, konu, mebi, paragraf, çeldirici_yazarlar)
+    paragraf_yazar = [
+        ('Yunus Emre', 'halk_edebiyati', '34, 42',
+         "Anadolu Türkçesini edebi bir dile dönüştürdüğü kabul edilen şair, 13-14. yüzyılda yaşamış mistik tasavvuf şairidir. Sade dilde yazdığı ilahileri ve şiirleri Türk tasavvuf şiirinin en sevilen ürünleri arasındadır. \"Bir ben vardır bende benden içeri\" gibi dizeleriyle evrensel insan sevgisini ifade etmiştir. Risaletü'n-Nushiyye adlı mesnevisi vardır.",
+         ['Mevlana', 'Pir Sultan Abdal', 'Kaygusuz Abdal', 'Hacı Bektaş Veli']),
+        ('Fuzuli', 'divan_edebiyati', '57',
+         "16. yüzyılda Bağdat çevresinde yaşamış, Divan şiirinin en güçlü AŞK şairi olarak kabul edilir. Türkçe, Arapça ve Farsça üç dilde divanı vardır. Leyla vü Mecnun adlı mesnevisi, Su Kasidesi adlı naatı ve Şikayetname adlı mensur mektubu ünlüdür. \"Aşk derdiyle hoşem el çek ilacımdan tabip\" beyiti onun derinliğini özetler.",
+         ['Baki', 'Şeyh Galip', "Nef'i", 'Nedim']),
+        ('Halit Ziya Uşaklıgil', 'servet_i_funun_fecr_i_ati', '131',
+         "Servet-i Fünun romanının zirvesi olan yazar, Türk romanını Batılı tekniğe ulaştırmıştır. Mai ve Siyah'ta bir sanatçının dramını, Aşk-ı Memnu'da İstanbul üst sınıfının yasak aşkını işler. Romanlarında karakterlerin iç dünyasını ayrıntılı betimler. Anılarını Kırk Yıl adlı eserinde toplamıştır.",
+         ['Mehmet Rauf', 'Tevfik Fikret', 'Hüseyin Cahit Yalçın', 'Yakup Kadri Karaosmanoğlu']),
+        ('Yakup Kadri Karaosmanoğlu', 'milli_edebiyat', '134-135',
+         "Türk romanının dört kuşak panoramasını veren yazar, önce Fecr-i Âti'ye sonra Milli Edebiyat'a katılmıştır. Yaban romanında aydının köy gerçekliğiyle yüzleşmesini, Kiralık Konak'ta üç kuşak çatışmasını, Nur Baba'da Bektaşilik eleştirisini, Sodom ve Gomore'de işgal İstanbul'unun ahlak çöküntüsünü işler.",
+         ['Halide Edip Adıvar', 'Reşat Nuri Güntekin', 'Refik Halit Karay', 'Peyami Safa']),
+        ('Sait Faik Abasıyanık', 'cumhuriyet', '115',
+         "Burgazada balıkçılarının, küçük insanların, yalnızların hayatını anlatan hikayeci. Çehov tarzı DURUM hikayesinin Türk edebiyatındaki en güçlü temsilcisi sayılır. Semaver, Sarnıç, Lüzumsuz Adam, Son Kuşlar, Alemdağ'da Var Bir Yılan adlı kitapları vardır. Hikayelerinde olay yerine an ve izlenim öne çıkar; dili şiirseldir.",
+         ['Memduh Şevket Esendal', 'Refik Halit Karay', 'Ömer Seyfettin', 'Tarık Buğra']),
+        ('Oğuz Atay', 'cumhuriyet', '120, 142',
+         "Türk romanında postmodernizmin başlangıcı sayılan yazar, anti-roman geleneğini Türk edebiyatına taşıdı. Tutunamayanlar adlı eserinde mühendis Turgut Özben'in intihar eden arkadaşı Selim'i araştırmasını ironi ve parçalanmış anlatımla anlatır. Tehlikeli Oyunlar adlı romanı ve Korkuyu Beklerken adlı hikaye kitabı vardır.",
+         ['Yusuf Atılgan', 'Bilge Karasu', 'Orhan Pamuk', 'Ahmet Hamdi Tanpınar']),
+        ('Necip Fazıl Kısakürek', 'cumhuriyet', '78',
+         "Cumhuriyet dönemi şiirinde mistik ve metafizik çizginin en güçlü temsilcisi. Şiirlerini Çile adlı kitabında topladı. Kaldırımlar, Sakarya Türküsü gibi şiirleri ünlüdür. Bir Adam Yaratmak adlı tiyatro eseri vardır. Mistik yönelimi, doğu-batı çatışması ve manevi arayış temalarını işler.",
+         ['Yahya Kemal Beyatlı', 'Ahmet Hamdi Tanpınar', 'Cahit Sıtkı Tarancı', 'Fazıl Hüsnü Dağlarca']),
+        ('Tarık Buğra', 'cumhuriyet', '138',
+         "Milli ve tarihsel temaları bireyin perspektifinden işleyen romancı. Küçük Ağa adlı romanında Milli Mücadele sürecinde bir İstanbul hocasının Anadolu'ya açılışını ve değişimini anlatır. Osmancık adlı romanında Osmanlı'nın kuruluşunu, Dönemeçte'de Türk modernleşmesini ele alır.",
+         ['Kemal Tahir', 'Yakup Kadri Karaosmanoğlu', 'Mustafa Kutlu', 'Ahmet Hamdi Tanpınar']),
+        ('Şeyh Galip', 'divan_edebiyati', '58-59',
+         "18. yüzyılın son büyük Divan şairi. Mevlevi tarikatına mensuptu. En önemli eseri Hüsn ü Aşk adlı alegorik tasavvuf mesnevisi olup, Güzellik ile Aşk'ın yolculuğunu anlatır. Sebk-i Hindi (Hint üslubu) üslubunu benimsemiş, soyut imgeler ve dolambaçlı söyleyiş kullanmıştır. Mevlana'nın Mesnevî'sine şerh yazmıştır.",
+         ['Nedim', 'Fuzuli', "Nef'i", 'Nabi']),
+        ('Ömer Seyfettin', 'milli_edebiyat', '113',
+         "Türk hikayeciliğinin babası sayılan yazar, sade Türkçe hareketinin pratik öncüsüdür. Genç Kalemler dergisinin kurucularındandır. Klasik OLAY hikayesi (Maupassant tarzı) tekniğini kullandı. Bomba, Pembe İncili Kaftan, Falaka, Kaşağı, Forsa, Diyet gibi tek tek mükemmel hikayeleri vardır. 1920'de erken yaşta öldü.",
+         ['Sait Faik Abasıyanık', 'Refik Halit Karay', 'Memduh Şevket Esendal', 'Halide Edip Adıvar']),
+        ('Mehmet Akif Ersoy', 'cumhuriyet', '74',
+         "Türk milli marşının söz yazarı, İslamcı-toplumcu çizginin en güçlü şairi. Tüm şiirlerini Safahat adlı 7 kitaplık eserinde toplamıştır. Manzum hikaye tekniğini kullanmış; Süleymaniye Kürsüsünde, Asım, Hatıralar gibi bölümleri vardır. Çanakkale Şehitlerine adlı yapma destanı yazmıştır.",
+         ['Yahya Kemal Beyatlı', 'Tevfik Fikret', 'Necip Fazıl Kısakürek', 'Ahmet Haşim']),
+        ('Ahmet Hamdi Tanpınar', 'cumhuriyet', '78, 137-139',
+         "Hem şair hem romancı hem denemeci olan çok yönlü yazar. Şiirde saf şiir geleneğini, romanda zaman-medeniyet temasını işler. Huzur ve Saatleri Ayarlama Enstitüsü romanlarıyla, Beş Şehir adlı denemesiyle ünlüdür. 19. Asır Türk Edebiyatı Tarihi adlı edebiyat tarihi kaynağı vardır. \"Bursa'da Zaman\" şiiri klasiktir.",
+         ['Yahya Kemal Beyatlı', 'Oğuz Atay', 'Peyami Safa', 'Necip Fazıl Kısakürek']),
+        ('Peyami Safa', 'cumhuriyet', '137-139',
+         "Bireyin iç dünyasını ve özellikle DOĞU-BATI çatışmasını romanlarının merkezine alan yazar. 9. Hariciye Koğuşu adlı romanı bir hastane gözlemidir. Fatih Harbiye'de iki dünya arasında kalan bir kızı, Matmazel Noraliya'nın Koltuğu'nda psikolojik derinliği, Yalnızız'da varoluşsal sorunları işler.",
+         ['Ahmet Hamdi Tanpınar', 'Tarık Buğra', 'Yakup Kadri Karaosmanoğlu', 'Mustafa Kutlu']),
+        ('Şinasi', 'tanzimat', '61',
+         "Tanzimat edebiyatının öncüsü. Türk edebiyatına BATILI yenilikleri ilk getiren isimdir: ilk özel Türk gazetesi (Tercüman-ı Ahvâl, Agah Efendi ile), ilk makale (Tercüman-ı Ahvâl Mukaddimesi), ilk sahnelenen tiyatro (Şair Evlenmesi). Müntehabat-ı Eş'ar adlı şiir derlemesi ve Durub-ı Emsal-i Osmaniye adlı atasözü derlemesi vardır.",
+         ['Namık Kemal', 'Ziya Paşa', 'Ahmet Mithat Efendi', 'Recaizade Mahmut Ekrem']),
+        ('Recaizade Mahmut Ekrem', 'tanzimat', '63-64, 128',
+         "Tanzimat II. döneminin önde gelen ismi. Türk edebiyatında ilk REALİST roman olan Araba Sevdası'nı yazdı (yanlış batılılaşma eleştirisi). Talim-i Edebiyat adlı edebiyat eleştirisi kitabı vardır. Eski-yeni tartışmasında Muallim Naci'ye karşı yenilikçi tarafı temsil etti. Servet-i Fünuncuları yetiştirdi.",
+         ['Abdülhak Hamit Tarhan', 'Şinasi', 'Namık Kemal', 'Muallim Naci']),
+        ('Ahmet Haşim', 'servet_i_funun_fecr_i_ati', '68-69',
+         "AKŞAM ŞAİRİ olarak bilinen, sembolizmin Türk edebiyatındaki en güçlü temsilcisi. Fecr-i Âti'nin de önde gelen ismi. Piyale ve Göl Saatleri adlı şiir kitapları, Bize Göre adlı deneme kitabı vardır. Merdiven, O Belde, Bir Günün Sonunda Arzu gibi şiirleri sembolist üslubun klasik örnekleridir. Şiir hakkındaki görüşlerini Mukaddime'de açıkladı.",
+         ['Yahya Kemal Beyatlı', 'Cenap Şahabettin', 'Tevfik Fikret', 'Cahit Sıtkı Tarancı']),
+        ('Sabahattin Ali', 'cumhuriyet', '114, 116',
+         "Toplumcu gerçekçi roman ve hikayenin önemli isimlerinden. Kuyucaklı Yusuf adlı romanı bir Anadolu kasabasında otoriteye karşı bir bireyin hikayesidir. Kürk Mantolu Madonna'da Berlin-Ankara arasında iç dünya çatışması işlenir. İçimizdeki Şeytan adlı romanı vardır. Değirmen, Ses, Yeni Dünya adlı hikaye kitapları vardır.",
+         ['Yaşar Kemal', 'Orhan Kemal', 'Kemal Tahir', 'Fakir Baykurt']),
+        ('Yaşar Kemal', 'cumhuriyet', '140',
+         "Çukurova merkezli toplumcu gerçekçi romancı. İnce Memed dört ciltlik destansı romanında Çukurova eşkıyalığını ve toprak ağalığını işler. Ortadirek, Yer Demir Gök Bakır, Demirciler Çarşısı Cinayeti gibi romanları vardır. Geniş betimleme + halk söyleyişi + destansı üslupla tanınır.",
+         ['Sabahattin Ali', 'Orhan Kemal', 'Kemal Tahir', 'Fakir Baykurt']),
+        ('Refik Halit Karay', 'milli_edebiyat', '136',
+         "Önce Fecr-i Âti'de, sonra Milli Edebiyat'ta, sürgün sonrası Cumhuriyet'te yazmış üç dönemli yazar. Memleket Hikayeleri'nde Anadolu sürgününde gözlemlediği taşra hayatını, Gurbet Hikayeleri'nde yurt dışı sürgününü anlatır. Halk-Anadolu-sürgün temaları onun imzasıdır.",
+         ['Yakup Kadri Karaosmanoğlu', 'Memduh Şevket Esendal', 'Reşat Nuri Güntekin', 'Halide Edip Adıvar']),
+        ('Halide Edip Adıvar', 'milli_edebiyat', '135-136',
+         "Milli Mücadele kadınının romandaki sesi. Sinekli Bakkal adlı romanı en bilinen eseridir. Ateşten Gömlek, Vurun Kahpeye gibi Kurtuluş Savaşı romanları vardır. Handan adlı psikolojik romanı, Mor Salkımlı Ev adlı anısı vardır. İngilizce eğitim almış, Anadolu'da öğretmenlik yapmıştır.",
+         ['Yakup Kadri Karaosmanoğlu', 'Reşat Nuri Güntekin', 'Refik Halit Karay', 'Adalet Ağaoğlu']),
+    ]
+    for yazar, konu, mebi, paragraf, celdiriciler in paragraf_yazar:
+        id_ = f"pt_{len(cards):04d}"
+        cards.append(card(id_, konu, yazar.lower().replace(' ', '_'), 'paragraf-yazar-tani',
+            paragraf + "<br><br><strong>Bu paragrafta tanıtılan yazar aşağıdakilerden hangisidir?</strong>",
+            yazar, celdiriciler,
+            f"Paragrafta verilen ipuçları (eser adları, tema, dönem) yazarın özelliklerini özetler: <strong>{yazar}</strong>.",
+            "Paragraf-yazar tanı sorularında ESER ADLARI, DÖNEM, TEMA en güçlü ipucudur. Eserin adı geçiyorsa o yazardır.",
+            mebi, 'orta'))
+    return cards
+
+
+def gen_dortluk_analiz_cards():
+    """Gerçek beyit/dörtlük + söz sanatı/nazım biçimi/kafiye sorusu"""
+    cards = []
+
+    # Beyit + nazım biçimi/söz sanatı
+    beyitler = [
+        # (beyit/dörtlük, soru_tipi, dogru, celdiriciler, aciklama, konu, mebi)
+        (
+            "<em>Aşk derdiyle hoşem el çek ilacımdan tabip<br>Kılma derman kim helakim zehri dermanındadır</em><br><br>"
+            "<strong>Yukarıdaki beyit hangi söz sanatına örnektir? (Aşıkın derdinden zevk alması ve ilacı reddetmesi)</strong>",
+            'beyit-sanat', 'Tezat',
+            ['Tenasüp', 'Hüsn-i talil', 'Telmih', 'Mübalağa'],
+            "Beyitteki TEZAT: derdiyle hoşem (acı + mutluluk) + ilaç reddedişi (derman = ölüm). Fuzuli'ye ait.",
+            'soz_sanatlari', '24'
+        ),
+        (
+            "<em>\"Bir safa bahşedelim gel şu dil-i nâ-şâda<br>Gidelim serv-i revanım yürü Sa'dâbâd'a\"</em><br><br>"
+            "<strong>Yukarıdaki beyit hangi Divan şairine aittir? (Lale Devri, mahallileşme, İstanbul)</strong>",
+            'beyit-sair', 'Nedim',
+            ['Nef\'i', 'Fuzuli', 'Baki', 'Şeyh Galip'],
+            "Sa'dâbâd, Lale Devri, mahallileşme = NEDİM'in imzaları. \"Serv-i revan\" (yürüyen servi = sevgili) ifadesi.",
+            'divan_edebiyati', '58-59'
+        ),
+        (
+            "<em>\"Tahir Efendi bana kelp demiş<br>İltifatı bu sözde zahirdir<br>Maliki mezhebim benim zira<br>İtibarımca kelp tahirdir\"</em><br><br>"
+            "<strong>Yukarıdaki şiir parçası hangi Divan şairine ait ve hangi nazım türündendir?</strong>",
+            'sair-tur', "Nef'i — Hicviye",
+            ['Fuzuli — Gazel', 'Baki — Mersiye', 'Nabi — Hikemi', 'Nedim — Şarkı'],
+            "NEF'İ'nin meşhur hicvi. Tahir Efendi'nin \"kelp\" (köpek) demesine karşı kelime oyunuyla cevap (kelp tahirdir = köpek temizdir). Maliki mezhebine göndermeli.",
+            'divan_edebiyati', '57-58'
+        ),
+        (
+            "<em>\"Ağır ağır çıkacaksın bu merdivenlerden<br>Eteklerinde güneş rengi bir yığın yaprak<br>Ve bir zaman bakacaksın semaya ağlayarak\"</em><br><br>"
+            "<strong>Yukarıdaki şiir hangi şaire aittir?</strong>",
+            'siir-sair', 'Ahmet Haşim',
+            ['Yahya Kemal Beyatlı', 'Cahit Sıtkı Tarancı', 'Necip Fazıl Kısakürek', 'Cenap Şahabettin'],
+            "AHMET HAŞİM'in \"Merdiven\" şiirinin açılışı. Akşam + sembolizm + kapalılık imzaları onun.",
+            'cumhuriyet', '68-69'
+        ),
+        (
+            "<em>\"Otuz beş yaş, yolun yarısı eder<br>Dante gibi ortasındayız ömrün\"</em><br><br>"
+            "<strong>Yukarıdaki şiir hangi şaire aittir? (Otuz Beş Yaş şiiri, ölüm korkusu)</strong>",
+            'siir-sair', 'Cahit Sıtkı Tarancı',
+            ['Necip Fazıl Kısakürek', 'Ahmet Hamdi Tanpınar', 'Yahya Kemal Beyatlı', 'Asaf Halet Çelebi'],
+            "CAHİT SITKI TARANCI'nın \"Otuz Beş Yaş\" şiiri. Ölüm korkusu ve varoluşsal sorgu temalı.",
+            'cumhuriyet', '77'
+        ),
+        (
+            "<em>\"Anlatamıyorum derdimi anlatamıyorum<br>Bilmem ki nasıl anlatsam<br>Sizin diliniz başka benim dilim başka\"</em><br><br>"
+            "<strong>Yukarıdaki şiir hangi akıma aittir? (serbest nazım, gündelik dil, doğrudan ifade)</strong>",
+            'siir-akim', 'Garip (I. Yeni)',
+            ['Saf şiir', 'İkinci Yeni', 'Toplumcu gerçekçi', 'Sembolizm'],
+            "GARİP akımının tipik özellikleri: ölçü-kafiye yok, gündelik dil, doğrudan ifade. Orhan Veli üslubu.",
+            'cumhuriyet', '79-80'
+        ),
+        (
+            "<em>\"Bir ben vardır bende benden içeri\"</em><br><br>"
+            "<strong>Yukarıdaki dize hangi şaire aittir? (Anadolu Türkçesi, mistik tasavvuf)</strong>",
+            'dize-sair', 'Yunus Emre',
+            ['Mevlana', 'Pir Sultan Abdal', 'Kaygusuz Abdal', 'Hacı Bektaş Veli'],
+            "YUNUS EMRE'nin meşhur dizesi. Tasavvufi tema + Türkçe + içe dönük arayış.",
+            'halk_edebiyati', '34, 42'
+        ),
+        (
+            "<em>\"Şu dağlar olmasaydı<br>Çiçeği solmasaydı<br>Ölüm Allah'ın emri<br>Ayrılık olmasaydı\"</em><br><br>"
+            "<strong>Yukarıdaki dörtlük hangi halk şiiri biçimine aittir?</strong>",
+            'dortluk-bicim', 'Mani',
+            ['Koşma', 'Semai', 'Varsağı', 'Ağıt'],
+            "MANİ: 7 heceli, 4 mısra, aaxa kafiye, son 2 dize asıl mesaj. İlk 2 dize doldurma (dağlar/çiçek).",
+            'halk_edebiyati', '31'
+        ),
+        (
+            "<em>\"Ferman padişahın, dağlar bizimdir\"</em><br><br>"
+            "<strong>Yukarıdaki dize hangi aşığa aittir?</strong>",
+            'dize-asik', 'Dadaloğlu',
+            ['Karacaoğlan', 'Köroğlu', 'Seyrani', 'Pir Sultan Abdal'],
+            "DADALOĞLU'nun ünlü dizesi. AVŞAR Türkmen aşığı, Osmanlı'nın iskâna zorlamasına karşı direniş.",
+            'halk_edebiyati', '36-37'
+        ),
+        (
+            "<em>\"Vergisinden alacağı bile var<br>Sevdiğim ahırına bağlı tomar tomar<br>Senin tarlanda kullanılır onlar\"</em><br><br>"
+            "<strong>Yukarıdaki şiirde işlenen konu, hangi koşma türüne işaret eder?</strong>",
+            'kosma-tur', 'Taşlama',
+            ['Güzelleme', 'Koçaklama', 'Ağıt', 'Methiye'],
+            "TAŞLAMA: toplumsal eleştiri, yergi, hiciv. Vergi-toprak-iktidar eleştirisi taşlamanın klasiği.",
+            'halk_edebiyati', '36-37'
+        ),
+        (
+            "<em>\"Su ki kayalardan inerken çağıldar<br>Çağıldarken ürküntü saçar gönüllere\"</em><br><br>"
+            "<strong>Yukarıdaki iki dizede hangi söz sanatı belirgindir? (Su kişileştirilmiş, korku yayıyor)</strong>",
+            'beyit-sanat', 'Teşhis (Kişileştirme)',
+            ['Mecaz-ı mürsel', 'Tezat', 'Hüsn-i talil', 'Telmih'],
+            "Suya 'ürküntü saçar' (insan duygusu) atfedilmiş = TEŞHİS. Cansıza canlı/insan özelliği verme.",
+            'soz_sanatlari', '24'
+        ),
+        (
+            "<em>\"Şu Boğaz harbi nedir? Var mı ki dünyada eşi?<br>En kesif orduların yükleniyor dördü beşi\"</em><br><br>"
+            "<strong>Yukarıdaki şiir hangi şaire ait ve hangi yapma destana aittir?</strong>",
+            'sair-eser', 'Mehmet Akif Ersoy — Çanakkale Şehitlerine',
+            ['Nazım Hikmet — Kuvâyi Milliye Destanı', 'Fazıl Hüsnü Dağlarca — Üç Şehitler Destanı', 'Mehmet Akif — Süleymaniye Kürsüsünde', 'Yahya Kemal — Süleymaniye\'de Bayram Sabahı'],
+            "MEHMET AKİF'in \"Çanakkale Şehitlerine\" yapma destanı. Safahat'ın 6. kitabında yer alır.",
+            'cumhuriyet', '74'
+        ),
+        (
+            "<em>\"Bu dünyadan göçüp gitmek istemiyorum biliyorum\"</em><br><br>"
+            "<strong>Yukarıdaki dize hangi şaire ve hangi şiire aittir? (varoluşsal kaygı, ölüm)</strong>",
+            'dize-eser', 'Cahit Sıtkı Tarancı — Otuz Beş Yaş',
+            ['Necip Fazıl — Sakarya Türküsü', 'Yahya Kemal — Kendi Gök Kubbemiz', 'Ahmet Haşim — Merdiven', 'Tanpınar — Bursa\'da Zaman'],
+            "CAHİT SITKI TARANCI'nın \"Otuz Beş Yaş\" şiirinin sondan dizelerinden. Ölüm korkusunun en açık ifadesi.",
+            'cumhuriyet', '77'
+        ),
+        (
+            "<em>\"Sevda yıllar geçtikçe artıyor<br>Karda gül gibi kalbim sızıyor\"</em><br><br>"
+            "<strong>Yukarıdaki beyit hangi nazım birimine örnektir?</strong>",
+            'birim', 'Beyit',
+            ['Mısra', 'Dörtlük', 'Bent', 'Müsavi mısra'],
+            "BEYİT = 2 mısra (yani 2 dize) bir araya gelmiş yapı. Divan şiirinin temel birimi.",
+            'siir_bilgisi', '14'
+        ),
+    ]
+    for paragraf_soru, tip, dogru, celdiriciler, aciklama, konu, mebi in beyitler:
+        id_ = f"da_{len(cards):04d}"
+        cards.append(card(id_, konu, 'dortluk_analiz', tip,
+            paragraf_soru,
+            dogru, celdiriciler,
+            aciklama,
+            "Gerçek beyit/dörtlük sorularında: önce şairin imzasını ara (mahlas, üslup), sonra konu/teme bakarak yazara/akıma git.",
+            mebi, 'zor'))
+    return cards
+
+
 def gen_ilkler_cards():
     cards = []
     for ilk, (eser, yazar) in ILK_LER.items():
@@ -934,6 +1272,12 @@ def main():
     print(f"  geleneksel-tiyatro: {len([c for c in all_cards if c['konu']=='geleneksel_tiyatro'])}")
     all_cards += gen_masal_destan_cards()
     print(f"  masal-fabl-destan: {len([c for c in all_cards if c['konu']=='masal_fabl_destan'])}")
+    all_cards += gen_soylenmez_cards()
+    print(f"  soylenemez: {len([c for c in all_cards if 'soylenemez' in c.get('tip','')])}")
+    all_cards += gen_paragraf_tani_cards()
+    print(f"  paragraf-tani: {len([c for c in all_cards if c.get('tip')=='paragraf-yazar-tani'])}")
+    all_cards += gen_dortluk_analiz_cards()
+    print(f"  dortluk-analiz: {len([c for c in all_cards if c.get('alt_konu')=='dortluk_analiz'])}")
     all_cards += gen_ilkler_cards()
     print(f"  ilkler: {len([c for c in all_cards if c['tip']=='ilkler-eser'])}")
 
@@ -974,24 +1318,72 @@ def main():
     # ====== AUTHORS ======
     print("\n=== AUTHORS ===")
     author_freq = ANNOTATED.get('author_frequency', {})
-    authors_list = []
+
+    # Alias dedupe: aynı kişi farklı isimle geçtiyse birleştir
+    ALIAS = {
+        'Cevat Şakir': 'Halikarnas Balıkçısı',
+        'Faruk Nafiz': 'Faruk Nafiz Çamlıbel',
+        'Halit Ziya': 'Halit Ziya Uşaklıgil',
+        'Yakup Kadri': 'Yakup Kadri Karaosmanoğlu',
+        'Halide Edip': 'Halide Edip Adıvar',
+        'Reşat Nuri': 'Reşat Nuri Güntekin',
+        'Refik Halit': 'Refik Halit Karay',
+        'Memduh Şevket': 'Memduh Şevket Esendal',
+        'Orhan Veli': 'Orhan Veli Kanık',
+        'Melih Cevdet': 'Melih Cevdet Anday',
+        'Yahya Kemal': 'Yahya Kemal Beyatlı',
+        'Mehmet Akif': 'Mehmet Akif Ersoy',
+        'Cahit Sıtkı': 'Cahit Sıtkı Tarancı',
+        'Necip Fazıl': 'Necip Fazıl Kısakürek',
+        'Sait Faik': 'Sait Faik Abasıyanık',
+        'Ahmet Mithat': 'Ahmet Mithat Efendi',
+        'Nâzım Hikmet': 'Nazım Hikmet',
+        'Recaizade': 'Recaizade Mahmut Ekrem',
+        'Sami Paşazade Sezai': 'Samipaşazade Sezai',
+        'Fuzûlî': 'Fuzuli',
+        'Bâkî': 'Baki',
+        'Nâbî': 'Nabi',
+        'Nâilî': 'Naili',
+        'Hayâlî': 'Hayali Bey',
+        'Mevlânâ': 'Mevlana',
+        'Cenap Şehabettin': 'Cenap Şahabettin',
+        'Abdülhak Hamit': 'Abdülhak Hamit Tarhan',
+        'Şeyh Gâlip': 'Şeyh Galip',
+        'Nef’i': "Nef'i",
+        'Necati': 'Necati Bey',
+    }
+
+    # Önce alias'ları birleştir
+    merged = {}
     for name, info in author_freq.items():
+        canonical = ALIAS.get(name, name)
+        if canonical not in merged:
+            merged[canonical] = {'count': 0, 'years': set(), 'occurrences': []}
+        merged[canonical]['count'] += info['count']
+        merged[canonical]['years'].update(info['years'])
+        merged[canonical]['occurrences'].extend(info['occurrences'])
+
+    authors_list = []
+    for name, info in merged.items():
         donem = YAZAR_DONEM.get(name, '')
         eserler = YAZAR_ESERLERI.get(name, [])
         konular = sorted({o['topic'] for o in info['occurrences'] if o.get('topic')})
+        diger_eserler = ', '.join(eserler[:5]) if eserler else EXTRA_WORKS.get(name, '')
+        if not diger_eserler:
+            diger_eserler = ''
         authors_list.append({
             'name': name,
             'soru_sayisi': info['count'],
             'yillar': sorted([y for y in info['years'] if y]),
             'konular': konular,
             'mebi_sayfa': MEBI_AUTHOR.get(name, ''),
-            'diger_eserler': ', '.join(eserler[:5]) if eserler else '',
+            'diger_eserler': diger_eserler,
             'occurrences': info['occurrences'],
         })
     authors_list.sort(key=lambda a: (-a['soru_sayisi'], a['name']))
     with open(SITE / 'authors.json', 'w', encoding='utf-8') as f:
         json.dump(authors_list, f, ensure_ascii=False, indent=1)
-    print(f"  → authors.json ({len(authors_list)} yazar)")
+    print(f"  → authors.json ({len(authors_list)} yazar, dedupe sonrası)")
 
     # ====== PREDICTIONS ======
     print("\n=== PREDICTIONS ===")
@@ -1034,6 +1426,27 @@ def main():
             {'ad': 'Maviciler / Attila İlhan', 'not_': '8 yılda 0 (MEBİ s.81)'},
             {'ad': 'Mustafa Kutlu, Bilge Karasu, İhsan Oktay Anar', 'not_': 'Modernist/postmodernist az sorulanlar'},
             {'ad': 'Behçet Necatigil, Asaf Halet Çelebi, A.M. Dıranas', 'not_': 'Saf şiir az sorulanlar'},
+        ],
+        'periyodik_desen': [
+            {'konu': 'Halk Edebiyatı', 'periyot': '2-3 yıl boş, sonra 2 yıl üst üste', 'son_geldigi': '2024 (2 soru)', 'tahmin': '2026 — YÜKSEK (boşluk telafisi)'},
+            {'konu': 'İslamiyet Öncesi/Geçiş', 'periyot': '2018-2019 yok, 2020+ üst üste', 'son_geldigi': '2025 (1 soru)', 'tahmin': '2026 — YÜKSEK (artan trend, 6 yıl üst üste)'},
+            {'konu': 'Milli Edebiyat', 'periyot': '2-yılda-bir aralıklı', 'son_geldigi': '2025 (1 soru)', 'tahmin': '2026 — DÜŞÜK (geldikten sonra düşer)'},
+            {'konu': 'Geleneksel Tiyatro', 'periyot': '2-yılda-bir', 'son_geldigi': '2025 (1 soru)', 'tahmin': '2026 — DÜŞÜK (geçen yıl geldi)'},
+            {'konu': 'Masal/Fabl/Destan', 'periyot': '~yıl aşırı', 'son_geldigi': '2024 (1 soru), 2025 (1 soru)', 'tahmin': '2026 — ORTA'},
+            {'konu': 'Servet-i Fünun', 'periyot': '2021 hariç her yıl', 'son_geldigi': '2023, 2024 (2şer soru)', 'tahmin': '2026 — YÜKSEK (1-2 garanti)'},
+        ],
+        'yazar_son_yil_haritasi': [
+            {'yazar': 'Halit Ziya Uşaklıgil', 'son_geldigi': '2023', 'bos_yil': 2, 'oncelik': 'ÇOK YÜKSEK'},
+            {'yazar': 'Şinasi', 'son_geldigi': '2023', 'bos_yil': 2, 'oncelik': 'YÜKSEK'},
+            {'yazar': 'Tarık Buğra', 'son_geldigi': '2025', 'bos_yil': 0, 'oncelik': 'DÜŞÜK (geldi)'},
+            {'yazar': 'Sait Faik Abasıyanık', 'son_geldigi': '2023', 'bos_yil': 2, 'oncelik': 'ÇOK YÜKSEK'},
+            {'yazar': 'Necip Fazıl Kısakürek', 'son_geldigi': '—', 'bos_yil': 8, 'oncelik': 'ÇOK YÜKSEK (hiç çıkmadı)'},
+            {'yazar': 'Yahya Kemal Beyatlı', 'son_geldigi': '2024', 'bos_yil': 1, 'oncelik': 'ORTA'},
+            {'yazar': 'Peyami Safa', 'son_geldigi': '—', 'bos_yil': 8, 'oncelik': 'ÇOK YÜKSEK'},
+            {'yazar': 'Ömer Seyfettin', 'son_geldigi': '2020', 'bos_yil': 5, 'oncelik': 'ÇOK YÜKSEK'},
+            {'yazar': 'Baki', 'son_geldigi': '2022', 'bos_yil': 3, 'oncelik': 'YÜKSEK'},
+            {'yazar': 'Nedim', 'son_geldigi': '2024', 'bos_yil': 1, 'oncelik': 'ORTA'},
+            {'yazar': 'Fuzuli', 'son_geldigi': '2025', 'bos_yil': 0, 'oncelik': 'DÜŞÜK (geldi)'},
         ],
         'bosluk_haritasi': [
             {'konu': 'DİVAN', 'alt_basliklar': 'Müstezat, Terkib-i Bend, Terci-i Bend, Tezkire', 'guc': 'YÜKSEK'},
@@ -1110,6 +1523,14 @@ def main():
 
     # ====== GLOSSARY ======
     print("\n=== GLOSSARY ===")
+    # Dönem etiket helper'ı (sözlükte kullanılacak)
+    def donem_label(d):
+        return {
+            'divan': 'Divan', 'halk': 'Halk',
+            'tanzimat': 'Tanzimat', 'sf_fecr': 'SF/Fecr-i Âti',
+            'milli': 'Milli Ed.', 'cumhuriyet': 'Cumhuriyet', 'gecis': 'Geçiş'
+        }.get(d, '—')
+
     glossary = {
         'bolumler': [
             {
@@ -1180,6 +1601,14 @@ def main():
                     ['Biçimler', 'Mani, koşma, semai, varsağı, destan', "Gazel, kaside, mesnevi, rubai, müstezat, şarkı"],
                     ['Şairler', 'Karacaoğlan, Köroğlu, Yunus, Pir Sultan', "Fuzuli, Baki, Nedim, Nef'i, Şeyh Galip"],
                 ],
+            },
+            {
+                'baslik': 'Alfabetik Yazar-Eser Envanteri (~70 yazar)',
+                'basliklar': ['Yazar', 'Dönem', 'Öne Çıkan Eserleri'],
+                'satirlar': sorted([
+                    [y, donem_label(YAZAR_DONEM.get(y, '')), ', '.join(YAZAR_ESERLERI[y][:4])]
+                    for y in YAZAR_ESERLERI.keys() if YAZAR_ESERLERI[y]
+                ], key=lambda r: r[0].lower()),
             },
         ],
     }

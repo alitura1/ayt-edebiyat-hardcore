@@ -248,77 +248,77 @@
     [
      "Benzetme (Teşbih)",
      "Bir varlığı başka varlığa benzetme",
-     " 4 unsur: benzeyen, kendisine benzetilen, yön, edat (\"gibi\", \"kadar\")."
+     " 4 unsur: benzeyen, kendisine benzetilen, yön, edat. Örnek: \"Aslan gibi cesur bir delikanlı\" (delikanlı=benzeyen, aslan=k.b., cesur=yön, gibi=edat)."
     ],
     [
      "İstiare (Açık)",
      "Sadece KENDİSİNE BENZETİLEN söylenir",
-     " \"Aslan geliyor\" (kahraman için)."
+     " Örnek: \"Bir hilal uğruna ya Rab ne güneşler batıyor\" (Mehmet Akif) — güneşler = şehit askerler."
     ],
     [
      "İstiare (Kapalı)",
      "BENZEYEN söylenir + kendisine benzetilenin özelliği verilir",
-     " \"Gül açtı, saçları dağıldı\" (sevgili için)."
+     " Örnek: \"Gül açıldı saçları dağıldı\" — gül = sevgili (saç insan özelliği)."
     ],
     [
      "Mecaz-ı Mürsel",
      "Benzetme amacı OLMADAN ilgi yoluyla aktarma",
-     " \"Sobayı yaktım\" (yakıtı)."
+     " Örnek: \"Sobayı yaktım\" (içindeki yakıtı), \"Bu akşam Yahya Kemal okudum\" (eserlerini)."
     ],
     [
      "Teşhis-İntak",
      "Cansıza canlı özellikleri (teşhis) / konuşturma (intak)",
-     " \"Ağaç bana dedi ki...\""
+     " Örnek: \"Ağaçlar el sallıyor\" (Cahit Sıtkı). Fabllarda hayvanları konuşturma = intak."
     ],
     [
      "Tezat",
      "Karşıt anlamlı sözcükler bir arada",
-     " \"Akşamda dağ, sabahta ova\""
+     " Örnek: \"Aşk derdiyle hoşem el çek ilacımdan tabip\" (Fuzuli) — dert + hoş (mutluluk)."
     ],
     [
      "Tenasüp",
      "Anlamca İLGİLİ sözcükler bir arada",
-     " (Savaş-asker-kılıç)"
+     " Örnek: \"Bende Mecnun'dan füzun aşıklık istidadı var / Aşık-ı sadık benim Mecnun'un ancak adı var\" (Fuzuli) — Mecnun + aşık + sevgi."
     ],
     [
      "Telmih",
      "Tarihi/dini bir olaya gönderme",
-     " \"Mecnun gibi çöllerde\""
+     " Örnek: \"Süzme çeşmin gelmesin müjgan müjgan üstüne\" (Şeyh Galip) — Mecnun-Leyla aşkına atıf."
     ],
     [
      "Hüsn-i Talil",
      "Gerçek bir olaya hayali güzel bir sebep yakıştırma",
-     " \"Gül açtı çünkü sevgili geldi\""
+     " Örnek: \"Güller açmış çünkü bahar gelmiş\" (gerçek) → \"Güller açmış çünkü sevgilim geldi\" (hüsn-i talil)."
     ],
     [
      "Tevriye",
      "Sözcüğün YAKIN ve UZAK iki anlamından UZAK olanını kastetme (Divan)",
-     ""
+     " Örnek: \"Bana Tahir Efendi kelp demiş / İltifatı bu sözde zahirdir\" (Nef'i) — \"tahir\" hem kişi adı hem \"temiz\" anlamında."
     ],
     [
      "Mübalağa",
      "Aşırı abartma",
-     " \"Sesi dağları yıkıyor\""
+     " Örnek: \"Sözleriyle dağları söker, denizleri kurutur\" (klasik abartı)."
     ],
     [
      "Kinaye",
      "Açık ve gizli iki anlam, gizli anlam kastedilir",
-     ""
+     " Örnek: \"Elinin hamuruyla erkek işine karışma\" (deyim, gerçek anlamda hamur değil)."
     ],
     [
      "Tariz",
      "İğneleme, tersini söyleme",
-     ""
+     " Örnek: Tembele \"Senin gibi çalışkanı bulamadım\" demek."
     ],
     [
      "Nida",
-     "Ünlem (ey, hey, ah!)",
-     ""
+     "Ünlem",
+     " Örnek: \"Ey Türk istikbalinin evladı!\" (Atatürk - Gençliğe Hitabe)."
     ],
     [
      "Tecahül-i Ârif",
      "Bilineni bilmiyormuş gibi sorma",
-     ""
+     " Örnek: \"Şakaklarıma kar mı yağdı ne var?\" (Cahit Sıtkı) — yaşlandığını bildiği halde sorma."
     ]
    ]
   },
@@ -359,6 +359,626 @@
      "Şairler",
      "Karacaoğlan, Köroğlu, Yunus, Pir Sultan",
      "Fuzuli, Baki, Nedim, Nef'i, Şeyh Galip"
+    ]
+   ]
+  },
+  {
+   "baslik": "Alfabetik Yazar-Eser Envanteri (~70 yazar)",
+   "basliklar": [
+    "Yazar",
+    "Dönem",
+    "Öne Çıkan Eserleri"
+   ],
+   "satirlar": [
+    [
+     "Abdülhak Hamit Tarhan",
+     "Tanzimat",
+     "Makber, Sahra, Belde, Tarık"
+    ],
+    [
+     "Ahmed Arif",
+     "Cumhuriyet",
+     "Hasretinden Prangalar Eskittim"
+    ],
+    [
+     "Ahmedi",
+     "Divan",
+     "İskendername, Cemşid ü Hurşid"
+    ],
+    [
+     "Ahmet Hamdi Tanpınar",
+     "Cumhuriyet",
+     "Huzur, Saatleri Ayarlama Enstitüsü, Beş Şehir, Mahur Beste"
+    ],
+    [
+     "Ahmet Haşim",
+     "SF/Fecr-i Âti",
+     "Piyale, Göl Saatleri, Bize Göre, Frankfurt Seyahatnamesi"
+    ],
+    [
+     "Ahmet Hikmet Müftüoğlu",
+     "Milli Ed.",
+     "Çağlayanlar, Gönül Hanım"
+    ],
+    [
+     "Ahmet Kutsi Tecer",
+     "Cumhuriyet",
+     "Şehnaz Faslı, Köşebaşı"
+    ],
+    [
+     "Ahmet Mithat Efendi",
+     "Tanzimat",
+     "Felâtun Bey ile Râkım Efendi, Letaif-i Rivayet, Hasan Mellah"
+    ],
+    [
+     "Ahmet Muhip Dıranas",
+     "Cumhuriyet",
+     "Şiirler"
+    ],
+    [
+     "Ahmet Vefik Paşa",
+     "Tanzimat",
+     "Cimri (çeviri), Zoraki Tabip (çeviri), Lehçe-i Osmani"
+    ],
+    [
+     "Ahmet Yesevi",
+     "Geçiş",
+     "Divan-ı Hikmet"
+    ],
+    [
+     "Arif Nihat Asya",
+     "Cumhuriyet",
+     "Bayrak, Heykeltıraş"
+    ],
+    [
+     "Asaf Halet Çelebi",
+     "Cumhuriyet",
+     "Lamelif, He"
+    ],
+    [
+     "Ataol Behramoğlu",
+     "Cumhuriyet",
+     "Bir Ermeni General"
+    ],
+    [
+     "Attila İlhan",
+     "Cumhuriyet",
+     "Ben Sana Mecburum, Duvar, Sisler Bulvarı, Yağmur Kaçağı"
+    ],
+    [
+     "Aşık Veysel Şatıroğlu",
+     "Halk",
+     "Kara Toprak, Uzun İnce Bir Yoldayım"
+    ],
+    [
+     "Baki",
+     "Divan",
+     "Kanuni Mersiyesi, Mealimü'l-Yakin"
+    ],
+    [
+     "Bayburtlu Zihni",
+     "Halk",
+     "Şiirler"
+    ],
+    [
+     "Bedri Rahmi Eyüboğlu",
+     "Cumhuriyet",
+     "Karadut"
+    ],
+    [
+     "Behçet Necatigil",
+     "Cumhuriyet",
+     "Eski Toprak, Divançe"
+    ],
+    [
+     "Bilge Karasu",
+     "Cumhuriyet",
+     "Uzun Sürmüş Bir Günün Akşamı, Göçmüş Kediler Bahçesi, Gece"
+    ],
+    [
+     "Cahit Külebi",
+     "Cumhuriyet",
+     "Adamın Biri, Yangın"
+    ],
+    [
+     "Cahit Sıtkı Tarancı",
+     "Cumhuriyet",
+     "Otuz Beş Yaş, Düşten Güzel, Sonrası"
+    ],
+    [
+     "Cemal Süreya",
+     "Cumhuriyet",
+     "Üvercinka, Göçebe, Beni Öp Sonra Doğur Beni"
+    ],
+    [
+     "Cenap Şahabettin",
+     "SF/Fecr-i Âti",
+     "Elhan-ı Şita, Tâmâtî, Hac Yolunda"
+    ],
+    [
+     "Cevdet Kudret",
+     "Cumhuriyet",
+     "Karagözler"
+    ],
+    [
+     "Dadaloğlu",
+     "Halk",
+     "Şiirleri"
+    ],
+    [
+     "Ece Ayhan",
+     "Cumhuriyet",
+     "Bakışsız Bir Kedi Kara"
+    ],
+    [
+     "Edip Ahmet Yükneki",
+     "Geçiş",
+     "Atabetü'l Hakayık"
+    ],
+    [
+     "Edip Cansever",
+     "Cumhuriyet",
+     "Yerçekimli Karanfil, Tragedyalar"
+    ],
+    [
+     "Enis Behiç Koryürek",
+     "Milli Ed.",
+     "Miras"
+    ],
+    [
+     "Fakir Baykurt",
+     "Cumhuriyet",
+     "Yılanların Öcü"
+    ],
+    [
+     "Falih Rıfkı Atay",
+     "Cumhuriyet",
+     "Çankaya, Zeytindağı, Atatürk'ün Bana Anlattıkları"
+    ],
+    [
+     "Faruk Nafiz Çamlıbel",
+     "Milli Ed.",
+     "Han Duvarları, Çoban Çeşmesi, Sanat"
+    ],
+    [
+     "Fazıl Hüsnü Dağlarca",
+     "Cumhuriyet",
+     "Toprak Ana, Çakır'ın Destanı, Üç Şehitler Destanı, Havaya Çizilen Dünya"
+    ],
+    [
+     "Fuzuli",
+     "Divan",
+     "Leyla vü Mecnun, Su Kasidesi, Şikayetname, Beng ü Bâde"
+    ],
+    [
+     "Güngör Dilmen",
+     "Cumhuriyet",
+     "Midas'ın Kulakları, Canlı Maymun Lokantası"
+    ],
+    [
+     "Haldun Taner",
+     "Cumhuriyet",
+     "Keşanlı Ali Destanı, Sersem Kocanın Kurnaz Karısı, Eşeğin Gölgesi, Gözlerimi Kaparım Vazifemi Yaparım"
+    ],
+    [
+     "Halide Edip Adıvar",
+     "Milli Ed.",
+     "Sinekli Bakkal, Ateşten Gömlek, Vurun Kahpeye, Handan"
+    ],
+    [
+     "Halikarnas Balıkçısı",
+     "Cumhuriyet",
+     "Aganta Burina Burinata, Mavi Sürgün, Anadolu'nun Sesi"
+    ],
+    [
+     "Halit Fahri Ozansoy",
+     "Milli Ed.",
+     "Cenk Duyguları, Baykuş, Sulara Doğru"
+    ],
+    [
+     "Halit Ziya Uşaklıgil",
+     "SF/Fecr-i Âti",
+     "Mai ve Siyah, Aşk-ı Memnu, Kırık Hayatlar, Sefile"
+    ],
+    [
+     "Hasan Ali Toptaş",
+     "Cumhuriyet",
+     "Gölgesizler, Bin Hüzünlü Haz"
+    ],
+    [
+     "Hayali Bey",
+     "Divan",
+     "Divan"
+    ],
+    [
+     "Hoca Dehhani",
+     "Divan",
+     "Divan"
+    ],
+    [
+     "Hüseyin Cahit Yalçın",
+     "SF/Fecr-i Âti",
+     "Edebî Hatıralarım"
+    ],
+    [
+     "İhsan Oktay Anar",
+     "Cumhuriyet",
+     "Puslu Kıtalar Atlası, Kitabü'l-Hiyel, Suskunlar"
+    ],
+    [
+     "İlhan Berk",
+     "Cumhuriyet",
+     "Galile Denizi"
+    ],
+    [
+     "Karacaoğlan",
+     "Halk",
+     "Şiirleri (güzelleme)"
+    ],
+    [
+     "Kaygusuz Abdal",
+     "Halk",
+     "Divan, Saraynâme, Budalanâme"
+    ],
+    [
+     "Kaşgarlı Mahmut",
+     "Geçiş",
+     "Divânü Lügâti't-Türk"
+    ],
+    [
+     "Kemal Tahir",
+     "Cumhuriyet",
+     "Devlet Ana, Esir Şehrin İnsanları, Yorgun Savaşçı, Köyün Kamburu"
+    ],
+    [
+     "Kenan Hulusi Koray",
+     "Cumhuriyet",
+     "Bahar Hikayeleri"
+    ],
+    [
+     "Köroğlu",
+     "Halk",
+     "Şiirleri (koçaklama), Halk Hikayesi"
+    ],
+    [
+     "Latife Tekin",
+     "Cumhuriyet",
+     "Sevgili Arsız Ölüm, Berci Kristin Çöp Masalları"
+    ],
+    [
+     "Mahmut Makal",
+     "Cumhuriyet",
+     "Bizim Köy"
+    ],
+    [
+     "Mehmet Akif Ersoy",
+     "Cumhuriyet",
+     "Safahat, Süleymaniye Kürsüsünde"
+    ],
+    [
+     "Mehmet Emin Yurdakul",
+     "Milli Ed.",
+     "Türk Sazı, Cenge Giderken"
+    ],
+    [
+     "Mehmet Rauf",
+     "SF/Fecr-i Âti",
+     "Eylül"
+    ],
+    [
+     "Mehmet Çınarlı",
+     "Cumhuriyet",
+     "Gerçek Hayali Aştı"
+    ],
+    [
+     "Melih Cevdet Anday",
+     "Cumhuriyet",
+     "Garip, Rahatı Kaçan Ağaç"
+    ],
+    [
+     "Memduh Şevket Esendal",
+     "Milli Ed.",
+     "Çakıcının İlk Kurşunu, Otlakçı, Mendil Altında, Ayaşlı ve Kiracıları"
+    ],
+    [
+     "Mevlana",
+     "Halk",
+     "Mesnevî, Divan-ı Kebir, Fihi Mâ Fih, Mecâlis-i Seb'a"
+    ],
+    [
+     "Mithat Cemal Kuntay",
+     "Milli Ed.",
+     "Üç İstanbul"
+    ],
+    [
+     "Muallim Naci",
+     "Tanzimat",
+     "Demdeme, Lugat-i Naci"
+    ],
+    [
+     "Munis Faik Ozansoy",
+     "Cumhuriyet",
+     "Hayalden Hakikate"
+    ],
+    [
+     "Mustafa Kutlu",
+     "Cumhuriyet",
+     "Sır, Yokuşa Akan Sular, Beyhude Ömrüm, Kapıları Açmak"
+    ],
+    [
+     "Nabi",
+     "Divan",
+     "Hayriye, Hayrabad, Sur-Name, Tuhfetü'l-Haremeyn"
+    ],
+    [
+     "Nabizade Nazım",
+     "Tanzimat",
+     "Karabibik, Zehra"
+    ],
+    [
+     "Namık Kemal",
+     "Tanzimat",
+     "İntibah, Cezmi, Vatan yahut Silistre, Gülnihal"
+    ],
+    [
+     "Nazım Hikmet",
+     "Cumhuriyet",
+     "Memleketimden İnsan Manzaraları, Kuvâyi Milliye Destanı, Şeyh Bedrettin Destanı"
+    ],
+    [
+     "Necati Bey",
+     "Divan",
+     "Divan"
+    ],
+    [
+     "Necati Cumalı",
+     "Cumhuriyet",
+     "Susuz Yaz, Mine"
+    ],
+    [
+     "Necip Fazıl Kısakürek",
+     "Cumhuriyet",
+     "Çile, Kaldırımlar, Sakarya Türküsü, Bir Adam Yaratmak"
+    ],
+    [
+     "Nedim",
+     "Divan",
+     "Divan-ı Nedim, Şarkıları"
+    ],
+    [
+     "Nef'i",
+     "Divan",
+     "Siham-ı Kaza, Tuhfetü'l-Uşşak"
+    ],
+    [
+     "Nurullah Ataç",
+     "Cumhuriyet",
+     "Karalama Defteri, Günlerin Getirdiği"
+    ],
+    [
+     "Oktay Rifat",
+     "Cumhuriyet",
+     "Garip, Yaşayıp Ölmek Aşk ve Avarelik Üstüne Şiirler"
+    ],
+    [
+     "Orhan Kemal",
+     "Cumhuriyet",
+     "Bereketli Topraklar Üzerinde, Murtaza, Eskici ve Oğulları, Cemile"
+    ],
+    [
+     "Orhan Pamuk",
+     "Cumhuriyet",
+     "Beyaz Kale, Kara Kitap, Benim Adım Kırmızı, Kar"
+    ],
+    [
+     "Orhan Seyfi Orhon",
+     "Milli Ed.",
+     "Fırtına ve Kar, Peri Kızı ile Çoban Hikayesi"
+    ],
+    [
+     "Orhan Veli Kanık",
+     "Cumhuriyet",
+     "Garip, Yenisi, Vazgeçemediğim, Karşı"
+    ],
+    [
+     "Oğuz Atay",
+     "Cumhuriyet",
+     "Tutunamayanlar, Tehlikeli Oyunlar, Korkuyu Beklerken, Bir Bilim Adamının Romanı"
+    ],
+    [
+     "Peyami Safa",
+     "Cumhuriyet",
+     "9. Hariciye Koğuşu, Fatih Harbiye, Matmazel Noraliya'nın Koltuğu, Yalnızız"
+    ],
+    [
+     "Pir Sultan Abdal",
+     "Halk",
+     "Nefesler"
+    ],
+    [
+     "Recaizade Mahmut Ekrem",
+     "Tanzimat",
+     "Araba Sevdası, Talim-i Edebiyat, Zemzeme, Pejmurde"
+    ],
+    [
+     "Refik Halit Karay",
+     "Milli Ed.",
+     "Memleket Hikayeleri, Gurbet Hikayeleri, Sürgün, Yezidin Kızı"
+    ],
+    [
+     "Reşat Nuri Güntekin",
+     "Milli Ed.",
+     "Çalıkuşu, Yaprak Dökümü, Yeşil Gece, Dudaktan Kalbe"
+    ],
+    [
+     "Rıfat Ilgaz",
+     "Cumhuriyet",
+     "Hababam Sınıfı"
+    ],
+    [
+     "Sabahattin Ali",
+     "Cumhuriyet",
+     "Kuyucaklı Yusuf, Kürk Mantolu Madonna, İçimizdeki Şeytan, Değirmen"
+    ],
+    [
+     "Sabri Esat Siyavuşgil",
+     "Cumhuriyet",
+     "Odalar ve Sofalar"
+    ],
+    [
+     "Sait Faik Abasıyanık",
+     "Cumhuriyet",
+     "Semaver, Sarnıç, Şahmerdan, Lüzumsuz Adam"
+    ],
+    [
+     "Samiha Ayverdi",
+     "Cumhuriyet",
+     "İbrahim Efendi Konağı, Mesihpaşa İmamı"
+    ],
+    [
+     "Samipaşazade Sezai",
+     "Tanzimat",
+     "Sergüzeşt, Küçük Şeyler"
+    ],
+    [
+     "Seyrani",
+     "Halk",
+     "Şiirleri (taşlama)"
+    ],
+    [
+     "Sezai Karakoç",
+     "Cumhuriyet",
+     "Mona Roza, Hızırla Kırk Saat"
+    ],
+    [
+     "Suut Kemal Yetkin",
+     "Cumhuriyet",
+     "Edebiyat Üzerine"
+    ],
+    [
+     "Süleyman Nazif",
+     "SF/Fecr-i Âti",
+     "Çal Çoban Çal"
+    ],
+    [
+     "Süleyman Çelebi",
+     "Divan",
+     "Vesîletü'n-Necât (Mevlid)"
+    ],
+    [
+     "Talip Apaydın",
+     "Cumhuriyet",
+     "Sarı Traktör"
+    ],
+    [
+     "Tarık Buğra",
+     "Cumhuriyet",
+     "Küçük Ağa, Osmancık, Dönemeçte, Yağmur Beklerken"
+    ],
+    [
+     "Tevfik Fikret",
+     "SF/Fecr-i Âti",
+     "Rübab-ı Şikeste, Halûk'un Defteri, Sis, Tarih-i Kadim"
+    ],
+    [
+     "Turan Oflazoğlu",
+     "Cumhuriyet",
+     "IV. Murat, Genç Osman"
+    ],
+    [
+     "Turgut Uyar",
+     "Cumhuriyet",
+     "Tütünler Islak, Divan"
+    ],
+    [
+     "Turgut Özakman",
+     "Cumhuriyet",
+     "Şu Çılgın Türkler, Ocak, Üç Destan"
+    ],
+    [
+     "Vasfi Mahir Kocatürk",
+     "Cumhuriyet",
+     "Varidat-ı Süleyman, Hayat Şarkıları"
+    ],
+    [
+     "Yahya Kemal Beyatlı",
+     "Cumhuriyet",
+     "Kendi Gök Kubbemiz, Eski Şiirin Rüzgârıyle, Aziz İstanbul"
+    ],
+    [
+     "Yakup Kadri Karaosmanoğlu",
+     "Milli Ed.",
+     "Yaban, Kiralık Konak, Nur Baba, Hüküm Gecesi"
+    ],
+    [
+     "Yaşar Kemal",
+     "Cumhuriyet",
+     "İnce Memed, Yer Demir Gök Bakır, Ortadirek, Demirciler Çarşısı Cinayeti"
+    ],
+    [
+     "Yaşar Nabi Nayır",
+     "Cumhuriyet",
+     "Kahramanlar"
+    ],
+    [
+     "Yunus Emre",
+     "Halk",
+     "Divan, Risaletü'n-Nushiyye"
+    ],
+    [
+     "Yusuf Atılgan",
+     "Cumhuriyet",
+     "Aylak Adam, Anayurt Oteli"
+    ],
+    [
+     "Yusuf Has Hacip",
+     "Geçiş",
+     "Kutadgu Bilig"
+    ],
+    [
+     "Yusuf Ziya Ortaç",
+     "Milli Ed.",
+     "Akından Akına"
+    ],
+    [
+     "Ziya Gökalp",
+     "Milli Ed.",
+     "Türkçülüğün Esasları, Kızılelma, Yeni Hayat, Altın Işık"
+    ],
+    [
+     "Ziya Osman Saba",
+     "Cumhuriyet",
+     "Sebil ve Güvercinler, Geçen Zaman"
+    ],
+    [
+     "Ziya Paşa",
+     "Tanzimat",
+     "Harabat, Şiir ve İnşa, Terkib-i Bend, Terci-i Bend"
+    ],
+    [
+     "Ömer Seyfettin",
+     "Milli Ed.",
+     "Bomba, Pembe İncili Kaftan, Falaka, Kaşağı"
+    ],
+    [
+     "Şemsettin Sami",
+     "Tanzimat",
+     "Taaşşuk-ı Talat ve Fitnat, Kamus-ı Türki, Kamus-ı Alâm"
+    ],
+    [
+     "Şeyh Galip",
+     "Divan",
+     "Hüsn ü Aşk, Şerh-i Cezîre-i Mesnevî"
+    ],
+    [
+     "Şeyhi",
+     "Divan",
+     "Harname, Hüsrev ü Şirin"
+    ],
+    [
+     "Şinasi",
+     "Tanzimat",
+     "Şair Evlenmesi, Müntehabat-ı Eş'ar, Durub-ı Emsal-i Osmaniye, Tercüman-ı Ahvâl Mukaddimesi"
     ]
    ]
   }

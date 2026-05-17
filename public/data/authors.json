@@ -375,7 +375,7 @@
   ]
  },
  {
-  "name": "Necati",
+  "name": "Necati Bey",
   "soru_sayisi": 6,
   "yillar": [
    2018,
@@ -388,8 +388,8 @@
    "divan_edebiyati",
    "soz_sanatlari"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "55 (Divan Şiiri 3)",
+  "diger_eserler": "Divan",
   "occurrences": [
    {
     "year": 2022,
@@ -821,7 +821,7 @@
   "konular": [
    "divan_edebiyati"
   ],
-  "mebi_sayfa": "",
+  "mebi_sayfa": "53-54 (Divan Şiiri 3)",
   "diger_eserler": "İskendername, Cemşid ü Hurşid",
   "occurrences": [
    {
@@ -1137,8 +1137,8 @@
    "cumhuriyet",
    "milli_edebiyat"
   ],
-  "mebi_sayfa": "70",
-  "diger_eserler": "",
+  "mebi_sayfa": "70 (Milli Edebiyat — bağlam)",
+  "diger_eserler": "Dikmen Yıldızı, İki Süngü Arasında, Bir Şoförün Gizli Defteri",
   "occurrences": [
    {
     "year": 2022,
@@ -1314,7 +1314,7 @@
   "konular": [
    "cumhuriyet"
   ],
-  "mebi_sayfa": "",
+  "mebi_sayfa": "134-136 (Milli Edebiyat Romanı — bağlam)",
   "diger_eserler": "Üç İstanbul",
   "occurrences": [
    {
@@ -1432,7 +1432,7 @@
   ]
  },
  {
-  "name": "Nef’i",
+  "name": "Nef'i",
   "soru_sayisi": 2,
   "yillar": [
    2022,
@@ -1442,7 +1442,7 @@
    "divan_edebiyati"
   ],
   "mebi_sayfa": "57-58",
-  "diger_eserler": "",
+  "diger_eserler": "Siham-ı Kaza, Tuhfetü'l-Uşşak",
   "occurrences": [
    {
     "year": 2022,
@@ -1692,8 +1692,8 @@
   "konular": [
    "cumhuriyet"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2 — bağlam)",
+  "diger_eserler": "Ölmeye Yatmak, Bir Düğün Gecesi, Üç Beş Kişi, Fikrimin İnce Gülü",
   "occurrences": [
    {
     "year": 2022,
@@ -1806,8 +1806,8 @@
   "konular": [
    "paragrafta_anlam"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "— (paragraf konusu, edebi profili yok)",
+  "diger_eserler": "Romen heykeltıraş (modernist sanat, paragraf konusu)",
   "occurrences": [
    {
     "year": 2021,
@@ -1844,8 +1844,8 @@
   "konular": [
    "tanzimat"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "60-64 (Tanzimat — bağlam)",
+  "diger_eserler": "Letaif-i Aşıkan, Komedyalar, Lehçe-i Osmani",
   "occurrences": [
    {
     "year": 2019,
@@ -1939,8 +1939,8 @@
   "konular": [
    "sozcukte_anlam"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "190 (Edebi Akımlar — Sürrealizm kuramsal arka plan)",
+  "diger_eserler": "Psikanaliz kurucusu (sürrealizm akımının kuramsal temeli)",
   "occurrences": [
    {
     "year": 2021,
@@ -1958,8 +1958,8 @@
   "konular": [
    "divan_edebiyati"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "41-43 (Halk Şiiri 3 — tasavvufi)",
+  "diger_eserler": "Bayramiyye tarikatı kurucusu, ilahi-nefes türü şiirler",
   "occurrences": [
    {
     "year": 2024,
@@ -2034,8 +2034,8 @@
   "konular": [
    "paragrafta_anlam"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "125 (Roman türleri — gotik)",
+  "diger_eserler": "Frankenstein (gotik roman, İngiliz 19. yy)",
   "occurrences": [
    {
     "year": 2025,
@@ -2110,8 +2110,8 @@
   "konular": [
    "tanzimat"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "187 (Edebi Akımlar — Klasisizm)",
+  "diger_eserler": "Komedi ustası (Klasisizm), Ahmet Vefik Paşa çevirdi: Cimri, Zoraki Tabip, Tartüf",
   "occurrences": [
    {
     "year": 2019,
@@ -2148,8 +2148,8 @@
   "konular": [
    "divan_edebiyati"
   ],
-  "mebi_sayfa": "57",
-  "diger_eserler": "",
+  "mebi_sayfa": "57 (Divan Şiiri 3 — Sebk-i Hindi)",
+  "diger_eserler": "Divan (Sebk-i Hindi üslubu temsilcisi, 17. yy)",
   "occurrences": [
    {
     "year": 2020,
@@ -2224,8 +2224,8 @@
   "konular": [
    "cumhuriyet"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2 — bağlam)",
+  "diger_eserler": "Yarın Yarın, Asılacak Kadın, Bir Cinayet Romanı",
   "occurrences": [
    {
     "year": 2019,
@@ -2262,8 +2262,8 @@
   "konular": [
    "cumlede_anlam"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "188 (Edebi Akımlar — Romantizm bağlam)",
+  "diger_eserler": "İngiliz tiyatrosunun zirvesi: Hamlet, Macbeth, Othello, Romeo ve Juliet",
   "occurrences": [
    {
     "year": 2020,
@@ -2300,8 +2300,8 @@
   "konular": [
    "cumlede_anlam"
   ],
-  "mebi_sayfa": "",
-  "diger_eserler": "",
+  "mebi_sayfa": "— (paragraf konusu, edebi profili yok)",
+  "diger_eserler": "Mucit/bilim adamı (paragraf konusu olarak geçti)",
   "occurrences": [
    {
     "year": 2022,

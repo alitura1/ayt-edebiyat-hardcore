@@ -157,6 +157,112 @@
    "not_": "Saf şiir az sorulanlar"
   }
  ],
+ "periyodik_desen": [
+  {
+   "konu": "Halk Edebiyatı",
+   "periyot": "2-3 yıl boş, sonra 2 yıl üst üste",
+   "son_geldigi": "2024 (2 soru)",
+   "tahmin": "2026 — YÜKSEK (boşluk telafisi)"
+  },
+  {
+   "konu": "İslamiyet Öncesi/Geçiş",
+   "periyot": "2018-2019 yok, 2020+ üst üste",
+   "son_geldigi": "2025 (1 soru)",
+   "tahmin": "2026 — YÜKSEK (artan trend, 6 yıl üst üste)"
+  },
+  {
+   "konu": "Milli Edebiyat",
+   "periyot": "2-yılda-bir aralıklı",
+   "son_geldigi": "2025 (1 soru)",
+   "tahmin": "2026 — DÜŞÜK (geldikten sonra düşer)"
+  },
+  {
+   "konu": "Geleneksel Tiyatro",
+   "periyot": "2-yılda-bir",
+   "son_geldigi": "2025 (1 soru)",
+   "tahmin": "2026 — DÜŞÜK (geçen yıl geldi)"
+  },
+  {
+   "konu": "Masal/Fabl/Destan",
+   "periyot": "~yıl aşırı",
+   "son_geldigi": "2024 (1 soru), 2025 (1 soru)",
+   "tahmin": "2026 — ORTA"
+  },
+  {
+   "konu": "Servet-i Fünun",
+   "periyot": "2021 hariç her yıl",
+   "son_geldigi": "2023, 2024 (2şer soru)",
+   "tahmin": "2026 — YÜKSEK (1-2 garanti)"
+  }
+ ],
+ "yazar_son_yil_haritasi": [
+  {
+   "yazar": "Halit Ziya Uşaklıgil",
+   "son_geldigi": "2023",
+   "bos_yil": 2,
+   "oncelik": "ÇOK YÜKSEK"
+  },
+  {
+   "yazar": "Şinasi",
+   "son_geldigi": "2023",
+   "bos_yil": 2,
+   "oncelik": "YÜKSEK"
+  },
+  {
+   "yazar": "Tarık Buğra",
+   "son_geldigi": "2025",
+   "bos_yil": 0,
+   "oncelik": "DÜŞÜK (geldi)"
+  },
+  {
+   "yazar": "Sait Faik Abasıyanık",
+   "son_geldigi": "2023",
+   "bos_yil": 2,
+   "oncelik": "ÇOK YÜKSEK"
+  },
+  {
+   "yazar": "Necip Fazıl Kısakürek",
+   "son_geldigi": "—",
+   "bos_yil": 8,
+   "oncelik": "ÇOK YÜKSEK (hiç çıkmadı)"
+  },
+  {
+   "yazar": "Yahya Kemal Beyatlı",
+   "son_geldigi": "2024",
+   "bos_yil": 1,
+   "oncelik": "ORTA"
+  },
+  {
+   "yazar": "Peyami Safa",
+   "son_geldigi": "—",
+   "bos_yil": 8,
+   "oncelik": "ÇOK YÜKSEK"
+  },
+  {
+   "yazar": "Ömer Seyfettin",
+   "son_geldigi": "2020",
+   "bos_yil": 5,
+   "oncelik": "ÇOK YÜKSEK"
+  },
+  {
+   "yazar": "Baki",
+   "son_geldigi": "2022",
+   "bos_yil": 3,
+   "oncelik": "YÜKSEK"
+  },
+  {
+   "yazar": "Nedim",
+   "son_geldigi": "2024",
+   "bos_yil": 1,
+   "oncelik": "ORTA"
+  },
+  {
+   "yazar": "Fuzuli",
+   "son_geldigi": "2025",
+   "bos_yil": 0,
+   "oncelik": "DÜŞÜK (geldi)"
+  }
+ ],
  "bosluk_haritasi": [
   {
    "konu": "DİVAN",

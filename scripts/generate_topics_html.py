@@ -197,42 +197,45 @@ sections_topics.topic_header = topic_header_html
 sections_topics2.topic_header = topic_header_html
 
 
-# Slug → fonksiyon mapping
+# REVİZYON 4 — Ek alt başlıklar
+import topic_extras
+
+# Slug → (ana fonksiyon, ek alt başlık fonksiyonu) mapping
 TOPIC_FUNCS = [
-    ('divan_edebiyati', sections_topics.divan_section),
-    ('cumhuriyet', sections_topics.cumhuriyet_section),
-    ('siir_bilgisi', sections_topics.siir_bilgisi_section),
-    ('soz_sanatlari', sections_topics.soz_sanatlari_section),
-    ('nesir_bilgisi', sections_topics2.nesir_bilgisi_section),
-    ('tanzimat', sections_topics2.tanzimat_section),
-    ('servet-i-funun', sections_topics2.servet_funun_section),
-    ('milli_edebiyat', sections_topics2.milli_edebiyat_section),
-    ('halk_edebiyati', sections_topics2.halk_edebiyati_section),
-    ('islamiyet-oncesi-gecis', sections_topics2.islamiyet_oncesi_section),
-    ('geleneksel-tiyatro', sections_topics2.geleneksel_tiyatro_section),
-    ('masal-fabl-destan', sections_topics2.masal_destan_section),
-    ('edebi_akimlar', sections_topics2.edebi_akimlar_section),
+    ('divan_edebiyati', sections_topics.divan_section, None),
+    ('cumhuriyet', sections_topics.cumhuriyet_section, None),
+    ('siir_bilgisi', sections_topics.siir_bilgisi_section, topic_extras.siir_bilgisi_extras),
+    ('soz_sanatlari', sections_topics.soz_sanatlari_section, None),
+    ('nesir_bilgisi', sections_topics2.nesir_bilgisi_section, topic_extras.nesir_bilgisi_extras),
+    ('tanzimat', sections_topics2.tanzimat_section, None),
+    ('servet-i-funun', sections_topics2.servet_funun_section, None),
+    ('milli_edebiyat', sections_topics2.milli_edebiyat_section, None),
+    ('halk_edebiyati', sections_topics2.halk_edebiyati_section, topic_extras.halk_extras),
+    ('islamiyet-oncesi-gecis', sections_topics2.islamiyet_oncesi_section, topic_extras.islamiyet_oncesi_extras),
+    ('geleneksel-tiyatro', sections_topics2.geleneksel_tiyatro_section, topic_extras.geleneksel_tiyatro_extras),
+    ('masal-fabl-destan', sections_topics2.masal_destan_section, topic_extras.masal_destan_extras),
+    ('edebi_akimlar', sections_topics2.edebi_akimlar_section, None),
 ]
 
 
 def main():
     print(f"13 konu HTML üretiliyor → {SITE}")
-    for slug, func in TOPIC_FUNCS:
+    for slug, func, extras in TOPIC_FUNCS:
         doc = HtmlDoc()
         try:
             func(doc)
+            if extras:
+                extras(doc)
         except Exception as e:
             print(f"  ✗ {slug} HATA: {e}")
             continue
-        # Sayfa başlık zaten site'da header'da var, ilk H1 üretmeye gerek yok
-        # Heading 1 = python-docx add_heading(doc, ..., 1) → bizim h2 oluyor (level+1)
-        # Üst başlığı düşür (sayfanın başlık göstergesi var)
         html = doc.output()
         out_path = SITE / f'{slug}.html'
         with open(out_path, 'w', encoding='utf-8') as f:
             f.write(html)
         size_kb = out_path.stat().st_size / 1024
-        print(f"  ✓ {slug}.html ({size_kb:.1f} KB, {len(html.split(chr(10)))} satır)")
+        extras_note = ' [+extras]' if extras else ''
+        print(f"  ✓ {slug}.html ({size_kb:.1f} KB, {len(html.split(chr(10)))} satır){extras_note}")
 
 
 if __name__ == '__main__':
