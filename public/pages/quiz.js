@@ -35,6 +35,22 @@ export async function renderQuizSetup() {
   const counts = {};
   for (const c of allCards) counts[c.konu] = (counts[c.konu] || 0) + 1;
 
+  // Form submit listener (innerHTML ile yerleştirilen <script> tag execute edilmediği için __pageSetup)
+  window.__pageSetup = () => {
+    const form = document.getElementById('quizSetup');
+    if (!form) return;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = new FormData(e.target);
+      const params = new URLSearchParams({
+        konu: data.get('konu') || 'hepsi',
+        zorluk: data.get('zorluk') || 'hepsi',
+        sayi: data.get('sayi') || '10',
+      });
+      location.hash = '#/quiz?' + params.toString();
+    });
+  };
+
   return `
     <header class="mb-6">
       <h1 class="text-3xl font-bold mb-1">🎯 Quiz Ayarları</h1>
@@ -81,19 +97,6 @@ export async function renderQuizSetup() {
         🎯 Quiz'i başlat
       </button>
     </form>
-
-    <script>
-      document.getElementById('quizSetup').addEventListener('submit', (e) => {
-        e.preventDefault();
-        const data = new FormData(e.target);
-        const params = new URLSearchParams({
-          konu: data.get('konu'),
-          zorluk: data.get('zorluk'),
-          sayi: data.get('sayi'),
-        });
-        location.hash = '#/quiz?' + params.toString();
-      });
-    </script>
   `;
 }
 
