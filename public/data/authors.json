@@ -1,0 +1,2351 @@
+[
+ {
+  "name": "Ahmet Haşim",
+  "soru_sayisi": 7,
+  "yillar": [
+   2018,
+   2019,
+   2020,
+   2023,
+   2024,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet",
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "68-69",
+  "diger_eserler": "Piyale, Göl Saatleri, Bize Göre, Frankfurt Seyahatnamesi",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 135,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2023,
+    "qno": 139,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 140,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2020,
+    "qno": 144,
+    "topic": "milli_edebiyat"
+   },
+   {
+    "year": 2018,
+    "qno": 151,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2020,
+    "qno": 158,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Fuzuli",
+  "soru_sayisi": 7,
+  "yillar": [
+   2018,
+   2020,
+   2022,
+   2024,
+   2025
+  ],
+  "konular": [
+   "divan_edebiyati",
+   "siir_bilgisi",
+   "soz_sanatlari"
+  ],
+  "mebi_sayfa": "57",
+  "diger_eserler": "Leyla vü Mecnun, Su Kasidesi, Şikayetname, Beng ü Bâde, Hadîkatü's-Suedâ",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 49,
+    "topic": "siir_bilgisi"
+   },
+   {
+    "year": 2022,
+    "qno": 65,
+    "topic": "soz_sanatlari"
+   },
+   {
+    "year": 2018,
+    "qno": 96,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2020,
+    "qno": 104,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2022,
+    "qno": 113,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 120,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2025,
+    "qno": 121,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Namık Kemal",
+  "soru_sayisi": 7,
+  "yillar": [
+   2018,
+   2019,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "62, 154",
+  "diger_eserler": "İntibah, Cezmi, Vatan yahut Silistre, Gülnihal, Akif Bey",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 125,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2019,
+    "qno": 126,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2019,
+    "qno": 127,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2022,
+    "qno": 130,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2023,
+    "qno": 131,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2024,
+    "qno": 132,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2025,
+    "qno": 133,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Recaizade Mahmut Ekrem",
+  "soru_sayisi": 7,
+  "yillar": [
+   2018,
+   2019,
+   2021,
+   2022,
+   2024,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet",
+   "servet_i_funun_fecr_i_ati",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "63-64, 128",
+  "diger_eserler": "Araba Sevdası, Talim-i Edebiyat, Zemzeme, Pejmurde",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 125,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2019,
+    "qno": 126,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2022,
+    "qno": 130,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2024,
+    "qno": 132,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2025,
+    "qno": 133,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2021,
+    "qno": 160,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Refik Halit Karay",
+  "soru_sayisi": 7,
+  "yillar": [
+   2018,
+   2019,
+   2022,
+   2023,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet",
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "136",
+  "diger_eserler": "Memleket Hikayeleri, Gurbet Hikayeleri, Sürgün, Yezidin Kızı, Bugünün Saraylısı",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 135,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2023,
+    "qno": 138,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 141,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2022,
+    "qno": 146,
+    "topic": "milli_edebiyat"
+   },
+   {
+    "year": 2018,
+    "qno": 148,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 153,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Ahmet Mithat Efendi",
+  "soru_sayisi": 6,
+  "yillar": [
+   2018,
+   2019,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "konular": [
+   "servet_i_funun_fecr_i_ati",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "129",
+  "diger_eserler": "Felâtun Bey ile Râkım Efendi, Letaif-i Rivayet, Hasan Mellah",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 125,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2019,
+    "qno": 126,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2022,
+    "qno": 130,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2023,
+    "qno": 131,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2024,
+    "qno": 132,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Nabi",
+  "soru_sayisi": 6,
+  "yillar": [
+   2018,
+   2019,
+   2020,
+   2022,
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "58",
+  "diger_eserler": "Hayriye, Hayrabad, Sur-Name, Tuhfetü'l-Haremeyn",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 98,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2019,
+    "qno": 99,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2020,
+    "qno": 105,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2022,
+    "qno": 112,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 120,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2018,
+    "qno": 125,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Necati",
+  "soru_sayisi": 6,
+  "yillar": [
+   2018,
+   2021,
+   2022,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet",
+   "divan_edebiyati",
+   "soz_sanatlari"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 65,
+    "topic": "soz_sanatlari"
+   },
+   {
+    "year": 2021,
+    "qno": 108,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2022,
+    "qno": 113,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2025,
+    "qno": 122,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2018,
+    "qno": 152,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2022,
+    "qno": 164,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Abdülhak Hamit Tarhan",
+  "soru_sayisi": 5,
+  "yillar": [
+   2020,
+   2022,
+   2024,
+   2025
+  ],
+  "konular": [
+   "servet_i_funun_fecr_i_ati",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "64, 155",
+  "diger_eserler": "Makber, Sahra, Belde, Tarık, Eşber",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 130,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2025,
+    "qno": 133,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2020,
+    "qno": 136,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 140,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Şeyhi",
+  "soru_sayisi": 5,
+  "yillar": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "54-55",
+  "diger_eserler": "Harname, Hüsrev ü Şirin",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 108,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2022,
+    "qno": 113,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2023,
+    "qno": 116,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 120,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2025,
+    "qno": 122,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Cenap Şahabettin",
+  "soru_sayisi": 4,
+  "yillar": [
+   2019,
+   2023,
+   2024,
+   2025
+  ],
+  "konular": [
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "67",
+  "diger_eserler": "Elhan-ı Şita, Tâmâtî, Hac Yolunda",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 135,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2023,
+    "qno": 139,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 140,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Faruk Nafiz Çamlıbel",
+  "soru_sayisi": 4,
+  "yillar": [
+   2018,
+   2022,
+   2023,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "72-73",
+  "diger_eserler": "Han Duvarları, Çoban Çeşmesi, Sanat",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 151,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2022,
+    "qno": 163,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 166,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2024,
+    "qno": 170,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Memduh Şevket Esendal",
+  "soru_sayisi": 4,
+  "yillar": [
+   2018,
+   2019,
+   2023,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "113, 115",
+  "diger_eserler": "Çakıcının İlk Kurşunu, Otlakçı, Mendil Altında, Ayaşlı ve Kiracıları",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 141,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2018,
+    "qno": 148,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 153,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 167,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Orhan Veli Kanık",
+  "soru_sayisi": 4,
+  "yillar": [
+   2019,
+   2020,
+   2021,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "79-80",
+  "diger_eserler": "Garip, Yenisi, Vazgeçemediğim, Karşı",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 155,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2020,
+    "qno": 158,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2021,
+    "qno": 161,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2024,
+    "qno": 168,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Sabahattin Ali",
+  "soru_sayisi": 4,
+  "yillar": [
+   2018,
+   2019,
+   2023,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "114, 116",
+  "diger_eserler": "Kuyucaklı Yusuf, Kürk Mantolu Madonna, İçimizdeki Şeytan, Değirmen, Kağnı",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 149,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 153,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 167,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2025,
+    "qno": 172,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Tevfik Fikret",
+  "soru_sayisi": 4,
+  "yillar": [
+   2020,
+   2023,
+   2024,
+   2025
+  ],
+  "konular": [
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "66",
+  "diger_eserler": "Rübab-ı Şikeste, Halûk'un Defteri, Sis, Tarih-i Kadim, Şermin",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 138,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 140,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2020,
+    "qno": 144,
+    "topic": "milli_edebiyat"
+   }
+  ]
+ },
+ {
+  "name": "Yahya Kemal Beyatlı",
+  "soru_sayisi": 4,
+  "yillar": [
+   2018,
+   2019,
+   2023,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet",
+   "paragrafta_anlam",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "77",
+  "diger_eserler": "Kendi Gök Kubbemiz, Eski Şiirin Rüzgârıyle, Aziz İstanbul",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 19,
+    "topic": "paragrafta_anlam"
+   },
+   {
+    "year": 2023,
+    "qno": 139,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 140,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2018,
+    "qno": 151,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Yakup Kadri Karaosmanoğlu",
+  "soru_sayisi": 4,
+  "yillar": [
+   2019,
+   2022,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet",
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "134-135",
+  "diger_eserler": "Yaban, Kiralık Konak, Nur Baba, Hüküm Gecesi, Ankara",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 135,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2024,
+    "qno": 141,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2022,
+    "qno": 146,
+    "topic": "milli_edebiyat"
+   },
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Ahmedi",
+  "soru_sayisi": 3,
+  "yillar": [
+   2022,
+   2023,
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "İskendername, Cemşid ü Hurşid",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 112,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2023,
+    "qno": 116,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 119,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Ahmet Hamdi Tanpınar",
+  "soru_sayisi": 3,
+  "yillar": [
+   2018,
+   2019,
+   2021
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "78, 137-139",
+  "diger_eserler": "Huzur, Saatleri Ayarlama Enstitüsü, Beş Şehir, Mahur Beste, Sahnenin Dışındakiler",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 149,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 157,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2021,
+    "qno": 160,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Ahmet Kutsi Tecer",
+  "soru_sayisi": 3,
+  "yillar": [
+   2021,
+   2022,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "84",
+  "diger_eserler": "Şehnaz Faslı, Köşebaşı",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 162,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2022,
+    "qno": 164,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2024,
+    "qno": 170,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Haldun Taner",
+  "soru_sayisi": 3,
+  "yillar": [
+   2018,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "162",
+  "diger_eserler": "Keşanlı Ali Destanı, Sersem Kocanın Kurnaz Karısı, Eşeğin Gölgesi, Gözlerimi Kaparım Vazifemi Yaparım, On İkiye Bir Var",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 149,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2018,
+    "qno": 152,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 167,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Halide Edip Adıvar",
+  "soru_sayisi": 3,
+  "yillar": [
+   2019,
+   2022,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet",
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "135-136",
+  "diger_eserler": "Sinekli Bakkal, Ateşten Gömlek, Vurun Kahpeye, Handan, Mev'ud Hüküm",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 141,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2022,
+    "qno": 146,
+    "topic": "milli_edebiyat"
+   },
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Köroğlu",
+  "soru_sayisi": 3,
+  "yillar": [
+   2020,
+   2022,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet",
+   "masal_fabl_destan",
+   "siir_bilgisi"
+  ],
+  "mebi_sayfa": "36",
+  "diger_eserler": "Şiirleri (koçaklama), Halk Hikayesi",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 55,
+    "topic": "siir_bilgisi"
+   },
+   {
+    "year": 2022,
+    "qno": 164,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2020,
+    "qno": 180,
+    "topic": "masal_fabl_destan"
+   }
+  ]
+ },
+ {
+  "name": "Orhan Kemal",
+  "soru_sayisi": 3,
+  "yillar": [
+   2018,
+   2019,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "116, 140-141",
+  "diger_eserler": "Bereketli Topraklar Üzerinde, Murtaza, Eskici ve Oğulları, Cemile, Hanımın Çiftliği",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 152,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 153,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 167,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Reşat Nuri Güntekin",
+  "soru_sayisi": 3,
+  "yillar": [
+   2019,
+   2022,
+   2024
+  ],
+  "konular": [
+   "cumhuriyet",
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "135",
+  "diger_eserler": "Çalıkuşu, Yaprak Dökümü, Yeşil Gece, Dudaktan Kalbe, Acımak",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 141,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2022,
+    "qno": 146,
+    "topic": "milli_edebiyat"
+   },
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Şeyh Galip",
+  "soru_sayisi": 3,
+  "yillar": [
+   2018,
+   2019,
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "58-59",
+  "diger_eserler": "Hüsn ü Aşk, Şerh-i Cezîre-i Mesnevî",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 98,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2019,
+    "qno": 99,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 119,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Şinasi",
+  "soru_sayisi": 3,
+  "yillar": [
+   2018,
+   2021,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "61",
+  "diger_eserler": "Şair Evlenmesi, Müntehabat-ı Eş'ar, Durub-ı Emsal-i Osmaniye, Tercüman-ı Ahvâl Mukaddimesi",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 124,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2023,
+    "qno": 131,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2021,
+    "qno": 160,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Aka Gündüz",
+  "soru_sayisi": 2,
+  "yillar": [
+   2019,
+   2022
+  ],
+  "konular": [
+   "cumhuriyet",
+   "milli_edebiyat"
+  ],
+  "mebi_sayfa": "70",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 146,
+    "topic": "milli_edebiyat"
+   },
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Baki",
+  "soru_sayisi": 2,
+  "yillar": [
+   2020,
+   2022
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "56-57",
+  "diger_eserler": "Kanuni Mersiyesi, Mealimü'l-Yakin",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 104,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2022,
+    "qno": 112,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Halit Fahri Ozansoy",
+  "soru_sayisi": 2,
+  "yillar": [
+   2022,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "85",
+  "diger_eserler": "Cenk Duyguları, Baykuş, Sulara Doğru",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 163,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 166,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Hayali Bey",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2020
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "56",
+  "diger_eserler": "Divan",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 98,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2020,
+    "qno": 104,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Hüseyin Cahit Yalçın",
+  "soru_sayisi": 2,
+  "yillar": [
+   2021,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "109-110",
+  "diger_eserler": "Edebî Hatıralarım",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 138,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2021,
+    "qno": 160,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Kemal Tahir",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "140",
+  "diger_eserler": "Devlet Ana, Esir Şehrin İnsanları, Yorgun Savaşçı, Köyün Kamburu",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 149,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2025,
+    "qno": 172,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Mehmet Akif Ersoy",
+  "soru_sayisi": 2,
+  "yillar": [
+   2020,
+   2023
+  ],
+  "konular": [
+   "milli_edebiyat",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "74",
+  "diger_eserler": "Safahat, Süleymaniye Kürsüsünde",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 139,
+    "topic": "servet_i_funun_fecr_i_ati"
+   },
+   {
+    "year": 2020,
+    "qno": 144,
+    "topic": "milli_edebiyat"
+   }
+  ]
+ },
+ {
+  "name": "Mithat Cemal Kuntay",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2019
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "Üç İstanbul",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 148,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Muallim Naci",
+  "soru_sayisi": 2,
+  "yillar": [
+   2024,
+   2025
+  ],
+  "konular": [
+   "servet_i_funun_fecr_i_ati",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "60",
+  "diger_eserler": "Demdeme, Lugat-i Naci",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 132,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Necati Cumalı",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2022
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "160, 162",
+  "diger_eserler": "Susuz Yaz, Mine",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 152,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2022,
+    "qno": 164,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Necip Fazıl Kısakürek",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2021
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "78",
+  "diger_eserler": "Çile, Kaldırımlar, Sakarya Türküsü, Bir Adam Yaratmak",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 151,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2021,
+    "qno": 162,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Nedim",
+  "soru_sayisi": 2,
+  "yillar": [
+   2022,
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati",
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "58-59",
+  "diger_eserler": "Divan-ı Nedim, Şarkıları",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 112,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 140,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Nef’i",
+  "soru_sayisi": 2,
+  "yillar": [
+   2022,
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "57-58",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 112,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2024,
+    "qno": 120,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Orhan Seyfi Orhon",
+  "soru_sayisi": 2,
+  "yillar": [
+   2022,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "72",
+  "diger_eserler": "Fırtına ve Kar, Peri Kızı ile Çoban Hikayesi",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 163,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 166,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Samipaşazade Sezai",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2024
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "128, 130",
+  "diger_eserler": "Sergüzeşt, Küçük Şeyler",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 125,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2024,
+    "qno": 132,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Süleyman Çelebi",
+  "soru_sayisi": 2,
+  "yillar": [
+   2021,
+   2022
+  ],
+  "konular": [
+   "cumhuriyet",
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "54",
+  "diger_eserler": "Vesîletü'n-Necât (Mevlid)",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 108,
+    "topic": "divan_edebiyati"
+   },
+   {
+    "year": 2022,
+    "qno": 163,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Tarık Buğra",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "138",
+  "diger_eserler": "Küçük Ağa, Osmancık, Dönemeçte, Yağmur Beklerken, Firavun İmanı",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 149,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2025,
+    "qno": 172,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Yaşar Kemal",
+  "soru_sayisi": 2,
+  "yillar": [
+   2018,
+   2025
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "140",
+  "diger_eserler": "İnce Memed, Yer Demir Gök Bakır, Ortadirek, Demirciler Çarşısı Cinayeti",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 152,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2025,
+    "qno": 172,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Yunus Emre",
+  "soru_sayisi": 2,
+  "yillar": [
+   2023,
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati",
+   "islamiyet_oncesi_gecis"
+  ],
+  "mebi_sayfa": "34, 42",
+  "diger_eserler": "Divan, Risaletü'n-Nushiyye",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 86,
+    "topic": "islamiyet_oncesi_gecis"
+   },
+   {
+    "year": 2024,
+    "qno": 119,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Yusuf Ziya Ortaç",
+  "soru_sayisi": 2,
+  "yillar": [
+   2022,
+   2023
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "72",
+  "diger_eserler": "Akından Akına",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 163,
+    "topic": "cumhuriyet"
+   },
+   {
+    "year": 2023,
+    "qno": 166,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Ziya Paşa",
+  "soru_sayisi": 2,
+  "yillar": [
+   2023
+  ],
+  "konular": [
+   "servet_i_funun_fecr_i_ati",
+   "tanzimat"
+  ],
+  "mebi_sayfa": "62",
+  "diger_eserler": "Harabat, Şiir ve İnşa, Terkib-i Bend, Terci-i Bend",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 131,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2023,
+    "qno": 139,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Şemsettin Sami",
+  "soru_sayisi": 2,
+  "yillar": [
+   2022,
+   2023
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "129",
+  "diger_eserler": "Taaşşuk-ı Talat ve Fitnat, Kamus-ı Türki, Kamus-ı Alâm",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 130,
+    "topic": "tanzimat"
+   },
+   {
+    "year": 2023,
+    "qno": 131,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Adalet Ağaoğlu",
+  "soru_sayisi": 1,
+  "yillar": [
+   2022
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 165,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Ahmet Hikmet Müftüoğlu",
+  "soru_sayisi": 1,
+  "yillar": [
+   2018
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "70",
+  "diger_eserler": "Çağlayanlar, Gönül Hanım",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 148,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Ahmet Vefik Paşa",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "154-155",
+  "diger_eserler": "Cimri (çeviri), Zoraki Tabip (çeviri), Lehçe-i Osmani",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 126,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Ahmet Yesevi",
+  "soru_sayisi": 1,
+  "yillar": [
+   2020
+  ],
+  "konular": [
+   "islamiyet_oncesi_gecis"
+  ],
+  "mebi_sayfa": "29",
+  "diger_eserler": "Divan-ı Hikmet",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 85,
+    "topic": "islamiyet_oncesi_gecis"
+   }
+  ]
+ },
+ {
+  "name": "Arif Nihat Asya",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "87",
+  "diger_eserler": "Bayrak, Heykeltıraş",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 170,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Bedri Rahmi Eyüboğlu",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "87",
+  "diger_eserler": "Karadut",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 170,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Brancusi",
+  "soru_sayisi": 1,
+  "yillar": [
+   2021
+  ],
+  "konular": [
+   "paragrafta_anlam"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 27,
+    "topic": "paragrafta_anlam"
+   }
+  ]
+ },
+ {
+  "name": "Cahit Külebi",
+  "soru_sayisi": 1,
+  "yillar": [
+   2021
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "85",
+  "diger_eserler": "Adamın Biri, Yangın",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 161,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Direktör Ali Bey",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 126,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Ece Ayhan",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "90",
+  "diger_eserler": "Bakışsız Bir Kedi Kara",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 168,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Enis Behiç Koryürek",
+  "soru_sayisi": 1,
+  "yillar": [
+   2022
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "72",
+  "diger_eserler": "Miras",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 163,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Falih Rıfkı Atay",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "175",
+  "diger_eserler": "Çankaya, Zeytindağı, Atatürk'ün Bana Anlattıkları",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Fazıl Hüsnü Dağlarca",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "85",
+  "diger_eserler": "Toprak Ana, Çakır'ın Destanı, Üç Şehitler Destanı, Havaya Çizilen Dünya",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 170,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Freud",
+  "soru_sayisi": 1,
+  "yillar": [
+   2021
+  ],
+  "konular": [
+   "sozcukte_anlam"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 4,
+    "topic": "sozcukte_anlam"
+   }
+  ]
+ },
+ {
+  "name": "Hacı Bayram Veli",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 120,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Halikarnas Balıkçısı",
+  "soru_sayisi": 1,
+  "yillar": [
+   2023
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "116",
+  "diger_eserler": "Aganta Burina Burinata, Mavi Sürgün, Anadolu'nun Sesi",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 167,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Halit Ziya Uşaklıgil",
+  "soru_sayisi": 1,
+  "yillar": [
+   2021
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "131",
+  "diger_eserler": "Mai ve Siyah, Aşk-ı Memnu, Kırık Hayatlar, Sefile, Nemide",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 160,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Latife Tekin",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "120",
+  "diger_eserler": "Sevgili Arsız Ölüm, Berci Kristin Çöp Masalları",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 156,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Mary Shelley",
+  "soru_sayisi": 1,
+  "yillar": [
+   2025
+  ],
+  "konular": [
+   "paragrafta_anlam"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2025,
+    "qno": 42,
+    "topic": "paragrafta_anlam"
+   }
+  ]
+ },
+ {
+  "name": "Mehmet Emin Yurdakul",
+  "soru_sayisi": 1,
+  "yillar": [
+   2020
+  ],
+  "konular": [
+   "milli_edebiyat"
+  ],
+  "mebi_sayfa": "71",
+  "diger_eserler": "Türk Sazı, Cenge Giderken",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 144,
+    "topic": "milli_edebiyat"
+   }
+  ]
+ },
+ {
+  "name": "Melih Cevdet Anday",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "79-80",
+  "diger_eserler": "Garip, Rahatı Kaçan Ağaç",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 155,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Mevlana",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "42",
+  "diger_eserler": "Mesnevî, Divan-ı Kebir, Fihi Mâ Fih, Mecâlis-i Seb'a",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 119,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Molière",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 126,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Nabizade Nazım",
+  "soru_sayisi": 1,
+  "yillar": [
+   2018
+  ],
+  "konular": [
+   "tanzimat"
+  ],
+  "mebi_sayfa": "128, 130",
+  "diger_eserler": "Karabibik, Zehra",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 125,
+    "topic": "tanzimat"
+   }
+  ]
+ },
+ {
+  "name": "Naili",
+  "soru_sayisi": 1,
+  "yillar": [
+   2020
+  ],
+  "konular": [
+   "divan_edebiyati"
+  ],
+  "mebi_sayfa": "57",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 105,
+    "topic": "divan_edebiyati"
+   }
+  ]
+ },
+ {
+  "name": "Nazım Hikmet",
+  "soru_sayisi": 1,
+  "yillar": [
+   2021
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "79, 82",
+  "diger_eserler": "Memleketimden İnsan Manzaraları, Kuvâyi Milliye Destanı, Şeyh Bedrettin Destanı",
+  "occurrences": [
+   {
+    "year": 2021,
+    "qno": 161,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Oğuz Atay",
+  "soru_sayisi": 1,
+  "yillar": [
+   2023
+  ],
+  "konular": [
+   "paragrafta_anlam"
+  ],
+  "mebi_sayfa": "120, 142",
+  "diger_eserler": "Tutunamayanlar, Tehlikeli Oyunlar, Korkuyu Beklerken, Bir Bilim Adamının Romanı",
+  "occurrences": [
+   {
+    "year": 2023,
+    "qno": 34,
+    "topic": "paragrafta_anlam"
+   }
+  ]
+ },
+ {
+  "name": "Peyami Safa",
+  "soru_sayisi": 1,
+  "yillar": [
+   2018
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "137-139",
+  "diger_eserler": "9. Hariciye Koğuşu, Fatih Harbiye, Matmazel Noraliya'nın Koltuğu, Yalnızız",
+  "occurrences": [
+   {
+    "year": 2018,
+    "qno": 148,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Pınar Kür",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 156,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Sezai Karakoç",
+  "soru_sayisi": 1,
+  "yillar": [
+   2024
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "90, 93",
+  "diger_eserler": "Mona Roza, Hızırla Kırk Saat",
+  "occurrences": [
+   {
+    "year": 2024,
+    "qno": 168,
+    "topic": "cumhuriyet"
+   }
+  ]
+ },
+ {
+  "name": "Shakespeare",
+  "soru_sayisi": 1,
+  "yillar": [
+   2020
+  ],
+  "konular": [
+   "cumlede_anlam"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 11,
+    "topic": "cumlede_anlam"
+   }
+  ]
+ },
+ {
+  "name": "Süleyman Nazif",
+  "soru_sayisi": 1,
+  "yillar": [
+   2025
+  ],
+  "konular": [
+   "servet_i_funun_fecr_i_ati"
+  ],
+  "mebi_sayfa": "67",
+  "diger_eserler": "Çal Çoban Çal",
+  "occurrences": [
+   {
+    "year": 2025,
+    "qno": 142,
+    "topic": "servet_i_funun_fecr_i_ati"
+   }
+  ]
+ },
+ {
+  "name": "Tesla",
+  "soru_sayisi": 1,
+  "yillar": [
+   2022
+  ],
+  "konular": [
+   "cumlede_anlam"
+  ],
+  "mebi_sayfa": "",
+  "diger_eserler": "",
+  "occurrences": [
+   {
+    "year": 2022,
+    "qno": 13,
+    "topic": "cumlede_anlam"
+   }
+  ]
+ },
+ {
+  "name": "Ziya Gökalp",
+  "soru_sayisi": 1,
+  "yillar": [
+   2020
+  ],
+  "konular": [
+   "milli_edebiyat"
+  ],
+  "mebi_sayfa": "71",
+  "diger_eserler": "Türkçülüğün Esasları, Kızılelma, Yeni Hayat, Altın Işık",
+  "occurrences": [
+   {
+    "year": 2020,
+    "qno": 144,
+    "topic": "milli_edebiyat"
+   }
+  ]
+ },
+ {
+  "name": "Ömer Seyfettin",
+  "soru_sayisi": 1,
+  "yillar": [
+   2019
+  ],
+  "konular": [
+   "cumhuriyet"
+  ],
+  "mebi_sayfa": "113",
+  "diger_eserler": "Bomba, Pembe İncili Kaftan, Falaka, Kaşağı, Diyet",
+  "occurrences": [
+   {
+    "year": 2019,
+    "qno": 154,
+    "topic": "cumhuriyet"
+   }
+  ]
+ }
+]

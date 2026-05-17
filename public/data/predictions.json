@@ -1,0 +1,202 @@
+{
+ "konular": [
+  {
+   "ad": "Sözcükte Anlam",
+   "frekans_8yil": "8/8 yıl 1 soru",
+   "tahmin": "1",
+   "guven": "KESİN"
+  },
+  {
+   "ad": "Cümlede Anlam",
+   "frekans_8yil": "8/8 yıl 1 soru",
+   "tahmin": "1",
+   "guven": "KESİN"
+  },
+  {
+   "ad": "Paragrafta Anlam",
+   "frekans_8yil": "2020+ 4 sabit",
+   "tahmin": "4",
+   "guven": "KESİN"
+  },
+  {
+   "ad": "Şiir Bilgisi",
+   "frekans_8yil": "Yılda 1-3, ort 2.1",
+   "tahmin": "2",
+   "guven": "YÜKSEK"
+  },
+  {
+   "ad": "Söz Sanatları",
+   "frekans_8yil": "Yılda 1-2",
+   "tahmin": "1-2",
+   "guven": "YÜKSEK"
+  },
+  {
+   "ad": "Nesir Bilgisi",
+   "frekans_8yil": "Yılda 1-3",
+   "tahmin": "2",
+   "guven": "YÜKSEK"
+  },
+  {
+   "ad": "İslamiyet Öncesi/Geçiş",
+   "frekans_8yil": "Son 3 yıl 1'er",
+   "tahmin": "1",
+   "guven": "YÜKSEK (artan trend)"
+  },
+  {
+   "ad": "Halk Edebiyatı",
+   "frekans_8yil": "6 toplam, 2025 BOŞ",
+   "tahmin": "1-2",
+   "guven": "ÇOK YÜKSEK (boşluk telafisi)"
+  },
+  {
+   "ad": "Divan Edebiyatı",
+   "frekans_8yil": "Yılda 2-5, ort 3.6",
+   "tahmin": "3-4",
+   "guven": "KESİN"
+  },
+  {
+   "ad": "Tanzimat",
+   "frekans_8yil": "8/8 yıl 1-2",
+   "tahmin": "1",
+   "guven": "KESİN"
+  },
+  {
+   "ad": "Servet-i Fünun / Fecr-i Âti",
+   "frekans_8yil": "Yılda 1-2, ort 1.1",
+   "tahmin": "1-2",
+   "guven": "YÜKSEK"
+  },
+  {
+   "ad": "Milli Edebiyat",
+   "frekans_8yil": "5 toplam, 2025 geldi",
+   "tahmin": "0-1",
+   "guven": "ORTA-DÜŞÜK"
+  },
+  {
+   "ad": "Cumhuriyet Dönemi",
+   "frekans_8yil": "Yılda 2-5, ort 3.1",
+   "tahmin": "3",
+   "guven": "KESİN"
+  },
+  {
+   "ad": "Geleneksel Tiyatro",
+   "frekans_8yil": "4 toplam, 2025 geldi",
+   "tahmin": "0",
+   "guven": "DÜŞÜK"
+  },
+  {
+   "ad": "Masal/Fabl/Destan",
+   "frekans_8yil": "8 toplam, yılaşırı",
+   "tahmin": "1",
+   "guven": "YÜKSEK"
+  },
+  {
+   "ad": "Edebi Akımlar",
+   "frekans_8yil": "8/8 yıl 1 soru",
+   "tahmin": "1",
+   "guven": "KESİN"
+  }
+ ],
+ "yazarlar_cok_yuksek": [
+  {
+   "ad": "Halit Ziya Uşaklıgil",
+   "not_": "2023'te geldi, 2024-25 boş — SF romanı klasiği"
+  },
+  {
+   "ad": "Necip Fazıl Kısakürek",
+   "not_": "son 3 yıl boş — saf şiir mistik"
+  },
+  {
+   "ad": "Peyami Safa",
+   "not_": "son 2 yıl boş — bireyin iç dünyası"
+  },
+  {
+   "ad": "Sait Faik Abasıyanık",
+   "not_": "son 2 yıl boş — durum hikayesi"
+  },
+  {
+   "ad": "Şinasi",
+   "not_": "son 2 yıl boş — Tanzimat öncüsü, ilkler"
+  },
+  {
+   "ad": "Yahya Kemal Beyatlı",
+   "not_": "son 2 yıl boş — saf şiir"
+  },
+  {
+   "ad": "Ömer Seyfettin",
+   "not_": "son 5 yıl boş — hikaye klasiği"
+  },
+  {
+   "ad": "Baki",
+   "not_": "son 3 yıl boş — divan ikinci zirvesi"
+  }
+ ],
+ "yazarlar_orta": [
+  "Ahmet Hamdi Tanpınar, Tarık Buğra, Yakup Kadri",
+  "Nef'i, Şeyh Galip, Süleyman Çelebi, Yunus Emre"
+ ],
+ "bosluk_adaylari": [
+  {
+   "ad": "Yedi Meşaleciler",
+   "not_": "Cevdet Kudret, Ziya Osman Saba, Sabri Esat, Yaşar Nabi (1928, MEBİ s.76)"
+  },
+  {
+   "ad": "Hisarcılar",
+   "not_": "Munis Faik Ozansoy, Mehmet Çınarlı (MEBİ s.83)"
+  },
+  {
+   "ad": "Maviciler / Attila İlhan",
+   "not_": "8 yılda 0 (MEBİ s.81)"
+  },
+  {
+   "ad": "Mustafa Kutlu, Bilge Karasu, İhsan Oktay Anar",
+   "not_": "Modernist/postmodernist az sorulanlar"
+  },
+  {
+   "ad": "Behçet Necatigil, Asaf Halet Çelebi, A.M. Dıranas",
+   "not_": "Saf şiir az sorulanlar"
+  }
+ ],
+ "bosluk_haritasi": [
+  {
+   "konu": "DİVAN",
+   "alt_basliklar": "Müstezat, Terkib-i Bend, Terci-i Bend, Tezkire",
+   "guc": "YÜKSEK"
+  },
+  {
+   "konu": "NESİR BİLGİSİ",
+   "alt_basliklar": "Mektup, Günlük, Fıkra, Sohbet türleri",
+   "guc": "YÜKSEK"
+  },
+  {
+   "konu": "SF/FECR-İ ÂTİ",
+   "alt_basliklar": "Cenap Şahabettin Elhan-ı Şita dışı eserler, Mehmet Rauf hikayeler",
+   "guc": "YÜKSEK"
+  },
+  {
+   "konu": "MİLLİ EDEBİYAT",
+   "alt_basliklar": "Ziya Gökalp teorisi, Genç Kalemler manifestoları, Mehmet Emin Yurdakul",
+   "guc": "YÜKSEK"
+  },
+  {
+   "konu": "CUMHURİYET",
+   "alt_basliklar": "Yedi Meşaleciler, Hisarcılar, Maviciler, postmodernler",
+   "guc": "ÇOK YÜKSEK"
+  },
+  {
+   "konu": "HALK EDEBİYATI",
+   "alt_basliklar": "Varsağı türü, Erzurumlu Emrah, Gevheri",
+   "guc": "YÜKSEK"
+  },
+  {
+   "konu": "İSL.ÖNCESİ",
+   "alt_basliklar": "Divan-ı Hikmet detayları, Orhun yazıtları (Bilge Kağan vs Kül Tigin)",
+   "guc": "YÜKSEK"
+  },
+  {
+   "konu": "EDEBİ AKIMLAR",
+   "alt_basliklar": "Ekspresyonizm (Kafka), Empresyonizm",
+   "guc": "YÜKSEK"
+  }
+ ]
+}

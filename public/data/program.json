@@ -1,0 +1,220 @@
+{
+ "haftalar": [
+  {
+   "baslik": "Yüksek Frekans Temel — 14 Net Potansiyeli",
+   "gunler": [
+    {
+     "gun": "Pzt",
+     "konu": "Divan: Nazım biçimleri (gazel, kaside, mesnevi)",
+     "rehber": "Bölüm 3.1 §A-§C ilk 5 alt başlık",
+     "mebi": "MEBİ s.44-52",
+     "sorular": "PDF 95-110 / 10 soru"
+    },
+    {
+     "gun": "Sal",
+     "konu": "Divan: 16-18. yy şairler (Fuzuli, Baki, Nef'i, Nabi, Nedim, Şeyh Galip)",
+     "rehber": "Bölüm 3.1 §C son 4 alt başlık",
+     "mebi": "MEBİ s.53-59",
+     "sorular": "PDF 111-123 / 10 soru"
+    },
+    {
+     "gun": "Çar",
+     "konu": "Cumhuriyet ŞİİR akımları (8 akım)",
+     "rehber": "Bölüm 3.2 §C alt 1-5",
+     "mebi": "MEBİ s.75-91",
+     "sorular": "PDF 148-172 şiir soruları"
+    },
+    {
+     "gun": "Per",
+     "konu": "Cumhuriyet ROMAN/HİKAYE (toplumcu + bireyin iç d.)",
+     "rehber": "Bölüm 3.2 §C alt 6-7",
+     "mebi": "MEBİ s.114-118 + 137-142",
+     "sorular": "PDF 148-172 roman/hikaye"
+    },
+    {
+     "gun": "Cum",
+     "konu": "Cumhuriyet: modernist + Sait Faik + tiyatro",
+     "rehber": "Bölüm 3.2 §C alt 8-10",
+     "mebi": "MEBİ s.115-120 + 158-164",
+     "sorular": "Önceki atlanmış sorular"
+    },
+    {
+     "gun": "Cmt",
+     "konu": "Şiir Bilgisi + Söz Sanatları",
+     "rehber": "Bölüm 3.3 + 3.4 tümü",
+     "mebi": "MEBİ s.13-21 + 22-25",
+     "sorular": "PDF 44-70 (tüm)"
+    },
+    {
+     "gun": "Paz",
+     "konu": "TEKRAR — ezber paketleri",
+     "rehber": "3.1, 3.2, 3.3, 3.4 yeşil kutular",
+     "mebi": "Hızlı geç",
+     "sorular": "Yanlışları tekrar çöz"
+    }
+   ]
+  },
+  {
+   "baslik": "Dönem Edebiyatları — +4 Net (Toplam 18)",
+   "gunler": [
+    {
+     "gun": "Pzt",
+     "konu": "Tanzimat — \"İlk\"ler + I. dönem",
+     "rehber": "Bölüm 3.6 §A-§B",
+     "mebi": "MEBİ s.60-62 + 127-130",
+     "sorular": "PDF 124-133 (10 soru)"
+    },
+    {
+     "gun": "Sal",
+     "konu": "Tanzimat II. dönem (Recaizade rekortmen)",
+     "rehber": "Bölüm 3.6 II.dönem alt",
+     "mebi": "MEBİ s.63-64 + 153-157",
+     "sorular": "Aynı 124-133"
+    },
+    {
+     "gun": "Çar",
+     "konu": "Servet-i Fünun + Fecr-i Âti",
+     "rehber": "Bölüm 3.7 (Halit Ziya 8 eser + Tevfik Fikret + Ahmet Haşim)",
+     "mebi": "MEBİ s.65-69 + 131-133",
+     "sorular": "PDF 134-142 (9 soru)"
+    },
+    {
+     "gun": "Per",
+     "konu": "Milli Edebiyat",
+     "rehber": "Bölüm 3.8",
+     "mebi": "MEBİ s.70-74 + 112-113 + 134-136",
+     "sorular": "PDF 143-147 (5 soru)"
+    },
+    {
+     "gun": "Cum",
+     "konu": "Halk Edebiyatı",
+     "rehber": "Bölüm 3.9 tümü",
+     "mebi": "MEBİ s.30-43",
+     "sorular": "PDF 89-94 (6 soru)"
+    },
+    {
+     "gun": "Cmt",
+     "konu": "İsl.Öncesi/Geçiş + Geleneksel Tiyatro + Masal",
+     "rehber": "Bölüm 3.10 + 3.11 + 3.12",
+     "mebi": "MEBİ s.26-29 + 149-152 + 165-171",
+     "sorular": "PDF 85-88 + 173-184"
+    },
+    {
+     "gun": "Paz",
+     "konu": "TEKRAR — Hafta 2 ezber paketleri",
+     "rehber": "3.6-3.12 yeşil kutular",
+     "mebi": "Hızlı geç",
+     "sorular": "Yanlışları tekrar"
+    }
+   ]
+  },
+  {
+   "baslik": "Edebi Akımlar + Yazar Matrisi — +2 Net (Toplam 20)",
+   "gunler": [
+    {
+     "gun": "Pzt",
+     "konu": "Edebi Akımlar I (Klas-Romantik-Real-Natüralist)",
+     "rehber": "Bölüm 3.13 §A + ilk 2 alt",
+     "mebi": "MEBİ s.186-188",
+     "sorular": "PDF 185-192"
+    },
+    {
+     "gun": "Sal",
+     "konu": "Edebi Akımlar II (Parnasizm-Sembolizm + 20.yy)",
+     "rehber": "Bölüm 3.13 §B son 2 alt",
+     "mebi": "MEBİ s.189-190",
+     "sorular": "Aynı 185-192 devamı"
+    },
+    {
+     "gun": "Çar",
+     "konu": "Nesir Bilgisi",
+     "rehber": "Bölüm 3.5 tümü",
+     "mebi": "MEBİ s.102-126 + 172-185",
+     "sorular": "PDF 71-84 (14 soru)"
+    },
+    {
+     "gun": "Per",
+     "konu": "Yazar Matrisi — Tablo A (50 tekrar yazar)",
+     "rehber": "Bölüm 4 Tablo A",
+     "mebi": "MEBİ s. sütunundan her yazara git",
+     "sorular": "Zayıf yazarlardan ekstra"
+    },
+    {
+     "gun": "Cum",
+     "konu": "Tablo B göz atma + 2026 Tahminleri",
+     "rehber": "Bölüm 4 Tablo B + Bölüm 5",
+     "mebi": "Boşluk konuları: s.76, 83",
+     "sorular": "Analiz günü"
+    },
+    {
+     "gun": "Cmt",
+     "konu": "Boşluk Adayları (Y.Meşale, Hisarcılar, Maviciler, postmodern)",
+     "rehber": "Bölüm 5.3",
+     "mebi": "MEBİ s.76, 83, 81, 117-120, 142",
+     "sorular": "Bu konulara değen sorular"
+    },
+    {
+     "gun": "Paz",
+     "konu": "TEKRAR — Hafta 3 + Mini Sözlük",
+     "rehber": "Bölüm 3.5, 3.13 + Bölüm 7",
+     "mebi": "Tarama yok",
+     "sorular": "Hafta 3 yanlışları"
+    }
+   ]
+  },
+  {
+   "baslik": "Konsolidasyon ve Deneme",
+   "gunler": [
+    {
+     "gun": "Pzt",
+     "konu": "Hızlı tekrar — Bölüm 3.1-3.6",
+     "rehber": "Sadece EZBER PAKETLERİ",
+     "mebi": "MEBİ s.13-67 göz gezdir",
+     "sorular": "Zayıf hissedilen 10 soru"
+    },
+    {
+     "gun": "Sal",
+     "konu": "Hızlı tekrar — Bölüm 3.7-3.13",
+     "rehber": "Sadece EZBER PAKETLERİ",
+     "mebi": "MEBİ s.68-190 göz gezdir",
+     "sorular": "Zayıf hissedilen 10 soru"
+    },
+    {
+     "gun": "Çar",
+     "konu": "Yazar Tabloları + Mini Sözlük",
+     "rehber": "Bölüm 4 + Bölüm 7 tümü",
+     "mebi": "Spot kontroller",
+     "sorular": "Yazar-eser eşleştirme"
+    },
+    {
+     "gun": "Per",
+     "konu": "1. DENEME (örn. 2024 sınavı)",
+     "rehber": "Yok",
+     "mebi": "Yok",
+     "sorular": "Geçmiş 1 yılın TÜMÜ — zaman tutarak"
+    },
+    {
+     "gun": "Cum",
+     "konu": "Deneme analizi + eksiklere dönüş",
+     "rehber": "Yanlış konunun Bölüm 3.x",
+     "mebi": "Yanlış konunun MEBİ sayfaları",
+     "sorular": "Hatalı 5-10 soru tekrar"
+    },
+    {
+     "gun": "Cmt",
+     "konu": "2. DENEME (örn. 2025)",
+     "rehber": "Yok",
+     "mebi": "Yok",
+     "sorular": "Başka 1 yılın TÜMÜ"
+    },
+    {
+     "gun": "Paz",
+     "konu": "Boşluk adayları + son ezber",
+     "rehber": "Bölüm 5.3 + Bölüm 7",
+     "mebi": "MEBİ s.76 + 83 + 81 + 117-120",
+     "sorular": "Boşluk konularına özgü"
+    }
+   ]
+  }
+ ]
+}

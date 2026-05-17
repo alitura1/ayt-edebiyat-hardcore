@@ -1,0 +1,366 @@
+{
+ "bolumler": [
+  {
+   "baslik": "9 Edebi Akım — Tek Bakışta",
+   "basliklar": [
+    "Akım",
+    "Dönem/Yer",
+    "Esas",
+    "Temsilciler"
+   ],
+   "satirlar": [
+    [
+     "Klasisizm",
+     "17. yy Fransa",
+     "Akıl, antik, 3 birlik",
+     "Molière, Racine, Corneille, La Fontaine, Boileau"
+    ],
+    [
+     "Romantizm",
+     "19. yy başı Fransa",
+     "Duygu, hayal, halk",
+     "V. Hugo, Lamartine, Goethe, Schiller, Byron"
+    ],
+    [
+     "Realizm",
+     "19. yy ortası",
+     "Gözlem, gerçeklik",
+     "Balzac, Stendhal, Flaubert, Dostoyevski, Tolstoy"
+    ],
+    [
+     "Natüralizm",
+     "19. yy sonu",
+     "Bilimsel determinizm",
+     "Émile Zola, Maupassant, Goncourt"
+    ],
+    [
+     "Parnasizm",
+     "19. yy ortası",
+     "Şiir+biçim+objektif",
+     "Gautier, Leconte de Lisle, Heredia"
+    ],
+    [
+     "Sembolizm",
+     "19. yy sonu",
+     "Sembol+sezgi+müzik",
+     "Baudelaire, Verlaine, Rimbaud, Mallarmé"
+    ],
+    [
+     "Fütürizm",
+     "1909 İtalya",
+     "Hız+makine+gelecek",
+     "Marinetti"
+    ],
+    [
+     "Dadaizm",
+     "1916 İsviçre",
+     "Sanat karşıtı, anlamsız",
+     "Tristan Tzara, Hans Arp"
+    ],
+    [
+     "Sürrealizm",
+     "1924 Fransa",
+     "Bilinçaltı+rüya+Freud",
+     "André Breton, Aragon, Éluard, Dali"
+    ],
+    [
+     "Egzistansiyalizm",
+     "20. yy",
+     "Varoluş özden önce",
+     "Sartre, Camus, Heidegger, Kierkegaard"
+    ],
+    [
+     "Ekspresyonizm",
+     "20. yy Almanya",
+     "İç dünya dışa vurma",
+     "Kafka, Strindberg, Trakl"
+    ]
+   ]
+  },
+  {
+   "baslik": "Türk Edebiyatı Dönemleri",
+   "basliklar": [
+    "Dönem",
+    "Yıllar",
+    "Önemli Sanatçılar",
+    "Tipik Eserler"
+   ],
+   "satirlar": [
+    [
+     "Sözlü Dönem",
+     "M.Ö.-10. yy",
+     "Anonim ozanlar",
+     "Koşuk, sagu, sav, destanlar"
+    ],
+    [
+     "Geçiş Dön. (Karahanlı)",
+     "10-13. yy",
+     "Yusuf Has Hacip, Kaşgarlı, Yesevi",
+     "Kutadgu Bilig, Divânü Lügat, Atabet, Divan-ı Hikmet"
+    ],
+    [
+     "Divan Edebiyatı",
+     "13-19. yy",
+     "Fuzuli, Baki, Nedim, Nef'i, Şeyh Galip",
+     "Leyla vü Mecnun, Su Kasidesi, Hüsn ü Aşk"
+    ],
+    [
+     "Halk Edebiyatı",
+     "13. yy-günümüz",
+     "Yunus, Pir Sultan, Karacaoğlan",
+     "Koşma, semai, ilahi, nefes"
+    ],
+    [
+     "Tanzimat I.",
+     "1860-1876",
+     "Şinasi, N. Kemal, Z. Paşa, A. Mithat",
+     "Şair Evlenmesi, İntibah, Felâtun Bey"
+    ],
+    [
+     "Tanzimat II.",
+     "1876-1896",
+     "Recaizade, A. Hamit, Nabizade",
+     "Araba Sevdası, Makber, Karabibik"
+    ],
+    [
+     "Servet-i Fünun",
+     "1896-1901",
+     "Halit Ziya, T. Fikret, C. Şahabettin",
+     "Aşk-ı Memnu, Rübab-ı Şikeste, Elhan-ı Şita"
+    ],
+    [
+     "Fecr-i Âti",
+     "1909-1912",
+     "Ahmet Haşim",
+     "Piyale, Göl Saatleri"
+    ],
+    [
+     "Milli Edebiyat",
+     "1911-1923",
+     "Ömer Seyfettin, Y. Kadri, R. Nuri, H. Edip",
+     "Bomba, Yaban, Çalıkuşu, Sinekli Bakkal"
+    ],
+    [
+     "Cumhuriyet",
+     "1923-günümüz",
+     "Yahya Kemal, N. Hikmet, S. Faik, O. Atay",
+     "Çile, Tutunamayanlar, İnce Memed, Huzur"
+    ]
+   ]
+  },
+  {
+   "baslik": "Tanzimat \"İlk\"leri",
+   "basliklar": [
+    "İlk",
+    "Eser",
+    "Yazar",
+    "Yıl"
+   ],
+   "satirlar": [
+    [
+     "İlk yerli roman",
+     "Taaşşuk-ı Talat ve Fitnat",
+     "Şemsettin Sami",
+     "1872"
+    ],
+    [
+     "İlk roman çevirisi",
+     "Telemak",
+     "Yusuf Kamil Paşa",
+     "1859"
+    ],
+    [
+     "İlk edebi roman",
+     "İntibah",
+     "Namık Kemal",
+     "1876"
+    ],
+    [
+     "İlk tarihi roman",
+     "Cezmi",
+     "Namık Kemal",
+     "1880"
+    ],
+    [
+     "İlk realist roman",
+     "Araba Sevdası",
+     "Recaizade Mahmut Ekrem",
+     "1898"
+    ],
+    [
+     "İlk köy romanı",
+     "Karabibik",
+     "Nabizade Nazım",
+     "1891"
+    ],
+    [
+     "İlk psikolojik roman denemesi",
+     "Zehra",
+     "Nabizade Nazım",
+     "1896"
+    ],
+    [
+     "İlk psikolojik roman",
+     "Eylül",
+     "Mehmet Rauf",
+     "1901"
+    ],
+    [
+     "İlk tiyatro (sahnelenen)",
+     "Şair Evlenmesi",
+     "Şinasi",
+     "1860"
+    ],
+    [
+     "İlk makale",
+     "Tercüman-ı Ahvâl Mukaddimesi",
+     "Şinasi",
+     "1860"
+    ],
+    [
+     "İlk özel Türk gazetesi",
+     "Tercüman-ı Ahvâl",
+     "Şinasi + Agah Efendi",
+     "1860"
+    ],
+    [
+     "İlk pastoral şiir",
+     "Sahra",
+     "Abdülhak Hamit",
+     "1879"
+    ],
+    [
+     "İlk büyük Türk-İslam mesnevisi",
+     "Kutadgu Bilig",
+     "Yusuf Has Hacip",
+     "1069"
+    ]
+   ]
+  },
+  {
+   "baslik": "Söz Sanatları — Tek Satır Özet",
+   "basliklar": [
+    "Sanat",
+    "Tanım",
+    "Örnek/Not"
+   ],
+   "satirlar": [
+    [
+     "Benzetme (Teşbih)",
+     "Bir varlığı başka varlığa benzetme",
+     " 4 unsur: benzeyen, kendisine benzetilen, yön, edat (\"gibi\", \"kadar\")."
+    ],
+    [
+     "İstiare (Açık)",
+     "Sadece KENDİSİNE BENZETİLEN söylenir",
+     " \"Aslan geliyor\" (kahraman için)."
+    ],
+    [
+     "İstiare (Kapalı)",
+     "BENZEYEN söylenir + kendisine benzetilenin özelliği verilir",
+     " \"Gül açtı, saçları dağıldı\" (sevgili için)."
+    ],
+    [
+     "Mecaz-ı Mürsel",
+     "Benzetme amacı OLMADAN ilgi yoluyla aktarma",
+     " \"Sobayı yaktım\" (yakıtı)."
+    ],
+    [
+     "Teşhis-İntak",
+     "Cansıza canlı özellikleri (teşhis) / konuşturma (intak)",
+     " \"Ağaç bana dedi ki...\""
+    ],
+    [
+     "Tezat",
+     "Karşıt anlamlı sözcükler bir arada",
+     " \"Akşamda dağ, sabahta ova\""
+    ],
+    [
+     "Tenasüp",
+     "Anlamca İLGİLİ sözcükler bir arada",
+     " (Savaş-asker-kılıç)"
+    ],
+    [
+     "Telmih",
+     "Tarihi/dini bir olaya gönderme",
+     " \"Mecnun gibi çöllerde\""
+    ],
+    [
+     "Hüsn-i Talil",
+     "Gerçek bir olaya hayali güzel bir sebep yakıştırma",
+     " \"Gül açtı çünkü sevgili geldi\""
+    ],
+    [
+     "Tevriye",
+     "Sözcüğün YAKIN ve UZAK iki anlamından UZAK olanını kastetme (Divan)",
+     ""
+    ],
+    [
+     "Mübalağa",
+     "Aşırı abartma",
+     " \"Sesi dağları yıkıyor\""
+    ],
+    [
+     "Kinaye",
+     "Açık ve gizli iki anlam, gizli anlam kastedilir",
+     ""
+    ],
+    [
+     "Tariz",
+     "İğneleme, tersini söyleme",
+     ""
+    ],
+    [
+     "Nida",
+     "Ünlem (ey, hey, ah!)",
+     ""
+    ],
+    [
+     "Tecahül-i Ârif",
+     "Bilineni bilmiyormuş gibi sorma",
+     ""
+    ]
+   ]
+  },
+  {
+   "baslik": "Halk vs Divan Nazım Biçimleri",
+   "basliklar": [
+    "Özellik",
+    "Halk",
+    "Divan"
+   ],
+   "satirlar": [
+    [
+     "Vezin",
+     "HECE",
+     "ARUZ"
+    ],
+    [
+     "Nazım birimi",
+     "DÖRTLÜK",
+     "BEYİT"
+    ],
+    [
+     "Dil",
+     "Sade Türkçe",
+     "Arapça-Farsça karışık"
+    ],
+    [
+     "Konu",
+     "Aşk, doğa, halk",
+     "Aşk (mistik), şarap, padişah"
+    ],
+    [
+     "Biçimler",
+     "Mani, koşma, semai, varsağı, destan",
+     "Gazel, kaside, mesnevi, rubai, müstezat, şarkı"
+    ],
+    [
+     "Şairler",
+     "Karacaoğlan, Köroğlu, Yunus, Pir Sultan",
+     "Fuzuli, Baki, Nedim, Nef'i, Şeyh Galip"
+    ]
+   ]
+  }
+ ]
+}

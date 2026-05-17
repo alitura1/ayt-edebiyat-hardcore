@@ -1,0 +1,132 @@
+[
+ {
+  "code": "divan_edebiyati",
+  "slug": "divan_edebiyati",
+  "title": "Divan Edebiyatı",
+  "toplam": 29,
+  "alt_basliklar": 10,
+  "oncelik": "ÇOK YÜKSEK",
+  "kisa_aciklama": "En yoğun konu. 13-19. yy klasik şiir geleneği. Fuzuli, Baki, Nedim, Nef'i, Nabi, Şeyh Galip; gazel-kaside-mesnevi.",
+  "mebi_pages": "44-59"
+ },
+ {
+  "code": "cumhuriyet",
+  "slug": "cumhuriyet",
+  "title": "Cumhuriyet Dönemi",
+  "toplam": 25,
+  "alt_basliklar": 10,
+  "oncelik": "ÇOK YÜKSEK",
+  "kisa_aciklama": "1923-günümüz. 8 şiir akımı + roman/hikaye/tiyatro. En karmaşık dönem.",
+  "mebi_pages": "75-101 (şiir) + 114-120 (hikaye) + 137-144 (roman) + 158-164 (tiyatro)"
+ },
+ {
+  "code": "siir_bilgisi",
+  "slug": "siir_bilgisi",
+  "title": "Şiir Bilgisi",
+  "toplam": 17,
+  "alt_basliklar": 4,
+  "oncelik": "YÜKSEK",
+  "kisa_aciklama": "Nazım birimi, ölçü (hece/aruz/serbest), kafiye türleri, redif, şiir türleri.",
+  "mebi_pages": "13-21"
+ },
+ {
+  "code": "nesir_bilgisi",
+  "slug": "nesir_bilgisi",
+  "title": "Nesir Bilgisi",
+  "toplam": 14,
+  "alt_basliklar": 4,
+  "oncelik": "YÜKSEK",
+  "kisa_aciklama": "Roman türleri, hikaye türleri, anlatıcı/bakış açısı, deneme/eleştiri/makale, anı/gezi/biyografi.",
+  "mebi_pages": "102-126 + 172-185"
+ },
+ {
+  "code": "tanzimat",
+  "slug": "tanzimat",
+  "title": "Tanzimat",
+  "toplam": 10,
+  "alt_basliklar": 2,
+  "oncelik": "YÜKSEK",
+  "kisa_aciklama": "1860-1896 Batı ile tanışma. \"İlk\"ler garantili. I. dönem (toplumcu) + II. dönem (bireyci).",
+  "mebi_pages": "60-64 + 127-130 + 153-157"
+ },
+ {
+  "code": "soz_sanatlari",
+  "slug": "soz_sanatlari",
+  "title": "Söz Sanatları",
+  "toplam": 10,
+  "alt_basliklar": 6,
+  "oncelik": "YÜKSEK",
+  "kisa_aciklama": "Benzetme, istiare, mecaz-ı mürsel, teşhis, tezat, tenasüp, tevriye, telmih, hüsn-i talil.",
+  "mebi_pages": "22-25"
+ },
+ {
+  "code": "servet_i_funun_fecr_i_ati",
+  "slug": "servet-i-funun",
+  "title": "Servet-i Fünun / Fecr-i Âti",
+  "toplam": 9,
+  "alt_basliklar": 3,
+  "oncelik": "YÜKSEK",
+  "kisa_aciklama": "1896-1912. Halit Ziya (roman), Tevfik Fikret/Cenap Şahabettin (şiir), Ahmet Haşim (Fecr-i Âti).",
+  "mebi_pages": "65-69 + 131-133"
+ },
+ {
+  "code": "masal_fabl_destan",
+  "slug": "masal-fabl-destan",
+  "title": "Masal / Fabl / Destan / Halk Hikâyesi",
+  "toplam": 8,
+  "alt_basliklar": 4,
+  "oncelik": "ORTA",
+  "kisa_aciklama": "Destan oluşum aşamaları (sürekli sorulan), Masal bölümleri, Fabl (Ezop, La Fontaine), Halk hikayesi.",
+  "mebi_pages": "165-171 (+ 107-108)"
+ },
+ {
+  "code": "edebi_akimlar",
+  "slug": "edebi_akimlar",
+  "title": "Edebi Akımlar",
+  "toplam": 8,
+  "alt_basliklar": 4,
+  "oncelik": "KESİN (her yıl 1)",
+  "kisa_aciklama": "9 ana akım: klasisizm, romantizm, realizm, natüralizm, parnasizm, sembolizm, fütürizm, dadaizm, sürrealizm.",
+  "mebi_pages": "186-190"
+ },
+ {
+  "code": "halk_edebiyati",
+  "slug": "halk_edebiyati",
+  "title": "Halk Edebiyatı",
+  "toplam": 6,
+  "alt_basliklar": 3,
+  "oncelik": "YÜKSEK (2025 boş)",
+  "kisa_aciklama": "Anonim + Aşık (koşma türleri: güzelleme/koçaklama/taşlama/ağıt) + Tekke (Yunus, Pir Sultan, Kaygusuz). 2026 için güçlü aday.",
+  "mebi_pages": "30-43"
+ },
+ {
+  "code": "milli_edebiyat",
+  "slug": "milli_edebiyat",
+  "title": "Milli Edebiyat",
+  "toplam": 5,
+  "alt_basliklar": 3,
+  "oncelik": "ORTA",
+  "kisa_aciklama": "1911-1923. Ömer Seyfettin (hikaye), Yakup Kadri/Reşat Nuri/Halide Edip (roman), Genç Kalemler.",
+  "mebi_pages": "70-74 + 112-113 + 134-136"
+ },
+ {
+  "code": "islamiyet_oncesi_gecis",
+  "slug": "islamiyet-oncesi-gecis",
+  "title": "İslamiyet Öncesi / Geçiş Dönemi",
+  "toplam": 4,
+  "alt_basliklar": 3,
+  "oncelik": "YÜKSEK (yükselişte)",
+  "kisa_aciklama": "Sözlü dönem (koşuk/sagu/sav) + Geçiş 4 büyük eser (Kutadgu Bilig, Divânü Lügat, Atabet, Divan-ı Hikmet).",
+  "mebi_pages": "26-29"
+ },
+ {
+  "code": "geleneksel_tiyatro",
+  "slug": "geleneksel-tiyatro",
+  "title": "Geleneksel Türk Tiyatrosu",
+  "toplam": 4,
+  "alt_basliklar": 4,
+  "oncelik": "DÜŞÜK (2025 geldi)",
+  "kisa_aciklama": "Karagöz (gölge oyunu), Orta Oyunu (Pişekar-Kavuklu), Meddah, Köy Seyirlik.",
+  "mebi_pages": "149-152"
+ }
+]
