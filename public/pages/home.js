@@ -24,15 +24,13 @@ export async function renderHome() {
   const errorCount = s.hata_defteri.length;
   const customCount = s.custom_kartlar.length;
 
-  // Daily Hero
+  // Daily Hero — REV6: her sayfa açılışta farklı yazar
   const hero = dailyHero(authors, allCards);
   const heroAuthor = hero.author;
   const heroCard = hero.miniCard;
   const heroSlug = heroAuthor ? slugify(heroAuthor.name) : '';
   const heroTheme = heroAuthor ? periodTheme(heroAuthor.donem || heroAuthor.konular?.[0]) : null;
-  const todayKey = hero.key;
-  const heroSeen = s.daily_hero?.seen?.[todayKey];
-  const heroAnswered = !!heroSeen?.answered;
+  const heroAnswered = false;  // her açılışta yeni soru
 
   // Streak
   const sk = streakInfo();
@@ -41,6 +39,11 @@ export async function renderHome() {
   const streakColor = sk.status === 'active_today' ? 'text-ok-500' : sk.status === 'at_risk' ? 'text-warn-500' : sk.status === 'broken' ? 'text-slate-400' : 'text-slate-400';
 
   window.__pageSetup = () => {
+    // Yenile butonu — sayfayı tekrar render
+    document.getElementById('heroReroll')?.addEventListener('click', () => {
+      // hashchange tetiklemek için tek manuel re-render
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
     // Daily Hero mini quiz inline cevap
     const opts = document.querySelectorAll('[data-hero-opt]');
     let answered = heroAnswered;
@@ -58,13 +61,6 @@ export async function renderHome() {
         updateProgress(heroCard.id, isCorrect);
         recordSrs(heroCard.id, isCorrect);
         const streakRes = tickStreak();
-
-        // Daily hero seen kaydı
-        const st = loadState();
-        if (!st.daily_hero) st.daily_hero = { seen: {} };
-        st.daily_hero.seen[todayKey] = { authorSlug: heroSlug, miniQuizCardId: heroCard.id, answered: true, isCorrect };
-        // saveState
-        try { localStorage.setItem('edebiyat-state-v1', JSON.stringify(st)); } catch(e){}
 
         document.getElementById('heroFeedback')?.classList.remove('hidden');
 
@@ -99,8 +95,9 @@ export async function renderHome() {
         ${heroAuthor ? `
           <div class="rounded-2xl overflow-hidden ${heroTheme.bg} border-2 border-slate-200 dark:border-slate-700">
             <div class="p-5">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-xs font-bold uppercase tracking-wider ${heroTheme.text} opacity-80">★ Bugünün Yazarı</span>
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="text-xs font-bold uppercase tracking-wider ${heroTheme.text} opacity-80">★ Şu Anki Yazar</span>
+                <button id="heroReroll" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-bold hover:bg-white">🔄 Yenile</button>
               </div>
               <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-2">${heroAuthor.name}</h2>
               <div class="flex flex-wrap gap-2 mb-3">
@@ -183,14 +180,16 @@ export async function renderHome() {
     </section>
     ` : ''}
 
-    <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 max-w-5xl mx-auto">
+    <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-6xl mx-auto">
       ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
       ${shortcut('konular', '📚', '13 Konu', 'Öğretim + ezber', 'primary')}
       ${shortcut('yazarlar', '👤', '85 Yazar', 'Trading kartlar', 'primary')}
+      ${shortcut('eserler', '📖', 'Eserler', '251 eser', 'primary')}
+      ${shortcut('gruplar', '👥', 'Gruplar', 'Garip, II. Yeni...', 'primary')}
       ${shortcut('koleksiyon', '🎴', 'Koleksiyon', 'Kaç tanıdın?', 'accent')}
       ${shortcut('tahminler', '🔮', 'Tahminler', '2026 boşluk', 'primary')}
       ${shortcut('program', '📅', 'Program', '4 haftalık', 'primary')}
-      ${shortcut('sozluk', '📖', 'Sözlük', 'Akım/eser', 'primary')}
+      ${shortcut('sozluk', '📓', 'Sözlük', 'Akım/eser', 'primary')}
       ${shortcut('kartlar', '🃏', 'Kartlar', `${allCards.length} kart`, 'primary')}
       ${shortcut('istatistik', '📊', 'İstatistik', 'İlerleme grafiği', 'primary')}
       ${shortcut('ayarlar', '⚙️', 'Ayarlar', 'Tema, sıfırla', 'primary')}

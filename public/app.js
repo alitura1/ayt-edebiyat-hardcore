@@ -11,7 +11,12 @@ import { renderStats } from './pages/stats.js';
 import { renderSettings } from './pages/settings.js';
 import { renderAtis } from './pages/atis.js';
 import { renderCollection } from './pages/collection.js';
+import { renderWorkList, renderWorkDetail } from './pages/works.js';
+import { renderGroupList, renderGroupDetail } from './pages/groups.js';
+import { renderLogin, renderRegister, renderProfile } from './pages/auth.js';
 import { streakInfo, currentBadge } from './lib/streak.js';
+import { initSync, scheduleSync, currentSyncUid } from './lib/sync.js';
+import { startNotifyScheduler } from './lib/notify.js';
 
 // ---- Tema ----
 const themeKey = 'edebiyat-theme';
@@ -86,6 +91,20 @@ async function render() {
       html = await renderAtis();
     } else if (parts[0] === 'koleksiyon') {
       html = await renderCollection();
+    } else if (parts[0] === 'eserler' && !parts[1]) {
+      html = await renderWorkList();
+    } else if (parts[0] === 'eserler' && parts[1]) {
+      html = await renderWorkDetail(parts[1]);
+    } else if (parts[0] === 'gruplar') {
+      html = await renderGroupList();
+    } else if (parts[0] === 'grup' && parts[1]) {
+      html = await renderGroupDetail(parts[1]);
+    } else if (parts[0] === 'giris') {
+      html = await renderLogin();
+    } else if (parts[0] === 'kayit') {
+      html = await renderRegister();
+    } else if (parts[0] === 'hesap') {
+      html = await renderProfile();
     } else {
       html = notFound();
     }
@@ -105,6 +124,8 @@ async function render() {
 
   // REV5 — global streak rozeti güncelle
   updateStreakBadge();
+  // REV6 — auth rozetini güncelle
+  updateAuthBadge();
 
   // Bazı sayfaların post-render setup callback'i olabilir
   if (window.__pageSetup) {
@@ -134,5 +155,28 @@ function updateStreakBadge() {
 window.addEventListener('hashchange', render);
 window.addEventListener('DOMContentLoaded', () => {
   initTheme();
+  // REV6 — Cloud sync init (Firebase yüklenir, login varsa pull yapar)
+  window.__syncHook = scheduleSync;
+  initSync().catch(e => console.warn('sync init err', e));
+  startNotifyScheduler();
+  // Auth state değişince re-render (header auth göstergesi)
+  window.addEventListener('authchange', () => {
+    updateAuthBadge();
+  });
   render();
 });
+
+function updateAuthBadge() {
+  const el = document.getElementById('authBadge');
+  if (!el) return;
+  const uid = currentSyncUid();
+  if (uid) {
+    el.innerHTML = '<span class="text-ok-500">☁️</span><span class="hidden md:inline ml-1">Hesabım</span>';
+    el.href = '#/hesap';
+    el.title = 'Cloud sync aktif';
+  } else {
+    el.innerHTML = '<span>🔐</span><span class="hidden md:inline ml-1">Giriş</span>';
+    el.href = '#/giris';
+    el.title = 'Cihazlar arası sync için giriş yap';
+  }
+}

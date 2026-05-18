@@ -47,6 +47,12 @@ export function saveState(state) {
   } catch (e) {
     console.error('State save failed:', e);
   }
+  // REV6 — Cloud sync (login varsa debounced push)
+  try {
+    if (typeof window !== 'undefined' && window.__syncHook) {
+      window.__syncHook();
+    }
+  } catch(e) { /* ignore */ }
 }
 
 export function updateProgress(cardId, isCorrect) {

@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "bes-hececiler",
+    "ad": "Beş Hececiler",
+    "donem": "cumhuriyet",
+    "kurulus": "1914-1920'ler",
+    "manifesto": "Aruzu bırakıp HECE veznine dönüş, milli tema, sade Türkçe, Anadolu sevdası. Milli Edebiyat ruhunu Cumhuriyet'e taşıyan beşli.",
+    "uyeler": ["Faruk Nafiz Çamlıbel", "Yusuf Ziya Ortaç", "Orhan Seyfi Orhon", "Enis Behiç Koryürek", "Halit Fahri Ozansoy"],
+    "ortak_ozellikler": [
+      "Hece vezni kullanırlar (genelde 11'li veya 7-7'li)",
+      "Sade Türkçe (Milli Edebiyat'ın dil sadeleşmesini sürdürürler)",
+      "Anadolu/milli tema (Cumhuriyet ulus-devlet ruhu)",
+      "Bireysel duygular + memleket sevdası",
+      "Cumhuriyet'in ilk kuşak şairleri (1920'ler)"
+    ],
+    "marka_eserler": [
+      "Faruk Nafiz Çamlıbel — Han Duvarları (Anadolu manifestosu)",
+      "Yusuf Ziya Ortaç — Akbaba mizah dergisi sahibi",
+      "Orhan Seyfi Orhon — Anadolu Toprağı",
+      "Enis Behiç Koryürek — Gemiciler (deniz teması, sıradışı)",
+      "Halit Fahri Ozansoy — Cenk Duyguları"
+    ],
+    "klasik_tuzak": "Beş Hececiler ↔ Yedi Meşaleciler en sık karıştırılan iki grup. Beş Hececiler 1920'ler memleket şiiri, milli tema, geleneksel; Yedi Meşaleciler 1928 sonrası Batı'ya yönelim, daha bireysel + sembolist."
+  },
+  {
+    "slug": "garip",
+    "ad": "Garip Akımı (I. Yeni)",
+    "donem": "cumhuriyet",
+    "kurulus": "1941",
+    "manifesto": "Şiirden VEZİN, KAFİYE, MECAZ, YÜKSEK ÜSLUP atıldı. Gündelik dilin şiirleşmesi. Sıradan adam + günlük yaşam. 1941'de yayımlanan 'Garip' antolojisi manifestoları.",
+    "uyeler": ["Orhan Veli Kanık", "Melih Cevdet Anday", "Oktay Rifat Horozcu"],
+    "ortak_ozellikler": [
+      "Vezin yok, kafiye yok, serbest nazım",
+      "Mecaz/imge yok — gündelik düz dil",
+      "'Şair olmayan adam' söylemi (anti-elit)",
+      "Sıradan insan + ironi + mizah",
+      "Manifesto yayını: 'Garip' (1941)"
+    ],
+    "marka_eserler": [
+      "Orhan Veli — Bedava, Anlatamıyorum, İstanbul'u Dinliyorum",
+      "Melih Cevdet — Rahatı Kaçacak Adamın",
+      "Oktay Rifat — Perçemli Sokak (sonradan İkinci Yeni'ye yakınlaşır)"
+    ],
+    "klasik_tuzak": "Garip ↔ Nazım Hikmet karıştırma. İkisi de serbest nazım kullanır. Nazım Hikmet TOPLUMCU + destansı; Garip BİREYCİ + günlük dil. Garip Üçlüsü'nde lider Orhan Veli'dir, Nazım Hikmet bu üçlüye dahil değil."
+  },
+  {
+    "slug": "ikinci-yeni",
+    "ad": "İkinci Yeni",
+    "donem": "cumhuriyet",
+    "kurulus": "1950'ler ortası",
+    "manifesto": "Garip'in sade diline TEPKİ. Karmaşık imge, soyutlama, anlam katmanları. Şiir 'anlaşılması gereken' bir nesne değil 'hissedilen' bir varlık.",
+    "uyeler": ["Cemal Süreya", "Turgut Uyar", "Edip Cansever", "Ece Ayhan", "İlhan Berk", "Sezai Karakoç"],
+    "ortak_ozellikler": [
+      "Karmaşık imge + soyut anlam",
+      "Anti-Garip — yüksek üslup, mecaz yoğun",
+      "Sürrealist + sembolist etki",
+      "Bireysel iç dünya, varoluşçu temalar",
+      "İlk metinleri 1950'lerin ikinci yarısında"
+    ],
+    "marka_eserler": [
+      "Cemal Süreya — Üvercinka (aşkın şiiri)",
+      "Turgut Uyar — Tutsak, Toplandılar",
+      "Edip Cansever — Yerçekimli Karanfil (eşya şiiri)",
+      "Ece Ayhan — Bakışsız Bir Kedi Kara (sivil şiir)",
+      "İlhan Berk — somut şiir, deneysel",
+      "Sezai Karakoç — Mona Roza (sonra Diriliş ekolüne geçti)"
+    ],
+    "klasik_tuzak": "İkinci Yeni'nin lideri tek bir kişi DEĞİLDİR (Garip'in Orhan Veli'si gibi). Hepsi bağımsız. Sezai Karakoç sonra ayrılır → Diriliş ekolü. Karıştırma: Ece Ayhan 'sivil şiir' özel terimi, başkasında yok."
+  },
+  {
+    "slug": "yedi-mesale",
+    "ad": "Yedi Meşaleciler",
+    "donem": "cumhuriyet",
+    "kurulus": "1928",
+    "manifesto": "Beş Hececiler'in memleket şiirine TEPKİ. Daha SANATSAL, BİREYSEL, SEMBOLİST tema. 'Canlılık, samimiyet, daima yenilik'.",
+    "uyeler": ["Sabri Esat Siyavuşgil", "Cevdet Kudret Solok", "Vasfi Mahir Kocatürk", "Ziya Osman Saba", "Yaşar Nabi Nayır", "Muammer Lütfi Bahşi", "Kenan Hulusi Koray"],
+    "ortak_ozellikler": [
+      "Beş Hececiler'in memleket konusuna tepki — Batı'ya yönelim",
+      "Sembolist + impresyonist etkiler",
+      "Daha bireysel/lirik temalar",
+      "Hece vezniyle yazsalar da daha esnek",
+      "1928'de 'Yedi Meşale' adlı şiir kitabı manifesto"
+    ],
+    "marka_eserler": [
+      "Ziya Osman Saba — Sebil ve Güvercinler",
+      "Yaşar Nabi Nayır — Varlık dergisi sahibi (Türk edebiyatı için kritik)",
+      "Cevdet Kudret Solok — Türk Edebiyatında Hikaye ve Roman tarihçesi"
+    ],
+    "klasik_tuzak": "Beş Hececiler ↔ Yedi Meşaleciler EN SIK KARIŞTIRILAN İKİ GRUP. Beş Hececiler 1920'ler memleket+millet, Yedi Meşaleciler 1928 sonrası Batı+birey+sembolizm. Sayı (5 vs 7) bile akılda kalır."
+  },
+  {
+    "slug": "hisarcilar",
+    "ad": "Hisarcılar",
+    "donem": "cumhuriyet",
+    "kurulus": "1950 (Hisar dergisi)",
+    "manifesto": "İkinci Yeni'nin anlamsızlık'ına karşı GELENEĞİN savunması. Klasik Türk şiirinin (Yahya Kemal-Faruk Nafiz çizgisinin) Cumhuriyet'teki devamı.",
+    "uyeler": ["Mehmet Çınarlı", "Munis Faik Ozansoy", "İlhan Geçer", "Gültekin Samanoğlu", "Nüzhet Erman"],
+    "ortak_ozellikler": [
+      "Gelenekçi (Yahya Kemal mirası)",
+      "Anlam + biçim dengesi",
+      "Memleket teması (Beş Hececiler'in çizgisi)",
+      "İkinci Yeni'nin karmaşıklığına direnç",
+      "'Hisar' dergisi (1950) çevresinde"
+    ],
+    "marka_eserler": [
+      "Mehmet Çınarlı — Hisar dergisi yönetimi",
+      "Munis Faik Ozansoy — şiir + eleştiri"
+    ],
+    "klasik_tuzak": "Hisarcılar = İkinci Yeni'nin KARŞIT GRUBU. Aynı dönem (1950'ler) ama tam zıt estetik. Yahya Kemal mirası vs. Cemal Süreya/Turgut Uyar yeniliği."
+  },
+  {
+    "slug": "dirilis",
+    "ad": "Diriliş Ekolü",
+    "donem": "cumhuriyet",
+    "kurulus": "1960 sonrası",
+    "manifesto": "İslamcı + mistik + medeniyetçi şiir. Necip Fazıl'ın yolunda. 'İslam medeniyetinin dirilmesi' düşüncesi.",
+    "uyeler": ["Sezai Karakoç", "Cahit Zarifoğlu", "Erdem Bayazıt", "İsmet Özel (erken dönem)"],
+    "ortak_ozellikler": [
+      "Mistik + İslamcı tema",
+      "İslam medeniyetinin 'diriliş' tezi",
+      "Sezai Karakoç'un 'Diriliş' dergisi (1960)",
+      "İkinci Yeni'nin imge tekniğini İslamcı içerikle birleştirir",
+      "Necip Fazıl'ın halefi"
+    ],
+    "marka_eserler": [
+      "Sezai Karakoç — Mona Roza, Hızırla Kırk Saat, Sürgün Ülkeden Başkentler Başkentine",
+      "Cahit Zarifoğlu — İşaret Çocukları",
+      "Erdem Bayazıt — Sebep Ey"
+    ],
+    "klasik_tuzak": "Necip Fazıl ↔ Sezai Karakoç ↔ Cahit Zarifoğlu — üçü de mistik/İslamcı. Necip Fazıl ÖNCÜ + Büyük Doğu, Sezai Karakoç DİRİLİŞ EKOLÜ kurucusu, Cahit Zarifoğlu ardıl."
+  },
+  {
+    "slug": "tanzimat-1",
+    "ad": "Tanzimat I. Dönem",
+    "donem": "tanzimat",
+    "kurulus": "1860-1876",
+    "manifesto": "Batılılaşma + halka inme + yeniliklerin tanıtımı. Sanat halk için + topluma faydalı edebiyat.",
+    "uyeler": ["Şinasi", "Namık Kemal", "Ziya Paşa", "Ahmet Mithat Efendi", "Şemsettin Sami"],
+    "ortak_ozellikler": [
+      "Batılılaşma misyonu",
+      "Sanat toplum için (toplumsal fayda)",
+      "Sade Türkçe denemeleri",
+      "Tiyatro, gazete, roman gibi YENİ türler",
+      "Hürriyet + vatan + adalet temaları"
+    ],
+    "marka_eserler": [
+      "Şinasi — Şair Evlenmesi (ilk Batı tarzı oyun), Tercüman-ı Ahval (ilk özel gazete)",
+      "Namık Kemal — İntibah (ilk edebi roman), Vatan yahut Silistre (oyun)",
+      "Ziya Paşa — Terkib-i Bend, Şiir ve İnşa makalesi",
+      "Ahmet Mithat — Felatun Bey ile Rakım Efendi (Doğu-Batı çatışması)",
+      "Şemsettin Sami — Taaşşuk-ı Talat ve Fitnat (ilk Türk romanı)"
+    ],
+    "klasik_tuzak": "Tanzimat I. dönem ↔ II. dönem karıştırma. I. dönem TOPLUMCU, sade, hürriyet vurgusu (Şinasi-Namık Kemal-Ziya Paşa); II. dönem BİREYCİ, sanatsal, romantik (Recaizade-Hamit-Sezai)."
+  },
+  {
+    "slug": "tanzimat-2",
+    "ad": "Tanzimat II. Dönem",
+    "donem": "tanzimat",
+    "kurulus": "1876-1896",
+    "manifesto": "Sanat sanat için. Bireysel duygular, romantizm + realizm denemeleri. Siyasi sansür yoğun → şiirde içe çekilme.",
+    "uyeler": ["Recaizade Mahmut Ekrem", "Abdülhak Hamit Tarhan", "Muallim Naci", "Samipaşazade Sezai", "Nabizade Nazım"],
+    "ortak_ozellikler": [
+      "Sanat sanat için (bireysel, estetik)",
+      "Romantizm + realizm denemeleri",
+      "II. Abdülhamit dönemi siyasi sansür → içsel temalar",
+      "Yeni şiir biçimleri (Hamit ile Batı'ya açılım)",
+      "İlk realist roman (Nabizade — Karabibik, ilk köy romanı)"
+    ],
+    "marka_eserler": [
+      "Recaizade — Araba Sevdası (ilk realist roman), Zemzeme",
+      "Abdülhak Hamit — Makber (romantik feryat), Eşber/Tezer oyunları",
+      "Muallim Naci — Demdeme (Recaizade'nin Zemzeme'sine cevap)",
+      "Samipaşazade Sezai — Sergüzeşt",
+      "Nabizade Nazım — Karabibik (ilk köy romanı), Zehra"
+    ],
+    "klasik_tuzak": "RECAİZADE ↔ MUALLİM NACİ kapışması: 'Zemzeme' (Recaizade, yeni şiir manifestosu) ↔ 'Demdeme' (Naci, eski şiir savunması). Türk edebiyatının en ünlü polemiği."
+  },
+  {
+    "slug": "servet-i-funun",
+    "ad": "Servet-i Fünun (Edebiyat-ı Cedide)",
+    "donem": "servet_i_funun_fecr_i_ati",
+    "kurulus": "1896-1901",
+    "manifesto": "Sanat sanat için. Batılı (Fransız) teknikler. Tevfik Fikret + Halit Ziya merkez. Servet-i Fünun dergisinde toplandılar.",
+    "uyeler": ["Tevfik Fikret", "Halit Ziya Uşaklıgil", "Mehmet Rauf", "Cenap Şahabettin", "Hüseyin Cahit Yalçın", "Süleyman Nazif"],
+    "ortak_ozellikler": [
+      "Sanat sanat için (Tanzimat II. dönem felsefesinin devamı)",
+      "Aruz vezni (geleneksel, ama Batılı tema)",
+      "Lirik/sembolik şiir (Fransız parnasizm + sembolizm etkisi)",
+      "İlk büyük PSİKOLOJİK roman (Eylül, Aşk-ı Memnu)",
+      "Süslü/sanatlı dil (Arapça-Farsça yoğun)",
+      "1901'de Hüseyin Cahit'in 'Edebiyat ve Hukuk' makalesi yüzünden kapatıldı"
+    ],
+    "marka_eserler": [
+      "Tevfik Fikret — Rübab-ı Şikeste, Sis, Hân-ı Yağma",
+      "Halit Ziya — Mai ve Siyah, Aşk-ı Memnu, Kırık Hayatlar",
+      "Mehmet Rauf — Eylül (ilk psikolojik roman tartışmasında)",
+      "Cenap Şahabettin — Elhân-ı Şitâ",
+      "Hüseyin Cahit — Hayal İçinde, Kavgalarım"
+    ],
+    "klasik_tuzak": "AŞK-I MEMNU (Halit Ziya) ↔ EYLÜL (Mehmet Rauf) — ikisi de SF + ilk psikolojik roman tartışmasında. Karıştırma TUZAĞI."
+  },
+  {
+    "slug": "genc-kalemler",
+    "ad": "Genç Kalemler",
+    "donem": "milli_edebiyat",
+    "kurulus": "1911 (Selanik)",
+    "manifesto": "DİL SADELEŞMESİ + milli kültür + hece vezni. 'Yeni Lisan' makalesi (Ömer Seyfettin) → Milli Edebiyat'ın doğuş manifestosu.",
+    "uyeler": ["Ömer Seyfettin", "Ali Canip Yöntem", "Ziya Gökalp", "Mehmet Emin Yurdakul (etkili)"],
+    "ortak_ozellikler": [
+      "Sade Türkçe (Arapça-Farsça arınması)",
+      "Hece vezni",
+      "Milli tema + halk kültürü",
+      "'Yeni Lisan' (1911) makalesi manifestosu",
+      "Selanik'te Genç Kalemler dergisi"
+    ],
+    "marka_eserler": [
+      "Ömer Seyfettin — Falaka, Bomba, Pembe İncili Kaftan, Kaşağı (hikayeleri)",
+      "Ali Canip — Genç Kalemler dergisi eleştirmeni",
+      "Ziya Gökalp — Türkçülüğün Esasları, Kızıl Elma"
+    ],
+    "klasik_tuzak": "Genç Kalemler ≠ Beş Hececiler. Genç Kalemler MİLLİ EDEBİYAT ÇEKİRDEĞİ (1911, dil manifestosu), Beş Hececiler CUMHURİYET DEVRİ (1920'ler, hece + memleket). Aralarında 10 yıl var ve Genç Kalemler ÖNCÜ."
+  }
+]

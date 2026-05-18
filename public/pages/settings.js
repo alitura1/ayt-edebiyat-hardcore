@@ -1,4 +1,6 @@
-import { exportAll, importAll, resetAll, loadState } from '../lib/store.js';
+import { exportAll, importAll, resetAll, loadState, saveState } from '../lib/store.js';
+import { resetHeroHistory } from '../lib/daily.js';
+import { notifyPermissionStatus, requestNotifyPermission, showLocalNotification } from '../lib/notify.js';
 
 export async function renderSettings() {
   window.__pageSetup = () => {
@@ -24,14 +26,86 @@ export async function renderSettings() {
       reader.readAsText(file);
     });
     document.getElementById('btnReset')?.addEventListener('click', resetAll);
+    document.getElementById('btnResetHero')?.addEventListener('click', () => {
+      resetHeroHistory();
+      alert('Şu Anki Yazar geçmişi temizlendi.');
+    });
+
+    // Bildirim ayarları
+    const notifyToggle = document.getElementById('notifyToggle');
+    notifyToggle?.addEventListener('change', async (e) => {
+      if (e.target.checked) {
+        const p = await requestNotifyPermission();
+        if (p !== 'granted') {
+          e.target.checked = false;
+          alert('Bildirim izni reddedildi.');
+          return;
+        }
+        const s = loadState();
+        s.notify = s.notify || { enabled: true, hours: [18, 21] };
+        s.notify.enabled = true;
+        saveState(s);
+      } else {
+        const s = loadState();
+        s.notify = s.notify || { enabled: false, hours: [18, 21] };
+        s.notify.enabled = false;
+        saveState(s);
+      }
+    });
+    document.getElementById('btnTestNotify')?.addEventListener('click', () => {
+      showLocalNotification('🎯 Test bildirimi', { body: 'Bildirim sistemi çalışıyor!' });
+    });
+    document.querySelectorAll('input[name="notifyHour"]').forEach(el => {
+      el.addEventListener('change', () => {
+        const checked = [...document.querySelectorAll('input[name="notifyHour"]:checked')].map(x => parseInt(x.value, 10));
+        const s = loadState();
+        s.notify = s.notify || { enabled: false, hours: [] };
+        s.notify.hours = checked;
+        saveState(s);
+      });
+    });
   };
 
   const state = loadState();
+  const notifyState = state.notify || { enabled: false, hours: [18, 21] };
+  const notifyPerm = notifyPermissionStatus();
+  const hourOpts = [8, 12, 15, 18, 21];
+
   return `
     <header class="mb-6">
       <h1 class="text-3xl font-bold mb-1">⚙️ Ayarlar</h1>
     </header>
     <div class="space-y-4 max-w-xl">
+      <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4">
+        <h3 class="font-bold mb-2">🔔 Bildirimler</h3>
+        <p class="text-sm text-slate-500 mb-3">Tarayıcı bildirimi — sekme açıkken belirli saatlerde hatırlatma. ${notifyPerm === 'unsupported' ? '<span class="text-accent-500">(Tarayıcı desteklemiyor)</span>' : ''}</p>
+        <label class="flex items-center gap-2 mb-3">
+          <input id="notifyToggle" type="checkbox" ${notifyState.enabled && notifyPerm === 'granted' ? 'checked' : ''} ${notifyPerm === 'unsupported' ? 'disabled' : ''} class="w-4 h-4" />
+          <span class="text-sm font-semibold">Bildirimleri aç</span>
+        </label>
+        <div class="text-xs text-slate-500 mb-1">Hatırlatma saatleri:</div>
+        <div class="flex flex-wrap gap-2 mb-3">
+          ${hourOpts.map(h => `
+            <label class="flex items-center gap-1 text-sm">
+              <input type="checkbox" name="notifyHour" value="${h}" ${notifyState.hours?.includes(h) ? 'checked' : ''} class="w-3 h-3" />
+              <span>${String(h).padStart(2, '0')}:00</span>
+            </label>
+          `).join('')}
+        </div>
+        <button id="btnTestNotify" class="text-xs bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 px-3 py-1 rounded">Test bildirimi</button>
+      </section>
+
+      <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4">
+        <h3 class="font-bold mb-2">☁️ Cloud Sync</h3>
+        <p class="text-sm text-slate-500 mb-3">Cihazlar arası ilerleme senkronizasyonu. <a href="#/giris" class="text-primary-700 dark:text-primary-100 underline">Giriş yap</a> veya <a href="#/hesap" class="text-primary-700 dark:text-primary-100 underline">hesabı gör</a>.</p>
+      </section>
+
+      <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4">
+        <h3 class="font-bold mb-2">⭐ Şu Anki Yazar Geçmişi</h3>
+        <p class="text-sm text-slate-500 mb-3">Daily Hero son 40 yazarı tekrar etmemek için akılda tutar. Geçmişi temizlersen tüm yazarlar tekrar gelir.</p>
+        <button id="btnResetHero" class="text-xs bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 px-3 py-1 rounded">Geçmişi sıfırla</button>
+      </section>
+
       <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4">
         <h3 class="font-bold mb-2">Veri Yedekleme</h3>
         <p class="text-sm text-slate-500 mb-3">Tüm ilerleme, hata defteri ve özel kartları JSON olarak indir/yükle. Cihazlar arası taşıma için.</p>

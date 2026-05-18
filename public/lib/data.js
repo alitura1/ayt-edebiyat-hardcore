@@ -19,14 +19,30 @@ async function loadText(path) {
   return txt;
 }
 
+async function loadCardsCombined() {
+  // 554 otomatik + 80 alıntı kartı tek havuzda
+  const auto = await loadJSON('./data/cards-auto.json');
+  let alinti = [];
+  try { alinti = await loadJSON('./data/cards-alinti.json'); } catch(e) { /* opsiyonel */ }
+  return [...auto, ...alinti];
+}
+
 export const Data = {
-  cards: () => loadJSON('./data/cards-auto.json'),
+  cards: () => {
+    if (!cache.has('__combined_cards__')) {
+      cache.set('__combined_cards__', loadCardsCombined());
+    }
+    return cache.get('__combined_cards__');
+  },
   topicsIndex: () => loadJSON('./data/topics-index.json'),
   topicHTML: (slug) => loadText(`./data/topics/${slug}.html`),
   authors: () => loadJSON('./data/authors.json'),
   predictions: () => loadJSON('./data/predictions.json'),
   program: () => loadJSON('./data/program.json'),
   glossary: () => loadJSON('./data/glossary.json'),
+  cikmis: () => loadJSON('./data/cikmis-sorular.json'),
+  works: () => loadJSON('./data/works.json'),
+  groups: () => loadJSON('./data/groups.json'),
 };
 
 // Etiketler

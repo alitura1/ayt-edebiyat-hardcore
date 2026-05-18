@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "alinti_000",
+    "konu": "divan_edebiyati",
+    "alt_konu": "fuzuli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Aşk derdiyle hoşem el-çek ilacımdan tabip / Kılma derman kim helakim zehri dermânındadır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nedim"
+      },
+      {
+        "id": "B",
+        "text": "Hayali Bey"
+      },
+      {
+        "id": "C",
+        "text": "Şeyhi"
+      },
+      {
+        "id": "D",
+        "text": "Süleyman Çelebi"
+      },
+      {
+        "id": "E",
+        "text": "Fuzuli"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Fuzuli'nin marka beyti — aşk acısını redderek tabibin ilacını istemiyor. Tasavvufi aşk vurgusu.",
+    "tuzak": "Baki ile karıştırma. İkisi de 16. yy + gazel ustası. Ama Fuzuli ACILI/tasavvufi/içsel; Baki ZARİF/dünyevi/saray şairi. 'Aşk derdi' Fuzuli; 'Kanunî Mersiyesi' Baki.",
+    "mebi_sayfa": "57",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_001",
+    "konu": "divan_edebiyati",
+    "alt_konu": "fuzuli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Saçma ey göz eşkten gönlümdeki odlare su / Kim bu denlü dutuşan odlara kılmaz çare su\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şeyhi"
+      },
+      {
+        "id": "B",
+        "text": "Hacı Bayram Veli"
+      },
+      {
+        "id": "C",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "D",
+        "text": "Necati Bey"
+      },
+      {
+        "id": "E",
+        "text": "Nedim"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Su Kasidesi'nin matla beyti — Hz. Muhammed'e methiye. Su redifli kaside.",
+    "tuzak": "Baki ile karıştırma. İkisi de 16. yy + gazel ustası. Ama Fuzuli ACILI/tasavvufi/içsel; Baki ZARİF/dünyevi/saray şairi. 'Aşk derdi' Fuzuli; 'Kanunî Mersiyesi' Baki.",
+    "mebi_sayfa": "57",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_002",
+    "konu": "divan_edebiyati",
+    "alt_konu": "fuzuli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Mende Mecnûn'dan füzûn âşıklık isti'dâdı var / Âşık-ı sâdık menem Mecnûn'un ancak adı var\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "B",
+        "text": "Hacı Bayram Veli"
+      },
+      {
+        "id": "C",
+        "text": "Necati Bey"
+      },
+      {
+        "id": "D",
+        "text": "Süleyman Çelebi"
+      },
+      {
+        "id": "E",
+        "text": "Nedim"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Fuzuli kendi aşkını Mecnun'unkinden üstün ilan eder — özgüvenli aşk söylemi.",
+    "tuzak": "Baki ile karıştırma. İkisi de 16. yy + gazel ustası. Ama Fuzuli ACILI/tasavvufi/içsel; Baki ZARİF/dünyevi/saray şairi. 'Aşk derdi' Fuzuli; 'Kanunî Mersiyesi' Baki.",
+    "mebi_sayfa": "57",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_003",
+    "konu": "divan_edebiyati",
+    "alt_konu": "baki",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Hayli demdir uşşaka feryâd ettiren / Sînesinde tîr-i âh u nâle-i bî-gâne'dir\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Süleyman Çelebi"
+      },
+      {
+        "id": "B",
+        "text": "Şeyhi"
+      },
+      {
+        "id": "C",
+        "text": "Hacı Bayram Veli"
+      },
+      {
+        "id": "D",
+        "text": "Şeyh Galip"
+      },
+      {
+        "id": "E",
+        "text": "Baki"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Baki'nin zarif/dünyevi gazel üslubu. Sultanü'ş-Şuara'nın imzası.",
+    "tuzak": "Fuzuli (içsel acı) vs Baki (dünyevi zarafet) — 16. yy'ın iki kutbu. 'Kanunî Mersiyesi' Baki imzası; 'Su Kasidesi' Fuzuli.",
+    "mebi_sayfa": "55",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_004",
+    "konu": "divan_edebiyati",
+    "alt_konu": "baki",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Ey pâyidar olan cihân-ı bî-vefâ-yı sad-firîb / Sen necm-i ikbâl-i Süleyman'ı niçin kıldın garîb\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nef'i"
+      },
+      {
+        "id": "B",
+        "text": "Baki"
+      },
+      {
+        "id": "C",
+        "text": "Şeyh Galip"
+      },
+      {
+        "id": "D",
+        "text": "Mevlana"
+      },
+      {
+        "id": "E",
+        "text": "Fuzuli"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Kanunî Mersiyesi'nden — Türk şiirinin en görkemli ağıtlarından.",
+    "tuzak": "Fuzuli (içsel acı) vs Baki (dünyevi zarafet) — 16. yy'ın iki kutbu. 'Kanunî Mersiyesi' Baki imzası; 'Su Kasidesi' Fuzuli.",
+    "mebi_sayfa": "55",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_005",
+    "konu": "divan_edebiyati",
+    "alt_konu": "nedim",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bir safâ bahşedelim gel şu dil-i nâ-şâda / Gidelim serv-i revânım yürü Sa'dâbâd'a\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şeyh Galip"
+      },
+      {
+        "id": "B",
+        "text": "Ahmedi"
+      },
+      {
+        "id": "C",
+        "text": "Nabi"
+      },
+      {
+        "id": "D",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "E",
+        "text": "Nedim"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Lale Devri'nin manifestosu. Mahallileşmenin zirvesi — İstanbul'un eğlence kültürü.",
+    "tuzak": "Mahallileşme = Nedim. Sebk-i hindi = Nabi/Şeyh Galip. Karıştırma. 'Sadabad' Nedim'in markası.",
+    "mebi_sayfa": "58",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_006",
+    "konu": "divan_edebiyati",
+    "alt_konu": "nedim",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bu şehr-i Stanbul ki bî-misl ü bahâdır / Bir sengine yekpâre Acem mülkü fedâdır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nedim"
+      },
+      {
+        "id": "B",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "C",
+        "text": "Hacı Bayram Veli"
+      },
+      {
+        "id": "D",
+        "text": "Mevlana"
+      },
+      {
+        "id": "E",
+        "text": "Necati Bey"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "İstanbul methiyesinin en bilinen mısraları — Acem ülkesini İstanbul'un tek taşına feda eder.",
+    "tuzak": "Mahallileşme = Nedim. Sebk-i hindi = Nabi/Şeyh Galip. Karıştırma. 'Sadabad' Nedim'in markası.",
+    "mebi_sayfa": "58",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_007",
+    "konu": "divan_edebiyati",
+    "alt_konu": "nef_i",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Tahir Efendi bana kelp demiş / İltifatı bu söz de zâhirdir / Mâlikî mezhebim benim zîrâ / İtikadımca kelb tâhirdir\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "B",
+        "text": "Şeyhi"
+      },
+      {
+        "id": "C",
+        "text": "Necati Bey"
+      },
+      {
+        "id": "D",
+        "text": "Hayali Bey"
+      },
+      {
+        "id": "E",
+        "text": "Nef'i"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Türk hiciv şiirinin marka beyiti — kelp ('köpek') ile Tahir adının cinası. Hicvin ustası.",
+    "tuzak": "Hiciv = Nef'i. 'Tahir Efendi bana kelp demiş' beyiti onun. Diğer 17. yy divan şairi Nabi DİDAKTİK, Nef'i KEÇİBOYNUZU.",
+    "mebi_sayfa": "58",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_008",
+    "konu": "divan_edebiyati",
+    "alt_konu": "seyh_galip",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bir şu'lesi var ki şem'-i cânın / Fânûsuna sığmaz âsumânın\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Necati Bey"
+      },
+      {
+        "id": "B",
+        "text": "Nef'i"
+      },
+      {
+        "id": "C",
+        "text": "Baki"
+      },
+      {
+        "id": "D",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "E",
+        "text": "Şeyh Galip"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Hüsn ü Aşk'tan — tasavvufi alegori. Şeyh Galip sebk-i hindi zirvesi.",
+    "tuzak": "Şeyhi (15. yy, Harname) ile karıştırma. İsim benzer ama 300 yıl arası. Şeyh GALİP tasavvufi alegori, Şeyhi mizahi mesnevi.",
+    "mebi_sayfa": "59",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_009",
+    "konu": "divan_edebiyati",
+    "alt_konu": "suleyman_celebi",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Allah adın zikr edelim evvelâ / Vâcib oldur cümle işte her kula\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Naili"
+      },
+      {
+        "id": "B",
+        "text": "Mevlana"
+      },
+      {
+        "id": "C",
+        "text": "Süleyman Çelebi"
+      },
+      {
+        "id": "D",
+        "text": "Şeyhi"
+      },
+      {
+        "id": "E",
+        "text": "Nedim"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Mevlid'in (Vesiletü'n-Necat) açılışı. Türkçedeki en yaygın dini mesnevi.",
+    "tuzak": "Mevlana ile karıştırma. Mevlana 13. yy + Farsça Mesnevi; Süleyman Çelebi 15. yy + Türkçe Mevlid. İkisi de mesnevi yazdı ama dil/dönem farkı.",
+    "mebi_sayfa": "54",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_010",
+    "konu": "halk_edebiyati",
+    "alt_konu": "yunus_emre",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Bir ben vardır bende benden içeri\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Bedri Rahmi Eyüboğlu"
+      },
+      {
+        "id": "B",
+        "text": "Hayali Bey"
+      },
+      {
+        "id": "C",
+        "text": "Ziya Paşa"
+      },
+      {
+        "id": "D",
+        "text": "Fazıl Hüsnü Dağlarca"
+      },
+      {
+        "id": "E",
+        "text": "Yunus Emre"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Yunus Emre'nin tasavvufi 'iç ben' mısraı — Türk düşüncesinin köşe taşı.",
+    "tuzak": "Mevlana ile karıştırma — ikisi de tasavvuf, ikisi de 13. yy. Mevlana FARSÇA + saray çevresi, Yunus TÜRKÇE + halk dili. Yunus dili 'sade', Mevlana 'gösterişli'.",
+    "mebi_sayfa": "42",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_011",
+    "konu": "halk_edebiyati",
+    "alt_konu": "yunus_emre",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Severim ben seni candan içeri / Yolum vardır bu erkândan içeri\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yunus Emre"
+      },
+      {
+        "id": "B",
+        "text": "Hacı Bayram Veli"
+      },
+      {
+        "id": "C",
+        "text": "Tevfik Fikret"
+      },
+      {
+        "id": "D",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "E",
+        "text": "Pınar Kür"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Yunus'un sade Türkçe tasavvufi aşk söylemi. Halk dili + ilahi aşk.",
+    "tuzak": "Mevlana ile karıştırma — ikisi de tasavvuf, ikisi de 13. yy. Mevlana FARSÇA + saray çevresi, Yunus TÜRKÇE + halk dili. Yunus dili 'sade', Mevlana 'gösterişli'.",
+    "mebi_sayfa": "42",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_012",
+    "konu": "halk_edebiyati",
+    "alt_konu": "yunus_emre",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Çıktım erik dalına anda yedim üzümü / Bostan ıssı kakıyıp der ne yersin kozumu\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Halit Fahri Ozansoy"
+      },
+      {
+        "id": "B",
+        "text": "Tevfik Fikret"
+      },
+      {
+        "id": "C",
+        "text": "Yusuf Ziya Ortaç"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Vefik Paşa"
+      },
+      {
+        "id": "E",
+        "text": "Yunus Emre"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Şathiye türünün ünlü örneği — tasavvufi soyutlama, simgesel söz.",
+    "tuzak": "Mevlana ile karıştırma — ikisi de tasavvuf, ikisi de 13. yy. Mevlana FARSÇA + saray çevresi, Yunus TÜRKÇE + halk dili. Yunus dili 'sade', Mevlana 'gösterişli'.",
+    "mebi_sayfa": "42",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_013",
+    "konu": "divan_edebiyati",
+    "alt_konu": "mevlana",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Ne olursan ol yine gel\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ahmedi"
+      },
+      {
+        "id": "B",
+        "text": "Mevlana"
+      },
+      {
+        "id": "C",
+        "text": "Hayali Bey"
+      },
+      {
+        "id": "D",
+        "text": "Baki"
+      },
+      {
+        "id": "E",
+        "text": "Şeyh Galip"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Mesnevi'den evrensel davet — Mevlana'nın en bilinen söylemi.",
+    "tuzak": "Yunus Emre ile karıştırma. Mevlana FARSÇA + saray çevresi + Mesnevi, Yunus TÜRKÇE + halk + sade ilahi. Aynı yüzyıl ama dil/seyirci farkı.",
+    "mebi_sayfa": "53",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_014",
+    "konu": "divan_edebiyati",
+    "alt_konu": "haci_bayram_veli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bilmek istersen seni / Cân içre ara cânı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ahmedi"
+      },
+      {
+        "id": "B",
+        "text": "Hacı Bayram Veli"
+      },
+      {
+        "id": "C",
+        "text": "Nedim"
+      },
+      {
+        "id": "D",
+        "text": "Şeyh Galip"
+      },
+      {
+        "id": "E",
+        "text": "Mevlana"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Bayramiye tarikatı kurucusu — sade Türkçe tasavvufi söylemin geçişi.",
+    "tuzak": "Yunus Emre, Yesevi, Mevlana, Süleyman Çelebi gibi diğer tasavvuf şairleriyle karıştırma. Hacı Bayram BAYRAMİYE TARİKATI kurucusu = ayırt edici.",
+    "mebi_sayfa": "53",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_015",
+    "konu": "islamiyet_oncesi_gecis",
+    "alt_konu": "ahmet_yesevi",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Pîr-i Türkistân Hazret-i Sultan Ahmed Yesevî\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Aka Gündüz"
+      },
+      {
+        "id": "B",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "C",
+        "text": "Ahmet Yesevi"
+      },
+      {
+        "id": "D",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "E",
+        "text": "Faruk Nafiz Çamlıbel"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Divan-ı Hikmet'in açılışında geçen tanıtım — Geçiş Dönemi tasavvufunun atası.",
+    "tuzak": "Yunus Emre ile karıştırma. Yesevi 12. yy ORTA ASYA + Divan-ı Hikmet, Yunus 13-14. yy ANADOLU + sade Türkçe. Yesevi öncül, Yunus zirve.",
+    "mebi_sayfa": "29",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_016",
+    "konu": "halk_edebiyati",
+    "alt_konu": "koroglu",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Benden selam olsun Bolu Beyi'ne / Çıkıp şu dağlarda gezsem gerektir\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "B",
+        "text": "Fuzuli"
+      },
+      {
+        "id": "C",
+        "text": "Orhan Kemal"
+      },
+      {
+        "id": "D",
+        "text": "Köroğlu"
+      },
+      {
+        "id": "E",
+        "text": "Tarık Buğra"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Köroğlu'nun marka mısrası — saz şairi + halk hikayesi kahramanı.",
+    "tuzak": "Köroğlu HEM bir HALK HİKAYESİ kahramanı HEM bir ŞAİR. Halk hikayesini başkaları anlattı, şiirleri ona ait. Karacaoğlan veya Dadaloğlu gibi kıyaslanır ama Köroğlu 16-17. yy efsaneleşmiş figür.",
+    "mebi_sayfa": "39",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_017",
+    "konu": "tanzimat",
+    "alt_konu": "namik_kemal",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Ne efsunkâr imişsin âh ey didâr-ı hürriyet\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Namık Kemal"
+      },
+      {
+        "id": "B",
+        "text": "Muallim Naci"
+      },
+      {
+        "id": "C",
+        "text": "Direktör Ali Bey"
+      },
+      {
+        "id": "D",
+        "text": "Recaizade Mahmut Ekrem"
+      },
+      {
+        "id": "E",
+        "text": "Samipaşazade Sezai"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Namık Kemal'in 'hürriyet' temalı şiirinden — Tanzimat'ın siyasi şiir manifestosu.",
+    "tuzak": "Şinasi ile karıştırma. Şinasi İLK'lerin BABASI (ilk şiir çevirisi, ilk tiyatro, ilk gazete), Namık Kemal SİYASAL/HEYECANLI içeriği getiren. 'Vatan' Namık Kemal'in markası.",
+    "mebi_sayfa": "60",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_018",
+    "konu": "tanzimat",
+    "alt_konu": "namik_kemal",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Vatanın bağrına düşman dayasın hançerini / Bulunur kurtaracak baht-ı kara mâderini\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Direktör Ali Bey"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Mithat Efendi"
+      },
+      {
+        "id": "C",
+        "text": "Namık Kemal"
+      },
+      {
+        "id": "D",
+        "text": "Ziya Paşa"
+      },
+      {
+        "id": "E",
+        "text": "Ahmet Vefik Paşa"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Namık Kemal'in ünlü vatan beyti — Vatan yahut Silistre etkisi.",
+    "tuzak": "Şinasi ile karıştırma. Şinasi İLK'lerin BABASI (ilk şiir çevirisi, ilk tiyatro, ilk gazete), Namık Kemal SİYASAL/HEYECANLI içeriği getiren. 'Vatan' Namık Kemal'in markası.",
+    "mebi_sayfa": "60",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_019",
+    "konu": "tanzimat",
+    "alt_konu": "sinasi",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Hak âşıkların gönlüne sığmazsa şaşılmaz / Aşk-ı vatan ile dünyayı tutar bir vücudu\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Direktör Ali Bey"
+      },
+      {
+        "id": "B",
+        "text": "Recaizade Mahmut Ekrem"
+      },
+      {
+        "id": "C",
+        "text": "Namık Kemal"
+      },
+      {
+        "id": "D",
+        "text": "Şinasi"
+      },
+      {
+        "id": "E",
+        "text": "Nabizade Nazım"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Şinasi'nin Tanzimat I. dönem yeni şiir denemesi — vatan + akıl + hürriyet üçlüsü.",
+    "tuzak": "Namık Kemal ile karıştırma — Şinasi YENİLİKLERİN KURUCUSU/sade üslup, Namık Kemal HEYECANLI/vatan/hürriyet temaları + tiyatro/roman. 'Tercüman-ı Ahval' (gazete) Şinasi.",
+    "mebi_sayfa": "60",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_020",
+    "konu": "tanzimat",
+    "alt_konu": "ziya_pasa",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Bu cihan dârül-hicrana benzer kim ki anladıysa zindana\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şemsettin Sami"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Mithat Efendi"
+      },
+      {
+        "id": "C",
+        "text": "Şinasi"
+      },
+      {
+        "id": "D",
+        "text": "Recaizade Mahmut Ekrem"
+      },
+      {
+        "id": "E",
+        "text": "Ziya Paşa"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Ziya Paşa'nın 'Terkib-i Bend'inden — geleneksel kalıpla yenilikçi içerik.",
+    "tuzak": "Namık Kemal ile karıştırma — ikisi de Tanzimat I. dönem. Ziya Paşa GELENEKSEL KALIPLA YENİ İÇERİK + 'Şiir ve İnşa' makalesi; Namık Kemal TİYATRO/ROMAN + heyecanlı üslup.",
+    "mebi_sayfa": "61",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_021",
+    "konu": "tanzimat",
+    "alt_konu": "ziya_pasa",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bî-namâzam diyemem sehv ile ben / Pür-günâham bilirim Hâlık-ı Lemyezel'i\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Direktör Ali Bey"
+      },
+      {
+        "id": "B",
+        "text": "Şinasi"
+      },
+      {
+        "id": "C",
+        "text": "Ziya Paşa"
+      },
+      {
+        "id": "D",
+        "text": "Namık Kemal"
+      },
+      {
+        "id": "E",
+        "text": "Ahmet Vefik Paşa"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Ziya Paşa Terkib-i Bend — divan kalıbında felsefi söylem.",
+    "tuzak": "Namık Kemal ile karıştırma — ikisi de Tanzimat I. dönem. Ziya Paşa GELENEKSEL KALIPLA YENİ İÇERİK + 'Şiir ve İnşa' makalesi; Namık Kemal TİYATRO/ROMAN + heyecanlı üslup.",
+    "mebi_sayfa": "61",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_022",
+    "konu": "tanzimat",
+    "alt_konu": "abdulhak_hamit_tarhan",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Eyvah ne yer ne yâr kaldı / Gönlüm dolu âh u zâr kaldı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ahmet Mithat Efendi"
+      },
+      {
+        "id": "B",
+        "text": "Nabizade Nazım"
+      },
+      {
+        "id": "C",
+        "text": "Şinasi"
+      },
+      {
+        "id": "D",
+        "text": "Abdülhak Hamit Tarhan"
+      },
+      {
+        "id": "E",
+        "text": "Şemsettin Sami"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Makber'den — eşi Fatma Hanım'ın ölümü üzerine. Türk şiirinde ilk büyük romantik feryat.",
+    "tuzak": "Tanzimat II. dönem'de iki büyük şair var: Hamit ve Recaizade. Hamit ROMANTİZM + ÖLÜM/AŞK, Recaizade ELEŞTİRİ + 'üstad'lık. 'Makber' Hamit, 'Pejmürde' Recaizade.",
+    "mebi_sayfa": "63",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_023",
+    "konu": "tanzimat",
+    "alt_konu": "muallim_naci",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Yârin dudağıyla göz göz dolu söz olsa / Söze gönlünden ne hâsıl?\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Direktör Ali Bey"
+      },
+      {
+        "id": "B",
+        "text": "Şemsettin Sami"
+      },
+      {
+        "id": "C",
+        "text": "Abdülhak Hamit Tarhan"
+      },
+      {
+        "id": "D",
+        "text": "Recaizade Mahmut Ekrem"
+      },
+      {
+        "id": "E",
+        "text": "Muallim Naci"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Muallim Naci'nin geleneksel divan tarzında lirik beyti — eski şiirin direnişçisi.",
+    "tuzak": "Recaizade Mahmut Ekrem ile karıştırma (TAM ZIT). Recaizade YENİ, Naci ESKİ. 'Zemzeme' Recaizade; 'Demdeme' Naci.",
+    "mebi_sayfa": "63",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_024",
+    "konu": "servet_i_funun_fecr_i_ati",
+    "alt_konu": "tevfik_fikret",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Sarmış yine âfâkını bir dûd-i muannid / Bir zulmet-i beyzâ ki peyâpey mütezâyid\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Tevfik Fikret"
+      },
+      {
+        "id": "B",
+        "text": "Süleyman Nazif"
+      },
+      {
+        "id": "C",
+        "text": "Hüseyin Cahit Yalçın"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Haşim"
+      },
+      {
+        "id": "E",
+        "text": "Halit Ziya Uşaklıgil"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "'Sis' şiirinin açılışı — İstanbul'a yazılmış en güçlü hicviye.",
+    "tuzak": "Cenap Şahabettin ile karıştırma. İkisi de SF, ama Fikret TOPLUMCU/ÖFKELİ/laik, Cenap LİRİK/sembolist/lirizm. 'Sis' Fikret; 'Elhân-ı Şitâ' Cenap.",
+    "mebi_sayfa": "65",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_025",
+    "konu": "servet_i_funun_fecr_i_ati",
+    "alt_konu": "tevfik_fikret",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Yiyin efendiler yiyin bu hân-ı iştiha sizin\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Cenap Şahabettin"
+      },
+      {
+        "id": "B",
+        "text": "Hüseyin Cahit Yalçın"
+      },
+      {
+        "id": "C",
+        "text": "Halit Ziya Uşaklıgil"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Haşim"
+      },
+      {
+        "id": "E",
+        "text": "Tevfik Fikret"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Hân-ı Yağma'dan — Fikret'in toplumcu öfkesinin marka mısrası.",
+    "tuzak": "Cenap Şahabettin ile karıştırma. İkisi de SF, ama Fikret TOPLUMCU/ÖFKELİ/laik, Cenap LİRİK/sembolist/lirizm. 'Sis' Fikret; 'Elhân-ı Şitâ' Cenap.",
+    "mebi_sayfa": "65",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_026",
+    "konu": "servet_i_funun_fecr_i_ati",
+    "alt_konu": "cenap_sahabettin",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bir beyaz lerze bir dumanlı uçuş / Eşini gâib eyleyen bir kuş gibi kar / Geçen eyyâm-ı nev-bahârı arar\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Süleyman Nazif"
+      },
+      {
+        "id": "B",
+        "text": "Hüseyin Cahit Yalçın"
+      },
+      {
+        "id": "C",
+        "text": "Cenap Şahabettin"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Haşim"
+      },
+      {
+        "id": "E",
+        "text": "Tevfik Fikret"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Elhân-ı Şitâ'dan (Kış İlahileri) — saf şiir + sembolizm.",
+    "tuzak": "Ahmet Haşim ile karıştırma. İkisi de saf şiir yakını. Cenap SERVET-İ FÜNUN dönemi (Tevfik Fikret arkadaşı), Haşim sonraki FECR-İ ÂTİ. 'Elhân-ı Şitâ' Cenap; 'O Belde' Haşim.",
+    "mebi_sayfa": "66",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_027",
+    "konu": "milli_edebiyat",
+    "alt_konu": "mehmet_akif_ersoy",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Korkma, sönmez bu şafaklarda yüzen al sancak / Sönmeden yurdumun üstünde tüten en son ocak\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "B",
+        "text": "Ömer Seyfettin"
+      },
+      {
+        "id": "C",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Mehmet Akif Ersoy"
+      },
+      {
+        "id": "E",
+        "text": "Aka Gündüz"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "İstiklal Marşı'nın ilk beyti — Türk milli marşının açılışı.",
+    "tuzak": "Tevfik Fikret ile karıştırma — ikisi tam karşıt kutuplar. Fikret LAİK/öfkeli/'Müslüman olma', Akif İSLAMCI/uyandırıcı/'İstiklal Marşı'. İkisi de SF dönemini geçirdi, Akif sonra Milli Edebiyat'a evrildi.",
+    "mebi_sayfa": "71",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_028",
+    "konu": "milli_edebiyat",
+    "alt_konu": "mehmet_akif_ersoy",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Atiyi karanlık görerek azmi bırakmak / Alçak bir ölüm varsa eminim budur ancak\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "B",
+        "text": "Aka Gündüz"
+      },
+      {
+        "id": "C",
+        "text": "Mehmet Akif Ersoy"
+      },
+      {
+        "id": "D",
+        "text": "Ömer Seyfettin"
+      },
+      {
+        "id": "E",
+        "text": "Halide Edip Adıvar"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Akif'in Safahat'ında — toplumcu öfke + uyandırıcı söylem.",
+    "tuzak": "Tevfik Fikret ile karıştırma — ikisi tam karşıt kutuplar. Fikret LAİK/öfkeli/'Müslüman olma', Akif İSLAMCI/uyandırıcı/'İstiklal Marşı'. İkisi de SF dönemini geçirdi, Akif sonra Milli Edebiyat'a evrildi.",
+    "mebi_sayfa": "71",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_029",
+    "konu": "milli_edebiyat",
+    "alt_konu": "mehmet_akif_ersoy",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Ne irfandır veren ahlâka yükseklik ne vicdandır / Fazilet hissi insanlarda Allah korkusundandır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Mehmet Akif Ersoy"
+      },
+      {
+        "id": "B",
+        "text": "Halide Edip Adıvar"
+      },
+      {
+        "id": "C",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "D",
+        "text": "Ömer Seyfettin"
+      },
+      {
+        "id": "E",
+        "text": "Mehmet Emin Yurdakul"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Akif'in din-ahlak söylemi — Safahat felsefesi.",
+    "tuzak": "Tevfik Fikret ile karıştırma — ikisi tam karşıt kutuplar. Fikret LAİK/öfkeli/'Müslüman olma', Akif İSLAMCI/uyandırıcı/'İstiklal Marşı'. İkisi de SF dönemini geçirdi, Akif sonra Milli Edebiyat'a evrildi.",
+    "mebi_sayfa": "71",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_030",
+    "konu": "milli_edebiyat",
+    "alt_konu": "mehmet_emin_yurdakul",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Ben bir Türk'üm dinim cinsim uludur / Sinem özüm ateş ile doludur\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Reşat Nuri Güntekin"
+      },
+      {
+        "id": "B",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "C",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Mehmet Emin Yurdakul"
+      },
+      {
+        "id": "E",
+        "text": "Aka Gündüz"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Cenge Giderken — Türk milliyetçi şiirinin manifestosu. Milli Edebiyat'ın öncüsü.",
+    "tuzak": "Beş Hececiler ile karıştırma — onlar daha sonraki kuşak. Mehmet Emin ÖNCÜ + 'Cenge Giderken'; Beş Hececiler ardıllar.",
+    "mebi_sayfa": "72",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_031",
+    "konu": "milli_edebiyat",
+    "alt_konu": "ziya_gokalp",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Türklüğün vicdanı bir / Dini bir vatanı bir / Fakat hepsi ayrılır / Olmazsa lisanı bir\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Aka Gündüz"
+      },
+      {
+        "id": "B",
+        "text": "Ziya Gökalp"
+      },
+      {
+        "id": "C",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "D",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      },
+      {
+        "id": "E",
+        "text": "Ahmet Hikmet Müftüoğlu"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Ziya Gökalp'in 'Lisan' şiirinden — dil sadeleşmesi manifestosu.",
+    "tuzak": "Mehmet Emin Yurdakul ile karıştırma — Yurdakul ŞAİR/şiirsel manifesto, Gökalp DÜŞÜNÜR/sosyolog + fikri sistematik.",
+    "mebi_sayfa": "73",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_032",
+    "konu": "cumhuriyet",
+    "alt_konu": "yahya_kemal_beyatli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Artık demir almak günü gelmişse zamandan / Meçhûle giden bir gemi kalkar bu limandan\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yahya Kemal Beyatlı"
+      },
+      {
+        "id": "B",
+        "text": "Necip Fazıl Kısakürek"
+      },
+      {
+        "id": "C",
+        "text": "Necati Cumalı"
+      },
+      {
+        "id": "D",
+        "text": "Yusuf Ziya Ortaç"
+      },
+      {
+        "id": "E",
+        "text": "Melih Cevdet Anday"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "'Sessiz Gemi' — ölümü demir alan gemiyle anlatır. Yahya Kemal'in marka şiiri.",
+    "tuzak": "Ahmet Haşim ile karıştırma. İkisi de saf şiir, ikisi de o devrin büyük isimleri. Haşim FECR-İ ÂTİ + sembolizm + akşam imgesi; Yahya Kemal CUMHURİYET + neo-klasik + İstanbul/tarih.",
+    "mebi_sayfa": "76",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_033",
+    "konu": "cumhuriyet",
+    "alt_konu": "yahya_kemal_beyatli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Sana dün bir tepeden baktım aziz İstanbul\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yahya Kemal Beyatlı"
+      },
+      {
+        "id": "B",
+        "text": "Halit Fahri Ozansoy"
+      },
+      {
+        "id": "C",
+        "text": "Orhan Veli Kanık"
+      },
+      {
+        "id": "D",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "E",
+        "text": "Nazım Hikmet"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "İstanbul'a aşkın en zarif ifadesi.",
+    "tuzak": "Ahmet Haşim ile karıştırma. İkisi de saf şiir, ikisi de o devrin büyük isimleri. Haşim FECR-İ ÂTİ + sembolizm + akşam imgesi; Yahya Kemal CUMHURİYET + neo-klasik + İstanbul/tarih.",
+    "mebi_sayfa": "76",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_034",
+    "konu": "cumhuriyet",
+    "alt_konu": "yahya_kemal_beyatli",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Doğduğum o şehir hâlâ aklımdan çıkmıyor\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yahya Kemal Beyatlı"
+      },
+      {
+        "id": "B",
+        "text": "Yusuf Ziya Ortaç"
+      },
+      {
+        "id": "C",
+        "text": "Falih Rıfkı Atay"
+      },
+      {
+        "id": "D",
+        "text": "Melih Cevdet Anday"
+      },
+      {
+        "id": "E",
+        "text": "Halikarnas Balıkçısı"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Memleket ve nostaljinin Yahya Kemal söylemi.",
+    "tuzak": "Ahmet Haşim ile karıştırma. İkisi de saf şiir, ikisi de o devrin büyük isimleri. Haşim FECR-İ ÂTİ + sembolizm + akşam imgesi; Yahya Kemal CUMHURİYET + neo-klasik + İstanbul/tarih.",
+    "mebi_sayfa": "76",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_035",
+    "konu": "servet_i_funun_fecr_i_ati",
+    "alt_konu": "ahmet_hasim",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bir akşam ki belki yağmurdandı / Tenha bir köşesindeydim sahranın\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Tevfik Fikret"
+      },
+      {
+        "id": "B",
+        "text": "Cenap Şahabettin"
+      },
+      {
+        "id": "C",
+        "text": "Süleyman Nazif"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Haşim"
+      },
+      {
+        "id": "E",
+        "text": "Halit Ziya Uşaklıgil"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Haşim'in O Belde / akşam şiirlerinden — saf şiirin sembolist tonu.",
+    "tuzak": "Cenap Şahabettin ile karıştırma. İkisi de saf şiir + sembolizm yakını. Ama Haşim FECR-İ ÂTİ + sonrası bağımsız; Cenap saf SERVET-İ FÜNUN. 'Piyale, Göl Saatleri' Haşim; 'Elhân-ı Şitâ' Cenap.",
+    "mebi_sayfa": "68",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_036",
+    "konu": "cumhuriyet",
+    "alt_konu": "necip_fazil_kisakurek",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Sokaktayım kimsesiz bir sokak ortasında / Yürüyorum arkama bakmadan yürüyorum\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Necip Fazıl Kısakürek"
+      },
+      {
+        "id": "B",
+        "text": "Orhan Seyfi Orhon"
+      },
+      {
+        "id": "C",
+        "text": "Yahya Kemal Beyatlı"
+      },
+      {
+        "id": "D",
+        "text": "Fazıl Hüsnü Dağlarca"
+      },
+      {
+        "id": "E",
+        "text": "Necati Cumalı"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Kaldırımlar şiirinin açılışı — Necip Fazıl'ın bohem-mistik şiirinin imzası.",
+    "tuzak": "Sezai Karakoç ile karıştırma — ikisi de mistik şiir. Necip Fazıl ÖNCÜ + dramatik üslup, Sezai Karakoç DİRİLİŞ ekolü + sembolist.",
+    "mebi_sayfa": "77",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_037",
+    "konu": "cumhuriyet",
+    "alt_konu": "necip_fazil_kisakurek",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Durup dururken bana bir karanlık / Bir karanlık çöker bağrımdan içeri\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Bedri Rahmi Eyüboğlu"
+      },
+      {
+        "id": "B",
+        "text": "Falih Rıfkı Atay"
+      },
+      {
+        "id": "C",
+        "text": "Ahmet Hamdi Tanpınar"
+      },
+      {
+        "id": "D",
+        "text": "Nazım Hikmet"
+      },
+      {
+        "id": "E",
+        "text": "Necip Fazıl Kısakürek"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Çile şiirinden — modern mistisizmin acılı söylemi.",
+    "tuzak": "Sezai Karakoç ile karıştırma — ikisi de mistik şiir. Necip Fazıl ÖNCÜ + dramatik üslup, Sezai Karakoç DİRİLİŞ ekolü + sembolist.",
+    "mebi_sayfa": "77",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_038",
+    "konu": "cumhuriyet",
+    "alt_konu": "arif_nihat_asya",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Ey mavi göklerin beyaz ve kızıl süsü / Kız kardeşimin gelinliği şehidimin son örtüsü\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "B",
+        "text": "Adalet Ağaoğlu"
+      },
+      {
+        "id": "C",
+        "text": "Sezai Karakoç"
+      },
+      {
+        "id": "D",
+        "text": "Mithat Cemal Kuntay"
+      },
+      {
+        "id": "E",
+        "text": "Oğuz Atay"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Bayrak Şairi'nin marka beyti — bayrak teması Cumhuriyet'in resmi metni.",
+    "tuzak": "Necip Fazıl ile karıştırma — ikisi de manevi/milli şiir. Arif Nihat BAYRAK + naat + sade, Necip Fazıl ÇİLE + mistik dramatik.",
+    "mebi_sayfa": "85",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_039",
+    "konu": "cumhuriyet",
+    "alt_konu": "sezai_karakoc",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Mona Roza siyah güller ak güller / Geyikli orman'da ve elif elif'te\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Oğuz Atay"
+      },
+      {
+        "id": "B",
+        "text": "Sezai Karakoç"
+      },
+      {
+        "id": "C",
+        "text": "Memduh Şevket Esendal"
+      },
+      {
+        "id": "D",
+        "text": "Orhan Veli Kanık"
+      },
+      {
+        "id": "E",
+        "text": "Necip Fazıl Kısakürek"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Mona Roza şiirinden — Diriliş ekolünün mistik şiiri.",
+    "tuzak": "Necip Fazıl ile karıştırma — ikisi de mistik şiir. Necip Fazıl ÇİLE + Büyük Doğu; Sezai Karakoç DİRİLİŞ + Mona Roza.",
+    "mebi_sayfa": "78",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_040",
+    "konu": "cumhuriyet",
+    "alt_konu": "cahit_kulebi",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Sivas yollarında geceleri / Beyaz bir at gibi yürüdüm\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ece Ayhan"
+      },
+      {
+        "id": "B",
+        "text": "Haldun Taner"
+      },
+      {
+        "id": "C",
+        "text": "Cahit Külebi"
+      },
+      {
+        "id": "D",
+        "text": "Nazım Hikmet"
+      },
+      {
+        "id": "E",
+        "text": "Arif Nihat Asya"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Sivas Yollarında — Külebi'nin memleket lirizmi.",
+    "tuzak": "Ahmet Kutsi Tecer ile karıştırma — ikisi de memleket şiiri. Tecer halk şiir araştırması + 'Orda Bir Köy Var Uzakta', Külebi LİRİK + Sivas/Anadolu sıcaklığı.",
+    "mebi_sayfa": "82",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_041",
+    "konu": "cumhuriyet",
+    "alt_konu": "bedri_rahmi_eyuboglu",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Karadut karadut karadeniz karadelik / Karadut karadut karadut\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Peyami Safa"
+      },
+      {
+        "id": "B",
+        "text": "Necati Cumalı"
+      },
+      {
+        "id": "C",
+        "text": "Bedri Rahmi Eyüboğlu"
+      },
+      {
+        "id": "D",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "E",
+        "text": "Haldun Taner"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "'Karadut' şiirinin marka tekrarı — folklor + modern üslup.",
+    "tuzak": "Bedri Rahmi RESSAM-ŞAİR kombinasyonu özel; folklor temalı diğer şairlerle (Cahit Külebi, Ahmet Kutsi Tecer) karıştırılabilir.",
+    "mebi_sayfa": "82",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_042",
+    "konu": "cumhuriyet",
+    "alt_konu": "faruk_nafiz_camlibel",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Yağız atlar kişnedi meşin kırbaç şakladı / Bir dakika araba yerinde durakladı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yaşar Kemal"
+      },
+      {
+        "id": "B",
+        "text": "Enis Behiç Koryürek"
+      },
+      {
+        "id": "C",
+        "text": "Nazım Hikmet"
+      },
+      {
+        "id": "D",
+        "text": "Mithat Cemal Kuntay"
+      },
+      {
+        "id": "E",
+        "text": "Faruk Nafiz Çamlıbel"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Han Duvarları'nın açılışı — Anadolu memleket şiirinin manifestosu.",
+    "tuzak": "Beş Hececiler beşlisi sıkça karıştırılır: Faruk Nafiz, Yusuf Ziya Ortaç, Orhan Seyfi Orhon, Enis Behiç Koryürek, Halit Fahri Ozansoy. 'Han Duvarları' = Faruk Nafiz; diğer adlar başka şiirler için.",
+    "mebi_sayfa": "82",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_043",
+    "konu": "cumhuriyet",
+    "alt_konu": "faruk_nafiz_camlibel",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Anadolu'yu yeniden keşfetmek için / Han duvarlarına bakan göz lazım\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "B",
+        "text": "Tarık Buğra"
+      },
+      {
+        "id": "C",
+        "text": "Enis Behiç Koryürek"
+      },
+      {
+        "id": "D",
+        "text": "Mithat Cemal Kuntay"
+      },
+      {
+        "id": "E",
+        "text": "Orhan Seyfi Orhon"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Faruk Nafiz'in 'memleket aşkı' söylemi.",
+    "tuzak": "Beş Hececiler beşlisi sıkça karıştırılır: Faruk Nafiz, Yusuf Ziya Ortaç, Orhan Seyfi Orhon, Enis Behiç Koryürek, Halit Fahri Ozansoy. 'Han Duvarları' = Faruk Nafiz; diğer adlar başka şiirler için.",
+    "mebi_sayfa": "82",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_044",
+    "konu": "cumhuriyet",
+    "alt_konu": "orhan_veli_kanik",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bedava yaşıyoruz, bedava / Hava bedava, bulut bedava\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Peyami Safa"
+      },
+      {
+        "id": "B",
+        "text": "Melih Cevdet Anday"
+      },
+      {
+        "id": "C",
+        "text": "Pınar Kür"
+      },
+      {
+        "id": "D",
+        "text": "Enis Behiç Koryürek"
+      },
+      {
+        "id": "E",
+        "text": "Orhan Veli Kanık"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Bedava şiiri — Garip akımının manifestosu. Gündelik dilin şiirleşmesi.",
+    "tuzak": "Garip ÜÇLÜSÜ: Orhan Veli + Oktay Rifat + Melih Cevdet Anday. Orhan Veli lider. 'İstanbul'u Dinliyorum' Orhan Veli; 'Karga ile Tilki' Melih Cevdet'in çevirileri.",
+    "mebi_sayfa": "84",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_045",
+    "konu": "cumhuriyet",
+    "alt_konu": "orhan_veli_kanik",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"İstanbul'u dinliyorum gözlerim kapalı / Önce hafiften bir rüzgâr esiyor\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "B",
+        "text": "Orhan Veli Kanık"
+      },
+      {
+        "id": "C",
+        "text": "Adalet Ağaoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Halikarnas Balıkçısı"
+      },
+      {
+        "id": "E",
+        "text": "Necati Cumalı"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "İstanbul'u Dinliyorum — Garip akımının tatlı yüzü.",
+    "tuzak": "Garip ÜÇLÜSÜ: Orhan Veli + Oktay Rifat + Melih Cevdet Anday. Orhan Veli lider. 'İstanbul'u Dinliyorum' Orhan Veli; 'Karga ile Tilki' Melih Cevdet'in çevirileri.",
+    "mebi_sayfa": "84",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_046",
+    "konu": "cumhuriyet",
+    "alt_konu": "orhan_veli_kanik",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Anlatamıyorum derdimi / Derdime derman bulamıyorum\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ahmet Kutsi Tecer"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Hamdi Tanpınar"
+      },
+      {
+        "id": "C",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "D",
+        "text": "Kemal Tahir"
+      },
+      {
+        "id": "E",
+        "text": "Orhan Veli Kanık"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Anlatamıyorum şiirinden — Garip akımının sade dili.",
+    "tuzak": "Garip ÜÇLÜSÜ: Orhan Veli + Oktay Rifat + Melih Cevdet Anday. Orhan Veli lider. 'İstanbul'u Dinliyorum' Orhan Veli; 'Karga ile Tilki' Melih Cevdet'in çevirileri.",
+    "mebi_sayfa": "84",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_047",
+    "konu": "cumhuriyet",
+    "alt_konu": "melih_cevdet_anday",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Rahatı kaçacak adamın\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Haldun Taner"
+      },
+      {
+        "id": "B",
+        "text": "Melih Cevdet Anday"
+      },
+      {
+        "id": "C",
+        "text": "Kemal Tahir"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Kutsi Tecer"
+      },
+      {
+        "id": "E",
+        "text": "Pınar Kür"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Garip Üçlüsü'nün üçüncü sesi — sade gündelik söylem.",
+    "tuzak": "Garip Üçlüsü: Orhan Veli (lider) + Melih Cevdet + Oktay Rifat. Üçü birlikte 'Garip' antolojisini çıkardılar (1941).",
+    "mebi_sayfa": "84",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_048",
+    "konu": "cumhuriyet",
+    "alt_konu": "nazim_hikmet",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Yaşamak bir ağaç gibi tek ve hür / Ve bir orman gibi kardeşçesine\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Halikarnas Balıkçısı"
+      },
+      {
+        "id": "B",
+        "text": "Adalet Ağaoğlu"
+      },
+      {
+        "id": "C",
+        "text": "Nazım Hikmet"
+      },
+      {
+        "id": "D",
+        "text": "Latife Tekin"
+      },
+      {
+        "id": "E",
+        "text": "Ahmet Kutsi Tecer"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Davet şiirinden — Nazım Hikmet'in toplumcu söyleminin manifestosu.",
+    "tuzak": "Serbest nazım = Nazım Hikmet (Garip değil). Garip de vezni attı ama 'gündelik dil' odaklı; Nazım 'destansı serbest nazım' + politik tema.",
+    "mebi_sayfa": "87",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_049",
+    "konu": "cumhuriyet",
+    "alt_konu": "nazim_hikmet",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Memleketim memleketim memleketim\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nazım Hikmet"
+      },
+      {
+        "id": "B",
+        "text": "Halit Fahri Ozansoy"
+      },
+      {
+        "id": "C",
+        "text": "Oğuz Atay"
+      },
+      {
+        "id": "D",
+        "text": "Adalet Ağaoğlu"
+      },
+      {
+        "id": "E",
+        "text": "Ece Ayhan"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Memleketimden İnsan Manzaraları'nın tekrar imzası — destansı serbest nazım.",
+    "tuzak": "Serbest nazım = Nazım Hikmet (Garip değil). Garip de vezni attı ama 'gündelik dil' odaklı; Nazım 'destansı serbest nazım' + politik tema.",
+    "mebi_sayfa": "87",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_050",
+    "konu": "cumhuriyet",
+    "alt_konu": "nazim_hikmet",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Hapiste yatacaksın / Genç bir adamın gece yarısı kapısı çalınır gibi\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Fazıl Hüsnü Dağlarca"
+      },
+      {
+        "id": "B",
+        "text": "Nazım Hikmet"
+      },
+      {
+        "id": "C",
+        "text": "Kemal Tahir"
+      },
+      {
+        "id": "D",
+        "text": "Bedri Rahmi Eyüboğlu"
+      },
+      {
+        "id": "E",
+        "text": "Memduh Şevket Esendal"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Hapis dönemi şiirlerinden — politik şiir + serbest nazım.",
+    "tuzak": "Serbest nazım = Nazım Hikmet (Garip değil). Garip de vezni attı ama 'gündelik dil' odaklı; Nazım 'destansı serbest nazım' + politik tema.",
+    "mebi_sayfa": "87",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_051",
+    "konu": "cumhuriyet",
+    "alt_konu": "ece_ayhan",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki beyit hangi şaire aittir?<br><br><em>\"Bakışsız bir kedi kara / Bir umuttu yalanın gözünde\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ece Ayhan"
+      },
+      {
+        "id": "B",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "C",
+        "text": "Haldun Taner"
+      },
+      {
+        "id": "D",
+        "text": "Enis Behiç Koryürek"
+      },
+      {
+        "id": "E",
+        "text": "Sabahattin Ali"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Ece Ayhan'ın 'sivil şiir' manifestosu — İkinci Yeni'nin uçtaki sesi.",
+    "tuzak": "İkinci Yeni'nin dörtlüsü: Turgut Uyar, Edip Cansever, Cemal Süreya, Ece Ayhan. Ece Ayhan EN UÇTAKİ + sivil şiir; Cemal Süreya AŞK; Cansever EŞYA; Uyar ARABESK MUTLULUK.",
+    "mebi_sayfa": "88",
+    "zorluk": "orta",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_052",
+    "konu": "cumhuriyet",
+    "alt_konu": "fazil_husnu_daglarca",
+    "tip": "alinti-beyit-tani",
+    "soru": "Aşağıdaki mısra hangi şaire aittir?<br><br><em>\"Üç şehitler destanı / Üç altın yıldız üç ışık\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Bedri Rahmi Eyüboğlu"
+      },
+      {
+        "id": "B",
+        "text": "Oğuz Atay"
+      },
+      {
+        "id": "C",
+        "text": "Fazıl Hüsnü Dağlarca"
+      },
+      {
+        "id": "D",
+        "text": "Enis Behiç Koryürek"
+      },
+      {
+        "id": "E",
+        "text": "Melih Cevdet Anday"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Üç Şehitler Destanı'nın imza mısrası — çok yönlü Dağlarca üslubu.",
+    "tuzak": "Belli bir akıma sokmak zor; Garip/İkinci Yeni dışı bağımsız büyük şair. Necip Fazıl, Yahya Kemal düzeyinde 'bağımsız' grubunda.",
+    "mebi_sayfa": "85",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_053",
+    "konu": "servet_i_funun_fecr_i_ati",
+    "alt_konu": "halit_ziya_usakligil",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"İstanbul'un başlıca sayfiyelerinden Göksu, Adnan Bey'in evi gümrük rıhtımına yakın bir yerde başlardı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ahmet Haşim"
+      },
+      {
+        "id": "B",
+        "text": "Cenap Şahabettin"
+      },
+      {
+        "id": "C",
+        "text": "Süleyman Nazif"
+      },
+      {
+        "id": "D",
+        "text": "Tevfik Fikret"
+      },
+      {
+        "id": "E",
+        "text": "Halit Ziya Uşaklıgil"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Aşk-ı Memnu'nun açılışı — Türk romanında Batılı tekniğin ilk büyük örneği.",
+    "tuzak": "Mehmet Rauf'un 'Eylül'üyle karıştırılır — ikisi de SF + ilk psikolojik roman tartışmasında. AŞK-I MEMNU = HALİT ZİYA; EYLÜL = MEHMET RAUF.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_054",
+    "konu": "servet_i_funun_fecr_i_ati",
+    "alt_konu": "halit_ziya_usakligil",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Mai ve Siyah... Bu iki renk arasında geçen bir hayatın hikâyesidir Ahmet Cemil'in\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Halit Ziya Uşaklıgil"
+      },
+      {
+        "id": "B",
+        "text": "Tevfik Fikret"
+      },
+      {
+        "id": "C",
+        "text": "Ahmet Haşim"
+      },
+      {
+        "id": "D",
+        "text": "Cenap Şahabettin"
+      },
+      {
+        "id": "E",
+        "text": "Süleyman Nazif"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Mai ve Siyah romanından — SF dönemi sanatçısının iç dünyası.",
+    "tuzak": "Mehmet Rauf'un 'Eylül'üyle karıştırılır — ikisi de SF + ilk psikolojik roman tartışmasında. AŞK-I MEMNU = HALİT ZİYA; EYLÜL = MEHMET RAUF.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_055",
+    "konu": "milli_edebiyat",
+    "alt_konu": "resat_nuri_guntekin",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Bir taraftan Feride'nin Anadolu'ya öğretmen olarak gidişi, diğer taraftan o uzaktan hatırlanan İstanbul aşkı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Halide Edip Adıvar"
+      },
+      {
+        "id": "B",
+        "text": "Ziya Gökalp"
+      },
+      {
+        "id": "C",
+        "text": "Ahmet Hikmet Müftüoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Reşat Nuri Güntekin"
+      },
+      {
+        "id": "E",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Çalıkuşu — Türk romanının en sevilen kadın kahramanı Feride'nin destanı.",
+    "tuzak": "Halide Edip ile karıştırma. Reşat Nuri ROMANTİK/DUYGUSAL + halkın gönlünde Feride, Halide Edip POLİTİK/Kurtuluş Savaşı + güçlü tipler. 'Çalıkuşu' Reşat Nuri; 'Sinekli Bakkal' Halide Edip.",
+    "mebi_sayfa": "131",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_056",
+    "konu": "milli_edebiyat",
+    "alt_konu": "halide_edip_adivar",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Eğer Sinekli Bakkal'daki ev konuşabilseydi, bütün geçmişi anlatırdı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "B",
+        "text": "Halide Edip Adıvar"
+      },
+      {
+        "id": "C",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Hikmet Müftüoğlu"
+      },
+      {
+        "id": "E",
+        "text": "Reşat Nuri Güntekin"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Sinekli Bakkal'ın açılış havası — İstanbul + Doğu-Batı bireşimi.",
+    "tuzak": "Reşat Nuri Güntekin ile karıştırma — ikisi de Anadolu öğretmen romanı. Halide Edip MİLLİ MÜCADELE + güçlü kadın + İstanbul-Anadolu köprüsü, Reşat Nuri ÇALIKUŞU/Feride + romantik.",
+    "mebi_sayfa": "131",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_057",
+    "konu": "milli_edebiyat",
+    "alt_konu": "yakup_kadri_karaosmanoglu",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Yaban, Anadolu'nun kerpiçten yapılma kasvetli köylerinden birindeydim\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "B",
+        "text": "Reşat Nuri Güntekin"
+      },
+      {
+        "id": "C",
+        "text": "Ahmet Hikmet Müftüoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      },
+      {
+        "id": "E",
+        "text": "Aka Gündüz"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Yaban'ın açılışı — Kurtuluş Savaşı'nda aydın-köylü uçurumu.",
+    "tuzak": "Yakup Kadri'nin her romanı FARKLI bir devri/temayı anlatır. 'Yaban' = Kurtuluş, 'Kiralık Konak' = kuşak çatışması, 'Sodom ve Gomore' = mütareke, 'Nur Baba' = Bektaşi tekke. Karıştırılmamalı.",
+    "mebi_sayfa": "131",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_058",
+    "konu": "milli_edebiyat",
+    "alt_konu": "yakup_kadri_karaosmanoglu",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Kiralık Konak'ın eski sahibi Naim Efendi\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yakup Kadri Karaosmanoğlu"
+      },
+      {
+        "id": "B",
+        "text": "Mehmet Emin Yurdakul"
+      },
+      {
+        "id": "C",
+        "text": "Ömer Seyfettin"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Hikmet Müftüoğlu"
+      },
+      {
+        "id": "E",
+        "text": "Ziya Gökalp"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Kiralık Konak — kuşak çatışmasının Türk romanındaki ilk büyük örneği.",
+    "tuzak": "Yakup Kadri'nin her romanı FARKLI bir devri/temayı anlatır. 'Yaban' = Kurtuluş, 'Kiralık Konak' = kuşak çatışması, 'Sodom ve Gomore' = mütareke, 'Nur Baba' = Bektaşi tekke. Karıştırılmamalı.",
+    "mebi_sayfa": "131",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_059",
+    "konu": "milli_edebiyat",
+    "alt_konu": "refik_halit_karay",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Memleket hikayelerimden bu kasaba dağda kalmış\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Mehmet Akif Ersoy"
+      },
+      {
+        "id": "B",
+        "text": "Ziya Gökalp"
+      },
+      {
+        "id": "C",
+        "text": "Ömer Seyfettin"
+      },
+      {
+        "id": "D",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "E",
+        "text": "Halide Edip Adıvar"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Memleket Hikayeleri — Anadolu gerçekçiliğinin başlangıcı.",
+    "tuzak": "Ömer Seyfettin ile karıştırma — ikisi de Milli Edebiyat hikayeciliği zirvesi. Ömer Seyfettin DİL SADELEŞMESİ + tarih/mizah, Refik Halit MEMLEKET GERÇEKÇİLİĞİ + sürgün. 'Falaka' Ömer Seyfettin; 'Memleket Hikayeleri' Refik Halit.",
+    "mebi_sayfa": "112",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_060",
+    "konu": "cumhuriyet",
+    "alt_konu": "sabahattin_ali",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Şimdiye kadar tesadüf ettiğim insanların hiçbirisi belki üzerimde Raif Efendi kadar büyük bir tesir bırakmamıştır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Orhan Seyfi Orhon"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Hamdi Tanpınar"
+      },
+      {
+        "id": "C",
+        "text": "Sabahattin Ali"
+      },
+      {
+        "id": "D",
+        "text": "Falih Rıfkı Atay"
+      },
+      {
+        "id": "E",
+        "text": "Halit Fahri Ozansoy"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Kürk Mantolu Madonna'nın açılışı — Türk romanının kült cümlesi.",
+    "tuzak": "Orhan Kemal ile karıştırma — ikisi de toplumcu/halkçı. Sabahattin Ali ROMANTİK/MELANKOLİ + 'Madonna', Orhan Kemal İŞÇİ/EKMEK + Çukurova. 'Kürk Mantolu Madonna' Sabahattin Ali markası.",
+    "mebi_sayfa": "114",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_061",
+    "konu": "cumhuriyet",
+    "alt_konu": "sabahattin_ali",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Yusuf, Kuyucaklı bir delikanlıydı; köyünün en güçlü gencî\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Orhan Kemal"
+      },
+      {
+        "id": "B",
+        "text": "Yaşar Kemal"
+      },
+      {
+        "id": "C",
+        "text": "Tarık Buğra"
+      },
+      {
+        "id": "D",
+        "text": "Sabahattin Ali"
+      },
+      {
+        "id": "E",
+        "text": "Falih Rıfkı Atay"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Kuyucaklı Yusuf'tan — köy gerçekçiliği.",
+    "tuzak": "Orhan Kemal ile karıştırma — ikisi de toplumcu/halkçı. Sabahattin Ali ROMANTİK/MELANKOLİ + 'Madonna', Orhan Kemal İŞÇİ/EKMEK + Çukurova. 'Kürk Mantolu Madonna' Sabahattin Ali markası.",
+    "mebi_sayfa": "114",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_062",
+    "konu": "cumhuriyet",
+    "alt_konu": "orhan_kemal",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Çukurova'nın bereketli toprakları üzerinde göçmenler beklenmedik bir umutla yere bastılar\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Orhan Kemal"
+      },
+      {
+        "id": "B",
+        "text": "Oğuz Atay"
+      },
+      {
+        "id": "C",
+        "text": "Memduh Şevket Esendal"
+      },
+      {
+        "id": "D",
+        "text": "Melih Cevdet Anday"
+      },
+      {
+        "id": "E",
+        "text": "Yahya Kemal Beyatlı"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Bereketli Topraklar Üzerinde — toplumcu gerçekçiliğin Çukurova destanı.",
+    "tuzak": "Yaşar Kemal ile karıştırma — ikisi de Çukurova ve toplumcu gerçekçi. Orhan Kemal İŞÇİ/FABRİKA/şehir kenarı, Yaşar Kemal KÖY/AĞA/dağ + epik üslup. 'İnce Memed' Yaşar Kemal markası.",
+    "mebi_sayfa": "115",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_063",
+    "konu": "cumhuriyet",
+    "alt_konu": "yasar_kemal",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Anavarza akar at oynar ovasında / Toroslar uzanır Çukurova boyunca\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Cahit Külebi"
+      },
+      {
+        "id": "B",
+        "text": "Yaşar Kemal"
+      },
+      {
+        "id": "C",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "D",
+        "text": "Ece Ayhan"
+      },
+      {
+        "id": "E",
+        "text": "Oğuz Atay"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "İnce Memed — epik üslubun marka açılışı.",
+    "tuzak": "Orhan Kemal, Kemal Tahir 'Kemal'leri ile karıştırma. Yaşar Kemal EPİK + Çukurova + İnce Memed.",
+    "mebi_sayfa": "117",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_064",
+    "konu": "cumhuriyet",
+    "alt_konu": "tarik_bugra",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Küçük Ağa, Çakırsaraylı Mehmet Reis, küçük yaşta Kuva-yı Milliye'ye katıldı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "B",
+        "text": "Ece Ayhan"
+      },
+      {
+        "id": "C",
+        "text": "Bedri Rahmi Eyüboğlu"
+      },
+      {
+        "id": "D",
+        "text": "Tarık Buğra"
+      },
+      {
+        "id": "E",
+        "text": "Cahit Külebi"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Küçük Ağa — Kurtuluş Savaşı'nın sosyal/dini boyutu.",
+    "tuzak": "Kemal Tahir 'Devlet Ana' ile yine Osmanlı kuruluşunu işledi. Tarık Buğra 'Osmancık' farklı bir okumayla. İkisini karıştırmamak için: Devlet Ana = Kemal Tahir, Osmancık = Tarık Buğra.",
+    "mebi_sayfa": "117",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_065",
+    "konu": "cumhuriyet",
+    "alt_konu": "kemal_tahir",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Devlet Ana, Osmanlı Devleti'nin kuruluş yıllarına dayanan tarihsel romandır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Kemal Tahir"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Hamdi Tanpınar"
+      },
+      {
+        "id": "C",
+        "text": "Sabahattin Ali"
+      },
+      {
+        "id": "D",
+        "text": "Adalet Ağaoğlu"
+      },
+      {
+        "id": "E",
+        "text": "Halikarnas Balıkçısı"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Devlet Ana — Osmanlı kuruluşunun tezli/düşünceli okuması.",
+    "tuzak": "Orhan Kemal, Yaşar Kemal ile karıştırma — üç 'Kemal' soyadlı toplumcu yazar. Kemal Tahir TARİHSEL TEZ + Anadolu/Osmanlı düşünsel, Orhan Kemal İŞÇİ, Yaşar Kemal KÖY EPİĞİ.",
+    "mebi_sayfa": "117",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_066",
+    "konu": "cumhuriyet",
+    "alt_konu": "ahmet_hamdi_tanpinar",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Mümtaz, ağabeyi İhsan'ın yatağının başında oturuyor, Boğaz'a bakıyordu\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Enis Behiç Koryürek"
+      },
+      {
+        "id": "B",
+        "text": "Necip Fazıl Kısakürek"
+      },
+      {
+        "id": "C",
+        "text": "Sabahattin Ali"
+      },
+      {
+        "id": "D",
+        "text": "Tarık Buğra"
+      },
+      {
+        "id": "E",
+        "text": "Ahmet Hamdi Tanpınar"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Huzur'un başlangıcı — Türk modernist romanının başyapıtı.",
+    "tuzak": "Oğuz Atay ile karıştırma — ikisi de Türk modernist roman. Tanpınar İRONİK + TARİHSEL FELSEFE + estetik, Atay MİZAH + KARA KOMEDİ + Tutunamayanlar. 'Huzur' Tanpınar, 'Tutunamayanlar' Atay.",
+    "mebi_sayfa": "117",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_067",
+    "konu": "cumhuriyet",
+    "alt_konu": "oguz_atay",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Bizim büyük tutunamayanlar, geceleyin sokaklarda dolaşır, bir kitap aşkıyla yaşarlardı\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Falih Rıfkı Atay"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Kutsi Tecer"
+      },
+      {
+        "id": "C",
+        "text": "Orhan Kemal"
+      },
+      {
+        "id": "D",
+        "text": "Oğuz Atay"
+      },
+      {
+        "id": "E",
+        "text": "Orhan Seyfi Orhon"
+      }
+    ],
+    "dogru": "D",
+    "aciklama": "Tutunamayanlar — Türk modernist romanın zirvesi.",
+    "tuzak": "Ahmet Hamdi Tanpınar ile karıştırma — ikisi de Türk modernist. Tanpınar TARİHSEL DERİN + 'Huzur'; Atay İRONİK PARODİ + 'Tutunamayanlar'.",
+    "mebi_sayfa": "117",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_068",
+    "konu": "cumhuriyet",
+    "alt_konu": "peyami_safa",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Dokuzuncu Hariciye Koğuşu, bir hasta çocuğun bilinciyle hastane romanı yazar\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Arif Nihat Asya"
+      },
+      {
+        "id": "B",
+        "text": "Yahya Kemal Beyatlı"
+      },
+      {
+        "id": "C",
+        "text": "Pınar Kür"
+      },
+      {
+        "id": "D",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "E",
+        "text": "Peyami Safa"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Dokuzuncu Hariciye Koğuşu — Türk psikolojik romanın zirvesi.",
+    "tuzak": "Mehmet Rauf 'Eylül' ile ilk psikolojik roman; Peyami Safa Cumhuriyet'in psikolojik roman zirvesi. Farklı dönemler, aynı tür.",
+    "mebi_sayfa": "117",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_069",
+    "konu": "cumhuriyet",
+    "alt_konu": "halikarnas_balikcisi",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Bodrum'un karşısında Karaada... Aganta burina burinata!\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Peyami Safa"
+      },
+      {
+        "id": "B",
+        "text": "Orhan Kemal"
+      },
+      {
+        "id": "C",
+        "text": "Tarık Buğra"
+      },
+      {
+        "id": "D",
+        "text": "Oğuz Atay"
+      },
+      {
+        "id": "E",
+        "text": "Halikarnas Balıkçısı"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Aganta Burina Burinata — deniz edebiyatının marka eseri. Mavi Anadoluculuk.",
+    "tuzak": "İsim aldatıcı — 'Halikarnas Balıkçısı' bir mahlas, gerçek adı Cevat Şakir. Aynı yazar.",
+    "mebi_sayfa": "115",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_070",
+    "konu": "cumhuriyet",
+    "alt_konu": "memduh_sevket_esendal",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Ayaşlı'nın pansiyonunda her kiracı bir başka hikâyenin sahibiydi\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Memduh Şevket Esendal"
+      },
+      {
+        "id": "B",
+        "text": "Kemal Tahir"
+      },
+      {
+        "id": "C",
+        "text": "Halit Fahri Ozansoy"
+      },
+      {
+        "id": "D",
+        "text": "Halikarnas Balıkçısı"
+      },
+      {
+        "id": "E",
+        "text": "Orhan Seyfi Orhon"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Ayaşlı ve Kiracıları — durum hikayeciliği (Çehov tarzı).",
+    "tuzak": "Sait Faik ile karıştırma — ikisi de 'durum hikayesi' (Çehov tarzı) ustası. Memduh Şevket büyük ölçekte BÜROKRAT/MEMUR hayatı, Sait Faik İSTANBUL/AYDOĞDU/balıkçı evreni.",
+    "mebi_sayfa": "114",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_071",
+    "konu": "milli_edebiyat",
+    "alt_konu": "omer_seyfettin",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Hocanın elindeki kalın değnek, falaka'ya dizilmiş çocuğun ayaklarına inip kalkıyordu\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Ziya Gökalp"
+      },
+      {
+        "id": "B",
+        "text": "Halide Edip Adıvar"
+      },
+      {
+        "id": "C",
+        "text": "Aka Gündüz"
+      },
+      {
+        "id": "D",
+        "text": "Mehmet Akif Ersoy"
+      },
+      {
+        "id": "E",
+        "text": "Ömer Seyfettin"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Falaka — Ömer Seyfettin'in mizah + tarih hikayeciliği.",
+    "tuzak": "Refik Halit ile karıştırma — ikisi de Milli Edebiyat hikayeciliği. Ömer Seyfettin DİL SADELEŞMESİ + tarih/mizah + 'Genç Kalemler', Refik Halit MEMLEKET GERÇEKÇİLİĞİ.",
+    "mebi_sayfa": "112",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_072",
+    "konu": "milli_edebiyat",
+    "alt_konu": "omer_seyfettin",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Kaşağı'nın anısı çocukluğumun en acı yarasıdır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Reşat Nuri Güntekin"
+      },
+      {
+        "id": "B",
+        "text": "Refik Halit Karay"
+      },
+      {
+        "id": "C",
+        "text": "Ahmet Hikmet Müftüoğlu"
+      },
+      {
+        "id": "D",
+        "text": "Mehmet Emin Yurdakul"
+      },
+      {
+        "id": "E",
+        "text": "Ömer Seyfettin"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Kaşağı — Türk hikayeciliğinin pişmanlık + masum suç temalı klasiği.",
+    "tuzak": "Refik Halit ile karıştırma — ikisi de Milli Edebiyat hikayeciliği. Ömer Seyfettin DİL SADELEŞMESİ + tarih/mizah + 'Genç Kalemler', Refik Halit MEMLEKET GERÇEKÇİLİĞİ.",
+    "mebi_sayfa": "112",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_073",
+    "konu": "cumhuriyet",
+    "alt_konu": "haldun_taner",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Keşan'lı Ali, mahallesinin ağası, hapishaneden çıkıp memleketine döndü\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Mithat Cemal Kuntay"
+      },
+      {
+        "id": "B",
+        "text": "Haldun Taner"
+      },
+      {
+        "id": "C",
+        "text": "Fazıl Hüsnü Dağlarca"
+      },
+      {
+        "id": "D",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "E",
+        "text": "Halit Fahri Ozansoy"
+      }
+    ],
+    "dogru": "B",
+    "aciklama": "Keşanlı Ali Destanı — Brechtyen epik tiyatronun Türkçedeki örneği.",
+    "tuzak": "Turgut Özakman ile karıştırma — ikisi de Cumhuriyet tiyatrosunun büyük adları. Haldun Taner BRECHT/EPİK + 'Keşanlı Ali Destanı', Özakman MİLLİ TEMA + 'Şu Çılgın Türkler'.",
+    "mebi_sayfa": "147",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_074",
+    "konu": "cumhuriyet",
+    "alt_konu": "mithat_cemal_kuntay",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Üç İstanbul... II. Abdülhamit, II. Meşrutiyet, Mütareke\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Faruk Nafiz Çamlıbel"
+      },
+      {
+        "id": "B",
+        "text": "Necip Fazıl Kısakürek"
+      },
+      {
+        "id": "C",
+        "text": "Sabahattin Ali"
+      },
+      {
+        "id": "D",
+        "text": "Halikarnas Balıkçısı"
+      },
+      {
+        "id": "E",
+        "text": "Mithat Cemal Kuntay"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Üç İstanbul — bir kentin üç döneminin panoramik romanı.",
+    "tuzak": "Bu yazar tek roman ile tanınır: ÜÇ İSTANBUL. Karıştırılma riski düşük ama 'kim?' diye sorulduğunda 'Üç İstanbul' = Mithat Cemal.",
+    "mebi_sayfa": "131",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_075",
+    "konu": "tanzimat",
+    "alt_konu": "semsettin_sami",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Talat ile Fitnat'ın aşkı, Türk romanının ilk denemelerindendir\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şemsettin Sami"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Mithat Efendi"
+      },
+      {
+        "id": "C",
+        "text": "Recaizade Mahmut Ekrem"
+      },
+      {
+        "id": "D",
+        "text": "Ziya Paşa"
+      },
+      {
+        "id": "E",
+        "text": "Ahmet Vefik Paşa"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Taaşşuk-ı Talat ve Fitnat — Türk edebiyatının ilk romanı (1872).",
+    "tuzak": "Ahmet Mithat ile karıştırma — ikisi de Tanzimat I. dönem popüler. Şemsettin Sami SÖZLÜK + İLK ROMAN, Ahmet Mithat ÇOK ROMAN + halk eğitimi.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_076",
+    "konu": "tanzimat",
+    "alt_konu": "namik_kemal",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"İntibah... uyanış demektir Türk romanının ilk büyük örneği\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Namık Kemal"
+      },
+      {
+        "id": "B",
+        "text": "Nabizade Nazım"
+      },
+      {
+        "id": "C",
+        "text": "Ziya Paşa"
+      },
+      {
+        "id": "D",
+        "text": "Abdülhak Hamit Tarhan"
+      },
+      {
+        "id": "E",
+        "text": "Direktör Ali Bey"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "İntibah — Türk edebiyatının ilk edebi romanı, Namık Kemal imzalı.",
+    "tuzak": "Şinasi ile karıştırma. Şinasi İLK'lerin BABASI (ilk şiir çevirisi, ilk tiyatro, ilk gazete), Namık Kemal SİYASAL/HEYECANLI içeriği getiren. 'Vatan' Namık Kemal'in markası.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_077",
+    "konu": "tanzimat",
+    "alt_konu": "recaizade_mahmut_ekrem",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Bihruz Bey, alafranga züppe tipinin Türk romanındaki ilk örneği\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şemsettin Sami"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Vefik Paşa"
+      },
+      {
+        "id": "C",
+        "text": "Şinasi"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet Mithat Efendi"
+      },
+      {
+        "id": "E",
+        "text": "Recaizade Mahmut Ekrem"
+      }
+    ],
+    "dogru": "E",
+    "aciklama": "Araba Sevdası — ilk realist Türk romanlarından, alafranga züppe eleştirisi.",
+    "tuzak": "Muallim Naci ile karıştırma — ikisi tam zıt kutuplar: Recaizade YENİ/Batı/realist, Muallim Naci ESKİ/Doğu/divan tarzı. 'Zemzeme' Recaizade; 'Demdeme' Muallim Naci'nin cevabı.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_078",
+    "konu": "tanzimat",
+    "alt_konu": "samipasazade_sezai",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Dilber, esir bir kız, hürriyet özlemi içinde yaşar\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nabizade Nazım"
+      },
+      {
+        "id": "B",
+        "text": "Ahmet Vefik Paşa"
+      },
+      {
+        "id": "C",
+        "text": "Samipaşazade Sezai"
+      },
+      {
+        "id": "D",
+        "text": "Muallim Naci"
+      },
+      {
+        "id": "E",
+        "text": "Direktör Ali Bey"
+      }
+    ],
+    "dogru": "C",
+    "aciklama": "Sergüzeşt — Tanzimat II. dönem realist romanın öncüsü.",
+    "tuzak": "Nabizade Nazım (Karabibik) ile karıştırma — ikisi de Tanzimat II. dönem realist roman öncüsü. 'Sergüzeşt' Sezai; 'Karabibik' (ilk köy romanı) Nabizade.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  },
+  {
+    "id": "alinti_079",
+    "konu": "tanzimat",
+    "alt_konu": "nabizade_nazim",
+    "tip": "alinti-paragraf-tani",
+    "soru": "Aşağıdaki paragraf hangi yazara aittir?<br><br><em>\"Karabibik, Antalya'nın bir köyünde geçen küçük bir romandır\"</em>",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nabizade Nazım"
+      },
+      {
+        "id": "B",
+        "text": "Recaizade Mahmut Ekrem"
+      },
+      {
+        "id": "C",
+        "text": "Samipaşazade Sezai"
+      },
+      {
+        "id": "D",
+        "text": "Şinasi"
+      },
+      {
+        "id": "E",
+        "text": "Muallim Naci"
+      }
+    ],
+    "dogru": "A",
+    "aciklama": "Karabibik — Türk edebiyatının ilk köy romanı (1890).",
+    "tuzak": "Samipaşazade Sezai (Sergüzeşt) ile karıştırma — ikisi de Tanzimat II. dönem realist roman öncüsü. 'Karabibik' = Nabizade Nazım; 'Sergüzeşt' = Samipaşazade Sezai.",
+    "mebi_sayfa": "127",
+    "zorluk": "kolay",
+    "kaynak": "alinti"
+  }
+]

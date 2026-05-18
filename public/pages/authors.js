@@ -2,6 +2,10 @@ import { Data, topicLabel, slugify, periodTheme, altKonuToAuthorSlug } from '../
 import { loadState } from '../lib/store.js';
 import { authorMastery, LEVELS, cardsForAuthor } from '../lib/mastery.js';
 
+function escapeHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
 export async function renderAuthorList() {
   const authors = await Data.authors();
   const cards = await Data.cards();
@@ -117,6 +121,10 @@ export async function renderAuthorDetail(slug) {
   const state = loadState();
   const allCards = [...cards, ...state.custom_kartlar];
 
+  // Çıkmış soruların tam metni için
+  let cikmisData = null;
+  try { cikmisData = await Data.cikmis(); } catch(e) { /* opsiyonel */ }
+
   const a = authors.find(x => slugify(x.name) === slug);
   if (!a) return `<p>Yazar bulunamadı.</p><a href="#/yazarlar" class="text-primary-700 underline">← Yazar listesine dön</a>`;
 
@@ -217,18 +225,35 @@ export async function renderAuthorDetail(slug) {
       </div>
     </div>
 
-    <!-- ÇIKMIŞ SORULAR -->
+    <!-- ÇIKMIŞ SORULAR (tam metniyle expand) -->
     ${a.occurrences && a.occurrences.length ? `
       <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4 mb-4">
-        <h3 class="font-bold mb-3 text-sm">📜 Çıkmış Soru Geçmişi</h3>
-        <ul class="space-y-1 text-sm">
-          ${a.occurrences.map(o => `
-            <li class="flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-1">
-              <span class="bg-primary-50 dark:bg-primary-900/50 text-primary-700 dark:text-primary-100 text-xs font-bold px-2 py-0.5 rounded">${o.year}</span>
-              <span>Soru ${o.qno}</span>
-              <span class="text-slate-500 text-xs">· ${topicLabel(o.topic)}</span>
-            </li>
-          `).join('')}
+        <h3 class="font-bold mb-3 text-sm">📜 Çıkmış Soru Geçmişi <span class="text-xs text-slate-500 font-normal">— tam metin için aç</span></h3>
+        <ul class="space-y-2 text-sm">
+          ${a.occurrences.map(o => {
+            const q = cikmisData?.questions.find(x => x.year === o.year && x.qno === o.qno);
+            return `
+              <li class="border-b border-slate-100 dark:border-slate-800 pb-2">
+                <details>
+                  <summary class="flex items-center gap-2 cursor-pointer">
+                    <span class="bg-primary-50 dark:bg-primary-900/50 text-primary-700 dark:text-primary-100 text-xs font-bold px-2 py-0.5 rounded">${o.year}</span>
+                    <span>Soru ${o.qno}</span>
+                    <span class="text-slate-500 text-xs">· ${topicLabel(o.topic)}</span>
+                    ${q ? '<span class="ml-auto text-xs text-primary-700 dark:text-primary-100">▼ aç</span>' : '<span class="ml-auto text-xs text-slate-400">tam metin yok</span>'}
+                  </summary>
+                  ${q ? `
+                    <div class="mt-2 ml-2 p-3 bg-slate-50 dark:bg-slate-800 rounded text-xs leading-relaxed whitespace-pre-wrap">${escapeHtml(q.soru)}</div>
+                    ${q.secenekler && q.secenekler.length ? `
+                      <div class="mt-2 ml-2 grid gap-1">
+                        ${q.secenekler.map(s => `<div class="text-xs flex gap-2"><strong class="text-primary-700 dark:text-primary-100">${s.id})</strong><span>${escapeHtml(s.text)}</span></div>`).join('')}
+                      </div>
+                    ` : ''}
+                    <div class="mt-2 ml-2 text-[10px] text-slate-500">Kaynak: MEB Çıkmış Sorular ${q.year}-AYT s.${q.page}</div>
+                  ` : ''}
+                </details>
+              </li>
+            `;
+          }).join('')}
         </ul>
       </div>
     ` : ''}

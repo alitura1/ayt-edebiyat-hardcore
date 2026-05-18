@@ -1,37 +1,43 @@
-// REV5 — Günün Kahramanı: tarih-seeded deterministic yazar seçimi
+// REV6 — "Şu Anki Yazar": sayfa her açılışta veya yenile butonunda farklı yazar
+// Son 20 yazarı history'de tut, peş peşe tekrar etmesin
 import { altKonuToAuthorSlug, slugify } from './data.js';
-import { localDateStr } from './streak.js';
+import { loadState, saveState } from './store.js';
 
-// FNV-1a deterministic hash
-function hashStr(s) {
-  let h = 2166136261 >>> 0;
-  for (let i = 0; i < s.length; i++) {
-    h ^= s.charCodeAt(i);
-    h = (h * 16777619) >>> 0;
-  }
-  return h >>> 0;
-}
-
-export function todayKey() { return localDateStr(); }
-
-// Anekdotu olan + soru_sayisi >= 1 olan yazarlardan, tarih bazlı seç
-// Eğer anekdotlu yazar yoksa fallback: en çok sorulan yazar
-export function dailyHero(authors, cards, dateKey = null) {
-  const key = dateKey || todayKey();
+// Anekdotu olan + soru_sayisi >= 1 olanlardan rastgele seç
+// state.daily_hero.history son 20 yazarı tutar (tekrar etmemek için)
+export function dailyHero(authors, cards) {
   const enriched = authors.filter(a => a.anekdot && a.soru_sayisi >= 1);
-  const pool = enriched.length ? enriched : authors.filter(a => a.soru_sayisi >= 1);
-  if (pool.length === 0) return { author: null, miniCard: null };
+  const basePool = enriched.length ? enriched : authors.filter(a => a.soru_sayisi >= 1);
+  if (basePool.length === 0) return { author: null, miniCard: null };
 
-  const idx = hashStr(key) % pool.length;
-  const author = pool[idx];
+  const s = loadState();
+  if (!s.daily_hero) s.daily_hero = { seen: {}, history: [] };
+  if (!Array.isArray(s.daily_hero.history)) s.daily_hero.history = [];
+  const recent = new Set(s.daily_hero.history.slice(-20));
 
-  // O yazara ait bir kart deterministic seç
+  // Önce recent dışı havuz dene, hepsi tükenmişse tüm havuzdan seç
+  const fresh = basePool.filter(a => !recent.has(slugify(a.name)));
+  const pool = fresh.length ? fresh : basePool;
+
+  const author = pool[Math.floor(Math.random() * pool.length)];
+
+  // Yazara ait kart random seç
   const slug = slugify(author.name);
   const aCards = cards.filter(c => altKonuToAuthorSlug(c.alt_konu) === slug);
-  let miniCard = null;
-  if (aCards.length) {
-    const cIdx = hashStr(key + ':card') % aCards.length;
-    miniCard = aCards[cIdx];
-  }
-  return { author, miniCard, key };
+  const miniCard = aCards.length ? aCards[Math.floor(Math.random() * aCards.length)] : null;
+
+  // History'ye kaydet (son 40'ı tut)
+  s.daily_hero.history.push(slug);
+  while (s.daily_hero.history.length > 40) s.daily_hero.history.shift();
+  saveState(s);
+
+  return { author, miniCard };
+}
+
+// Geçmişi temizle (settings'den çağrılabilir)
+export function resetHeroHistory() {
+  const s = loadState();
+  if (!s.daily_hero) s.daily_hero = { seen: {}, history: [] };
+  s.daily_hero.history = [];
+  saveState(s);
 }
