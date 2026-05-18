@@ -1,5 +1,6 @@
-import { Data, TOPIC_LABELS, topicLabel } from '../lib/data.js';
-import { loadState, updateProgress, setSessionState, getSessionState } from '../lib/store.js';
+import { Data, TOPIC_LABELS, topicLabel, altKonuToAuthorSlug, slugify } from '../lib/data.js';
+import { loadState, updateProgress, setSessionState, getSessionState, recordSrs } from '../lib/store.js';
+import { tickStreak } from '../lib/streak.js';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -116,6 +117,10 @@ export async function renderQuizSession() {
   if (q.zorluk && q.zorluk !== 'hepsi') {
     pool = pool.filter(c => (c.zorluk || 'orta') === q.zorluk);
   }
+  // REV5 — Yazara göre filtre (alt_konu eşleşmesi: "halit_ziya_usakligil" -> "halit-ziya-usakligil")
+  if (q.yazar) {
+    pool = pool.filter(c => altKonuToAuthorSlug(c.alt_konu) === q.yazar);
+  }
 
   if (pool.length === 0) {
     return `
@@ -183,11 +188,21 @@ function renderQuizCard(idx) {
           if (b.dataset.opt === chosen && !isCorrect) b.classList.add('wrong');
         });
         updateProgress(card.id, isCorrect);
+        recordSrs(card.id, isCorrect);  // REV5 — auto resurface
+        const streakRes = tickStreak();  // REV5 — günlük streak
         const sess = getSessionState('session');
         sess.answers.push({ id: card.id, chosen, isCorrect });
         setSessionState('session', sess);
         document.getElementById('feedback').classList.remove('hidden');
         document.getElementById('next').classList.remove('hidden');
+        // Streak bumped → kısa toast
+        if (streakRes.bumped) {
+          const toast = document.createElement('div');
+          toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-accent-500 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold animate-pulse';
+          toast.textContent = `🔥 Streak ${streakRes.current} gün!`;
+          document.body.appendChild(toast);
+          setTimeout(() => toast.remove(), 2500);
+        }
       });
     });
     document.getElementById('next')?.addEventListener('click', () => {

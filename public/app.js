@@ -9,6 +9,9 @@ import { renderQuizSetup, renderQuizSession, renderQuizResult } from './pages/qu
 import { renderCardList, renderCardNew } from './pages/cards.js';
 import { renderStats } from './pages/stats.js';
 import { renderSettings } from './pages/settings.js';
+import { renderAtis } from './pages/atis.js';
+import { renderCollection } from './pages/collection.js';
+import { streakInfo, currentBadge } from './lib/streak.js';
 
 // ---- Tema ----
 const themeKey = 'edebiyat-theme';
@@ -79,6 +82,10 @@ async function render() {
       html = await renderStats();
     } else if (parts[0] === 'ayarlar') {
       html = await renderSettings();
+    } else if (parts[0] === 'atis') {
+      html = await renderAtis();
+    } else if (parts[0] === 'koleksiyon') {
+      html = await renderCollection();
     } else {
       html = notFound();
     }
@@ -96,11 +103,32 @@ async function render() {
   app.innerHTML = `<div class="fade-in">${html}</div>`;
   window.scrollTo({ top: 0, behavior: 'instant' });
 
+  // REV5 — global streak rozeti güncelle
+  updateStreakBadge();
+
   // Bazı sayfaların post-render setup callback'i olabilir
   if (window.__pageSetup) {
     try { window.__pageSetup(); } catch (e) { console.error(e); }
     window.__pageSetup = null;
   }
+}
+
+function updateStreakBadge() {
+  const el = document.getElementById('streakBadge');
+  if (!el) return;
+  const info = streakInfo();
+  if (!info.current || info.current === 0) {
+    el.classList.add('hidden');
+    el.classList.remove('flex');
+    return;
+  }
+  const badge = currentBadge(info.current);
+  const emoji = badge?.emoji || '🔥';
+  el.innerHTML = `<span>${emoji}</span><span>${info.current}</span>`;
+  el.classList.remove('hidden');
+  el.classList.add('flex');
+  el.title = `${info.current} günlük seri (en uzun: ${info.longest}) — ${info.status === 'at_risk' ? 'Bugün soru çöz, kaybetme!' : info.status === 'active_today' ? 'Bugün aktif ✓' : ''}`;
+  el.href = '#/atis';
 }
 
 window.addEventListener('hashchange', render);

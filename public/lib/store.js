@@ -1,13 +1,25 @@
 // localStorage state yönetimi
 const KEY = 'edebiyat-state-v1';
+const DAY_MS = 86400000;
 
 const DEFAULT_STATE = {
-  version: 1,
+  version: 2,
   progress: {},           // kartId -> {cozuldu, dogru, yanlis, son}
   hata_defteri: [],       // kartId[]
   custom_kartlar: [],     // {...kart}[]
   program_checkbox: {},   // "hafta1_pzt" -> bool
   ayarlar: { ses: false, soru_sayisi_default: 10 },
+  // REV5 — Edebiyat Evreni
+  due: {},                // kartId -> next_due_at (epoch ms) — auto resurface
+  streak_correct: {},     // kartId -> üst üste doğru sayısı (mastery)
+  streak: {               // günlük login streak
+    current: 0,
+    longest: 0,
+    last_active_date: null,   // "YYYY-MM-DD"
+    history: [],              // son 60 gün
+  },
+  atis: { best_run: 0 },  // Hızlı Atış üst üste max doğru
+  daily_hero: { seen: {} }, // "YYYY-MM-DD" -> { authorSlug, miniQuizCardId, answered }
 };
 
 let cache = null;
@@ -53,6 +65,40 @@ export function updateProgress(cardId, isCorrect) {
     }
   }
   saveState(s);
+}
+
+// REV5 — Auto Resurface (yanlışlar otomatik geri gelir)
+// SRS değil, sade timer logic: yanlış→1g, doğru→3g/7g/14g/21g
+export function recordSrs(cardId, isCorrect) {
+  const s = loadState();
+  const sc = s.streak_correct[cardId] || 0;
+  if (isCorrect) {
+    s.streak_correct[cardId] = sc + 1;
+    let days;
+    if (sc === 0) days = 3;
+    else if (sc === 1) days = 7;
+    else if (sc === 2) days = 14;     // 3. üst üste doğru = MASTERY
+    else days = 21;                    // sonrası bakım modu
+    s.due[cardId] = Date.now() + days * DAY_MS;
+  } else {
+    s.streak_correct[cardId] = 0;     // sıfırla
+    s.due[cardId] = Date.now() + DAY_MS;  // 1 gün sonra geri gel
+  }
+  saveState(s);
+}
+
+export function dueCardIds(now = Date.now()) {
+  const s = loadState();
+  const out = [];
+  for (const id in s.due) {
+    if (s.due[id] <= now) out.push(id);
+  }
+  return out;
+}
+
+export function isMastered(cardId) {
+  const s = loadState();
+  return (s.streak_correct[cardId] || 0) >= 3;
 }
 
 export function addCustomCard(card) {
