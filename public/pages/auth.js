@@ -29,7 +29,16 @@ export async function renderLogin() {
         await authSignInGoogle();
         location.hash = '#/hesap';
       } catch (err) {
-        errEl.textContent = err.message || 'Google girişi başarısız';
+        // REV10 — popup engellendiyse açıklayıcı mesaj
+        if (err.code === 'auth/popup-blocked') {
+          errEl.innerHTML = '🚫 Pop-up engellendi.<br>Tarayıcı adres çubuğunda 🔒 ikonuna tıklayıp <strong>Pop-up\'lara izin ver</strong>, sonra tekrar dene.';
+        } else if (err.code === 'auth/popup-closed-by-user' || err.code === 'auth/cancelled-popup-request') {
+          errEl.textContent = 'Pop-up kapatıldı, tekrar dene.';
+        } else if (err.code === 'auth/unauthorized-domain') {
+          errEl.innerHTML = '⚠ Bu domain Firebase\'de yetkilendirilmemiş. Konsol > Authentication > Settings > Authorized domains\'e bu adresi ekle.';
+        } else {
+          errEl.textContent = err.message || 'Google girişi başarısız';
+        }
       }
     });
   };
