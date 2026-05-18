@@ -28,20 +28,21 @@ export async function renderHome() {
   const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
   const errorCount = s.hata_defteri.length;
 
-  // REV11 — Daily Hero KARIŞIK MOD: yazar→eser veya eser→yazar
+  // REV11+12 — Daily Hero karışık mod + yan sanayi soru
   const hero = dailyHero(authors, works);
   const heroAuthor = hero.author;
   const heroMode = hero.mode;  // 'eser' | 'yazar' | 'none'
   const eserSoru = hero.eserSoru;
   const yazarSoru = hero.yazarSoru;
+  const sideQ = hero.sideQ;  // yan sanayi sorusu
   const heroSlug = heroAuthor ? slugify(heroAuthor.name) : '';
   const heroTheme = heroAuthor ? periodTheme(heroAuthor.donem || heroAuthor.konular?.[0]) : null;
-  // Reveal için yazarın diğer eserleri
   const referenceEserTitle = eserSoru?.dogruEser?.title || yazarSoru?.targetEser?.title;
+  // Diğer eserler — yan sanayi varsa onu da hariç tut
+  const excludeTitles = new Set([referenceEserTitle, sideQ?.dogruEser?.title].filter(Boolean));
   const otherEserler = heroAuthor && works.length
-    ? works.filter(w => w.yazar === heroAuthor.name && w.title !== referenceEserTitle).slice(0, 6)
+    ? works.filter(w => w.yazar === heroAuthor.name && !excludeTitles.has(w.title)).slice(0, 6)
     : [];
-  // Mod B için yazar adı maskeli anekdot
   const maskedAnekdot = heroAuthor ? maskAuthorName(heroAuthor.anekdot || '', heroAuthor.name) : '';
 
   // Streak
@@ -66,7 +67,7 @@ export async function renderHome() {
       }
     }
 
-    function bindOpts(selector, dataKey, guessId, revealId) {
+    function bindOpts(selector, dataKey, guessId, revealId, onAfter) {
       const opts = document.querySelectorAll(selector);
       let answered = false;
       opts.forEach(btn => {
@@ -82,14 +83,23 @@ export async function renderHome() {
           document.getElementById(guessId)?.classList.add('hidden');
           document.getElementById(revealId)?.classList.remove('hidden');
           bumpStreak();
+          // Yan sanayi sorusu varsa onu göster
+          if (typeof onAfter === 'function') onAfter();
         });
       });
     }
 
+    function showSide() {
+      const side = document.getElementById('sideGuess');
+      if (side) side.classList.remove('hidden');
+      // Side şıkları bind
+      bindOpts('[data-side-opt]', 'sideOpt', 'sideGuess', 'sideReveal', null);
+    }
+
     if (heroMode === 'eser' && eserSoru) {
-      bindOpts('[data-eser-opt]', 'eserOpt', 'eserGuess', 'eserReveal');
+      bindOpts('[data-eser-opt]', 'eserOpt', 'eserGuess', 'eserReveal', sideQ ? showSide : null);
     } else if (heroMode === 'yazar' && yazarSoru) {
-      bindOpts('[data-yazar-opt]', 'yazarOpt', 'yazarGuess', 'yazarReveal');
+      bindOpts('[data-yazar-opt]', 'yazarOpt', 'yazarGuess', 'yazarReveal', sideQ ? showSide : null);
     }
   };
 
@@ -149,15 +159,39 @@ export async function renderHome() {
                     <div class="text-lg font-bold ${heroTheme.text}">${escape(eserSoru.dogruEser.title)}</div>
                     <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${eserSoru.dogruEser.tur || ''} ${eserSoru.dogruEser.yil ? '· ' + eserSoru.dogruEser.yil : ''}</div>
                   </div>
-                  ${otherEserler.length ? `
-                    <div class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3">
-                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
-                      <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
-                        ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
-                      </div>
-                    </div>
-                  ` : ''}
                 </div>
+
+                ${sideQ?.dogruCagdas ? `
+                  <!-- YAN SANAYİ: çağdaş tahmin (Mod A) -->
+                  <div id="sideGuess" class="hidden bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3 border-2 border-dashed ${heroTheme.text} border-current/30">
+                    <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">👥 Peki çağdaşlarından (aynı dönem) hangisi?</div>
+                    <div class="grid gap-1.5">
+                      ${sideQ.choices.map(c => `
+                        <button data-side-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                          <span class="opt-letter">${c.id}</span>
+                          <span class="flex-1 text-sm">${escape(c.name)}</span>
+                        </button>
+                      `).join('')}
+                    </div>
+                  </div>
+                  <div id="sideReveal" class="hidden mt-3">
+                    <div class="bg-ok-500/15 border border-ok-500/40 rounded-lg p-3 mb-3">
+                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Çağdaş Yazar</div>
+                      <div class="text-lg font-bold ${heroTheme.text}">${escape(sideQ.dogruCagdas.name)}</div>
+                      <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${heroTheme.label} · ${sideQ.dogruCagdas.pozisyon || ''}</div>
+                    </div>
+                  </div>
+                ` : ''}
+
+                <!-- Eserleri linkleri (her zaman görünür reveal sonrası) -->
+                ${otherEserler.length ? `
+                  <div id="otherEserler" class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3 hidden mt-3">
+                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
+                    <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
+                      ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
+                    </div>
+                  </div>
+                ` : ''}
               ` : heroMode === 'yazar' && yazarSoru ? `
                 <!-- MOD B: ESER GÖRÜNÜR → YAZAR SORULUR -->
                 <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(yazarSoru.targetEser.title)}</h2>
@@ -193,15 +227,38 @@ export async function renderHome() {
                       <p class="text-xs ${heroTheme.text}">${escape(heroAuthor.klasik_tuzak)}</p>
                     </div>
                   ` : ''}
-                  ${otherEserler.length ? `
-                    <div class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3">
-                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
-                      <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
-                        ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
-                      </div>
-                    </div>
-                  ` : ''}
                 </div>
+
+                ${sideQ?.dogruEser ? `
+                  <!-- YAN SANAYİ: aynı yazarın başka eseri (Mod B) -->
+                  <div id="sideGuess" class="hidden bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3 border-2 border-dashed ${heroTheme.text} border-current/30">
+                    <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">📚 Peki onun BAŞKA bir eseri?</div>
+                    <div class="grid gap-1.5">
+                      ${sideQ.choices.map(c => `
+                        <button data-side-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                          <span class="opt-letter">${c.id}</span>
+                          <span class="flex-1 text-sm">${escape(c.title)}</span>
+                        </button>
+                      `).join('')}
+                    </div>
+                  </div>
+                  <div id="sideReveal" class="hidden mt-3">
+                    <div class="bg-ok-500/15 border border-ok-500/40 rounded-lg p-3 mb-3">
+                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Başka Bir Eseri</div>
+                      <div class="text-lg font-bold ${heroTheme.text}">${escape(sideQ.dogruEser.title)}</div>
+                      <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${sideQ.dogruEser.tur || ''}</div>
+                    </div>
+                  </div>
+                ` : ''}
+
+                ${otherEserler.length ? `
+                  <div class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3 mt-3">
+                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
+                    <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
+                      ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
+                    </div>
+                  </div>
+                ` : ''}
               ` : `
                 <!-- Fallback: yazarın hiç eseri yok, sadece tanıtım -->
                 <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(heroAuthor.name)}</h2>

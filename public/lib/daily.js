@@ -17,6 +17,45 @@ export function maskAuthorName(text, fullName) {
   return masked;
 }
 
+// REV12 — Yan sanayi: çağdaş yazar tahmin sorusu
+// Doğru: aynı dönemden başka yazar. Çeldirici: farklı dönemden 4 yazar.
+export function buildCagdasSoru(author, authors) {
+  if (!author) return null;
+  const sameDonem = authors.filter(a => a.donem === author.donem && a.name !== author.name);
+  if (sameDonem.length === 0) return null;
+  const dogruCagdas = sameDonem[Math.floor(Math.random() * sameDonem.length)];
+  const diffDonem = authors.filter(a => a.donem !== author.donem);
+  if (diffDonem.length < 4) return null;
+  const distractors = [...diffDonem].sort(() => Math.random() - 0.5).slice(0, 4);
+  const all = [dogruCagdas, ...distractors].sort(() => Math.random() - 0.5).map((a, i) => ({
+    id: String.fromCharCode(65 + i),
+    name: a.name,
+    isCorrect: a.name === dogruCagdas.name,
+  }));
+  return { dogruCagdas, choices: all };
+}
+
+// REV12 — Yan sanayi: yazarın BAŞKA bir eseri tahmin sorusu
+// Doğru: aynı yazarın başka eseri (excludeEserTitle hariç).
+// Çeldirici: aynı dönemden başka yazarların 4 eseri.
+export function buildBaskaEserSoru(author, works, excludeEserTitle = null) {
+  if (!author || !Array.isArray(works) || works.length === 0) return null;
+  const authorOtherWorks = works.filter(w => w.yazar === author.name && w.title !== excludeEserTitle);
+  if (authorOtherWorks.length === 0) return null;
+  const dogru = authorOtherWorks[Math.floor(Math.random() * authorOtherWorks.length)];
+  const otherWorks = works.filter(w => w.yazar !== author.name);
+  const sameDonem = otherWorks.filter(w => w.donem === author.donem);
+  const pool = sameDonem.length >= 4 ? sameDonem : otherWorks;
+  if (pool.length < 4) return null;
+  const distractors = [...pool].sort(() => Math.random() - 0.5).slice(0, 4);
+  const all = [dogru, ...distractors].sort(() => Math.random() - 0.5).map((w, i) => ({
+    id: String.fromCharCode(65 + i),
+    title: w.title,
+    isCorrect: w === dogru,
+  }));
+  return { dogruEser: dogru, choices: all };
+}
+
 // Mod B: Yazarın bir eseri + 4 çeldirici yazar (aynı dönemden)
 export function buildYazarSoru(author, authors, works) {
   if (!author || !Array.isArray(works) || works.length === 0) return null;
@@ -86,8 +125,9 @@ export function dailyHero(authors, works = []) {
   saveState(s);
 
   // REV11 — Karışık mod: %50 eser, %50 yazar
+  // REV12 — Her modun bir "yan sanayi" sorusu da var
   const preferred = Math.random() < 0.5 ? 'eser' : 'yazar';
-  let eserSoru = null, yazarSoru = null;
+  let eserSoru = null, yazarSoru = null, sideQ = null;
   if (preferred === 'eser') {
     eserSoru = buildEserSoru(author, works);
     if (!eserSoru) yazarSoru = buildYazarSoru(author, authors, works);
@@ -97,7 +137,16 @@ export function dailyHero(authors, works = []) {
   }
   const mode = eserSoru ? 'eser' : (yazarSoru ? 'yazar' : 'none');
 
-  return { mode, author, eserSoru, yazarSoru };
+  // Yan sanayi soru
+  if (mode === 'eser') {
+    // Yazar→Eser modunun yan sanayisi: çağdaş yazar tahmin
+    sideQ = buildCagdasSoru(author, authors);
+  } else if (mode === 'yazar') {
+    // Eser→Yazar modunun yan sanayisi: aynı yazarın BAŞKA eseri
+    sideQ = buildBaskaEserSoru(author, works, yazarSoru?.targetEser?.title);
+  }
+
+  return { mode, author, eserSoru, yazarSoru, sideQ };
 }
 
 // Geçmişi temizle (settings'den çağrılabilir)
