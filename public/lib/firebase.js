@@ -48,10 +48,22 @@ export async function authSignInEmail(email, password) {
 export async function authSignInGoogle() {
   const { auth, authMod } = await loadFirebase();
   const provider = new authMod.GoogleAuthProvider();
-  // REV8 — signInWithRedirect: pop-up engelleme sorunu yok, daha güvenilir
-  // Geri dönüşte getRedirectResult app.js DOMContentLoaded'da yakalanır
-  await authMod.signInWithRedirect(auth, provider);
-  // Bu satıra ulaşmaz; sayfa Google'a yönlendirilir
+  // REV9 — Hibrit: önce popup, başarısızsa redirect
+  try {
+    const cred = await authMod.signInWithPopup(auth, provider);
+    return cred.user;
+  } catch (e) {
+    // Popup engellendi/kapatıldı → redirect'e fallback
+    if (
+      e.code === 'auth/popup-blocked' ||
+      e.code === 'auth/cancelled-popup-request' ||
+      e.code === 'auth/popup-closed-by-user'
+    ) {
+      await authMod.signInWithRedirect(auth, provider);
+      return null;  // sayfa yönlendirilir
+    }
+    throw e;
+  }
 }
 
 export async function authSignOut() {

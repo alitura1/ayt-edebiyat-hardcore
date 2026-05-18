@@ -19,6 +19,8 @@ export async function renderHome() {
   const s = loadState();
   const authors = await Data.authors();
   const cards = await Data.cards();
+  let works = [];
+  try { works = await Data.works(); } catch(e) { /* opsiyonel */ }
   const allCards = [...cards, ...s.custom_kartlar];
 
   const totalCorrect = Object.values(s.progress).reduce((a,p) => a + p.dogru, 0);
@@ -26,14 +28,19 @@ export async function renderHome() {
   const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
   const errorCount = s.hata_defteri.length;
 
-  // REV8 — Daily Hero TAHMİN OYUNU: yazar adı gizli, 5 şıktan tahmin
-  const hero = dailyHero(authors);
+  // REV9 — Daily Hero 2 AŞAMALI: yazar tahmin + eser tahmin
+  const hero = dailyHero(authors, works);
   const heroAuthor = hero.author;
   const distractors = hero.distractors || [];
+  const eserSoru = hero.eserSoru;  // null olabilir (yazarın eseri yok)
   const heroSlug = heroAuthor ? slugify(heroAuthor.name) : '';
   const heroTheme = heroAuthor ? periodTheme(heroAuthor.donem || heroAuthor.konular?.[0]) : null;
   // Maskelenmiş anekdot (gizli aşama için)
   const maskedAnekdot = heroAuthor ? maskAuthorName(heroAuthor.anekdot || '', heroAuthor.name) : '';
+  // Yazarın diğer eserleri (final reveal için, eserSoru.dogruEser hariç)
+  const otherEserler = heroAuthor && works.length
+    ? works.filter(w => w.yazar === heroAuthor.name && (!eserSoru || w.title !== eserSoru.dogruEser.title)).slice(0, 6)
+    : [];
 
   // 5 şık — doğru cevap + 4 çeldirici, karıştırılmış
   const choicesArr = heroAuthor
@@ -55,34 +62,53 @@ export async function renderHome() {
     document.getElementById('heroReroll')?.addEventListener('click', () => {
       window.dispatchEvent(new HashChangeEvent('hashchange'));
     });
-    // 5 şık — REVEAL aşamasına geçir
-    const opts = document.querySelectorAll('[data-hero-opt]');
-    let answered = false;
-    opts.forEach(btn => {
+
+    function bumpStreak() {
+      const streakRes = tickStreak();
+      if (streakRes.bumped) {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-accent-500 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
+        toast.textContent = `🔥 Streak ${streakRes.current} gün!`;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2500);
+      }
+    }
+
+    // === Aşama A: Yazar tahmin === → B'ye geç
+    const aOpts = document.querySelectorAll('[data-hero-opt]');
+    let aAnswered = false;
+    aOpts.forEach(btn => {
       btn.addEventListener('click', () => {
-        if (answered || !heroAuthor) return;
-        answered = true;
+        if (aAnswered || !heroAuthor) return;
+        aAnswered = true;
         const isCorrect = btn.dataset.heroOpt === 'correct';
-        // Şıklar disable + işaretle
-        opts.forEach(b => {
+        aOpts.forEach(b => {
           b.disabled = true;
           if (b.dataset.heroOpt === 'correct') b.classList.add('correct');
           if (b === btn && !isCorrect) b.classList.add('wrong');
         });
-        // Reveal
         document.getElementById('heroGuess')?.classList.add('hidden');
         document.getElementById('heroReveal')?.classList.remove('hidden');
-        // Streak +1 (cevap verildi, doğru/yanlış fark etmez)
-        const streakRes = tickStreak();
-        if (streakRes.bumped) {
-          const toast = document.createElement('div');
-          toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-accent-500 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
-          toast.textContent = `🔥 Streak ${streakRes.current} gün!`;
-          document.body.appendChild(toast);
-          setTimeout(() => toast.remove(), 2500);
-        }
-        // Header rozeti güncelle
-        try { window.dispatchEvent(new CustomEvent('streak-update')); } catch(e){}
+        bumpStreak();
+      });
+    });
+
+    // === Aşama C: Eser tahmin === → D'ye geç
+    const cOpts = document.querySelectorAll('[data-eser-opt]');
+    let cAnswered = false;
+    cOpts.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (cAnswered || !eserSoru) return;
+        cAnswered = true;
+        const isCorrect = btn.dataset.eserOpt === 'correct';
+        cOpts.forEach(b => {
+          b.disabled = true;
+          if (b.dataset.eserOpt === 'correct') b.classList.add('correct');
+          if (b === btn && !isCorrect) b.classList.add('wrong');
+        });
+        document.getElementById('eserGuess')?.classList.add('hidden');
+        document.getElementById('eserReveal')?.classList.remove('hidden');
+        bumpStreak();
       });
     });
   };
@@ -135,7 +161,7 @@ export async function renderHome() {
                 </div>
               </div>
 
-              <!-- REVEAL AŞAMASI (gizli, cevap verilince açılır) -->
+              <!-- AŞAMA B: YAZAR REVEAL (gizli, A cevap verilince açılır) -->
               <div id="heroReveal" class="hidden">
                 <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(heroAuthor.name)}</h2>
                 <div class="flex flex-wrap gap-2 mb-3">
@@ -152,7 +178,40 @@ export async function renderHome() {
                     <p class="text-xs ${heroTheme.text}">${escape(heroAuthor.klasik_tuzak)}</p>
                   </div>
                 ` : ''}
-                <div class="flex flex-wrap gap-2">
+
+                ${eserSoru ? `
+                  <!-- AŞAMA C: ESER TAHMİN -->
+                  <div id="eserGuess" class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3 border-t-2 ${heroTheme.text} border-current/20">
+                    <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">📚 Şimdi de <strong>${escape(heroAuthor.name)}</strong>'ın eserini bul:</div>
+                    <div class="grid gap-1.5">
+                      ${eserSoru.choices.map(c => `
+                        <button data-eser-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                          <span class="opt-letter">${c.id}</span>
+                          <span class="flex-1 text-sm">${escape(c.title)}</span>
+                        </button>
+                      `).join('')}
+                    </div>
+                  </div>
+
+                  <!-- AŞAMA D: ESER REVEAL + FINAL -->
+                  <div id="eserReveal" class="hidden mt-3">
+                    <div class="bg-ok-500/15 border border-ok-500/40 rounded-lg p-3 mb-3">
+                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Doğru Eser</div>
+                      <div class="text-lg font-bold ${heroTheme.text}">${escape(eserSoru.dogruEser.title)}</div>
+                      <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${eserSoru.dogruEser.tur || ''} ${eserSoru.dogruEser.yil ? '· ' + eserSoru.dogruEser.yil : ''}</div>
+                    </div>
+                    ${otherEserler.length ? `
+                      <div class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3">
+                        <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
+                        <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
+                          ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
+                        </div>
+                      </div>
+                    ` : ''}
+                  </div>
+                ` : ''}
+
+                <div class="flex flex-wrap gap-2 mt-3">
                   <a href="#/yazarlar/${heroSlug}" class="bg-white dark:bg-slate-900 ${heroTheme.text} px-4 py-2 rounded-md font-bold text-sm shadow">Profili Aç →</a>
                   <a href="#/atis?yazar=${heroSlug}" class="bg-accent-500 text-white px-4 py-2 rounded-md font-bold text-sm shadow">⚡ Bu yazardan Hızlı Atış</a>
                 </div>

@@ -158,11 +158,16 @@ window.addEventListener('DOMContentLoaded', async () => {
   // REV6 — Cloud sync init (Firebase yüklenir, login varsa pull yapar)
   window.__syncHook = scheduleSync;
   initSync().catch(e => console.warn('sync init err', e));
-  // REV8 — Google OAuth redirect'ten dönüş yakalama
+  // REV8+9 — Google OAuth redirect'ten dönüş yakalama
   try {
     const fb = await import('./lib/firebase.js');
     const inst = await fb.getFirebase();
-    await inst.authMod.getRedirectResult(inst.auth);
+    const result = await inst.authMod.getRedirectResult(inst.auth);
+    if (result?.user) {
+      console.log('[auth] redirect login OK:', result.user.email);
+      // UI'a explicit haber (initSync onAuthChange'i de fires ama yedek olarak)
+      window.dispatchEvent(new CustomEvent('authchange', { detail: { user: result.user } }));
+    }
   } catch(e) { console.warn('redirect result err', e); }
   startNotifyScheduler();
   // Auth state değişince re-render (header auth göstergesi)
