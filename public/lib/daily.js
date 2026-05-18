@@ -22,9 +22,19 @@ export function dailyHero(authors, cards) {
   const author = pool[Math.floor(Math.random() * pool.length)];
 
   // Yazara ait kart random seç
+  // REV7 — doğru cevap yazarın adını içeren kartları FİLTRELE (spoiler önlemi)
   const slug = slugify(author.name);
   const aCards = cards.filter(c => altKonuToAuthorSlug(c.alt_konu) === slug);
-  const miniCard = aCards.length ? aCards[Math.floor(Math.random() * aCards.length)] : null;
+  const nameLower = author.name.toLowerCase();
+  const filteredCards = aCards.filter(c => {
+    const correct = c.secenekler?.find(o => o.id === c.dogru);
+    if (!correct) return false;
+    // Cevap yazarın adının bir parçası ise spoiler — atla
+    return !correct.text.toLowerCase().includes(nameLower);
+  });
+  const miniCard = filteredCards.length
+    ? filteredCards[Math.floor(Math.random() * filteredCards.length)]
+    : null;
 
   // History'ye kaydet (son 40'ı tut)
   s.daily_hero.history.push(slug);
