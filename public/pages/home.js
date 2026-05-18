@@ -1,8 +1,11 @@
 import { Data, periodTheme, slugify } from '../lib/data.js';
-import { loadState, updateProgress, recordSrs } from '../lib/store.js';
+import { loadState } from '../lib/store.js';
 import { tickStreak, streakInfo, currentBadge, nextBadge } from '../lib/streak.js';
-import { dailyHero } from '../lib/daily.js';
+import { dailyHero, maskAuthorName } from '../lib/daily.js';
 
+function escape(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -22,15 +25,24 @@ export async function renderHome() {
   const totalSolved = Object.values(s.progress).reduce((a,p) => a + p.cozuldu, 0);
   const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
   const errorCount = s.hata_defteri.length;
-  const customCount = s.custom_kartlar.length;
 
-  // Daily Hero — REV6: her sayfa açılışta farklı yazar
-  const hero = dailyHero(authors, allCards);
+  // REV8 — Daily Hero TAHMİN OYUNU: yazar adı gizli, 5 şıktan tahmin
+  const hero = dailyHero(authors);
   const heroAuthor = hero.author;
-  const heroCard = hero.miniCard;
+  const distractors = hero.distractors || [];
   const heroSlug = heroAuthor ? slugify(heroAuthor.name) : '';
   const heroTheme = heroAuthor ? periodTheme(heroAuthor.donem || heroAuthor.konular?.[0]) : null;
-  const heroAnswered = false;  // her açılışta yeni soru
+  // Maskelenmiş anekdot (gizli aşama için)
+  const maskedAnekdot = heroAuthor ? maskAuthorName(heroAuthor.anekdot || '', heroAuthor.name) : '';
+
+  // 5 şık — doğru cevap + 4 çeldirici, karıştırılmış
+  const choicesArr = heroAuthor
+    ? shuffle([heroAuthor, ...distractors]).map((a, i) => ({
+        id: String.fromCharCode(65 + i),  // A-E
+        name: a.name,
+        isCorrect: a.name === heroAuthor.name,
+      }))
+    : [];
 
   // Streak
   const sk = streakInfo();
@@ -39,31 +51,29 @@ export async function renderHome() {
   const streakColor = sk.status === 'active_today' ? 'text-ok-500' : sk.status === 'at_risk' ? 'text-warn-500' : sk.status === 'broken' ? 'text-slate-400' : 'text-slate-400';
 
   window.__pageSetup = () => {
-    // Yenile butonu — sayfayı tekrar render
+    // Yenile butonu — yeniden render
     document.getElementById('heroReroll')?.addEventListener('click', () => {
-      // hashchange tetiklemek için tek manuel re-render
       window.dispatchEvent(new HashChangeEvent('hashchange'));
     });
-    // Daily Hero mini quiz inline cevap
+    // 5 şık — REVEAL aşamasına geçir
     const opts = document.querySelectorAll('[data-hero-opt]');
-    let answered = heroAnswered;
+    let answered = false;
     opts.forEach(btn => {
       btn.addEventListener('click', () => {
-        if (answered || !heroCard) return;
+        if (answered || !heroAuthor) return;
         answered = true;
-        const chosen = btn.dataset.heroOpt;
-        const isCorrect = chosen === heroCard.dogru;
+        const isCorrect = btn.dataset.heroOpt === 'correct';
+        // Şıklar disable + işaretle
         opts.forEach(b => {
           b.disabled = true;
-          if (b.dataset.heroOpt === heroCard.dogru) b.classList.add('correct');
-          if (b.dataset.heroOpt === chosen && !isCorrect) b.classList.add('wrong');
+          if (b.dataset.heroOpt === 'correct') b.classList.add('correct');
+          if (b === btn && !isCorrect) b.classList.add('wrong');
         });
-        updateProgress(heroCard.id, isCorrect);
-        recordSrs(heroCard.id, isCorrect);
+        // Reveal
+        document.getElementById('heroGuess')?.classList.add('hidden');
+        document.getElementById('heroReveal')?.classList.remove('hidden');
+        // Streak +1 (cevap verildi, doğru/yanlış fark etmez)
         const streakRes = tickStreak();
-
-        document.getElementById('heroFeedback')?.classList.remove('hidden');
-
         if (streakRes.bumped) {
           const toast = document.createElement('div');
           toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-accent-500 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
@@ -71,9 +81,8 @@ export async function renderHome() {
           document.body.appendChild(toast);
           setTimeout(() => toast.remove(), 2500);
         }
-
-        // Header rozet güncelle
-        try { window.dispatchEvent(new HashChangeEvent('hashchange')); } catch(e){}
+        // Header rozeti güncelle
+        try { window.dispatchEvent(new CustomEvent('streak-update')); } catch(e){}
       });
     });
   };
@@ -84,60 +93,74 @@ export async function renderHome() {
         AYT Edebiyat <span class="text-accent-500">Hardcore</span>
       </h1>
       <p class="text-slate-600 dark:text-slate-400 text-sm max-w-2xl mx-auto">
-        Futbol takip eder gibi yazarları tanı. Her gün gir, hata yap, sürekli karşılaş — ezberlemeden ezberle.
+        Futbol kartı gibi yazarı tahmin et. Her gün gir, hata yap, sürekli karşılaş — ezberlemeden ezberle.
       </p>
     </section>
 
-    <!-- DAILY HERO + STREAK -->
+    <!-- DAILY HERO TAHMİN OYUNU + STREAK -->
     <div class="grid lg:grid-cols-3 gap-4 mb-5 max-w-5xl mx-auto">
       <!-- Hero: 2 kolon -->
       <div class="lg:col-span-2">
         ${heroAuthor ? `
           <div class="rounded-2xl overflow-hidden ${heroTheme.bg} border-2 border-slate-200 dark:border-slate-700">
             <div class="p-5">
-              <div class="flex items-center justify-between gap-2 mb-2">
+              <div class="flex items-center justify-between gap-2 mb-3">
                 <span class="text-xs font-bold uppercase tracking-wider ${heroTheme.text} opacity-80">★ Şu Anki Yazar</span>
                 <button id="heroReroll" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-bold hover:bg-white">🔄 Yenile</button>
               </div>
-              <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-2">${heroAuthor.name}</h2>
-              <div class="flex flex-wrap gap-2 mb-3">
-                <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">
-                  <span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}
-                </span>
-                <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${heroAuthor.pozisyon || 'Çok yönlü'}</span>
-                <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">${heroAuthor.soru_sayisi} soru / son ${Math.max(...heroAuthor.yillar)}</span>
+
+              <!-- GİZLİ AŞAMA -->
+              <div id="heroGuess">
+                <!-- İpuçları -->
+                <div class="text-3xl md:text-4xl font-bold ${heroTheme.text} mb-3 opacity-30">???</div>
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">
+                    <span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}
+                  </span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${heroAuthor.pozisyon || 'Çok yönlü'}</span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">${heroAuthor.soru_sayisi} soru / son ${Math.max(...heroAuthor.yillar)}</span>
+                </div>
+                ${maskedAnekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-4">İpucu: "${escape(maskedAnekdot)}"</p>` : ''}
+
+                <div class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3">
+                  <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">🎯 Sence bu yazar kim?</div>
+                  <div class="grid gap-1.5">
+                    ${choicesArr.map(c => `
+                      <button data-hero-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                        <span class="opt-letter">${c.id}</span>
+                        <span class="flex-1 text-sm">${escape(c.name)}</span>
+                      </button>
+                    `).join('')}
+                  </div>
+                </div>
               </div>
-              ${heroAuthor.anekdot ? `
-                <p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">"${heroAuthor.anekdot}"</p>
-              ` : ''}
-              <div class="flex flex-wrap gap-2">
-                <a href="#/yazarlar/${heroSlug}" class="bg-white dark:bg-slate-900 ${heroTheme.text} px-4 py-2 rounded-md font-bold text-sm shadow">Profili Aç →</a>
-                ${heroAuthor.klasik_tuzak ? `<details class="bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} px-3 py-2 rounded-md text-xs"><summary class="cursor-pointer font-bold">⚠ ÖSYM Tuzağı</summary><p class="mt-2">${heroAuthor.klasik_tuzak}</p></details>` : ''}
+
+              <!-- REVEAL AŞAMASI (gizli, cevap verilince açılır) -->
+              <div id="heroReveal" class="hidden">
+                <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(heroAuthor.name)}</h2>
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">
+                    <span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}
+                  </span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${heroAuthor.pozisyon || 'Çok yönlü'}</span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">${heroAuthor.soru_sayisi} soru / son ${Math.max(...heroAuthor.yillar)}</span>
+                </div>
+                ${heroAuthor.anekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">"${escape(heroAuthor.anekdot)}"</p>` : ''}
+                ${heroAuthor.klasik_tuzak ? `
+                  <div class="bg-accent-500/15 border border-accent-500/40 rounded-lg p-3 mb-3">
+                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">⚠ Klasik ÖSYM Tuzağı</div>
+                    <p class="text-xs ${heroTheme.text}">${escape(heroAuthor.klasik_tuzak)}</p>
+                  </div>
+                ` : ''}
+                <div class="flex flex-wrap gap-2">
+                  <a href="#/yazarlar/${heroSlug}" class="bg-white dark:bg-slate-900 ${heroTheme.text} px-4 py-2 rounded-md font-bold text-sm shadow">Profili Aç →</a>
+                  <a href="#/atis?yazar=${heroSlug}" class="bg-accent-500 text-white px-4 py-2 rounded-md font-bold text-sm shadow">⚡ Bu yazardan Hızlı Atış</a>
+                </div>
               </div>
             </div>
-            ${heroCard ? `
-              <div class="bg-white/85 dark:bg-slate-900/85 p-4 border-t-2 border-slate-200 dark:border-slate-700">
-                <div class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">⚡ Hızlı Soru</div>
-                <p class="text-sm mb-3">${heroCard.soru}</p>
-                <div class="grid gap-1.5">
-                  ${shuffle(heroCard.secenekler.map(o => ({...o}))).map(o => `
-                    <button data-hero-opt="${o.id}" class="opt" ${heroAnswered ? 'disabled' : ''}>
-                      <span class="opt-letter">${o.id}</span>
-                      <span class="flex-1 text-sm">${o.text}</span>
-                    </button>
-                  `).join('')}
-                </div>
-                <div id="heroFeedback" class="mt-3 ${heroAnswered ? '' : 'hidden'} space-y-2">
-                  <div class="ezber-box text-sm">
-                    <strong>✓ Doğru cevap: ${heroCard.dogru}</strong><br>${heroCard.aciklama || ''}
-                  </div>
-                  ${heroCard.tuzak ? `<div class="tuzak-box text-sm"><strong>⚠ TUZAK</strong><br>${heroCard.tuzak}</div>` : ''}
-                </div>
-              </div>
-            ` : ''}
           </div>
         ` : `
-          <div class="rounded-2xl bg-slate-100 dark:bg-slate-800 p-6 text-center text-slate-500">Bugünün yazarı yükleniyor...</div>
+          <div class="rounded-2xl bg-slate-100 dark:bg-slate-800 p-6 text-center text-slate-500">Yazar yükleniyor...</div>
         `}
       </div>
 

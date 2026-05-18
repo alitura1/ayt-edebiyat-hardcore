@@ -48,8 +48,10 @@ export async function authSignInEmail(email, password) {
 export async function authSignInGoogle() {
   const { auth, authMod } = await loadFirebase();
   const provider = new authMod.GoogleAuthProvider();
-  const cred = await authMod.signInWithPopup(auth, provider);
-  return cred.user;
+  // REV8 — signInWithRedirect: pop-up engelleme sorunu yok, daha güvenilir
+  // Geri dönüşte getRedirectResult app.js DOMContentLoaded'da yakalanır
+  await authMod.signInWithRedirect(auth, provider);
+  // Bu satıra ulaşmaz; sayfa Google'a yönlendirilir
 }
 
 export async function authSignOut() {
