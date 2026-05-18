@@ -54,6 +54,76 @@ function konuToSlug(konuText) {
   return null;
 }
 
+// REV15 — Konu metninden alt başlık anchor'ı çıkar (slugify edilmiş heading id)
+const ANCHOR_HINTS = [
+  // Divan
+  { match: /nazim bicim|nazim biç/, anchor: 'gazel' },
+  { match: /16-18|fuzuli|baki/, anchor: '16-yuzyil-zirve-sairleri-fuzuli-ve-baki' },
+  { match: /14-15|ahmedi|seyhi/, anchor: '14-15-yuzyil-onculeri' },
+  { match: /17.*nef|nabi/, anchor: '17-yuzyil-nef-i-ve-nabi' },
+  { match: /18.*nedim|seyh galip/, anchor: '18-yuzyil-nedim-ve-seyh-galip' },
+  // Cumhuriyet
+  { match: /garip|orhan veli|i\.? yeni/, anchor: 'garip-i-yeni' },
+  { match: /ii\.? yeni|ikinci yeni/, anchor: 'ikinci-yeni' },
+  { match: /toplumcu|nazim hikmet/, anchor: 'toplumcu-gercekci-siir' },
+  { match: /modernist|oguz atay|tanpinar/, anchor: 'modernist-roman' },
+  { match: /yedi mesale/, anchor: 'yedi-mesaleciler' },
+  { match: /hisar/, anchor: 'hisarcilar' },
+  { match: /sait faik/, anchor: 'sait-faik-abasiyanik' },
+  { match: /saf siir|hece|yahya kemal/, anchor: 'saf-siir' },
+  // Tanzimat
+  { match: /tanzimat.*ilk|i\.? donem|sinasi|namik kemal/, anchor: 'tanzimat-i-donem' },
+  { match: /tanzimat.*ii|ii\.? donem|recaizade|hamit/, anchor: 'tanzimat-ii-donem' },
+  // Servet-i Fünun
+  { match: /servet/, anchor: 'servet-i-funun-siir' },
+  { match: /fecr-i ati|fecr-i a/, anchor: 'fecr-i-ati' },
+  // Milli Edebiyat
+  { match: /milli edeb|omer seyfettin|ziya gokalp|mehmet emin/, anchor: 'milli-edebiyat-siir-ve-hikaye' },
+  // Halk
+  { match: /asik|karacaoglan|kosma/, anchor: 'asik-edebiyati' },
+  { match: /tekke|yunus emre|tasavvuf/, anchor: 'tekke-edebiyati' },
+  { match: /anonim halk|mani|turk[uü]/, anchor: 'anonim-halk-siiri' },
+  // İslamiyet öncesi
+  { match: /destan/, anchor: 'destanlar-detayi' },
+  { match: /orhun|gokturk/, anchor: 'orhun-yazitlari-detayi' },
+  // Geleneksel tiyatro
+  { match: /karagoz/, anchor: 'karagoz' },
+  { match: /orta oyun/, anchor: 'orta-oyunu' },
+  { match: /meddah/, anchor: 'meddah' },
+  // Masal/Fabl/Destan
+  { match: /masal/, anchor: 'masal-yapisi' },
+  { match: /fabl/, anchor: 'fabl' },
+  { match: /halk hikay/, anchor: 'halk-hikayeleri-detayi' },
+  // Söz sanatları
+  { match: /benzetme|tesbih/, anchor: 'benzetme' },
+  { match: /istiare/, anchor: 'istiare' },
+  { match: /soz san/, anchor: 'benzetme' },  // ilk söz sanatı
+  // Şiir bilgisi
+  { match: /kafiye|redif/, anchor: 'kafiye-turleri' },
+  { match: /vezin|aruz/, anchor: 'aruz-vezni' },
+  { match: /hece/, anchor: 'hece-vezni' },
+  { match: /siir bilgisi/, anchor: 'nazim-birimi-turleri' },
+  // Nesir
+  { match: /roman tur/, anchor: 'roman-turleri' },
+  { match: /hikaye tur/, anchor: 'hikaye-turleri' },
+  { match: /nesir/, anchor: 'roman-turleri' },
+  // Akımlar
+  { match: /klasisizm/, anchor: 'klasisizm' },
+  { match: /romantizm/, anchor: 'romantizm' },
+  { match: /realizm/, anchor: 'realizm' },
+  { match: /sembolizm/, anchor: 'sembolizm' },
+  { match: /akim/, anchor: 'klasisizm' },  // genel akım dersinde ilk akıma git
+];
+
+function konuToAnchor(konuText) {
+  if (!konuText) return null;
+  const norm = normalizeTr(konuText);
+  for (const { match, anchor } of ANCHOR_HINTS) {
+    if (match.test(norm)) return anchor;
+  }
+  return null;
+}
+
 export async function renderProgram() {
   const p = await Data.program();
   const state = loadState();
@@ -107,11 +177,13 @@ export async function renderProgram() {
             const key = `h${hi+1}_${g.gun.toLowerCase()}`;
             const checked = checks[key] ? 'checked' : '';
             const slug = konuToSlug(g.konu);
+            const anchor = slug ? konuToAnchor(g.konu) : null;
+            const href = slug ? (anchor ? `#/konular/${slug}#${anchor}` : `#/konular/${slug}`) : null;
             const inner = `
               <div class="flex items-baseline gap-2 mb-1 flex-wrap">
                 <span class="font-bold text-sm bg-primary-700 text-white px-2 py-0.5 rounded">${g.gun}</span>
                 <span class="font-semibold text-sm">${g.konu}</span>
-                ${slug ? `<span class="text-[10px] text-primary-700 dark:text-primary-100 font-bold opacity-80">→ konuya git</span>` : ''}
+                ${slug ? `<span class="text-[10px] text-primary-700 dark:text-primary-100 font-bold opacity-80">→ ${anchor ? 'alt başlığa' : 'konuya'} git</span>` : ''}
               </div>
               <div class="grid sm:grid-cols-3 gap-1 text-xs text-slate-600 dark:text-slate-400">
                 <div><strong class="text-primary-700 dark:text-primary-100">R:</strong> ${g.rehber}</div>
@@ -124,8 +196,8 @@ export async function renderProgram() {
                 <label class="cursor-pointer p-1 -m-1 flex items-center" title="Tamamlandı işaretle">
                   <input type="checkbox" data-check="${key}" ${checked} class="w-5 h-5 cursor-pointer" />
                 </label>
-                ${slug ? `
-                  <a href="#/konular/${slug}" class="flex-1 min-w-0 p-2 -m-2 rounded hover:bg-slate-50 dark:hover:bg-slate-800/50 transition">
+                ${href ? `
+                  <a href="${href}" class="flex-1 min-w-0 p-2 -m-2 rounded hover:bg-slate-50 dark:hover:bg-slate-800/50 transition">
                     ${inner}
                   </a>
                 ` : `

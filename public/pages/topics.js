@@ -1,4 +1,4 @@
-import { Data, topicLabel } from '../lib/data.js';
+import { Data, topicLabel, slugify } from '../lib/data.js';
 
 export async function renderTopicList() {
   const idx = await Data.topicsIndex();
@@ -38,6 +38,31 @@ export async function renderTopicDetail(slug) {
   const topic = idx.find(t => t.slug === slug);
   if (!topic) return `<p>Konu bulunamadı: ${slug}</p>`;
   const html = await Data.topicHTML(slug);
+
+  // REV15 — Heading'lere otomatik id ata + URL hash anchor scroll
+  window.__pageSetup = () => {
+    document.querySelectorAll('article.topic-content h2, article.topic-content h3, article.topic-content h4').forEach(h => {
+      if (!h.id) {
+        const text = (h.textContent || '').replace(/^[▶▸►•]\s*/, '').trim();
+        const id = slugify(text);
+        if (id) h.id = id;
+      }
+    });
+    // location.hash = "#/konular/divan_edebiyati#gazel"
+    const parts = location.hash.split('#');
+    if (parts.length >= 3 && parts[2]) {
+      const targetId = parts[2];
+      const target = document.getElementById(targetId);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          target.classList.add('ring-2', 'ring-accent-500', 'rounded', 'px-2');
+          setTimeout(() => target.classList.remove('ring-2', 'ring-accent-500', 'rounded', 'px-2'), 3500);
+        }, 200);
+      }
+    }
+  };
+
   return `
     <nav class="text-sm mb-3 text-slate-500"><a href="#/konular" class="hover:underline">← Tüm konular</a></nav>
     <header class="mb-4 pb-4 border-b border-slate-200 dark:border-slate-700">

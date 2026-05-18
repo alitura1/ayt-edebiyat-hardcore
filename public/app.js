@@ -50,7 +50,8 @@ function notFound() {
 
 async function render() {
   const rawHash = location.hash.slice(1) || '/';
-  const hash = rawHash.split('?')[0]; // query string'i ayır
+  // REV15 — hem query (?) hem ikinci hash (#) ayır (anchor scroll için)
+  const hash = rawHash.split('?')[0].split('#')[0];
   const parts = hash.split('/').filter(Boolean); // ["quiz","setup"] vs.
 
   let html = '';

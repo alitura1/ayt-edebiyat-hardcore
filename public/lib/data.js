@@ -65,9 +65,13 @@ export const TOPIC_LABELS = {
 export function topicLabel(code) { return TOPIC_LABELS[code] || code; }
 
 export function slugify(str) {
-  return str.toLowerCase()
+  // REV15 — Türkçe büyük İ "i + combining dot above" → ASCII 'i' garanti
+  return String(str)
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')  // diacritics (dot above, cedilla, breve)
+    .toLowerCase()
+    .replace(/ı/g, 'i')  // noktasız ı (NFD'de aynı kalır)
     .replace(/ş/g,'s').replace(/ç/g,'c').replace(/ğ/g,'g')
-    .replace(/ı/g,'i').replace(/ö/g,'o').replace(/ü/g,'u')
+    .replace(/ö/g,'o').replace(/ü/g,'u')
     .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 }
 
