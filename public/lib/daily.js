@@ -35,9 +35,9 @@ export function buildCagdasSoru(author, authors) {
   return { dogruCagdas, choices: all };
 }
 
-// REV12 — Yan sanayi: yazarın BAŞKA bir eseri tahmin sorusu
+// REV12+13 — Yan sanayi: yazarın BAŞKA bir eseri tahmin sorusu
 // Doğru: aynı yazarın başka eseri (excludeEserTitle hariç).
-// Çeldirici: aynı dönemden başka yazarların 4 eseri.
+// Çeldirici: aynı dönemden başka yazarların KALİTELİ eserleri (tür belirli).
 export function buildBaskaEserSoru(author, works, excludeEserTitle = null) {
   if (!author || !Array.isArray(works) || works.length === 0) return null;
   const authorOtherWorks = works.filter(w => w.yazar === author.name && w.title !== excludeEserTitle);
@@ -45,7 +45,7 @@ export function buildBaskaEserSoru(author, works, excludeEserTitle = null) {
   const dogru = authorOtherWorks[Math.floor(Math.random() * authorOtherWorks.length)];
   const otherWorks = works.filter(w => w.yazar !== author.name);
   const sameDonem = otherWorks.filter(w => w.donem === author.donem);
-  const pool = sameDonem.length >= 4 ? sameDonem : otherWorks;
+  const pool = pickDistractorPool(otherWorks, sameDonem);
   if (pool.length < 4) return null;
   const distractors = [...pool].sort(() => Math.random() - 0.5).slice(0, 4);
   const all = [dogru, ...distractors].sort(() => Math.random() - 0.5).map((w, i) => ({
@@ -78,9 +78,27 @@ export function buildYazarSoru(author, authors, works) {
   return { targetEser, distractorAuthors, choices: all };
 }
 
+// REV13 — Kaliteli eser filter helper'ı (tür belirli olanları öncele)
+function isQualityWork(w) {
+  return w && w.tur && w.tur !== '—';
+}
+
+function pickDistractorPool(otherWorks, sameDonem) {
+  // Önce aynı dönem + tür belirli kaliteliler
+  const sameDonemKaliteli = sameDonem.filter(isQualityWork);
+  if (sameDonemKaliteli.length >= 4) return sameDonemKaliteli;
+  // Yetersizse aynı dönem (tür belirsiz dahil)
+  if (sameDonem.length >= 4) return sameDonem;
+  // O da yetersizse tüm kaliteli
+  const otherKaliteli = otherWorks.filter(isQualityWork);
+  if (otherKaliteli.length >= 4) return otherKaliteli;
+  // Son çare: tüm pool
+  return otherWorks;
+}
+
 // Yazara ait eser tahmin sorusu üretir
 // Doğru eser: yazarın works.json'daki eserlerinden 1 random
-// 4 çeldirici: aynı dönemden başka yazarların eserleri
+// 4 çeldirici: aynı dönemden başka yazarların KALİTELİ eserleri (tür belirli)
 export function buildEserSoru(author, works) {
   if (!author || !Array.isArray(works) || works.length === 0) return null;
   const yazarAdi = author.name;
@@ -90,7 +108,7 @@ export function buildEserSoru(author, works) {
   const dogruEser = authorWorks[Math.floor(Math.random() * authorWorks.length)];
   const otherWorks = works.filter(w => w.yazar !== yazarAdi);
   const sameDonem = otherWorks.filter(w => w.donem === author.donem);
-  const pool = sameDonem.length >= 8 ? sameDonem : otherWorks;
+  const pool = pickDistractorPool(otherWorks, sameDonem);
   const cleanPool = pool.filter(w => w.title !== dogruEser.title);
   const shuffled = [...cleanPool].sort(() => Math.random() - 0.5);
   const distractors = shuffled.slice(0, 4);

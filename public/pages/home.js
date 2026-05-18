@@ -37,12 +37,7 @@ export async function renderHome() {
   const sideQ = hero.sideQ;  // yan sanayi sorusu
   const heroSlug = heroAuthor ? slugify(heroAuthor.name) : '';
   const heroTheme = heroAuthor ? periodTheme(heroAuthor.donem || heroAuthor.konular?.[0]) : null;
-  const referenceEserTitle = eserSoru?.dogruEser?.title || yazarSoru?.targetEser?.title;
-  // Diğer eserler — yan sanayi varsa onu da hariç tut
-  const excludeTitles = new Set([referenceEserTitle, sideQ?.dogruEser?.title].filter(Boolean));
-  const otherEserler = heroAuthor && works.length
-    ? works.filter(w => w.yazar === heroAuthor.name && !excludeTitles.has(w.title)).slice(0, 6)
-    : [];
+  // REV13 — otherEserler kaldırıldı (spoiler önleme). Detay için "Profili Aç" butonu.
   const maskedAnekdot = heroAuthor ? maskAuthorName(heroAuthor.anekdot || '', heroAuthor.name) : '';
 
   // Streak
@@ -158,6 +153,11 @@ export async function renderHome() {
                     <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Doğru Eser</div>
                     <div class="text-lg font-bold ${heroTheme.text}">${escape(eserSoru.dogruEser.title)}</div>
                     <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${eserSoru.dogruEser.tur || ''} ${eserSoru.dogruEser.yil ? '· ' + eserSoru.dogruEser.yil : ''}</div>
+                    <div class="mt-2">
+                      <span class="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded ${eserSoru.dogruEser.cikmis ? "bg-warn-500/30 text-warn-500" : "bg-primary-50 dark:bg-primary-900/40 text-primary-700 dark:text-primary-100"}">
+                        ${eserSoru.dogruEser.cikmis ? "⭐ ÖSYM'de soruldu" : "📘 MEBİ kapsamında — ÖSYM henüz sormadı"}
+                      </span>
+                    </div>
                   </div>
                 </div>
 
@@ -182,16 +182,6 @@ export async function renderHome() {
                     </div>
                   </div>
                 ` : ''}
-
-                <!-- Eserleri linkleri (her zaman görünür reveal sonrası) -->
-                ${otherEserler.length ? `
-                  <div id="otherEserler" class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3 hidden mt-3">
-                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
-                    <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
-                      ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
-                    </div>
-                  </div>
-                ` : ''}
               ` : heroMode === 'yazar' && yazarSoru ? `
                 <!-- MOD B: ESER GÖRÜNÜR → YAZAR SORULUR -->
                 <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(yazarSoru.targetEser.title)}</h2>
@@ -199,6 +189,9 @@ export async function renderHome() {
                   <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold"><span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}</span>
                   <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${yazarSoru.targetEser.tur || 'Eser'}</span>
                   ${yazarSoru.targetEser.yil ? `<span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📅 ${yazarSoru.targetEser.yil}</span>` : ''}
+                  <span class="text-xs px-2 py-0.5 rounded-full font-bold ${yazarSoru.targetEser.cikmis ? 'bg-warn-500/30 text-warn-500' : 'bg-primary-50 dark:bg-primary-900/40 text-primary-700 dark:text-primary-100'}">
+                    ${yazarSoru.targetEser.cikmis ? "⭐ ÖSYM'de" : "📘 MEBİ"}
+                  </span>
                 </div>
                 ${maskedAnekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">İpucu: "${escape(maskedAnekdot)}"</p>` : ''}
 
@@ -247,15 +240,11 @@ export async function renderHome() {
                       <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Başka Bir Eseri</div>
                       <div class="text-lg font-bold ${heroTheme.text}">${escape(sideQ.dogruEser.title)}</div>
                       <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${sideQ.dogruEser.tur || ''}</div>
-                    </div>
-                  </div>
-                ` : ''}
-
-                ${otherEserler.length ? `
-                  <div class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3 mt-3">
-                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
-                    <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
-                      ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
+                      <div class="mt-2">
+                        <span class="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded ${sideQ.dogruEser.cikmis ? 'bg-warn-500/30 text-warn-500' : 'bg-primary-50 dark:bg-primary-900/40 text-primary-700 dark:text-primary-100'}">
+                          ${sideQ.dogruEser.cikmis ? "⭐ ÖSYM'de soruldu" : "📘 MEBİ kapsamında — ÖSYM henüz sormadı"}
+                        </span>
+                      </div>
                     </div>
                   </div>
                 ` : ''}
