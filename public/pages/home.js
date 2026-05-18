@@ -316,7 +316,7 @@ export async function renderHome() {
       ${shortcut('gruplar', '👥', 'Gruplar', 'Garip, II. Yeni...', 'primary')}
       ${shortcut('koleksiyon', '🎴', 'Koleksiyon', 'Kaç tanıdın?', 'accent')}
       ${shortcut('tahminler', '🔮', 'Tahminler', '2026 boşluk', 'primary')}
-      ${shortcut('program', '📅', 'Program', '4 haftalık', 'primary')}
+      ${shortcut('program', '📅', 'Program', '4 haftalık', 'accent')}
       ${shortcut('sozluk', '📓', 'Sözlük', 'Akım/eser', 'primary')}
       ${shortcut('kartlar', '🃏', 'Kartlar', `${allCards.length} kart`, 'primary')}
       ${shortcut('istatistik', '📊', 'İstatistik', 'İlerleme grafiği', 'primary')}
