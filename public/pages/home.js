@@ -1,7 +1,7 @@
 import { Data, periodTheme, slugify } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { tickStreak, streakInfo, currentBadge, nextBadge } from '../lib/streak.js';
-import { dailyHero } from '../lib/daily.js';
+import { dailyHero, maskAuthorName } from '../lib/daily.js';
 
 function escape(s) {
   return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -28,16 +28,21 @@ export async function renderHome() {
   const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
   const errorCount = s.hata_defteri.length;
 
-  // REV10 — Daily Hero "yazar görünür tanıtım + eser tahmin"
+  // REV11 — Daily Hero KARIŞIK MOD: yazar→eser veya eser→yazar
   const hero = dailyHero(authors, works);
   const heroAuthor = hero.author;
-  const eserSoru = hero.eserSoru;  // null olabilir (yazarın eseri yok)
+  const heroMode = hero.mode;  // 'eser' | 'yazar' | 'none'
+  const eserSoru = hero.eserSoru;
+  const yazarSoru = hero.yazarSoru;
   const heroSlug = heroAuthor ? slugify(heroAuthor.name) : '';
   const heroTheme = heroAuthor ? periodTheme(heroAuthor.donem || heroAuthor.konular?.[0]) : null;
-  // Yazarın diğer eserleri (reveal için, eserSoru.dogruEser hariç)
+  // Reveal için yazarın diğer eserleri
+  const referenceEserTitle = eserSoru?.dogruEser?.title || yazarSoru?.targetEser?.title;
   const otherEserler = heroAuthor && works.length
-    ? works.filter(w => w.yazar === heroAuthor.name && (!eserSoru || w.title !== eserSoru.dogruEser.title)).slice(0, 6)
+    ? works.filter(w => w.yazar === heroAuthor.name && w.title !== referenceEserTitle).slice(0, 6)
     : [];
+  // Mod B için yazar adı maskeli anekdot
+  const maskedAnekdot = heroAuthor ? maskAuthorName(heroAuthor.anekdot || '', heroAuthor.name) : '';
 
   // Streak
   const sk = streakInfo();
@@ -50,31 +55,42 @@ export async function renderHome() {
       window.dispatchEvent(new HashChangeEvent('hashchange'));
     });
 
-    // Eser tahmin → reveal
-    const opts = document.querySelectorAll('[data-eser-opt]');
-    let answered = false;
-    opts.forEach(btn => {
-      btn.addEventListener('click', () => {
-        if (answered || !eserSoru) return;
-        answered = true;
-        const isCorrect = btn.dataset.eserOpt === 'correct';
-        opts.forEach(b => {
-          b.disabled = true;
-          if (b.dataset.eserOpt === 'correct') b.classList.add('correct');
-          if (b === btn && !isCorrect) b.classList.add('wrong');
+    function bumpStreak() {
+      const streakRes = tickStreak();
+      if (streakRes.bumped) {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-accent-500 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
+        toast.textContent = `🔥 Streak ${streakRes.current} gün!`;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2500);
+      }
+    }
+
+    function bindOpts(selector, dataKey, guessId, revealId) {
+      const opts = document.querySelectorAll(selector);
+      let answered = false;
+      opts.forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (answered) return;
+          answered = true;
+          const isCorrect = btn.dataset[dataKey] === 'correct';
+          opts.forEach(b => {
+            b.disabled = true;
+            if (b.dataset[dataKey] === 'correct') b.classList.add('correct');
+            if (b === btn && !isCorrect) b.classList.add('wrong');
+          });
+          document.getElementById(guessId)?.classList.add('hidden');
+          document.getElementById(revealId)?.classList.remove('hidden');
+          bumpStreak();
         });
-        document.getElementById('eserGuess')?.classList.add('hidden');
-        document.getElementById('eserReveal')?.classList.remove('hidden');
-        const streakRes = tickStreak();
-        if (streakRes.bumped) {
-          const toast = document.createElement('div');
-          toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-accent-500 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
-          toast.textContent = `🔥 Streak ${streakRes.current} gün!`;
-          document.body.appendChild(toast);
-          setTimeout(() => toast.remove(), 2500);
-        }
       });
-    });
+    }
+
+    if (heroMode === 'eser' && eserSoru) {
+      bindOpts('[data-eser-opt]', 'eserOpt', 'eserGuess', 'eserReveal');
+    } else if (heroMode === 'yazar' && yazarSoru) {
+      bindOpts('[data-yazar-opt]', 'yazarOpt', 'yazarGuess', 'yazarReveal');
+    }
   };
 
   return `
@@ -95,29 +111,26 @@ export async function renderHome() {
           <div class="rounded-2xl overflow-hidden ${heroTheme.bg} border-2 border-slate-200 dark:border-slate-700">
             <div class="p-5">
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="text-xs font-bold uppercase tracking-wider ${heroTheme.text} opacity-80">★ Şu Anki Yazar</span>
+                <span class="text-xs font-bold uppercase tracking-wider ${heroTheme.text} opacity-80">★ ${heroMode === 'yazar' ? 'Şu Anki Eser' : 'Şu Anki Yazar'}</span>
                 <button id="heroReroll" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-bold hover:bg-white">🔄 Yenile</button>
               </div>
 
-              <!-- YAZAR TANITIM (görünür, tahmin yok) -->
-              <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(heroAuthor.name)}</h2>
-              <div class="flex flex-wrap gap-2 mb-3">
-                <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">
-                  <span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}
-                </span>
-                <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${heroAuthor.pozisyon || 'Çok yönlü'}</span>
-                <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">${heroAuthor.soru_sayisi} soru / son ${Math.max(...heroAuthor.yillar)}</span>
-              </div>
-              ${heroAuthor.anekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">"${escape(heroAuthor.anekdot)}"</p>` : ''}
-              ${heroAuthor.klasik_tuzak ? `
-                <div class="bg-accent-500/15 border border-accent-500/40 rounded-lg p-3 mb-3">
-                  <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">⚠ Klasik ÖSYM Tuzağı</div>
-                  <p class="text-xs ${heroTheme.text}">${escape(heroAuthor.klasik_tuzak)}</p>
+              ${heroMode === 'eser' && eserSoru ? `
+                <!-- MOD A: YAZAR GÖRÜNÜR → ESER SORULUR -->
+                <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(heroAuthor.name)}</h2>
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold"><span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}</span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${heroAuthor.pozisyon || 'Çok yönlü'}</span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">${heroAuthor.soru_sayisi} soru / son ${Math.max(...heroAuthor.yillar)}</span>
                 </div>
-              ` : ''}
+                ${heroAuthor.anekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">"${escape(heroAuthor.anekdot)}"</p>` : ''}
+                ${heroAuthor.klasik_tuzak ? `
+                  <div class="bg-accent-500/15 border border-accent-500/40 rounded-lg p-3 mb-3">
+                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">⚠ Klasik ÖSYM Tuzağı</div>
+                    <p class="text-xs ${heroTheme.text}">${escape(heroAuthor.klasik_tuzak)}</p>
+                  </div>
+                ` : ''}
 
-              ${eserSoru ? `
-                <!-- ESER TAHMİN -->
                 <div id="eserGuess" class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3">
                   <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">📚 Sence onun eserlerinden hangisi?</div>
                   <div class="grid gap-1.5">
@@ -130,7 +143,6 @@ export async function renderHome() {
                   </div>
                 </div>
 
-                <!-- ESER REVEAL -->
                 <div id="eserReveal" class="hidden mt-3">
                   <div class="bg-ok-500/15 border border-ok-500/40 rounded-lg p-3 mb-3">
                     <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Doğru Eser</div>
@@ -146,7 +158,59 @@ export async function renderHome() {
                     </div>
                   ` : ''}
                 </div>
-              ` : ''}
+              ` : heroMode === 'yazar' && yazarSoru ? `
+                <!-- MOD B: ESER GÖRÜNÜR → YAZAR SORULUR -->
+                <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(yazarSoru.targetEser.title)}</h2>
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold"><span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}</span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${yazarSoru.targetEser.tur || 'Eser'}</span>
+                  ${yazarSoru.targetEser.yil ? `<span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📅 ${yazarSoru.targetEser.yil}</span>` : ''}
+                </div>
+                ${maskedAnekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">İpucu: "${escape(maskedAnekdot)}"</p>` : ''}
+
+                <div id="yazarGuess" class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3">
+                  <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">👤 Sence bu eserin yazarı kim?</div>
+                  <div class="grid gap-1.5">
+                    ${yazarSoru.choices.map(c => `
+                      <button data-yazar-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                        <span class="opt-letter">${c.id}</span>
+                        <span class="flex-1 text-sm">${escape(c.name)}</span>
+                      </button>
+                    `).join('')}
+                  </div>
+                </div>
+
+                <div id="yazarReveal" class="hidden mt-3">
+                  <div class="bg-ok-500/15 border border-ok-500/40 rounded-lg p-3 mb-3">
+                    <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">✓ Doğru Yazar</div>
+                    <div class="text-lg font-bold ${heroTheme.text}">${escape(heroAuthor.name)}</div>
+                    <div class="text-xs ${heroTheme.text} opacity-80 mt-1">${heroTheme.label} · ${heroAuthor.pozisyon || ''}</div>
+                  </div>
+                  ${heroAuthor.anekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">"${escape(heroAuthor.anekdot)}"</p>` : ''}
+                  ${heroAuthor.klasik_tuzak ? `
+                    <div class="bg-accent-500/15 border border-accent-500/40 rounded-lg p-3 mb-3">
+                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">⚠ Klasik ÖSYM Tuzağı</div>
+                      <p class="text-xs ${heroTheme.text}">${escape(heroAuthor.klasik_tuzak)}</p>
+                    </div>
+                  ` : ''}
+                  ${otherEserler.length ? `
+                    <div class="bg-white/70 dark:bg-slate-900/60 rounded-lg p-3 mb-3">
+                      <div class="text-[10px] font-bold uppercase ${heroTheme.text} opacity-80 mb-1">📚 Diğer Eserleri</div>
+                      <div class="text-xs ${heroTheme.text} flex flex-wrap gap-1.5">
+                        ${otherEserler.map(w => `<a href="#/eserler/${w.slug}-${w.yazarSlug}" class="bg-white/80 dark:bg-slate-800/80 px-2 py-0.5 rounded hover:underline">${escape(w.title)}</a>`).join('')}
+                      </div>
+                    </div>
+                  ` : ''}
+                </div>
+              ` : `
+                <!-- Fallback: yazarın hiç eseri yok, sadece tanıtım -->
+                <h2 class="text-2xl md:text-3xl font-bold ${heroTheme.text} mb-3">${escape(heroAuthor.name)}</h2>
+                <div class="flex flex-wrap gap-2 mb-3">
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold"><span class="inline-block w-1.5 h-1.5 rounded-full ${heroTheme.dot} align-middle mr-1"></span>${heroTheme.label}</span>
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${heroTheme.text} font-semibold">📖 ${heroAuthor.pozisyon || 'Çok yönlü'}</span>
+                </div>
+                ${heroAuthor.anekdot ? `<p class="text-sm italic ${heroTheme.text} leading-relaxed mb-3">"${escape(heroAuthor.anekdot)}"</p>` : ''}
+              `}
 
               <div class="flex flex-wrap gap-2 mt-3">
                 <a href="#/yazarlar/${heroSlug}" class="bg-white dark:bg-slate-900 ${heroTheme.text} px-4 py-2 rounded-md font-bold text-sm shadow">Profili Aç →</a>

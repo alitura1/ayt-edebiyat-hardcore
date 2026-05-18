@@ -45,12 +45,21 @@ export async function authSignInEmail(email, password) {
   return cred.user;
 }
 
+function isMobileDevice() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
 export async function authSignInGoogle() {
   const { auth, authMod } = await loadFirebase();
   const provider = new authMod.GoogleAuthProvider();
-  // REV10 — Sadece popup (ayrı sekme). Engellenirse hata mesajı UI'da görünür.
-  const cred = await authMod.signInWithPopup(auth, provider);
-  return cred.user;
+  // REV11 — Mobil popup çalışıyor; PC'de redirect daha güvenilir
+  if (isMobileDevice()) {
+    const cred = await authMod.signInWithPopup(auth, provider);
+    return cred.user;
+  } else {
+    await authMod.signInWithRedirect(auth, provider);
+    return null;  // sayfa yönlendirilir
+  }
 }
 
 export async function authSignOut() {
