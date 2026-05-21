@@ -513,31 +513,57 @@ function renderTarihHeroCard(hero) {
   if (!hero || !hero.choices) return '';
   const mode = hero.mode;
 
-  // Mod-spesifik metinler ve veri
-  let modBadge, modQuestion, ipucu, hint, revealTitle, revealBody;
-  if (mode === 'kisi') {
-    modBadge = '★ TARİHÎ ŞAHSİYET';
+  // REV27 — 5 mod desteği (olay-padisah, padisah-olay, yil-antlasma, antlasma-yil, yil-savas)
+  // ve eski 3 mod (kisi, antlasma, olay) backward compat
+  const MOD_META = {
+    'olay-padisah':   { badge: '⚔️ OLAY → PADİŞAH',   icon: '👑' },
+    'padisah-olay':   { badge: '👑 PADİŞAH → OLAY',   icon: '⚔️' },
+    'yil-antlasma':   { badge: '📅 YIL → ANTLAŞMA',   icon: '📜' },
+    'antlasma-yil':   { badge: '📜 ANTLAŞMA → YIL',   icon: '📅' },
+    'yil-savas':      { badge: '📅 YIL → SAVAŞ',      icon: '⚔️' },
+    // Eski 3 mod
+    'kisi':           { badge: '★ TARİHÎ ŞAHSİYET',  icon: '👤' },
+    'antlasma':       { badge: '★ TARİHÎ ANTLAŞMA',  icon: '📜' },
+    'olay':           { badge: '★ TARİHÎ SAVAŞ',     icon: '⚔️' },
+  };
+  const meta = MOD_META[mode] || { badge: '★ TARİH', icon: '?' };
+
+  // REV27 yeni modlar — daily-tarih.js zaten ipucu_label, ipucu, donem, yan_label, yan_cevap, target_name döner
+  const isNewMode = ['olay-padisah','padisah-olay','yil-antlasma','antlasma-yil','yil-savas'].includes(mode);
+
+  let modQuestion, hint, revealBody, yanSanayi = '';
+
+  if (isNewMode) {
+    modQuestion = `${meta.icon} ${hero.ipucu_label || 'Doğru cevap?'}`;
+    hint = hero.ipucu
+      ? `İpucu: <em>${escape(hero.ipucu.slice(0, 240))}</em>`
+      : (hero.donem ? `<span class="text-xs text-slate-500">${escape(hero.donem)}</span>` : '');
+    revealBody = `
+      <div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target_name || '—')}</div>
+      ${hero.donem ? `<div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.donem)} ${hero.donem_yillar ? '· ' + escape(hero.donem_yillar) : ''}</div>` : ''}
+    `;
+    if (hero.yan_cevap && hero.yan_cevap !== '—') {
+      yanSanayi = `
+        <div class="mt-2 text-xs text-slate-700 dark:text-slate-300">
+          <span class="font-bold">${escape(hero.yan_label || 'Yan Soru')}:</span>
+          <span class="ml-1">${escape(hero.yan_cevap)}</span>
+        </div>
+      `;
+    }
+  } else if (mode === 'kisi') {
     modQuestion = '👤 Sence bu tanım kime ait?';
-    ipucu = hero.anekdot || '';
-    hint = `İpucu: <em>"${escape(ipucu)}"</em>`;
-    revealTitle = '✓ Doğru Kişi';
+    hint = `İpucu: <em>"${escape(hero.anekdot || '')}"</em>`;
     revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.name)}</div>
                   <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.donem || '')}</div>`;
   } else if (mode === 'antlasma') {
-    modBadge = '★ TARİHÎ ANTLAŞMA';
     modQuestion = '📜 Sence bu hangi antlaşma?';
-    ipucu = hero.ipucu || '';
-    hint = `İpucu (ana madde): <em>${escape(ipucu.slice(0, 220))}</em>`;
-    revealTitle = '✓ Doğru Antlaşma';
+    hint = `İpucu (ana madde): <em>${escape((hero.ipucu || '').slice(0, 220))}</em>`;
     revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.isim)} (${hero.target.yil})</div>
                   <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.taraflar)}</div>
                   <div class="text-xs text-slate-600 dark:text-slate-300 mt-2">📌 ${escape(hero.target.sonuc || '')}</div>`;
   } else if (mode === 'olay') {
-    modBadge = '★ TARİHÎ SAVAŞ';
     modQuestion = '⚔️ Sence bu hangi savaş/olay?';
-    ipucu = hero.sebep || '';
-    hint = `İpucu (sebep): <em>${escape(ipucu.slice(0, 220))}</em>`;
-    revealTitle = '✓ Doğru Olay';
+    hint = `İpucu (sebep): <em>${escape((hero.sebep || '').slice(0, 220))}</em>`;
     revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.isim)} (${hero.target.yil})</div>
                   <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.taraflar)}</div>
                   <div class="text-xs text-slate-600 dark:text-slate-300 mt-2">📌 Sonuç: ${escape(hero.target.sonuc || '')}</div>`;
@@ -547,7 +573,7 @@ function renderTarihHeroCard(hero) {
     <div class="rounded-2xl overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/30 dark:to-orange-900/20 border-2 border-amber-500/40">
       <div class="p-5">
         <div class="flex items-center justify-between gap-2 mb-3">
-          <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200 opacity-90">${modBadge}</span>
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200 opacity-90">${meta.badge}</span>
           <a href="#/" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold hover:bg-white">🔄 Yenile</a>
         </div>
 
@@ -566,8 +592,9 @@ function renderTarihHeroCard(hero) {
         </div>
 
         <div id="heroReveal" class="hidden mt-3 bg-ok-500/15 border border-ok-500/40 rounded-lg p-3">
-          <div class="text-[10px] font-bold uppercase text-amber-800 dark:text-amber-200 opacity-80 mb-1">${revealTitle}</div>
+          <div class="text-[10px] font-bold uppercase text-amber-800 dark:text-amber-200 opacity-80 mb-1">✓ Doğru Cevap</div>
           ${revealBody}
+          ${yanSanayi}
         </div>
       </div>
     </div>
