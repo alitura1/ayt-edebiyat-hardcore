@@ -164,6 +164,7 @@ async function renderTarihHome() {
 
     <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-6xl mx-auto">
       ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
+      ${shortcut('cikmis-sorular', '📋', 'Çıkmış Sorular', '79 ÖSYM sorusu', 'accent')}
       ${shortcut('konular', '⏳', `${periods.length} Dönem`, 'Öğretim + ezber', 'primary')}
       ${shortcut('yazarlar', '👤', `${people.length} Kişi`, 'Padişah, lider', 'primary')}
       ${shortcut('eserler', '⚔️', 'Olaylar', `${events.length} savaş`, 'primary')}
@@ -483,6 +484,7 @@ async function renderEdebiyatHome() {
 
     <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-6xl mx-auto">
       ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
+      ${shortcut('cikmis-sorular', '📋', 'Çıkmış Sorular', '192 ÖSYM sorusu', 'accent')}
       ${shortcut('konular', '📚', '13 Konu', 'Öğretim + ezber', 'primary')}
       ${shortcut('yazarlar', '👤', '85 Yazar', 'Trading kartlar', 'primary')}
       ${shortcut('eserler', '📖', 'Eserler', '251 eser', 'primary')}

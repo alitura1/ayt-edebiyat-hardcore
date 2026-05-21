@@ -16,6 +16,7 @@ import { renderWorkList, renderWorkDetail } from './pages/works.js';
 import { renderGroupList, renderGroupDetail } from './pages/groups.js';
 import { renderLogin, renderRegister, renderProfile } from './pages/auth.js';
 import { renderSelectSubject, setupSelectSubject } from './pages/select-subject.js';
+import { renderCikmisSorular } from './pages/cikmis-sorular.js';
 import { streakInfo, currentBadge } from './lib/streak.js';
 import { initSync, scheduleSync, currentSyncUid, refreshSyncForSubject } from './lib/sync.js';
 import { startNotifyScheduler } from './lib/notify.js';
@@ -137,6 +138,8 @@ async function render() {
       html = await renderAuthorList();
     } else if (parts[0] === 'yazarlar' && parts[1]) {
       html = await renderAuthorDetail(parts[1]);
+    } else if (parts[0] === 'cikmis-sorular') {
+      html = await renderCikmisSorular();
     } else if (parts[0] === 'tahminler') {
       html = await renderPredictions();
     } else if (parts[0] === 'program') {
