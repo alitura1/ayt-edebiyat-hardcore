@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#1F3A5F" />
-  <title>AYT Edebiyat — Hardcore Hazırlık</title>
-  <meta name="description" content="2018-2025 AYT Edebiyat çıkmış soruları analiz edilmiş, ÖSYM mantığıyla quiz + konu öğretim + 2026 tahminleri." />
+  <title id="pageTitle">AYT Hardcore — Edebiyat & Tarih</title>
+  <meta name="description" id="pageDesc" content="2018-2025 AYT Edebiyat ve Tarih çıkmış soruları analiz edilmiş, ÖSYM mantığıyla quiz + konu öğretim + 2026 tahminleri." />
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="apple-touch-icon" href="./assets/icon-192.svg" />
@@ -37,10 +37,11 @@
   <header class="sticky top-0 z-30 bg-white/85 dark:bg-slate-900/85 backdrop-blur border-b border-slate-200 dark:border-slate-800">
     <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-2">
       <a href="#/" class="flex items-center gap-2 font-bold text-primary-700 dark:text-primary-100">
-        <span class="inline-block w-8 h-8 rounded-lg bg-primary-700 text-white grid place-items-center text-sm">AE</span>
-        <span class="hidden sm:inline">AYT Edebiyat <span class="text-accent-500">·</span> Hardcore</span>
-        <span class="sm:hidden">AYT Edebiyat</span>
+        <span class="inline-block w-8 h-8 rounded-lg bg-primary-700 text-white grid place-items-center text-sm">AH</span>
+        <span class="hidden sm:inline">AYT Hardcore</span>
+        <span class="sm:hidden">AH</span>
       </a>
+      <div id="subjectToggle" class="hidden md:flex items-center gap-1 ml-2 rounded-full bg-slate-100 dark:bg-slate-800 p-1"></div>
       <nav class="flex items-center gap-1 text-sm">
         <a id="streakBadge" href="#/" class="hidden items-center gap-1 px-2 py-1 rounded bg-accent-500/15 text-accent-500 font-bold mr-1" title="Streak"></a>
         <a id="authBadge" href="#/giris" class="px-2 py-1 rounded hover:bg-slate-100 dark:hover:bg-slate-800" title="Giriş yap"><span>🔐</span></a>
@@ -62,8 +63,8 @@
 
   <footer class="border-t border-slate-200 dark:border-slate-800 py-6 mt-12 text-center text-xs text-slate-500">
     <div class="max-w-6xl mx-auto px-4">
-      <p>AYT Edebiyat Hardcore · 192 soru · 2018-2025 analiz · MEBİ Konu Özet entegrasyonu</p>
-      <p class="mt-1">Kaynaklar: MEB Ortaöğretim Genel Müdürlüğü çıkmış soru kitabı + MEBİ AYT TDE özet PDF</p>
+      <p>AYT Hardcore · Edebiyat (192 soru) + Tarih (79 soru) · 2018-2025 ÖSYM analiz</p>
+      <p class="mt-1">Kaynaklar: MEB Ortaöğretim Genel Müdürlüğü çıkmış soru kitabı + MEBİ özet PDF'ler</p>
     </div>
   </footer>
 

@@ -1,11 +1,18 @@
-import { Data, topicLabel, slugify } from '../lib/data.js';
+import { Data, topicLabel, slugify, getDataSubject } from '../lib/data.js';
 
 export async function renderTopicList() {
   const idx = await Data.topicsIndex();
+  const subject = getDataSubject();
+  const isTarih = subject === 'tarih';
+  const headerIcon = isTarih ? '⏳' : '📚';
+  const headerTitle = isTarih ? `${idx.length} Dönem` : `${idx.length} Konu`;
+  const headerSub = isTarih
+    ? 'Soru sayısına göre sıralı. ÖSYM 8 yılda hangi dönemden kaç soru çıkarmış, hangi konu 2026 boşluk adayı — hepsi içeride.'
+    : 'Frekansa göre sıralı. ÖSYM her konuda ne soruyor, hangi alt başlık 2026 boşluk adayı — hepsi içeride.';
   return `
     <header class="mb-6">
-      <h1 class="text-3xl font-bold mb-1">📚 13 Konu</h1>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">Frekansa göre sıralı. ÖSYM her konuda ne soruyor, hangi alt başlık 2026 boşluk adayı — hepsi içeride.</p>
+      <h1 class="text-3xl font-bold mb-1">${headerIcon} ${headerTitle}</h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">${headerSub}</p>
     </header>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
       ${idx.map(t => `

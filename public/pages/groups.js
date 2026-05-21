@@ -1,18 +1,20 @@
-// REV6 M5 — Edebi gruplar: liste + detay
-import { Data, periodTheme, slugify } from '../lib/data.js';
+// REV6 M5 — Edebi gruplar / hanedanlar: liste + detay
+import { Data, periodTheme, slugify, getDataSubject } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { authorMastery, LEVELS } from '../lib/mastery.js';
 
 export async function renderGroupList() {
   const groups = await Data.groups();
+  const isTarih = getDataSubject() === 'tarih';
+  const headerTitle = isTarih ? '🏛️ Hanedanlar & Gruplar' : '👥 Edebi Gruplar';
+  const headerSub = isTarih
+    ? `${groups.length} grup · Osmanlı Hanedanı, Selçuklu Sultanları, Anadolu Beylikleri, Kuvayımilliye Kahramanları, İttihat-Terakki ve İlk Türk Devletleri.`
+    : `${groups.length} grup · Beş Hececiler, Garip, İkinci Yeni, Servet-i Fünun ve daha fazlası. ÖSYM tuzaklarının çözüldüğü yer.`;
 
   return `
     <header class="mb-5">
-      <h1 class="text-3xl font-bold mb-1">👥 Edebi Gruplar</h1>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">
-        ${groups.length} grup · Beş Hececiler, Garip, İkinci Yeni, Servet-i Fünun ve daha fazlası.
-        ÖSYM tuzaklarının çözüldüğü yer.
-      </p>
+      <h1 class="text-3xl font-bold mb-1">${headerTitle}</h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">${headerSub}</p>
     </header>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

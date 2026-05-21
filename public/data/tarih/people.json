@@ -1,0 +1,1096 @@
+[
+  {
+    "name": "Mustafa Kemal Atatürk",
+    "slug": "mustafa-kemal-ataturk",
+    "soru_sayisi": 10,
+    "yillar": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "konular": [
+      "milli_mucadele"
+    ],
+    "donem": "milli_mucadele",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Liderlik koşulları (Selanik-Trablusgarp-Çanakkale), Sakarya, Büyük Taarruz, ilke-söz eşleme, dış politika (Hatay-Etabli)",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "tekrarlanan"
+  },
+  {
+    "name": "II. Mehmet (Fatih)",
+    "slug": "ii-mehmet-fatih",
+    "soru_sayisi": 2,
+    "yillar": [
+      2018,
+      2023
+    ],
+    "konular": [
+      "osmanli_yukselis"
+    ],
+    "donem": "osmanli_yukselis",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "İstanbul Fethi sonuçları, Kayser-i Rum/Sultânü'l-Berreyn unvanları, kanunname",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "tekrarlanan"
+  },
+  {
+    "name": "I. Murat",
+    "slug": "i-murat",
+    "soru_sayisi": 1,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Yeniçeri kuruluşu, Devşirme sistemi, Tımar, Rumeli Beylerbeyliği",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "Mete Han (Maotun)",
+    "slug": "mete-han-maotun",
+    "soru_sayisi": 1,
+    "yillar": [
+      2021
+    ],
+    "konular": [
+      "islam_oncesi_turk"
+    ],
+    "donem": "islam_oncesi_turk",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Çin İmparatoruna mektup, teşkilatçılık, cihanşümul devlet",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "İstemi Yabgu",
+    "slug": "i-stemi-yabgu",
+    "soru_sayisi": 1,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "islam_oncesi_turk"
+    ],
+    "donem": "islam_oncesi_turk",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Göktürk batı kanadı yöneticisi, ikili teşkilat, Bizans elçileri",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "Tapo Kağan",
+    "slug": "tapo-kagan",
+    "soru_sayisi": 1,
+    "yillar": [
+      2019
+    ],
+    "konular": [
+      "islam_oncesi_turk"
+    ],
+    "donem": "islam_oncesi_turk",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Budizm'i kabul etti, tepki çekti",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "İsmet İnönü (Paşa)",
+    "slug": "i-smet-i-nonu-pasa",
+    "soru_sayisi": 3,
+    "yillar": [
+      2021,
+      2022,
+      2023
+    ],
+    "konular": [
+      "milli_mucadele"
+    ],
+    "donem": "milli_mucadele",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "I-II. İnönü, Lozan baş delegesi, Mudanya imzası",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "tekrarlanan"
+  },
+  {
+    "name": "Kazım Karabekir Paşa",
+    "slug": "kazim-karabekir-pasa",
+    "soru_sayisi": 2,
+    "yillar": [
+      2019,
+      2020
+    ],
+    "konular": [
+      "milli_mucadele"
+    ],
+    "donem": "milli_mucadele",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Doğu Cephesi, Gümrü Antlaşması, 15. Kolordu",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "tekrarlanan"
+  },
+  {
+    "name": "Şah İsmail (Safevi)",
+    "slug": "sah-i-smail-safevi",
+    "soru_sayisi": 1,
+    "yillar": [
+      2014,
+      2026
+    ],
+    "konular": [
+      "osmanli_yukselis"
+    ],
+    "donem": "osmanli_yukselis",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Çaldıran, Şahkulu propagandası, Şia",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "Yıldırım Bayezid",
+    "slug": "yildirim-bayezid",
+    "soru_sayisi": 0,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Niğbolu, Ankara Savaşı, Timur'a esir, Fetret Devri öncesi (8 yıl boş kaldı, 2026 adayı)",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "Kanuni Sultan Süleyman",
+    "slug": "kanuni-sultan-suleyman",
+    "soru_sayisi": 0,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "osmanli_yukselis"
+    ],
+    "donem": "osmanli_yukselis",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Belgrat, Rodos, Mohaç, Viyana, Kapitülasyon, Sokullu (8 yıl boş — KESİN 2026 adayı)",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "Yavuz Sultan Selim",
+    "slug": "yavuz-sultan-selim",
+    "soru_sayisi": 0,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "osmanli_yukselis"
+    ],
+    "donem": "osmanli_yukselis",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Çaldıran, Mercidabık, Ridaniye, Hilafet (8 yıl boş — KESİN 2026 adayı)",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "II. Mahmut",
+    "slug": "ii-mahmut",
+    "soru_sayisi": 0,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "osmanli_duraklama"
+    ],
+    "donem": "osmanli_duraklama",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Vaka-i Hayriye, Sened-i İttifak, Tanzimat hazırlığı (8 yıl boş — 2026 adayı)",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "II. Abdülhamid",
+    "slug": "ii-abdulhamid",
+    "soru_sayisi": 0,
+    "yillar": [
+      2018
+    ],
+    "konular": [
+      "osmanli_dagilma"
+    ],
+    "donem": "osmanli_dagilma",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Kanunuesasi, I. Meşrutiyet, 31 Mart (8 yıl boş — sürpriz adayı)",
+    "klasik_tuzak": "",
+    "occurrences": [],
+    "kategori": "bekleyen"
+  },
+  {
+    "name": "Bumin Kağan",
+    "slug": "bumin-kagan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "552 Avarları yıktı",
+    "klasik_tuzak": "Hiç doğrudan sorulmadı ama I. Göktürk kurucu",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Mukan Kağan",
+    "slug": "mukan-kagan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "islam_oncesi_turk"
+    ],
+    "donem": "islam_oncesi_turk",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "I. Göktürk en güçlü dönem",
+    "klasik_tuzak": "Hiç doğrudan sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Bilge Kağan + Kül Tigin + Tonyukuk",
+    "slug": "bilge-kagan-kul-tigin-tonyukuk",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "islam_oncesi_turk"
+    ],
+    "donem": "islam_oncesi_turk",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "II. Göktürk lideri, anıt mezarları",
+    "klasik_tuzak": "Orhun Yazıtları bağlamında dolaylı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Bögü Kağan",
+    "slug": "bogu-kagan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "islam_oncesi_turk"
+    ],
+    "donem": "islam_oncesi_turk",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Uygur — Mani dinini kabul etti",
+    "klasik_tuzak": "Hiç sorulmadı (sürpriz adayı)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Kubrat Han",
+    "slug": "kubrat-han",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Büyük Bulgarya kurucusu",
+    "klasik_tuzak": "Dolaylı (Bulgar)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Saltuk Buğra Han",
+    "slug": "saltuk-bugra-han",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "islam_tarihi"
+    ],
+    "donem": "islam_tarihi",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Karahanlı'da İslam'ı resmen kabul eden hükümdar",
+    "klasik_tuzak": "Dolaylı (Karahanlı İslam)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Gazneli Mahmut",
+    "slug": "gazneli-mahmut",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Hindistan seferleri, Sultan unvanı kullanan ilk Türk",
+    "klasik_tuzak": "Hiç doğrudan sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Tuğrul Bey",
+    "slug": "tugrul-bey",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "turk_islam"
+    ],
+    "donem": "turk_islam",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Selçuklu kurucusu, Bağdat'a girdi (1055)",
+    "klasik_tuzak": "Hiç sorulmadı (sürpriz)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Alp Arslan",
+    "slug": "alp-arslan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Malazgirt (1071) zaferi",
+    "klasik_tuzak": "Hiç doğrudan sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Melikşah",
+    "slug": "meliksah",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "turk_islam"
+    ],
+    "donem": "turk_islam",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Selçuklu zirve, Nizamülmülk veziri",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Nizamülmülk",
+    "slug": "nizamulmulk",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "turk_islam"
+    ],
+    "donem": "turk_islam",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Selçuklu veziri, Nizamiye Medreseleri, Siyasetname",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Kaşgarlı Mahmud",
+    "slug": "kasgarli-mahmud",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Divan-ı Lugati't-Türk",
+    "klasik_tuzak": "Hiç sorulmadı (sürpriz)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Yusuf Has Hâcib",
+    "slug": "yusuf-has-h-cib",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Kutadgu Bilig",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Süleyman Şah (Türkiye Selçuklu)",
+    "slug": "suleyman-sah-turkiye-selcuklu",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "turk_islam"
+    ],
+    "donem": "turk_islam",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Türkiye Selçuklu kurucusu (1077)",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "II. Kılıç Arslan",
+    "slug": "ii-kilic-arslan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Myriokephalon (1176) zaferi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "I. Alâeddin Keykubat",
+    "slug": "i-al-eddin-keykubat",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "turk_islam"
+    ],
+    "donem": "turk_islam",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Türkiye Selçuklu zirve dönemi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Karamanoğlu Mehmet Bey",
+    "slug": "karamanoglu-mehmet-bey",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Türkçe'yi resmi dil yapan ilk (1277)",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Osman Bey",
+    "slug": "osman-bey",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Osmanlı kurucu",
+    "klasik_tuzak": "Hiç sorulmadı (sürpriz)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Orhan Bey",
+    "slug": "orhan-bey",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Bursa fethi, Rumeli'ye geçiş, ilk Osmanlı parası",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Mehmet Çelebi (I. Mehmet)",
+    "slug": "mehmet-celebi-i-mehmet",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Fetret devrini bitiren — ikinci kurucu",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "II. Murat",
+    "slug": "ii-murat",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Varna, II. Kosova zaferleri",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "II. Bayezid",
+    "slug": "ii-bayezid",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Cem Sultan, Endülüs Yahudileri, Şahkulu",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "II. Selim",
+    "slug": "ii-selim",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Kıbrıs Fethi, İnebahti",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "III. Murat",
+    "slug": "iii-murat",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Sokullu suikastı",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Sokullu Mehmet Paşa",
+    "slug": "sokullu-mehmet-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Kanuni-II. Selim-III. Murat sadrazamı",
+    "klasik_tuzak": "Hiç sorulmadı (büyük sürpriz!)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Mimar Sinan",
+    "slug": "mimar-sinan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Süleymaniye, Selimiye, Şehzade",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Barbaros Hayreddin Paşa",
+    "slug": "barbaros-hayreddin-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Preveze deniz zaferi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "IV. Murat",
+    "slug": "iv-murat",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Revan-Bağdat seferleri, Kasr-ı Şirin",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Köprülü Mehmet Paşa",
+    "slug": "koprulu-mehmet-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Sadrazam aile, Girit fethi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Merzifonlu Kara Mustafa Paşa",
+    "slug": "merzifonlu-kara-mustafa-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "II. Viyana yenilgisi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "III. Selim",
+    "slug": "iii-selim",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Nizam-ı Cedid ordu",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "II. Mahmut",
+    "slug": "ii-mahmut",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Vaka-i Hayriye, Sened-i İttifak",
+    "klasik_tuzak": "Hiç sorulmadı (8 yıl boş!)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Mustafa Reşit Paşa",
+    "slug": "mustafa-resit-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Tanzimat fermanı (1839)",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Mithat Paşa",
+    "slug": "mithat-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "I. Meşrutiyet, Kanunuesasi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Yusuf Akçura, Ziya Gökalp",
+    "slug": "yusuf-akcura-ziya-gokalp",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Türkçülük ideolojisi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Enver Paşa",
+    "slug": "enver-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Sarıkamış yenilgisi",
+    "klasik_tuzak": "Hiç sorulmadı (boş)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Cemal Paşa",
+    "slug": "cemal-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Kanal Cephesi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Halil Paşa",
+    "slug": "halil-pasa",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Kut'ul Amare zaferi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Şerif Hüseyin",
+    "slug": "serif-huseyin",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Arap İsyanı (1916)",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Rauf Orbay",
+    "slug": "rauf-orbay",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Mondros imzası",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Hasan Tahsin",
+    "slug": "hasan-tahsin",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "İzmir'de ilk kurşun (15 Mayıs 1919)",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Şahin Bey (Antep)",
+    "slug": "sahin-bey-antep",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Antep direnişi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Sütçü İmam (Maraş)",
+    "slug": "sutcu-i-mam-maras",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Maraş direnişi",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Ali Fuat Cebesoy",
+    "slug": "ali-fuat-cebesoy",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Batı Cephesi ilk komutanı",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Refet Bele",
+    "slug": "refet-bele",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Heyet-i Temsiliye, TpCF",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Adnan Menderes",
+    "slug": "adnan-menderes",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "DP, NATO, idam",
+    "klasik_tuzak": "Hiç sorulmadı (Soğuk Savaş)",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Celal Bayar",
+    "slug": "celal-bayar",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "osmanli_kurulus"
+    ],
+    "donem": "osmanli_kurulus",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "İş Bankası, DP, Cumhurbaşkanı",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  },
+  {
+    "name": "Ali Fethi Okyar",
+    "slug": "ali-fethi-okyar",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [
+      "ataturk_donemi"
+    ],
+    "donem": "ataturk_donemi",
+    "mebi_sayfa": "—",
+    "diger_eserler": "",
+    "pozisyon": "Tarihî şahsiyet",
+    "anekdot": "Serbest Cumhuriyet Fırkası",
+    "klasik_tuzak": "Hiç sorulmadı",
+    "occurrences": [],
+    "kategori": "tek_sefer_veya_bos"
+  }
+]

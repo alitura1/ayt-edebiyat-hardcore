@@ -1,0 +1,153 @@
+[
+  {
+    "slug": "osmanli-hanedanı",
+    "ad": "Osmanlı Hanedanı",
+    "donem": "Osmanlı",
+    "uyeler": [
+      "I. Osman (Osman Bey)",
+      "Orhan Bey",
+      "I. Murat (Hüdâvendigâr)",
+      "I. Bayezid (Yıldırım)",
+      "Fetret Devri",
+      "I. Mehmet (Çelebi)",
+      "II. Murat",
+      "II. Mehmet (Fatih)",
+      "II. Bayezid (Veli)",
+      "I. Selim (Yavuz)",
+      "I. Süleyman (Kanuni)",
+      "II. Selim (Sarı)",
+      "III. Murat",
+      "III. Mehmet",
+      "I. Ahmed",
+      "I. Mustafa",
+      "II. Osman (Genç Osman)",
+      "IV. Murat",
+      "İbrahim (Deli)",
+      "IV. Mehmet (Avcı)",
+      "II. Süleyman",
+      "II. Ahmed",
+      "II. Mustafa",
+      "III. Ahmed",
+      "I. Mahmut",
+      "III. Osman",
+      "III. Mustafa",
+      "I. Abdülhamid",
+      "III. Selim",
+      "IV. Mustafa",
+      "II. Mahmut",
+      "I. Abdülmecid",
+      "I. Abdülaziz",
+      "V. Murat",
+      "II. Abdülhamid",
+      "V. Mehmet (Reşat)",
+      "VI. Mehmet (Vahdettin)"
+    ],
+    "aciklama": "36 Osmanlı padişahı, 1299-1922 arası hüküm sürdü."
+  },
+  {
+    "slug": "selcuklu-hanedani",
+    "ad": "Selçuklu Hanedanı",
+    "donem": "Selçuklu",
+    "uyeler": [
+      "Tuğrul Bey",
+      "Çağrı Bey",
+      "Alp Arslan",
+      "Melikşah",
+      "Berkyaruk",
+      "Sancar"
+    ],
+    "aciklama": "Büyük Selçuklu Devleti hükümdarları (1040-1157)."
+  },
+  {
+    "slug": "turkiye-selcuklu",
+    "ad": "Türkiye Selçuklu Sultanları",
+    "donem": "Türkiye Selçuklu",
+    "uyeler": [
+      "Süleyman Şah",
+      "I. Kılıç Arslan",
+      "I. Mesud",
+      "II. Kılıç Arslan",
+      "I. Gıyaseddin Keyhüsrev",
+      "I. İzzeddin Keykavus",
+      "I. Alâeddin Keykubat"
+    ],
+    "aciklama": "Türkiye Selçuklu Devleti (1077-1308)."
+  },
+  {
+    "slug": "ilk-turk-devletleri",
+    "ad": "İslam Öncesi Türk Devletleri",
+    "donem": "İslam Öncesi Türk",
+    "uyeler": [
+      "Asya Hun",
+      "Avrupa Hun",
+      "Akhun (Eftalit)",
+      "I. Göktürk",
+      "II. Göktürk (Kutluk)",
+      "Uygur",
+      "Kırgız",
+      "Avar",
+      "Hazar",
+      "Bulgar",
+      "Peçenek",
+      "Kuman/Kıpçak",
+      "Karluk",
+      "Türgiş"
+    ],
+    "aciklama": "MÖ 220 - MS 840 arası Orta Asya Türk devletleri."
+  },
+  {
+    "slug": "anadolu-beylikleri",
+    "ad": "Anadolu Beylikleri",
+    "donem": "Beylikler Dönemi",
+    "uyeler": [
+      "Karamanoğlu",
+      "Germiyanoğlu",
+      "Aydınoğlu",
+      "Saruhanoğlu",
+      "Menteşeoğlu",
+      "Karesi",
+      "Candaroğlu",
+      "Hamitoğlu",
+      "Eşrefoğlu",
+      "Dulkadiroğlu",
+      "Ramazanoğlu",
+      "Danişmend",
+      "Saltuklu",
+      "Mengücek",
+      "Artuklu"
+    ],
+    "aciklama": "Türkiye Selçuklu yıkılışı sonrası Anadolu'da kurulan beylikler."
+  },
+  {
+    "slug": "ittihat-terakki",
+    "ad": "İttihat ve Terakki Liderleri",
+    "donem": "Osmanlı Dağılma",
+    "uyeler": [
+      "Talat Paşa",
+      "Enver Paşa",
+      "Cemal Paşa",
+      "Mithat Şükrü",
+      "Said Halim Paşa"
+    ],
+    "aciklama": "1908 II. Meşrutiyet'in arkasındaki cemiyet."
+  },
+  {
+    "slug": "kuvayimilliye-kahramanlari",
+    "ad": "Kuvayımilliye Kahramanları",
+    "donem": "Millî Mücadele",
+    "uyeler": [
+      "Mustafa Kemal Atatürk",
+      "İsmet İnönü",
+      "Kazım Karabekir",
+      "Ali Fuat Cebesoy",
+      "Refet Bele",
+      "Fevzi Çakmak",
+      "Şahin Bey",
+      "Sütçü İmam",
+      "Yörük Ali",
+      "Demirci Mehmet Efe",
+      "Hasan Tahsin"
+    ],
+    "aciklama": "1919-1923 millî mücadele döneminin önemli figürleri."
+  }
+]

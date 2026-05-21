@@ -1,4 +1,5 @@
 // Ana uygulama: hash router + sayfa render orkestrasyonu
+// REV20 — HİBRİT (Edebiyat + Tarih) subject-aware
 import { renderHome } from './pages/home.js';
 import { renderTopicList, renderTopicDetail } from './pages/topics.js';
 import { renderAuthorList, renderAuthorDetail } from './pages/authors.js';
@@ -14,17 +15,33 @@ import { renderCollection } from './pages/collection.js';
 import { renderWorkList, renderWorkDetail } from './pages/works.js';
 import { renderGroupList, renderGroupDetail } from './pages/groups.js';
 import { renderLogin, renderRegister, renderProfile } from './pages/auth.js';
+import { renderSelectSubject, setupSelectSubject } from './pages/select-subject.js';
+import { renderCikmisSorular } from './pages/cikmis-sorular.js';
 import { streakInfo, currentBadge } from './lib/streak.js';
-import { initSync, scheduleSync, currentSyncUid } from './lib/sync.js';
+import { initSync, scheduleSync, currentSyncUid, refreshSyncForSubject } from './lib/sync.js';
 import { startNotifyScheduler } from './lib/notify.js';
+import {
+  loadSubjectPreference, getCurrentSubject, saveSubjectPreference,
+  migrateOldData
+} from './lib/store.js';
+import { setDataSubject } from './lib/data.js';
+
+const SUBJECT_META = {
+  edebiyat: { title: 'AYT Edebiyat — Hardcore Hazırlık', slogan: 'Yazar avı, ezber atışı' },
+  tarih:    { title: 'AYT Tarih — Hardcore Hazırlık',    slogan: 'Tarihçi olma, tarihi yendin sayılır' },
+};
 
 // ---- Tema ----
-const themeKey = 'edebiyat-theme';
+const themeKey = 'theme';  // REV20: subject-agnostic (eski edebiyat-theme geriye dönük okunur)
 function applyTheme(t) {
   document.documentElement.classList.toggle('dark', t === 'dark');
 }
 function initTheme() {
-  const saved = localStorage.getItem(themeKey);
+  // Eski edebiyat-theme key'inden migration
+  let saved = localStorage.getItem(themeKey) || localStorage.getItem('edebiyat-theme');
+  if (saved && !localStorage.getItem(themeKey)) {
+    localStorage.setItem(themeKey, saved);
+  }
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   applyTheme(saved || (prefersDark ? 'dark' : 'light'));
   document.getElementById('darkToggle')?.addEventListener('click', () => {
@@ -32,6 +49,50 @@ function initTheme() {
     const next = cur === 'dark' ? 'light' : 'dark';
     localStorage.setItem(themeKey, next);
     applyTheme(next);
+  });
+}
+
+// ---- REV20: Subject yönetimi ----
+function applySubject(subject) {
+  if (!subject) return;
+  // <html data-subject="edebiyat|tarih"> set et
+  document.documentElement.setAttribute('data-subject', subject);
+  // data.js'i bilgilendir
+  setDataSubject(subject);
+  // Sayfa başlığı
+  const meta = SUBJECT_META[subject];
+  if (meta) {
+    document.title = meta.title;
+    const titleEl = document.getElementById('pageTitle');
+    if (titleEl) titleEl.textContent = meta.title;
+  }
+}
+
+function updateSubjectToggle() {
+  const toggle = document.getElementById('subjectToggle');
+  if (!toggle) return;
+  const current = getCurrentSubject();
+  if (!current) {
+    toggle.classList.add('hidden');
+    return;
+  }
+  toggle.classList.remove('hidden');
+  toggle.innerHTML = `
+    <button data-sub="edebiyat" class="px-2.5 py-1 rounded-full text-xs font-bold transition ${current==='edebiyat' ? 'bg-primary-600 text-white' : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'}">📚 Edebiyat</button>
+    <button data-sub="tarih" class="px-2.5 py-1 rounded-full text-xs font-bold transition ${current==='tarih' ? 'bg-amber-600 text-white' : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'}">⏳ Tarih</button>
+  `;
+  toggle.querySelectorAll('button[data-sub]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const newSub = btn.dataset.sub;
+      if (newSub === current) return;
+      saveSubjectPreference(newSub);
+      applySubject(newSub);
+      // Cloud sync için yeni subject'i de pull et
+      try { await refreshSyncForSubject(newSub); } catch(e) { console.warn(e); }
+      location.hash = '#/';
+      // Cache'leri temizleyip yeniden render
+      setTimeout(() => location.reload(), 50);
+    });
   });
 }
 
@@ -54,9 +115,20 @@ async function render() {
   const hash = rawHash.split('?')[0].split('#')[0];
   const parts = hash.split('/').filter(Boolean); // ["quiz","setup"] vs.
 
+  // REV20 — Subject Gate: subject seçilmemişse select-subject sayfasına yönlendir
+  const subject = getCurrentSubject();
+  const allowWithoutSubject = ['select-subject', 'giris', 'kayit'];
+  if (!subject && parts[0] !== 'select-subject' && !allowWithoutSubject.includes(parts[0])) {
+    location.hash = '#/select-subject';
+    return;
+  }
+
   let html = '';
   try {
-    if (parts.length === 0) {
+    if (parts[0] === 'select-subject') {
+      html = await renderSelectSubject();
+      window.__pageSetup = setupSelectSubject;
+    } else if (parts.length === 0) {
       html = await renderHome();
     } else if (parts[0] === 'konular' && !parts[1]) {
       html = await renderTopicList();
@@ -66,6 +138,8 @@ async function render() {
       html = await renderAuthorList();
     } else if (parts[0] === 'yazarlar' && parts[1]) {
       html = await renderAuthorDetail(parts[1]);
+    } else if (parts[0] === 'cikmis-sorular') {
+      html = await renderCikmisSorular();
     } else if (parts[0] === 'tahminler') {
       html = await renderPredictions();
     } else if (parts[0] === 'program') {
@@ -127,6 +201,8 @@ async function render() {
   updateStreakBadge();
   // REV6 — auth rozetini güncelle
   updateAuthBadge();
+  // REV20 — subject toggle güncelle
+  updateSubjectToggle();
 
   // Bazı sayfaların post-render setup callback'i olabilir
   if (window.__pageSetup) {
@@ -156,6 +232,16 @@ function updateStreakBadge() {
 window.addEventListener('hashchange', render);
 window.addEventListener('DOMContentLoaded', async () => {
   initTheme();
+
+  // REV20 — Subject yönetimi: migration + preference load + data subject
+  const savedSubject = loadSubjectPreference();
+  if (savedSubject) {
+    applySubject(savedSubject);
+  } else {
+    // İlk açılışta migration tetiklenebilir (select-subject sayfasında da çalışır)
+    // Eski edebiyat-state-v1 verisi varsa kullanıcıya korunduğunu garanti eder.
+  }
+
   // REV6 — Cloud sync init (Firebase yüklenir, login varsa pull yapar)
   window.__syncHook = scheduleSync;
   initSync().catch(e => console.warn('sync init err', e));

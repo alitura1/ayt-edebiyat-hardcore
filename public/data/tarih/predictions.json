@@ -1,0 +1,116 @@
+{
+  "konular": [
+    {
+      "ad": "Boylardan Devlete (Hunlar/Göktürkler/Uygurlar — egemenlik sembolleri veya devlet",
+      "frekans_8yil": "—",
+      "tahmin": "1+",
+      "guven": "KESİN"
+    },
+    {
+      "ad": "İlk Çağ Medeniyet Havzaları (Mezopotamya/Mısır/Anadolu kıyaslama)",
+      "frekans_8yil": "—",
+      "tahmin": "1+",
+      "guven": "KESİN"
+    },
+    {
+      "ad": "Millî Mücadele'ye Hazırlık (Amasya/Erzurum/Sivas/Misak-ı Milli)",
+      "frekans_8yil": "17/8 yıl",
+      "tahmin": "1+",
+      "guven": "KESİN"
+    },
+    {
+      "ad": "Batı Cephesi (I-II. İnönü / Sakarya / Büyük Taarruz)",
+      "frekans_8yil": "17/8 yıl",
+      "tahmin": "1+",
+      "guven": "ÇOK YÜKSEK"
+    },
+    {
+      "ad": "İslamiyet Yayılıyor (Hz. Muhammed dönemi olaylar veya 4 Halife)",
+      "frekans_8yil": "10/8 yıl",
+      "tahmin": "1+",
+      "guven": "ÇOK YÜKSEK"
+    },
+    {
+      "ad": "Yavuz dönemi (Çaldıran/Mercidabık/Ridaniye/HİLAFET)",
+      "frekans_8yil": "—",
+      "tahmin": "1+",
+      "guven": "YÜKSEK"
+    },
+    {
+      "ad": "Atatürk İlkeleri (söz-ilke eşleme veya 1937 anayasal kabulü)",
+      "frekans_8yil": "—",
+      "tahmin": "1+",
+      "guven": "ÇOK YÜKSEK"
+    },
+    {
+      "ad": "Mondros Mütarekesi maddeleri veya I. Dünya Savaşı'nın Osmanlı'ya etkisi",
+      "frekans_8yil": "—",
+      "tahmin": "1+",
+      "guven": "YÜKSEK"
+    },
+    {
+      "ad": "Tanzimat veya I. Meşrutiyet (demokratikleşme) — modernleşme reformları",
+      "frekans_8yil": "6/8 yıl",
+      "tahmin": "muhtemel",
+      "guven": "YÜKSEK"
+    },
+    {
+      "ad": "Haçlı Seferleri / Anadolu Beylikleri (Karamanoğlu Türkçe ilkeleri / Saruhanoğlu ",
+      "frekans_8yil": "—",
+      "tahmin": "muhtemel",
+      "guven": "ORTA"
+    },
+    {
+      "ad": "Hatay / Montrö / Balkan Paktı / Milletler Cemiyeti",
+      "frekans_8yil": "—",
+      "tahmin": "muhtemel",
+      "guven": "ORTA"
+    }
+  ],
+  "yazarlar_cok_yuksek": [
+    {
+      "ad": "İslam Öncesi Türk",
+      "not_": "%95 - Boylardan Devlete (Hunlar/Göktürkler/Uygurlar — egemenlik sembolleri veya devlet anlayışı)"
+    },
+    {
+      "ad": "İslam Öncesi Türk",
+      "not_": "%90 - İlk Çağ Medeniyet Havzaları (Mezopotamya/Mısır/Anadolu kıyaslama)"
+    },
+    {
+      "ad": "Millî Mücadele",
+      "not_": "%90 - Millî Mücadele'ye Hazırlık (Amasya/Erzurum/Sivas/Misak-ı Milli)"
+    },
+    {
+      "ad": "Millî Mücadele",
+      "not_": "%85 - Batı Cephesi (I-II. İnönü / Sakarya / Büyük Taarruz)"
+    },
+    {
+      "ad": "İslam Tarihi",
+      "not_": "%80 - İslamiyet Yayılıyor (Hz. Muhammed dönemi olaylar veya 4 Halife)"
+    }
+  ],
+  "yazarlar_orta": [
+    "Osmanlı Yükseliş (%70)",
+    "Atatürk Dönemi (%75)",
+    "Osmanlı Dağılma (%70)",
+    "Osmanlı Duraklama-Gerileme (%65)"
+  ],
+  "bosluk_adaylari": [
+    {
+      "ad": "Boylardan Devlete (Hunlar/Göktürkler/Uygurlar — egemenlik sembolleri veya devlet",
+      "not_": "8 yıldan 7'sinde geldi, sadece 2022 boş — 2026'da kesin"
+    },
+    {
+      "ad": "İlk Çağ Medeniyet Havzaları (Mezopotamya/Mısır/Anadolu kıyaslama)",
+      "not_": "8 yıldan 6'sında geldi, 2024 boş"
+    },
+    {
+      "ad": "Yavuz dönemi (Çaldıran/Mercidabık/Ridaniye/HİLAFET)",
+      "not_": "8 yıl HİÇ sorulmadı — patlamak üzere"
+    },
+    {
+      "ad": "Atatürk İlkeleri (söz-ilke eşleme veya 1937 anayasal kabulü)",
+      "not_": "2018+2019 sonrası 6 yıl boş — geri gelme zamanı"
+    }
+  ]
+}

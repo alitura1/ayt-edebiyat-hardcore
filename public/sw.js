@@ -1,6 +1,6 @@
 // REV6 M9 — Service Worker
 // Strateji: HTML/JS/CSS stale-while-revalidate, data JSON network-first, asset cache-first
-const VERSION = 'v15-2026-05-18-anchor';
+const VERSION = 'v20-2026-05-21-hybrid';
 const STATIC_CACHE = `static-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 const ASSETS_CACHE = `assets-${VERSION}`;

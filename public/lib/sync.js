@@ -1,8 +1,9 @@
-// REV6 M8 — Hibrit sync: localStorage hep ana, cloud yedek (debounced)
+// REV20 — Subject-aware hibrit sync: localStorage hep ana, cloud yedek (debounced)
 // Login varsa her saveState'te 3 sn debounced cloud upload
 // İlk login'de cloud → local merge (timestamp wins)
-import { loadState, saveState } from './store.js';
-import { getFirebase, fsGetUserDoc, fsSetUserDoc, onAuthChange } from './firebase.js';
+// Subject namespace: users/{uid}/subjects/{subject}
+import { loadState, saveState, getCurrentSubject } from './store.js';
+import { getFirebase, fsGetUserDoc, fsSetUserDoc, fsGetLegacyUserDoc, onAuthChange } from './firebase.js';
 
 const SYNC_DEBOUNCE_MS = 3000;
 const MIN_SYNC_INTERVAL_MS = 30000;  // min 30 sn between writes (quota koruma)
@@ -10,7 +11,7 @@ const MIN_SYNC_INTERVAL_MS = 30000;  // min 30 sn between writes (quota koruma)
 let _syncTimer = null;
 let _lastSyncAt = 0;
 let _currentUid = null;
-let _initialPullDone = false;
+let _pullDoneSubjects = new Set();  // hangi subjectlerin ilk pull'u yapıldı
 
 // Senkronize edilen alanlar (sessionStorage hariç)
 const SYNC_KEYS = [
@@ -29,12 +30,10 @@ function pickSyncData(state) {
 }
 
 // Local + cloud merge — son timestamp (her field için) kazanır
-// Basit yaklaşım: progress için kart başı son timestamp (p.son), diğerlerinde union
 function mergeStates(local, cloud) {
   if (!cloud) return local;
   const merged = { ...local };
 
-  // progress: kart başı en yeni son
   if (cloud.progress) {
     merged.progress = { ...local.progress };
     for (const id in cloud.progress) {
@@ -46,12 +45,10 @@ function mergeStates(local, cloud) {
     }
   }
 
-  // hata_defteri: union, ardından duplicate eliminate
   if (cloud.hata_defteri) {
     merged.hata_defteri = [...new Set([...(local.hata_defteri || []), ...cloud.hata_defteri])];
   }
 
-  // custom_kartlar: id bazında union (son güncel kazanır)
   if (cloud.custom_kartlar) {
     const map = new Map();
     for (const c of (local.custom_kartlar || [])) map.set(c.id, c);
@@ -61,12 +58,10 @@ function mergeStates(local, cloud) {
     merged.custom_kartlar = Array.from(map.values());
   }
 
-  // program_checkbox, ayarlar, notify: cloud overwrite (sade)
   for (const k of ['program_checkbox', 'ayarlar', 'notify']) {
     if (cloud[k]) merged[k] = { ...local[k], ...cloud[k] };
   }
 
-  // due: en geç olanı seç (max)
   if (cloud.due) {
     merged.due = { ...local.due };
     for (const id in cloud.due) {
@@ -74,7 +69,6 @@ function mergeStates(local, cloud) {
     }
   }
 
-  // streak_correct: max
   if (cloud.streak_correct) {
     merged.streak_correct = { ...local.streak_correct };
     for (const id in cloud.streak_correct) {
@@ -84,7 +78,6 @@ function mergeStates(local, cloud) {
     }
   }
 
-  // streak: en uzun current + longest, last_active_date max
   if (cloud.streak) {
     merged.streak = merged.streak || {};
     merged.streak.current = Math.max(merged.streak.current || 0, cloud.streak.current || 0);
@@ -96,7 +89,6 @@ function mergeStates(local, cloud) {
     merged.streak.history = [...hist].sort().slice(-60);
   }
 
-  // atis: best_run max
   if (cloud.atis) {
     merged.atis = merged.atis || {};
     merged.atis.best_run = Math.max(merged.atis.best_run || 0, cloud.atis.best_run || 0);
@@ -105,26 +97,35 @@ function mergeStates(local, cloud) {
   return merged;
 }
 
-async function pullFromCloud(uid) {
+async function pullFromCloud(uid, subject) {
   try {
-    const cloud = await fsGetUserDoc(uid, 'state');
+    let cloud = await fsGetUserDoc(uid, subject);
+    // Eğer subject doc yoksa ve subject='edebiyat' ise, legacy path'ten kontrol et
+    if (!cloud && subject === 'edebiyat') {
+      const legacy = await fsGetLegacyUserDoc(uid);
+      if (legacy) {
+        console.log('[sync] legacy cloud doc found → migration');
+        cloud = legacy;
+        // Legacy'yi yeni path'e taşı (push aşağıda yapılacak)
+      }
+    }
     if (!cloud) return;
     const local = loadState();
     const merged = mergeStates(local, cloud);
     saveState(merged);
-    console.log('[sync] cloud→local merge OK');
+    console.log(`[sync] cloud→local merge OK (${subject})`);
   } catch (e) {
     console.warn('[sync] pull failed', e);
   }
 }
 
-async function pushToCloud(uid) {
+async function pushToCloud(uid, subject) {
   try {
     const state = loadState();
     const data = pickSyncData(state);
-    await fsSetUserDoc(uid, 'state', data);
+    await fsSetUserDoc(uid, subject, data);
     _lastSyncAt = Date.now();
-    console.log('[sync] local→cloud OK');
+    console.log(`[sync] local→cloud OK (${subject})`);
   } catch (e) {
     console.warn('[sync] push failed', e);
   }
@@ -133,10 +134,12 @@ async function pushToCloud(uid) {
 // store.js içinde her saveState çağrısında çağrılır
 export function scheduleSync() {
   if (!_currentUid) return;  // login yok
+  const subject = getCurrentSubject();
+  if (!subject) return;  // henüz subject seçilmemiş
   if (_syncTimer) clearTimeout(_syncTimer);
   const sinceLastSync = Date.now() - _lastSyncAt;
   const delay = Math.max(SYNC_DEBOUNCE_MS, MIN_SYNC_INTERVAL_MS - sinceLastSync);
-  _syncTimer = setTimeout(() => pushToCloud(_currentUid), delay);
+  _syncTimer = setTimeout(() => pushToCloud(_currentUid, subject), delay);
 }
 
 // App start'ta çağrılır
@@ -146,20 +149,28 @@ export async function initSync() {
     await onAuthChange(async (user) => {
       if (user) {
         _currentUid = user.uid;
-        if (!_initialPullDone) {
-          await pullFromCloud(user.uid);
-          _initialPullDone = true;
+        const subject = getCurrentSubject();
+        if (subject && !_pullDoneSubjects.has(subject)) {
+          await pullFromCloud(user.uid, subject);
+          _pullDoneSubjects.add(subject);
         }
       } else {
         _currentUid = null;
-        _initialPullDone = false;
+        _pullDoneSubjects.clear();
       }
-      // Auth state her değiştiğinde UI'a haber
       window.dispatchEvent(new CustomEvent('authchange', { detail: { user } }));
     });
   } catch (e) {
     console.warn('[sync] init failed (Firebase yüklenemedi)', e);
   }
+}
+
+// Subject değişimi sonrasında çağrılır (yeni subject'in cloud verisini çek)
+export async function refreshSyncForSubject(subject) {
+  if (!_currentUid) return;
+  if (_pullDoneSubjects.has(subject)) return;
+  await pullFromCloud(_currentUid, subject);
+  _pullDoneSubjects.add(subject);
 }
 
 export function currentSyncUid() { return _currentUid; }

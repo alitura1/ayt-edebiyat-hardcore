@@ -1,4 +1,4 @@
-import { Data, topicLabel, slugify, periodTheme, altKonuToAuthorSlug } from '../lib/data.js';
+import { Data, topicLabel, slugify, periodTheme, altKonuToAuthorSlug, getDataSubject } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { authorMastery, LEVELS, cardsForAuthor } from '../lib/mastery.js';
 
@@ -50,12 +50,15 @@ export async function renderAuthorList() {
     masteryF?.addEventListener('change', run);
   };
 
+  const isTarih = getDataSubject() === 'tarih';
+  const headerTitle = isTarih ? '👤 Kişi Veritabanı' : '👤 Yazar Veritabanı';
+  const headerSub = isTarih
+    ? `${authors.length} tarihî şahsiyet / 79 soru — ${recurring.length} tekrar, ${single.length} tek sefer.`
+    : `${authors.length} yazar / 192 soru — ${recurring.length} tekrar, ${single.length} tek sefer.`;
   return `
     <header class="mb-6">
-      <h1 class="text-3xl font-bold mb-1">👤 Yazar Veritabanı</h1>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">
-        ${authors.length} yazar / 192 soru — ${recurring.length} tekrar, ${single.length} tek sefer.
-      </p>
+      <h1 class="text-3xl font-bold mb-1">${headerTitle}</h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">${headerSub}</p>
       <div class="flex flex-wrap gap-2 mt-3 text-xs">
         <span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-slate-200 dark:bg-slate-800">${LEVELS.tanisilmadi.emoji} Tanışmadın: ${cTanis}</span>
         <span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-warn-500/20 text-warn-500">${LEVELS.tanidin.emoji} Tanıdın: ${cTani}</span>

@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "islam_oncesi_turk",
+    "title": "İslam Öncesi Türk Tarihi",
+    "toplam": 16,
+    "alt_basliklar": 5,
+    "oncelik": "ÇOK YÜKSEK",
+    "mebi_pages": "—",
+    "kisa_aciklama": "Hun-Göktürk-Uygur · İlkçağ medeniyet havzaları. Yılda 2 soru sabit, en güvenli alan.",
+    "code": "islam_oncesi_turk",
+    "yillar": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2
+    },
+    "ortalama": 2.0
+  },
+  {
+    "slug": "islam_tarihi",
+    "title": "İslam Tarihi",
+    "toplam": 10,
+    "alt_basliklar": 2,
+    "oncelik": "YÜKSEK",
+    "mebi_pages": "—",
+    "kisa_aciklama": "Hz. Muhammed → 4 Halife → Emevi → Abbasi. İslamiyet Yayılıyor 7/8 yıl geldi.",
+    "code": "islam_tarihi",
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 1.25
+  },
+  {
+    "slug": "turk_islam",
+    "title": "Türk-İslam (Karahanlı-Selçuklu)",
+    "toplam": 6,
+    "alt_basliklar": 5,
+    "oncelik": "ORTA",
+    "mebi_pages": "—",
+    "kisa_aciklama": "Karahanlı, Gazneli, Selçuklu, Beylikler, Haçlı Seferleri. Anadolu'nun Türkleşmesi.",
+    "code": "turk_islam",
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 0,
+      "2022": 1,
+      "2023": 0,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.75
+  },
+  {
+    "slug": "osmanli_kurulus",
+    "title": "Osmanlı Kuruluş (1299-1453)",
+    "toplam": 6,
+    "alt_basliklar": 4,
+    "oncelik": "ORTA",
+    "mebi_pages": "—",
+    "kisa_aciklama": "1299-1453. Söğüt → İstanbul Fethi. Tımar, devşirme, kapıkulu sistemi.",
+    "code": "osmanli_kurulus",
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 0,
+      "2022": 1,
+      "2023": 0,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.75
+  },
+  {
+    "slug": "osmanli_yukselis",
+    "title": "Osmanlı Yükseliş (1453-1595)",
+    "toplam": 4,
+    "alt_basliklar": 3,
+    "oncelik": "DÜŞÜK",
+    "mebi_pages": "—",
+    "kisa_aciklama": "1453-1595. Fatih, Yavuz, Kanuni. 8 yılda sadece 4 soru — 2026 boşluk adayı.",
+    "code": "osmanli_yukselis",
+    "yillar": {
+      "2018": 1,
+      "2019": 0,
+      "2020": 0,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 0,
+      "2025": 0
+    },
+    "ortalama": 0.5
+  },
+  {
+    "slug": "osmanli_duraklama",
+    "title": "Osmanlı Duraklama-Gerileme",
+    "toplam": 6,
+    "alt_basliklar": 4,
+    "oncelik": "ORTA",
+    "mebi_pages": "—",
+    "kisa_aciklama": "1595-1792. Köprülüler, Karlofça, Lale, Tanzimat, Meşrutiyet — modernleşme.",
+    "code": "osmanli_duraklama",
+    "yillar": {
+      "2018": 0,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 0,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.75
+  },
+  {
+    "slug": "osmanli_dagilma",
+    "title": "Osmanlı Dağılma + I. Dünya Savaşı",
+    "toplam": 7,
+    "alt_basliklar": 3,
+    "oncelik": "ORTA",
+    "mebi_pages": "—",
+    "kisa_aciklama": "1908-1922. Trablusgarp, Balkan, I. Dünya, Mondros, Sevr. Mustafa Kemal'in yetişme dönemi.",
+    "code": "osmanli_dagilma",
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 0,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.88
+  },
+  {
+    "slug": "milli_mucadele",
+    "title": "Millî Mücadele",
+    "toplam": 17,
+    "alt_basliklar": 4,
+    "oncelik": "ÇOK YÜKSEK",
+    "mebi_pages": "—",
+    "kisa_aciklama": "1919-1923. Hazırlık → Cepheler → Mudanya → Lozan. Yılda 2+ soru garantili.",
+    "code": "milli_mucadele",
+    "yillar": {
+      "2018": 2,
+      "2019": 1,
+      "2020": 2,
+      "2021": 2,
+      "2022": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2
+    },
+    "ortalama": 2.12
+  },
+  {
+    "slug": "ataturk_donemi",
+    "title": "Atatürk Dönemi + Cumhuriyet",
+    "toplam": 5,
+    "alt_basliklar": 3,
+    "oncelik": "ORTA",
+    "mebi_pages": "—",
+    "kisa_aciklama": "1923-1938. Cumhuriyet, 6 ilke, inkılaplar. 2026 için ilke-söz eşleme bekleniyor.",
+    "code": "ataturk_donemi",
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 0
+    },
+    "ortalama": 0.62
+  },
+  {
+    "slug": "ikinci_dunya_cagdas",
+    "title": "II. Dünya Savaşı + Çağdaş Dünya",
+    "toplam": 2,
+    "alt_basliklar": 2,
+    "oncelik": "DÜŞÜK",
+    "mebi_pages": "—",
+    "kisa_aciklama": "II. Dünya Savaşı, NATO, Soğuk Savaş. Düşük frekans (4 yılda 1) — sürpriz.",
+    "code": "ikinci_dunya_cagdas",
+    "yillar": {
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 1,
+      "2023": 0,
+      "2024": 0,
+      "2025": 1
+    },
+    "ortalama": 0.25
+  }
+]

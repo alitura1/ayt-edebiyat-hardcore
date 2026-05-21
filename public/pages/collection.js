@@ -1,5 +1,5 @@
-// REV5 — Koleksiyonum: 85 yazarın mastery seviyesi gridi
-import { Data, periodTheme, topicLabel, slugify } from '../lib/data.js';
+// REV5 — Koleksiyonum: yazar/kişi mastery seviyesi gridi
+import { Data, periodTheme, topicLabel, slugify, getDataSubject } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { authorMastery, LEVELS, masterySummary } from '../lib/mastery.js';
 
@@ -8,6 +8,7 @@ export async function renderCollection() {
   const cards = await Data.cards();
   const state = loadState();
   const allCards = [...cards, ...state.custom_kartlar];
+  const isTarih = getDataSubject() === 'tarih';
 
   const summary = masterySummary(authors, allCards, state);
   const pct = Math.round((summary.counts.ogrendin / summary.total) * 100);
@@ -49,11 +50,12 @@ export async function renderCollection() {
   // Unique dönem listesi (filtreye)
   const donems = [...new Set(authors.map(a => a.donem || a.konular[0]).filter(Boolean))];
 
+  const subjectNoun = isTarih ? 'kişi' : 'yazar';
   return `
     <header class="mb-6">
       <h1 class="text-3xl font-bold mb-1">🎴 Koleksiyonum</h1>
       <p class="text-slate-600 dark:text-slate-400 text-sm">
-        ${summary.total} yazarın kaç tanesini tanıyorsun? Sürekli karşına çıka çıka ezberlemeden ezberlersin.
+        ${summary.total} ${subjectNoun}ın kaç tanesini tanıyorsun? Sürekli karşına çıka çıka ezberlemeden ezberlersin.
       </p>
     </header>
 

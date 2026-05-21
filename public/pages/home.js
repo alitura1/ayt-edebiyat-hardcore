@@ -1,7 +1,8 @@
-import { Data, periodTheme, slugify } from '../lib/data.js';
+import { Data, periodTheme, slugify, getDataSubject } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { tickStreak, streakInfo, currentBadge, nextBadge } from '../lib/streak.js';
 import { dailyHero, maskAuthorName } from '../lib/daily.js';
+import { dailyTarihHero, markDailyAnswered } from '../lib/daily-tarih.js';
 
 function escape(s) {
   return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -16,6 +17,179 @@ function shuffle(arr) {
 }
 
 export async function renderHome() {
+  const subject = getDataSubject();
+  if (subject === 'tarih') return renderTarihHome();
+  return renderEdebiyatHome();
+}
+
+async function renderTarihHome() {
+  const s = loadState();
+  const cards = await Data.cards();
+  const periods = await Data.periods();
+  const people = await Data.people();
+  const treaties = await Data.treaties();
+  const events = await Data.events();
+  const glossary = await Data.glossary();
+  const allCards = [...cards, ...s.custom_kartlar];
+
+  const totalCorrect = Object.values(s.progress).reduce((a,p) => a + p.dogru, 0);
+  const totalSolved = Object.values(s.progress).reduce((a,p) => a + p.cozuldu, 0);
+  const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
+  const errorCount = s.hata_defteri.length;
+
+  // En sıcak 3 dönem (soru sayısına göre)
+  const hotPeriods = [...periods].sort((a, b) => (b.soru_sayisi || 0) - (a.soru_sayisi || 0)).slice(0, 6);
+
+  // Daily Tarih Hero — günlük kişi/antlaşma/olay tahmin oyunu
+  const hero = dailyTarihHero(people, treaties, events, glossary);
+
+  // Streak
+  const sk = streakInfo();
+  const curBadge = currentBadge(sk.current);
+  const nxtBadge = nextBadge(sk.current);
+  const streakColor = sk.status === 'active_today' ? 'text-ok-500' : sk.status === 'at_risk' ? 'text-warn-500' : sk.status === 'broken' ? 'text-slate-400' : 'text-slate-400';
+
+  window.__pageSetup = () => {
+    function bumpStreak() {
+      const sr = tickStreak();
+      if (sr.bumped) {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-amber-600 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
+        toast.textContent = `🔥 Streak ${sr.current} gün!`;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2500);
+      }
+    }
+    // Hero tahmin butonları
+    const opts = document.querySelectorAll('[data-hero-opt]');
+    let answered = false;
+    opts.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+        const isCorrect = btn.dataset.heroOpt === 'correct';
+        opts.forEach(b => {
+          b.disabled = true;
+          if (b.dataset.heroOpt === 'correct') b.classList.add('correct');
+          if (b === btn && !isCorrect) b.classList.add('wrong');
+        });
+        document.getElementById('heroGuess')?.classList.add('hidden');
+        document.getElementById('heroReveal')?.classList.remove('hidden');
+        if (hero?.entityId) markDailyAnswered(hero.entityId, isCorrect);
+        bumpStreak();
+      });
+    });
+  };
+
+  return `
+    <section class="text-center mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold mb-1" style="color:#B45309;">
+        AYT Tarih <span style="color:#991B1B;">Hardcore</span>
+      </h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm max-w-2xl mx-auto">
+        Tarihçi olma, tarihi yendin sayılır. 10 dönem · 671 kart · 8 yıllık ÖSYM analizi.
+      </p>
+    </section>
+
+    <div class="grid lg:grid-cols-3 gap-4 mb-5 max-w-5xl mx-auto">
+      <!-- Sol: Daily Tarih Hero (kişi/antlaşma/olay tahmin) -->
+      <div class="lg:col-span-2">
+        ${hero ? renderTarihHeroCard(hero) : `
+          <div class="bg-amber-50 dark:bg-amber-900/20 rounded-2xl border-2 border-amber-500/30 p-5 text-center text-slate-600 dark:text-slate-300">
+            Bugün için Daily Hero yüklenemedi. (Veri henüz tam dolu değil)
+          </div>
+        `}
+
+        <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 rounded-2xl border-2 border-amber-500/30 p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200">🔥 En Sıcak 6 Dönem</span>
+            <a href="#/konular" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold">Tüm Dönemler →</a>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-1.5">
+            ${hotPeriods.map(p => `
+              <a href="#/konular/${p.slug}" class="block bg-white/85 dark:bg-slate-900/85 rounded-md px-2 py-1.5 hover:shadow-md transition-all">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-xs" style="color:#B45309;">${escape(p.ad)}</span>
+                  <span class="text-xs font-bold bg-amber-500/20 text-amber-800 dark:text-amber-200 px-1.5 py-0.5 rounded-full">${p.soru_sayisi}</span>
+                </div>
+              </a>
+            `).join('')}
+          </div>
+
+          <div class="mt-3 grid sm:grid-cols-3 gap-1.5">
+            <a href="#/tahminler" class="text-xs bg-amber-500 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-amber-600">🔮 2026 Tahminleri</a>
+            <a href="#/program" class="text-xs bg-amber-700 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-amber-800">📅 Program</a>
+            <a href="#/quiz/setup" class="text-xs bg-red-700 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-red-800">🎯 Quiz</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sağ: Streak + Hızlı Atış -->
+      <div class="space-y-3">
+        <div class="bg-white dark:bg-slate-900 border-2 border-amber-500/30 rounded-2xl p-4 text-center">
+          <div class="text-xs uppercase tracking-wider text-slate-500 mb-1">🔥 Streak</div>
+          <div class="text-4xl font-bold ${streakColor} mb-1">${sk.current}</div>
+          <div class="text-xs text-slate-500 mb-2">${sk.current === 0 ? 'Henüz başlamadın' : sk.current === 1 ? '1 gün' : sk.current + ' gün üst üste'}</div>
+          ${curBadge ? `<div class="text-xs">${curBadge.emoji} <strong>${curBadge.label}</strong> rozeti</div>` : ''}
+          ${nxtBadge ? `<div class="text-[10px] text-slate-500 mt-1">Sonraki: ${nxtBadge.emoji} ${nxtBadge.label} (${nxtBadge.d - sk.current} gün)</div>` : ''}
+          <div class="text-[10px] text-slate-500 mt-1">En uzun: ${sk.longest || 0} gün</div>
+          ${sk.status === 'at_risk' ? `<div class="mt-2 text-xs text-warn-500 font-bold">⚠ Bugün soru çöz, kaybetme!</div>` : ''}
+        </div>
+
+        <a href="#/atis" class="block bg-gradient-to-br from-amber-500 to-red-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all">
+          <div class="text-4xl mb-1">⚡</div>
+          <div class="text-lg font-bold">HIZLI ATIŞ</div>
+          <div class="text-xs opacity-90 mt-1">Bas, soru gelsin — sonsuz mod</div>
+          ${s.atis?.best_run > 0 ? `<div class="text-xs mt-2 bg-white/20 inline-block px-2 py-0.5 rounded">Best: ${s.atis.best_run} 🔥</div>` : ''}
+        </a>
+      </div>
+    </div>
+
+    ${totalSolved > 0 ? `
+    <section class="grid grid-cols-3 gap-3 mb-5 max-w-3xl mx-auto">
+      <div class="bg-amber-50 dark:bg-amber-900/40 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold" style="color:#B45309;">${totalSolved}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Çözülen</div>
+      </div>
+      <div class="bg-ok-500/10 dark:bg-ok-500/20 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-ok-500">%${accuracy}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Doğruluk</div>
+      </div>
+      <div class="bg-red-500/10 dark:bg-red-500/20 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-red-700 dark:text-red-300">${errorCount}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Hata defteri</div>
+      </div>
+    </section>
+    ` : ''}
+
+    <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-6xl mx-auto">
+      ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
+      ${shortcut('cikmis-sorular', '📋', 'Çıkmış Sorular', '79 ÖSYM sorusu', 'accent')}
+      ${shortcut('konular', '⏳', `${periods.length} Dönem`, 'Öğretim + ezber', 'primary')}
+      ${shortcut('yazarlar', '👤', `${people.length} Kişi`, 'Padişah, lider', 'primary')}
+      ${shortcut('eserler', '⚔️', 'Olaylar', `${events.length} savaş`, 'primary')}
+      ${shortcut('gruplar', '🏛️', 'Hanedanlar', 'Osmanlı, Selçuklu...', 'primary')}
+      ${shortcut('koleksiyon', '🎴', 'Koleksiyon', 'Kaç tanıdın?', 'accent')}
+      ${shortcut('tahminler', '🔮', 'Tahminler', '2026 boşluk', 'primary')}
+      ${shortcut('program', '📅', 'Program', '4 haftalık', 'accent')}
+      ${shortcut('sozluk', '📓', 'Sözlük', `${treaties.length} antlaşma`, 'primary')}
+      ${shortcut('kartlar', '🃏', 'Kartlar', `${allCards.length} kart`, 'primary')}
+      ${shortcut('istatistik', '📊', 'İstatistik', 'İlerleme grafiği', 'primary')}
+      ${shortcut('ayarlar', '⚙️', 'Ayarlar', 'Tema, sıfırla', 'primary')}
+    </section>
+
+    <section class="mt-8 max-w-3xl mx-auto bg-amber-500/10 border border-amber-500/30 rounded-lg p-4">
+      <h3 class="font-bold mb-2 flex items-center gap-2 text-sm"><span>💡</span> Stratejin</h3>
+      <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1 list-disc list-inside">
+        <li><strong>Millî Mücadele</strong> + <strong>İslam Öncesi Türk</strong> 8 yılın hepsinde 2+ soru. Her gün bu iki dönemi tekrar et.</li>
+        <li><strong>Osmanlı Yükseliş</strong> (Yavuz/Kanuni) 2018-25 sadece 4 soru — 2026 sürpriz adayı. Boşluğu kapat.</li>
+        <li>671 kart × günlük 30-40 = 3 haftada tüm konu tamam. Hızlı Atış'ı her gün aç.</li>
+      </ul>
+    </section>
+  `;
+}
+
+async function renderEdebiyatHome() {
   const s = loadState();
   const authors = await Data.authors();
   const cards = await Data.cards();
@@ -310,6 +484,7 @@ export async function renderHome() {
 
     <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-6xl mx-auto">
       ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
+      ${shortcut('cikmis-sorular', '📋', 'Çıkmış Sorular', '192 ÖSYM sorusu', 'accent')}
       ${shortcut('konular', '📚', '13 Konu', 'Öğretim + ezber', 'primary')}
       ${shortcut('yazarlar', '👤', '85 Yazar', 'Trading kartlar', 'primary')}
       ${shortcut('eserler', '📖', 'Eserler', '251 eser', 'primary')}
@@ -331,6 +506,71 @@ export async function renderHome() {
         <li>Her gün gir, Hızlı Atış'a bas, yanlışlar otomatik geri gelir. Futbol kartı toplar gibi.</li>
       </ul>
     </section>
+  `;
+}
+
+function renderTarihHeroCard(hero) {
+  if (!hero || !hero.choices) return '';
+  const mode = hero.mode;
+
+  // Mod-spesifik metinler ve veri
+  let modBadge, modQuestion, ipucu, hint, revealTitle, revealBody;
+  if (mode === 'kisi') {
+    modBadge = '★ TARİHÎ ŞAHSİYET';
+    modQuestion = '👤 Sence bu tanım kime ait?';
+    ipucu = hero.anekdot || '';
+    hint = `İpucu: <em>"${escape(ipucu)}"</em>`;
+    revealTitle = '✓ Doğru Kişi';
+    revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.name)}</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.donem || '')}</div>`;
+  } else if (mode === 'antlasma') {
+    modBadge = '★ TARİHÎ ANTLAŞMA';
+    modQuestion = '📜 Sence bu hangi antlaşma?';
+    ipucu = hero.ipucu || '';
+    hint = `İpucu (ana madde): <em>${escape(ipucu.slice(0, 220))}</em>`;
+    revealTitle = '✓ Doğru Antlaşma';
+    revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.isim)} (${hero.target.yil})</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.taraflar)}</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-2">📌 ${escape(hero.target.sonuc || '')}</div>`;
+  } else if (mode === 'olay') {
+    modBadge = '★ TARİHÎ SAVAŞ';
+    modQuestion = '⚔️ Sence bu hangi savaş/olay?';
+    ipucu = hero.sebep || '';
+    hint = `İpucu (sebep): <em>${escape(ipucu.slice(0, 220))}</em>`;
+    revealTitle = '✓ Doğru Olay';
+    revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.isim)} (${hero.target.yil})</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.taraflar)}</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-2">📌 Sonuç: ${escape(hero.target.sonuc || '')}</div>`;
+  }
+
+  return `
+    <div class="rounded-2xl overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/30 dark:to-orange-900/20 border-2 border-amber-500/40">
+      <div class="p-5">
+        <div class="flex items-center justify-between gap-2 mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200 opacity-90">${modBadge}</span>
+          <a href="#/" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold hover:bg-white">🔄 Yenile</a>
+        </div>
+
+        <p class="text-sm md:text-base text-slate-700 dark:text-slate-200 leading-relaxed mb-4">${hint}</p>
+
+        <div id="heroGuess" class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">${modQuestion}</div>
+          <div class="grid gap-1.5">
+            ${hero.choices.map(c => `
+              <button data-hero-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                <span class="opt-letter">${c.id}</span>
+                <span class="flex-1 text-sm">${escape(c.name)}${c.yil ? ` <span class="text-xs text-slate-500">(${c.yil})</span>` : ''}</span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+
+        <div id="heroReveal" class="hidden mt-3 bg-ok-500/15 border border-ok-500/40 rounded-lg p-3">
+          <div class="text-[10px] font-bold uppercase text-amber-800 dark:text-amber-200 opacity-80 mb-1">${revealTitle}</div>
+          ${revealBody}
+        </div>
+      </div>
+    </div>
   `;
 }
 

@@ -1,0 +1,921 @@
+{
+  "bolumler": [
+    {
+      "baslik": "37 Osmanlı Padişahı × Yıl × Olaylar",
+      "basliklar": [
+        "#",
+        "Padişah",
+        "Yıllar",
+        "Önemli Olaylar",
+        "Dönem"
+      ],
+      "satirlar": [
+        [
+          "1",
+          "I. Osman (Osman Bey)",
+          "1299-1326",
+          "Beyliği kurdu, Söğüt-Bursa",
+          "Kuruluş"
+        ],
+        [
+          "2",
+          "Orhan Bey",
+          "1326-1362",
+          "Bursa fethi, Karesi alındı, Çimpe (Rumeli'ye geçiş)",
+          "Kuruluş"
+        ],
+        [
+          "3",
+          "I. Murat (Hüdâvendigâr)",
+          "1362-1389",
+          "Edirne fethi, Yeniçeri-Devşirme-Tımar, I. Kosova şehit",
+          "Kuruluş"
+        ],
+        [
+          "4",
+          "I. Bayezid (Yıldırım)",
+          "1389-1402",
+          "Niğbolu (1396), Ankara Savaşı (1402) Timur'a esir",
+          "Kuruluş"
+        ],
+        [
+          "5",
+          "Fetret Devri",
+          "1402-1413",
+          "Süleyman-İsa-Musa-Mehmet Çelebi taht kavgası",
+          "Kuruluş"
+        ],
+        [
+          "6",
+          "I. Mehmet (Çelebi)",
+          "1413-1421",
+          "Devletin ikinci kurucusu",
+          "Kuruluş"
+        ],
+        [
+          "7",
+          "II. Murat",
+          "1421-1451",
+          "Varna (1444), II. Kosova (1448)",
+          "Kuruluş"
+        ],
+        [
+          "8",
+          "II. Mehmet (Fatih)",
+          "1444-46, 1451-1481",
+          "İstanbul Fethi (1453), Trabzon, Otlukbeli (1473), Kanunname, Otranto (1480)",
+          "Yükseliş"
+        ],
+        [
+          "9",
+          "II. Bayezid (Veli)",
+          "1481-1512",
+          "Cem Sultan, Endülüs Yahudileri, Şahkulu isyanı",
+          "Yükseliş"
+        ],
+        [
+          "10",
+          "I. Selim (Yavuz)",
+          "1512-1520",
+          "Çaldıran (1514), Mercidabık (1516), Ridaniye (1517), HİLAFET",
+          "Yükseliş"
+        ],
+        [
+          "11",
+          "I. Süleyman (Kanuni)",
+          "1520-1566",
+          "Belgrat, Rodos, Mohaç, Viyana, Bağdat, Kapitülasyon, Preveze, Zigetvar",
+          "Yükseliş"
+        ],
+        [
+          "12",
+          "II. Selim (Sarı)",
+          "1566-1574",
+          "Kıbrıs Fethi (1571), İnebahti yenilgi (1571)",
+          "Yükseliş"
+        ],
+        [
+          "13",
+          "III. Murat",
+          "1574-1595",
+          "İran-Lehistan, Sokullu suikastı (1579)",
+          "Yükseliş"
+        ],
+        [
+          "14",
+          "III. Mehmet",
+          "1595-1603",
+          "Haçova zaferi (1596), şehzade hareme kapatma",
+          "Duraklama"
+        ],
+        [
+          "15",
+          "I. Ahmed",
+          "1603-1617",
+          "Zitvatorok (1606) — Habsburg eşit",
+          "Duraklama"
+        ],
+        [
+          "16",
+          "I. Mustafa",
+          "1617-1618, 1622-1623",
+          "Sıhhi sorunlar, iki kez taht",
+          "Duraklama"
+        ],
+        [
+          "17",
+          "II. Osman (Genç Osman)",
+          "1618-1622",
+          "Hotin Seferi başarısız, yeniçeri öldürdü",
+          "Duraklama"
+        ],
+        [
+          "18",
+          "IV. Murat",
+          "1623-1640",
+          "Revan (1635), Bağdat (1638), Kasr-ı Şirin (1639)",
+          "Duraklama"
+        ],
+        [
+          "19",
+          "İbrahim (Deli)",
+          "1640-1648",
+          "Girit Kuşatması başladı (25 yıl)",
+          "Duraklama"
+        ],
+        [
+          "20",
+          "IV. Mehmet (Avcı)",
+          "1648-1687",
+          "Köprülüler devri, Girit (1669), II. Viyana yenilgisi (1683)",
+          "Duraklama"
+        ],
+        [
+          "21",
+          "II. Süleyman",
+          "1687-1691",
+          "Kutsal İttifak savaşları",
+          "Duraklama"
+        ],
+        [
+          "22",
+          "II. Ahmed",
+          "1691-1695",
+          "Salankamen yenilgisi (1691)",
+          "Duraklama"
+        ],
+        [
+          "23",
+          "II. Mustafa",
+          "1695-1703",
+          "Zenta yenilgisi, KARLOFÇA (1699)",
+          "Duraklama"
+        ],
+        [
+          "24",
+          "III. Ahmed",
+          "1703-1730",
+          "LALE DEVRİ (1718-30), Pasarofça (1718), Patrona Halil",
+          "Duraklama"
+        ],
+        [
+          "25",
+          "I. Mahmut",
+          "1730-1754",
+          "Belgrat Antlaşması (1739) — son zafer",
+          "Gerileme"
+        ],
+        [
+          "26",
+          "III. Osman",
+          "1754-1757",
+          "Kısa saltanat",
+          "Gerileme"
+        ],
+        [
+          "27",
+          "III. Mustafa",
+          "1757-1774",
+          "Osmanlı-Rus Savaşı (1768-74)",
+          "Gerileme"
+        ],
+        [
+          "28",
+          "I. Abdülhamid",
+          "1774-1789",
+          "KÜÇÜK KAYNARCA (1774), Aynalıkavak (1779)",
+          "Gerileme"
+        ],
+        [
+          "29",
+          "III. Selim",
+          "1789-1807",
+          "NİZAM-I CEDİD, Yaş (1792), Kabakçı Mustafa İsyanı",
+          "Gerileme"
+        ],
+        [
+          "30",
+          "IV. Mustafa",
+          "1807-1808",
+          "Kısa, geri çekildi",
+          "Gerileme"
+        ],
+        [
+          "31",
+          "II. Mahmut",
+          "1808-1839",
+          "Sened-i İttifak (1808), VAKA-İ HAYRİYE (1826), Yunan bağımsızlığı (1830), Tanzimat hazırlığı",
+          "Modernleşme"
+        ],
+        [
+          "32",
+          "I. Abdülmecid",
+          "1839-1861",
+          "TANZİMAT (1839), Islahat (1856), Kırım Savaşı (1853-56)",
+          "Modernleşme"
+        ],
+        [
+          "33",
+          "I. Abdülaziz",
+          "1861-1876",
+          "Süveyş Kanalı ziyareti (1867), Avrupa seyahati",
+          "Modernleşme"
+        ],
+        [
+          "34",
+          "V. Murat",
+          "1876",
+          "3 ay tahta, ruhsal hastalık",
+          "Modernleşme"
+        ],
+        [
+          "35",
+          "II. Abdülhamid",
+          "1876-1909",
+          "Kanunuesasi (1876), I. Meşrutiyet, 93 Harbi (1877-78), Berlin (1878), 31 Mart (1909)",
+          "Dağılma"
+        ],
+        [
+          "36",
+          "V. Mehmet (Reşat)",
+          "1909-1918",
+          "II. Meşrutiyet sonrası, Trablusgarp, Balkan, I. Dünya Savaşı",
+          "Dağılma"
+        ],
+        [
+          "37",
+          "VI. Mehmet (Vahdettin)",
+          "1918-1922",
+          "Mondros (1918), Sevr (1920), TBMM açılışı, Saltanat kaldırıldı (1922)",
+          "Dağılma"
+        ]
+      ]
+    },
+    {
+      "baslik": "35 Önemli Antlaşma × Madde × Sonuç",
+      "basliklar": [
+        "Yıl",
+        "Antlaşma",
+        "Taraflar",
+        "Ana Madde",
+        "Sonuç"
+      ],
+      "satirlar": [
+        [
+          "1606",
+          "Zitvatorok",
+          "Osmanlı-Avusturya",
+          "Habsburg imparatoru padişaha EŞİT kabul edildi",
+          "Osmanlı'nın Avrupa'da üstünlüğünün sonu"
+        ],
+        [
+          "1639",
+          "Kasr-ı Şirin",
+          "Osmanlı-Safevi (IV. Murat)",
+          "Bağdat Osmanlı'da, Erivan Safevi'de",
+          "BUGÜNKÜ TÜRKİYE-İRAN SINIRI"
+        ],
+        [
+          "1664",
+          "Vasvar",
+          "Osmanlı-Avusturya (Köprülü Fazıl Ahmed)",
+          "Uyvar Osmanlı'da",
+          "Kısa süreli kazanım"
+        ],
+        [
+          "1672",
+          "Bucaş",
+          "Osmanlı-Lehistan",
+          "Podolya Osmanlı'ya",
+          "Son toprak kazancı"
+        ],
+        [
+          "1699",
+          "KARLOFÇA",
+          "Osmanlı vs Kutsal İttifak (Avusturya+Polonya+Venedik+Rusya)",
+          "Macaristan-Erdel Avusturya, Mora-Dalmaçya Venedik, Podolya Polonya",
+          "İLK BÜYÜK TOPRAK KAYBI"
+        ],
+        [
+          "1700",
+          "İstanbul",
+          "Osmanlı-Rusya",
+          "Azak Rusya'ya, Rus elçisi İstanbul'da kalıcı",
+          "Rusya'nın Karadeniz'e iniş kapısı"
+        ],
+        [
+          "1711",
+          "Prut",
+          "Osmanlı-Rusya (Baltacı Mehmet vs Çariçe Anna)",
+          "Azak geri Osmanlı'ya",
+          "Baltacı çariçeyi serbest bıraktı — rüşvet iddiası"
+        ],
+        [
+          "1718",
+          "PASAROFÇA",
+          "Osmanlı-Avusturya+Venedik",
+          "Mora geri Osmanlı'ya, Belgrat-Banat Avusturya'ya",
+          "Mora geri ama Belgrat gitti"
+        ],
+        [
+          "1739",
+          "BELGRAT",
+          "Osmanlı-Avusturya+Rusya",
+          "Belgrat geri Osmanlı'ya",
+          "SON ZAFER ANTLAŞMASI"
+        ],
+        [
+          "1774",
+          "KÜÇÜK KAYNARCA",
+          "Osmanlı-Rusya (Çariçe Katerina)",
+          "KIRIM bağımsız, Karadeniz'de Rus ticareti, ORTODOKS KORUYUCULUĞU, Rus kapitülasyonu",
+          "EN AĞIR ANTLAŞMA"
+        ],
+        [
+          "1779",
+          "Aynalıkavak",
+          "Osmanlı-Rusya",
+          "Kırım fiilen Rus elinde",
+          "Küçük Kaynarca'nın devamı"
+        ],
+        [
+          "1791",
+          "Ziştovi",
+          "Osmanlı-Avusturya",
+          "Belgrat tekrar Avusturya'ya",
+          "Avusturya'yla son resmi savaş sonu"
+        ],
+        [
+          "1792",
+          "Yaş",
+          "Osmanlı-Rusya",
+          "Kırım'ın Rus ilhakı resmi",
+          "Karadeniz Rus gölü oldu"
+        ],
+        [
+          "1812",
+          "Bükreş",
+          "Osmanlı-Rusya",
+          "Besarabya Rusya'ya",
+          "Napolyon'un Moskova seferi öncesi"
+        ],
+        [
+          "1829",
+          "Edirne",
+          "Osmanlı-Rusya",
+          "Yunanistan bağımsız, Sırbistan-Eflak-Boğdan özerk",
+          "Avrupa baskısının başı"
+        ],
+        [
+          "1833",
+          "Hünkâr İskelesi",
+          "Osmanlı-Rusya",
+          "Boğazlar Rus'a açık, başkalarına kapalı",
+          "İngiltere reddetti, son ittifak"
+        ],
+        [
+          "1838",
+          "BALTA LİMANI",
+          "Osmanlı-İngiltere",
+          "Gümrük tarifeleri düşük tutuldu",
+          "OSMANLI SANAYİSİNİ BİTİREN"
+        ],
+        [
+          "1839",
+          "TANZİMAT (ferman, antlaşma değil)",
+          "Gülhane Hatt-ı Hümayunu",
+          "Müslim-gayrimüslim eşitliği, vergide eşitlik, can-mal güvenliği",
+          "REFORM BAŞLANGICI"
+        ],
+        [
+          "1856",
+          "Paris (Kırım Savaşı sonu)",
+          "Osmanlı-Rusya-İngiltere-Fransa",
+          "Karadeniz tarafsız, Boğazlar uluslararası",
+          "ISLAHAT Fermanı bunu izledi"
+        ],
+        [
+          "1878",
+          "Ayastefanos",
+          "Osmanlı-Rusya",
+          "Büyük Bulgaristan, Karadağ-Sırbistan-Romanya bağımsız",
+          "İngiltere reddetti, Berlin'e götürdü"
+        ],
+        [
+          "1878",
+          "BERLİN",
+          "Osmanlı-Rusya+Avusturya+İngiltere+Fransa+Almanya",
+          "Bulgaristan küçüldü, Doğu Rumeli özerk, Bosna-Hersek Avusturya, KIBRIS İNGİLTERE, ERMENİ reform şartı",
+          "Düvel-i Muazzama Osmanlı'yı bölüştürdü"
+        ],
+        [
+          "1912",
+          "Uşi",
+          "Osmanlı-İtalya",
+          "Trablusgarp İtalya'ya, Onikiada geçici",
+          "Trablusgarp savaşı sonu"
+        ],
+        [
+          "1913",
+          "Londra",
+          "Osmanlı-Balkanlar",
+          "Edirne-Kırklareli Balkanlara, Midye-Enez sınırı",
+          "I. Balkan Savaşı sonu (yenilgi)"
+        ],
+        [
+          "1913",
+          "Bükreş",
+          "Balkan ülkeleri arası",
+          "Bulgaristan Edirne'yi kaybetti",
+          "II. Balkan sonu"
+        ],
+        [
+          "1918",
+          "Brest-Litovsk",
+          "Bolşevikler-Almanya",
+          "Rusya savaştan çekildi",
+          "Türkiye'ye Kars-Ardahan-Batum geri verildi"
+        ],
+        [
+          "1918",
+          "MONDROS (Mütareke)",
+          "Osmanlı-İtilaf",
+          "25 madde: Boğazlar İtilaf'ın, ordu terhis, telgraf-demiryolu kontrolü, 7. madde işgal hakkı",
+          "İŞGAL DÖNEMİ"
+        ],
+        [
+          "1920",
+          "SEVR",
+          "Osmanlı (Damat Ferit hükümeti)-İtilaf",
+          "433 madde: kapitülasyon devam, ordu 50 bin, Boğazlar uluslararası, Doğu Ermeni-Kürt, İzmir-Doğu Trakya Yunan",
+          "TBMM REDDETTİ"
+        ],
+        [
+          "1920",
+          "Gümrü",
+          "TBMM-Ermenistan",
+          "Doğu Anadolu Türk",
+          "TBMM'NİN İLK ANTLAŞMASI"
+        ],
+        [
+          "1921",
+          "Moskova",
+          "TBMM-Sovyetler",
+          "Misak-ı Milli kabul, Batum SSCB'ye",
+          "Doğu sınırı güvende"
+        ],
+        [
+          "1921",
+          "Kars",
+          "TBMM-Sovyet Kafkas (Ermenistan-Gürcistan-Azerbaycan)",
+          "Doğu sınırı kesinleşti",
+          "Moskova'yı tamamladı"
+        ],
+        [
+          "1921",
+          "Ankara",
+          "TBMM-Fransa",
+          "Güney sınırı, Hatay Fransız mandasında",
+          "Güney Cephesi kapandı"
+        ],
+        [
+          "1922",
+          "MUDANYA (Mütareke)",
+          "TBMM-İtilaf-Yunanistan (İsmet Paşa)",
+          "Doğu Trakya 15 gün içinde Türkiye'ye",
+          "Lozan'a yol açtı"
+        ],
+        [
+          "1923",
+          "LOZAN",
+          "TBMM-İtilaf",
+          "Kapitülasyon kaldırıldı, Boğazlar komisyon, savaş tazminatı yok, nüfus mübadelesi, sınırlar (Hatay-Musul hariç)",
+          "BAĞIMSIZLIK TASDİKİ"
+        ],
+        [
+          "1936",
+          "Montrö Boğazlar Sözleşmesi",
+          "Türkiye-İlgili devletler",
+          "Boğazlar TAM TÜRK EGEMENLİĞİNDE",
+          "Lozan'daki tek eksik kapandı"
+        ],
+        [
+          "1939",
+          "Karşılıklı Yardım Antlaşması",
+          "Türkiye-İngiltere-Fransa",
+          "İtalya ile silahlı çatışma maddesi hariç",
+          "II. Dünya Savaşı'nda tarafsızlık zemini"
+        ]
+      ]
+    },
+    {
+      "baslik": "35 Önemli Savaş × Sebep-Sonuç",
+      "basliklar": [
+        "Yıl",
+        "Savaş",
+        "Taraflar",
+        "Sebep",
+        "Sonuç"
+      ],
+      "satirlar": [
+        [
+          "1071",
+          "MALAZGİRT",
+          "Alp Arslan vs Romen Diyojen (Bizans)",
+          "Bizans'ın Doğu Anadolu'ya akınları + Türkmen göçleri",
+          "ANADOLU'NUN KAPISI AÇILDI"
+        ],
+        [
+          "1176",
+          "Myriokephalon",
+          "II. Kılıç Arslan vs Bizans",
+          "Bizans Türkiye Selçuklu'ya saldırdı",
+          "Türk hâkimiyeti kesinleşti"
+        ],
+        [
+          "1243",
+          "Kösedağ",
+          "Türkiye Selçuklu vs Moğol (Baycu Noyan)",
+          "Moğol istilası",
+          "Türkiye Selçuklu çöktü, beylikler dönemi"
+        ],
+        [
+          "1389",
+          "I. KOSOVA",
+          "I. Murat vs Sırp Birliği (Lazar)",
+          "Balkan ittifakı",
+          "Murat şehit, Yıldırım taht — Balkan tam Osmanlı"
+        ],
+        [
+          "1396",
+          "Niğbolu",
+          "Yıldırım Bayezid vs Sigismund-Macar-Haçlı",
+          "Bizans için Avrupa yardımı",
+          "Haçlı yenildi, Yıldırım popüler"
+        ],
+        [
+          "1402",
+          "Ankara",
+          "Yıldırım Bayezid vs Timur",
+          "Anadolu beylikleri Timur'a sığındı",
+          "Yıldırım esir, Fetret Devri"
+        ],
+        [
+          "1444",
+          "Varna",
+          "II. Murat vs Janos Hunyadi",
+          "Macar-Haçlı saldırısı (Edirne-Segedin sonrası)",
+          "II. Murat zaferi, Osmanlı toparlandı"
+        ],
+        [
+          "1448",
+          "II. Kosova",
+          "II. Murat vs Hunyadi",
+          "Macar revanşı",
+          "Kesin zafer"
+        ],
+        [
+          "1453",
+          "İstanbul Fethi",
+          "Fatih vs Bizans (XI. Konstantin)",
+          "Bizans direnişi, Boğaz kontrolü",
+          "YENİÇAĞ başlangıcı, Roma İmparatorluğu sonu"
+        ],
+        [
+          "1473",
+          "Otlukbeli",
+          "Fatih vs Uzun Hasan (Akkoyunlu)",
+          "Akkoyunlu doğu tehdidi",
+          "Akkoyunlu yıkıldı"
+        ],
+        [
+          "1514",
+          "ÇALDIRAN",
+          "Yavuz vs Şah İsmail (Safevi)",
+          "Şahkulu propagandası, Şia tehdidi",
+          "Doğu Anadolu Osmanlı'ya"
+        ],
+        [
+          "1516",
+          "Mercidabık",
+          "Yavuz vs Kansu Gavri (Memluk)",
+          "Safevi-Memluk ittifak söylentisi",
+          "Suriye-Filistin Osmanlı'ya"
+        ],
+        [
+          "1517",
+          "Ridaniye",
+          "Yavuz vs Tomanbay (Memluk)",
+          "Memluk varlığı sürüyor",
+          "MISIR FETHEDİLDİ + HİLAFET Osmanlı'ya"
+        ],
+        [
+          "1521",
+          "Belgrat Fethi",
+          "Kanuni vs Macar",
+          "Macar engelini kaldırma",
+          "Avrupa'ya yol açıldı"
+        ],
+        [
+          "1526",
+          "MOHAÇ",
+          "Kanuni vs II. Lajos (Macar)",
+          "Habsburg-Macar ittifakı",
+          "Macar Krallığı bitti, kuzey Macaristan Habsburg'a, güney Osmanlı'ya"
+        ],
+        [
+          "1529",
+          "I. Viyana Kuşatması",
+          "Kanuni vs Şarlken+Habsburg",
+          "Habsburg baskısı",
+          "Başarısız ama Habsburg'a baskı"
+        ],
+        [
+          "1538",
+          "Preveze",
+          "Barbaros vs Doria (Haçlı donanması)",
+          "Akdeniz hâkimiyeti",
+          "Akdeniz Osmanlı gölü"
+        ],
+        [
+          "1565",
+          "Malta Kuşatması",
+          "Osmanlı vs St. Jean Şövalyeleri",
+          "Akdeniz korsanları",
+          "Başarısız"
+        ],
+        [
+          "1571",
+          "İNEBAHTI",
+          "Müezzinzade Ali Paşa vs Don Juan (Haçlı)",
+          "Kıbrıs Fethi'ne tepki",
+          "Osmanlı donanması yok, hızla yeniden inşa"
+        ],
+        [
+          "1571",
+          "Kıbrıs Fethi",
+          "Lala Mustafa Paşa vs Venedik",
+          "Akdeniz korsanlarını engelleme",
+          "Kıbrıs Osmanlı'ya"
+        ],
+        [
+          "1683",
+          "II. Viyana Kuşatması",
+          "Merzifonlu Kara Mustafa vs Avusturya+Polonya",
+          "Habsburg'a son saldırı",
+          "Polonya'lı Sobieski kurtardı → Kutsal İttifak savaşları"
+        ],
+        [
+          "1697",
+          "Zenta",
+          "II. Mustafa vs Eugen",
+          "Macaristan geri alma çabası",
+          "Yenilgi → Karlofça yolu"
+        ],
+        [
+          "1768",
+          "Çeşme Baskını",
+          "Rus donanması vs Osmanlı",
+          "Rus genişlemesi",
+          "Donanma yakıldı"
+        ],
+        [
+          "1853",
+          "Sinop Baskını",
+          "Rus donanması vs Osmanlı",
+          "Kırım Savaşı başlangıcı",
+          "İngiltere-Fransa Osmanlı yanında savaşa"
+        ],
+        [
+          "1853",
+          "KIRIM SAVAŞI",
+          "Osmanlı+İngiltere+Fransa+Sardunya vs Rusya",
+          "Kutsal Yerler sorunu",
+          "Rus yenildi, Islahat Fermanı"
+        ],
+        [
+          "1877",
+          "93 Harbi (Osmanlı-Rus)",
+          "Osmanlı vs Rusya",
+          "Balkan halklarını kurtarma bahanesi",
+          "Yenilgi, Ayastefanos → Berlin"
+        ],
+        [
+          "1911",
+          "Trablusgarp",
+          "Osmanlı vs İtalya",
+          "İtalyan emperyalizmi",
+          "Trablusgarp İtalya'ya (Uşi 1912)"
+        ],
+        [
+          "1912",
+          "I. Balkan",
+          "Osmanlı vs Bulgaristan-Sırbistan-Karadağ-Yunanistan",
+          "Balkan ittifakı",
+          "Edirne ve Selanik kaybedildi"
+        ],
+        [
+          "1913",
+          "II. Balkan",
+          "Bulgaristan vs diğerleri + Osmanlı",
+          "Bulgar açgözlülüğü",
+          "Edirne geri alındı"
+        ],
+        [
+          "1914",
+          "Sarayevo",
+          "—",
+          "Avusturya arşidükünün öldürülmesi",
+          "I. Dünya Savaşı başladı"
+        ],
+        [
+          "1914",
+          "Sarıkamış",
+          "Enver Paşa vs Rus (Kafkas)",
+          "Stratejik hata, kış",
+          "90 bin Türk askeri öldü"
+        ],
+        [
+          "1915",
+          "Çanakkale Deniz",
+          "Müttefik donanma vs Osmanlı (18 Mart)",
+          "Boğazları zorla geçme",
+          "Müttefik vazgeçti → kara çıkarması"
+        ],
+        [
+          "1915",
+          "Çanakkale Kara",
+          "Müttefik kara vs Osmanlı (Anafartalar — Mustafa Kemal)",
+          "Boğazları kara yoluyla alma",
+          "Müttefik 250 bin kayıp, Osmanlı zaferi"
+        ],
+        [
+          "1916",
+          "Kut'ul Amare",
+          "Halil Paşa vs İngiliz General Townshend",
+          "Bağdat'a yürüme",
+          "İngiliz 13 bin asker esir"
+        ],
+        [
+          "1921",
+          "Sakarya",
+          "M. Kemal vs Yunan",
+          "Yunan ileri harekât",
+          "Tedafü zaferi, M. Kemal gazi-mareşal"
+        ],
+        [
+          "1922",
+          "Dumlupınar (Başkomutan Meydan)",
+          "M. Kemal vs Yunan",
+          "Büyük Taarruz",
+          "Kesin zafer, İzmir kurtarıldı"
+        ]
+      ]
+    },
+    {
+      "baslik": "Atatürk Söz/Konuşma × İlke",
+      "basliklar": [
+        "Söz",
+        "Yıl",
+        "İlke / Kategori",
+        "Bağlam"
+      ],
+      "satirlar": [
+        [
+          "Egemenlik kayıtsız şartsız milletindir",
+          "1920+",
+          "Cumhuriyetçilik / Halkçılık",
+          "TBMM'nin kuruluş ilkesi"
+        ],
+        [
+          "Yurtta sulh, cihanda sulh",
+          "1931",
+          "Barışçı dış politika",
+          "Atatürk'ün dış siyaset doktrini"
+        ],
+        [
+          "Hayatta en hakiki mürşit ilimdir",
+          "1924 sonrası",
+          "Laiklik / Bilimcilik",
+          "Toplumsal reformların felsefi temeli"
+        ],
+        [
+          "Türkiye Cumhuriyeti şeyhler, dervişler memleketi olamaz",
+          "1925",
+          "Laiklik",
+          "Tekke-Zaviye kapatılışı bağlamı"
+        ],
+        [
+          "Millî Sanayinin Temelini On Yılda Attık",
+          "1933 civarı",
+          "Devletçilik",
+          "I. Beş Yıllık Plan dönemi (2018 sorusu)"
+        ],
+        [
+          "Ne mutlu Türküm diyene",
+          "1933 (Onuncu Yıl Nutku)",
+          "Milliyetçilik",
+          "10. yıl söylevi"
+        ],
+        [
+          "Az zamanda çok ve büyük işler yaptık",
+          "1933",
+          "İnkılapçılık",
+          "Onuncu yıl söylevi açılış"
+        ],
+        [
+          "Devlet idaresinde bütün kanunlar halkın menfaatine",
+          "1920+",
+          "Halkçılık",
+          "Yasama-yürütme prensibi"
+        ],
+        [
+          "Türkiye Cumhuriyeti'ni kuran Türkiye halkına Türk milleti denir",
+          "Onuncu Yıl Söylevi 1933",
+          "Milliyetçilik",
+          "Milleti tanımlayan resmi cümle"
+        ],
+        [
+          "Çağdaş uygarlık seviyesinin üzerine çıkmak",
+          "Bütün konuşmalarda",
+          "İnkılapçılık",
+          "Modernleşme hedefi"
+        ],
+        [
+          "Ordular ilk hedefiniz Akdeniz'dir, ileri!",
+          "30 Ağustos 1922",
+          "Askeri",
+          "Dumlupınar zaferi"
+        ],
+        [
+          "Hattı müdafaa yoktur, sath-ı müdafaa vardır",
+          "1921 Sakarya",
+          "Askeri",
+          "Sakarya savunma stratejisi"
+        ],
+        [
+          "Geldikleri gibi giderler",
+          "1918",
+          "Direniş",
+          "İstanbul'un işgali sonrası söz"
+        ],
+        [
+          "Türk! Övün, çalış, güven",
+          "Onuncu Yıl 1933",
+          "Milliyetçilik",
+          "Vatandaşlık ödevi"
+        ],
+        [
+          "Daima kendisiyle dostluğa çok ehemmiyet verdiğimiz Fransa ile aramızda tek ve büyük mesele budur",
+          "1936-38",
+          "Dış politika",
+          "HATAY MESELESİ (2025 sorusu)"
+        ],
+        [
+          "Bir milletin tarihi, o milletin gelecek nesilleri için bir hazinedir",
+          "Tarih Kurumu 1931",
+          "Eğitim-Kültür",
+          "TTK kuruluş gerekçesi"
+        ],
+        [
+          "Ben size taarruzu emretmiyorum, ölmeyi emrediyorum",
+          "1915 Çanakkale Anafartalar",
+          "Askeri",
+          "57. Alay'a verilen emir"
+        ],
+        [
+          "Cumhuriyet, fikir serbestliğini taraftardır",
+          "1920+",
+          "Cumhuriyetçilik",
+          "Demokratik düşünce"
+        ],
+        [
+          "Bir millet ki Türk ulusudur, kahramanlıkla doludur",
+          "1923+",
+          "Milliyetçilik",
+          "Cumhuriyet propagandası"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "AYT Edebiyat Hardcore",
-  "short_name": "AYT Edebiyat",
-  "description": "AYT Edebiyat — pasif maruz kalma + günlük ritüel + auto resurface. Trading card stilinde 85 yazar, ~634 kart, 251 eser, 10 grup.",
+  "name": "AYT Hardcore — Edebiyat & Tarih",
+  "short_name": "AYT Hardcore",
+  "description": "AYT Edebiyat + Tarih — pasif maruz kalma + günlük ritüel + auto resurface. Edebiyat: 85 yazar / 600+ kart, Tarih: 10 dönem / 600+ kart hedefi.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

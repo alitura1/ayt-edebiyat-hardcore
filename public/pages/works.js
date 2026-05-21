@@ -1,8 +1,37 @@
-// REV6 M4 — Eserler liste + detay
-import { Data, periodTheme, slugify } from '../lib/data.js';
+// REV6 M4 — Eserler / Olaylar liste + detay
+import { Data, periodTheme, slugify, getDataSubject } from '../lib/data.js';
 
 export async function renderWorkList() {
-  const works = await Data.works();
+  const isTarih = getDataSubject() === 'tarih';
+  // Tarih moduyla events.json + treaties.json'u "works" şemasına çevir
+  let works;
+  if (isTarih) {
+    const events = await Data.events();
+    const treaties = await Data.treaties();
+    const eventToWork = e => ({
+      title: e.isim,
+      slug: e.slug,
+      yazar: e.taraflar || '—',
+      yazarSlug: 'tarih',
+      tur: e.tur === 'savas' ? 'Savaş' : 'Olay',
+      donem: e.yil < 1300 ? 'turk_islam' : e.yil < 1453 ? 'osmanli_kurulus' : e.yil < 1595 ? 'osmanli_yukselis' : e.yil < 1792 ? 'osmanli_duraklama' : e.yil < 1922 ? 'osmanli_dagilma' : 'milli_mucadele',
+      yil: e.yil,
+      cikmis: false,
+    });
+    const treatyToWork = t => ({
+      title: t.isim,
+      slug: t.slug,
+      yazar: t.taraflar,
+      yazarSlug: 'tarih',
+      tur: 'Antlaşma',
+      donem: t.yil < 1595 ? 'osmanli_yukselis' : t.yil < 1792 ? 'osmanli_duraklama' : t.yil < 1922 ? 'osmanli_dagilma' : 'milli_mucadele',
+      yil: t.yil,
+      cikmis: false,
+    });
+    works = [...events.map(eventToWork), ...treaties.map(treatyToWork)].sort((a, b) => a.yil - b.yil);
+  } else {
+    works = await Data.works();
+  }
 
   window.__pageSetup = () => {
     const srch = document.getElementById('wSearch');
@@ -38,10 +67,14 @@ export async function renderWorkList() {
   const donems = [...new Set(works.map(w => w.donem))];
   const cikmisN = works.filter(w => w.cikmis).length;
 
+  const headerTitle = isTarih ? '⚔️ Olaylar & Antlaşmalar' : '📚 Eserler';
+  const headerSub = isTarih
+    ? `${works.length} olay/antlaşma · savaşlar, barış antlaşmaları, kritik tarihî olaylar.`
+    : `${works.length} eser · ${cikmisN}'si ÖSYM'de soruldu.`;
   return `
     <header class="mb-5">
-      <h1 class="text-3xl font-bold mb-1">📚 Eserler</h1>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">${works.length} eser · ${cikmisN}'si ÖSYM'de soruldu.</p>
+      <h1 class="text-3xl font-bold mb-1">${headerTitle}</h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">${headerSub}</p>
     </header>
 
     <div class="flex gap-2 mb-4 flex-wrap">
