@@ -24,7 +24,7 @@ function dataPath(file) {
 
 async function loadJSON(path) {
   if (cache.has(path)) return cache.get(path);
-  const res = await fetch(path);
+  const res = await fetch(path, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Veri yüklenemedi: ${path} (${res.status})`);
   const data = await res.json();
   cache.set(path, data);
@@ -33,7 +33,7 @@ async function loadJSON(path) {
 
 async function loadText(path) {
   if (cache.has(path)) return cache.get(path);
-  const res = await fetch(path);
+  const res = await fetch(path, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Metin yüklenemedi: ${path} (${res.status})`);
   const txt = await res.text();
   cache.set(path, txt);
@@ -44,7 +44,7 @@ async function loadJSONOptional(path) {
   // 404 sessiz, boş [] döndür — tarih için bazı dosyalar henüz olmayabilir
   if (cache.has(path)) return cache.get(path);
   try {
-    const res = await fetch(path);
+    const res = await fetch(path, { cache: 'no-cache' });
     if (!res.ok) {
       cache.set(path, []);
       return [];
