@@ -87,7 +87,7 @@ async function renderTarihHome() {
         AYT Tarih <span style="color:#991B1B;">Hardcore</span>
       </h1>
       <p class="text-slate-600 dark:text-slate-400 text-sm max-w-2xl mx-auto">
-        Tarihçi olma, tarihi yendin sayılır. 10 dönem · 671 kart · 8 yıllık ÖSYM analizi.
+        Tarihçi olma, tarihi yendin sayılır. 11 dönem · 684 kart · 8 yıllık ÖSYM analizi.
       </p>
     </section>
 

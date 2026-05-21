@@ -112,6 +112,7 @@ export async function renderPredictions() {
       </div>
     </section>` : ''}
 
+    ${p.bosluk_haritasi ? `
     <section>
       <h2 class="text-xl font-bold mb-3">Alt Başlık Boşluk Haritası</h2>
       <p class="text-sm text-slate-500 mb-3">Konuya çalışırken bu alt başlıklara özellikle bak — 8 yılda hiç sorulmamış ama MEBİ özetinde var.</p>
@@ -135,7 +136,7 @@ export async function renderPredictions() {
           </tbody>
         </table>
       </div>
-    </section>
+    </section>` : ''}
   `;
 }
 

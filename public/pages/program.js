@@ -38,13 +38,28 @@ const TOPIC_HINTS_EDEBIYAT = [
 
 // REV20 — Tarih TOPIC_HINTS
 const TOPIC_HINTS_TARIH = [
+  // REV25 — İlk Çağ Uygarlıkları (yeni dönem, başa eklendi)
+  ['ilk cag', 'ilk_cag'],
+  ['sumer', 'ilk_cag'],
+  ['misir', 'ilk_cag'],
+  ['hitit', 'ilk_cag'],
+  ['frig', 'ilk_cag'],
+  ['lidya', 'ilk_cag'],
+  ['iyon', 'ilk_cag'],
+  ['urartu', 'ilk_cag'],
+  ['mezopotamya', 'ilk_cag'],
+  ['kanunlar dogu', 'ilk_cag'],
+  ['hammurabi', 'ilk_cag'],
+  ['urgakina', 'ilk_cag'],
+  ['ziggurat', 'ilk_cag'],
+  ['ilk cag medeniyet', 'ilk_cag'],
+  ['medeniyet havza', 'ilk_cag'],
   // İslam Öncesi Türk
   ['islam oncesi turk', 'islam_oncesi_turk'],
   ['hun', 'islam_oncesi_turk'],
   ['gokturk', 'islam_oncesi_turk'],
   ['uygur', 'islam_oncesi_turk'],
   ['mete', 'islam_oncesi_turk'],
-  ['ilk cag medeniyet', 'islam_oncesi_turk'],
   ['boylardan devlete', 'islam_oncesi_turk'],
   // İslam Tarihi
   ['islam tarihi', 'islam_tarihi'],

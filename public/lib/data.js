@@ -108,6 +108,7 @@ export const TOPIC_LABELS = {
   masal_fabl_destan: 'Masal / Fabl / Destan',
   edebi_akimlar: 'Edebi Akımlar',
   // Tarih dönemleri (sonradan slug ile eşleştirilebilir)
+  ilk_cag: 'İlk Çağ Uygarlıkları',
   islam_oncesi_turk: 'İslam Öncesi Türk',
   islam_tarihi: 'İslam Tarihi',
   turk_islam: 'Türk-İslam',
@@ -150,8 +151,9 @@ const EDEBIYAT_PERIOD_THEME = {
   masal_fabl_destan:      { bg:'bg-lime-100 dark:bg-lime-900/40',     text:'text-lime-800 dark:text-lime-200',     label:'Masal/Fabl/Destan', dot:'bg-lime-500' },
 };
 
-// REV20 — Tarih dönem rozet renkleri (amber/orange paleti)
+// REV20+REV25 — Tarih dönem rozet renkleri (amber/orange paleti)
 const TARIH_PERIOD_THEME = {
+  ilk_cag:              { bg:'bg-stone-100 dark:bg-stone-900/40',   text:'text-stone-800 dark:text-stone-200',   label:'İlk Çağ',             dot:'bg-stone-500' },
   islam_oncesi_turk:    { bg:'bg-amber-100 dark:bg-amber-900/40',   text:'text-amber-800 dark:text-amber-200',   label:'İslam Öncesi Türk',   dot:'bg-amber-500' },
   islam_tarihi:         { bg:'bg-emerald-100 dark:bg-emerald-900/40', text:'text-emerald-800 dark:text-emerald-200', label:'İslam',            dot:'bg-emerald-500' },
   turk_islam:           { bg:'bg-teal-100 dark:bg-teal-900/40',     text:'text-teal-800 dark:text-teal-200',     label:'Türk-İslam',           dot:'bg-teal-500' },

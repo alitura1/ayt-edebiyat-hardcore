@@ -12,13 +12,15 @@ function escapeHtml(s) {
 function normalizeQuestion(raw, subject) {
   // İki şemayı tek formata indir
   if (subject === 'tarih') {
+    // REV25 yeni şema: body + options[] + correct + donem_slug
     return {
       no: raw.num,
       year: raw.year,
       bodyText: raw.body || '',
-      konu: raw.konu || '',
-      konuLabel: raw.konuLabel || raw.konu || '—',
-      secenekler: null,  // body içinde gömülü
+      konu: raw.donem_slug || raw.konu || '',
+      konuLabel: raw.konuLabel || raw.donem_slug || '—',
+      secenekler: Array.isArray(raw.options) && raw.options.length > 0 ? raw.options : null,
+      correctRaw: raw.correct || null,
     };
   }
   // Edebiyat

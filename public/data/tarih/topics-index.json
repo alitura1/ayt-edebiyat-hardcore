@@ -1,24 +1,45 @@
 [
   {
+    "slug": "ilk_cag",
+    "title": "İlk Çağ Uygarlıkları",
+    "toplam": 8,
+    "alt_basliklar": 3,
+    "oncelik": "ORTA",
+    "mebi_pages": "—",
+    "kisa_aciklama": "İlk Çağ Uygarlıkları",
+    "code": "ilk_cag",
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 1.0
+  },
+  {
     "slug": "islam_oncesi_turk",
     "title": "İslam Öncesi Türk Tarihi",
-    "toplam": 16,
-    "alt_basliklar": 5,
-    "oncelik": "ÇOK YÜKSEK",
+    "toplam": 8,
+    "alt_basliklar": 2,
+    "oncelik": "ORTA",
     "mebi_pages": "—",
     "kisa_aciklama": "Hun-Göktürk-Uygur · İlkçağ medeniyet havzaları. Yılda 2 soru sabit, en güvenli alan.",
     "code": "islam_oncesi_turk",
     "yillar": {
-      "2018": 2,
-      "2019": 2,
-      "2020": 2,
-      "2021": 2,
-      "2022": 2,
-      "2023": 2,
-      "2024": 2,
-      "2025": 2
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
     },
-    "ortalama": 2.0
+    "ortalama": 1.0
   },
   {
     "slug": "islam_tarihi",
