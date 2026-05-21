@@ -1,8 +1,8 @@
-import { Data } from '../lib/data.js';
+import { Data, getDataSubject } from '../lib/data.js';
 import { loadState, toggleProgramCheckbox } from '../lib/store.js';
 
-// REV14 — Konu metnindeki anahtar kelimelerden slug çıkarır
-const TOPIC_HINTS = [
+// REV14 — Konu metnindeki anahtar kelimelerden slug çıkarır (Edebiyat)
+const TOPIC_HINTS_EDEBIYAT = [
   ['divan', 'divan_edebiyati'],
   ['tanzimat', 'tanzimat'],
   ['servet', 'servet_i_funun_fecr_i_ati'],
@@ -36,6 +36,128 @@ const TOPIC_HINTS = [
   ['soz san', 'soz_sanatlari'],
 ];
 
+// REV20 — Tarih TOPIC_HINTS
+const TOPIC_HINTS_TARIH = [
+  // İslam Öncesi Türk
+  ['islam oncesi turk', 'islam_oncesi_turk'],
+  ['hun', 'islam_oncesi_turk'],
+  ['gokturk', 'islam_oncesi_turk'],
+  ['uygur', 'islam_oncesi_turk'],
+  ['mete', 'islam_oncesi_turk'],
+  ['ilk cag medeniyet', 'islam_oncesi_turk'],
+  ['boylardan devlete', 'islam_oncesi_turk'],
+  // İslam Tarihi
+  ['islam tarihi', 'islam_tarihi'],
+  ['hz. muhammed', 'islam_tarihi'],
+  ['halife', 'islam_tarihi'],
+  ['4 halife', 'islam_tarihi'],
+  ['emevi', 'islam_tarihi'],
+  ['abbasi', 'islam_tarihi'],
+  ['islamiyet yayil', 'islam_tarihi'],
+  // Türk-İslam
+  ['turk-islam', 'turk_islam'],
+  ['karahanli', 'turk_islam'],
+  ['gazneli', 'turk_islam'],
+  ['selcuklu', 'turk_islam'],
+  ['malazgirt', 'turk_islam'],
+  ['beylik', 'turk_islam'],
+  ['hacli', 'turk_islam'],
+  ['anadolu beylik', 'turk_islam'],
+  // Osmanlı Kuruluş
+  ['osmanli kurulus', 'osmanli_kurulus'],
+  ['osman bey', 'osmanli_kurulus'],
+  ['orhan bey', 'osmanli_kurulus'],
+  ['i. murat', 'osmanli_kurulus'],
+  ['yildirim', 'osmanli_kurulus'],
+  ['fetret', 'osmanli_kurulus'],
+  ['tımar', 'osmanli_kurulus'],
+  ['devsirme', 'osmanli_kurulus'],
+  ['yeniceri', 'osmanli_kurulus'],
+  // Osmanlı Yükseliş
+  ['osmanli yukselis', 'osmanli_yukselis'],
+  ['fatih', 'osmanli_yukselis'],
+  ['yavuz', 'osmanli_yukselis'],
+  ['kanuni', 'osmanli_yukselis'],
+  ['istanbul fethi', 'osmanli_yukselis'],
+  ['caldiran', 'osmanli_yukselis'],
+  ['mohac', 'osmanli_yukselis'],
+  ['hilafet', 'osmanli_yukselis'],
+  // Osmanlı Duraklama / Modernleşme
+  ['duraklama', 'osmanli_duraklama'],
+  ['gerileme', 'osmanli_duraklama'],
+  ['koprulu', 'osmanli_duraklama'],
+  ['karlofca', 'osmanli_duraklama'],
+  ['pasarofca', 'osmanli_duraklama'],
+  ['kucuk kaynarca', 'osmanli_duraklama'],
+  ['lale devri', 'osmanli_duraklama'],
+  ['nizam-i cedid', 'osmanli_duraklama'],
+  ['vaka-i hayriye', 'osmanli_duraklama'],
+  ['tanzimat', 'osmanli_duraklama'],
+  ['islahat', 'osmanli_duraklama'],
+  ['mesrutiyet', 'osmanli_duraklama'],
+  ['ii. mahmut', 'osmanli_duraklama'],
+  ['ii. abdulhamid', 'osmanli_duraklama'],
+  // Osmanlı Dağılma + I. Dünya
+  ['dagilma', 'osmanli_dagilma'],
+  ['trablusgarp', 'osmanli_dagilma'],
+  ['balkan sav', 'osmanli_dagilma'],
+  ['ittihat', 'osmanli_dagilma'],
+  ['i. dunya', 'osmanli_dagilma'],
+  ['canakkale', 'osmanli_dagilma'],
+  ['sarikamis', 'osmanli_dagilma'],
+  ["kut'ul amare", 'osmanli_dagilma'],
+  ['mondros', 'osmanli_dagilma'],
+  ['sevr', 'osmanli_dagilma'],
+  // Millî Mücadele
+  ['milli mucadele', 'milli_mucadele'],
+  ['samsun', 'milli_mucadele'],
+  ['havza', 'milli_mucadele'],
+  ['amasya gen', 'milli_mucadele'],
+  ['erzurum kong', 'milli_mucadele'],
+  ['sivas kong', 'milli_mucadele'],
+  ['misak-i milli', 'milli_mucadele'],
+  ['tbmm', 'milli_mucadele'],
+  ['gumru', 'milli_mucadele'],
+  ['moskova ant', 'milli_mucadele'],
+  ['ankara ant', 'milli_mucadele'],
+  ['i. inonu', 'milli_mucadele'],
+  ['ii. inonu', 'milli_mucadele'],
+  ['sakarya', 'milli_mucadele'],
+  ['buyuk taarruz', 'milli_mucadele'],
+  ['dumlupinar', 'milli_mucadele'],
+  ['mudanya', 'milli_mucadele'],
+  ['lozan', 'milli_mucadele'],
+  ['kuvayimilliye', 'milli_mucadele'],
+  // Atatürk Dönemi
+  ['ataturk donemi', 'ataturk_donemi'],
+  ['cumhuriyet ilan', 'ataturk_donemi'],
+  ['inkilap', 'ataturk_donemi'],
+  ['hilafet kald', 'ataturk_donemi'],
+  ['medeni kanun', 'ataturk_donemi'],
+  ['latin alf', 'ataturk_donemi'],
+  ['soyadi', 'ataturk_donemi'],
+  ['altu', 'ataturk_donemi'],
+  ['6 ilke', 'ataturk_donemi'],
+  ['cumhuriyetcilik', 'ataturk_donemi'],
+  ['milliyetcilik', 'ataturk_donemi'],
+  ['halkcilik', 'ataturk_donemi'],
+  ['devletcilik', 'ataturk_donemi'],
+  ['laiklik', 'ataturk_donemi'],
+  ['inkilapcilik', 'ataturk_donemi'],
+  // II. Dünya + Çağdaş
+  ['ii. dunya', 'ikinci_dunya_cagdas'],
+  ['nato', 'ikinci_dunya_cagdas'],
+  ['soguk savas', 'ikinci_dunya_cagdas'],
+  ['kore', 'ikinci_dunya_cagdas'],
+  ['ataturk dis', 'ikinci_dunya_cagdas'],
+  ['montro', 'ikinci_dunya_cagdas'],
+  ['hatay', 'ikinci_dunya_cagdas'],
+];
+
+function getTopicHints() {
+  return getDataSubject() === 'tarih' ? TOPIC_HINTS_TARIH : TOPIC_HINTS_EDEBIYAT;
+}
+
 function normalizeTr(s) {
   return (s || '').toLowerCase()
     .replace(/ş/g, 's').replace(/ç/g, 'c').replace(/ğ/g, 'g')
@@ -47,7 +169,7 @@ function konuToSlug(konuText) {
   const lower = normalizeTr(konuText);
   // "TEKRAR" veya "deneme" sözcükleri varsa link verme (özet/sınav günleri)
   if (lower.includes('tekrar') || lower.includes('deneme')) return null;
-  for (const [key, slug] of TOPIC_HINTS) {
+  for (const [key, slug] of getTopicHints()) {
     const normKey = normalizeTr(key);
     if (lower.includes(normKey)) return slug;
   }

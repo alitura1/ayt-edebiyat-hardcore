@@ -2,6 +2,7 @@ import { Data, periodTheme, slugify, getDataSubject } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { tickStreak, streakInfo, currentBadge, nextBadge } from '../lib/streak.js';
 import { dailyHero, maskAuthorName } from '../lib/daily.js';
+import { dailyTarihHero, markDailyAnswered } from '../lib/daily-tarih.js';
 
 function escape(s) {
   return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
@@ -28,6 +29,7 @@ async function renderTarihHome() {
   const people = await Data.people();
   const treaties = await Data.treaties();
   const events = await Data.events();
+  const glossary = await Data.glossary();
   const allCards = [...cards, ...s.custom_kartlar];
 
   const totalCorrect = Object.values(s.progress).reduce((a,p) => a + p.dogru, 0);
@@ -38,6 +40,9 @@ async function renderTarihHome() {
   // En sıcak 3 dönem (soru sayısına göre)
   const hotPeriods = [...periods].sort((a, b) => (b.soru_sayisi || 0) - (a.soru_sayisi || 0)).slice(0, 6);
 
+  // Daily Tarih Hero — günlük kişi/antlaşma/olay tahmin oyunu
+  const hero = dailyTarihHero(people, treaties, events, glossary);
+
   // Streak
   const sk = streakInfo();
   const curBadge = currentBadge(sk.current);
@@ -45,7 +50,35 @@ async function renderTarihHome() {
   const streakColor = sk.status === 'active_today' ? 'text-ok-500' : sk.status === 'at_risk' ? 'text-warn-500' : sk.status === 'broken' ? 'text-slate-400' : 'text-slate-400';
 
   window.__pageSetup = () => {
-    // Tarih home için özel setup yok şimdilik
+    function bumpStreak() {
+      const sr = tickStreak();
+      if (sr.bumped) {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-amber-600 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
+        toast.textContent = `🔥 Streak ${sr.current} gün!`;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2500);
+      }
+    }
+    // Hero tahmin butonları
+    const opts = document.querySelectorAll('[data-hero-opt]');
+    let answered = false;
+    opts.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+        const isCorrect = btn.dataset.heroOpt === 'correct';
+        opts.forEach(b => {
+          b.disabled = true;
+          if (b.dataset.heroOpt === 'correct') b.classList.add('correct');
+          if (b === btn && !isCorrect) b.classList.add('wrong');
+        });
+        document.getElementById('heroGuess')?.classList.add('hidden');
+        document.getElementById('heroReveal')?.classList.remove('hidden');
+        if (hero?.entityId) markDailyAnswered(hero.entityId, isCorrect);
+        bumpStreak();
+      });
+    });
   };
 
   return `
@@ -59,28 +92,35 @@ async function renderTarihHome() {
     </section>
 
     <div class="grid lg:grid-cols-3 gap-4 mb-5 max-w-5xl mx-auto">
-      <!-- Sol: En sıcak dönemler -->
-      <div class="lg:col-span-2 bg-amber-50 dark:bg-amber-900/20 rounded-2xl border-2 border-amber-500/30 p-5">
-        <div class="flex items-center justify-between mb-3">
-          <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200">🔥 En Sıcak 6 Dönem</span>
-          <a href="#/konular" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold">Tüm Dönemler →</a>
-        </div>
-        <div class="grid sm:grid-cols-2 gap-2">
-          ${hotPeriods.map(p => `
-            <a href="#/konular/${p.slug}" class="block bg-white/85 dark:bg-slate-900/85 rounded-lg p-3 hover:shadow-md transition-all">
-              <div class="flex items-center justify-between mb-1">
-                <span class="font-bold text-sm" style="color:#B45309;">${escape(p.ad)}</span>
-                <span class="text-xs font-bold bg-amber-500/20 text-amber-800 dark:text-amber-200 px-2 py-0.5 rounded-full">${p.soru_sayisi}</span>
-              </div>
-              <div class="text-[10px] text-slate-500">${p.konu_sayisi} konu · ortalama ${p.ortalama}/yıl</div>
-            </a>
-          `).join('')}
-        </div>
+      <!-- Sol: Daily Tarih Hero (kişi/antlaşma/olay tahmin) -->
+      <div class="lg:col-span-2">
+        ${hero ? renderTarihHeroCard(hero) : `
+          <div class="bg-amber-50 dark:bg-amber-900/20 rounded-2xl border-2 border-amber-500/30 p-5 text-center text-slate-600 dark:text-slate-300">
+            Bugün için Daily Hero yüklenemedi. (Veri henüz tam dolu değil)
+          </div>
+        `}
 
-        <div class="mt-4 grid sm:grid-cols-3 gap-2">
-          <a href="#/tahminler" class="text-xs bg-amber-500 text-white px-3 py-2 rounded-md font-bold text-center hover:bg-amber-600">🔮 2026 Tahminleri</a>
-          <a href="#/program" class="text-xs bg-amber-700 text-white px-3 py-2 rounded-md font-bold text-center hover:bg-amber-800">📅 28 Günlük Program</a>
-          <a href="#/quiz/setup" class="text-xs bg-red-700 text-white px-3 py-2 rounded-md font-bold text-center hover:bg-red-800">🎯 Quiz Başlat</a>
+        <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 rounded-2xl border-2 border-amber-500/30 p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200">🔥 En Sıcak 6 Dönem</span>
+            <a href="#/konular" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold">Tüm Dönemler →</a>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-1.5">
+            ${hotPeriods.map(p => `
+              <a href="#/konular/${p.slug}" class="block bg-white/85 dark:bg-slate-900/85 rounded-md px-2 py-1.5 hover:shadow-md transition-all">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-xs" style="color:#B45309;">${escape(p.ad)}</span>
+                  <span class="text-xs font-bold bg-amber-500/20 text-amber-800 dark:text-amber-200 px-1.5 py-0.5 rounded-full">${p.soru_sayisi}</span>
+                </div>
+              </a>
+            `).join('')}
+          </div>
+
+          <div class="mt-3 grid sm:grid-cols-3 gap-1.5">
+            <a href="#/tahminler" class="text-xs bg-amber-500 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-amber-600">🔮 2026 Tahminleri</a>
+            <a href="#/program" class="text-xs bg-amber-700 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-amber-800">📅 Program</a>
+            <a href="#/quiz/setup" class="text-xs bg-red-700 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-red-800">🎯 Quiz</a>
+          </div>
         </div>
       </div>
 
@@ -464,6 +504,71 @@ async function renderEdebiyatHome() {
         <li>Her gün gir, Hızlı Atış'a bas, yanlışlar otomatik geri gelir. Futbol kartı toplar gibi.</li>
       </ul>
     </section>
+  `;
+}
+
+function renderTarihHeroCard(hero) {
+  if (!hero || !hero.choices) return '';
+  const mode = hero.mode;
+
+  // Mod-spesifik metinler ve veri
+  let modBadge, modQuestion, ipucu, hint, revealTitle, revealBody;
+  if (mode === 'kisi') {
+    modBadge = '★ TARİHÎ ŞAHSİYET';
+    modQuestion = '👤 Sence bu tanım kime ait?';
+    ipucu = hero.anekdot || '';
+    hint = `İpucu: <em>"${escape(ipucu)}"</em>`;
+    revealTitle = '✓ Doğru Kişi';
+    revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.name)}</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.donem || '')}</div>`;
+  } else if (mode === 'antlasma') {
+    modBadge = '★ TARİHÎ ANTLAŞMA';
+    modQuestion = '📜 Sence bu hangi antlaşma?';
+    ipucu = hero.ipucu || '';
+    hint = `İpucu (ana madde): <em>${escape(ipucu.slice(0, 220))}</em>`;
+    revealTitle = '✓ Doğru Antlaşma';
+    revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.isim)} (${hero.target.yil})</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.taraflar)}</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-2">📌 ${escape(hero.target.sonuc || '')}</div>`;
+  } else if (mode === 'olay') {
+    modBadge = '★ TARİHÎ SAVAŞ';
+    modQuestion = '⚔️ Sence bu hangi savaş/olay?';
+    ipucu = hero.sebep || '';
+    hint = `İpucu (sebep): <em>${escape(ipucu.slice(0, 220))}</em>`;
+    revealTitle = '✓ Doğru Olay';
+    revealBody = `<div class="text-lg font-bold" style="color:#B45309;">${escape(hero.target.isim)} (${hero.target.yil})</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-1">${escape(hero.target.taraflar)}</div>
+                  <div class="text-xs text-slate-600 dark:text-slate-300 mt-2">📌 Sonuç: ${escape(hero.target.sonuc || '')}</div>`;
+  }
+
+  return `
+    <div class="rounded-2xl overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/30 dark:to-orange-900/20 border-2 border-amber-500/40">
+      <div class="p-5">
+        <div class="flex items-center justify-between gap-2 mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200 opacity-90">${modBadge}</span>
+          <a href="#/" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold hover:bg-white">🔄 Yenile</a>
+        </div>
+
+        <p class="text-sm md:text-base text-slate-700 dark:text-slate-200 leading-relaxed mb-4">${hint}</p>
+
+        <div id="heroGuess" class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">${modQuestion}</div>
+          <div class="grid gap-1.5">
+            ${hero.choices.map(c => `
+              <button data-hero-opt="${c.isCorrect ? 'correct' : 'wrong'}" class="opt">
+                <span class="opt-letter">${c.id}</span>
+                <span class="flex-1 text-sm">${escape(c.name)}${c.yil ? ` <span class="text-xs text-slate-500">(${c.yil})</span>` : ''}</span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+
+        <div id="heroReveal" class="hidden mt-3 bg-ok-500/15 border border-ok-500/40 rounded-lg p-3">
+          <div class="text-[10px] font-bold uppercase text-amber-800 dark:text-amber-200 opacity-80 mb-1">${revealTitle}</div>
+          ${revealBody}
+        </div>
+      </div>
+    </div>
   `;
 }
 
