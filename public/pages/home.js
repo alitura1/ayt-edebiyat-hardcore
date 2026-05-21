@@ -1,4 +1,4 @@
-import { Data, periodTheme, slugify } from '../lib/data.js';
+import { Data, periodTheme, slugify, getDataSubject } from '../lib/data.js';
 import { loadState } from '../lib/store.js';
 import { tickStreak, streakInfo, currentBadge, nextBadge } from '../lib/streak.js';
 import { dailyHero, maskAuthorName } from '../lib/daily.js';
@@ -16,6 +16,139 @@ function shuffle(arr) {
 }
 
 export async function renderHome() {
+  const subject = getDataSubject();
+  if (subject === 'tarih') return renderTarihHome();
+  return renderEdebiyatHome();
+}
+
+async function renderTarihHome() {
+  const s = loadState();
+  const cards = await Data.cards();
+  const periods = await Data.periods();
+  const people = await Data.people();
+  const treaties = await Data.treaties();
+  const events = await Data.events();
+  const allCards = [...cards, ...s.custom_kartlar];
+
+  const totalCorrect = Object.values(s.progress).reduce((a,p) => a + p.dogru, 0);
+  const totalSolved = Object.values(s.progress).reduce((a,p) => a + p.cozuldu, 0);
+  const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
+  const errorCount = s.hata_defteri.length;
+
+  // En sıcak 3 dönem (soru sayısına göre)
+  const hotPeriods = [...periods].sort((a, b) => (b.soru_sayisi || 0) - (a.soru_sayisi || 0)).slice(0, 6);
+
+  // Streak
+  const sk = streakInfo();
+  const curBadge = currentBadge(sk.current);
+  const nxtBadge = nextBadge(sk.current);
+  const streakColor = sk.status === 'active_today' ? 'text-ok-500' : sk.status === 'at_risk' ? 'text-warn-500' : sk.status === 'broken' ? 'text-slate-400' : 'text-slate-400';
+
+  window.__pageSetup = () => {
+    // Tarih home için özel setup yok şimdilik
+  };
+
+  return `
+    <section class="text-center mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold mb-1" style="color:#B45309;">
+        AYT Tarih <span style="color:#991B1B;">Hardcore</span>
+      </h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm max-w-2xl mx-auto">
+        Tarihçi olma, tarihi yendin sayılır. 10 dönem · 671 kart · 8 yıllık ÖSYM analizi.
+      </p>
+    </section>
+
+    <div class="grid lg:grid-cols-3 gap-4 mb-5 max-w-5xl mx-auto">
+      <!-- Sol: En sıcak dönemler -->
+      <div class="lg:col-span-2 bg-amber-50 dark:bg-amber-900/20 rounded-2xl border-2 border-amber-500/30 p-5">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-200">🔥 En Sıcak 6 Dönem</span>
+          <a href="#/konular" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-amber-800 dark:text-amber-200 font-bold">Tüm Dönemler →</a>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-2">
+          ${hotPeriods.map(p => `
+            <a href="#/konular/${p.slug}" class="block bg-white/85 dark:bg-slate-900/85 rounded-lg p-3 hover:shadow-md transition-all">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-sm" style="color:#B45309;">${escape(p.ad)}</span>
+                <span class="text-xs font-bold bg-amber-500/20 text-amber-800 dark:text-amber-200 px-2 py-0.5 rounded-full">${p.soru_sayisi}</span>
+              </div>
+              <div class="text-[10px] text-slate-500">${p.konu_sayisi} konu · ortalama ${p.ortalama}/yıl</div>
+            </a>
+          `).join('')}
+        </div>
+
+        <div class="mt-4 grid sm:grid-cols-3 gap-2">
+          <a href="#/tahminler" class="text-xs bg-amber-500 text-white px-3 py-2 rounded-md font-bold text-center hover:bg-amber-600">🔮 2026 Tahminleri</a>
+          <a href="#/program" class="text-xs bg-amber-700 text-white px-3 py-2 rounded-md font-bold text-center hover:bg-amber-800">📅 28 Günlük Program</a>
+          <a href="#/quiz/setup" class="text-xs bg-red-700 text-white px-3 py-2 rounded-md font-bold text-center hover:bg-red-800">🎯 Quiz Başlat</a>
+        </div>
+      </div>
+
+      <!-- Sağ: Streak + Hızlı Atış -->
+      <div class="space-y-3">
+        <div class="bg-white dark:bg-slate-900 border-2 border-amber-500/30 rounded-2xl p-4 text-center">
+          <div class="text-xs uppercase tracking-wider text-slate-500 mb-1">🔥 Streak</div>
+          <div class="text-4xl font-bold ${streakColor} mb-1">${sk.current}</div>
+          <div class="text-xs text-slate-500 mb-2">${sk.current === 0 ? 'Henüz başlamadın' : sk.current === 1 ? '1 gün' : sk.current + ' gün üst üste'}</div>
+          ${curBadge ? `<div class="text-xs">${curBadge.emoji} <strong>${curBadge.label}</strong> rozeti</div>` : ''}
+          ${nxtBadge ? `<div class="text-[10px] text-slate-500 mt-1">Sonraki: ${nxtBadge.emoji} ${nxtBadge.label} (${nxtBadge.d - sk.current} gün)</div>` : ''}
+          <div class="text-[10px] text-slate-500 mt-1">En uzun: ${sk.longest || 0} gün</div>
+          ${sk.status === 'at_risk' ? `<div class="mt-2 text-xs text-warn-500 font-bold">⚠ Bugün soru çöz, kaybetme!</div>` : ''}
+        </div>
+
+        <a href="#/atis" class="block bg-gradient-to-br from-amber-500 to-red-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all">
+          <div class="text-4xl mb-1">⚡</div>
+          <div class="text-lg font-bold">HIZLI ATIŞ</div>
+          <div class="text-xs opacity-90 mt-1">Bas, soru gelsin — sonsuz mod</div>
+          ${s.atis?.best_run > 0 ? `<div class="text-xs mt-2 bg-white/20 inline-block px-2 py-0.5 rounded">Best: ${s.atis.best_run} 🔥</div>` : ''}
+        </a>
+      </div>
+    </div>
+
+    ${totalSolved > 0 ? `
+    <section class="grid grid-cols-3 gap-3 mb-5 max-w-3xl mx-auto">
+      <div class="bg-amber-50 dark:bg-amber-900/40 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold" style="color:#B45309;">${totalSolved}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Çözülen</div>
+      </div>
+      <div class="bg-ok-500/10 dark:bg-ok-500/20 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-ok-500">%${accuracy}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Doğruluk</div>
+      </div>
+      <div class="bg-red-500/10 dark:bg-red-500/20 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-red-700 dark:text-red-300">${errorCount}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Hata defteri</div>
+      </div>
+    </section>
+    ` : ''}
+
+    <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 max-w-6xl mx-auto">
+      ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
+      ${shortcut('konular', '⏳', `${periods.length} Dönem`, 'Öğretim + ezber', 'primary')}
+      ${shortcut('yazarlar', '👤', `${people.length} Kişi`, 'Padişah, lider', 'primary')}
+      ${shortcut('eserler', '⚔️', 'Olaylar', `${events.length} savaş`, 'primary')}
+      ${shortcut('gruplar', '🏛️', 'Hanedanlar', 'Osmanlı, Selçuklu...', 'primary')}
+      ${shortcut('koleksiyon', '🎴', 'Koleksiyon', 'Kaç tanıdın?', 'accent')}
+      ${shortcut('tahminler', '🔮', 'Tahminler', '2026 boşluk', 'primary')}
+      ${shortcut('program', '📅', 'Program', '4 haftalık', 'accent')}
+      ${shortcut('sozluk', '📓', 'Sözlük', `${treaties.length} antlaşma`, 'primary')}
+      ${shortcut('kartlar', '🃏', 'Kartlar', `${allCards.length} kart`, 'primary')}
+      ${shortcut('istatistik', '📊', 'İstatistik', 'İlerleme grafiği', 'primary')}
+      ${shortcut('ayarlar', '⚙️', 'Ayarlar', 'Tema, sıfırla', 'primary')}
+    </section>
+
+    <section class="mt-8 max-w-3xl mx-auto bg-amber-500/10 border border-amber-500/30 rounded-lg p-4">
+      <h3 class="font-bold mb-2 flex items-center gap-2 text-sm"><span>💡</span> Stratejin</h3>
+      <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1 list-disc list-inside">
+        <li><strong>Millî Mücadele</strong> + <strong>İslam Öncesi Türk</strong> 8 yılın hepsinde 2+ soru. Her gün bu iki dönemi tekrar et.</li>
+        <li><strong>Osmanlı Yükseliş</strong> (Yavuz/Kanuni) 2018-25 sadece 4 soru — 2026 sürpriz adayı. Boşluğu kapat.</li>
+        <li>671 kart × günlük 30-40 = 3 haftada tüm konu tamam. Hızlı Atış'ı her gün aç.</li>
+      </ul>
+    </section>
+  `;
+}
+
+async function renderEdebiyatHome() {
   const s = loadState();
   const authors = await Data.authors();
   const cards = await Data.cards();

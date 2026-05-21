@@ -1,6 +1,10 @@
-// localStorage state yönetimi
-const KEY = 'edebiyat-state-v1';
+// localStorage state yönetimi — REV20: HİBRİT (Edebiyat + Tarih)
+const LEGACY_KEY = 'edebiyat-state-v1';
+const SUBJECT_PREF_KEY = 'subject-preference';
+const MIGRATION_FLAG = 'migrated-v2';
 const DAY_MS = 86400000;
+
+const VALID_SUBJECTS = ['edebiyat', 'tarih'];
 
 const DEFAULT_STATE = {
   version: 2,
@@ -19,19 +23,127 @@ const DEFAULT_STATE = {
     history: [],              // son 60 gün
   },
   atis: { best_run: 0 },  // Hızlı Atış üst üste max doğru
-  daily_hero: { seen: {} }, // "YYYY-MM-DD" -> { authorSlug, miniQuizCardId, answered }
+  daily_hero: { seen: {} }, // "YYYY-MM-DD" -> { entityId, miniQuizCardId, answered, mode }
 };
 
 let cache = null;
+let _currentSubject = null;
+
+// ============ SUBJECT MANAGEMENT (REV20) ============
+
+function getStorageKey(subject) {
+  // Subject yoksa null döner → loadState legacy fallback'a düşer
+  if (!subject) return null;
+  return `state-v2-${subject}`;
+}
+
+export function setCurrentSubject(subject) {
+  if (!VALID_SUBJECTS.includes(subject)) {
+    throw new Error('Geçersiz ders: ' + subject);
+  }
+  _currentSubject = subject;
+  cache = null;  // Cache reset — yeni subject'in state'ini yükler
+}
+
+export function getCurrentSubject() {
+  return _currentSubject;
+}
+
+export function loadSubjectPreference() {
+  try {
+    const saved = localStorage.getItem(SUBJECT_PREF_KEY);
+    if (saved && VALID_SUBJECTS.includes(saved)) {
+      _currentSubject = saved;
+      return saved;
+    }
+  } catch (e) { /* localStorage erişimi engellendi */ }
+  return null;
+}
+
+export function saveSubjectPreference(subject) {
+  if (!VALID_SUBJECTS.includes(subject)) return false;
+  try {
+    localStorage.setItem(SUBJECT_PREF_KEY, subject);
+    setCurrentSubject(subject);
+    return true;
+  } catch (e) {
+    console.error('Subject preference save failed:', e);
+    return false;
+  }
+}
+
+// ============ MIGRATION (REV20) ============
+
+export function migrateOldData(targetSubject = 'edebiyat') {
+  // Eski edebiyat-state-v1 anahtarı varsa state-v2-edebiyat'a kopyala
+  // Hedef key zaten varsa merge yap (en yeni timestamp wins)
+  try {
+    const oldRaw = localStorage.getItem(LEGACY_KEY);
+    if (!oldRaw) return false;  // Eski veri yok
+
+    const oldData = JSON.parse(oldRaw);
+    const newKey = getStorageKey(targetSubject);
+    if (!newKey) return false;
+
+    const existingRaw = localStorage.getItem(newKey);
+    let merged = oldData;
+
+    if (existingRaw) {
+      // Çakışma — basit merge (mevcut + eski'den eksikleri ekle)
+      const existing = JSON.parse(existingRaw);
+      merged = { ...DEFAULT_STATE, ...existing };
+      // progress merge (en yeni son timestamp wins)
+      for (const id in (oldData.progress || {})) {
+        if (!merged.progress[id] ||
+            (oldData.progress[id].son || 0) > (merged.progress[id].son || 0)) {
+          merged.progress[id] = oldData.progress[id];
+        }
+      }
+      // hata_defteri union
+      const hd = new Set([...(merged.hata_defteri || []), ...(oldData.hata_defteri || [])]);
+      merged.hata_defteri = Array.from(hd);
+      // custom_kartlar union by id
+      const ckMap = new Map();
+      for (const c of (merged.custom_kartlar || [])) ckMap.set(c.id, c);
+      for (const c of (oldData.custom_kartlar || [])) {
+        if (!ckMap.has(c.id)) ckMap.set(c.id, c);
+      }
+      merged.custom_kartlar = Array.from(ckMap.values());
+    }
+
+    localStorage.setItem(newKey, JSON.stringify(merged));
+    localStorage.setItem(MIGRATION_FLAG, 'true');
+    // Eski key'i hemen silme — 1 sürüm boyunca yedek tut
+    console.log(`[migration] ${LEGACY_KEY} → ${newKey} OK`);
+    return true;
+  } catch (e) {
+    console.error('[migration] failed:', e);
+    return false;
+  }
+}
+
+// ============ STATE LOAD/SAVE ============
 
 export function loadState() {
   if (cache) return cache;
   try {
-    const raw = localStorage.getItem(KEY);
-    if (raw) {
-      cache = { ...DEFAULT_STATE, ...JSON.parse(raw) };
+    if (!_currentSubject) {
+      // Subject seçilmemiş — legacy fallback (gate öncesi durumlar için)
+      const legacyRaw = localStorage.getItem(LEGACY_KEY);
+      if (legacyRaw) {
+        cache = { ...DEFAULT_STATE, ...JSON.parse(legacyRaw) };
+      } else {
+        cache = structuredClone(DEFAULT_STATE);
+      }
     } else {
-      cache = structuredClone(DEFAULT_STATE);
+      // Subject set — SADECE o subject'in key'inden oku, izolasyonu koru
+      const key = getStorageKey(_currentSubject);
+      const raw = localStorage.getItem(key);
+      if (raw) {
+        cache = { ...DEFAULT_STATE, ...JSON.parse(raw) };
+      } else {
+        cache = structuredClone(DEFAULT_STATE);
+      }
     }
   } catch (e) {
     console.warn('State load failed:', e);
@@ -43,7 +155,9 @@ export function loadState() {
 export function saveState(state) {
   cache = state;
   try {
-    localStorage.setItem(KEY, JSON.stringify(state));
+    let key = getStorageKey(_currentSubject);
+    if (!key) key = LEGACY_KEY;  // Subject set edilmemişse legacy'e yaz
+    localStorage.setItem(key, JSON.stringify(state));
   } catch (e) {
     console.error('State save failed:', e);
   }
@@ -54,6 +168,8 @@ export function saveState(state) {
     }
   } catch(e) { /* ignore */ }
 }
+
+// ============ EXISTING API (unchanged behavior) ============
 
 export function updateProgress(cardId, isCorrect) {
   const s = loadState();
@@ -160,18 +276,25 @@ export function importAll(jsonStr) {
 }
 
 export function resetAll() {
-  if (confirm('TÜM ilerleme, hata defteri ve manuel kartlar silinecek. Emin misin?')) {
-    localStorage.removeItem(KEY);
+  const subj = _currentSubject || 'edebiyat';
+  if (confirm(`${subj.toUpperCase()} dersine ait TÜM ilerleme, hata defteri ve manuel kartlar silinecek. Emin misin?`)) {
+    const key = getStorageKey(_currentSubject) || LEGACY_KEY;
+    localStorage.removeItem(key);
     cache = null;
     location.reload();
   }
 }
 
-// Quiz oturumu için geçici storage (sessionStorage)
+// Quiz oturumu için geçici storage (sessionStorage) — subject-aware
+function sessionKey(key) {
+  const subj = _currentSubject || 'edebiyat';
+  return `${subj}-session-${key}`;
+}
+
 export function setSessionState(key, val) {
-  sessionStorage.setItem('edebiyat-session-' + key, JSON.stringify(val));
+  sessionStorage.setItem(sessionKey(key), JSON.stringify(val));
 }
 export function getSessionState(key) {
-  const v = sessionStorage.getItem('edebiyat-session-' + key);
+  const v = sessionStorage.getItem(sessionKey(key));
   return v ? JSON.parse(v) : null;
 }

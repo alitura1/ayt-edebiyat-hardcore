@@ -1,0 +1,326 @@
+[
+  {
+    "yil": 1071,
+    "isim": "MALAZGİRT",
+    "slug": "malazgi-rt-1071",
+    "tur": "savas",
+    "taraflar": "Alp Arslan vs Romen Diyojen (Bizans)",
+    "sebep": "Bizans'ın Doğu Anadolu'ya akınları + Türkmen göçleri",
+    "sonuc": "ANADOLU'NUN KAPISI AÇILDI"
+  },
+  {
+    "yil": 1176,
+    "isim": "Myriokephalon",
+    "slug": "myriokephalon-1176",
+    "tur": "savas",
+    "taraflar": "II. Kılıç Arslan vs Bizans",
+    "sebep": "Bizans Türkiye Selçuklu'ya saldırdı",
+    "sonuc": "Türk hâkimiyeti kesinleşti"
+  },
+  {
+    "yil": 1243,
+    "isim": "Kösedağ",
+    "slug": "kosedag-1243",
+    "tur": "savas",
+    "taraflar": "Türkiye Selçuklu vs Moğol (Baycu Noyan)",
+    "sebep": "Moğol istilası",
+    "sonuc": "Türkiye Selçuklu çöktü, beylikler dönemi"
+  },
+  {
+    "yil": 1389,
+    "isim": "I. KOSOVA",
+    "slug": "i-kosova-1389",
+    "tur": "savas",
+    "taraflar": "I. Murat vs Sırp Birliği (Lazar)",
+    "sebep": "Balkan ittifakı",
+    "sonuc": "Murat şehit, Yıldırım taht — Balkan tam Osmanlı"
+  },
+  {
+    "yil": 1396,
+    "isim": "Niğbolu",
+    "slug": "nigbolu-1396",
+    "tur": "savas",
+    "taraflar": "Yıldırım Bayezid vs Sigismund-Macar-Haçlı",
+    "sebep": "Bizans için Avrupa yardımı",
+    "sonuc": "Haçlı yenildi, Yıldırım popüler"
+  },
+  {
+    "yil": 1402,
+    "isim": "Ankara",
+    "slug": "ankara-1402",
+    "tur": "savas",
+    "taraflar": "Yıldırım Bayezid vs Timur",
+    "sebep": "Anadolu beylikleri Timur'a sığındı",
+    "sonuc": "Yıldırım esir, Fetret Devri"
+  },
+  {
+    "yil": 1444,
+    "isim": "Varna",
+    "slug": "varna-1444",
+    "tur": "savas",
+    "taraflar": "II. Murat vs Janos Hunyadi",
+    "sebep": "Macar-Haçlı saldırısı (Edirne-Segedin sonrası)",
+    "sonuc": "II. Murat zaferi, Osmanlı toparlandı"
+  },
+  {
+    "yil": 1448,
+    "isim": "II. Kosova",
+    "slug": "ii-kosova-1448",
+    "tur": "savas",
+    "taraflar": "II. Murat vs Hunyadi",
+    "sebep": "Macar revanşı",
+    "sonuc": "Kesin zafer"
+  },
+  {
+    "yil": 1453,
+    "isim": "İstanbul Fethi",
+    "slug": "i-stanbul-fethi-1453",
+    "tur": "savas",
+    "taraflar": "Fatih vs Bizans (XI. Konstantin)",
+    "sebep": "Bizans direnişi, Boğaz kontrolü",
+    "sonuc": "YENİÇAĞ başlangıcı, Roma İmparatorluğu sonu"
+  },
+  {
+    "yil": 1473,
+    "isim": "Otlukbeli",
+    "slug": "otlukbeli-1473",
+    "tur": "savas",
+    "taraflar": "Fatih vs Uzun Hasan (Akkoyunlu)",
+    "sebep": "Akkoyunlu doğu tehdidi",
+    "sonuc": "Akkoyunlu yıkıldı"
+  },
+  {
+    "yil": 1514,
+    "isim": "ÇALDIRAN",
+    "slug": "caldiran-1514",
+    "tur": "savas",
+    "taraflar": "Yavuz vs Şah İsmail (Safevi)",
+    "sebep": "Şahkulu propagandası, Şia tehdidi",
+    "sonuc": "Doğu Anadolu Osmanlı'ya"
+  },
+  {
+    "yil": 1516,
+    "isim": "Mercidabık",
+    "slug": "mercidabik-1516",
+    "tur": "savas",
+    "taraflar": "Yavuz vs Kansu Gavri (Memluk)",
+    "sebep": "Safevi-Memluk ittifak söylentisi",
+    "sonuc": "Suriye-Filistin Osmanlı'ya"
+  },
+  {
+    "yil": 1517,
+    "isim": "Ridaniye",
+    "slug": "ridaniye-1517",
+    "tur": "savas",
+    "taraflar": "Yavuz vs Tomanbay (Memluk)",
+    "sebep": "Memluk varlığı sürüyor",
+    "sonuc": "MISIR FETHEDİLDİ + HİLAFET Osmanlı'ya"
+  },
+  {
+    "yil": 1521,
+    "isim": "Belgrat Fethi",
+    "slug": "belgrat-fethi-1521",
+    "tur": "savas",
+    "taraflar": "Kanuni vs Macar",
+    "sebep": "Macar engelini kaldırma",
+    "sonuc": "Avrupa'ya yol açıldı"
+  },
+  {
+    "yil": 1526,
+    "isim": "MOHAÇ",
+    "slug": "mohac-1526",
+    "tur": "savas",
+    "taraflar": "Kanuni vs II. Lajos (Macar)",
+    "sebep": "Habsburg-Macar ittifakı",
+    "sonuc": "Macar Krallığı bitti, kuzey Macaristan Habsburg'a, güney Osmanlı'ya"
+  },
+  {
+    "yil": 1529,
+    "isim": "I. Viyana Kuşatması",
+    "slug": "i-viyana-kusatmasi-1529",
+    "tur": "savas",
+    "taraflar": "Kanuni vs Şarlken+Habsburg",
+    "sebep": "Habsburg baskısı",
+    "sonuc": "Başarısız ama Habsburg'a baskı"
+  },
+  {
+    "yil": 1538,
+    "isim": "Preveze",
+    "slug": "preveze-1538",
+    "tur": "savas",
+    "taraflar": "Barbaros vs Doria (Haçlı donanması)",
+    "sebep": "Akdeniz hâkimiyeti",
+    "sonuc": "Akdeniz Osmanlı gölü"
+  },
+  {
+    "yil": 1565,
+    "isim": "Malta Kuşatması",
+    "slug": "malta-kusatmasi-1565",
+    "tur": "savas",
+    "taraflar": "Osmanlı vs St. Jean Şövalyeleri",
+    "sebep": "Akdeniz korsanları",
+    "sonuc": "Başarısız"
+  },
+  {
+    "yil": 1571,
+    "isim": "İNEBAHTI",
+    "slug": "i-nebahti-1571",
+    "tur": "savas",
+    "taraflar": "Müezzinzade Ali Paşa vs Don Juan (Haçlı)",
+    "sebep": "Kıbrıs Fethi'ne tepki",
+    "sonuc": "Osmanlı donanması yok, hızla yeniden inşa"
+  },
+  {
+    "yil": 1571,
+    "isim": "Kıbrıs Fethi",
+    "slug": "kibris-fethi-1571",
+    "tur": "savas",
+    "taraflar": "Lala Mustafa Paşa vs Venedik",
+    "sebep": "Akdeniz korsanlarını engelleme",
+    "sonuc": "Kıbrıs Osmanlı'ya"
+  },
+  {
+    "yil": 1683,
+    "isim": "II. Viyana Kuşatması",
+    "slug": "ii-viyana-kusatmasi-1683",
+    "tur": "savas",
+    "taraflar": "Merzifonlu Kara Mustafa vs Avusturya+Polonya",
+    "sebep": "Habsburg'a son saldırı",
+    "sonuc": "Polonya'lı Sobieski kurtardı → Kutsal İttifak savaşları"
+  },
+  {
+    "yil": 1697,
+    "isim": "Zenta",
+    "slug": "zenta-1697",
+    "tur": "savas",
+    "taraflar": "II. Mustafa vs Eugen",
+    "sebep": "Macaristan geri alma çabası",
+    "sonuc": "Yenilgi → Karlofça yolu"
+  },
+  {
+    "yil": 1768,
+    "isim": "Çeşme Baskını",
+    "slug": "cesme-baskini-1768",
+    "tur": "savas",
+    "taraflar": "Rus donanması vs Osmanlı",
+    "sebep": "Rus genişlemesi",
+    "sonuc": "Donanma yakıldı"
+  },
+  {
+    "yil": 1853,
+    "isim": "Sinop Baskını",
+    "slug": "sinop-baskini-1853",
+    "tur": "savas",
+    "taraflar": "Rus donanması vs Osmanlı",
+    "sebep": "Kırım Savaşı başlangıcı",
+    "sonuc": "İngiltere-Fransa Osmanlı yanında savaşa"
+  },
+  {
+    "yil": 1853,
+    "isim": "KIRIM SAVAŞI",
+    "slug": "kirim-savasi-1853",
+    "tur": "savas",
+    "taraflar": "Osmanlı+İngiltere+Fransa+Sardunya vs Rusya",
+    "sebep": "Kutsal Yerler sorunu",
+    "sonuc": "Rus yenildi, Islahat Fermanı"
+  },
+  {
+    "yil": 1877,
+    "isim": "93 Harbi (Osmanlı-Rus)",
+    "slug": "93-harbi-osmanli-rus-1877",
+    "tur": "savas",
+    "taraflar": "Osmanlı vs Rusya",
+    "sebep": "Balkan halklarını kurtarma bahanesi",
+    "sonuc": "Yenilgi, Ayastefanos → Berlin"
+  },
+  {
+    "yil": 1911,
+    "isim": "Trablusgarp",
+    "slug": "trablusgarp-1911",
+    "tur": "savas",
+    "taraflar": "Osmanlı vs İtalya",
+    "sebep": "İtalyan emperyalizmi",
+    "sonuc": "Trablusgarp İtalya'ya (Uşi 1912)"
+  },
+  {
+    "yil": 1912,
+    "isim": "I. Balkan",
+    "slug": "i-balkan-1912",
+    "tur": "savas",
+    "taraflar": "Osmanlı vs Bulgaristan-Sırbistan-Karadağ-Yunanistan",
+    "sebep": "Balkan ittifakı",
+    "sonuc": "Edirne ve Selanik kaybedildi"
+  },
+  {
+    "yil": 1913,
+    "isim": "II. Balkan",
+    "slug": "ii-balkan-1913",
+    "tur": "savas",
+    "taraflar": "Bulgaristan vs diğerleri + Osmanlı",
+    "sebep": "Bulgar açgözlülüğü",
+    "sonuc": "Edirne geri alındı"
+  },
+  {
+    "yil": 1914,
+    "isim": "Sarayevo",
+    "slug": "sarayevo-1914",
+    "tur": "savas",
+    "taraflar": "—",
+    "sebep": "Avusturya arşidükünün öldürülmesi",
+    "sonuc": "I. Dünya Savaşı başladı"
+  },
+  {
+    "yil": 1914,
+    "isim": "Sarıkamış",
+    "slug": "sarikamis-1914",
+    "tur": "savas",
+    "taraflar": "Enver Paşa vs Rus (Kafkas)",
+    "sebep": "Stratejik hata, kış",
+    "sonuc": "90 bin Türk askeri öldü"
+  },
+  {
+    "yil": 1915,
+    "isim": "Çanakkale Deniz",
+    "slug": "canakkale-deniz-1915",
+    "tur": "savas",
+    "taraflar": "Müttefik donanma vs Osmanlı (18 Mart)",
+    "sebep": "Boğazları zorla geçme",
+    "sonuc": "Müttefik vazgeçti → kara çıkarması"
+  },
+  {
+    "yil": 1915,
+    "isim": "Çanakkale Kara",
+    "slug": "canakkale-kara-1915",
+    "tur": "savas",
+    "taraflar": "Müttefik kara vs Osmanlı (Anafartalar — Mustafa Kemal)",
+    "sebep": "Boğazları kara yoluyla alma",
+    "sonuc": "Müttefik 250 bin kayıp, Osmanlı zaferi"
+  },
+  {
+    "yil": 1916,
+    "isim": "Kut'ul Amare",
+    "slug": "kut-ul-amare-1916",
+    "tur": "savas",
+    "taraflar": "Halil Paşa vs İngiliz General Townshend",
+    "sebep": "Bağdat'a yürüme",
+    "sonuc": "İngiliz 13 bin asker esir"
+  },
+  {
+    "yil": 1921,
+    "isim": "Sakarya",
+    "slug": "sakarya-1921",
+    "tur": "savas",
+    "taraflar": "M. Kemal vs Yunan",
+    "sebep": "Yunan ileri harekât",
+    "sonuc": "Tedafü zaferi, M. Kemal gazi-mareşal"
+  },
+  {
+    "yil": 1922,
+    "isim": "Dumlupınar (Başkomutan Meydan)",
+    "slug": "dumlupinar-baskomutan-meydan-1922",
+    "tur": "savas",
+    "taraflar": "M. Kemal vs Yunan",
+    "sebep": "Büyük Taarruz",
+    "sonuc": "Kesin zafer, İzmir kurtarıldı"
+  }
+]

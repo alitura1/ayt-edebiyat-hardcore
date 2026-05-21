@@ -1,0 +1,228 @@
+{
+  "haftalar": [
+    {
+      "hafta_no": 1,
+      "baslik": "HAFTA 1 — SICAK ALANLAR (İslam Öncesi Türk + Millî Mücadele Hazırlık)",
+      "vurgu": "🔥 En çok soru gelen iki dönem. 8 yılda 33 soru — toplam %42 oran.",
+      "gunler": [
+        {
+          "gun": "Pazartesi",
+          "konu": "İslam Öncesi Türk Tarihi — İlk Çağ Medeniyet Havzaları",
+          "pdf": "Sayfa 13-25",
+          "kart": "40 kart (Sümer, Mısır, Hitit, Frig, Lidya, İyon, Urartu)",
+          "check": "Anadolu uygarlıkları kıyaslama tablosu"
+        },
+        {
+          "gun": "Salı",
+          "konu": "İslam Öncesi Türk Tarihi — Hunlar, Göktürkler",
+          "pdf": "Sayfa 26-45",
+          "kart": "35 kart (Mete, Atilla, Bumin, Mukan, Tapo, Bilge Kağan)",
+          "check": "Egemenlik sembolleri ezber kontrolü"
+        },
+        {
+          "gun": "Çarşamba",
+          "konu": "İslam Öncesi Türk Tarihi — Uygurlar + Diğer Türk Topluluklar",
+          "pdf": "Sayfa 46-58",
+          "kart": "30 kart (Bögü Kağan, Uygur alfabesi, Türgişler, Hazarlar, Bulgarlar)",
+          "check": "İlk Türk devletleri tablosu"
+        },
+        {
+          "gun": "Perşembe",
+          "konu": "Millî Mücadele — Samsun → Sivas Kongresi",
+          "pdf": "Sayfa 175-185",
+          "kart": "40 kart (19 Mayıs, Havza, Amasya, Erzurum, Sivas, Misak-ı Milli)",
+          "check": "Genelge-kongre fark testi"
+        },
+        {
+          "gun": "Cuma",
+          "konu": "Millî Mücadele — TBMM + Sevr + Doğu/Güney Cephesi",
+          "pdf": "Sayfa 186-195",
+          "kart": "35 kart (TBMM açılışı, Gümrü, Moskova, Antep direnişi)",
+          "check": "Doğu+Güney cephesi liderler eşleme"
+        },
+        {
+          "gun": "Cumartesi",
+          "konu": "Millî Mücadele — Batı Cephesi (I-II. İnönü → Sakarya → Dumlupınar)",
+          "pdf": "Sayfa 196-210",
+          "kart": "50 kart (İnönü, Sakarya, Tekalif, Büyük Taarruz, Dumlupınar)",
+          "check": "Tüm Millî Mücadele zaman çizelgesi çıkar"
+        },
+        {
+          "gun": "Pazar",
+          "konu": "HAFTA TEKRARI + 20 SORULUK DENEME",
+          "pdf": "Sayfa 13-58 + 175-210 hızlı geçiş",
+          "kart": "Yanlış yapılan kartların tekrarı",
+          "check": "Sakarya öncesi-sonrası olaylar tablosu"
+        }
+      ]
+    },
+    {
+      "hafta_no": 2,
+      "baslik": "HAFTA 2 — ORTA SICAK (İslam Tarihi + Osmanlı Dağılma + Atatürk Dönemi)",
+      "vurgu": "💪 17 soru — toplam %22. Atatürk İlkeleri 6 yıl boş, 2026 sıcak.",
+      "gunler": [
+        {
+          "gun": "Pazartesi",
+          "konu": "İslam Tarihi — Hz. Muhammed + 4 Halife",
+          "pdf": "Sayfa 62-72",
+          "kart": "40 kart (610-622-632, Bedir/Uhud/Hendek, 4 halife icraat)",
+          "check": "Hicret-Mekke fethi-veda haccı tarihler"
+        },
+        {
+          "gun": "Salı",
+          "konu": "İslam Tarihi — Emevi + Abbasi + Türk İlişkisi",
+          "pdf": "Sayfa 73-82",
+          "kart": "30 kart (Muaviye, Kerbela, Tarık bin Ziyad, Talas, Mutasım)",
+          "check": "Emevi-Abbasi farkları tablosu"
+        },
+        {
+          "gun": "Çarşamba",
+          "konu": "Osmanlı Dağılma — Trablusgarp + Balkan Savaşları + İttihat Terakki",
+          "pdf": "Sayfa 155-165",
+          "kart": "30 kart (1908-1913 olaylar)",
+          "check": "Balkan I-II ayrım testi"
+        },
+        {
+          "gun": "Perşembe",
+          "konu": "Osmanlı Dağılma — I. Dünya Savaşı + Cepheler",
+          "pdf": "Sayfa 166-174",
+          "kart": "45 kart (Goeben-Breslau, Sarıkamış, Çanakkale, Kut'ul Amare, Arap İsyanı, Mondros)",
+          "check": "9 cephe ZAFER-YENİLGİ tablosu"
+        },
+        {
+          "gun": "Cuma",
+          "konu": "Atatürk Dönemi — Siyasi İnkılaplar (1922-1925)",
+          "pdf": "Sayfa 215-225",
+          "kart": "35 kart (Saltanat-Hilafet, Cumhuriyet ilanı, 3 Mart 1924 dörtlü)",
+          "check": "1924 4 kanun ezbere yaz"
+        },
+        {
+          "gun": "Cumartesi",
+          "konu": "Atatürk Dönemi — Toplumsal-Hukuki-Ekonomik İnkılaplar",
+          "pdf": "Sayfa 226-240",
+          "kart": "45 kart (Şapka, Tekke, Medeni Kanun, Latin Alfabesi, Soyadı, Kabotaj, Aşar)",
+          "check": "Reform tarih sıralama testi"
+        },
+        {
+          "gun": "Pazar",
+          "konu": "HAFTA TEKRARI + 20 SORULUK DENEME",
+          "pdf": "Sayfa 62-82 + 155-174 + 215-240",
+          "kart": "Yanlış kartların tekrarı",
+          "check": "Atatürk İlkeleri + söz-ilke eşleme testi"
+        }
+      ]
+    },
+    {
+      "hafta_no": 3,
+      "baslik": "HAFTA 3 — BOŞLUK ALANLARI (Osmanlı Yükseliş + Türk-İslam + Osmanlı Kuruluş)",
+      "vurgu": "🎯 16 soru ama 8 yılda 0 doğrudan Yavuz-Kanuni sorusu! Bu hafta KESİN sürpriz hazırlığı.",
+      "gunler": [
+        {
+          "gun": "Pazartesi",
+          "konu": "Türk-İslam — Karahanlı + Gazneli + Büyük Selçuklu",
+          "pdf": "Sayfa 83-95",
+          "kart": "35 kart (Saltuk Buğra, Gazneli Mahmut, Tuğrul-Alp Arslan-Melikşah, Nizamülmülk)",
+          "check": "Selçuklu kronolojisi: Dandanakan-Malazgirt-Katvan"
+        },
+        {
+          "gun": "Salı",
+          "konu": "Türk-İslam — Türkiye Selçuklu + Beylikler + Haçlı Seferleri",
+          "pdf": "Sayfa 96-110",
+          "kart": "30 kart (Süleyman Şah, II. Kılıç Arslan, I. Alâeddin Keykubat, Kösedağ, Karamanoğlu, Karesi)",
+          "check": "4 Haçlı Seferi sonuçları ezber"
+        },
+        {
+          "gun": "Çarşamba",
+          "konu": "Osmanlı Kuruluş — Osman → I. Murat (1299-1389)",
+          "pdf": "Sayfa 111-122",
+          "kart": "30 kart (Söğüt, Bursa, Karesi, Çimpe, Edirne, Yeniçeri, Tımar, I. Kosova)",
+          "check": "Tımar Sistemi detayları"
+        },
+        {
+          "gun": "Perşembe",
+          "konu": "Osmanlı Kuruluş — Yıldırım → Fatih (1389-1453)",
+          "pdf": "Sayfa 123-130",
+          "kart": "30 kart (Niğbolu, Ankara Savaşı, Fetret, Çelebi, II. Murat, Varna, II. Kosova)",
+          "check": "Fetret devri 4 çelebi liste"
+        },
+        {
+          "gun": "Cuma",
+          "konu": "Osmanlı Yükseliş — Fatih + II. Bayezid + YAVUZ (KRİTİK!)",
+          "pdf": "Sayfa 131-142",
+          "kart": "40 kart (İstanbul Fethi, Trabzon, Otlukbeli, Cem Sultan, Çaldıran, Mercidabık, Ridaniye, HİLAFET)",
+          "check": "Yavuz dönemi 3 büyük savaş + hilafet sırası"
+        },
+        {
+          "gun": "Cumartesi",
+          "konu": "Osmanlı Yükseliş — KANUNİ + II. Selim + III. Murat (KRİTİK!)",
+          "pdf": "Sayfa 143-154",
+          "kart": "45 kart (Belgrat, Rodos, Mohaç, Viyana, Bağdat, Kapitülasyon, Preveze, Zigetvar, Kıbrıs, İnebahti, Sokullu, Mimar Sinan)",
+          "check": "Kanuni dönemi yıl-olay-yer üçlü ezber"
+        },
+        {
+          "gun": "Pazar",
+          "konu": "HAFTA TEKRARI + 20 SORULUK DENEME (Yavuz-Kanuni odaklı)",
+          "pdf": "Sayfa 131-154 hızlı geçiş",
+          "kart": "Yanlış kartların tekrarı",
+          "check": "İstanbul Fethi sonuçları + Kanuni dış politika tablosu"
+        }
+      ]
+    },
+    {
+      "hafta_no": 4,
+      "baslik": "HAFTA 4 — DURAKLAMA-MODERNLEŞME + ÇAĞDAŞ + TAM DENEME",
+      "vurgu": "📚 Kalan boşlukları kapat, kapsamlı tekrar, son haftada 3 tam deneme.",
+      "gunler": [
+        {
+          "gun": "Pazartesi",
+          "konu": "Osmanlı Duraklama-Gerileme — Köprülüler + Karlofça + Pasarofça",
+          "pdf": "Sayfa 113-125 (duraklama bölümü)",
+          "kart": "30 kart (IV. Murat, Köprülüler, II. Viyana, Karlofça-Pasarofça-Belgrat-Küçük Kaynarca)",
+          "check": "Karlofça maddeleri ezber"
+        },
+        {
+          "gun": "Salı",
+          "konu": "Modernleşme — Lale Devri + III. Selim + II. Mahmut + Tanzimat",
+          "pdf": "Sayfa 126-145",
+          "kart": "35 kart (Lale Devri, Matbaa, Nizam-ı Cedid, Vaka-i Hayriye, Sened-i İttifak, Tanzimat, Islahat)",
+          "check": "Modernleşme reformları tarih tablosu"
+        },
+        {
+          "gun": "Çarşamba",
+          "konu": "Meşrutiyet + Balta Limanı + 31 Mart + II. Abdülhamid",
+          "pdf": "Sayfa 146-160",
+          "kart": "25 kart (I. Meşrutiyet, Kanunuesasi, Mithat Paşa, Balta Limanı, 31 Mart, II. Abdülhamid)",
+          "check": "I-II. Meşrutiyet kıyaslama tablosu"
+        },
+        {
+          "gun": "Perşembe",
+          "konu": "Atatürk Dış Politikası + II. Dünya Savaşı + NATO",
+          "pdf": "Sayfa 245-260",
+          "kart": "25 kart (Lozan, Musul, Montrö, Hatay, Balkan/Sadabad Paktı, 1939 antlaşması, NATO 1952)",
+          "check": "Atatürk dış politika kronolojisi"
+        },
+        {
+          "gun": "Cuma",
+          "konu": "TEKRAR — TÜM TOP 5 EZBERLENMESİ GEREKEN KONU",
+          "pdf": "Bölüm 7 mini sözlüğe odaklan",
+          "kart": "100+ kart (frekansı 5+ olan tüm konular)",
+          "check": "Bölüm 7 sözlük tablolarını yaz"
+        },
+        {
+          "gun": "Cumartesi",
+          "konu": "TAM DENEME 1 + 2",
+          "pdf": "Çıkmış 2024 + 2025 AYT Tarih sorularını tek tek çöz",
+          "kart": "Yanlışları tekrar et",
+          "check": "11 soruda kaç net? Hangi konuda hatalı?"
+        },
+        {
+          "gun": "Pazar",
+          "konu": "TAM DENEME 3 + REVİZYON",
+          "pdf": "Bütün boşluk konuları (Bölüm 5'teki tahmin tablosu) hızlı geç",
+          "kart": "Son yanlışları kapat",
+          "check": "Sınava 1 hafta kala genel durum"
+        }
+      ]
+    }
+  ]
+}

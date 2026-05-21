@@ -121,16 +121,27 @@ export async function onAuthChange(cb) {
   return authMod.onAuthStateChanged(auth, cb);
 }
 
-// Firestore helpers
-export async function fsGetUserDoc(uid, sub = 'state') {
+// Firestore helpers — REV20 subject-aware
+// Yeni path: users/{uid}/subjects/{subject}  (4 segment, doc)
+// Legacy path: users/{uid}/app/state  (4 segment, doc) — geriye dönük okuma için
+
+export async function fsGetUserDoc(uid, subject = 'edebiyat') {
   const { db, fsMod } = await loadFirebase();
-  const ref = fsMod.doc(db, 'users', uid, 'app', sub);
+  const ref = fsMod.doc(db, 'users', uid, 'subjects', subject);
   const snap = await fsMod.getDoc(ref);
   return snap.exists() ? snap.data() : null;
 }
 
-export async function fsSetUserDoc(uid, sub, data) {
+export async function fsSetUserDoc(uid, subject, data) {
   const { db, fsMod } = await loadFirebase();
-  const ref = fsMod.doc(db, 'users', uid, 'app', sub);
+  const ref = fsMod.doc(db, 'users', uid, 'subjects', subject);
   await fsMod.setDoc(ref, { ...data, updated_at: fsMod.serverTimestamp() }, { merge: true });
+}
+
+// Legacy okuma — eski users/{uid}/app/state path'inden veri çekmek için
+export async function fsGetLegacyUserDoc(uid) {
+  const { db, fsMod } = await loadFirebase();
+  const ref = fsMod.doc(db, 'users', uid, 'app', 'state');
+  const snap = await fsMod.getDoc(ref);
+  return snap.exists() ? snap.data() : null;
 }

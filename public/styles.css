@@ -113,3 +113,34 @@
 @media (max-width: 640px) {
   .opt { padding: 1rem; min-height: 64px; }
 }
+
+/* ============================================================
+   REV20 — Tarih dersi tema override (amber/turuncu paleti)
+   Edebiyat varsayılan, Tarih için html[data-subject="tarih"]
+   ============================================================ */
+html[data-subject="tarih"] .mebi-box {
+  border-left-color: #B45309;
+  background: linear-gradient(90deg, #FED7AA 0%, #FFF7ED 100%);
+}
+html[data-subject="tarih"].dark .mebi-box,
+html[data-subject="tarih"] .dark .mebi-box {
+  background: linear-gradient(90deg, #451a03 0%, #2A1605 100%);
+  border-left-color: #F59E0B;
+  color: #fde2b8;
+}
+html[data-subject="tarih"] .mebi-box strong { color: #92400E; }
+html[data-subject="tarih"].dark .mebi-box strong,
+html[data-subject="tarih"] .dark .mebi-box strong { color: #FCD34D; }
+
+html[data-subject="tarih"] .topic-content h2 { color: #B45309; }
+html[data-subject="tarih"].dark .topic-content h2,
+html[data-subject="tarih"] .dark .topic-content h2 { color: #FCD34D; }
+html[data-subject="tarih"] .topic-content h3 { color: #991B1B; }
+html[data-subject="tarih"].dark .topic-content h3,
+html[data-subject="tarih"] .dark .topic-content h3 { color: #F87171; }
+
+html[data-subject="tarih"] .topic-content th { background: #B45309; }
+html[data-subject="tarih"] .opt-letter { background: #B45309; }
+html[data-subject="tarih"] .opt:hover:not(:disabled) { border-color: #B45309; background: #FFF7ED; }
+html[data-subject="tarih"].dark .opt:hover:not(:disabled),
+html[data-subject="tarih"] .dark .opt:hover:not(:disabled) { border-color: #F59E0B; background: #451a03; }

@@ -1,7 +1,8 @@
-import { Data } from '../lib/data.js';
+import { Data, getDataSubject } from '../lib/data.js';
 
 export async function renderGlossary() {
   const g = await Data.glossary();
+  const isTarih = getDataSubject() === 'tarih';
 
   window.__pageSetup = () => {
     const q = document.getElementById('glossarySearch');
@@ -17,7 +18,7 @@ export async function renderGlossary() {
   return `
     <header class="mb-6">
       <h1 class="text-3xl font-bold mb-1">📖 Mini Sözlük</h1>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">Tek bakışta tablolar: akımlar, dönemler, söz sanatları, Tanzimat "ilk"leri, alfabetik yazar-eser.</p>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">${isTarih ? 'Padişah × yıl, antlaşma × madde, savaş × sebep-sonuç, Atatürk söz × ilke. Hızlı bakış tabloları.' : 'Tek bakışta tablolar: akımlar, dönemler, söz sanatları, Tanzimat "ilk"leri, alfabetik yazar-eser.'}</p>
     </header>
 
     <input id="glossarySearch" type="search" placeholder="Akım/yazar/eser ara..." class="w-full px-3 py-2 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 mb-5" />

@@ -1,0 +1,182 @@
+[
+  {
+    "no": 1,
+    "slug": "islam_oncesi_turk",
+    "ad": "İslam Öncesi Türk Tarihi",
+    "soru_sayisi": 16,
+    "konu_sayisi": 5,
+    "yillar": {
+      "2018": 2,
+      "2019": 2,
+      "2020": 2,
+      "2021": 2,
+      "2022": 2,
+      "2023": 2,
+      "2024": 2,
+      "2025": 2
+    },
+    "ortalama": 2.0
+  },
+  {
+    "no": 2,
+    "slug": "islam_tarihi",
+    "ad": "İslam Tarihi",
+    "soru_sayisi": 10,
+    "konu_sayisi": 2,
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 2,
+      "2022": 1,
+      "2023": 2,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 1.25
+  },
+  {
+    "no": 3,
+    "slug": "turk_islam",
+    "ad": "Türk-İslam (Karahanlı-Selçuklu)",
+    "soru_sayisi": 6,
+    "konu_sayisi": 5,
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 0,
+      "2022": 1,
+      "2023": 0,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.75
+  },
+  {
+    "no": 4,
+    "slug": "osmanli_kurulus",
+    "ad": "Osmanlı Kuruluş (1299-1453)",
+    "soru_sayisi": 6,
+    "konu_sayisi": 4,
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 0,
+      "2022": 1,
+      "2023": 0,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.75
+  },
+  {
+    "no": 5,
+    "slug": "osmanli_yukselis",
+    "ad": "Osmanlı Yükseliş (1453-1595)",
+    "soru_sayisi": 4,
+    "konu_sayisi": 3,
+    "yillar": {
+      "2018": 1,
+      "2019": 0,
+      "2020": 0,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 0,
+      "2025": 0
+    },
+    "ortalama": 0.5
+  },
+  {
+    "no": 6,
+    "slug": "osmanli_duraklama",
+    "ad": "Osmanlı Duraklama-Gerileme",
+    "soru_sayisi": 6,
+    "konu_sayisi": 4,
+    "yillar": {
+      "2018": 0,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 0,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.75
+  },
+  {
+    "no": 7,
+    "slug": "osmanli_dagilma",
+    "ad": "Osmanlı Dağılma + I. Dünya Savaşı",
+    "soru_sayisi": 7,
+    "konu_sayisi": 3,
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 0,
+      "2023": 1,
+      "2024": 1,
+      "2025": 1
+    },
+    "ortalama": 0.88
+  },
+  {
+    "no": 8,
+    "slug": "milli_mucadele",
+    "ad": "Millî Mücadele",
+    "soru_sayisi": 17,
+    "konu_sayisi": 4,
+    "yillar": {
+      "2018": 2,
+      "2019": 1,
+      "2020": 2,
+      "2021": 2,
+      "2022": 3,
+      "2023": 3,
+      "2024": 2,
+      "2025": 2
+    },
+    "ortalama": 2.12
+  },
+  {
+    "no": 9,
+    "slug": "ataturk_donemi",
+    "ad": "Atatürk Dönemi + Cumhuriyet",
+    "soru_sayisi": 5,
+    "konu_sayisi": 3,
+    "yillar": {
+      "2018": 1,
+      "2019": 1,
+      "2020": 1,
+      "2021": 1,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 0
+    },
+    "ortalama": 0.62
+  },
+  {
+    "no": 10,
+    "slug": "ikinci_dunya_cagdas",
+    "ad": "II. Dünya Savaşı + Çağdaş Dünya",
+    "soru_sayisi": 2,
+    "konu_sayisi": 2,
+    "yillar": {
+      "2018": 0,
+      "2019": 0,
+      "2020": 0,
+      "2021": 0,
+      "2022": 1,
+      "2023": 0,
+      "2024": 0,
+      "2025": 1
+    },
+    "ortalama": 0.25
+  }
+]

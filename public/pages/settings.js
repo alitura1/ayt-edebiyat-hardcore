@@ -1,4 +1,4 @@
-import { exportAll, importAll, resetAll, loadState, saveState } from '../lib/store.js';
+import { exportAll, importAll, resetAll, loadState, saveState, getCurrentSubject } from '../lib/store.js';
 import { resetHeroHistory } from '../lib/daily.js';
 import { notifyPermissionStatus, requestNotifyPermission, showLocalNotification } from '../lib/notify.js';
 
@@ -9,7 +9,7 @@ export async function renderSettings() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `edebiyat-${new Date().toISOString().slice(0,10)}.json`;
+      a.download = `${getCurrentSubject() || 'edebiyat'}-${new Date().toISOString().slice(0,10)}.json`;
       a.click();
       URL.revokeObjectURL(url);
     });

@@ -1,0 +1,79 @@
+[
+  {
+    "sira": 1,
+    "donem": "İslam Öncesi Türk",
+    "konu": "Boylardan Devlete (Hunlar/Göktürkler/Uygurlar — egemenlik sembolleri veya devlet anlayışı)",
+    "olasilik_yuzde": 95,
+    "gerekce": "8 yıldan 7'sinde geldi, sadece 2022 boş — 2026'da kesin"
+  },
+  {
+    "sira": 2,
+    "donem": "İslam Öncesi Türk",
+    "konu": "İlk Çağ Medeniyet Havzaları (Mezopotamya/Mısır/Anadolu kıyaslama)",
+    "olasilik_yuzde": 90,
+    "gerekce": "8 yıldan 6'sında geldi, 2024 boş"
+  },
+  {
+    "sira": 3,
+    "donem": "Millî Mücadele",
+    "konu": "Millî Mücadele'ye Hazırlık (Amasya/Erzurum/Sivas/Misak-ı Milli)",
+    "olasilik_yuzde": 90,
+    "gerekce": "Her yıl 1+ soru, kalıcı sıcak"
+  },
+  {
+    "sira": 4,
+    "donem": "Millî Mücadele",
+    "konu": "Batı Cephesi (I-II. İnönü / Sakarya / Büyük Taarruz)",
+    "olasilik_yuzde": 85,
+    "gerekce": "8 yıldan 6'sında geldi, Kuvayımilliye → düzenli ordu"
+  },
+  {
+    "sira": 5,
+    "donem": "İslam Tarihi",
+    "konu": "İslamiyet Yayılıyor (Hz. Muhammed dönemi olaylar veya 4 Halife)",
+    "olasilik_yuzde": 80,
+    "gerekce": "8 yıldan 7'sinde geldi"
+  },
+  {
+    "sira": 6,
+    "donem": "Osmanlı Yükseliş",
+    "konu": "Yavuz dönemi (Çaldıran/Mercidabık/Ridaniye/HİLAFET)",
+    "olasilik_yuzde": 70,
+    "gerekce": "8 yıl HİÇ sorulmadı — patlamak üzere"
+  },
+  {
+    "sira": 7,
+    "donem": "Atatürk Dönemi",
+    "konu": "Atatürk İlkeleri (söz-ilke eşleme veya 1937 anayasal kabulü)",
+    "olasilik_yuzde": 75,
+    "gerekce": "2018+2019 sonrası 6 yıl boş — geri gelme zamanı"
+  },
+  {
+    "sira": 8,
+    "donem": "Osmanlı Dağılma",
+    "konu": "Mondros Mütarekesi maddeleri veya I. Dünya Savaşı'nın Osmanlı'ya etkisi",
+    "olasilik_yuzde": 70,
+    "gerekce": "5 yıl arka arkaya geldi"
+  },
+  {
+    "sira": 9,
+    "donem": "Osmanlı Duraklama-Gerileme",
+    "konu": "Tanzimat veya I. Meşrutiyet (demokratikleşme) — modernleşme reformları",
+    "olasilik_yuzde": 65,
+    "gerekce": "2023+2025'te Demokratikleşme sorularına eğilim"
+  },
+  {
+    "sira": 10,
+    "donem": "Türk-İslam",
+    "konu": "Haçlı Seferleri / Anadolu Beylikleri (Karamanoğlu Türkçe ilkeleri / Saruhanoğlu coğrafyası)",
+    "olasilik_yuzde": 55,
+    "gerekce": "Beylikler 2022+2025 geldi, 2026'da farklı beylik veya Haçlı"
+  },
+  {
+    "sira": 11,
+    "donem": "Atatürk Dış Politikası",
+    "konu": "Hatay / Montrö / Balkan Paktı / Milletler Cemiyeti",
+    "olasilik_yuzde": 50,
+    "gerekce": "2025'te Hatay geldi — diğeri 2026'da mümkün"
+  }
+]

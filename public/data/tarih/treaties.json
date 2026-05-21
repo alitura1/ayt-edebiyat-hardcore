@@ -1,0 +1,282 @@
+[
+  {
+    "yil": 1606,
+    "isim": "Zitvatorok",
+    "slug": "zitvatorok-1606",
+    "taraflar": "Osmanlı-Avusturya",
+    "ana_madde": "Habsburg imparatoru padişaha EŞİT kabul edildi",
+    "sonuc": "Osmanlı'nın Avrupa'da üstünlüğünün sonu"
+  },
+  {
+    "yil": 1639,
+    "isim": "Kasr-ı Şirin",
+    "slug": "kasr-i-sirin-1639",
+    "taraflar": "Osmanlı-Safevi (IV. Murat)",
+    "ana_madde": "Bağdat Osmanlı'da, Erivan Safevi'de",
+    "sonuc": "BUGÜNKÜ TÜRKİYE-İRAN SINIRI"
+  },
+  {
+    "yil": 1664,
+    "isim": "Vasvar",
+    "slug": "vasvar-1664",
+    "taraflar": "Osmanlı-Avusturya (Köprülü Fazıl Ahmed)",
+    "ana_madde": "Uyvar Osmanlı'da",
+    "sonuc": "Kısa süreli kazanım"
+  },
+  {
+    "yil": 1672,
+    "isim": "Bucaş",
+    "slug": "bucas-1672",
+    "taraflar": "Osmanlı-Lehistan",
+    "ana_madde": "Podolya Osmanlı'ya",
+    "sonuc": "Son toprak kazancı"
+  },
+  {
+    "yil": 1699,
+    "isim": "KARLOFÇA",
+    "slug": "karlofca-1699",
+    "taraflar": "Osmanlı vs Kutsal İttifak (Avusturya+Polonya+Venedik+Rusya)",
+    "ana_madde": "Macaristan-Erdel Avusturya, Mora-Dalmaçya Venedik, Podolya Polonya",
+    "sonuc": "İLK BÜYÜK TOPRAK KAYBI"
+  },
+  {
+    "yil": 1700,
+    "isim": "İstanbul",
+    "slug": "i-stanbul-1700",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Azak Rusya'ya, Rus elçisi İstanbul'da kalıcı",
+    "sonuc": "Rusya'nın Karadeniz'e iniş kapısı"
+  },
+  {
+    "yil": 1711,
+    "isim": "Prut",
+    "slug": "prut-1711",
+    "taraflar": "Osmanlı-Rusya (Baltacı Mehmet vs Çariçe Anna)",
+    "ana_madde": "Azak geri Osmanlı'ya",
+    "sonuc": "Baltacı çariçeyi serbest bıraktı — rüşvet iddiası"
+  },
+  {
+    "yil": 1718,
+    "isim": "PASAROFÇA",
+    "slug": "pasarofca-1718",
+    "taraflar": "Osmanlı-Avusturya+Venedik",
+    "ana_madde": "Mora geri Osmanlı'ya, Belgrat-Banat Avusturya'ya",
+    "sonuc": "Mora geri ama Belgrat gitti"
+  },
+  {
+    "yil": 1739,
+    "isim": "BELGRAT",
+    "slug": "belgrat-1739",
+    "taraflar": "Osmanlı-Avusturya+Rusya",
+    "ana_madde": "Belgrat geri Osmanlı'ya",
+    "sonuc": "SON ZAFER ANTLAŞMASI"
+  },
+  {
+    "yil": 1774,
+    "isim": "KÜÇÜK KAYNARCA",
+    "slug": "kucuk-kaynarca-1774",
+    "taraflar": "Osmanlı-Rusya (Çariçe Katerina)",
+    "ana_madde": "KIRIM bağımsız, Karadeniz'de Rus ticareti, ORTODOKS KORUYUCULUĞU, Rus kapitülasyonu",
+    "sonuc": "EN AĞIR ANTLAŞMA"
+  },
+  {
+    "yil": 1779,
+    "isim": "Aynalıkavak",
+    "slug": "aynalikavak-1779",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Kırım fiilen Rus elinde",
+    "sonuc": "Küçük Kaynarca'nın devamı"
+  },
+  {
+    "yil": 1791,
+    "isim": "Ziştovi",
+    "slug": "zistovi-1791",
+    "taraflar": "Osmanlı-Avusturya",
+    "ana_madde": "Belgrat tekrar Avusturya'ya",
+    "sonuc": "Avusturya'yla son resmi savaş sonu"
+  },
+  {
+    "yil": 1792,
+    "isim": "Yaş",
+    "slug": "yas-1792",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Kırım'ın Rus ilhakı resmi",
+    "sonuc": "Karadeniz Rus gölü oldu"
+  },
+  {
+    "yil": 1812,
+    "isim": "Bükreş",
+    "slug": "bukres-1812",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Besarabya Rusya'ya",
+    "sonuc": "Napolyon'un Moskova seferi öncesi"
+  },
+  {
+    "yil": 1829,
+    "isim": "Edirne",
+    "slug": "edirne-1829",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Yunanistan bağımsız, Sırbistan-Eflak-Boğdan özerk",
+    "sonuc": "Avrupa baskısının başı"
+  },
+  {
+    "yil": 1833,
+    "isim": "Hünkâr İskelesi",
+    "slug": "hunk-r-i-skelesi-1833",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Boğazlar Rus'a açık, başkalarına kapalı",
+    "sonuc": "İngiltere reddetti, son ittifak"
+  },
+  {
+    "yil": 1838,
+    "isim": "BALTA LİMANI",
+    "slug": "balta-li-mani-1838",
+    "taraflar": "Osmanlı-İngiltere",
+    "ana_madde": "Gümrük tarifeleri düşük tutuldu",
+    "sonuc": "OSMANLI SANAYİSİNİ BİTİREN"
+  },
+  {
+    "yil": 1839,
+    "isim": "TANZİMAT (ferman, antlaşma değil)",
+    "slug": "tanzi-mat-ferman-antlasma-degil-1839",
+    "taraflar": "Gülhane Hatt-ı Hümayunu",
+    "ana_madde": "Müslim-gayrimüslim eşitliği, vergide eşitlik, can-mal güvenliği",
+    "sonuc": "REFORM BAŞLANGICI"
+  },
+  {
+    "yil": 1856,
+    "isim": "Paris (Kırım Savaşı sonu)",
+    "slug": "paris-kirim-savasi-sonu-1856",
+    "taraflar": "Osmanlı-Rusya-İngiltere-Fransa",
+    "ana_madde": "Karadeniz tarafsız, Boğazlar uluslararası",
+    "sonuc": "ISLAHAT Fermanı bunu izledi"
+  },
+  {
+    "yil": 1878,
+    "isim": "Ayastefanos",
+    "slug": "ayastefanos-1878",
+    "taraflar": "Osmanlı-Rusya",
+    "ana_madde": "Büyük Bulgaristan, Karadağ-Sırbistan-Romanya bağımsız",
+    "sonuc": "İngiltere reddetti, Berlin'e götürdü"
+  },
+  {
+    "yil": 1878,
+    "isim": "BERLİN",
+    "slug": "berli-n-1878",
+    "taraflar": "Osmanlı-Rusya+Avusturya+İngiltere+Fransa+Almanya",
+    "ana_madde": "Bulgaristan küçüldü, Doğu Rumeli özerk, Bosna-Hersek Avusturya, KIBRIS İNGİLTERE, ERMENİ reform şartı",
+    "sonuc": "Düvel-i Muazzama Osmanlı'yı bölüştürdü"
+  },
+  {
+    "yil": 1912,
+    "isim": "Uşi",
+    "slug": "usi-1912",
+    "taraflar": "Osmanlı-İtalya",
+    "ana_madde": "Trablusgarp İtalya'ya, Onikiada geçici",
+    "sonuc": "Trablusgarp savaşı sonu"
+  },
+  {
+    "yil": 1913,
+    "isim": "Londra",
+    "slug": "londra-1913",
+    "taraflar": "Osmanlı-Balkanlar",
+    "ana_madde": "Edirne-Kırklareli Balkanlara, Midye-Enez sınırı",
+    "sonuc": "I. Balkan Savaşı sonu (yenilgi)"
+  },
+  {
+    "yil": 1913,
+    "isim": "Bükreş",
+    "slug": "bukres-1913",
+    "taraflar": "Balkan ülkeleri arası",
+    "ana_madde": "Bulgaristan Edirne'yi kaybetti",
+    "sonuc": "II. Balkan sonu"
+  },
+  {
+    "yil": 1918,
+    "isim": "Brest-Litovsk",
+    "slug": "brest-litovsk-1918",
+    "taraflar": "Bolşevikler-Almanya",
+    "ana_madde": "Rusya savaştan çekildi",
+    "sonuc": "Türkiye'ye Kars-Ardahan-Batum geri verildi"
+  },
+  {
+    "yil": 1918,
+    "isim": "MONDROS (Mütareke)",
+    "slug": "mondros-mutareke-1918",
+    "taraflar": "Osmanlı-İtilaf",
+    "ana_madde": "25 madde: Boğazlar İtilaf'ın, ordu terhis, telgraf-demiryolu kontrolü, 7. madde işgal hakkı",
+    "sonuc": "İŞGAL DÖNEMİ"
+  },
+  {
+    "yil": 1920,
+    "isim": "SEVR",
+    "slug": "sevr-1920",
+    "taraflar": "Osmanlı (Damat Ferit hükümeti)-İtilaf",
+    "ana_madde": "433 madde: kapitülasyon devam, ordu 50 bin, Boğazlar uluslararası, Doğu Ermeni-Kürt, İzmir-Doğu Trakya Yunan",
+    "sonuc": "TBMM REDDETTİ"
+  },
+  {
+    "yil": 1920,
+    "isim": "Gümrü",
+    "slug": "gumru-1920",
+    "taraflar": "TBMM-Ermenistan",
+    "ana_madde": "Doğu Anadolu Türk",
+    "sonuc": "TBMM'NİN İLK ANTLAŞMASI"
+  },
+  {
+    "yil": 1921,
+    "isim": "Moskova",
+    "slug": "moskova-1921",
+    "taraflar": "TBMM-Sovyetler",
+    "ana_madde": "Misak-ı Milli kabul, Batum SSCB'ye",
+    "sonuc": "Doğu sınırı güvende"
+  },
+  {
+    "yil": 1921,
+    "isim": "Kars",
+    "slug": "kars-1921",
+    "taraflar": "TBMM-Sovyet Kafkas (Ermenistan-Gürcistan-Azerbaycan)",
+    "ana_madde": "Doğu sınırı kesinleşti",
+    "sonuc": "Moskova'yı tamamladı"
+  },
+  {
+    "yil": 1921,
+    "isim": "Ankara",
+    "slug": "ankara-1921",
+    "taraflar": "TBMM-Fransa",
+    "ana_madde": "Güney sınırı, Hatay Fransız mandasında",
+    "sonuc": "Güney Cephesi kapandı"
+  },
+  {
+    "yil": 1922,
+    "isim": "MUDANYA (Mütareke)",
+    "slug": "mudanya-mutareke-1922",
+    "taraflar": "TBMM-İtilaf-Yunanistan (İsmet Paşa)",
+    "ana_madde": "Doğu Trakya 15 gün içinde Türkiye'ye",
+    "sonuc": "Lozan'a yol açtı"
+  },
+  {
+    "yil": 1923,
+    "isim": "LOZAN",
+    "slug": "lozan-1923",
+    "taraflar": "TBMM-İtilaf",
+    "ana_madde": "Kapitülasyon kaldırıldı, Boğazlar komisyon, savaş tazminatı yok, nüfus mübadelesi, sınırlar (Hatay-Musul hariç)",
+    "sonuc": "BAĞIMSIZLIK TASDİKİ"
+  },
+  {
+    "yil": 1936,
+    "isim": "Montrö Boğazlar Sözleşmesi",
+    "slug": "montro-bogazlar-sozlesmesi-1936",
+    "taraflar": "Türkiye-İlgili devletler",
+    "ana_madde": "Boğazlar TAM TÜRK EGEMENLİĞİNDE",
+    "sonuc": "Lozan'daki tek eksik kapandı"
+  },
+  {
+    "yil": 1939,
+    "isim": "Karşılıklı Yardım Antlaşması",
+    "slug": "karsilikli-yardim-antlasmasi-1939",
+    "taraflar": "Türkiye-İngiltere-Fransa",
+    "ana_madde": "İtalya ile silahlı çatışma maddesi hariç",
+    "sonuc": "II. Dünya Savaşı'nda tarafsızlık zemini"
+  }
+]

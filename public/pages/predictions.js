@@ -1,10 +1,11 @@
-import { Data } from '../lib/data.js';
+import { Data, getDataSubject } from '../lib/data.js';
 
 export async function renderPredictions() {
   const p = await Data.predictions();
+  const isTarih = getDataSubject() === 'tarih';
   return `
     <header class="mb-6">
-      <h1 class="text-3xl font-bold mb-1">🔮 2026 Tahminleri</h1>
+      <h1 class="text-3xl font-bold mb-1">🔮 2026 ${isTarih ? 'AYT Tarih ' : ''}Tahminleri</h1>
       <p class="text-slate-600 dark:text-slate-400 text-sm">8 yıllık trend + periyodik desen + boşluk haritası. Mutlak değil, olasılık temelli.</p>
     </header>
 

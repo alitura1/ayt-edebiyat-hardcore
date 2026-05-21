@@ -1,0 +1,379 @@
+{
+  "padisahlar": [
+    {
+      "sira": 1,
+      "isim": "I. Osman (Osman Bey)",
+      "yillar": "1299-1326",
+      "olaylar": "Beyliği kurdu, Söğüt-Bursa",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 2,
+      "isim": "Orhan Bey",
+      "yillar": "1326-1362",
+      "olaylar": "Bursa fethi, Karesi alındı, Çimpe (Rumeli'ye geçiş)",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 3,
+      "isim": "I. Murat (Hüdâvendigâr)",
+      "yillar": "1362-1389",
+      "olaylar": "Edirne fethi, Yeniçeri-Devşirme-Tımar, I. Kosova şehit",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 4,
+      "isim": "I. Bayezid (Yıldırım)",
+      "yillar": "1389-1402",
+      "olaylar": "Niğbolu (1396), Ankara Savaşı (1402) Timur'a esir",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 5,
+      "isim": "Fetret Devri",
+      "yillar": "1402-1413",
+      "olaylar": "Süleyman-İsa-Musa-Mehmet Çelebi taht kavgası",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 6,
+      "isim": "I. Mehmet (Çelebi)",
+      "yillar": "1413-1421",
+      "olaylar": "Devletin ikinci kurucusu",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 7,
+      "isim": "II. Murat",
+      "yillar": "1421-1451",
+      "olaylar": "Varna (1444), II. Kosova (1448)",
+      "donem": "Kuruluş"
+    },
+    {
+      "sira": 8,
+      "isim": "II. Mehmet (Fatih)",
+      "yillar": "1444-46, 1451-1481",
+      "olaylar": "İstanbul Fethi (1453), Trabzon, Otlukbeli (1473), Kanunname, Otranto (1480)",
+      "donem": "Yükseliş"
+    },
+    {
+      "sira": 9,
+      "isim": "II. Bayezid (Veli)",
+      "yillar": "1481-1512",
+      "olaylar": "Cem Sultan, Endülüs Yahudileri, Şahkulu isyanı",
+      "donem": "Yükseliş"
+    },
+    {
+      "sira": 10,
+      "isim": "I. Selim (Yavuz)",
+      "yillar": "1512-1520",
+      "olaylar": "Çaldıran (1514), Mercidabık (1516), Ridaniye (1517), HİLAFET",
+      "donem": "Yükseliş"
+    },
+    {
+      "sira": 11,
+      "isim": "I. Süleyman (Kanuni)",
+      "yillar": "1520-1566",
+      "olaylar": "Belgrat, Rodos, Mohaç, Viyana, Bağdat, Kapitülasyon, Preveze, Zigetvar",
+      "donem": "Yükseliş"
+    },
+    {
+      "sira": 12,
+      "isim": "II. Selim (Sarı)",
+      "yillar": "1566-1574",
+      "olaylar": "Kıbrıs Fethi (1571), İnebahti yenilgi (1571)",
+      "donem": "Yükseliş"
+    },
+    {
+      "sira": 13,
+      "isim": "III. Murat",
+      "yillar": "1574-1595",
+      "olaylar": "İran-Lehistan, Sokullu suikastı (1579)",
+      "donem": "Yükseliş"
+    },
+    {
+      "sira": 14,
+      "isim": "III. Mehmet",
+      "yillar": "1595-1603",
+      "olaylar": "Haçova zaferi (1596), şehzade hareme kapatma",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 15,
+      "isim": "I. Ahmed",
+      "yillar": "1603-1617",
+      "olaylar": "Zitvatorok (1606) — Habsburg eşit",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 16,
+      "isim": "I. Mustafa",
+      "yillar": "1617-1618, 1622-1623",
+      "olaylar": "Sıhhi sorunlar, iki kez taht",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 17,
+      "isim": "II. Osman (Genç Osman)",
+      "yillar": "1618-1622",
+      "olaylar": "Hotin Seferi başarısız, yeniçeri öldürdü",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 18,
+      "isim": "IV. Murat",
+      "yillar": "1623-1640",
+      "olaylar": "Revan (1635), Bağdat (1638), Kasr-ı Şirin (1639)",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 19,
+      "isim": "İbrahim (Deli)",
+      "yillar": "1640-1648",
+      "olaylar": "Girit Kuşatması başladı (25 yıl)",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 20,
+      "isim": "IV. Mehmet (Avcı)",
+      "yillar": "1648-1687",
+      "olaylar": "Köprülüler devri, Girit (1669), II. Viyana yenilgisi (1683)",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 21,
+      "isim": "II. Süleyman",
+      "yillar": "1687-1691",
+      "olaylar": "Kutsal İttifak savaşları",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 22,
+      "isim": "II. Ahmed",
+      "yillar": "1691-1695",
+      "olaylar": "Salankamen yenilgisi (1691)",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 23,
+      "isim": "II. Mustafa",
+      "yillar": "1695-1703",
+      "olaylar": "Zenta yenilgisi, KARLOFÇA (1699)",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 24,
+      "isim": "III. Ahmed",
+      "yillar": "1703-1730",
+      "olaylar": "LALE DEVRİ (1718-30), Pasarofça (1718), Patrona Halil",
+      "donem": "Duraklama"
+    },
+    {
+      "sira": 25,
+      "isim": "I. Mahmut",
+      "yillar": "1730-1754",
+      "olaylar": "Belgrat Antlaşması (1739) — son zafer",
+      "donem": "Gerileme"
+    },
+    {
+      "sira": 26,
+      "isim": "III. Osman",
+      "yillar": "1754-1757",
+      "olaylar": "Kısa saltanat",
+      "donem": "Gerileme"
+    },
+    {
+      "sira": 27,
+      "isim": "III. Mustafa",
+      "yillar": "1757-1774",
+      "olaylar": "Osmanlı-Rus Savaşı (1768-74)",
+      "donem": "Gerileme"
+    },
+    {
+      "sira": 28,
+      "isim": "I. Abdülhamid",
+      "yillar": "1774-1789",
+      "olaylar": "KÜÇÜK KAYNARCA (1774), Aynalıkavak (1779)",
+      "donem": "Gerileme"
+    },
+    {
+      "sira": 29,
+      "isim": "III. Selim",
+      "yillar": "1789-1807",
+      "olaylar": "NİZAM-I CEDİD, Yaş (1792), Kabakçı Mustafa İsyanı",
+      "donem": "Gerileme"
+    },
+    {
+      "sira": 30,
+      "isim": "IV. Mustafa",
+      "yillar": "1807-1808",
+      "olaylar": "Kısa, geri çekildi",
+      "donem": "Gerileme"
+    },
+    {
+      "sira": 31,
+      "isim": "II. Mahmut",
+      "yillar": "1808-1839",
+      "olaylar": "Sened-i İttifak (1808), VAKA-İ HAYRİYE (1826), Yunan bağımsızlığı (1830), Tanzimat hazırlığı",
+      "donem": "Modernleşme"
+    },
+    {
+      "sira": 32,
+      "isim": "I. Abdülmecid",
+      "yillar": "1839-1861",
+      "olaylar": "TANZİMAT (1839), Islahat (1856), Kırım Savaşı (1853-56)",
+      "donem": "Modernleşme"
+    },
+    {
+      "sira": 33,
+      "isim": "I. Abdülaziz",
+      "yillar": "1861-1876",
+      "olaylar": "Süveyş Kanalı ziyareti (1867), Avrupa seyahati",
+      "donem": "Modernleşme"
+    },
+    {
+      "sira": 34,
+      "isim": "V. Murat",
+      "yillar": "1876",
+      "olaylar": "3 ay tahta, ruhsal hastalık",
+      "donem": "Modernleşme"
+    },
+    {
+      "sira": 35,
+      "isim": "II. Abdülhamid",
+      "yillar": "1876-1909",
+      "olaylar": "Kanunuesasi (1876), I. Meşrutiyet, 93 Harbi (1877-78), Berlin (1878), 31 Mart (1909)",
+      "donem": "Dağılma"
+    },
+    {
+      "sira": 36,
+      "isim": "V. Mehmet (Reşat)",
+      "yillar": "1909-1918",
+      "olaylar": "II. Meşrutiyet sonrası, Trablusgarp, Balkan, I. Dünya Savaşı",
+      "donem": "Dağılma"
+    },
+    {
+      "sira": 37,
+      "isim": "VI. Mehmet (Vahdettin)",
+      "yillar": "1918-1922",
+      "olaylar": "Mondros (1918), Sevr (1920), TBMM açılışı, Saltanat kaldırıldı (1922)",
+      "donem": "Dağılma"
+    }
+  ],
+  "ataturk_sozleri": [
+    {
+      "soz": "Egemenlik kayıtsız şartsız milletindir",
+      "yil": "1920+",
+      "ilke": "Cumhuriyetçilik / Halkçılık",
+      "baglam": "TBMM'nin kuruluş ilkesi"
+    },
+    {
+      "soz": "Yurtta sulh, cihanda sulh",
+      "yil": "1931",
+      "ilke": "Barışçı dış politika",
+      "baglam": "Atatürk'ün dış siyaset doktrini"
+    },
+    {
+      "soz": "Hayatta en hakiki mürşit ilimdir",
+      "yil": "1924 sonrası",
+      "ilke": "Laiklik / Bilimcilik",
+      "baglam": "Toplumsal reformların felsefi temeli"
+    },
+    {
+      "soz": "Türkiye Cumhuriyeti şeyhler, dervişler memleketi olamaz",
+      "yil": "1925",
+      "ilke": "Laiklik",
+      "baglam": "Tekke-Zaviye kapatılışı bağlamı"
+    },
+    {
+      "soz": "Millî Sanayinin Temelini On Yılda Attık",
+      "yil": "1933 civarı",
+      "ilke": "Devletçilik",
+      "baglam": "I. Beş Yıllık Plan dönemi (2018 sorusu)"
+    },
+    {
+      "soz": "Ne mutlu Türküm diyene",
+      "yil": "1933 (Onuncu Yıl Nutku)",
+      "ilke": "Milliyetçilik",
+      "baglam": "10. yıl söylevi"
+    },
+    {
+      "soz": "Az zamanda çok ve büyük işler yaptık",
+      "yil": "1933",
+      "ilke": "İnkılapçılık",
+      "baglam": "Onuncu yıl söylevi açılış"
+    },
+    {
+      "soz": "Devlet idaresinde bütün kanunlar halkın menfaatine",
+      "yil": "1920+",
+      "ilke": "Halkçılık",
+      "baglam": "Yasama-yürütme prensibi"
+    },
+    {
+      "soz": "Türkiye Cumhuriyeti'ni kuran Türkiye halkına Türk milleti denir",
+      "yil": "Onuncu Yıl Söylevi 1933",
+      "ilke": "Milliyetçilik",
+      "baglam": "Milleti tanımlayan resmi cümle"
+    },
+    {
+      "soz": "Çağdaş uygarlık seviyesinin üzerine çıkmak",
+      "yil": "Bütün konuşmalarda",
+      "ilke": "İnkılapçılık",
+      "baglam": "Modernleşme hedefi"
+    },
+    {
+      "soz": "Ordular ilk hedefiniz Akdeniz'dir, ileri!",
+      "yil": "30 Ağustos 1922",
+      "ilke": "Askeri",
+      "baglam": "Dumlupınar zaferi"
+    },
+    {
+      "soz": "Hattı müdafaa yoktur, sath-ı müdafaa vardır",
+      "yil": "1921 Sakarya",
+      "ilke": "Askeri",
+      "baglam": "Sakarya savunma stratejisi"
+    },
+    {
+      "soz": "Geldikleri gibi giderler",
+      "yil": "1918",
+      "ilke": "Direniş",
+      "baglam": "İstanbul'un işgali sonrası söz"
+    },
+    {
+      "soz": "Türk! Övün, çalış, güven",
+      "yil": "Onuncu Yıl 1933",
+      "ilke": "Milliyetçilik",
+      "baglam": "Vatandaşlık ödevi"
+    },
+    {
+      "soz": "Daima kendisiyle dostluğa çok ehemmiyet verdiğimiz Fransa ile aramızda tek ve büyük mesele budur",
+      "yil": "1936-38",
+      "ilke": "Dış politika",
+      "baglam": "HATAY MESELESİ (2025 sorusu)"
+    },
+    {
+      "soz": "Bir milletin tarihi, o milletin gelecek nesilleri için bir hazinedir",
+      "yil": "Tarih Kurumu 1931",
+      "ilke": "Eğitim-Kültür",
+      "baglam": "TTK kuruluş gerekçesi"
+    },
+    {
+      "soz": "Ben size taarruzu emretmiyorum, ölmeyi emrediyorum",
+      "yil": "1915 Çanakkale Anafartalar",
+      "ilke": "Askeri",
+      "baglam": "57. Alay'a verilen emir"
+    },
+    {
+      "soz": "Cumhuriyet, fikir serbestliğini taraftardır",
+      "yil": "1920+",
+      "ilke": "Cumhuriyetçilik",
+      "baglam": "Demokratik düşünce"
+    },
+    {
+      "soz": "Bir millet ki Türk ulusudur, kahramanlıkla doludur",
+      "yil": "1923+",
+      "ilke": "Milliyetçilik",
+      "baglam": "Cumhuriyet propagandası"
+    }
+  ]
+}
