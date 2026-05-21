@@ -28,7 +28,8 @@ export async function renderSettings() {
     document.getElementById('btnReset')?.addEventListener('click', resetAll);
     document.getElementById('btnResetHero')?.addEventListener('click', () => {
       resetHeroHistory();
-      alert('Şu Anki Yazar geçmişi temizlendi.');
+      const noun = getCurrentSubject() === 'tarih' ? 'Şu Anki Kişi' : 'Şu Anki Yazar';
+      alert(`${noun} geçmişi temizlendi.`);
     });
 
     // Bildirim ayarları
@@ -71,11 +72,21 @@ export async function renderSettings() {
   const notifyPerm = notifyPermissionStatus();
   const hourOpts = [8, 12, 15, 18, 21];
 
+  const currentSubject = getCurrentSubject() || 'edebiyat';
+  const otherSubject = currentSubject === 'edebiyat' ? 'tarih' : 'edebiyat';
+  const otherLabel = otherSubject === 'tarih' ? '⏳ AYT Tarih' : '📚 AYT Edebiyat';
+
   return `
     <header class="mb-6">
       <h1 class="text-3xl font-bold mb-1">⚙️ Ayarlar</h1>
+      <p class="text-sm text-slate-500">Aktif ders: <strong>${currentSubject === 'tarih' ? '⏳ AYT Tarih' : '📚 AYT Edebiyat'}</strong></p>
     </header>
     <div class="space-y-4 max-w-xl">
+      <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4">
+        <h3 class="font-bold mb-2">🔀 Ders Değiştir</h3>
+        <p class="text-sm text-slate-500 mb-3">İki ders verisi ayrı tutulur. İlerlemen kaybolmaz.</p>
+        <a href="#/select-subject" class="inline-block bg-primary-700 hover:bg-primary-700/90 text-white font-bold py-2 px-4 rounded-md text-sm">${otherLabel}'a geç →</a>
+      </section>
       <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-4">
         <h3 class="font-bold mb-2">🔔 Bildirimler</h3>
         <p class="text-sm text-slate-500 mb-3">Tarayıcı bildirimi — sekme açıkken belirli saatlerde hatırlatma. ${notifyPerm === 'unsupported' ? '<span class="text-accent-500">(Tarayıcı desteklemiyor)</span>' : ''}</p>

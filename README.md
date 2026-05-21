@@ -1,21 +1,28 @@
-# AYT Edebiyat — Hardcore Hazırlık Sitesi
+# AYT Hardcore — Edebiyat & Tarih Hazırlık Sitesi
 
-YKS 2026 AYT Türk Dili ve Edebiyatı bölümü için interaktif çalışma sitesi.
+YKS 2026 AYT için interaktif çalışma sitesi. **İki ders tek sitede**: Edebiyat ve Tarih.
 
-**192 ÖSYM sorusu (2018-2025)** analiz edilmiş, ÖSYM'nin mantığı, tuzakları, tekrar eden yazarları ve 2026 tahminleri tek site içinde.
+- **AYT Edebiyat**: 192 ÖSYM sorusu (2018-2025), 85 yazar, 251 eser, 634 kart, 13 konu
+- **AYT Tarih**: 79 ÖSYM sorusu (2018-2025), 62 kişi, 35 antlaşma, 36 savaş, 671 kart, 10 dönem
+
+Kullanıcı giriş ekranında ders seçer; header'da kalıcı toggle ile geçiş. **State izolasyonu**: Edebiyat ↔ Tarih ilerlemeleri ayrı tutulur, biri kapatıldığında diğeri kaybolmaz.
 
 ## Özellikler
 
-- 🎯 **Quiz**: ÖSYM tarzı 4-5 şıklı test, 467 otomatik kart
-- 📚 **13 Konu öğretim sayfası**: Divan, Cumhuriyet, Edebi Akımlar... her birinde MEBİ özet PDF sayfa referansları gömülü
-- 👤 **85 Yazar veritabanı**: Hangi yıl hangi eserle çıkmış, MEBİ sayfası nerede
-- 🔮 **2026 tahminleri**: Boşluk haritası + güçlü adaylar (Yedi Meşaleciler, Hisarcılar...)
-- 📅 **1 aylık çalışma programı**: Doküman + MEBİ + sorular paralel takvim, checkbox'lı ilerleme
-- 📖 **Mini sözlük**: Akım × yazar × eser tabloları
+- 🔀 **Hibrit ders sistemi**: Edebiyat + Tarih, izole state, header toggle ile anında geçiş
+- 🎯 **Quiz**: ÖSYM tarzı 4-5 şıklı test (Edebiyat: 634 / Tarih: 671 kart)
+- 📚 **Konu öğretim sayfaları**: Edebiyat 13 konu / Tarih 10 dönem (İslam Öncesi Türk → Çağdaş Dünya)
+- 👤 **Veritabanı**: Edebiyat 85 yazar / Tarih 62 tarihî kişi (padişah, lider, devlet adamı)
+- ⚔️ **Tarih için**: 35 antlaşma + 36 savaş + Atatürk sözleri × ilke eşleme
+- 🔮 **2026 tahminleri**: Boşluk haritası + olasılık tablosu (her ders ayrı)
+- 📅 **4 haftalık çalışma programı**: 28 gün, konu+kart+checkpoint
+- 📖 **Mini sözlük**: Edebiyat (akım × yazar × eser) / Tarih (padişah × yıl, antlaşma × madde)
 - 🃏 **Hibrit kart sistemi**: Otomatik kartlar + manuel ekleme
-- 📊 **İstatistikler**: Konu bazlı zayıflık, hata defteri otomatik tekrar
-- 🌙 **Dark mode + mobile-first responsive**
-- 💾 **localStorage**: Tüm ilerleme tarayıcıda, hesap gerekmez
+- 📊 **İstatistikler**: Konu bazlı zayıflık, hata defteri otomatik tekrar (SRS)
+- 🌙 **Dark mode + amber/mavi subject teması**
+- 💾 **localStorage**: `state-v2-edebiyat` + `state-v2-tarih` ayrı namespace
+- ☁️ **Firestore sync**: `users/{uid}/subjects/{subject}` namespace
+- 🔥 **Streak + Daily Hero**: Günlük rastgele kişi/olay tahmin oyunu (Tarih için 3 mod)
 
 ## Mimari
 

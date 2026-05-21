@@ -50,11 +50,12 @@ export async function renderCollection() {
   // Unique dönem listesi (filtreye)
   const donems = [...new Set(authors.map(a => a.donem || a.konular[0]).filter(Boolean))];
 
+  const subjectNoun = isTarih ? 'kişi' : 'yazar';
   return `
     <header class="mb-6">
       <h1 class="text-3xl font-bold mb-1">🎴 Koleksiyonum</h1>
       <p class="text-slate-600 dark:text-slate-400 text-sm">
-        ${summary.total} yazarın kaç tanesini tanıyorsun? Sürekli karşına çıka çıka ezberlemeden ezberlersin.
+        ${summary.total} ${subjectNoun}ın kaç tanesini tanıyorsun? Sürekli karşına çıka çıka ezberlemeden ezberlersin.
       </p>
     </header>
 
