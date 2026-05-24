@@ -4,7 +4,7 @@ const SUBJECT_PREF_KEY = 'subject-preference';
 const MIGRATION_FLAG = 'migrated-v2';
 const DAY_MS = 86400000;
 
-const VALID_SUBJECTS = ['edebiyat', 'tarih'];
+const VALID_SUBJECTS = ['edebiyat', 'tarih', 'fen'];
 
 const DEFAULT_STATE = {
   version: 2,

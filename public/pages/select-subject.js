@@ -20,7 +20,7 @@ export async function renderSelectSubject() {
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-5">
+      <div class="grid md:grid-cols-3 gap-5">
         <!-- Edebiyat -->
         <button id="selectEdebiyat" class="group block text-left p-6 rounded-2xl border-2 border-sky-500/30 hover:border-sky-500 hover:bg-sky-50 dark:hover:bg-sky-900/30 transition-all">
           <div class="text-5xl mb-3">📚</div>
@@ -40,13 +40,27 @@ export async function renderSelectSubject() {
           <div class="text-5xl mb-3">⏳</div>
           <h2 class="text-2xl font-bold text-amber-700 dark:text-amber-200 mb-2 group-hover:text-amber-800">
             AYT Tarih
-            <span class="text-xs bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-200 rounded-full px-2 py-0.5 ml-1 font-normal">Yeni</span>
           </h2>
           <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">
             10 dönem · ÖSYM 2018-2025 analizi · 600+ kart hedefi
           </p>
           <p class="text-xs text-slate-500 italic">
             Tarihçi olma, tarihi yendin sayılır
+          </p>
+        </button>
+
+        <!-- TYT Fen -->
+        <button id="selectFen" class="group block text-left p-6 rounded-2xl border-2 border-emerald-500/30 hover:border-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-all">
+          <div class="text-5xl mb-3">⚗</div>
+          <h2 class="text-2xl font-bold text-emerald-700 dark:text-emerald-200 mb-2 group-hover:text-emerald-800">
+            TYT Fen
+            <span class="text-xs bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-200 rounded-full px-2 py-0.5 ml-1 font-normal">Yeni</span>
+          </h2>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">
+            24 ünite · Fizik · Kimya · Biyoloji · 8 yıl ÖSYM frekansı
+          </p>
+          <p class="text-xs text-slate-500 italic">
+            Sıcak alanlardan netleri uçur, 4 hafta plan
           </p>
         </button>
       </div>
@@ -77,6 +91,15 @@ export function setupSelectSubject() {
     setDataSubject('tarih');
     document.documentElement.setAttribute('data-subject', 'tarih');
     try { await refreshSyncForSubject('tarih'); } catch (e) { /* offline */ }
+    location.hash = '#/';
+    setTimeout(() => location.reload(), 50);
+  });
+
+  document.getElementById('selectFen')?.addEventListener('click', async () => {
+    saveSubjectPreference('fen');
+    setDataSubject('fen');
+    document.documentElement.setAttribute('data-subject', 'fen');
+    try { await refreshSyncForSubject('fen'); } catch (e) { /* offline */ }
     location.hash = '#/';
     setTimeout(() => location.reload(), 50);
   });

@@ -7,6 +7,17 @@ function escapeHtml(s) {
 }
 
 export async function renderAuthorList() {
+  // TYT Fen'de yazar/kişi veritabanı yok — empty state göster
+  if (getDataSubject() === 'fen') {
+    return `
+      <section class="max-w-2xl mx-auto py-12 px-4 text-center">
+        <div class="text-5xl mb-4">⚗</div>
+        <h1 class="text-2xl font-bold mb-2">TYT Fen'de yazar veritabanı yok</h1>
+        <p class="text-slate-600 dark:text-slate-400 mb-6">Fen Bilimleri ünite tabanlı çalışılır. Konu listesine geçerek 24 üniteyi keşfedebilirsin.</p>
+        <a href="#/konular" class="inline-block px-6 py-3 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">📚 Konulara Git</a>
+      </section>
+    `;
+  }
   const authors = await Data.authors();
   const cards = await Data.cards();
   const state = loadState();

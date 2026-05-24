@@ -8,3 +8,6 @@ __pycache__/
 .claude/
 
 .vercel
+
+# TYT Fen PDF'leri (lokal kullanım, prod'a yüklenmez)
+public/pdf/fen/

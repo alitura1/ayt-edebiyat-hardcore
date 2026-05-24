@@ -1,4 +1,4 @@
-import { Data, TOPIC_LABELS, topicLabel, altKonuToAuthorSlug, slugify } from '../lib/data.js';
+import { Data, TOPIC_LABELS, topicLabel, altKonuToAuthorSlug, slugify, getDataSubject } from '../lib/data.js';
 import { loadState, updateProgress, setSessionState, getSessionState, recordSrs } from '../lib/store.js';
 import { tickStreak } from '../lib/streak.js';
 
@@ -25,6 +25,8 @@ function getQuery() {
 export async function renderQuizSetup() {
   const q = getQuery();
   const presetKonu = q.konu || 'hepsi';
+  const presetDers = q.ders || 'hepsi';
+  const isFen = getDataSubject() === 'fen';
 
   const cards = await Data.cards();
   const state = loadState();
@@ -36,10 +38,37 @@ export async function renderQuizSetup() {
   const counts = {};
   for (const c of allCards) counts[c.konu] = (counts[c.konu] || 0) + 1;
 
-  // Form submit listener (innerHTML ile yerleştirilen <script> tag execute edilmediği için __pageSetup)
+  // Fen için ders sayıları
+  const dersCounts = isFen ? {
+    fizik: allCards.filter(c => c.ders === 'fizik' || (c.konu || '').startsWith('fizik_')).length,
+    kimya: allCards.filter(c => c.ders === 'kimya' || (c.konu || '').startsWith('kimya_')).length,
+    biyoloji: allCards.filter(c => c.ders === 'biyoloji' || (c.konu || '').startsWith('bio_')).length,
+  } : null;
+
+  // Form submit listener
   window.__pageSetup = () => {
     const form = document.getElementById('quizSetup');
     if (!form) return;
+    // Fen ders select değişince konu select'ini filtrele
+    const dersSel = form.querySelector('select[name="ders"]');
+    const konuSel = form.querySelector('select[name="konu"]');
+    const filterKonuByDers = () => {
+      if (!dersSel || !konuSel) return;
+      const d = dersSel.value;
+      konuSel.querySelectorAll('option').forEach(opt => {
+        const v = opt.value;
+        if (v === 'hepsi' || v === 'hata') { opt.hidden = false; return; }
+        if (d === 'hepsi') { opt.hidden = false; return; }
+        const matchesDers = (d === 'biyoloji' && v.startsWith('bio_'))
+          || (d === 'fizik' && v.startsWith('fizik_'))
+          || (d === 'kimya' && v.startsWith('kimya_'));
+        opt.hidden = !matchesDers;
+      });
+      if (konuSel.selectedOptions[0]?.hidden) konuSel.value = 'hepsi';
+    };
+    dersSel?.addEventListener('change', filterKonuByDers);
+    filterKonuByDers();
+
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       const data = new FormData(e.target);
@@ -48,9 +77,24 @@ export async function renderQuizSetup() {
         zorluk: data.get('zorluk') || 'hepsi',
         sayi: data.get('sayi') || '10',
       });
+      const dersVal = data.get('ders');
+      if (dersVal && dersVal !== 'hepsi') params.set('ders', dersVal);
       location.hash = '#/quiz?' + params.toString();
     });
   };
+
+  // Fen ders select bloğu
+  const dersBlock = isFen ? `
+      <div>
+        <label class="block text-sm font-semibold mb-1">Ders</label>
+        <select name="ders" class="w-full px-3 py-2 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900">
+          <option value="hepsi" ${presetDers==='hepsi'?'selected':''}>🔀 Hepsi (${totalCount})</option>
+          <option value="fizik" ${presetDers==='fizik'?'selected':''}>⚛ Fizik (${dersCounts.fizik})</option>
+          <option value="kimya" ${presetDers==='kimya'?'selected':''}>🧪 Kimya (${dersCounts.kimya})</option>
+          <option value="biyoloji" ${presetDers==='biyoloji'?'selected':''}>🧬 Biyoloji (${dersCounts.biyoloji})</option>
+        </select>
+      </div>
+  ` : '';
 
   return `
     <header class="mb-6">
@@ -59,6 +103,7 @@ export async function renderQuizSetup() {
     </header>
 
     <form id="quizSetup" class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-5 space-y-4 max-w-xl">
+      ${dersBlock}
       <div>
         <label class="block text-sm font-semibold mb-1">Konu</label>
         <select name="konu" class="w-full px-3 py-2 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900">
@@ -113,6 +158,13 @@ export async function renderQuizSession() {
     pool = all.filter(c => state.hata_defteri.includes(c.id));
   } else if (q.konu && q.konu !== 'hepsi') {
     pool = all.filter(c => c.konu === q.konu);
+  }
+  // REV26 — Fen ders filter (subject=fen iken aktif)
+  if (q.ders && q.ders !== 'hepsi') {
+    const dersPrefix = q.ders === 'biyoloji' ? 'bio_' : q.ders + '_';
+    pool = pool.filter(c =>
+      c.ders === q.ders || (c.konu || '').startsWith(dersPrefix)
+    );
   }
   if (q.zorluk && q.zorluk !== 'hepsi') {
     pool = pool.filter(c => (c.zorluk || 'orta') === q.zorluk);

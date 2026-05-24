@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "ders": "TYT Fen",
+    "sure": "4 hafta",
+    "strateji": "Hafta 1 sıcak alanlar konu öğrenme, Hafta 2 tarama testleri (PDF), Hafta 3 çıkmış sorular + hata defteri, Hafta 4 tam deneme + pekiştirme.",
+    "frekans_kaynak": "ÖSYM 2018-2025 TYT (8 yıl)"
+  },
+  "haftalar": [
+    {
+      "hafta_no": 1,
+      "baslik": "HAFTA 1 — SICAK ALANLARI ÖĞREN",
+      "vurgu": "🔥 Biyoloji 55 soru + Kimya 55 + Fizik 47 = TYT Fen toplam 40 soru/yıl. En sıcak: Bio Hücre (9), Kalıtım (8), Karışımlar (7), Periyodik Sistem (6), Sıvılar (6), Asit-Baz Tepkimeleri (6), Elektrik Devreleri (6), Madde-Özkütle (5), Optik (10). Önce bunlara yatırım yap.",
+      "gunler": [
+        {
+          "gun": "Pzt",
+          "ders": "biyoloji",
+          "konu": "Hücre + Canlıların Yapısında Bulunan Temel Bileşikler",
+          "rehber": "MEBİ Biyoloji s.9-99 — organik/inorganik bileşikler, hücre yapısı, organeller, zar geçişi",
+          "mebi": "Biyoloji s.9-99",
+          "sorular": "Site → Konular → bio_yasam_bilimi & bio_hucre kartları (~25 soru)",
+          "check": "Mitokondri/ribozom/Golgi farklarını çiz; aktif-pasif taşıma örnekleri yaz"
+        },
+        {
+          "gun": "Sal",
+          "ders": "biyoloji",
+          "konu": "Kalıtım + Hücre Bölünmeleri (Mitoz/Mayoz)",
+          "rehber": "MEBİ Biyoloji s.100-145 — Mendel, soyağacı, eşeye bağlı kalıtım; mitoz vs mayoz tablosu",
+          "mebi": "Biyoloji s.100-145",
+          "sorular": "Site → bio_kalitim & bio_bolunme kartları (~30 soru)",
+          "check": "1 soyağacı + 1 Punnett karesi çöz; mitoz/mayoz fark tablosu"
+        },
+        {
+          "gun": "Çar",
+          "ders": "biyoloji",
+          "konu": "Canlılar Dünyası + Ekosistem Ekolojisi",
+          "rehber": "MEBİ Biyoloji s.146-174 — sınıflandırma, alemler; besin zinciri, biyolojik çeşitlilik",
+          "mebi": "Biyoloji s.146-174",
+          "sorular": "Site → bio_canlilar & bio_ekosistem kartları (~15 soru)",
+          "check": "Canlı âlemleri tablosu; besin zincirinde enerji aktarım piramidi"
+        },
+        {
+          "gun": "Per",
+          "ders": "kimya",
+          "konu": "Karışımlar + Asit-Baz-Tuz (en sıcak kimya alanları)",
+          "rehber": "MEBİ Kimya s.76-93 — homojen/heterojen, ayırma teknikleri; asit-baz-tepkime",
+          "mebi": "Kimya s.76-93",
+          "sorular": "Site → kimya_karisimlar & kimya_asit_baz_tuz kartları (~19 soru)",
+          "check": "5 ayırma tekniği + 5 asit-baz tepkimesi denkleştir"
+        },
+        {
+          "gun": "Cum",
+          "ders": "kimya",
+          "konu": "Atom-Periyodik + Etkileşimler + Maddenin Hâlleri",
+          "rehber": "MEBİ Kimya s.21-65 — atom modelleri, periyodik trendler, iyonik/kovalent/metalik, sıvı-gaz",
+          "mebi": "Kimya s.21-65",
+          "sorular": "Site → kimya_atom_periyodik + kimya_etkilesim + kimya_madde_halleri (~24 soru)",
+          "check": "Periyodik trend tablosu; bağ türü sıralaması; hâl değişimi şeması"
+        },
+        {
+          "gun": "Cmt",
+          "ders": "fizik",
+          "konu": "Optik + Hareket ve Kuvvet (en sıcak fizik)",
+          "rehber": "MEBİ Fizik s.26-44 hareket; s.166-200 optik — mercek/ayna görüntü kuralları",
+          "mebi": "Fizik s.26-44 + 166-200",
+          "sorular": "Site → fizik_optik + fizik_hareket_kuvvet kartları (~27 soru)",
+          "check": "Newton 3 yasası örnekleri; mercek-ayna görüntü tipi tablo"
+        },
+        {
+          "gun": "Paz",
+          "ders": "fizik",
+          "konu": "Elektrik Devreleri + Isı-Sıcaklık + Dalgalar + Madde",
+          "rehber": "MEBİ Fizik s.71-145 + 15-25 — devre çözümleri, ısı denge, dalga türleri, özkütle",
+          "mebi": "Fizik s.15-25, 71-145",
+          "sorular": "Site → kalan fizik üniteleri (~26 soru)",
+          "check": "Seri-paralel devre direnç hesabı; ısı denge formülü; ρ=m/V örneği"
+        }
+      ]
+    },
+    {
+      "hafta_no": 2,
+      "baslik": "HAFTA 2 — TARAMA TESTLERİ (PDF üzerinden)",
+      "vurgu": "📝 MEB TARAMA TESTLERİ PDF'lerini açıp KENDİN ÇÖZ. Süre tut. Yanlışları site'de 'Hata Defteri'ne ekle. MEB nasıl sorular hazırlamış görmek için en iyi yol.",
+      "gunler": [
+        {"gun": "Pzt", "ders": "fizik", "konu": "Fizik Tarama 1.yarı (1-40 soru)", "rehber": "tyt-fizik-tarama-testi.pdf — Fizik Bilimine Giriş + Madde + Hareket + Enerji", "mebi": "Tarama PDF s.1-45", "sorular": "Manuel çöz, hata defteri tut", "check": "Doğru/yanlış oranı not al; hatalı konuları işaretle"},
+        {"gun": "Sal", "ders": "fizik", "konu": "Fizik Tarama 2.yarı (41-80 soru)", "rehber": "tyt-fizik-tarama-testi.pdf — Isı + Elektrik + Basınç + Dalgalar + Optik", "mebi": "Tarama PDF s.46-89", "sorular": "Manuel çöz, hata defteri", "check": "Site'de hatalıları kartla işle"},
+        {"gun": "Çar", "ders": "kimya", "konu": "Kimya Tarama 1.yarı (1-50 soru)", "rehber": "tyt-kimya-tarama-testi.pdf — Kimya Bilimi + Atom + Etkileşim + Hâller", "mebi": "Tarama PDF s.1-55", "sorular": "Manuel çöz", "check": "Periyodik+bağ tipi sorularını ayrı işaretle"},
+        {"gun": "Per", "ders": "kimya", "konu": "Kimya Tarama 2.yarı (51-100 soru)", "rehber": "tyt-kimya-tarama-testi.pdf — Kanunlar + Karışım + Asit-Baz", "mebi": "Tarama PDF s.56-108", "sorular": "Manuel çöz", "check": "Karışım ayırma + asit-baz tepkime sorularına özel odak"},
+        {"gun": "Cum", "ders": "biyoloji", "konu": "Biyoloji Tarama 1.yarı (1-30 soru)", "rehber": "tyt-biyo-tarama-testi.pdf — Yaşam Bilimi + Hücre", "mebi": "Tarama PDF s.1-37", "sorular": "Manuel çöz", "check": "Organel + zar geçişi sorularını işaretle"},
+        {"gun": "Cmt", "ders": "biyoloji", "konu": "Biyoloji Tarama 2.yarı (31-60 soru)", "rehber": "tyt-biyo-tarama-testi.pdf — Canlılar + Bölünme + Kalıtım + Ekosistem", "mebi": "Tarama PDF s.38-74", "sorular": "Manuel çöz", "check": "Soyağacı + Mendel sorularını ayrı çöz"},
+        {"gun": "Paz", "ders": "karma", "konu": "🔥 Hata Defteri Mega Tekrar", "rehber": "Site → Kartlar → Hata Defteri tab → tüm yanlışları yeniden çöz", "mebi": "—", "sorular": "Hata Defteri sıfırlanana kadar tekrar", "check": "Bitmeyen yanlışları manuel kart olarak ekle"}
+      ]
+    },
+    {
+      "hafta_no": 3,
+      "baslik": "HAFTA 3 — ÇIKMIŞ SORULARI BİTİR (Site Kartları)",
+      "vurgu": "🎯 154 ÖSYM 2018-2025 sorusu site'de hazır. Her gün ders rotasyonu + quiz modu. Atış modunu da kullan: 10 üst üste doğru hedefli.",
+      "gunler": [
+        {"gun": "Pzt", "ders": "fizik", "konu": "Fizik 53 ÖSYM Sorusu — 25'i hedef", "rehber": "#/quiz/setup → konu=fizik, sayı=25", "mebi": "—", "sorular": "Site Quiz → fizik (25 soru)", "check": "%70+ doğruluk hedefi"},
+        {"gun": "Sal", "ders": "fizik", "konu": "Fizik kalan 28 + hata tekrar", "rehber": "#/atis?ders=fizik", "mebi": "—", "sorular": "Atış modu fizik (10 üst üste doğru)", "check": "Best run kaydını yenile"},
+        {"gun": "Çar", "ders": "kimya", "konu": "Kimya 54 ÖSYM Sorusu — 25'i hedef", "rehber": "#/quiz/setup → konu=kimya, sayı=25", "mebi": "—", "sorular": "Site Quiz → kimya (25)", "check": "Karışım/Asit-Baz altyazı analiz"},
+        {"gun": "Per", "ders": "kimya", "konu": "Kimya kalan 29 + hata tekrar", "rehber": "#/atis?ders=kimya", "mebi": "—", "sorular": "Atış modu kimya", "check": "Periyodik tablo refleksi"},
+        {"gun": "Cum", "ders": "biyoloji", "konu": "Biyoloji 47 ÖSYM Sorusu — 25'i hedef", "rehber": "#/quiz/setup → konu=biyoloji, sayı=25", "mebi": "—", "sorular": "Site Quiz → biyoloji (25)", "check": "Hücre/Bölünme/Kalıtım üzerine"},
+        {"gun": "Cmt", "ders": "biyoloji", "konu": "Biyoloji kalan 22 + hata tekrar", "rehber": "#/atis?ders=biyoloji", "mebi": "—", "sorular": "Atış modu biyoloji", "check": "Soyağacı pratik"},
+        {"gun": "Paz", "ders": "karma", "konu": "Karma Quiz 40 Soru — Mini Deneme", "rehber": "#/quiz/setup → ders=hepsi, sayı=40", "mebi": "—", "sorular": "Site Quiz karma 40 (TYT Fen formatına uygun)", "check": "Doğruluk oranı + zayıf konu listesi"}
+      ]
+    },
+    {
+      "hafta_no": 4,
+      "baslik": "HAFTA 4 — DENEME + PEKİŞTİRME",
+      "vurgu": "🎓 Gerçek sınav simülasyonu. 40 dakika · 20 soru blokları · gerçek zaman tut. Hata defterini sıfırla; sınav günü öncesi son rötuş.",
+      "gunler": [
+        {"gun": "Pzt", "ders": "karma", "konu": "TYT Fen Deneme #1 (40 soru · 40 dk)", "rehber": "Site Quiz → karma 40 + tarama testlerinden 5 ekstra", "mebi": "—", "sorular": "Tam 40 deneme zaman tutarak", "check": "Net hesabı: doğru − yanlış/4"},
+        {"gun": "Sal", "ders": "karma", "konu": "Deneme 1 hatalarını işle + zayıf konular", "rehber": "Site → Hata Defteri + zayıf konuların kart havuzu", "mebi": "—", "sorular": "Hata defteri sıfırlanana kadar", "check": "Hangi konu en zayıf — onu derinleştir"},
+        {"gun": "Çar", "ders": "karma", "konu": "Sıcak Konular Hızlı Tekrar", "rehber": "Site → Konular → Sıcak filtresi → her birinden 2-3 soru", "mebi": "—", "sorular": "Sıcak konu kartları (~25)", "check": "Refleks hızını test et"},
+        {"gun": "Per", "ders": "karma", "konu": "TYT Fen Deneme #2 (40 soru · 40 dk)", "rehber": "Site Quiz → karma 40, yeni soru seçimi", "mebi": "—", "sorular": "Tam 40 deneme", "check": "Net Deneme #1'den yüksek mi?"},
+        {"gun": "Cum", "ders": "karma", "konu": "Deneme 2 hatalar + son boşluklar", "rehber": "Hata defteri + zayıf konu son round", "mebi": "—", "sorular": "Hata kartları + zayıf konu özeti tekrar", "check": "Tüm hata defteri sıfır mı?"},
+        {"gun": "Cmt", "ders": "karma", "konu": "Atış Modu Maraton", "rehber": "#/atis — günün en uzun streak'ini yakala", "mebi": "—", "sorular": "Atış mode (mümkün olan en uzun)", "check": "Best run rekoru kır"},
+        {"gun": "Paz", "ders": "karma", "konu": "Dinlenme + Sıcak Konu Flash-Bak", "rehber": "Konular sayfası → 24 ünite başlığına bakıp zihnen özet çek", "mebi": "—", "sorular": "Sınav öncesi dinlenme — quiz yok", "check": "Zihinsel hazırlık, sınav malzemesi hazır"}
+      ]
+    }
+  ]
+}

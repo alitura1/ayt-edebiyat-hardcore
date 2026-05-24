@@ -17,6 +17,7 @@ import { renderGroupList, renderGroupDetail } from './pages/groups.js';
 import { renderLogin, renderRegister, renderProfile } from './pages/auth.js';
 import { renderSelectSubject, setupSelectSubject } from './pages/select-subject.js';
 import { renderCikmisSorular } from './pages/cikmis-sorular.js';
+import { renderSimulations } from './pages/simulations.js';
 import { streakInfo, currentBadge } from './lib/streak.js';
 import { initSync, scheduleSync, currentSyncUid, refreshSyncForSubject } from './lib/sync.js';
 import { startNotifyScheduler } from './lib/notify.js';
@@ -29,6 +30,7 @@ import { setDataSubject } from './lib/data.js';
 const SUBJECT_META = {
   edebiyat: { title: 'AYT Edebiyat — Hardcore Hazırlık', slogan: 'Yazar avı, ezber atışı' },
   tarih:    { title: 'AYT Tarih — Hardcore Hazırlık',    slogan: 'Tarihçi olma, tarihi yendin sayılır' },
+  fen:      { title: 'TYT Fen — Hardcore Hazırlık',      slogan: 'Fizik · Kimya · Biyoloji — 4 hafta uçuş' },
 };
 
 // ---- Tema ----
@@ -80,6 +82,7 @@ function updateSubjectToggle() {
   toggle.innerHTML = `
     <button data-sub="edebiyat" class="px-2.5 py-1 rounded-full text-xs font-bold transition ${current==='edebiyat' ? 'bg-primary-600 text-white' : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'}">📚 Edebiyat</button>
     <button data-sub="tarih" class="px-2.5 py-1 rounded-full text-xs font-bold transition ${current==='tarih' ? 'bg-amber-600 text-white' : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'}">⏳ Tarih</button>
+    <button data-sub="fen" class="px-2.5 py-1 rounded-full text-xs font-bold transition ${current==='fen' ? 'bg-emerald-600 text-white' : 'text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'}">⚗ Fen</button>
   `;
   toggle.querySelectorAll('button[data-sub]').forEach(btn => {
     btn.addEventListener('click', async () => {
@@ -164,6 +167,8 @@ async function render() {
       html = await renderSettings();
     } else if (parts[0] === 'atis') {
       html = await renderAtis();
+    } else if (parts[0] === 'simulasyonlar') {
+      html = await renderSimulations();
     } else if (parts[0] === 'koleksiyon') {
       html = await renderCollection();
     } else if (parts[0] === 'eserler' && !parts[1]) {

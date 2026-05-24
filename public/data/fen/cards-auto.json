@@ -1,0 +1,5175 @@
+[
+  {
+    "id": "fn_0001",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "İnsanlar, ihtiyaçlarına cevap verecek şekilde eşyaları geliştirirken özkütlesi daha büyük veya daha küçük olan malzemeleri tercih edebilir. Buna göre; I. dört kişilik yemek masasının altı kişilik daha büyük bir masayla değiştirilmesi, II. çiçek vazosunun rüzgârdan savrulmaması için daha ağır ama aynı boyut ve biçimde olan başka bir vazoyla değiştirilmesi, III. hafif bir tatlı kaşığının daha ağır bir kaşıkla değiştirilmesi eylemlerinden hangileri kesinlikle özkütlesi daha büyük yeni bir eşya yapımını gerektirir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0002",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Yeni keşfedilmiş bir gezegende şekildeki gibi bir balonla yerden yüksekte atmosferik ölçümler yapılması planlanıyor. Atmosfer sıcaklığının sabit olduğu kabul edilen bu gezegende bulunan A, B, C ve D gazlarının sabit sıcaklık ve basınçtaki kütle-hacim grafiği aşağıdaki gibidir. Bu gezegenin atmosferi A, B, C veya D gazlarından oluşabileceği gibi balon da bu gazlarla doldurulabilir. Balonun ve üzerindeki ölçüm cihazlarının ağırlığı ihmal edildiğine göre; Atmosfer Balon I. A B ve D Karışımı II. B A III. C ve D Karışımı C durumlarından hangilerinde balon yerden havalanarak atmosferik ölçümler yapabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0003",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Süsleme sanatlarından biri olan ebru, ebru teknesinde yer alan yoğunlaştırılmış su üzerinde yüzen toprak ve toz boyalarla resim ve desen oluşturma sanatıdır. Çiçeği kırmızı ve gövdesi yeşil renkli olan şekildeki gibi bir lale resmi oluşturmak amacıyla kullanılması planlanan su ve boyaların kütle-hacim grafiği aşağıda verilmiştir. Şekildeki lale resmini oluşturabilmek için ebru teknesinde I. Yalnızca A suyu kullanılabilir. II. Yalnızca B suyu kullanılabilir. III. A ve B sularından elde edilen bir karışım kullanılabilir. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "I ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0004",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Melike, marketten aldığı elmayı yıkamak için bir kaba bir miktar su doldurup elmayı içerisine bırakıyor. Daha sonra elmanın bulunduğu kaptaki suya aynı sıcaklıkta bir miktar sirke döktüğünde kap tabanında batmış hâlde bulunan elma şekildeki gibi yüzmeye başlıyor. elma elma su sirkeli su Sirke ile elma arasındaki etkileşim ihmal edildiğine göre I. Sirkeli suyun özkütlesi suyun özkütlesinden daha büyüktür. II. Suyun özkütlesi elmanın özkütlesinden daha büyüktür. III. Sirkeli suyun özkütlesi elmanın özkütlesinden daha büyüktür. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0005",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Günlük hayatta karşılaşılabilecek; I. yağmur damlasının küresel şekil alma eğilimi, II. bazı böceklerin göllerdeki suyun yüzeyinde rahatça yürüyebilmeleri, III. bir yüzeye pipetle bırakılan farklı cins sıvı damlalarının farklı şekiller alması olaylarından hangileri yüzey geriliminin bir sonucudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0006",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "Hareket",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Bir hareketlinin zamana göre aldığı yol, aşağıdaki tabloda verilmiştir. Buna göre, bu hareketlinin sürat-zaman grafiği aşağıdakilerden hangisi gibi olabilir? A) B) C) D) E)",
+    "secenekler": [],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0007",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Bir koşu parkurunda K ve L koşucuları, şekilde gösterildiği gibi farklı yarıçaplı çembersel yollar boyunca, ok yönünde aynı anda koşmaya başlamışlardır. Çembersel parkurdaki bir turu, ilk olarak K koşucusu daha sonra L koşucusu tamamlamıştır. Başlama ve Bitiş Çizgisi K L K ve L koşucuları parkurlarındaki bir turu tamamlayıp koşuya başladıkları noktaya ulaştıklarında K koşucusuna ait; I. yer değiştirme, II. ortalama sürat, III. ortalama hız niceliklerinden hangileri L koşucusununkinden daha büyüktür?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0008",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Otoyolda hareket eden bir otomobilin 30 saniye boyunca yaptığı toplam yer değiştirmenin büyüklüğü ile bu sürede aldığı toplam yolun birbirine eşit olduğu gözlenmiştir. Buna göre otomobil 30 saniye boyunca, I. Sabit hızla hareket etmiştir. II. Sürekli aynı yönde gitmiştir. III. Doğrusal bir yolda hareket etmiştir. yargılarından hangileri kesinlikle doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0009",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Ali kolundaki akıllı saat sayesinde günlük adım sayısını ölçebilmektedir. Saat 08.00’de evinin dış kapısından çıkıp akşam 16.00’da evinin dış kapısındaki aynı noktaya geri dönen Ali bu zaman aralığında toplam 10.000 adım attığını tespit ediyor. Ali’nin bir adımı ortalama 80 cm olduğuna göre belirtilen saatler arasındaki ortalama hızının büyüklüğü kaç km/h’tir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      },
+      {
+        "id": "E",
+        "text": "8"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0010",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Freni bozulmuş olan bir otomobil, yatay düz bir yolda hareket ederken kütlesi kendi kütlesinden çok küçük olan bir çöp kovasına çarpmıştır. Bu sırada kaldırımda otobüs bekleyen Ahmet, Burçin ve Cevdet olaya tanık olmuş ve otomobil ile kovanın birbirlerine temas etmekte oldukları çok kısa süren çarpışma süreciyle ilgili aşağıdaki yorumları yapmışlardır. • Ahmet: Otomobilin kovaya uyguladığı kuvvet, kovanın otomobile uyguladığından büyüktür. • Burçin: Kovanın ivmesi, otomobilinkinden büyüktür. • Cevdet: Kovanın hızı, otomobilinkinden daha büyük değişim göstermiştir. Buna göre; Ahmet, Burçin ve Cevdet’in yorumlarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız Ahmet"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız Burçin"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız Cevdet"
+      },
+      {
+        "id": "D",
+        "text": "Ahmet ve Burçin"
+      },
+      {
+        "id": "E",
+        "text": "Burçin ve Cevdet"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0011",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Ahmet ve Canan bir koltuğa şekildeki gibi sola doğru sırasıyla 25 N ve 10 N’lik kuvvetleri birlikte uygulamaktadır. Bu esnada koltuk ve yatay yüzey arasında 5 N’lik kinetik sürtünme kuvveti oluşmaktadır. Buna göre hareket esnasında koltuğa etkiyen net kuvvetin büyüklüğü ve yönü aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "10 N - Sol"
+      },
+      {
+        "id": "B",
+        "text": "30 N - Sol"
+      },
+      {
+        "id": "C",
+        "text": "30 N - Sağ"
+      },
+      {
+        "id": "D",
+        "text": "40 N - Sol"
+      },
+      {
+        "id": "E",
+        "text": "40 N - Sağ"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0012",
+    "konu": "fizik_hareket_kuvvet",
+    "alt_konu": "Newton’ın Hareket Yasaları",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Hareket hâlindeki bir otomobil, tren ve uçağın sahip oldukları hızlar ve bu araçlara hareketleri süresince etki eden net kuvvetlerin büyüklükleri ile ilgili bilgiler aşağıda belirtildiği gibidir: • Sabit 100 km/h hız ile hareket eden otomobile etki eden net kuvvetin büyüklüğü F1 dir. • Hızı, durgun hâlden 200 km/h’e yükselen trene etki eden net kuvvetin büyüklüğü F2 dir. • Pist boyunca sabit 250 km/h hız ile hareket eden uçağa etki eden net kuvvetin büyüklüğü F3 tür. Buna göre F1, F2 ve F3 net kuvvetlerinin büyüklükleri arasındaki ilişki aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "F3 > F1 = F2"
+      },
+      {
+        "id": "B",
+        "text": "F3 > F2 > F1"
+      },
+      {
+        "id": "C",
+        "text": "F1 = F2 > F3"
+      },
+      {
+        "id": "D",
+        "text": "F2 > F1 = F3"
+      },
+      {
+        "id": "E",
+        "text": "F1 = F2 = F3"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0013",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Bir öğretmen, kütlesi 1 kg olan kitabı sınıfta, yatay bir masa üzerine hareketsiz duracak şekilde bırakmıştır. Öğrencilerine kitap, masa ve Yerküre’nin birbirlerine uyguladıkları kuvvetler hakkında düşüncelerini sormuştur. Kitaba veya masaya başka bir kuvvet etki etmediğine göre aşağıdaki öğrenci ifadelerinden hangisi yukarıda verilen bilgilerden çıkarılamaz? (Yer çekimi ivmesini g=10 m/s2 alınız.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Kitabın Yerküre’ye uyguladığı kuvvet 10 N’dir."
+      },
+      {
+        "id": "B",
+        "text": "Yerküre’nin kitaba uyguladığı kuvvet 10 N’dir."
+      },
+      {
+        "id": "C",
+        "text": "Kitabın masaya uyguladığı kuvvet 10 N’dir."
+      },
+      {
+        "id": "D",
+        "text": "Masanın kitaba uyguladığı kuvvet 10 N’dir."
+      },
+      {
+        "id": "E",
+        "text": "Yerküre’nin masaya uyguladığı kuvvet 10 N’dir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0014",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Farklı malzemeden yapılmış m, 2m ve 4m kütleli K, L ve M blokları yatay olarak ayrı ayrı uygulanan aynı F kuvvetinin etkisi altında yatay beton zemin üzerinde hareketsiz durmaktadır. Bloklar ile beton zemin arasındaki statik sürtünme katsayısının K bloğu için 1, L bloğu için 0,5 ve M bloğu için ise 0,8 olduğu bilinmektedir. F kuvvetine rağmen hareket etmeyen K, L ve M blokları ile yüzey arasında oluşan statik sürtünme kuvvetleri fK, fL ve fM lerin büyüklük sıralaması aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "fK = fL = fM"
+      },
+      {
+        "id": "B",
+        "text": "fK > fL > fM"
+      },
+      {
+        "id": "C",
+        "text": "fK < fL < fM"
+      },
+      {
+        "id": "D",
+        "text": "fK = fL < fM"
+      },
+      {
+        "id": "E",
+        "text": "fK = fL > fM"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0015",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Eşit kütleli katılımcıların performanslarını sergiledikleri bir yarışmada; her birinin kütlesi 50 kilogram olan 10 adet çimento torbasını 10 metre yüksekliğe en kısa sürede çıkaran katılımcı yarışı kazanmaktadır. Bu yarışmada, katılımcıların hangi fiziksel niceliği dikkate alınarak kazanan belirlenmektedir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Torbalara aktardıkları toplam enerji"
+      },
+      {
+        "id": "B",
+        "text": "Yaptıkları iş"
+      },
+      {
+        "id": "C",
+        "text": "Kütleçekimsel potansiyel enerji"
+      },
+      {
+        "id": "D",
+        "text": "Ortaya çıkarabildikleri güç"
+      },
+      {
+        "id": "E",
+        "text": "Yaptıkları işin harcadıkları enerjiye oranı"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0016",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "Isı ve Sıcaklık",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Hava sıcaklığının deniz suyu sıcaklığından yüksek olduğu bir yaz günü, Akdeniz sahilinde deniz kenarında oynamakta olan bir çocuk, denizden bir kova su alıyor. Deniz suyunun homojen olduğu bilindiğine göre, deniz suyu ve kovadaki su ile ilgili; I. Bir kova su aldığı anda kovadaki suyun öz ısısı denizdeki suyun öz ısısına eşittir. II. Kovadaki suyun ısı sığası denizdeki suyun ısı sığasına eşittir. III. Kısa bir süre sonra kovadaki suyun sıcaklığı deniz suyunun sıcaklığına göre daha fazla artacaktır. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0017",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "İçinde homojen meyve suyu bulunan kutudan bir çay bardağına ve hacimce çay bardağından daha büyük olan bir su bardağına, bardakları tamamen dolduracak biçimde saf meyve suyu konmuştur. Hem bardaklar hem de içlerindeki meyve suyu oda sıcaklığındadır. Bardakların ısı sığası ihmal edildiğine göre yalıtılmış ortamda bulunan çay bardağındaki ve su bardağındaki meyve suyu ile ilgili I. Her ikisine de 100 J ısı verilirse çay bardağındaki meyve suyunun sıcaklığı daha yüksek olur. II. Her ikisinin de öz ısısı aynıdır. III. Çay bardağındaki meyve suyunun ısı sığası daha büyüktür. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0018",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Ahsen; marketten aldığı ve oda sıcaklığında (25 °C) bulunan birer kutu süt, peynir ve zeytini içinin sıcaklığı 4 °C olan dış ortamdan ısıca yalıtılmış bir buzdolabına koyduğunda elektrikler kesiliyor. Elektrikler kesilmiş hâlde kapağı kapalı olan buzdolabındaki ürünleri birbirleriyle ısı alışverişi sona erene kadar yeterince bekletiyor. Isı alışverişi kesildiğinde I. Buzdolabının içinin sıcaklığı azalmıştır. II. Süt, peynir ve zeytinin son sıcaklıkları birbirine eşittir. III. Süt, peynir ve zeytin ortama aynı miktar ısı vermiştir. yargılarından hangileri kesinlikle doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0019",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Aşağıdaki tabloda çeşitli maddelerin ısı iletim katsayıları verilmektedir. Maddelerin ısı iletim katsayıları dikkate alınarak yapılan; I. elimizin yanmaması için bir tencere sapının çelik yerine poliüretan malzemeden yapılması, II. pencerelerin ısı yalıtımı için tek parça kalın bir cam yerine aynı kalınlıkta olacak şekilde arasında hava olan iki ince camdan imal edilmesi, III. oturduğumuz yeri soğuk hissetmememiz için soğuk coğrafyada açık havada yer alan bir bankın tahta yerine çelikten yapılması seçimlerinin hangileri amacına uygun olarak yapılmıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0020",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "Enerji İletim Yolları ve Enerji İletim Hızı",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Sıcaklığı 5 °C olan bir odada uzun bir süre kalmış ve boyutları birbirinin aynı olan K ve L metal plakalarını eline alan Ayşe, K’nin L’den daha soğuk olduğunu hissetmiştir. Buna göre aynı ortamda bulunan bu plakaların üzerine özdeş ve el derisi ile benzer ısıl özelliklere sahip birer küçük buz parçası koyulduğunda; • üzerindeki buzun, diğerine göre daha çabuk eriyeceği plaka, • buzun bu plaka üzerinde diğerine göre daha çabuk erimesinin nedeni aşağıdakilerin hangisinde bir arada doğru olarak verilmiştir? Plaka Nedeni",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "K K’nin ısı iletim katsayısı L’ninkinden daha büyüktür."
+      },
+      {
+        "id": "B",
+        "text": "K L’nin sıcaklığı K’ninkinden daha büyüktür."
+      },
+      {
+        "id": "C",
+        "text": "L L’nin ısı iletim katsayısı K’ninkinden daha büyüktür."
+      },
+      {
+        "id": "D",
+        "text": "L K’nin ısı iletim katsayısı L’ninkinden daha büyüktür."
+      },
+      {
+        "id": "E",
+        "text": "L L’nin sıcaklığı K’ninkinden daha büyüktür."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0021",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "Enerji İletim Yolları ve Enerji İletim Hızı",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Isıl etkileşim hâlindeki maddeler arasındaki enerji aktarımı; iletim, konveksiyon veya ışıma yolu ile gerçekleşebilmektedir. Buna göre Güneş’in uzaya verdiği ısının maddesel ortama ihtiyaç duymaksızın Yerküre atmosferinin en dış katmanına ulaşabilmesi durumu; I. iletim, II. ışıma, III. konveksiyon yollarından hangileriyle ısının aktarıldığına örnek olarak verilebilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0022",
+    "konu": "fizik_isi_sicaklik",
+    "alt_konu": "Genleşme",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Maddeler ısı alışverişi sonucu genleşebilmektedir. Buna göre; I. elektrik direklerinin arasına gerilmiş olan tellerin yaz aylarında sarkması, II. termostattaki doğrusal metal çiftinin sıcaklığının artması sonucu bükülmesi, III. düzgün olan tren raylarının yaz aylarında bükülmesi olaylarından hangileri maddelerin ısı alışverişiyle genleşmesi sonucunda olabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0023",
+    "konu": "fizik_elektrostatik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Erhan’ın annesi, bir cam şişenin içini kaynamış su ile çalkaladıktan hemen sonra, ağız kısmına şişirilmemiş balonu Şekil 1’deki gibi bağlayarak Erhan’ın oynaması için masanın üzerine bırakmıştır. Erhan, birkaç dakika sonra balonun cam şişenin içine geçerek Şekil 2’deki gibi içeri doğru şiştiğini görür. Erhan daha sonra cam şişeyi içinde buzlu su bulunan bir kovaya, içine su girmeyecek şekilde yerleştirirse balonun son hâliyle ilgili aşağıdakilerden hangisi doğru olur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şişenin içinde daha fazla şişer."
+      },
+      {
+        "id": "B",
+        "text": "Şişenin içinde biraz söner."
+      },
+      {
+        "id": "C",
+        "text": "Durumu değişmez."
+      },
+      {
+        "id": "D",
+        "text": "İlk hâline geri döner."
+      },
+      {
+        "id": "E",
+        "text": "Şişeden çıkıp dışarda şişer."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0024",
+    "konu": "fizik_elektrostatik",
+    "alt_konu": "Elektrik Yükleri",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Elektriksel olarak nötr olmadığı bilinen K, L ve M iletken küreleri ayrı ayrı birbirlerine yaklaştırılıyor. Küreler arası elektriksel etkileşmelerden dolayı K küresinin L küresini ittiği, L küresinin ise M küresini çektiği gözleniyor. Buna göre, kürelerin yüklerinin cinsleri ile ilgili aşağıdakilerden hangisi doğru olabilir? K küresi L küresi M küresi",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Pozitif Pozitif Pozitif"
+      },
+      {
+        "id": "B",
+        "text": "Negatif Negatif Negatif"
+      },
+      {
+        "id": "C",
+        "text": "Negatif Pozitif Pozitif"
+      },
+      {
+        "id": "D",
+        "text": "Negatif Negatif Pozitif"
+      },
+      {
+        "id": "E",
+        "text": "Pozitif Negatif Negatif"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0025",
+    "konu": "fizik_elektrostatik",
+    "alt_konu": "Elektrik Yükleri",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Başlangıçta elektriksel olarak nötr olduğu bilinen Ayşe, Ezgi ve Seda; öğretmenlerinin vermiş olduğu ödev gereğince kendilerini elektrik yüklü hâle getirmek için aşağıdaki işlemleri yapmışlardır. • Ayşe: Halı üzerinde ayaklarını sürtüp halıdan elektron alarak yürümüştür. • Ezgi: Çalışmakta olan Van de Graff jeneratörüne bir süre dokunmuş ve elektron kaybederek saçları havaya kalkmıştır. • Seda: Kazağını hızlı bir şekilde çıkarırken elektronların kazağa geçmesi sonucu kolundaki tüyler diken diken olmuştur. Buna göre hangi öğrenciler yaptıkları işlemlerden hemen sonra negatif yüklü hâle gelmiştir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız Ayşe"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız Ezgi"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız Seda"
+      },
+      {
+        "id": "D",
+        "text": "Ayşe ve Seda"
+      },
+      {
+        "id": "E",
+        "text": "Ezgi ve Seda"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0026",
+    "konu": "fizik_elektrik_manyetizma",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Pozitif olarak yüklendiği bilinen bir tarak, başlangıçta nötr olduğu bilinen bir kâğıt parçasına dokundurulduğunda düzgün dikdörtgen kâğıt parçasının şekildeki gibi düşey olacak biçimde tarağa temas ederek havada asılı kaldığı görülmektedir. Kâğıt parçasının üst yarısı A ve alt yarısı da B şeklinde adlandırılmaktadır. Tarak Kâğıt A B yer (yatay) Tarağın, asılı kâğıt parçasının A kısmına uyguladığı elektriksel kuvvet F¶A ve B kısmına uyguladığı elektriksel kuvvet F¶B’dir. Kâğıt parçasının tamamına Yerküre’nin uyguladığı kütle çekim kuvveti ise G¶’dir. Buna göre, I. F¶A düşey ve aşağı yönlüdür. II. F¶B düşey ve aşağı yönlüdür. III. F¶A’nın büyüklüğü G¶’nin büyüklüğünden fazladır. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0027",
+    "konu": "fizik_elektrik_manyetizma",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Bir odadaki çalışma masasının yüzeyinde ortalama 750 candela’lık aydınlanma şiddeti; I. 75 watt’lık akkor filamanlı, II. 13 watt’lık LED, III. 40 watt’lık floresan ampullerinden herhangi biri ile tek başına sağlanabilmektedir. Bu ampuller eşit süre çalıştırıldıklarında akkor filamanlı, LED ve floresan ampullerin harcadıkları elektrik enerjileri sırasıyla EI, EII ve EIII ise bunlar arasındaki ilişki aşağıdakilerin hangisinde doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "EI = EII = EIII"
+      },
+      {
+        "id": "B",
+        "text": "EI > EIII > EII"
+      },
+      {
+        "id": "C",
+        "text": "EI > EII = EIII"
+      },
+      {
+        "id": "D",
+        "text": "EI = EIII > EII"
+      },
+      {
+        "id": "E",
+        "text": "EIII > EII > EI"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0028",
+    "konu": "fizik_elektrik_manyetizma",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Özdeş ampullerden oluşan şekildeki elektrik devresinde K ve L anahtarları kapalıdır. Buna göre; I. Tüm anahtarlar kapalı iken bütün ampuller ışık verir. II. Yalnız K anahtarı açıldığında sadece X ampulü ışık verir. III. Yalnız L anahtarı açıldığında sadece X ve Y ampulü ışık verir. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0029",
+    "konu": "fizik_elektrik_manyetizma",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Ayşenur, laboratuvarda bulunan K, L, M, N ve P ampullerini Şekil 1’deki gibi bağladığında toplam 3 tane ampulün ışık verdiğini fark ediyor. Daha sonra aynı ampulleri Şekil 2’deki gibi bağladığında ise toplamda yine 3 tane ampulün ışık verdiğini gözlemliyor. Ayşenur’un kullanmış olduğu ampullerden yalnızca bir tanesinin bozuk olduğu bilindiğine göre bozuk olan ampul aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "K"
+      },
+      {
+        "id": "B",
+        "text": "L"
+      },
+      {
+        "id": "C",
+        "text": "M"
+      },
+      {
+        "id": "D",
+        "text": "N"
+      },
+      {
+        "id": "E",
+        "text": "P"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0030",
+    "konu": "fizik_elektrik_manyetizma",
+    "alt_konu": "Elektrik Devreleri",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Aşağıdaki tabloda şehir gerilimi ile çalışan K, L ve M elektrikli ev aletlerinin güçleri ve günlük ortalama çalıştırılma süreleri verilmiştir. Bu ev aletleri, fişleri doğrudan şehir şebekesine bağlı olan prizlere takılarak kullanıldığında bir ayda harcadıkları ortalama elektrik enerjileri (EK, EL ve EM) arasındaki ilişki aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "EK > EM > EL"
+      },
+      {
+        "id": "B",
+        "text": "EM > EL > EK"
+      },
+      {
+        "id": "C",
+        "text": "EM > EK > EL"
+      },
+      {
+        "id": "D",
+        "text": "EK > EL > EM"
+      },
+      {
+        "id": "E",
+        "text": "EK = EL = EM"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0031",
+    "konu": "fizik_elektrik_manyetizma",
+    "alt_konu": "Elektrik Devreleri",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "İç direnci ihmal edilen bir pil, anahtar ile özdeş K, L, M, N, P ve R ampullerini bağlayarak şekildeki elektrik devresini kuran öğrenci ilk gözleminde anahtarın ucunu 1 numaralı noktaya temas ettirip ampullerin parlaklığını gözlemliyor. İkinci gözleminde ise anahtarın ucunu 2 numaralı noktaya temas ettirip ampullerin parlaklığını gözlemliyor. Buna göre öğrencinin yaptığı gözlemlerde hangi ampullerin parlaklığı her iki gözlem için değişmeden aynı kalır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız K"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız R"
+      },
+      {
+        "id": "C",
+        "text": "L ve M"
+      },
+      {
+        "id": "D",
+        "text": "N ve P"
+      },
+      {
+        "id": "E",
+        "text": "K, N ve P"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0032",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "A, B ve C iletken tellerinin uçları arasındaki potansiyel farklar ve üzerlerinden geçen akımı gösteren grafik aşağıdaki gibidir. Bu teller kesilmeden ve şekilleri değiştirilmeden kendileri ile aynı harfi taşıyan A, B ve C ampullerinin yapımında flaman olarak kullanılmıştır. Bu ampuller, iç direnci önemsiz bir üreteç ve bağlantı kabloları ile şekildeki elektrik devresi kurulmuştur. A, B ve C ampullerinin sırasıyla, uçları arasındaki VA, VB, VC potansiyel farkları ve PA, PB, PC birim zamanda harcadıkları elektrik enerjileri arasındaki ilişki aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "VA > VB > VC PA > PB > PC"
+      },
+      {
+        "id": "B",
+        "text": "VA > VB > VC PA < PB < PC"
+      },
+      {
+        "id": "C",
+        "text": "VA < VB < VC PA > PB > PC"
+      },
+      {
+        "id": "D",
+        "text": "VA = VB = VC PA = PB = PC"
+      },
+      {
+        "id": "E",
+        "text": "VA = VB = VC PA < PB < PC"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0033",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Çiftçilikle uğraşan Veli; şekilde görüldüğü gibi yüklerini, traktörün arkasına bağladığı iki römork ile çamurlu yatay bir zemindeki bir bölgenin karşısına geçirmek istemektedir. Fakat yüklü römorkların çamura saplanmasından endişe duyduğu için römorkların tekerlekleri ile yatay zemin arasındaki basıncı azaltmak istemektedir. Buna göre Veli, yükleri; I. römorkların yedek tekerleklerini de kullanarak şekildeki gibi karşıya geçirme, II. her bir römorkun yükünü yarıya indirip şekildeki gibi iki seferde karşıya geçirme, III. römorkları traktöre ayrı ayrı bağlayıp sırayla şekildeki gibi karşıya geçirme eylemlerinden hangilerini yaparsa römorkların tekerlekleri ile zemin arasındaki basınç, ilk duruma göre azalır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0034",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Belediyenin yaptığı yol çalışması sırasında yer altındaki bir su borusu farklı zamanlarda iki farklı yerinden hasar görmüştür. Düşey ve silindirik matkap önce K noktasında dairesel bir delik açmış ve suyun Şekil 1’deki gibi yükseldiği gözlenmiştir. K noktası onarıldıktan sonra L noktasında aynı çaplı dairesel delik açılmış ve suyun Şekil 2’deki gibi yükseldiği gözlenmiştir. K noktası civarındaki borunun çapı, L noktası civarındakine göre daha fazladır. Hasar görmeden önce su, borulardan sürekli olarak akmaktadır. Borunun hasar gördüğü ilk anda K noktasından çıkan suyun yüksekliği hK iken L noktasındaki hL’dir. Boru hasar gördüğü anda K noktası civarındaki suyun akıntı sürati vK iken L noktası civarındaki vL’dir. Sürtünme gibi etkilerle enerji kaybı önemsizse borunun hasar gördüğü anda K ve L noktasından çıkan suyun yüksekliği ile akıntı sürati arasındaki ilişkiler aşağıdakilerin hangisinde bir arada doğru olarak verilmiştir? Suyun yüksekliği Suyun akıntı sürati",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "hK = hL vK = vL"
+      },
+      {
+        "id": "B",
+        "text": "hK = hL vK < vL"
+      },
+      {
+        "id": "C",
+        "text": "hK > hL vK = vL"
+      },
+      {
+        "id": "D",
+        "text": "hK > hL vK > vL"
+      },
+      {
+        "id": "E",
+        "text": "hK > hL vK < vL"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0035",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Ahsen, tamamen su dolu bir taşırma kabına suda çözünmeyen K ve L katı cisimlerini ayrı ayrı yavaşça bıraktığında; her ikisinin eşit hacimde su taşırdığını gözlemliyor. Ahsen’in bu gözlemine göre; I. K ve L cisimlerine suyun uyguladığı kaldırma kuvvetleri eşittir. II. K ve L cisimlerinin hacimleri eşittir. III. K ve L cisimlerinin özkütleleri eşittir. yargılarından hangileri kesinlikle doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0036",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "M kütleli, homojen ve suda çözünmeyen katı bir cisim şekildeki gibi yüzüyor. Suyun içerisine bir miktar tuz atılıp tuzun çözünmesi bekleniyor. Sıcaklığın sabit olduğu bilindiğine göre, tuz çözündüğünde cismin batan kısmının hacmi ile cisme etkiyen kaldırma kuvveti ilk duruma göre nasıl değişir? Cismin Batan Kısmının Hacmi Cisme Etkiyen Kaldırma Kuvveti",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Azalır Değişmez"
+      },
+      {
+        "id": "B",
+        "text": "Artar Azalır"
+      },
+      {
+        "id": "C",
+        "text": "Değişmez Değişmez"
+      },
+      {
+        "id": "D",
+        "text": "Azalır Artar"
+      },
+      {
+        "id": "E",
+        "text": "Değişmez Azalır"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0037",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Altay; içinde su bulunan yatay zemindeki bir kaba hacimleri birbirine eşit, her biri içi dolu küre şeklindeki alüminyum, demir ve tahtadan yapılmış üç topu bıraktığında ilk ikisinin batarken tahtanın yüzdüğünü gözlemliyor. Demirin özkütlesi alüminyumun özkütlesinden büyük olduğuna göre I. Demir ve alüminyum topa, suyun uyguladığı kaldırma kuvveti eşit büyüklüktedir. II. Tahta topa, ağırlığına eşit büyüklükte kaldırma kuvveti etki eder. III. Tahta top diğerlerinden daha fazla hacimde suyun yerini değiştirir. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0038",
+    "konu": "fizik_dalgalar",
+    "alt_konu": "Dalgalar",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Merih bir gitar telini ortasından çekip bıraktığında telin detaylı hareketini göremediğini ama telin Şekil 1’de gösterilen dalga biçimli bir bölgeyi taradığını fark eder. Merih bundan sonra Şekil 1’deki tele, gitarın tam ortasındaki perdeye temas edecek şekilde hafifçe bastırır ve bu defa telin Şekil 2’deki gibi bir bölgeyi taradığını gözlemler. Buna göre teldeki dalgayla ilgili, I. Dalga boyu yarıya düşmüştür. II. Frekans 2 katına çıkmıştır. III. Dalga hızı 2 katına çıkmıştır. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0039",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Bir ucu duvara sabitlenmiş bir ipin serbest ucu belirli bir kuvvetle gerilerek aşağı yukarı hareket ettirildiğinde ip üzerinde frekansı f1 ve hızı v1 olan Şekil 1’deki dalga oluşturulmuştur. İpin gerilimini değiştirmeden serbest uç daha hızlı hareket ettirildiğinde ise frekansı f2 ve hızı v2 olan Şekil 2’deki dalga oluşturulmuştur. Her iki şekildeki bölmeler eşit uzunlukta olduğuna göre aşağıdakilerin hangisinde f1 - f2 ve v1 - v2 arasındaki ilişkiler doğru olarak verilmiştir? A) v1 = v2; f1 < f2 B) v1 > v2; f1 < f2 C) v1 > v2; f1 > f2 C) v1 < v2; f1 = f2 E) v1 = v2; f1 = f2",
+    "secenekler": [],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0040",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "İçinde 7 cm derinliğinde su bulunan bir dalga leğenine su yüzeyi durgunken damlalık ile belli bir yükseklikten ve eşit zaman aralıklarında birer damla su damlatılarak çembersel su dalgaları oluşturulmaktadır. Dalga leğenindeki belli sabit bir noktadaki suyun yüksekliğinin zamana bağlı değişim grafiği şekildeki gibi çizilmiştir. Bu deney, damlalık daha yüksekten su damlatacak ancak diğer tüm koşullar aynı kalacak biçimde tekrarlanırsa oluşan dalganın genliği ve periyodu ile ilgili aşağıdakilerden hangisi birlikte doğru olabilir? Genlik (cm) Periyot (s)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "3 2"
+      },
+      {
+        "id": "B",
+        "text": "2 2"
+      },
+      {
+        "id": "C",
+        "text": "3 3"
+      },
+      {
+        "id": "D",
+        "text": "4 1"
+      },
+      {
+        "id": "E",
+        "text": "2 4"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0041",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Yeterince uzun ve gergin ideal bir yay üzerinde oluşturulan bir dalganın t anındaki görüntüsü ile dalganın x doğrultulu ilerleme yönü şekildeki gibidir. Buna göre yay üzerinde bulunan K, L ve M noktalarının titreşim yönleri aşağıdakilerin hangisinde doğru verilmiştir? K L M",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "y -y y"
+      },
+      {
+        "id": "B",
+        "text": "-y y -y"
+      },
+      {
+        "id": "C",
+        "text": "y -y -y"
+      },
+      {
+        "id": "D",
+        "text": "-y y y"
+      },
+      {
+        "id": "E",
+        "text": "-y -y -y"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0042",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Bir gözlem sırasında açık denizde oluşan dalgaların, kıyıya yaklaşırken şekildeki gibi art arda gelen dalgaların dalga cephelerinin sıklaştığı gözlemlenmektedir. Şekildeki çizgiler, aynı kaynaktan çıkan su dalgalarının dalga cephelerini temsil etmektedir. Buna göre dalga cephelerinin sıklaştığı kıyıya yakın bölgedeki dalgaların; I. dalga boyu, II. frekans, III. sürat niceliklerinden hangileri şekildeki açık deniz bölgesindekine göre daha küçüktür?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0043",
+    "konu": "fizik_optik",
+    "alt_konu": "Aydınlanma",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Aydınlanma ile ilgili kavramlardan; ışık şiddetinin birimi cd, ışık akısının birimi lm ve aydınlanma şiddetinin birimi lüx’tür. Buna göre; I. kaynağın ışık şiddeti, II. toplam ışık akısı, III. aydınlanma şiddeti değişkenlerinden hangilerinin büyüklüğü ışık kaynağına olan uzaklığa bağlı olarak değişir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0044",
+    "konu": "fizik_optik",
+    "alt_konu": "Aydınlanma",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Işığı yansıtmayan bir masanın üzerine şekildeki gibi O merkezli ve r yarıçaplı bir yarım çember çizilmiştir. Bu yarım çember şeklinin üzerine ise masaya dik olacak biçimde bir perde ve perdeden r kadar uzaklıktaki K noktasına da noktasal bir ışık kaynağı şekildeki gibi yerleştirilmiştir. Noktasal ışık kaynağı P bölgesi Perde Masa L r r Buna göre; perdenin tam ortasında bulunan dikdörtgen şeklindeki P bölgesinden geçen ışık akısı ile ilgili; I. Noktasal ışık kaynağı L noktasına getirilirse azalır. II. Noktasal ışık kaynağı L noktasına getirilirse değişmez. III. Bölgenin alanı büyütülürse artar. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0045",
+    "konu": "fizik_optik",
+    "alt_konu": "Aydınlanma",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Işık şiddeti I olan noktasal bir kaynak şekildeki gibi saydam küresel bir abajurun merkezine yerleştirilmiştir. Bu düzenlemede, K noktasının aydınlanma şiddeti E, abajur yüzeyinden geçen toplam ışık akısı Φ olmaktadır. Bu düzenlemede sırasıyla; 1. işlem: Saydam küresel abajur çıkarılıp aynı malzemeden yapılmış daha küçük yarıçaplı başka bir saydam abajur takma, 2. işlem: Yeni abajurun tüm yüzeyini yarı saydam olacak biçimde boyama, 3. işlem: Abajurun zincirini kısaltma işlemleri yapılıyor. Buna göre yapılan işlemler sonucunda ışık şiddeti (I), aydınlanma şiddeti (E) ve ışık akısı (Φ) niceliklerindeki değişikliklerle ilgili aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "1. işlem sonunda abajur yüzeyinden geçen toplam ışık akısı (Φ) artar."
+      },
+      {
+        "id": "B",
+        "text": "1. işlem sonunda noktasal kaynağın ışık şiddeti (I) azalır."
+      },
+      {
+        "id": "C",
+        "text": "2. işlem sonunda K noktasının aydınlanma şiddeti (E) azalır."
+      },
+      {
+        "id": "D",
+        "text": "2. işlem sonunda noktasal kaynağın ışık şiddeti (I) artar."
+      },
+      {
+        "id": "E",
+        "text": "3. işlem sonunda K noktasının aydınlanma şiddeti (E) değişmez."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0046",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Bir kişi hava ortamında düzlem aynaya bakarak kendi görüntüsünü görmüştür. Aynı kişi hiçbir şeyi değiştirmeden aynı şekilde ayna ile birlikte havuzda suya batıp aynaya bakarak kendi görüntüsünü görmüştür. Buna göre kişi tamamen su içerisindeyken görünen yeni görüntüyle ilgili, I. İlk durumda oluşan görüntüye göre daha büyüktür. II. Aynaya olan uzaklığı, ilk durumdaki görüntünün aynaya olan uzaklığından fazladır. III. Havuzdaki su, tuzlu su olsaydı boyu yine aynı olurdu. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0047",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Bir alışveriş merkezinde doğrultuları şekildeki gibi birbirine paralel K ve L yürüyen merdivenleri bulunmaktadır. Ali ve arkasında bulunan başka bir kişi K merdiveni ile yukarı doğru çıkmaktadır. Bu sırada Ali, üzerinde bulunan L merdiveninin düzlem ayna görevi gören yansıtıcı alt yüzeyine doğru bakmaktadır. Ali noktasal kabul edilen gözleri ile L merdiveninin yansıtıcı yüzeyine bakarak önce arkasından gelen kişiyi ve daha sonra da kendisini görebilmesi için sırasıyla şekildeki yönlerden hangilerine doğru bakmalıdır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "I ve II"
+      },
+      {
+        "id": "B",
+        "text": "II ve III"
+      },
+      {
+        "id": "C",
+        "text": "III ve IV"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve IV"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0048",
+    "konu": "fizik_optik",
+    "alt_konu": "Küresel Aynalar",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Ay ile Yerküre arasındaki uzaklığı ölçmek amacıyla Ay’daki bir astronot, Yerküre’den gönderilen LASER ışınlarının kendi üzerinden geri yansımasını sağlayan bir sistemi Ay yüzeyine yerleştirmek istiyor. Bunun için birkaç tane düzlem aynanın yanı sıra odak noktası F, merkezi M ile gösterilmiş olan çukur ve tümsek aynalar kullanarak eşit bölmeli kareler üzerinde gösterilen şekildeki düzeneklerden birini hazırlayıp bu düzeneği Ay yüzeyine yerleştiriyor. Buna göre astronotun Ay yüzeyine yerleştirdiği sistem; I, II ve III düzeneklerinden hangileri olabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0049",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "I ışık ışınının K ortamından L ve M ortamlarına geçişi Şekil I ve Şekil II’de verilmiştir. Buna göre I ışık ışını L ortamından M ortamına geçerken; şekillerindeki yollardan hangilerini izleyebilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "I ve IV"
+      },
+      {
+        "id": "C",
+        "text": "II ve III"
+      },
+      {
+        "id": "D",
+        "text": "I, II ve III"
+      },
+      {
+        "id": "E",
+        "text": "II, III ve IV"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0050",
+    "konu": "fizik_optik",
+    "alt_konu": "Kırılma",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Dalış eğitmeni Burak, eğitim teknesinde şekildeki gibi ayakta durmaktadır. Öğrencisi Mert ise dibi rahatlıkla görülen bir denizin içinde şekildeki gibi durgundur. Burak, B noktasından; Mert, M noktasından birbirlerine bakmaktadır. Aşağı Hava Deniz Burak Mert Yukarı B M Deniz suyunun kırılma indisinin havanınkinden büyük olduğu bilindiğine göre Burak’ın ve Mert’in birbirlerini gördükleri konumlar ile ilgili aşağıdakilerden hangisi doğru olabilir? Burak’ın Mert’i gördüğü konum Mert’in Burak’ı gördüğü konum",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "M’nin aşağısı B’nin aşağısı"
+      },
+      {
+        "id": "B",
+        "text": "M’nin bulunduğu konum B’nin aşağısı"
+      },
+      {
+        "id": "C",
+        "text": "M’nin yukarısı B’nin bulunduğu konum"
+      },
+      {
+        "id": "D",
+        "text": "M’nin aşağısı B’nin yukarısı"
+      },
+      {
+        "id": "E",
+        "text": "M’nin yukarısı B’nin yukarısı"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0051",
+    "konu": "fizik_optik",
+    "alt_konu": "",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Penceresi açık olan odada bir merceğin odak noktasına beyaz düz bir kâğıt konulduğunda dışarıdaki bir ağacın net görüntüsü kâğıdın üzerinde şekildeki gibi oluşmaktadır. Kâğıt ile K noktası ve K, L, M, N noktaları arası uzaklıklar şekildeki gibi birbirlerine eşit ve merceğin odak uzaklığı (f) kadardır. Şekildeki mercekle özdeş olan II. bir merceği ve şekildeki beyaz kâğıdı K, L, M ve N noktalarından uygun olanlara yerleştirerek kâğıt üzerinde ağacın düz, önceki ile aynı büyüklükte ve net bir görüntüsünün elde edilmesi istenmektedir. Buna göre, şekildeki merceğin konumunun sabit kalması koşuluyla II. mercek ve kâğıt şekildeki noktalardan hangilerine yerleştirilmelidir? II. merceğin konumu Kâğıdın konumu",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "K L"
+      },
+      {
+        "id": "B",
+        "text": "K M"
+      },
+      {
+        "id": "C",
+        "text": "L M"
+      },
+      {
+        "id": "D",
+        "text": "L N"
+      },
+      {
+        "id": "E",
+        "text": "M N"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0052",
+    "konu": "fizik_optik",
+    "alt_konu": "Mercekler",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Aşağıdaki şekilde asal eksenleri çakışık çukur ayna, yakınsak mercek ve S ışık kaynağından oluşan bir düzenek görülmektedir. Aynanın odak noktasında bulunan ışık kaynağından yayılan tek renkli kırmızı ışık, önce aynadan yansıyıp daha sonra mercekte kırılarak asal eksen üzerindeki K noktasında toplanacak şekilde bir yol izlemektedir. Bu sistemde aynanın odak noktasında bulunan ışık kaynağından tek renkli mavi ışık yayılsaydı ışık aynadan yansıyıp mercekten geçtikten sonra asal eksenin neresinde toplanacak şekilde kırılırdı?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "F noktasında"
+      },
+      {
+        "id": "B",
+        "text": "T noktasında"
+      },
+      {
+        "id": "C",
+        "text": "K noktasında"
+      },
+      {
+        "id": "D",
+        "text": "T - K noktaları arasında"
+      },
+      {
+        "id": "E",
+        "text": "F - T noktaları arasında"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0053",
+    "konu": "fizik_optik",
+    "alt_konu": "Renk",
+    "ders": "fizik",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Onur, ağaç kütüklerini kullanarak lokantasını işaret eden ve arka fonu siyah olan Şekil I’deki gibi bir tabela yapıyor. Bu tabelanın lokantanın önünden geçen araç sürücüleri tarafından karanlıkta daha iyi fark edilebilmesi için kütüklerle oluşturduğu harfleri boyamaya karar veriyor. Şekil I Onur’un kullanabileceği değişik boya seçenekleri içerisindeki bütün boyalar; Şekil II’deki C (cyan), Mg (magenta) ve S (sarı) renk veya bunların karışımlarından oluşmaktadır. Otomobil farlarının ise Şekil II’deki K (kırmızı), Y (yeşil) ve M (mavi) renkli ışıkların farklı oranlarda birleşiminden oluşan sarı renkli bir ışık yaydığı varsayılmaktadır. Boyanın renkleri Işığın renkleri Şekil II Verilen bilgilere göre; sarı ışık yayan otomobil farlarıyla aydınlatılan tabela, aşağıdaki renklerden hangisiyle boyanırsa diğer renklerle boyandığı durumlara göre fark edilmesi daha zor olur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Mavi"
+      },
+      {
+        "id": "B",
+        "text": "Sarı"
+      },
+      {
+        "id": "C",
+        "text": "Yeşil"
+      },
+      {
+        "id": "D",
+        "text": "Kırmızı"
+      },
+      {
+        "id": "E",
+        "text": "Cyan"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0054",
+    "konu": "kimya_bilim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Bir çözelti alevde ısıtıldığında, çözeltide bulunan farklı elementler için farklı alev renkleri elde edilir. Buna göre alev renginden yararlanarak çözeltide hangi elementlerin bulunduğunun belirlenmesiyle ilgilenen kimya disiplini aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Analitik kimya"
+      },
+      {
+        "id": "B",
+        "text": "Polimer kimyası"
+      },
+      {
+        "id": "C",
+        "text": "Biyokimya"
+      },
+      {
+        "id": "D",
+        "text": "Fizikokimya"
+      },
+      {
+        "id": "E",
+        "text": "Organik kimya"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0055",
+    "konu": "kimya_bilim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Aşağıda verilen element adı - element sembolü eşleştirmelerinden hangisi doğrudur? Element Adı Element Sembolü",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Magnezyum Mn"
+      },
+      {
+        "id": "B",
+        "text": "Cıva C"
+      },
+      {
+        "id": "C",
+        "text": "Potasyum K"
+      },
+      {
+        "id": "D",
+        "text": "Bakır Ba"
+      },
+      {
+        "id": "E",
+        "text": "Çinko Pb"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0056",
+    "konu": "kimya_bilim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Sistematik adı azot trihidrür olan bileşiğin yaygın adı aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Amonyak"
+      },
+      {
+        "id": "B",
+        "text": "Kezzap"
+      },
+      {
+        "id": "C",
+        "text": "Tuz ruhu"
+      },
+      {
+        "id": "D",
+        "text": "Potas kostik"
+      },
+      {
+        "id": "E",
+        "text": "Sönmüş kireç"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0057",
+    "konu": "kimya_bilim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Aşağıda verilen element çiftlerinden hangisi yaygın adları sönmüş kireç, sönmemiş kireç ve kireç taşı olan bileşiklerin üçünün de yapısında bulunur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Kalsiyum ve hidrojen"
+      },
+      {
+        "id": "B",
+        "text": "Kalsiyum ve karbon"
+      },
+      {
+        "id": "C",
+        "text": "Karbon ve oksijen"
+      },
+      {
+        "id": "D",
+        "text": "Oksijen ve hidrojen"
+      },
+      {
+        "id": "E",
+        "text": "Kalsiyum ve oksijen"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0058",
+    "konu": "kimya_bilim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "X ve Y maddeleriyle ilgili aşağıdaki bilgiler verilmektedir. • X maddesi tek tür atom içerir. • Y maddesi kimyasal yöntemlerle iki farklı saf maddeye ayrıştırılabilir. Buna göre X ve Y maddeleri aşağıdakilerden hangisi olabilir? X Y",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "N2 F2"
+      },
+      {
+        "id": "B",
+        "text": "O2 NH3"
+      },
+      {
+        "id": "C",
+        "text": "HCl P4"
+      },
+      {
+        "id": "D",
+        "text": "Mg Cl2"
+      },
+      {
+        "id": "E",
+        "text": "NaCl HCl"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0059",
+    "konu": "kimya_bilim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Bir kimyasal madde şişesi üzerinde sadece aşağıdaki sağlık ve güvenlik amaçlı temel uyarı işaretleri bulunmaktadır. Bu kimyasal maddeyle ilgili aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yakıcı ve toksiktir."
+      },
+      {
+        "id": "B",
+        "text": "Yakıcı ve çevreye zararlıdır."
+      },
+      {
+        "id": "C",
+        "text": "Yanıcı ve çevreye zararlıdır."
+      },
+      {
+        "id": "D",
+        "text": "Patlayıcı ve toksiktir."
+      },
+      {
+        "id": "E",
+        "text": "Yanıcı ve radyoaktiftir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0060",
+    "konu": "kimya_bilim",
+    "alt_konu": "Kimyanın Sembolik Dili",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Bir kap içinde derişik NaOH sulu çözeltisi bulunuyor. Bu çözeltiden X cam malzemesi kullanılarak 5 mL alınıyor ve Y cam malzemesi içine konuluyor. Daha sonra saf su ile hacim 1 L’ye tamamlanarak daha seyreltik bir çözelti elde ediliyor. Buna göre çözeltinin hazırlanmasında kullanılan X ve Y malzemeleri aşağıdakilerden hangisinde doğru verilmiştir? X Y",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Erlenmayer Büret"
+      },
+      {
+        "id": "B",
+        "text": "Pipet Balon joje"
+      },
+      {
+        "id": "C",
+        "text": "Balon joje Büret"
+      },
+      {
+        "id": "D",
+        "text": "Beherglas Pipet"
+      },
+      {
+        "id": "E",
+        "text": "Erlenmayer Huni"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0061",
+    "konu": "kimya_atom_periyodik",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Rutherford Atom Modeli’ne göre I. Atomda pozitif yükler çekirdekte toplanmıştır. II. Atomda elektronlar orbitallerde bulunur. III. Atom hacminin büyük bir kısmı boşluktur. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0062",
+    "konu": "kimya_atom_periyodik",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "10 20X, 10 21Y ve 11 22Z element atomlarıyla ilgili, I. X ve Y aynı elementin izotop atomlarıdır. II. Z element atomunun elektron ve nötron sayıları eşittir. III. Y ve Z element atomlarının nötron sayıları eşittir. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0063",
+    "konu": "kimya_atom_periyodik",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "12 AX ile 11 23Y element atomları birbirinin izotonudur. Buna göre 12 AX element atomuyla ilgili, I. Kütle numarası (A) 23’tür. II. 12 26X ile birbirinin izotopudur. III. Y+ ile izoelektroniktir. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0064",
+    "konu": "kimya_atom_periyodik",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "4Be, 6C, 9F elementleriyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "C elementi metal olarak sınıflandırılır."
+      },
+      {
+        "id": "B",
+        "text": "Birinci iyonlaşma enerjisi en küçük olan element F’dir."
+      },
+      {
+        "id": "C",
+        "text": "Atom yarıçapı en büyük olan element Be’dir."
+      },
+      {
+        "id": "D",
+        "text": "Be’nin elektron alma eğilimi, C’ninkinden daha fazladır."
+      },
+      {
+        "id": "E",
+        "text": "C’nin elektronegatifliği, F’nin elektronegatifliğinden daha büyüktür."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0065",
+    "konu": "kimya_atom_periyodik",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Periyodik sistemde aynı periyotta bulunan X ve Y elementleriyle ilgili aşağıdaki bilgiler veriliyor. • X elementi: Parlak görünümlü olup oda sıcaklığında ısıyı ve elektriği çok iyi iletir. • Y elementi: Oda sıcaklığında gaz hâldedir ve hiçbir elementle tepkimeye girmez. Bu elementlerle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "X elementinin atom numarası Y elementininkinden büyüktür."
+      },
+      {
+        "id": "B",
+        "text": "Y elementinin atom yarıçapı X elementininkinden küçüktür."
+      },
+      {
+        "id": "C",
+        "text": "X elementinin birinci iyonlaşma enerjisi Y elementininkinden büyüktür."
+      },
+      {
+        "id": "D",
+        "text": "Y elementinin elektron alma eğilimi, X elementine göre fazladır."
+      },
+      {
+        "id": "E",
+        "text": "X elementi ametal, Y elementi metal olarak sınıflandırılır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0066",
+    "konu": "kimya_atom_periyodik",
+    "alt_konu": "Periyodik Sistem",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Çekirdek için kırmızı ve elektronlar için mavi renk kullanılarak bir elementin nötr atomunun katman elektron dağılımı aşağıda modellenmiştir. Bu elementle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Atom numarası 14’tür."
+      },
+      {
+        "id": "B",
+        "text": "Yarı metal olarak sınıflandırılır."
+      },
+      {
+        "id": "C",
+        "text": "Periyodik sistemin 13. (3A) grubunda bulunur."
+      },
+      {
+        "id": "D",
+        "text": "Periyodik sistemin 2. periyodunda bulunur."
+      },
+      {
+        "id": "E",
+        "text": "Bileşik oluştururken elektron verir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0067",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "He, N ve Mg elementlerinin periyodik sistemdeki yerleri aşağıda gösterilmiştir. 18 1 2 13 3 Mg N He 4 5 6 7 8 9 10 11 12 14 15 16 17 Temel hâldeki bu atomların en dış katmanlarında bulunan elektron sayıları arasındaki ilişki aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "He = N > Mg"
+      },
+      {
+        "id": "B",
+        "text": "Mg > N > He"
+      },
+      {
+        "id": "C",
+        "text": "N > Mg = He"
+      },
+      {
+        "id": "D",
+        "text": "N > Mg > He"
+      },
+      {
+        "id": "E",
+        "text": "He > N > Mg"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0068",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Aşağıda bazı element atomlarının temel hâldeki katman elektron dağılımı verilmiştir. Ca 2e 8e 8e 2e Li 2e 1e F 2e 7e Mg 2e 8e 2e Ar 2e 8e 8e Bu elementlerin periyodik sistemdeki yerleriyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "F elementi 2A (2. grup) grubundadır."
+      },
+      {
+        "id": "B",
+        "text": "Li elementi 3. periyottadır."
+      },
+      {
+        "id": "C",
+        "text": "Mg ve Ca elementleri aynı grupta yer alır."
+      },
+      {
+        "id": "D",
+        "text": "Li ve F elementleri aynı grupta yer alır."
+      },
+      {
+        "id": "E",
+        "text": "Ar ve Ca elementleri aynı periyotta yer alır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0069",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "4X, 12Y ve 19Z elementleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "X ve Y elementleri periyodik sistemde aynı periyotta bulunur."
+      },
+      {
+        "id": "B",
+        "text": "X ve Z element atomlarının değerlik elektron sayıları eşittir."
+      },
+      {
+        "id": "C",
+        "text": "Z element atomunun yarıçapı, Y element atomunun yarıçapından küçüktür."
+      },
+      {
+        "id": "D",
+        "text": "Üç element de metal olarak sınıflandırılır."
+      },
+      {
+        "id": "E",
+        "text": "Y ve Z elementleri periyodik sistemde aynı grupta bulunur."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0070",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "NaCl, HCl, Cl2 maddelerindeki atom veya iyonlar arası bağ türleri aşağıdakilerin hangisinde doğru olarak verilmiştir? (1H, 11Na, 17Cl) NaCl HCl Cl2",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "iyonik polar kovalent apolar kovalent"
+      },
+      {
+        "id": "B",
+        "text": "polar kovalent polar kovalent apolar kovalent"
+      },
+      {
+        "id": "C",
+        "text": "iyonik iyonik polar kovalent"
+      },
+      {
+        "id": "D",
+        "text": "apolar kovalent apolar kovalent apolar kovalent"
+      },
+      {
+        "id": "E",
+        "text": "iyonik apolar kovalent polar kovalent"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0071",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Aşağıda verilen madde ve maddedeki kimyasal türler arasındaki etkileşim sınıfı eşleştirmelerinden hangisi doğrudur? (1H, 6C, 8O, 9F, 11Na, 20Ca) Madde Etkileşim sınıfı",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "CaF2 İyonik bağ"
+      },
+      {
+        "id": "B",
+        "text": "HF İyonik bağ"
+      },
+      {
+        "id": "C",
+        "text": "H2O Metalik bağ"
+      },
+      {
+        "id": "D",
+        "text": "Na metali Kovalent bağ"
+      },
+      {
+        "id": "E",
+        "text": "C (grafit) Metalik bağ"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0072",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "Güçlü Etkileşimler",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Metalik bağın nasıl oluştuğuyla ilgili olarak ortaya atılan elektron denizi modeli, metallerin bazı özelliklerinin açıklanmasında kullanılabilir. Buna göre metallerin; I. elektriği iletmesi, II. tel ve levha hâline getirilebilmesi, III. ametallerle tepkimeye girmesi özelliklerinden hangileri elektron denizi modeliyle açıklanabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0073",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Periyodik sistemin 2. periyodunda yer alan temel hâldeki X ve Y atomlarının Lewis sembolleri aşağıda gösterilmiştir. X Y X ve Y elementlerinin oluşturacağı oktet kuralına uyan bileşiğin formülü aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "XY"
+      },
+      {
+        "id": "B",
+        "text": "X2Y"
+      },
+      {
+        "id": "C",
+        "text": "XY2"
+      },
+      {
+        "id": "D",
+        "text": "XY3"
+      },
+      {
+        "id": "E",
+        "text": "X3Y"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0074",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Azot molekülleriyle (N2) ilgili, I. Azot atomları arasındaki etkileşim, güçlü etkileşim olarak sınıflandırılır. II. Azot atomları arasındaki etkileşim, elektron alışverişi sonucu oluşmuştur. III. Azot molekülleri arasındaki etkileşim, London kuvvetleri sonucu oluşmuştur. ifadelerinden hangileri doğrudur? (7N)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0075",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "K ve L maddelerinin tanecikleri arasındaki etkileşimlerle ilgili bilgiler aşağıda verilmiştir. • K’nin tanecikleri arasında sadece indüklenmiş dipol-indüklenmiş dipol etkileşimi vardır. • L’nin tanecikleri arasında dipol-dipol etkileşimi vardır. Buna göre K ve L maddeleri aşağıdakilerden hangisi olabilir? (1H, 6C, 8O, 9F, 10Ne) K L",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "CH4 F2"
+      },
+      {
+        "id": "B",
+        "text": "H2 O2"
+      },
+      {
+        "id": "C",
+        "text": "Ne H2O"
+      },
+      {
+        "id": "D",
+        "text": "H2O HF"
+      },
+      {
+        "id": "E",
+        "text": "HF Ne"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0076",
+    "konu": "kimya_etkilesim",
+    "alt_konu": "Zayıf Etkileşimler",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Kimyasal formülü X2, Y2, XY ve X2Z olan maddelerin kendi molekülleri arasındaki bazı zayıf etkileşim türleri ve normal kaynama noktaları aşağıda verilmiştir. Madde Zayıf etkileşim türü Normal kaynama noktası (°C) X2 London kuvvetleri -252 Y2 London kuvvetleri -34 XY Dipol - dipol etkileşimleri -85 X2Z Hidrojen bağı Bu maddelerin H, O ve Cl elementlerinden oluştuğu bilindiğine göre X, Y ve Z aşağıdakilerin hangisinde doğru verilmiştir? (1H, 8O, 17Cl) X Y Z",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Cl H O"
+      },
+      {
+        "id": "B",
+        "text": "O H Cl"
+      },
+      {
+        "id": "C",
+        "text": "H Cl O"
+      },
+      {
+        "id": "D",
+        "text": "Cl O H"
+      },
+      {
+        "id": "E",
+        "text": "H O Cl"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0077",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Sembolik gösterilişi, I. H2(g) + Cl2(g) † 2HCl(g) II. CO2(k) † CO2(g) III. 2NaN3(k) † 3N2(g) + 2Na(k) olan değişimlerden hangileri kimyasal değişim olarak sınıflandırılır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0078",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Sıvıların buhar basıncı ve kaynama sıcaklığıyla ilgili, I. Aynı sıcaklıkta buhar basıncı büyük olan sıvının kaynama sıcaklığı da büyüktür. II. Ağzı açık bir kapta sıvının buhar basıncı atmosfer basıncına eşit olduğunda sıvı kaynamaya başlar. III. Sıcaklık arttıkça sıvının buhar basıncı artar. yargılarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0079",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Aşağıdaki tabloda üç farklı sıvının 25 °C’deki viskozite değerleri verilmiştir. Sıvı Viskozite (mPa s) Metanol 0,544 Su 0,890 Etanol 1,074 Buna göre, I. Akmaya karşı en fazla direnç gösteren etanoldür. II. Moleküller arası çekim kuvveti en güçlü olan metanoldür. III. Suyun sıcaklığı 15 °C’ye düşürülürse viskozite değeri büyür. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0080",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Yapılan bir deneyde havası boşaltılmış ve manometre bağlanmış kapalı kaba bir miktar saf su konuluyor. Zamanla sıvı su miktarı azalırken manometre ile ölçülen basınç artıyor. Sabit sıcaklıkta yeterince beklendiğinde sıvı su miktarının ve manometre ile ölçülen basıncın değişmeden kaldığı görülüyor ve bu basınç değeri (P1) kaydediliyor. Daha sonra bu deney aynı sabit sıcaklıkta saf su miktarı iki katına çıkarılarak tekrarlanıyor ve basınç değeri (P2) kaydediliyor. Buna göre I. Su miktarı iki katına çıktığında buharlaşma hızı artar. II. P2 > P1 dir. III. P1 ve P2 değerleri suyun denge buhar basıncıdır. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0081",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "Sıvılar",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Özdeş kaplarda bulunan eşit hacimli üç farklı sıvı aynı sıcaklıkta ve aynı sabit eğimle başlangıçta boş olan özdeş toplama kaplarına aynı anda dökülmeye başlanıyor. Belirli bir süre sonra bu toplama kaplarında biriken sıvı hacimleri aşağıdaki şekilde gösteriliyor. Gliserin Etil Alkol Su Buna göre, I. Etil alkolün viskozitesi suyunkinden büyüktür. II. Moleküller arası çekim kuvveti en güçlü olan sudur. III. Akmaya karşı en fazla direnç gösteren sıvı gliserindir. ifadelerinden hangileri doğrudur? (Sıvıların buharlaşmadığı varsayılacaktır.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0082",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Sıvı hâldeki etanol ile ilgili I. Açık bir kapta her sıcaklıkta buharlaşır. II. Aynı koşullarda farklı yüzey alanına sahip eşit kütleli iki etanol örneğinin buharlaşma hızları aynıdır. III. Etanolün denge buhar basıncı, içinde bulunduğu kabın hacmine bağlıdır. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0083",
+    "konu": "kimya_madde_halleri",
+    "alt_konu": "Sıvılar",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Gliserinin sıcaklığı T1, etilen glikolün sıcaklığı T2 ve suyun sıcaklığı T3 olduğunda her üç sıvının viskozite değeri birbirine eşit olmaktadır. T1, T2 ve T3 sıcaklıkları arasındaki ilişki T1 > T2 > T3 şeklindedir. Buna göre aynı şartlarda I. Suyun akmaya karşı gösterdiği direnç etilen glikolünkinden küçüktür. II. Gliserinin viskozitesi etilen glikolünkinden büyüktür. III. Tanecikler arasındaki etkileşim kuvveti en büyük olan sıvı sudur. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0084",
+    "konu": "kimya_temel_kanunlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Kapalı bir kapta ñ60°C’de katı hâlde bulunan saf cıva (Hg) 1 atm basınçta yavaş yavaş ısıtılıyor. Buna göre Hg ile ilgili, I. ñ50°C’de katı hâlde bulunur. II. ñ30°C’de katı-sıvı bir arada bulunur. III. 360°C’de sıvı-gaz bir arada bulunur. ifadelerinden hangileri doğrudur? (Hg için 1 atm basınçta erime noktası ñ39°C; kaynama noktası 357°C’dir.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0085",
+    "konu": "kimya_temel_kanunlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "I. Kütlenin korunumu kanunu II. Sabit oranlar kanunu III. Katlı oranlar kanunu Yukarıdaki kimya kanunlarından hangileri Dalton Atom Kuramı ile açıklanabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0086",
+    "konu": "kimya_temel_kanunlar",
+    "alt_konu": "Kimyanın Temel Kanunları",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Kükürt ve oksijen elementlerinin aşağıdaki tabloda verilen kütleleri tepkimeye girdiğinde X, Y ve Z bileşikleri oluşuyor. Bileşik Kükürdün kütlesi (g) Oksijenin kütlesi (g) X 16 24 Y 64 64 Z 32 48 Buna göre; I. X ve Y, II. X ve Z, III. Y ve Z bileşik çiftlerinden hangileri katlı oranlar yasasına uyar?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0087",
+    "konu": "kimya_temel_kanunlar",
+    "alt_konu": "Mol Kavramı",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Üç ayrı kapta bulunan H2 gazlarıyla ilgili bilgiler aşağıda verilmiştir. A kabı: Normal şartlarda 1,12 L H2 gazı içerir. B kabı: 1 g H2 molekülü içerir. C kabı: 1,5 x 1022 tane H2 molekülü içerir. Bu kaplardaki H2 gazlarının mol sayıları sırasıyla nA, nB ve nC olduğuna göre nA, nB ve nC arasındaki ilişki aşağıdakilerden hangisidir? (H = 1 g/mol, Avogadro sayısı (NA) = 6 x 1023; H2 gazının ideal gaz olarak davrandığı varsayılacaktır.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "nA > nB > nC"
+      },
+      {
+        "id": "B",
+        "text": "nA = nB > nC"
+      },
+      {
+        "id": "C",
+        "text": "nC > nA = nB"
+      },
+      {
+        "id": "D",
+        "text": "nB > nC > nA"
+      },
+      {
+        "id": "E",
+        "text": "nB > nA > nC"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0088",
+    "konu": "kimya_temel_kanunlar",
+    "alt_konu": "Mol Kavramı",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Aşağıdaki çizelgede bazı gaz örneklerine ait bilgiler ve bu gazlardaki oksijen atomu sayıları K, L ve M harfleriyle temsil edilecek şekilde verilmiştir. Gaz miktarı Oksijen atomu sayısı 22 g N2O gazı K Normal şartlar altında 5,6 L CO gazı L 3,01x1023 tane SO2 molekülü içeren SO2 gazı M Buna göre K, L ve M arasındaki ilişki aşağıdakilerin hangisinde doğru verilmiştir? (Gazların ideal gaz olarak davrandığı varsayılacaktır. N2O = 44 g/mol, Avogadro sayısı (NA) = 6,02x1023)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "K > L > M"
+      },
+      {
+        "id": "B",
+        "text": "K > M > L"
+      },
+      {
+        "id": "C",
+        "text": "L > K > M"
+      },
+      {
+        "id": "D",
+        "text": "M > K > L"
+      },
+      {
+        "id": "E",
+        "text": "M > L > K"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0089",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Fosfor triklorür, aşağıdaki tepkimeye göre beyaz fosfor ve klor gazından elde edilebilir. P4(k) + 6Cl2(g) † 4PCl3(g) Buna göre 12,4 g P4 katısı ve 21,3 g Cl2 gazının tepkimesinden en fazla kaç mol PCl3 elde edilir? (Cl2 = 71 g/mol, P4 = 124 g/mol)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "0,05"
+      },
+      {
+        "id": "B",
+        "text": "0,1"
+      },
+      {
+        "id": "C",
+        "text": "0,2"
+      },
+      {
+        "id": "D",
+        "text": "0,3"
+      },
+      {
+        "id": "E",
+        "text": "0,4"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0090",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "72 g H2O’nun aşağıdaki tepkimeye göre ayrışması sonucunda H2 ve O2 gazlarından oluşan karışımın normal şartlardaki hacmi 67,2 L’dir. 2H2O(s) † 2H2(g) + O2(g) Bu tepkimeyle ilgili aşağıdakilerden hangisi doğrudur? (H2O = 18 g/mol; gazların ideal gaz olarak davrandığı ve 1 mol gazın normal şartlarda 22,4 L olduğu varsayılacaktır.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Tepkime %50 verimle gerçekleşmiştir."
+      },
+      {
+        "id": "B",
+        "text": "4 mol H2(g) oluşmuştur."
+      },
+      {
+        "id": "C",
+        "text": "2 mol O2(g) oluşmuştur."
+      },
+      {
+        "id": "D",
+        "text": "18 g H2O(s) tepkimeye girmeden kalmıştır."
+      },
+      {
+        "id": "E",
+        "text": "3 mol H2O(s) tepkimeye girmiştir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0091",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Sıvı hâlde bulunan aşağıdaki maddelerden üç ayrı kapta 100’er mL yer almaktadır. I. kap: C2H5OH (etanol) II. kap: CCl4 (karbon tetraklorür) III. kap: C6H14 (heksan) Daha sonra her bir kaba aynı koşullarda 100’er mL saf su ilave edilmiştir. Buna göre kaplardan hangilerinde homojen bir karışım oluşur? (Su ve etanol polar, karbon tetraklorür ve heksan apolar moleküllerdir.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0092",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "25 °C’de aşağıdaki gibi üç farklı doymamış KNO3 çözeltisi hazırlanıyor. I. çözelti: 100 g saf su ve 25 g KNO3 katısı II. çözelti: 75 g saf su ve 25 g KNO3 katısı III. çözelti: 180 g saf su ve 20 g KNO3 katısı Bu çözeltilerin KNO3 açısından en derişikten en seyreltik olana doğru sıralaması aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "I - II - III"
+      },
+      {
+        "id": "B",
+        "text": "II - I - III"
+      },
+      {
+        "id": "C",
+        "text": "II - III - I"
+      },
+      {
+        "id": "D",
+        "text": "III - I - II"
+      },
+      {
+        "id": "E",
+        "text": "III - II - I"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0093",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "0 °C’de 100 g saf suda en fazla 34 g NaCl tuzu çözünebilmektedir. 0 °C’de bileşenleri aşağıda verilen üç farklı karışım hazırlanıyor. X karışımı: 100 g saf su ve 20 g NaCl tuzu Y karışımı: 100 g saf su ve 34 g NaCl tuzu Z karışımı: 100 g saf su ve 40 g NaCl tuzu Bu karışımların 1 atm dış basınçta donmaya başlama sıcaklıkları (TX, TY ve TZ) arasındaki ilişki aşağıdakilerin hangisinde doğru verilmiştir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "TX > TY > TZ"
+      },
+      {
+        "id": "B",
+        "text": "TX > TY = TZ"
+      },
+      {
+        "id": "C",
+        "text": "TZ > TY > TX"
+      },
+      {
+        "id": "D",
+        "text": "TZ = TY > TX"
+      },
+      {
+        "id": "E",
+        "text": "TY = TX > TZ"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0094",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Bir deneyde üç ayrı kaba 1000’er gram saf su konuluyor. Bu kaplardan birincisine 1 mol NaCl, ikincisine 1 mol sakkaroz ve üçüncüsüne 1 mol MgCl2 ilave edilip aşağıdaki gibi A, B ve C çözeltileri hazırlanıyor. Hazırlanan çözeltiler dış basıncın 1 atm olduğu ortamda ısıtılıyor ve çözeltilerin kaynamaya başladığı sıcaklıklar (TA, TB ve TC) ölçülüyor. 1 mol NaCl A çözeltisi B çözeltisi C çözeltisi 1 mol Sakkaroz 1 mol MgCl2 Buna göre ölçülen TA, TB ve TC sıcaklıkları arasındaki ilişki aşağıdakilerin hangisinde doğru olarak verilmiştir? (NaCl ve MgCl2 tuzlarının suda tamamen iyonlarına ayrışarak çözündüğü, sakkarozun ise moleküler olarak çözündüğü varsayılacaktır.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "TA = TB = TC"
+      },
+      {
+        "id": "B",
+        "text": "TA > TB > TC"
+      },
+      {
+        "id": "C",
+        "text": "TB > TC > TA"
+      },
+      {
+        "id": "D",
+        "text": "TA = TC > TB"
+      },
+      {
+        "id": "E",
+        "text": "TC > TA > TB"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0095",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Hacimce %20 etanol içeren 120 mL sulu etanol çözeltisiyle ilgili, I. 20 mL etanole toplam hacim 120 mL olacak şekilde su eklenerek hazırlanmıştır. II. Çözelti hazırlanırken 76 mL su kullanılmıştır. III. Çözelti hacmi 200 mL oluncaya kadar su eklendiğinde etanol derişimi hacimce %12 olur. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0096",
+    "konu": "kimya_karisimlar",
+    "alt_konu": "Homojen ve Heterojen Karışımlar",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Belirli bir sıcaklıkta, 80 gram tuz ile 120 gram su karıştırılıyor. Daha fazla çözünme olmayıncaya kadar beklendiğinde tuzun 40 gramının, kabın dibinde çözünmeden kaldığı gözlemleniyor. Buna göre çözeltide tuzun kütlece yüzde derişimi kaçtır? (Suyun buharlaşmadığı varsayılacaktır.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "20"
+      },
+      {
+        "id": "B",
+        "text": "25"
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "35"
+      },
+      {
+        "id": "E",
+        "text": "40"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0097",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Donma noktası alçalmasıyla ilgili yapılan bir deneyde uçucu olmayan ve suda tamamen çözünebilen saf K ve L maddelerinin belirli miktarı ayrı kaplarda suda çözünüyor. Aynı ortamda çözeltilerin ve saf suyun donmaya başladığı sıcaklıklar ölçülüyor ve aşağıdaki değerler elde ediliyor. Madde Donma sıcaklığı (°C) Saf su 0 K sulu çözeltisi -1,86 L sulu çözeltisi -3,72 Buna göre I. K sulu çözeltisine su ilave edilirse çözelti -1,86 °C’den daha düşük bir sıcaklıkta donmaya başlar. II. L sulu çözeltisindeki çözünen türlerin derişimi K sulu çözeltisindekinden fazladır. III. L sulu çözeltisine bir miktar L maddesi ilave edilip tamamı çözünürse çözeltinin donmaya başladığı sıcaklık yükselir. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0098",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Ayırma yöntemleri, bileşenlerin bazı fiziksel özelliklerinin farklı olmasından yararlanılarak uygulanır. Buna göre aşağıda verilen ayırma yöntemi ve ayırma yönteminin dayandığı fiziksel özellik eşleştirmelerinden hangisi yanlıştır? Ayırma yöntemi Fiziksel özellik",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Diyaliz Çözünürlük"
+      },
+      {
+        "id": "B",
+        "text": "Yüzdürme Yoğunluk"
+      },
+      {
+        "id": "C",
+        "text": "Basit damıtma Kaynama noktası"
+      },
+      {
+        "id": "D",
+        "text": "Özütleme Çözünürlük"
+      },
+      {
+        "id": "E",
+        "text": "Süzme Tanecik boyutu"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0099",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Bir sulu çözeltinin asidik veya bazik özellik gösterdiği bilinmektedir. Bu çözeltinin asit çözeltisi mi yoksa baz çözeltisi mi olduğuna karar vermek için; I. çözeltinin elektrik iletkenliğinin ölçülmesi, II. çözeltiye daldırılan turnusol kâğıdında renk değişiminin gözlenmesi, III. çözeltinin pH değerinin ölçülmesi işlemlerinden hangilerinin yapılması uygundur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0100",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "CO2 ve NH3 gazlarının ayrı kaplarda yeterli miktarda saf suda çözünmesi sağlanarak çözeltiler hazırlanıyor. Buna göre, oluşan çözeltilerle ilgili aşağıdaki ifadelerden hangisi doğrudur? (Saf suyun pH değerinin 7 olduğu varsayılacaktır.)",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "CO2 gazı suda çözündüğünde ortamdaki OHñ iyonu derişimi artar."
+      },
+      {
+        "id": "B",
+        "text": "NH3 gazı suda çözündüğünde ortamdaki H3O+ iyonu derişimi artar."
+      },
+      {
+        "id": "C",
+        "text": "CO2 çözeltisinin pH değeri 7’den büyüktür."
+      },
+      {
+        "id": "D",
+        "text": "NH3 çözeltisi kırmızı turnusol kâğıdının rengini maviye çevirir."
+      },
+      {
+        "id": "E",
+        "text": "NH3 çözeltisinin pH değeri 7’den küçüktür."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0101",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Asit çözeltilerinin K, L ve M metallerine etkisinin araştırıldığı bir deneyde aşağıdaki veriler elde edilmiştir. Metal HCl sulu çözeltisi HNO3 sulu çözeltisi K Tepkime yok Tepkime yok L Gaz çıkışı Gaz çıkışı M Tepkime yok Gaz çıkışı Buna göre, metallerin en aktif olandan en az aktif olana doğru sıralaması aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "K - L - M"
+      },
+      {
+        "id": "B",
+        "text": "K - M - L"
+      },
+      {
+        "id": "C",
+        "text": "L - K - M"
+      },
+      {
+        "id": "D",
+        "text": "L - M - K"
+      },
+      {
+        "id": "E",
+        "text": "M - K - L"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0102",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Laboratuvarda, içerisinde derişik hidroklorik asit ve derişik nitrik asit çözeltisi oldukları bilinen ancak üzerinde etiketleri olmayan iki şişe bulunmaktadır. Bu şişeleri içerdikleri asitler açısından doğru şekilde etiketlemek için aşağıdakilerden hangisinin yapılması uygundur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Çinko metali üzerindeki etkilerini incelemek"
+      },
+      {
+        "id": "B",
+        "text": "Kireç taşı üzerindeki etkilerini incelemek"
+      },
+      {
+        "id": "C",
+        "text": "Bakır metali üzerindeki etkilerini incelemek"
+      },
+      {
+        "id": "D",
+        "text": "Çözeltilerin pH değerlerini belirlemek"
+      },
+      {
+        "id": "E",
+        "text": "Sodyum hidroksit üzerindeki etkilerini incelemek"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0103",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "1 mol H2SO4 içeren sulu çözelti ile 2 mol KOH içeren sulu çözelti karıştırılarak tepkime gerçekleştiriliyor. Bu tepkimeyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nötralleşme tepkimesi olarak sınıflandırılır."
+      },
+      {
+        "id": "B",
+        "text": "Tepkime sonucunda H2 gazı açığa çıkar."
+      },
+      {
+        "id": "C",
+        "text": "Tepkime sonucunda 1 mol H2O oluşur."
+      },
+      {
+        "id": "D",
+        "text": "1 mol KOH tepkimeye girmeden kalır."
+      },
+      {
+        "id": "E",
+        "text": "Tepkime sonucunda 2 mol K2SO4 tuzu oluşur."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0104",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "X ve Y bileşiklerinin sulu çözeltileriyle ilgili aşağıdaki bilgiler verilmektedir: • X’in sulu çözeltisi amfoter özellik gösteren çinko (Zn) ile tepkimeye girdiğinde hidrojen gazı açığa çıkar. • Y’nin sulu çözeltisi yarı soy metal olan bakır (Cu) ile tepkimeye girdiğinde gaz açığa çıkar. • X ile Y tepkimeye girdiğinde tuz ve su oluşur. Buna göre X ve Y bileşikleri aşağıdakilerden hangisi olabilir? X Y",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "HCl NaOH"
+      },
+      {
+        "id": "B",
+        "text": "NaOH HCl"
+      },
+      {
+        "id": "C",
+        "text": "HNO3 NaOH"
+      },
+      {
+        "id": "D",
+        "text": "KOH HCl"
+      },
+      {
+        "id": "E",
+        "text": "NaOH HNO3"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0105",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Hidrojen florür (HF), standart şartlarda gaz hâlde bulunan ve suda çözünebilen bir maddedir. Hidrojen florürün sulu çözeltisi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Cam yüzeyleri aşındırır."
+      },
+      {
+        "id": "B",
+        "text": "Sulu NaOH çözeltisi ile tepkimesinden tuz ve su oluşur."
+      },
+      {
+        "id": "C",
+        "text": "Mavi turnusol kâğıdının rengini kırmızıya çevirir."
+      },
+      {
+        "id": "D",
+        "text": "Aktif metallerle tepkimeye girerek H2 gazı açığa çıkarır."
+      },
+      {
+        "id": "E",
+        "text": "25 °C’de pH değeri 7’den büyüktür."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0106",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "İki metalden oluşan bir alaşım hem derişik HCl(suda) çözeltisiyle hem de derişik NaOH(suda) çözeltisiyle ayrı ayrı tepkimeye girdiğinde H2 gazı açığa çıkıyor. Bu alaşımı oluşturan metal çifti aşağıdakilerden hangisi olabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Au - Cu"
+      },
+      {
+        "id": "B",
+        "text": "Ag - Cu"
+      },
+      {
+        "id": "C",
+        "text": "Cu - Sn"
+      },
+      {
+        "id": "D",
+        "text": "Ag - Hg"
+      },
+      {
+        "id": "E",
+        "text": "Au - Pt"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0107",
+    "konu": "kimya_asit_baz_tuz",
+    "alt_konu": "",
+    "ders": "kimya",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Tencere ve tava gibi mutfak malzemelerinin iç yüzeyleri çok yüksek erime noktasına sahip ve kimyasal etkilere karşı dirençli olan polimerlerle kaplanır. Aşağıdakilerden hangisi bu amaçla kullanılan polimerlerden biridir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Politetrafloroeten (PTFE)"
+      },
+      {
+        "id": "B",
+        "text": "Polivinil klorür (PVC)"
+      },
+      {
+        "id": "C",
+        "text": "Polietilen tereftalat (PET)"
+      },
+      {
+        "id": "D",
+        "text": "Polietilen (PE)"
+      },
+      {
+        "id": "E",
+        "text": "Polistiren (PS)"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0108",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Aşağıdakilerden hangisi tüm canlıların ortak özelliği değildir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Tek bir hücre veya hücrelerden meydana gelmiş olma"
+      },
+      {
+        "id": "B",
+        "text": "Enerji kullanma"
+      },
+      {
+        "id": "C",
+        "text": "Oksijen kullanma"
+      },
+      {
+        "id": "D",
+        "text": "Uyarılara tepki verme"
+      },
+      {
+        "id": "E",
+        "text": "Kalıtsal materyal içerme"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0109",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Aşağıdakilerden hangisi DNA ve RNA’nın ortak özelliklerinden biridir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Her birinin yapısında tüm pirimidin baz çeşitleri yer alır."
+      },
+      {
+        "id": "B",
+        "text": "Her iki molekül de nükleotit polimeridir."
+      },
+      {
+        "id": "C",
+        "text": "Her zaman zarlı organel içerisinde bulunurlar."
+      },
+      {
+        "id": "D",
+        "text": "Zincirlerindeki pürin ve pirimidin bazlarının sayıları her zaman birbirine eşittir."
+      },
+      {
+        "id": "E",
+        "text": "Hücre döngüsünde replikasyon geçirirler."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0110",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "DNA ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Nükleotit adı verilen monomerlerden yapılmıştır."
+      },
+      {
+        "id": "B",
+        "text": "Hücre bölünmesi öncesinde kendisini kopyalar."
+      },
+      {
+        "id": "C",
+        "text": "Genetik bilginin yavru hücrelere aktarımında işlev görür."
+      },
+      {
+        "id": "D",
+        "text": "Hücredeki proteinler, DNA’daki bilgi üzerinden sentezlenir."
+      },
+      {
+        "id": "E",
+        "text": "Canlılardaki DNA’ların farklılığı, sadece nükleotitlerin dizilimine dayalıdır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0111",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Trigliseritler ile ilgili, I. Bir molekül trigliserit oluşurken bir molekül su açığa çıkar. II. Bir gliserol ile üç yağ asitinin esterleşmesi sonucu bir trigliserit molekülü oluşur. III. İnsanlar, sentezledikleri trigliseritlerin yapısındaki yağ asitlerinin bir kısmını besinlerle dışarıdan almak zorundadır. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0112",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "İnsanda, bir karaciğer hücresi çekirdeğinde; I. gen, II. nükleotit, III. kromozom sayılarının en az olandan en çok olana doğru sıralaması aşağıdakilerden hangisidir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "I – II – III"
+      },
+      {
+        "id": "B",
+        "text": "I – III – II"
+      },
+      {
+        "id": "C",
+        "text": "II – I – III"
+      },
+      {
+        "id": "D",
+        "text": "III – I – II"
+      },
+      {
+        "id": "E",
+        "text": "III – II – I"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0113",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Selüloz, kitin ve nişasta ile ilgili; I. polimer yapıda olma, II. yapısında azot bulundurma, III. dehidrasyon süreci ile oluşma, IV. hayvan hücrelerinde depo edilebilme özelliklerinden hangileri ortaktır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "I ve III"
+      },
+      {
+        "id": "B",
+        "text": "I ve IV"
+      },
+      {
+        "id": "C",
+        "text": "II ve III"
+      },
+      {
+        "id": "D",
+        "text": "I, II ve IV"
+      },
+      {
+        "id": "E",
+        "text": "II, III ve IV"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0114",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Aşağıdaki organik moleküllerden hangisi bir polimer değildir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Glikojen"
+      },
+      {
+        "id": "B",
+        "text": "Kitin"
+      },
+      {
+        "id": "C",
+        "text": "Nükleik asit"
+      },
+      {
+        "id": "D",
+        "text": "Trigliserit"
+      },
+      {
+        "id": "E",
+        "text": "Protein"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0115",
+    "konu": "bio_hucre",
+    "alt_konu": "Hücre",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Bir grup öğrenci proje çalışması kapsamında “Işığın, patates bitkisinin filizlenmesi üzerinde olumlu etkisi vardır.” görüşünü ileri sürerek araştırmaya başlıyor. Öğrencilerin bu amaçla yaptığı çalışmaların aşamaları aşağıda verilmiştir. • 10 adet patates alınarak her biri uzunlamasına ikiye kesilmiştir. • Her bir patates parçasının üzerindeki göz bölgeleri sayılıp kaydedilmiştir. • Her bir patates parçasının alt kısmı, ıslatılmış kağıt havlulara sarılmış ve kesik kısımları üste gelecek şekilde şeffaf naylon torbalara yerleştirilmiştir. • Naylon torbaların ağızları kapatılarak üzerlerine toplu iğneyle eşit sayıda delik açılmıştır. • Bu şekilde hazırlanan patateslerden yarısı ışık alan yarısı da karanlık ortama konulup diğer koşullar özdeş tutulmuştur. • Öğrenciler bir hafta sonra naylon torbaların ağızlarını açarak her bir patates parçasının üzerindeki filizleri sayarak kaydetmişlerdir. Bu çalışmayı üç kez tekrarlamışlardır. • Bulgularına göre ışığın, filizlenmeyi olumlu yönde etkilediğini kaydetmişlerdir. Öğrencilerin bu proje çalışmasında aşağıdakilerin hangisi yer almaz?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Kontrollü deney yapma"
+      },
+      {
+        "id": "B",
+        "text": "Gözlem yapma"
+      },
+      {
+        "id": "C",
+        "text": "Teori oluşturma"
+      },
+      {
+        "id": "D",
+        "text": "Çıkarım yapma"
+      },
+      {
+        "id": "E",
+        "text": "Hipotez oluşturma"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0116",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Aşağıdaki şekilde hücre zarında gerçekleşen iki farklı taşıma olayı gösterilmiştir. Bu taşıma olaylarıyla ilgili, I. Madde geçişleri derişim farkına göre kendiliğinden gerçekleşir. II. Zar proteinleri işlev görür. III. Hücre tarafından enerji harcanarak gerçekleşir. ifadelerinden hangilerinin her iki taşıma şekli için ortak olduğu söylenebilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0117",
+    "konu": "bio_hucre",
+    "alt_konu": "Hücre",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Bir öğrenci izlediği bilimsel bir belgeselde, ayrıntılı mikroskobik görüntüsünün anlatıldığı bir hücreli organizmanın; prokaryot değil, ökaryot olduğu sonucuna varıyor. Öğrencinin, bu organizmada aşağıdakilerden hangisini gözlemesi bu doğru kanıya varmasını sağlamış olabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Hücre duvarına sahip olması"
+      },
+      {
+        "id": "B",
+        "text": "Hücre içerisinde kofulların olması"
+      },
+      {
+        "id": "C",
+        "text": "Hücrenin hareketini sağlayan bir kamçının bulunması"
+      },
+      {
+        "id": "D",
+        "text": "Hücrenin ortasından basitçe ikiye bölünerek çoğalması"
+      },
+      {
+        "id": "E",
+        "text": "Hücrede ribozomların bulunması"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0118",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Aşağıda bir hayvan ve bitki hücresi şematize edilmiştir. Hayvan hücresi Bitki hücresi Bu hücreler karşılaştırıldığında aşağıdakilerin hangisi açısından aralarında farklılık olmadığı görülür?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Hücre duvarının varlığı"
+      },
+      {
+        "id": "B",
+        "text": "Hücre bölünmesinde sitokinezin gerçekleşme şekli"
+      },
+      {
+        "id": "C",
+        "text": "Hücre içerisinde yer alan organel çeşitleri"
+      },
+      {
+        "id": "D",
+        "text": "Hücre içi iskelet elemanlarının varlığı"
+      },
+      {
+        "id": "E",
+        "text": "Kofulların sayısı ve büyüklükleri"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0119",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Hücre zarı ile ilgili, I. Zar yapısında yer alan fosfolipitler hareket hâlindedir. II. Zar yapısındaki glikoprotein ve glikolipit moleküllerinin dağılımı, tüm canlıların hücre zarlarında aynıdır. III. Zar yapısında yer alan taşıyıcı proteinler, bütün moleküllerin zardan geçişinde görev alır. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0120",
+    "konu": "bio_hucre",
+    "alt_konu": "Hücre",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Tipik bir bitki ve hayvan hücresi karşılaştırıldığında aşağıdakilerden hangisi ortak değildir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Enerji kullanarak hücre içine molekül alma"
+      },
+      {
+        "id": "B",
+        "text": "Oksijen kullanarak enerji üretimi gerçekleştiren organellere sahip olma"
+      },
+      {
+        "id": "C",
+        "text": "Hücrede üretilen bazı maddeleri hücre dışına salgılama"
+      },
+      {
+        "id": "D",
+        "text": "Üzerinde ribozomlar bulunan endoplazmik retikuluma sahip olma"
+      },
+      {
+        "id": "E",
+        "text": "Atık ürünleri merkezî kofulda depolama"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0121",
+    "konu": "bio_hucre",
+    "alt_konu": "Hücre",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Kofulların çeşitli hücrelerdeki işlevleriyle ilgili, I. Besin kofulları, içerdikleri besinlerin sindiriminde işlev gören enzimleri kendileri üretir. II. Tatlı sularda yaşayan protistlerdeki kontraktil kofullar, fazla suyun hücreden uzaklaştırılmasında işlev görür. III. Bitki hücrelerinde bulunan merkezî kofullar, küçük kofulların kaynaşmasıyla oluşur. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "I ve II"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0122",
+    "konu": "bio_hucre",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Hücre çekirdeği ile ilgili I. İnsandaki olgun vücut hücrelerinin çekirdek sayısı aynıdır. II. İki katlı bir zar tarafından kuşatılmıştır. III. Tüm hücreler yaşamları boyunca çekirdeğe sahiptir. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0123",
+    "konu": "bio_hucre",
+    "alt_konu": "Hücre",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Aşağıda hücre zarından bir kesit şematize edilmiştir. Şekildeki numaralanmış kısımlarla ilgili aşağıdakilerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "I, glikoprotein olup hücreye özgüllük kazandırır."
+      },
+      {
+        "id": "B",
+        "text": "II, kolesterol olup hücre zarına dayanıklılık kazandırır."
+      },
+      {
+        "id": "C",
+        "text": "III, taşıyıcı protein olup aktif taşımada işlev görebilir."
+      },
+      {
+        "id": "D",
+        "text": "IV, kanal proteini olup kolaylaştırılmış difüzyonda işlev görür."
+      },
+      {
+        "id": "E",
+        "text": "V, lipoprotein olup reseptör olarak işlev görür."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0124",
+    "konu": "bio_canlilar",
+    "alt_konu": "Canlıların Çeşitliliği ve Sınıflandırılması",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Linnaeus’nin canlıların sınıflandırılmasıyla ilgili geliştirmiş olduğu sistem, sonradan bazı değişiklikler yapılmış olsa da günümüzde hâlâ kullanılmaktadır. Günümüzde kullanılan bu sınıflandırma sistemiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Bu sistem bir hiyerarşik sınıflandırma sistemidir."
+      },
+      {
+        "id": "B",
+        "text": "Bir üst sınıflandırma basamağında yer alan canlı grupları altta yer alanlara göre daha genel ortak özellikler taşırlar."
+      },
+      {
+        "id": "C",
+        "text": "Sınıflandırmada her takım içerisinde eşit sayıda canlı türü yer alır."
+      },
+      {
+        "id": "D",
+        "text": "Bu sınıflandırma sisteminde canlı türleri binomial olarak isimlendirilir."
+      },
+      {
+        "id": "E",
+        "text": "Canlılar sınıflandırılırken organların köken benzerlikleri de esas alınır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0125",
+    "konu": "bio_canlilar",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Aynı cinse ait iki hayvan türü için aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Bu türler aynı aile içerisinde yer alır."
+      },
+      {
+        "id": "B",
+        "text": "Bu türlerin kromozom sayıları kesinlikle aynıdır."
+      },
+      {
+        "id": "C",
+        "text": "Bu türlerin genlerindeki nükleotit dizilimlerinde farklılık görülebilir."
+      },
+      {
+        "id": "D",
+        "text": "Bu türler çiftleştiklerinde verimli döller oluşturamaz."
+      },
+      {
+        "id": "E",
+        "text": "Bu türler ortak ataya dayalı benzerliklere sahiptir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0126",
+    "konu": "bio_canlilar",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Canlıların sınıflandırılmasında en üst kategoriden alt kategorilere doğru gidildikçe aşağıdakilerden hangisinin görülmesi beklenmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Taksonlar arasındaki ortak özellikler azalır."
+      },
+      {
+        "id": "B",
+        "text": "Taksonlar arasındaki akrabalık derecesi artar."
+      },
+      {
+        "id": "C",
+        "text": "Birey sayısı azalır."
+      },
+      {
+        "id": "D",
+        "text": "Taksonlar arasındaki protein benzerliği artar."
+      },
+      {
+        "id": "E",
+        "text": "Canlı çeşitliliği azalır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0127",
+    "konu": "bio_canlilar",
+    "alt_konu": "Canlı Âlemleri ve Özellikleri",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "“Aşağıdaki özelliklerden hangisine sahip olması bir hayvanın kuş olduğunun kanıtı sayılır?” Bu sorunun yöneltildiği bir öğrenci, aşağıdakilerden hangisini işaretlerse soruyu doğru cevaplamış olur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Uçma yeteneğine sahip olma"
+      },
+      {
+        "id": "B",
+        "text": "Kanatlara sahip olma"
+      },
+      {
+        "id": "C",
+        "text": "Yumurtlayarak çoğalma"
+      },
+      {
+        "id": "D",
+        "text": "Sabit vücut sıcaklığına sahip olma"
+      },
+      {
+        "id": "E",
+        "text": "Vücutlarında tüylere sahip olma"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0128",
+    "konu": "bio_canlilar",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Mantarlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Moleküler verilere göre mantarlar bitkilerden daha çok hayvanlara benzerlik göstermektedir."
+      },
+      {
+        "id": "B",
+        "text": "Bazı mantar türleri, birçok bitkinin topraktan mineral alımında işlev görür."
+      },
+      {
+        "id": "C",
+        "text": "Bazı mantar türleri ilaç üretiminde kullanılmaktadır."
+      },
+      {
+        "id": "D",
+        "text": "Bazı mantar türleri doğadaki madde döngülerinde ayrıştırıcı olarak işlev görür."
+      },
+      {
+        "id": "E",
+        "text": "Mantarlar, yoğurt üretiminde fermantasyonu gerçekleştirir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0129",
+    "konu": "bio_canlilar",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Mantarlar âleminde yer alan canlılarda aşağıdaki özelliklerden hangisi ortak değildir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Hücrelerinde çekirdek zarına sahip olma"
+      },
+      {
+        "id": "B",
+        "text": "Heterotrof beslenme"
+      },
+      {
+        "id": "C",
+        "text": "Hücre duvarına sahip olma"
+      },
+      {
+        "id": "D",
+        "text": "Çok hücreli olma"
+      },
+      {
+        "id": "E",
+        "text": "Hücrelerinde organellere sahip olma"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0130",
+    "konu": "bio_canlilar",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Bakteriler ve Protista âlemine ait canlı türleri incelendiğinde aşağıdakilerden hangisi her iki grup için ortak değildir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Tek hücreli türlerin bulunması"
+      },
+      {
+        "id": "B",
+        "text": "Fotosentez yapabilen türlerin bulunması"
+      },
+      {
+        "id": "C",
+        "text": "Hastalık yapabilen türlerin bulunması"
+      },
+      {
+        "id": "D",
+        "text": "Eşeysiz çoğalabilen türlerin bulunması"
+      },
+      {
+        "id": "E",
+        "text": "Fagositoz yapabilen türlerin bulunması"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0131",
+    "konu": "bio_canlilar",
+    "alt_konu": "Canlı Âlemleri ve Özellikleri",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Bakterilerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Bazı bakterilerde endositoz görülebilir."
+      },
+      {
+        "id": "B",
+        "text": "Bazı bakteriler K vitamini sentezleyebilir."
+      },
+      {
+        "id": "C",
+        "text": "Bazı bakteriler selülozu sindiren enzimler üretebilir."
+      },
+      {
+        "id": "D",
+        "text": "Bakteriler genellikle hücre duvarına sahiptir."
+      },
+      {
+        "id": "E",
+        "text": "Bazı bakteriler fotosentez yapabilir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0132",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Soğan kökü hücrelerinde hücre bölünmesi incelenirken aşağıdaki olaylardan hangisiyle karşılaşılmaz?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Çekirdek zarının parçalanması"
+      },
+      {
+        "id": "B",
+        "text": "Kromatin ipliklerin kısalıp kalınlaşması"
+      },
+      {
+        "id": "C",
+        "text": "İğ ipliklerinin oluşumu"
+      },
+      {
+        "id": "D",
+        "text": "Kromatitlerin hücrenin kutuplarına çekilmesi"
+      },
+      {
+        "id": "E",
+        "text": "Sitokinezin boğumlanmayla gerçekleşmesi"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0133",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Aşağıdaki şekilde bal arılarında üreme süreci gösterilmiştir. M hücresi L hücresi N olayı K olayı Mitoz Arı sütü ile beslenme Polen ile beslenme Dişi embriyolar (2n) Yumurtalar (n) Kraliçe Arı 2n Kraliçe Arı 2n Erkek Arı n Erkek Arı n İşçi Arı 2n Buna göre şekilde K olayı, N olayı, L hücresi ve M hücresi ile gösterilen yerler, aşağıdakilerin hangisinde doğru olarak verilmiştir? K olayı N olayı L hücresi M hücresi",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Mayoz Rejenerasyon Sperm Zigot"
+      },
+      {
+        "id": "B",
+        "text": "Mitoz Rejenerasyon Sperm Birincil oosit"
+      },
+      {
+        "id": "C",
+        "text": "Mayoz Partenogenez Sperm Zigot"
+      },
+      {
+        "id": "D",
+        "text": "Mayoz Partenogenez Birincil spermatosit Zigot"
+      },
+      {
+        "id": "E",
+        "text": "Mayoz Tomurcuklanma Birincil spermatosit Birincil oosit"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0134",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Bir biyoloji öğretmeni, tamamlandığında 2 yavru hücre oluşan bir hücre döngüsünün evrelerini öğrencilerinden modellemelerini istemiştir. Aşağıda bir öğrencinin hazırladığı model verilmiştir. Buna göre öğrencinin hazırladığı modelle ilgili aşağıdakilerden hangisi söylenmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Hücre bölünmesi tipi olarak mitoz örnek verilmiştir."
+      },
+      {
+        "id": "B",
+        "text": "Bölünen hücrenin kromozom sayısı 2n=8’dir."
+      },
+      {
+        "id": "C",
+        "text": "İnterfaz evresi modelde yer almamıştır."
+      },
+      {
+        "id": "D",
+        "text": "Hücre tipi olarak hayvan hücresi örnek verilmiştir."
+      },
+      {
+        "id": "E",
+        "text": "Yavru hücrelerin kromozom sayısı diploittir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0135",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Aşağıdakilerden hangisi eşeysiz üreme ile gerçekleşmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Laktik asit bakterilerinin çoğalması"
+      },
+      {
+        "id": "B",
+        "text": "Kara yosunlarında sporla yeni bireylerin oluşması"
+      },
+      {
+        "id": "C",
+        "text": "Deniz yıldızının kopan kolundan yeni bir birey oluşması"
+      },
+      {
+        "id": "D",
+        "text": "Hidralarda tomurcuklanma ile yeni bir bireyin oluşması"
+      },
+      {
+        "id": "E",
+        "text": "Bal arılarında kraliçe arının oluşumu"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0136",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Bir bitki hücresindeki mitozla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Profaz evresinde DNA replikasyonu gerçekleşir."
+      },
+      {
+        "id": "B",
+        "text": "Profaz evresinde bir çift sentrozom oluşur."
+      },
+      {
+        "id": "C",
+        "text": "Kromozomlar, anafaz evresinde ekvatoral düzlemde sıralanır."
+      },
+      {
+        "id": "D",
+        "text": "Sitokinez, hücre plağı oluşumuyla gerçekleşir."
+      },
+      {
+        "id": "E",
+        "text": "Homolog kromozomlar metafaz evresinde kutuplara çekilir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0137",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Bir tavuk ve horozun çiftleşmesinden elde edilen yumurtalar kuluçkaya alınıyor. Yumurtadan çıkan civcivlerin tüy rengi, ibik biçimi, tepelik şekli ve kuyruk biçimi gibi bazı karakterlere ait özellikler bakımından birbirlerinden farklılık gösterdiği gözlemleniyor. Civcivler arasındaki bu farklılığın ortaya çıkmasına aşağıdakilerden hangisinin katkı yapması beklenmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Gametlerin oluşumu sırasında krossing over olayının gerçekleşmesi"
+      },
+      {
+        "id": "B",
+        "text": "Mayozda homolog kromozomların şansa bağlı olarak kutuplara gitmesi"
+      },
+      {
+        "id": "C",
+        "text": "Her bir civcivin oluşumu için birleşen gametlerin farklı genotipte olması"
+      },
+      {
+        "id": "D",
+        "text": "Bir yumurtanın, çok sayıdaki spermden biri tarafından döllenmesi"
+      },
+      {
+        "id": "E",
+        "text": "Yumurtaların kuluçka süresince farklı sıcaklıklara maruz kalması"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0138",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "İnsan eşey ana hücresinde gerçekleşen mayozla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Mayoz tamamlandığında oluşan hücrelerin genetik yapıları birbirinden farklıdır."
+      },
+      {
+        "id": "B",
+        "text": "Profaz I evresinde homolog kromozom çiftlerinin kardeş olmayan kromatitleri arasında parça değişimi gerçekleşebilir."
+      },
+      {
+        "id": "C",
+        "text": "Anafaz I evresindeki kromozom sayısı anafaz II evresindekinin iki katıdır."
+      },
+      {
+        "id": "D",
+        "text": "Mayoz I tamamlandığında oluşan hücreler n kromozomludur."
+      },
+      {
+        "id": "E",
+        "text": "Anafaz I evresinde homolog kromozomların hangi kutuplara çekileceği şansa bağlı olarak gerçekleşir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0139",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Aşağıda 2n=4 kromozomlu bir bitki hücresinin bazı bölünme evreleri şematize edilmiştir. I II III IV V Buna göre bu evrelerden mitoz ve mayoza ait olanlar aşağıdakilerin hangisinde verilmiştir? Mitoz Mayoz",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "I, III ve V II ve IV"
+      },
+      {
+        "id": "B",
+        "text": "I ve III II, IV ve V"
+      },
+      {
+        "id": "C",
+        "text": "II ve IV I, III ve V"
+      },
+      {
+        "id": "D",
+        "text": "II, IV ve V I ve III"
+      },
+      {
+        "id": "E",
+        "text": "I ve V II, III ve IV"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0140",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2018,
+    "soru": "Meyve sineklerinde eşey kromozomları dişilerde XX, erkeklerde XY’dir. Göz renginden sorumlu gen, X kromozomu üzerinde yer alır. Kırmızı göz renginden sorumlu alel (R ), beyaz göz renginden sorumlu alele (r ) baskındır. • Laboratuvarda yapılan bir deneyde kırmızı gözlü bir dişi, beyaz gözlü bir erkekle çaprazlanarak F1 dölü (kırmızı gözlü erkek ve dişi, beyaz gözlü erkek ve dişi bireyler) elde edilmiştir. • Deneyin ikinci aşamasında ise F1 dölünden alınan kırmızı gözlü erkek ve dişi birey çaprazlanarak F2 dölü elde edilmiştir. ♀ ♀ ♀ ♀ F1 F2 dölü X Erkek Dişi ♂ ♂ ♂ ♂ Bu deneye göre, I. F1 dölündeki beyaz gözlü erkek ve dişi bireylerin oranı yaklaşık olarak birbirine eşittir. II. F2 dölünde beyaz gözlü bireylerin ortaya çıkması beklenmez. III. F2 dölünde göz rengi fenotipinin cinsiyetler arasında dağılım oranı bakımından farklılığın olması beklenir. yargılarından hangilerine ulaşılabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0141",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Renk körlüğü X kromozomu üzerindeki çekinik bir alel tarafından kalıtılan bir hastalıktır.? Sağlıklı erkek Sağlıklı dişi Hasta dişi Hasta erkek Yukarıdaki soyağacında “?” ile gösterilen bireyin renk körü olma olasılığı kaçtır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3/4"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "1/4"
+      },
+      {
+        "id": "E",
+        "text": "1/8"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0142",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Popülasyonda görülme sıklığı yüksek olan kalıtsal bir hastalığın kalıtım şeklini belirlemek isteyen bir araştırmacı, bu hastalığın görüldüğü bir ailenin soyağacını aşağıdaki gibi çiziyor. Sağlıklı dişi Hasta dişi Sağlıklı erkek Hasta erkek Bu hastalığın kalıtım şekliyle ilgili, I. Hastalığın sadece erkek bireylerde ortaya çıkması, Y’ye bağlı çekinik alel ile kalıtıldığına işaret etmektedir. II. Bu hastalık kesinlikle otozomal baskın alel ile kalıtılmaktadır. III. Soyağacında hasta dişi birey bulunmamasına karşın bu hastalığa X’e bağlı çekinik alel yol açıyor olabilir. yorumlarından hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve II"
+      },
+      {
+        "id": "E",
+        "text": "I ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0143",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Aşağıdaki soyağacında bir özelliğin bir ailedeki kalıtımı verilmiştir. Özelliği göstermeyen erkek Özelliği gösteren erkek Özelliği göstermeyen dişi Özelliği gösteren dişi Buna göre bu özelliğin kalıtımı ile ilgili, I. X kromozomundaki baskın bir alel ile kalıtılıyor olabilir. II. X kromozomundaki çekinik bir alel ile kalıtılıyor olabilir. III. Otozomal baskın olarak kalıtılıyor olabilir. IV. Otozomal çekinik olarak kalıtılıyor olabilir. ifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "C",
+        "text": "II ve IV"
+      },
+      {
+        "id": "D",
+        "text": "I, III ve IV"
+      },
+      {
+        "id": "E",
+        "text": "II, III ve IV"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0144",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Aşağıdaki soyağacında X kromozomu üzerindeki çekinik bir alel tarafından kalıtılan özelliğin bir ailedeki kalıtım seyri verilmiştir. Dişi Erkek 1 2 3 4 5 Soyağacında sadece 3 numaralı birey bu özelliği fenotipinde gösterdiğine göre özelliğin kalıtımı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "1 numaralı bireyin genotipinde bu özellikten sorumlu alel bulunur."
+      },
+      {
+        "id": "B",
+        "text": "2 numaralı bireyin genotipinde bu özellikten sorumlu alel bulunmaz."
+      },
+      {
+        "id": "C",
+        "text": "3 numaralı bireye bu özellikle ilgili alel, 2 numaralı bireyden kalıtılmıştır."
+      },
+      {
+        "id": "D",
+        "text": "4 numaralı bireyin bu özellik bakımından heterozigot genotipte olma olasılığı 1/2’dir."
+      },
+      {
+        "id": "E",
+        "text": "2 ve 5 numaralı bireylerin bu özellik bakımından genotipleri aynıdır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0145",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "İnsanlarda bazı karakterlerin kalıtımı, geni taşıyan ebeveynlerin ve bu ebeveynlerden doğacak olan çocukların cinsiyetine bağlıdır. Aşağıda bu şekilde kalıtılan renk körlüğü hastalığının bir ailedeki seyri gösterilmiştir. X X X Y Sağlıklı erkek çocuk Renk körü erkek çocuk Renk körü kız çocuk Taşıyıcı kız çocuk Anne ve babanın fenotipinin bilinmediği bu kalıtım şemasına göre aşağıdakilerden hangisi söylenmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Anne ve babanın genotipinde renk körlüğünden sorumlu alel bulunmaktadır."
+      },
+      {
+        "id": "B",
+        "text": "Bu çiftin kız ve erkek çocuklarının renk körü olma olasılığı eşittir."
+      },
+      {
+        "id": "C",
+        "text": "Bu hastalık, X’e bağlı çekinik bir alel nedeniyle ortaya çıkmaktadır."
+      },
+      {
+        "id": "D",
+        "text": "Baba, tüm kız çocuklarına renk körlüğü ile ilgili aleli aktarmıştır."
+      },
+      {
+        "id": "E",
+        "text": "Bu çiftin renk körü kız çocukları olduğuna göre anne renk körü olmalıdır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0146",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Hemofili, X kromozomu üzerindeki çekinik bir alel tarafından kalıtılan bir hastalıktır. Aşağıda bu hastalığın bir ailedeki kalıtımı gösterilmiştir.? 1 2 Sağlıklı dişi Hasta dişi Sağlıklı erkek Hasta erkek Buna göre 1 ve 2 numaralı bireylerin evliliğinden doğacak çocuğun hemofili olma olasılığı kaçtır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "1/16"
+      },
+      {
+        "id": "B",
+        "text": "1/8"
+      },
+      {
+        "id": "C",
+        "text": "1/4"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      },
+      {
+        "id": "E",
+        "text": "1"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0147",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Aşağıdaki soyağacında otozomal çekinik bir özelliğin bir ailedeki kalıtımı verilmiştir. Özelliği göstermeyen erkek birey Özelliği gösteren erkek birey Özelliği göstermeyen dişi birey Özelliği gösteren dişi birey 6 5 4 3 2 1 Buna göre I. 1 numaralı bireyin genotipinde bu özellikten sorumlu alel bulunur. II. 3 ve 4 numaralı bireylerin bu evliliğinden doğabilecek tüm çocukların genotipleri heterozigot olur. III. 5 ve 6 numaralı bireylerin bu evliliğinden doğabilecek tüm çocukların genotiplerinde bu özellikten sorumlu alel bulunur. ifadelerinden hangileri kesinlikle doğrudur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0148",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2019,
+    "soru": "Canlıların yedikleri besinlerle aldıkları bazı zehirli maddeler, vücutta parçalanmaz ve değişik dokularda birikir. Alt trofik basamaklarda biriken bu maddeler besin zinciri yoluyla üst basamaklara aktarılır ve üst trofik basamaklarda daha yoğun hâle gelir. Bu olaya biyolojik birikim denir. Buna göre, bir göl ekosistemine karışan bir zehirli maddenin aynı besin zincirinde yer alan aşağıdaki canlılardan hangisinin dokusunda biyolojik birikim daha fazla olur?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Fitoplankton"
+      },
+      {
+        "id": "B",
+        "text": "Zooplankton"
+      },
+      {
+        "id": "C",
+        "text": "Herbivor balık"
+      },
+      {
+        "id": "D",
+        "text": "Omnivor balık"
+      },
+      {
+        "id": "E",
+        "text": "Balık kartalı"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0149",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2021,
+    "soru": "Aşağıdaki şekilde bir denizel ekosistemde görülen küçük bir besin ağı verilmiştir. Denizanası Şeritli levrek Balık larvası Zooplankton Fitoplankton Şekildeki besin ağı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Şeritli levrek, üçüncül tüketici basamağında yer alır."
+      },
+      {
+        "id": "B",
+        "text": "Bu besin ağında birden fazla besin zinciri yer almaktadır."
+      },
+      {
+        "id": "C",
+        "text": "Zooplanktonlar birincil tüketicidir."
+      },
+      {
+        "id": "D",
+        "text": "Denizanası, balık larvaları ile beslendiğinde ikincil tüketici olur."
+      },
+      {
+        "id": "E",
+        "text": "Bu besin ağında dört trofik düzey yer alır."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0150",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2023,
+    "soru": "Aşağıda karasal ekosisteme ait bir besin ağı verilmiştir. Sincap Tavşan Geyik Üreticiler Çam Akçaağaç Kavak Birincil Tüketiciler İkincil Tüketiciler Tilki Kurt Bu besin ağıyla ilgili, I. Üç trofik düzeyden oluşmaktadır. II. Alt trofik düzeyden üst trofik düzeylere doğru gidildikçe aktarılan enerji miktarı azalır. III. İkincil tüketiciler basamağında bulunan canlılar en fazla biyokütleye sahiptir. ifadelerinden hangileri doğrudur? A) Yalnız I B) Yalnız II C) Yalnız III D) I ve II E II ve III",
+    "secenekler": [],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0151",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2024,
+    "soru": "Şekilde farklı besin zincirlerinin bir araya gelerek oluşturduğu bir besin ağı verilmiştir. P M X K N Y L Z Bu besin ağı ile ilgili aşağıdakilerden hangisi söylenmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Hem K hem de L ototrof organizmalardır."
+      },
+      {
+        "id": "B",
+        "text": "Birden fazla herbivor tür vardır."
+      },
+      {
+        "id": "C",
+        "text": "M omnivor bir canlıdır."
+      },
+      {
+        "id": "D",
+        "text": "Bazı türler hem av hem de avcıdır."
+      },
+      {
+        "id": "E",
+        "text": "P türü, alt trofik basamaklardaki tüm canlılarla beslenmektedir."
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0152",
+    "konu": "bio_bolunme",
+    "alt_konu": "",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2020,
+    "soru": "Türkiye’nin biyolojik çeşitliliğinin yüksek olmasının nedeni; I. üç kıta arasında bazı canlıların geçiş yolları üzerinde bulunması, II. birbirine çok yakın bölgelerinde farklı iklim tiplerinin görülmesi, III. farklı yeryüzü şekillerine sahip olması özelliklerinden hangileri olabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "I ve III"
+      },
+      {
+        "id": "D",
+        "text": "II ve III"
+      },
+      {
+        "id": "E",
+        "text": "I, II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0153",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2022,
+    "soru": "Sürdürülebilir kalkınma, insan toplumlarının uzun süreli refahını sağlamak için onları destekleyen ekosistemlerin korunması gerektiğini öngören bir yaklaşımdır. Sürdürülebilirliği sağlamak için, I. Kişi başına düşen ekolojik ayak izi artırılmalıdır. II. Biyoçeşitlilik kayıpları azaltılmalıdır. III. Doğadaki bitkisel ve hayvansal kaynaklar kullanılırken bunların popülasyon büyüklükleri dikkate alınmalıdır. yargılarından hangileri uygulanabilir?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Yalnız I"
+      },
+      {
+        "id": "B",
+        "text": "Yalnız II"
+      },
+      {
+        "id": "C",
+        "text": "Yalnız III"
+      },
+      {
+        "id": "D",
+        "text": "I ve III"
+      },
+      {
+        "id": "E",
+        "text": "II ve III"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  },
+  {
+    "id": "fn_0154",
+    "konu": "bio_bolunme",
+    "alt_konu": "Mayoz",
+    "ders": "biyoloji",
+    "tip": "cikmis",
+    "yil": 2025,
+    "soru": "Aşağıdakilerden hangisinin, biyolojik çeşitliliğin korunmasına katkı sağlaması beklenmez?",
+    "secenekler": [
+      {
+        "id": "A",
+        "text": "Tarım ilaçlarının kullanımının azaltılmasının"
+      },
+      {
+        "id": "B",
+        "text": "Kontrolsüz avcılığın yasaklanmasının"
+      },
+      {
+        "id": "C",
+        "text": "Geri dönüşümün teşvik edilmesinin"
+      },
+      {
+        "id": "D",
+        "text": "Endemik türlerin korunmasının"
+      },
+      {
+        "id": "E",
+        "text": "Sazlık ve bataklık alanların kurutulmasının"
+      }
+    ],
+    "dogru": null,
+    "kaynak": "otomatik",
+    "zorluk": "orta"
+  }
+]

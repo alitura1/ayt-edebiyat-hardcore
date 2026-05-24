@@ -19,7 +19,235 @@ function shuffle(arr) {
 export async function renderHome() {
   const subject = getDataSubject();
   if (subject === 'tarih') return renderTarihHome();
+  if (subject === 'fen')   return renderFenHome();
   return renderEdebiyatHome();
+}
+
+async function renderFenHome() {
+  const s = loadState();
+  const cards = await Data.cards();
+  const topics = await Data.topicsIndex();
+  const allCards = [...cards, ...s.custom_kartlar];
+
+  const totalCorrect = Object.values(s.progress).reduce((a,p) => a + p.dogru, 0);
+  const totalSolved = Object.values(s.progress).reduce((a,p) => a + p.cozuldu, 0);
+  const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
+  const errorCount = s.hata_defteri.length;
+
+  // En sıcak 6 ünite (önceliği sıcak + toplam soru sayısına göre)
+  const hotTopics = [...topics]
+    .filter(t => t.oncelik === 'sicak')
+    .sort((a, b) => (b.toplam || 0) - (a.toplam || 0))
+    .slice(0, 6);
+
+  // Günün sorusu — gün bazında deterministik random (tarih + cardId)
+  const dayKey = new Date().toISOString().slice(0, 10);
+  const heroCard = pickDailyFenQuestion(allCards, dayKey);
+
+  // Streak
+  const sk = streakInfo();
+  const curBadge = currentBadge(sk.current);
+  const nxtBadge = nextBadge(sk.current);
+  const streakColor = sk.status === 'active_today' ? 'text-ok-500' : sk.status === 'at_risk' ? 'text-warn-500' : 'text-slate-400';
+
+  window.__pageSetup = () => {
+    function bumpStreak() {
+      const sr = tickStreak();
+      if (sr.bumped) {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-emerald-600 text-white px-4 py-2 rounded-lg shadow-lg text-sm font-bold';
+        toast.textContent = `🔥 Streak ${sr.current} gün!`;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2500);
+      }
+    }
+    // Hero soru şıkları — sadece görsel (cevap anahtarı yok, bilgi amaçlı)
+    document.querySelectorAll('[data-fen-opt]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.getElementById('fenHeroReveal')?.classList.remove('hidden');
+        bumpStreak();
+      });
+    });
+    // Yeniden seç
+    document.getElementById('fenHeroReroll')?.addEventListener('click', () => {
+      // Force reroll: gün-key'i bypass edip bugünden farklı bir seed kullan
+      sessionStorage.setItem('fen_hero_seed', String(Math.random()));
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
+  };
+
+  const heroQuestionHtml = heroCard ? renderFenHeroCard(heroCard) : `
+    <div class="rounded-2xl bg-slate-100 dark:bg-slate-800 p-6 text-center text-slate-500">
+      Kart havuzu yükleniyor...
+    </div>
+  `;
+
+  return `
+    <section class="text-center mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold mb-1">
+        <span class="text-emerald-700 dark:text-emerald-300">TYT Fen</span>
+        <span class="text-slate-700 dark:text-slate-100">Hardcore</span>
+      </h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm max-w-2xl mx-auto">
+        Sıcak alanlardan netleri uçur · 24 ünite · ${allCards.length} ÖSYM sorusu · 8 yıllık frekans analizi.
+      </p>
+    </section>
+
+    <div class="grid lg:grid-cols-3 gap-4 mb-5 max-w-5xl mx-auto">
+      <!-- Sol: Günün ÖSYM Sorusu -->
+      <div class="lg:col-span-2">
+        ${heroQuestionHtml}
+
+        <div class="mt-3 bg-emerald-50 dark:bg-emerald-900/20 rounded-2xl border-2 border-emerald-500/30 p-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-800 dark:text-emerald-200">🔥 En Sıcak 6 Ünite</span>
+            <a href="#/konular" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 text-emerald-800 dark:text-emerald-200 font-bold">Tüm Üniteler →</a>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-1.5">
+            ${hotTopics.map(t => {
+              const dersTheme = periodTheme(t.ders);
+              return `
+                <a href="#/konular/${t.slug}" class="block bg-white/85 dark:bg-slate-900/85 rounded-md px-2 py-1.5 hover:shadow-md transition-all">
+                  <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-1.5 min-w-0">
+                      <span class="w-1.5 h-1.5 rounded-full ${dersTheme.dot} flex-shrink-0"></span>
+                      <span class="font-bold text-xs truncate ${dersTheme.text}">${escape(t.title)}</span>
+                    </div>
+                    <span class="text-xs font-bold bg-red-500/20 text-red-700 dark:text-red-200 px-1.5 py-0.5 rounded-full flex-shrink-0">${t.toplam}</span>
+                  </div>
+                </a>
+              `;
+            }).join('')}
+          </div>
+          <div class="mt-3 grid sm:grid-cols-3 gap-1.5">
+            <a href="#/quiz/setup" class="text-xs bg-emerald-600 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-emerald-700">🎯 Quiz</a>
+            <a href="#/simulasyonlar" class="text-xs bg-blue-600 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-blue-700">🔬 Simülasyonlar</a>
+            <a href="#/program" class="text-xs bg-purple-600 text-white px-2 py-1.5 rounded font-bold text-center hover:bg-purple-700">📅 4 Haftalık</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sağ: Streak + Hızlı Atış -->
+      <div class="space-y-3">
+        <div class="bg-white dark:bg-slate-900 border-2 border-emerald-500/30 rounded-2xl p-4 text-center">
+          <div class="text-xs uppercase tracking-wider text-slate-500 mb-1">🔥 Streak</div>
+          <div class="text-4xl font-bold ${streakColor} mb-1">${sk.current}</div>
+          <div class="text-xs text-slate-500 mb-2">${sk.current === 0 ? 'Henüz başlamadın' : sk.current === 1 ? '1 gün' : sk.current + ' gün üst üste'}</div>
+          ${curBadge ? `<div class="text-xs">${curBadge.emoji} <strong>${curBadge.label}</strong> rozeti</div>` : ''}
+          ${nxtBadge ? `<div class="text-[10px] text-slate-500 mt-1">Sonraki: ${nxtBadge.emoji} ${nxtBadge.label} (${nxtBadge.d - sk.current} gün)</div>` : ''}
+          <div class="text-[10px] text-slate-500 mt-1">En uzun: ${sk.longest || 0} gün</div>
+          ${sk.status === 'at_risk' ? `<div class="mt-2 text-xs text-warn-500 font-bold">⚠ Bugün soru çöz, kaybetme!</div>` : ''}
+        </div>
+
+        <a href="#/atis" class="block bg-gradient-to-br from-emerald-500 to-teal-700 text-white rounded-2xl p-5 text-center shadow-lg hover:shadow-xl transition-all">
+          <div class="text-4xl mb-1">⚡</div>
+          <div class="text-lg font-bold">HIZLI ATIŞ</div>
+          <div class="text-xs opacity-90 mt-1">Bas, soru gelsin — sonsuz mod</div>
+          ${s.atis?.best_run > 0 ? `<div class="text-xs mt-2 bg-white/20 inline-block px-2 py-0.5 rounded">Best: ${s.atis.best_run} 🔥</div>` : ''}
+        </a>
+      </div>
+    </div>
+
+    ${totalSolved > 0 ? `
+    <section class="grid grid-cols-3 gap-3 mb-5 max-w-3xl mx-auto">
+      <div class="bg-emerald-50 dark:bg-emerald-900/40 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-emerald-700 dark:text-emerald-200">${totalSolved}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Çözülen</div>
+      </div>
+      <div class="bg-ok-500/10 dark:bg-ok-500/20 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-ok-500">%${accuracy}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Doğruluk</div>
+      </div>
+      <div class="bg-red-500/10 dark:bg-red-500/20 rounded-lg p-3 text-center">
+        <div class="text-2xl font-bold text-red-700 dark:text-red-300">${errorCount}</div>
+        <div class="text-xs text-slate-600 dark:text-slate-400">Hata defteri</div>
+      </div>
+    </section>
+    ` : ''}
+
+    <!-- Hızlı geçit: sadece fen-uygun 8 kısayol -->
+    <section class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 max-w-5xl mx-auto">
+      ${shortcut('quiz/setup', '🎯', 'Quiz', 'Ders + konu seç, çöz', 'accent')}
+      ${shortcut('konular', '📚', `${topics.length} Ünite`, '3 ders · sıcak alanlar', 'primary')}
+      ${shortcut('kartlar', '🃏', `${allCards.length} Kart`, 'ÖSYM 2018-2025', 'primary')}
+      ${shortcut('simulasyonlar', '🔬', 'Simülasyonlar', 'PhET interaktif', 'accent')}
+      ${shortcut('program', '📅', 'Program', '4 haftalık plan', 'accent')}
+      ${shortcut('atis', '⚡', 'Hızlı Atış', 'Üst üste doğru', 'accent')}
+      ${shortcut('istatistik', '📊', 'İstatistik', 'İlerleme grafiği', 'primary')}
+      ${shortcut('ayarlar', '⚙️', 'Ayarlar', 'Tema, sıfırla', 'primary')}
+    </section>
+
+    <section class="mt-8 max-w-3xl mx-auto bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-4">
+      <h3 class="font-bold mb-2 flex items-center gap-2 text-sm"><span>💡</span> Fen Stratejin</h3>
+      <ul class="text-xs text-slate-700 dark:text-slate-300 space-y-1 list-disc list-inside">
+        <li><strong>TYT Fen 40 soru</strong>: Fizik 7 + Kimya 7 + Biyoloji 6 (kabaca). 8 yıllık ÖSYM analizi sıcak alanları net gösteriyor.</li>
+        <li><strong>EN SICAK 4 ünite</strong>: Optik (10), Hücre (9), Hareket-Kuvvet (9), Atom-Periyodik (9). Bunlardan 1-2 soru her sene garanti.</li>
+        <li><strong>Biyoloji</strong> ezber ağırlıklı — kart sistemiyle güçlü. <strong>Fizik/Kimya</strong> mantık + formül — simülasyon ve quiz pratikle hızlan.</li>
+        <li>Her gün gir, Hızlı Atış'a bas, yanlışlar otomatik geri gelir (3-7-14-21 gün).</li>
+      </ul>
+    </section>
+  `;
+}
+
+// Günün sorusunu seç — gün+kart-id deterministik random
+function pickDailyFenQuestion(cards, dayKey) {
+  const seed = (sessionStorage.getItem('fen_hero_seed') || dayKey) + ':fen';
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) {
+    h = ((h << 5) - h) + seed.charCodeAt(i);
+    h |= 0;
+  }
+  const eligible = cards.filter(c => c.kaynak === 'otomatik' && c.secenekler && c.secenekler.length === 5);
+  if (eligible.length === 0) return null;
+  const idx = Math.abs(h) % eligible.length;
+  return eligible[idx];
+}
+
+function renderFenHeroCard(card) {
+  const dersTh = periodTheme(card.ders);
+  const konuLabel = card.konu || '—';
+  return `
+    <div class="rounded-2xl overflow-hidden ${dersTh.bg} border-2 border-emerald-500/40">
+      <div class="p-5">
+        <div class="flex items-center justify-between gap-2 mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider ${dersTh.text} opacity-90">
+            🎯 Günün ÖSYM Sorusu · ${dersTh.label}
+          </span>
+          <button id="fenHeroReroll" class="text-xs px-2 py-1 rounded-full bg-white/70 dark:bg-slate-900/60 ${dersTh.text} font-bold hover:bg-white">🔄 Başka</button>
+        </div>
+
+        <div class="flex flex-wrap gap-2 mb-3">
+          ${card.yil ? `<span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${dersTh.text} font-semibold">📅 ${card.yil}-TYT</span>` : ''}
+          <span class="text-xs px-2 py-0.5 rounded-full bg-white/70 dark:bg-slate-900/60 ${dersTh.text} font-semibold">📖 ${konuLabel}</span>
+        </div>
+
+        <p class="text-sm md:text-base text-slate-800 dark:text-slate-100 leading-relaxed mb-4 whitespace-pre-line">${escape(card.soru || '')}</p>
+
+        <div class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3">
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">Şıklar — kafa çalıştır, mantığı yakala</div>
+          <div class="grid gap-1.5">
+            ${(card.secenekler || []).map(o => `
+              <button data-fen-opt="${o.id}" class="opt">
+                <span class="opt-letter">${o.id}</span>
+                <span class="flex-1 text-sm">${escape(o.text || '')}</span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+
+        <div id="fenHeroReveal" class="hidden mt-3 bg-emerald-500/15 border border-emerald-500/40 rounded-lg p-3">
+          <div class="text-[10px] font-bold uppercase ${dersTh.text} opacity-80 mb-1">💡 Cevap anahtarı bu PDF'te yoktu</div>
+          <div class="text-sm ${dersTh.text}">
+            Bu sorunun doğru cevabını MEBİ özet notu veya tarama testlerinden bulup, hangi mantıkla çözüldüğünü öğren. Sonra quiz'de aynı tipte sorular çöz.
+          </div>
+          <div class="mt-2 flex gap-2 flex-wrap">
+            <a href="#/konular/${card.konu || ''}" class="text-xs bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-1 rounded font-bold">📚 Konu Sayfası</a>
+            <a href="#/quiz/setup?konu=${card.konu || 'hepsi'}" class="text-xs bg-accent-500 hover:bg-accent-700 text-white px-3 py-1 rounded font-bold">🎯 Benzer soru çöz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
 }
 
 async function renderTarihHome() {

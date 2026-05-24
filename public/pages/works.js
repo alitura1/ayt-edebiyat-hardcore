@@ -2,6 +2,20 @@
 import { Data, periodTheme, slugify, getDataSubject } from '../lib/data.js';
 
 export async function renderWorkList() {
+  // TYT Fen'de eser/olay yok — empty state
+  if (getDataSubject() === 'fen') {
+    return `
+      <section class="max-w-2xl mx-auto py-12 px-4 text-center">
+        <div class="text-5xl mb-4">⚗</div>
+        <h1 class="text-2xl font-bold mb-2">TYT Fen'de eser/olay listesi yok</h1>
+        <p class="text-slate-600 dark:text-slate-400 mb-6">Fen Bilimleri sayısal-uygulamalı bir ders. Onun yerine simülasyonlar ve konu sayfalarına geçebilirsin.</p>
+        <div class="flex flex-wrap gap-3 justify-center">
+          <a href="#/konular" class="inline-block px-5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">📚 Konular</a>
+          <a href="#/simulasyonlar" class="inline-block px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold">🔬 Simülasyonlar</a>
+        </div>
+      </section>
+    `;
+  }
   const isTarih = getDataSubject() === 'tarih';
   // Tarih moduyla events.json + treaties.json'u "works" şemasına çevir
   let works;

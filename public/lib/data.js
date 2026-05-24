@@ -4,7 +4,7 @@ const cache = new Map();
 let _currentSubject = 'edebiyat';  // default fallback
 
 export function setDataSubject(subject) {
-  if (!['edebiyat', 'tarih'].includes(subject)) {
+  if (!['edebiyat', 'tarih', 'fen'].includes(subject)) {
     console.warn('Geçersiz subject:', subject);
     return;
   }
@@ -90,6 +90,9 @@ export const Data = {
   events: () => loadJSONOptional(dataPath('events.json')),
   treaties: () => loadJSONOptional(dataPath('treaties.json')),
   periods: () => loadJSONOptional(dataPath('periods.json')),
+
+  // Fen-spesifik
+  simulations: () => loadJSONOptional(dataPath('simulations.json')),
 };
 
 // Etiketler — Edebiyat konuları
@@ -119,6 +122,33 @@ export const TOPIC_LABELS = {
   milli_mucadele: 'Millî Mücadele',
   ataturk_donemi: 'Atatürk Dönemi',
   ikinci_dunya_cagdas: 'II. Dünya + Çağdaş',
+  // TYT Fen — Fizik (10 ünite)
+  fizik_giris: 'Fizik Bilimine Giriş',
+  fizik_madde: 'Madde ve Özellikleri',
+  fizik_hareket_kuvvet: 'Hareket ve Kuvvet',
+  fizik_enerji: 'Enerji',
+  fizik_isi_sicaklik: 'Isı ve Sıcaklık',
+  fizik_elektrostatik: 'Elektrostatik',
+  fizik_elektrik_manyetizma: 'Elektrik ve Manyetizma',
+  fizik_basinc_kaldirma: 'Basınç ve Kaldırma Kuvveti',
+  fizik_dalgalar: 'Dalgalar',
+  fizik_optik: 'Optik',
+  // TYT Fen — Kimya (8 ünite)
+  kimya_bilim: 'Kimya Bilimi',
+  kimya_atom_periyodik: 'Atom ve Periyodik Sistem',
+  kimya_etkilesim: 'Kimyasal Türler Arası Etkileşimler',
+  kimya_madde_halleri: 'Maddenin Hâlleri',
+  kimya_temel_kanunlar: 'Kimyanın Temel Kanunları ve Hesaplamalar',
+  kimya_karisimlar: 'Karışımlar',
+  kimya_asit_baz_tuz: 'Asitler, Bazlar ve Tuzlar',
+  kimya_her_yerde: 'Kimya Her Yerde',
+  // TYT Fen — Biyoloji (6 ünite)
+  bio_yasam_bilimi: 'Yaşam Bilimi Biyoloji',
+  bio_hucre: 'Hücre',
+  bio_canlilar: 'Canlılar Dünyası',
+  bio_bolunme: 'Hücre Bölünmeleri',
+  bio_kalitim: 'Kalıtımın Genel İlkeleri',
+  bio_ekosistem: 'Ekosistem Ekolojisi ve Güncel Çevre',
 };
 
 export function topicLabel(code) { return TOPIC_LABELS[code] || code; }
@@ -168,9 +198,33 @@ const TARIH_PERIOD_THEME = {
 
 export const PERIOD_THEME = EDEBIYAT_PERIOD_THEME;  // backwards compat
 
+// REV26 — TYT Fen ders renk paleti (3 ders → 3 renk)
+const FEN_DERS_THEME = {
+  fizik:    { bg:'bg-blue-100 dark:bg-blue-900/40',       text:'text-blue-800 dark:text-blue-200',       label:'⚛ Fizik',    dot:'bg-blue-500' },
+  kimya:    { bg:'bg-purple-100 dark:bg-purple-900/40',   text:'text-purple-800 dark:text-purple-200',   label:'🧪 Kimya',   dot:'bg-purple-500' },
+  biyoloji: { bg:'bg-emerald-100 dark:bg-emerald-900/40', text:'text-emerald-800 dark:text-emerald-200', label:'🧬 Biyoloji', dot:'bg-emerald-500' },
+};
+
+// Fen ünite kodlarından ders palet eşlemesi (kod prefix'ine göre)
+function fenThemeFor(code) {
+  const c = String(code || '');
+  if (c.startsWith('fizik_') || c === 'fizik') return FEN_DERS_THEME.fizik;
+  if (c.startsWith('kimya_') || c === 'kimya') return FEN_DERS_THEME.kimya;
+  if (c.startsWith('bio_')   || c === 'biyoloji') return FEN_DERS_THEME.biyoloji;
+  return null;
+}
+
 export function periodTheme(donem) {
+  if (_currentSubject === 'fen') {
+    return fenThemeFor(donem) || { bg:'bg-slate-100 dark:bg-slate-800', text:'text-slate-700 dark:text-slate-300', label:donem||'—', dot:'bg-slate-400' };
+  }
   const map = _currentSubject === 'tarih' ? TARIH_PERIOD_THEME : EDEBIYAT_PERIOD_THEME;
   return map[donem] || { bg:'bg-slate-100 dark:bg-slate-800', text:'text-slate-700 dark:text-slate-300', label:donem||'—', dot:'bg-slate-400' };
+}
+
+// Fen ders palet erişimi (Topics filter chip'leri için)
+export function fenDersTheme(ders) {
+  return FEN_DERS_THEME[ders] || null;
 }
 
 // REV5 — Cards'taki alt_konu (örn. "şeyh_galip") <-> author slug (örn. "seyh-galip") köprüsü

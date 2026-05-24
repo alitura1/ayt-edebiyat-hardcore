@@ -1,28 +1,48 @@
-import { Data, TOPIC_LABELS, topicLabel } from '../lib/data.js';
+import { Data, TOPIC_LABELS, topicLabel, getDataSubject, periodTheme } from '../lib/data.js';
 import { loadState, addCustomCard, updateCustomCard, deleteCustomCard } from '../lib/store.js';
 
 export async function renderCardList() {
   const auto = await Data.cards();
   const state = loadState();
   const custom = state.custom_kartlar;
+  const isFen = getDataSubject() === 'fen';
+
+  // Fen ders sayıları
+  const allFen = [...custom, ...auto];
+  const dersCounts = isFen ? {
+    fizik: allFen.filter(c => c.ders === 'fizik' || (c.konu || '').startsWith('fizik_')).length,
+    kimya: allFen.filter(c => c.ders === 'kimya' || (c.konu || '').startsWith('kimya_')).length,
+    biyoloji: allFen.filter(c => c.ders === 'biyoloji' || (c.konu || '').startsWith('bio_')).length,
+  } : null;
 
   window.__pageSetup = () => {
     const q = document.getElementById('cardSearch');
     const f = document.getElementById('cardFilter');
+    let currentDers = 'hepsi';
     function run() {
       const term = (q.value || '').toLowerCase().trim();
       const fv = f.value;
       document.querySelectorAll('[data-card-row]').forEach(r => {
         const t = r.dataset.cardRow.toLowerCase();
         const k = r.dataset.kaynak;
+        const d = r.dataset.ders || '';
         let show = true;
         if (term && !t.includes(term)) show = false;
         if (fv && fv !== 'hepsi' && k !== fv) show = false;
+        if (currentDers !== 'hepsi' && d !== currentDers) show = false;
         r.style.display = show ? '' : 'none';
       });
     }
     q?.addEventListener('input', run);
     f?.addEventListener('change', run);
+    // Fen ders chip
+    document.querySelectorAll('.ders-chip[data-card-ders]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentDers = btn.dataset.cardDers;
+        document.querySelectorAll('.ders-chip[data-card-ders]').forEach(b => b.classList.toggle('active', b === btn));
+        run();
+      });
+    });
 
     document.querySelectorAll('[data-del]').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -50,15 +70,31 @@ export async function renderCardList() {
         <option value="manuel">Sadece özel (manuel)</option>
       </select>
     </div>
+    ${isFen ? `
+    <div class="flex flex-wrap items-center gap-2 mb-3">
+      <span class="text-xs text-slate-500 mr-1">Ders:</span>
+      <button class="ders-chip active" data-card-ders="hepsi">Hepsi (${allFen.length})</button>
+      <button class="ders-chip" data-card-ders="fizik">⚛ Fizik (${dersCounts.fizik})</button>
+      <button class="ders-chip" data-card-ders="kimya">🧪 Kimya (${dersCounts.kimya})</button>
+      <button class="ders-chip" data-card-ders="biyoloji">🧬 Biyoloji (${dersCounts.biyoloji})</button>
+    </div>
+    ` : ''}
     <div class="space-y-2">
-      ${[...custom, ...auto].map(c => `
-        <div data-card-row="${escapeQ(c.soru + ' ' + topicLabel(c.konu) + ' ' + (c.aciklama || ''))}" data-kaynak="${c.kaynak || 'otomatik'}"
+      ${[...custom, ...auto].map(c => {
+        const cDers = c.ders || ((c.konu || '').startsWith('fizik_') ? 'fizik' : (c.konu || '').startsWith('kimya_') ? 'kimya' : (c.konu || '').startsWith('bio_') ? 'biyoloji' : '');
+        const dersTh = isFen && cDers ? periodTheme(cDers) : null;
+        const dersBadge = dersTh ? `<span class="inline-flex items-center gap-1 text-[10px] px-1.5 py-0.5 rounded ${dersTh.bg} ${dersTh.text}"><span class="w-1 h-1 rounded-full ${dersTh.dot}"></span>${dersTh.label}</span>` : '';
+        const dogruText = c.dogru ? `→ ${c.dogru}) ${(c.secenekler?.find(s => s.id === c.dogru) || {}).text || ''}` : '<em class="text-slate-400">Cevap anahtarı yok (manuel doldur)</em>';
+        return `
+        <div data-card-row="${escapeQ(c.soru + ' ' + topicLabel(c.konu) + ' ' + (c.aciklama || ''))}" data-kaynak="${c.kaynak || 'otomatik'}" data-ders="${cDers}"
              class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-3">
           <div class="flex items-start justify-between gap-2 mb-1">
             <div class="text-xs text-slate-500 flex items-center gap-2 flex-wrap">
+              ${dersBadge}
               <span class="bg-primary-50 dark:bg-primary-900/50 text-primary-700 dark:text-primary-100 px-1.5 py-0.5 rounded">${topicLabel(c.konu)}</span>
               ${c.alt_konu ? `<span>${c.alt_konu}</span>` : ''}
               <span>· ${c.tip || 'soru'}</span>
+              ${c.yil ? `<span>· ${c.yil}-TYT</span>` : ''}
               ${c.kaynak === 'manuel' ? '<span class="text-accent-500">· özel</span>' : ''}
             </div>
             ${c.kaynak === 'manuel' ? `
@@ -69,9 +105,10 @@ export async function renderCardList() {
             ` : ''}
           </div>
           <p class="text-sm">${truncate(c.soru, 200)}</p>
-          <p class="text-xs text-ok-500 mt-1">→ ${c.dogru}) ${(c.secenekler.find(s => s.id === c.dogru) || {}).text || ''}</p>
+          <p class="text-xs text-ok-500 mt-1">${dogruText}</p>
         </div>
-      `).join('')}
+        `;
+      }).join('')}
     </div>
   `;
 }

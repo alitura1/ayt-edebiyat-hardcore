@@ -1,7 +1,7 @@
 {
-  "name": "AYT Hardcore — Edebiyat & Tarih",
-  "short_name": "AYT Hardcore",
-  "description": "AYT Edebiyat + Tarih — pasif maruz kalma + günlük ritüel + auto resurface. Edebiyat: 85 yazar / 600+ kart, Tarih: 10 dönem / 600+ kart hedefi.",
+  "name": "YKS Hardcore — Edebiyat · Tarih · TYT Fen",
+  "short_name": "YKS Hardcore",
+  "description": "AYT Edebiyat + Tarih + TYT Fen (Fizik/Kimya/Biyoloji). 2018-2025 ÖSYM çıkmış sorular, sıcak alan analizi, kart sistemi, PhET simülasyonlar.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

@@ -144,3 +144,80 @@ html[data-subject="tarih"] .opt-letter { background: #B45309; }
 html[data-subject="tarih"] .opt:hover:not(:disabled) { border-color: #B45309; background: #FFF7ED; }
 html[data-subject="tarih"].dark .opt:hover:not(:disabled),
 html[data-subject="tarih"] .dark .opt:hover:not(:disabled) { border-color: #F59E0B; background: #451a03; }
+
+/* === REV26 — TYT Fen subject styling === */
+/* Subject-conditional navbar gizleme */
+html[data-subject="fen"] .hide-on-fen { display: none !important; }
+html:not([data-subject="fen"]) .hide-not-fen { display: none !important; }
+
+/* Fen .mebi-box — emerald (yeşil) ton */
+html[data-subject="fen"] .mebi-box {
+  border-left-color: #047857;
+  background: linear-gradient(90deg, #D1FAE5 0%, #ECFDF5 100%);
+}
+html[data-subject="fen"].dark .mebi-box,
+html[data-subject="fen"] .dark .mebi-box {
+  background: linear-gradient(90deg, #064E3B 0%, #022C22 100%);
+  border-left-color: #34D399;
+  color: #A7F3D0;
+}
+html[data-subject="fen"] .mebi-box strong { color: #065F46; }
+html[data-subject="fen"].dark .mebi-box strong,
+html[data-subject="fen"] .dark .mebi-box strong { color: #6EE7B7; }
+
+/* Fen topic-content tipografi — fizik=blue, kimya=purple, biyoloji=emerald (header'da renk sınıfı override eder) */
+html[data-subject="fen"] .topic-content h2 { color: #047857; }
+html[data-subject="fen"].dark .topic-content h2,
+html[data-subject="fen"] .dark .topic-content h2 { color: #6EE7B7; }
+html[data-subject="fen"] .topic-content h3 { color: #1D4ED8; }
+html[data-subject="fen"].dark .topic-content h3,
+html[data-subject="fen"] .dark .topic-content h3 { color: #93C5FD; }
+
+html[data-subject="fen"] .topic-content th { background: #047857; }
+html[data-subject="fen"] .opt-letter { background: #047857; }
+html[data-subject="fen"] .opt:hover:not(:disabled) { border-color: #047857; background: #ECFDF5; }
+html[data-subject="fen"].dark .opt:hover:not(:disabled),
+html[data-subject="fen"] .dark .opt:hover:not(:disabled) { border-color: #34D399; background: #022C22; }
+
+/* Ders chip filter (Topics sayfası) */
+.ders-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1.5px solid transparent;
+  background: #f1f5f9;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.dark .ders-chip { background: #1e293b; color: #cbd5e1; }
+.ders-chip:hover { background: #e2e8f0; }
+.dark .ders-chip:hover { background: #334155; }
+.ders-chip.active { background: #047857; color: white; border-color: #065F46; }
+.ders-chip[data-ders="fizik"].active { background: #2563EB; border-color: #1D4ED8; }
+.ders-chip[data-ders="kimya"].active { background: #9333EA; border-color: #7E22CE; }
+.ders-chip[data-ders="biyoloji"].active { background: #059669; border-color: #047857; }
+
+/* Sıcaklık öncelik rozeti — sıcak (kırmızı), orta (sarı), düşük (gri) */
+.oncelik-sicak { background: #FEE2E2; color: #991B1B; padding: 0.15rem 0.5rem; border-radius: 9999px; font-size: 0.7rem; font-weight: 700; }
+.dark .oncelik-sicak { background: #450A0A; color: #FCA5A5; }
+.oncelik-orta  { background: #FEF3C7; color: #92400E; padding: 0.15rem 0.5rem; border-radius: 9999px; font-size: 0.7rem; font-weight: 700; }
+.dark .oncelik-orta  { background: #451A03; color: #FCD34D; }
+.oncelik-dusuk { background: #F1F5F9; color: #64748B; padding: 0.15rem 0.5rem; border-radius: 9999px; font-size: 0.7rem; font-weight: 700; }
+.dark .oncelik-dusuk { background: #1E293B; color: #94A3B8; }
+
+/* Sim modal */
+.sim-modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 50;
+  display: flex; align-items: center; justify-content: center; padding: 1rem;
+}
+.sim-modal-card {
+  background: white; border-radius: 1rem; max-width: 95vw; max-height: 95vh;
+  width: 1000px; display: flex; flex-direction: column; overflow: hidden;
+}
+.dark .sim-modal-card { background: #0f172a; }
+.sim-modal-iframe { flex: 1; width: 100%; min-height: 500px; border: 0; }
