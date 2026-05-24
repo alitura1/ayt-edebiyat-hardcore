@@ -1,6 +1,7 @@
 [
   {
     "id": "fn_0001",
+    "num": 4,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -29,12 +30,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0002",
+    "num": 5,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -63,12 +65,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0003",
+    "num": 6,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -97,12 +100,13 @@
         "text": "I ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0004",
+    "num": 7,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -131,12 +135,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0005",
+    "num": 8,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -165,12 +170,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0006",
+    "num": 9,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "Hareket",
     "ders": "fizik",
@@ -178,12 +184,13 @@
     "yil": 2018,
     "soru": "Bir hareketlinin zamana göre aldığı yol, aşağıdaki tabloda verilmiştir. Buna göre, bu hareketlinin sürat-zaman grafiği aşağıdakilerden hangisi gibi olabilir? A) B) C) D) E)",
     "secenekler": [],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0007",
+    "num": 10,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -212,12 +219,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0008",
+    "num": 11,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -246,12 +254,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0009",
+    "num": 12,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -280,12 +289,13 @@
         "text": "8"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0010",
+    "num": 13,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -314,12 +324,13 @@
         "text": "Burçin ve Cevdet"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0011",
+    "num": 14,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "",
     "ders": "fizik",
@@ -348,12 +359,13 @@
         "text": "40 N - Sağ"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0012",
+    "num": 15,
     "konu": "fizik_hareket_kuvvet",
     "alt_konu": "Newton’ın Hareket Yasaları",
     "ders": "fizik",
@@ -382,12 +394,13 @@
         "text": "F1 = F2 = F3"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0013",
+    "num": 16,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "",
     "ders": "fizik",
@@ -416,12 +429,13 @@
         "text": "Yerküre’nin masaya uyguladığı kuvvet 10 N’dir."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0014",
+    "num": 17,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "",
     "ders": "fizik",
@@ -450,12 +464,13 @@
         "text": "fK = fL > fM"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0015",
+    "num": 18,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "",
     "ders": "fizik",
@@ -484,12 +499,13 @@
         "text": "Yaptıkları işin harcadıkları enerjiye oranı"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0016",
+    "num": 19,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "Isı ve Sıcaklık",
     "ders": "fizik",
@@ -518,12 +534,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0017",
+    "num": 20,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "",
     "ders": "fizik",
@@ -552,12 +569,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0018",
+    "num": 21,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "",
     "ders": "fizik",
@@ -586,12 +604,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0019",
+    "num": 22,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "",
     "ders": "fizik",
@@ -620,12 +639,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0020",
+    "num": 23,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "Enerji İletim Yolları ve Enerji İletim Hızı",
     "ders": "fizik",
@@ -654,12 +674,13 @@
         "text": "L L’nin sıcaklığı K’ninkinden daha büyüktür."
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0021",
+    "num": 24,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "Enerji İletim Yolları ve Enerji İletim Hızı",
     "ders": "fizik",
@@ -688,12 +709,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0022",
+    "num": 25,
     "konu": "fizik_isi_sicaklik",
     "alt_konu": "Genleşme",
     "ders": "fizik",
@@ -722,12 +744,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0023",
+    "num": 26,
     "konu": "fizik_elektrostatik",
     "alt_konu": "",
     "ders": "fizik",
@@ -756,12 +779,13 @@
         "text": "Şişeden çıkıp dışarda şişer."
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0024",
+    "num": 27,
     "konu": "fizik_elektrostatik",
     "alt_konu": "Elektrik Yükleri",
     "ders": "fizik",
@@ -790,12 +814,13 @@
         "text": "Pozitif Negatif Negatif"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0025",
+    "num": 28,
     "konu": "fizik_elektrostatik",
     "alt_konu": "Elektrik Yükleri",
     "ders": "fizik",
@@ -824,12 +849,13 @@
         "text": "Ezgi ve Seda"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0026",
+    "num": 29,
     "konu": "fizik_elektrik_manyetizma",
     "alt_konu": "",
     "ders": "fizik",
@@ -858,12 +884,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0027",
+    "num": 30,
     "konu": "fizik_elektrik_manyetizma",
     "alt_konu": "",
     "ders": "fizik",
@@ -892,12 +919,13 @@
         "text": "EIII > EII > EI"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0028",
+    "num": 31,
     "konu": "fizik_elektrik_manyetizma",
     "alt_konu": "",
     "ders": "fizik",
@@ -926,12 +954,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0029",
+    "num": 32,
     "konu": "fizik_elektrik_manyetizma",
     "alt_konu": "",
     "ders": "fizik",
@@ -960,12 +989,13 @@
         "text": "P"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0030",
+    "num": 33,
     "konu": "fizik_elektrik_manyetizma",
     "alt_konu": "Elektrik Devreleri",
     "ders": "fizik",
@@ -994,12 +1024,13 @@
         "text": "EK = EL = EM"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0031",
+    "num": 34,
     "konu": "fizik_elektrik_manyetizma",
     "alt_konu": "Elektrik Devreleri",
     "ders": "fizik",
@@ -1028,12 +1059,13 @@
         "text": "K, N ve P"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0032",
+    "num": 35,
     "konu": "fizik_dalgalar",
     "alt_konu": "",
     "ders": "fizik",
@@ -1062,12 +1094,13 @@
         "text": "VA = VB = VC PA < PB < PC"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0033",
+    "num": 36,
     "konu": "fizik_dalgalar",
     "alt_konu": "",
     "ders": "fizik",
@@ -1096,12 +1129,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0034",
+    "num": 37,
     "konu": "fizik_dalgalar",
     "alt_konu": "",
     "ders": "fizik",
@@ -1130,12 +1164,13 @@
         "text": "hK > hL vK < vL"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0035",
+    "num": 38,
     "konu": "fizik_dalgalar",
     "alt_konu": "",
     "ders": "fizik",
@@ -1164,12 +1199,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0036",
+    "num": 39,
     "konu": "fizik_dalgalar",
     "alt_konu": "",
     "ders": "fizik",
@@ -1198,12 +1234,13 @@
         "text": "Değişmez Azalır"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0037",
+    "num": 40,
     "konu": "fizik_dalgalar",
     "alt_konu": "",
     "ders": "fizik",
@@ -1232,12 +1269,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0038",
+    "num": 41,
     "konu": "fizik_dalgalar",
     "alt_konu": "Dalgalar",
     "ders": "fizik",
@@ -1266,12 +1304,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0039",
+    "num": 42,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1279,12 +1318,13 @@
     "yil": 2021,
     "soru": "Bir ucu duvara sabitlenmiş bir ipin serbest ucu belirli bir kuvvetle gerilerek aşağı yukarı hareket ettirildiğinde ip üzerinde frekansı f1 ve hızı v1 olan Şekil 1’deki dalga oluşturulmuştur. İpin gerilimini değiştirmeden serbest uç daha hızlı hareket ettirildiğinde ise frekansı f2 ve hızı v2 olan Şekil 2’deki dalga oluşturulmuştur. Her iki şekildeki bölmeler eşit uzunlukta olduğuna göre aşağıdakilerin hangisinde f1 - f2 ve v1 - v2 arasındaki ilişkiler doğru olarak verilmiştir? A) v1 = v2; f1 < f2 B) v1 > v2; f1 < f2 C) v1 > v2; f1 > f2 C) v1 < v2; f1 = f2 E) v1 = v2; f1 = f2",
     "secenekler": [],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0040",
+    "num": 43,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1313,12 +1353,13 @@
         "text": "2 4"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0041",
+    "num": 44,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1347,12 +1388,13 @@
         "text": "-y -y -y"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0042",
+    "num": 45,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1381,12 +1423,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0043",
+    "num": 46,
     "konu": "fizik_optik",
     "alt_konu": "Aydınlanma",
     "ders": "fizik",
@@ -1415,12 +1458,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0044",
+    "num": 47,
     "konu": "fizik_optik",
     "alt_konu": "Aydınlanma",
     "ders": "fizik",
@@ -1449,12 +1493,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0045",
+    "num": 48,
     "konu": "fizik_optik",
     "alt_konu": "Aydınlanma",
     "ders": "fizik",
@@ -1483,12 +1528,13 @@
         "text": "3. işlem sonunda K noktasının aydınlanma şiddeti (E) değişmez."
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0046",
+    "num": 49,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1517,12 +1563,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0047",
+    "num": 50,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1551,12 +1598,13 @@
         "text": "II ve IV"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0048",
+    "num": 51,
     "konu": "fizik_optik",
     "alt_konu": "Küresel Aynalar",
     "ders": "fizik",
@@ -1585,12 +1633,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0049",
+    "num": 52,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1619,12 +1668,13 @@
         "text": "II, III ve IV"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0050",
+    "num": 53,
     "konu": "fizik_optik",
     "alt_konu": "Kırılma",
     "ders": "fizik",
@@ -1653,12 +1703,13 @@
         "text": "M’nin yukarısı B’nin yukarısı"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0051",
+    "num": 54,
     "konu": "fizik_optik",
     "alt_konu": "",
     "ders": "fizik",
@@ -1687,12 +1738,13 @@
         "text": "M N"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0052",
+    "num": 55,
     "konu": "fizik_optik",
     "alt_konu": "Mercekler",
     "ders": "fizik",
@@ -1721,12 +1773,13 @@
         "text": "F - T noktaları arasında"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0053",
+    "num": 56,
     "konu": "fizik_optik",
     "alt_konu": "Renk",
     "ders": "fizik",
@@ -1755,12 +1808,13 @@
         "text": "Cyan"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0054",
+    "num": 1,
     "konu": "kimya_bilim",
     "alt_konu": "",
     "ders": "kimya",
@@ -1789,12 +1843,13 @@
         "text": "Organik kimya"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0055",
+    "num": 2,
     "konu": "kimya_bilim",
     "alt_konu": "",
     "ders": "kimya",
@@ -1823,12 +1878,13 @@
         "text": "Çinko Pb"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0056",
+    "num": 3,
     "konu": "kimya_bilim",
     "alt_konu": "",
     "ders": "kimya",
@@ -1857,12 +1913,13 @@
         "text": "Sönmüş kireç"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0057",
+    "num": 4,
     "konu": "kimya_bilim",
     "alt_konu": "",
     "ders": "kimya",
@@ -1891,12 +1948,13 @@
         "text": "Kalsiyum ve oksijen"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0058",
+    "num": 5,
     "konu": "kimya_bilim",
     "alt_konu": "",
     "ders": "kimya",
@@ -1925,12 +1983,13 @@
         "text": "NaCl HCl"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0059",
+    "num": 6,
     "konu": "kimya_bilim",
     "alt_konu": "",
     "ders": "kimya",
@@ -1959,12 +2018,13 @@
         "text": "Yanıcı ve radyoaktiftir."
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0060",
+    "num": 7,
     "konu": "kimya_bilim",
     "alt_konu": "Kimyanın Sembolik Dili",
     "ders": "kimya",
@@ -1993,12 +2053,13 @@
         "text": "Erlenmayer Huni"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0061",
+    "num": 8,
     "konu": "kimya_atom_periyodik",
     "alt_konu": "",
     "ders": "kimya",
@@ -2027,12 +2088,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0062",
+    "num": 9,
     "konu": "kimya_atom_periyodik",
     "alt_konu": "",
     "ders": "kimya",
@@ -2061,12 +2123,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0063",
+    "num": 10,
     "konu": "kimya_atom_periyodik",
     "alt_konu": "",
     "ders": "kimya",
@@ -2095,12 +2158,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0064",
+    "num": 11,
     "konu": "kimya_atom_periyodik",
     "alt_konu": "",
     "ders": "kimya",
@@ -2129,12 +2193,13 @@
         "text": "C’nin elektronegatifliği, F’nin elektronegatifliğinden daha büyüktür."
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0065",
+    "num": 12,
     "konu": "kimya_atom_periyodik",
     "alt_konu": "",
     "ders": "kimya",
@@ -2163,12 +2228,13 @@
         "text": "X elementi ametal, Y elementi metal olarak sınıflandırılır."
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0066",
+    "num": 13,
     "konu": "kimya_atom_periyodik",
     "alt_konu": "Periyodik Sistem",
     "ders": "kimya",
@@ -2197,12 +2263,13 @@
         "text": "Bileşik oluştururken elektron verir."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0067",
+    "num": 14,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2231,12 +2298,13 @@
         "text": "He > N > Mg"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0068",
+    "num": 15,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2265,12 +2333,13 @@
         "text": "Ar ve Ca elementleri aynı periyotta yer alır."
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0069",
+    "num": 16,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2299,12 +2368,13 @@
         "text": "Y ve Z elementleri periyodik sistemde aynı grupta bulunur."
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0070",
+    "num": 17,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2333,12 +2403,13 @@
         "text": "iyonik apolar kovalent polar kovalent"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0071",
+    "num": 18,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2367,12 +2438,13 @@
         "text": "C (grafit) Metalik bağ"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0072",
+    "num": 19,
     "konu": "kimya_etkilesim",
     "alt_konu": "Güçlü Etkileşimler",
     "ders": "kimya",
@@ -2401,12 +2473,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0073",
+    "num": 20,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2435,12 +2508,13 @@
         "text": "X3Y"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0074",
+    "num": 21,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2469,12 +2543,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0075",
+    "num": 22,
     "konu": "kimya_etkilesim",
     "alt_konu": "",
     "ders": "kimya",
@@ -2503,12 +2578,13 @@
         "text": "HF Ne"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0076",
+    "num": 23,
     "konu": "kimya_etkilesim",
     "alt_konu": "Zayıf Etkileşimler",
     "ders": "kimya",
@@ -2537,12 +2613,13 @@
         "text": "H O Cl"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0077",
+    "num": 24,
     "konu": "kimya_madde_halleri",
     "alt_konu": "",
     "ders": "kimya",
@@ -2571,12 +2648,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0078",
+    "num": 25,
     "konu": "kimya_madde_halleri",
     "alt_konu": "",
     "ders": "kimya",
@@ -2605,12 +2683,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0079",
+    "num": 26,
     "konu": "kimya_madde_halleri",
     "alt_konu": "",
     "ders": "kimya",
@@ -2639,12 +2718,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0080",
+    "num": 27,
     "konu": "kimya_madde_halleri",
     "alt_konu": "",
     "ders": "kimya",
@@ -2673,12 +2753,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0081",
+    "num": 28,
     "konu": "kimya_madde_halleri",
     "alt_konu": "Sıvılar",
     "ders": "kimya",
@@ -2707,12 +2788,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0082",
+    "num": 29,
     "konu": "kimya_madde_halleri",
     "alt_konu": "",
     "ders": "kimya",
@@ -2741,12 +2823,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0083",
+    "num": 30,
     "konu": "kimya_madde_halleri",
     "alt_konu": "Sıvılar",
     "ders": "kimya",
@@ -2775,12 +2858,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0084",
+    "num": 31,
     "konu": "kimya_temel_kanunlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -2809,12 +2893,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0085",
+    "num": 32,
     "konu": "kimya_temel_kanunlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -2843,12 +2928,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0086",
+    "num": 33,
     "konu": "kimya_temel_kanunlar",
     "alt_konu": "Kimyanın Temel Kanunları",
     "ders": "kimya",
@@ -2877,12 +2963,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0087",
+    "num": 34,
     "konu": "kimya_temel_kanunlar",
     "alt_konu": "Mol Kavramı",
     "ders": "kimya",
@@ -2911,12 +2998,13 @@
         "text": "nB > nA > nC"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0088",
+    "num": 35,
     "konu": "kimya_temel_kanunlar",
     "alt_konu": "Mol Kavramı",
     "ders": "kimya",
@@ -2945,12 +3033,13 @@
         "text": "M > L > K"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0089",
+    "num": 36,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -2979,12 +3068,13 @@
         "text": "0,4"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0090",
+    "num": 37,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -3013,12 +3103,13 @@
         "text": "3 mol H2O(s) tepkimeye girmiştir."
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0091",
+    "num": 38,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -3047,12 +3138,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0092",
+    "num": 39,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -3081,12 +3173,13 @@
         "text": "III - II - I"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0093",
+    "num": 40,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -3115,12 +3208,13 @@
         "text": "TY = TX > TZ"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0094",
+    "num": 41,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -3149,12 +3243,13 @@
         "text": "TC > TA > TB"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0095",
+    "num": 42,
     "konu": "kimya_karisimlar",
     "alt_konu": "",
     "ders": "kimya",
@@ -3183,12 +3278,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0096",
+    "num": 43,
     "konu": "kimya_karisimlar",
     "alt_konu": "Homojen ve Heterojen Karışımlar",
     "ders": "kimya",
@@ -3217,12 +3313,13 @@
         "text": "40"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0097",
+    "num": 44,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "",
     "ders": "kimya",
@@ -3251,12 +3348,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0098",
+    "num": 45,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "",
     "ders": "kimya",
@@ -3285,12 +3383,13 @@
         "text": "Süzme Tanecik boyutu"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0099",
+    "num": 46,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "",
     "ders": "kimya",
@@ -3319,12 +3418,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0100",
+    "num": 47,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "",
     "ders": "kimya",
@@ -3353,12 +3453,13 @@
         "text": "NH3 çözeltisinin pH değeri 7’den küçüktür."
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0101",
+    "num": 48,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
     "ders": "kimya",
@@ -3387,12 +3488,13 @@
         "text": "M - K - L"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0102",
+    "num": 49,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
     "ders": "kimya",
@@ -3421,12 +3523,13 @@
         "text": "Sodyum hidroksit üzerindeki etkilerini incelemek"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0103",
+    "num": 50,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
     "ders": "kimya",
@@ -3455,12 +3558,13 @@
         "text": "Tepkime sonucunda 2 mol K2SO4 tuzu oluşur."
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0104",
+    "num": 51,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
     "ders": "kimya",
@@ -3495,6 +3599,7 @@
   },
   {
     "id": "fn_0105",
+    "num": 52,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "Asitlerin ve Bazların Tepkimeleri",
     "ders": "kimya",
@@ -3523,12 +3628,13 @@
         "text": "25 °C’de pH değeri 7’den büyüktür."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0106",
+    "num": 53,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "",
     "ders": "kimya",
@@ -3557,12 +3663,13 @@
         "text": "Au - Pt"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0107",
+    "num": 54,
     "konu": "kimya_asit_baz_tuz",
     "alt_konu": "",
     "ders": "kimya",
@@ -3591,12 +3698,13 @@
         "text": "Polistiren (PS)"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0108",
+    "num": 1,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3625,12 +3733,13 @@
         "text": "Kalıtsal materyal içerme"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0109",
+    "num": 2,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3659,12 +3768,13 @@
         "text": "Hücre döngüsünde replikasyon geçirirler."
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0110",
+    "num": 3,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3693,12 +3803,13 @@
         "text": "Canlılardaki DNA’ların farklılığı, sadece nükleotitlerin dizilimine dayalıdır."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0111",
+    "num": 4,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3727,12 +3838,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0112",
+    "num": 5,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3761,12 +3873,13 @@
         "text": "III – II – I"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0113",
+    "num": 6,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3795,12 +3908,13 @@
         "text": "II, III ve IV"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0114",
+    "num": 7,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3829,12 +3943,13 @@
         "text": "Protein"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0115",
+    "num": 8,
     "konu": "bio_hucre",
     "alt_konu": "Hücre",
     "ders": "biyoloji",
@@ -3863,12 +3978,13 @@
         "text": "Hipotez oluşturma"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0116",
+    "num": 9,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3897,12 +4013,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0117",
+    "num": 10,
     "konu": "bio_hucre",
     "alt_konu": "Hücre",
     "ders": "biyoloji",
@@ -3931,12 +4048,13 @@
         "text": "Hücrede ribozomların bulunması"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0118",
+    "num": 11,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3965,12 +4083,13 @@
         "text": "Kofulların sayısı ve büyüklükleri"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0119",
+    "num": 12,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -3999,12 +4118,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0120",
+    "num": 13,
     "konu": "bio_hucre",
     "alt_konu": "Hücre",
     "ders": "biyoloji",
@@ -4033,12 +4153,13 @@
         "text": "Atık ürünleri merkezî kofulda depolama"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0121",
+    "num": 14,
     "konu": "bio_hucre",
     "alt_konu": "Hücre",
     "ders": "biyoloji",
@@ -4067,12 +4188,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0122",
+    "num": 15,
     "konu": "bio_hucre",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4101,12 +4223,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0123",
+    "num": 16,
     "konu": "bio_hucre",
     "alt_konu": "Hücre",
     "ders": "biyoloji",
@@ -4135,12 +4258,13 @@
         "text": "V, lipoprotein olup reseptör olarak işlev görür."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0124",
+    "num": 17,
     "konu": "bio_canlilar",
     "alt_konu": "Canlıların Çeşitliliği ve Sınıflandırılması",
     "ders": "biyoloji",
@@ -4169,12 +4293,13 @@
         "text": "Canlılar sınıflandırılırken organların köken benzerlikleri de esas alınır."
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0125",
+    "num": 18,
     "konu": "bio_canlilar",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4203,12 +4328,13 @@
         "text": "Bu türler ortak ataya dayalı benzerliklere sahiptir."
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0126",
+    "num": 19,
     "konu": "bio_canlilar",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4237,12 +4363,13 @@
         "text": "Canlı çeşitliliği azalır."
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0127",
+    "num": 20,
     "konu": "bio_canlilar",
     "alt_konu": "Canlı Âlemleri ve Özellikleri",
     "ders": "biyoloji",
@@ -4271,12 +4398,13 @@
         "text": "Vücutlarında tüylere sahip olma"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0128",
+    "num": 21,
     "konu": "bio_canlilar",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4305,12 +4433,13 @@
         "text": "Mantarlar, yoğurt üretiminde fermantasyonu gerçekleştirir."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0129",
+    "num": 22,
     "konu": "bio_canlilar",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4339,12 +4468,13 @@
         "text": "Hücrelerinde organellere sahip olma"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0130",
+    "num": 23,
     "konu": "bio_canlilar",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4373,12 +4503,13 @@
         "text": "Fagositoz yapabilen türlerin bulunması"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0131",
+    "num": 24,
     "konu": "bio_canlilar",
     "alt_konu": "Canlı Âlemleri ve Özellikleri",
     "ders": "biyoloji",
@@ -4407,12 +4538,13 @@
         "text": "Bazı bakteriler fotosentez yapabilir."
       }
     ],
-    "dogru": null,
+    "dogru": "A",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0132",
+    "num": 25,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4441,12 +4573,13 @@
         "text": "Sitokinezin boğumlanmayla gerçekleşmesi"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0133",
+    "num": 26,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4475,12 +4608,13 @@
         "text": "Mayoz Tomurcuklanma Birincil spermatosit Birincil oosit"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0134",
+    "num": 27,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4509,12 +4643,13 @@
         "text": "Yavru hücrelerin kromozom sayısı diploittir."
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0135",
+    "num": 28,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4543,12 +4678,13 @@
         "text": "Bal arılarında kraliçe arının oluşumu"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0136",
+    "num": 29,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4577,12 +4713,13 @@
         "text": "Homolog kromozomlar metafaz evresinde kutuplara çekilir."
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0137",
+    "num": 30,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4611,12 +4748,13 @@
         "text": "Yumurtaların kuluçka süresince farklı sıcaklıklara maruz kalması"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0138",
+    "num": 31,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4645,12 +4783,13 @@
         "text": "Anafaz I evresinde homolog kromozomların hangi kutuplara çekileceği şansa bağlı olarak gerçekleşir."
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0139",
+    "num": 32,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -4679,12 +4818,13 @@
         "text": "I ve V II, III ve IV"
       }
     ],
-    "dogru": null,
+    "dogru": "B",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0140",
+    "num": 33,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -4713,12 +4853,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0141",
+    "num": 34,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4747,12 +4888,13 @@
         "text": "1/8"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0142",
+    "num": 35,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -4781,12 +4923,13 @@
         "text": "I ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0143",
+    "num": 36,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4815,12 +4958,13 @@
         "text": "II, III ve IV"
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0144",
+    "num": 37,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4849,12 +4993,13 @@
         "text": "2 ve 5 numaralı bireylerin bu özellik bakımından genotipleri aynıdır."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0145",
+    "num": 38,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -4883,12 +5028,13 @@
         "text": "Bu çiftin renk körü kız çocukları olduğuna göre anne renk körü olmalıdır."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0146",
+    "num": 39,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4917,12 +5063,13 @@
         "text": "1"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0147",
+    "num": 40,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -4951,12 +5098,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "C",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0148",
+    "num": 41,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -4985,12 +5133,13 @@
         "text": "Balık kartalı"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0149",
+    "num": 42,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -5019,12 +5168,13 @@
         "text": "Bu besin ağında dört trofik düzey yer alır."
       }
     ],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0150",
+    "num": 43,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -5032,12 +5182,13 @@
     "yil": 2023,
     "soru": "Aşağıda karasal ekosisteme ait bir besin ağı verilmiştir. Sincap Tavşan Geyik Üreticiler Çam Akçaağaç Kavak Birincil Tüketiciler İkincil Tüketiciler Tilki Kurt Bu besin ağıyla ilgili, I. Üç trofik düzeyden oluşmaktadır. II. Alt trofik düzeyden üst trofik düzeylere doğru gidildikçe aktarılan enerji miktarı azalır. III. İkincil tüketiciler basamağında bulunan canlılar en fazla biyokütleye sahiptir. ifadelerinden hangileri doğrudur? A) Yalnız I B) Yalnız II C) Yalnız III D) I ve II E II ve III",
     "secenekler": [],
-    "dogru": null,
+    "dogru": "D",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0151",
+    "num": 44,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -5066,12 +5217,13 @@
         "text": "P türü, alt trofik basamaklardaki tüm canlılarla beslenmektedir."
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0152",
+    "num": 45,
     "konu": "bio_bolunme",
     "alt_konu": "",
     "ders": "biyoloji",
@@ -5100,12 +5252,13 @@
         "text": "I, II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0153",
+    "num": 46,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -5134,12 +5287,13 @@
         "text": "II ve III"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   },
   {
     "id": "fn_0154",
+    "num": 47,
     "konu": "bio_bolunme",
     "alt_konu": "Mayoz",
     "ders": "biyoloji",
@@ -5168,7 +5322,7 @@
         "text": "Sazlık ve bataklık alanların kurutulmasının"
       }
     ],
-    "dogru": null,
+    "dogru": "E",
     "kaynak": "otomatik",
     "zorluk": "orta"
   }

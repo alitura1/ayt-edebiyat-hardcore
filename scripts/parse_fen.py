@@ -439,6 +439,7 @@ def main():
 
             cards.append({
                 "id": f"fn_{card_id:04d}",
+                "num": q["num"],
                 "konu": current_unit or "",
                 "alt_konu": current_heading or "",
                 "ders": ders,
