@@ -61,9 +61,19 @@ async function renderFenHome() {
         setTimeout(() => toast.remove(), 2500);
       }
     }
-    // Hero soru şıkları — sadece görsel (cevap anahtarı yok, bilgi amaçlı)
-    document.querySelectorAll('[data-fen-opt]').forEach(btn => {
+    // Hero soru şıkları — gerçek doğru/yanlış kontrolü (cevap anahtarı dolu artık)
+    const opts = document.querySelectorAll('[data-fen-opt]');
+    let answered = false;
+    opts.forEach(btn => {
       btn.addEventListener('click', () => {
+        if (answered) return;
+        answered = true;
+        const isCorrect = btn.dataset.correct === 'yes';
+        opts.forEach(b => {
+          b.disabled = true;
+          if (b.dataset.correct === 'yes') b.classList.add('correct');
+          if (b === btn && !isCorrect) b.classList.add('wrong');
+        });
         document.getElementById('fenHeroReveal')?.classList.remove('hidden');
         bumpStreak();
       });
@@ -206,6 +216,24 @@ function pickDailyFenQuestion(cards, dayKey) {
 function renderFenHeroCard(card) {
   const dersTh = periodTheme(card.ders);
   const konuLabel = card.konu || '—';
+  const dogruCevap = card.dogru;
+  const dogruSecenek = dogruCevap ? (card.secenekler || []).find(o => o.id === dogruCevap) : null;
+
+  // Reveal içeriği — cevap anahtarı varsa doğru cevap, yoksa eski mesaj
+  const revealHtml = dogruCevap ? `
+    <div class="text-[10px] font-bold uppercase ${dersTh.text} opacity-80 mb-1">✓ Doğru Cevap</div>
+    <div class="text-base font-bold ${dersTh.text} mb-1">${dogruCevap}) ${escape(dogruSecenek?.text || '')}</div>
+    <div class="text-xs ${dersTh.text} opacity-80">
+      ${card.yil ? `Bu soru <strong>${card.yil}-TYT</strong>'de çıktı.` : ''}
+      Aynı konudan daha çok pratik için aşağıdaki butonları kullan.
+    </div>
+  ` : `
+    <div class="text-[10px] font-bold uppercase ${dersTh.text} opacity-80 mb-1">💡 Cevap anahtarı bu sorularda eksik</div>
+    <div class="text-sm ${dersTh.text}">
+      Bu sorunun doğru cevabını MEBİ özet notu veya tarama testlerinden bul; mantığını öğren, sonra quiz'de aynı tipte sorular çöz.
+    </div>
+  `;
+
   return `
     <div class="rounded-2xl overflow-hidden ${dersTh.bg} border-2 border-emerald-500/40">
       <div class="p-5">
@@ -224,10 +252,10 @@ function renderFenHeroCard(card) {
         <p class="text-sm md:text-base text-slate-800 dark:text-slate-100 leading-relaxed mb-4 whitespace-pre-line">${escape(card.soru || '')}</p>
 
         <div class="bg-white/85 dark:bg-slate-900/85 rounded-lg p-4 mt-3">
-          <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">Şıklar — kafa çalıştır, mantığı yakala</div>
+          <div class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-300 mb-3">Sence doğru cevap hangisi?</div>
           <div class="grid gap-1.5">
             ${(card.secenekler || []).map(o => `
-              <button data-fen-opt="${o.id}" class="opt">
+              <button data-fen-opt="${o.id}" data-correct="${dogruCevap && o.id === dogruCevap ? 'yes' : 'no'}" class="opt">
                 <span class="opt-letter">${o.id}</span>
                 <span class="flex-1 text-sm">${escape(o.text || '')}</span>
               </button>
@@ -236,10 +264,7 @@ function renderFenHeroCard(card) {
         </div>
 
         <div id="fenHeroReveal" class="hidden mt-3 bg-emerald-500/15 border border-emerald-500/40 rounded-lg p-3">
-          <div class="text-[10px] font-bold uppercase ${dersTh.text} opacity-80 mb-1">💡 Cevap anahtarı bu PDF'te yoktu</div>
-          <div class="text-sm ${dersTh.text}">
-            Bu sorunun doğru cevabını MEBİ özet notu veya tarama testlerinden bulup, hangi mantıkla çözüldüğünü öğren. Sonra quiz'de aynı tipte sorular çöz.
-          </div>
+          ${revealHtml}
           <div class="mt-2 flex gap-2 flex-wrap">
             <a href="#/konular/${card.konu || ''}" class="text-xs bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-1 rounded font-bold">📚 Konu Sayfası</a>
             <a href="#/quiz/setup?konu=${card.konu || 'hepsi'}" class="text-xs bg-accent-500 hover:bg-accent-700 text-white px-3 py-1 rounded font-bold">🎯 Benzer soru çöz</a>
