@@ -1,84 +1,53 @@
 [
   {
+    "id": "custom_mendel",
+    "title": "Mendel Punnett Karesi",
+    "ders": "biyoloji",
+    "konu": "bio_kalitim",
+    "aciklama": "Anne + baba genotipi seç, Punnett karesi otomatik · olasılık + fenotip oranı. TYT kalıtım sıcak alanı için.",
+    "url": "./sims/custom/mendel.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_hucre",
+    "title": "Hücre Organel Turu",
+    "ders": "biyoloji",
+    "konu": "bio_hucre",
+    "aciklama": "İnteraktif SVG hücre · bitki/hayvan toggle · her organel üstüne gel görev+özellik tooltip. EN SICAK biyoloji konusu (9 soru/8 yıl).",
+    "url": "./sims/custom/hucre.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_ohm",
+    "title": "Ohm Yasası + Devre",
+    "ders": "fizik",
+    "konu": "fizik_elektrik_manyetizma",
+    "aciklama": "3 slider (V, I, R) · V=I·R auto-hesap · canvas devre çizimi · ampul parlaklığı + seri/paralel direnç. Elektrik Devreleri sıcak.",
+    "url": "./sims/custom/ohm.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_periyodik",
+    "title": "Periyodik Tablo Mini",
+    "ders": "kimya",
+    "konu": "kimya_atom_periyodik",
+    "aciklama": "İlk 4 periyot + soygazlar · tıkla element bilgisi (proton/nötron/elektron/grup/periyot/değerlik) · metal/ametal/soygaz vurgu. EN SICAK kimya (9 soru).",
+    "url": "./sims/custom/periyodik.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
     "id": "phet_forces_motion",
     "title": "Kuvvet ve Hareket Temelleri",
     "ders": "fizik",
     "konu": "fizik_hareket_kuvvet",
     "aciklama": "İt-çek, sürtünme, ivme — Newton yasalarını görselleştir.",
     "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=tr",
-    "kaynak": "PhET (Colorado Üniv.)"
-  },
-  {
-    "id": "phet_energy_skate",
-    "title": "Enerji Kayağı Parkı",
-    "ders": "fizik",
-    "konu": "fizik_enerji",
-    "aciklama": "Kinetik ↔ potansiyel enerji dönüşümü; enerji korunumu canlı görselle.",
-    "url": "https://phet.colorado.edu/sims/html/energy-skate-park-basics/latest/energy-skate-park-basics_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_circuit_dc",
-    "title": "DC Devre Kurma Kiti",
-    "ders": "fizik",
-    "konu": "fizik_elektrik_manyetizma",
-    "aciklama": "Pil, ampul, direnç, voltmetre — devreler kurup akım/gerilim ölç. EN SICAK FİZİK KONUSU.",
-    "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_optics",
-    "title": "Geometrik Optik Temelleri",
-    "ders": "fizik",
-    "konu": "fizik_optik",
-    "aciklama": "Mercek, ayna, görüntü oluşumu — özel ışınlarla canlı çiz.",
-    "url": "https://phet.colorado.edu/sims/html/geometric-optics-basics/latest/geometric-optics-basics_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_bending_light",
-    "title": "Işığın Kırılması",
-    "ders": "fizik",
-    "konu": "fizik_optik",
-    "aciklama": "Snell yasası, kırılma indisi, tam yansıma — prizma deneyi simulator.",
-    "url": "https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_wave_interference",
-    "title": "Dalga Girişimi",
-    "ders": "fizik",
-    "konu": "fizik_dalgalar",
-    "aciklama": "Su / ses / ışık dalgalarında girişim, kırınım, frekans-dalga boyu ilişkisi.",
-    "url": "https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_projectile",
-    "title": "Yatay/Eğik Atış",
-    "ders": "fizik",
-    "konu": "fizik_hareket_kuvvet",
-    "aciklama": "Eğik atış yörüngeleri, açı ve hız değiştirerek menzil hesabı.",
-    "url": "https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_pendulum",
-    "title": "Sarkaç Laboratuvarı",
-    "ders": "fizik",
-    "konu": "fizik_hareket_kuvvet",
-    "aciklama": "Sarkaç periyodu, uzunluk ve yerçekimi ilişkisi — enerji korunumu.",
-    "url": "https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_hookes_law",
-    "title": "Hooke Yasası (Yay)",
-    "ders": "fizik",
-    "konu": "fizik_hareket_kuvvet",
-    "aciklama": "Yay sabitleri, paralel/seri yay sistemleri, uzanma-kuvvet grafiği.",
-    "url": "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET (Colorado Üniv.)",
+    "type": "phet"
   },
   {
     "id": "phet_friction",
@@ -87,7 +56,58 @@
     "konu": "fizik_hareket_kuvvet",
     "aciklama": "Sürtünme kuvveti, ısı oluşumu, moleküler titreşim — TYT klasik konu.",
     "url": "https://phet.colorado.edu/sims/html/friction/latest/friction_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
+  },
+  {
+    "id": "phet_energy_skate",
+    "title": "Enerji Kayağı Parkı",
+    "ders": "fizik",
+    "konu": "fizik_enerji",
+    "aciklama": "Kinetik ↔ potansiyel enerji dönüşümü; enerji korunumu canlı görselle.",
+    "url": "https://phet.colorado.edu/sims/html/energy-skate-park-basics/latest/energy-skate-park-basics_all.html?locale=tr",
+    "kaynak": "PhET",
+    "type": "phet"
+  },
+  {
+    "id": "phet_circuit_dc",
+    "title": "DC Devre Kurma Kiti",
+    "ders": "fizik",
+    "konu": "fizik_elektrik_manyetizma",
+    "aciklama": "Pil, ampul, direnç, voltmetre — devreler kurup akım/gerilim ölç. EN SICAK FİZİK KONUSU.",
+    "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_all.html?locale=tr",
+    "kaynak": "PhET",
+    "type": "phet"
+  },
+  {
+    "id": "phet_optics",
+    "title": "Geometrik Optik Temelleri",
+    "ders": "fizik",
+    "konu": "fizik_optik",
+    "aciklama": "Mercek, ayna, görüntü oluşumu — özel ışınlarla canlı çiz.",
+    "url": "https://phet.colorado.edu/sims/html/geometric-optics-basics/latest/geometric-optics-basics_all.html?locale=tr",
+    "kaynak": "PhET",
+    "type": "phet"
+  },
+  {
+    "id": "phet_bending_light",
+    "title": "Işığın Kırılması",
+    "ders": "fizik",
+    "konu": "fizik_optik",
+    "aciklama": "Snell yasası, kırılma indisi, tam yansıma — prizma deneyi.",
+    "url": "https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_all.html?locale=tr",
+    "kaynak": "PhET",
+    "type": "phet"
+  },
+  {
+    "id": "phet_wave_interference",
+    "title": "Dalga Girişimi",
+    "ders": "fizik",
+    "konu": "fizik_dalgalar",
+    "aciklama": "Su / ses / ışık dalgalarında girişim, frekans-dalga boyu ilişkisi.",
+    "url": "https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_all.html?locale=tr",
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_under_pressure",
@@ -96,7 +116,8 @@
     "konu": "fizik_basinc_kaldirma",
     "aciklama": "Derinlik ile basınç, sıvı yoğunluğu, Pascal ilkesi.",
     "url": "https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_density",
@@ -105,7 +126,8 @@
     "konu": "fizik_madde",
     "aciklama": "Madde özkütlesini ölç, su deplasmanı, yüzme-batma — ÖSYM klasiği.",
     "url": "https://phet.colorado.edu/sims/html/density/latest/density_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_build_atom",
@@ -114,7 +136,8 @@
     "konu": "kimya_atom_periyodik",
     "aciklama": "Proton, nötron, elektron ekle/çıkar; element + iyon + izotop. EN SICAK KİMYA.",
     "url": "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_isotopes",
@@ -123,7 +146,8 @@
     "konu": "kimya_atom_periyodik",
     "aciklama": "Aynı element farklı kütle — izotop kavramı, atom kütlesi hesabı.",
     "url": "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_balance_eq",
@@ -132,7 +156,8 @@
     "konu": "kimya_temel_kanunlar",
     "aciklama": "Kimyasal denklemleri katsayı vererek dengele (kütle korunumu).",
     "url": "https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_acid_base",
@@ -141,16 +166,18 @@
     "konu": "kimya_asit_baz_tuz",
     "aciklama": "pH ölçer, asit/baz seyrelt; iletkenlik ve mol ilişkisi.",
     "url": "https://phet.colorado.edu/sims/html/acid-base-solutions/latest/acid-base-solutions_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_ph_scale",
     "title": "pH Skalası (Temel)",
     "ders": "kimya",
     "konu": "kimya_asit_baz_tuz",
-    "aciklama": "Asitlik-bazlık seviyesi ölçümü; günlük hayat sıvıları (limon suyu, sabun…) test.",
+    "aciklama": "Asitlik-bazlık seviyesi; günlük hayat sıvıları (limon, sabun…) test.",
     "url": "https://phet.colorado.edu/sims/html/ph-scale-basics/latest/ph-scale-basics_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_states_matter",
@@ -159,7 +186,8 @@
     "konu": "kimya_madde_halleri",
     "aciklama": "Katı/sıvı/gaz; sıcaklık ve basınç değişimi → faz geçişi animasyon.",
     "url": "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_gas_properties",
@@ -168,69 +196,17 @@
     "konu": "kimya_madde_halleri",
     "aciklama": "Basınç-hacim-sıcaklık ilişkisi, kinetik teori, ideal gaz davranışı.",
     "url": "https://phet.colorado.edu/sims/html/gas-properties/latest/gas-properties_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   },
   {
     "id": "phet_concentration",
     "title": "Çözelti Derişimi",
     "ders": "kimya",
     "konu": "kimya_karisimlar",
-    "aciklama": "Konsantrasyon, mol/L, çözünen-çözücü ilişkisi — karışım dersinin altın deneyi.",
+    "aciklama": "Konsantrasyon, mol/L, çözünen-çözücü — karışım dersinin altın deneyi.",
     "url": "https://phet.colorado.edu/sims/html/concentration/latest/concentration_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_molarity",
-    "title": "Molarite",
-    "ders": "kimya",
-    "konu": "kimya_temel_kanunlar",
-    "aciklama": "Molarite hesaplaması, sulandırma, derişim formülleri pratiği.",
-    "url": "https://phet.colorado.edu/sims/html/molarity/latest/molarity_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_reactions_rates",
-    "title": "Tepkimeler ve Hız",
-    "ders": "kimya",
-    "konu": "kimya_etkilesim",
-    "aciklama": "Tepkime hızını etkileyen faktörler — sıcaklık, derişim, katalizör.",
-    "url": "https://phet.colorado.edu/sims/html/reactions-and-rates/latest/reactions-and-rates_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_natural_selection",
-    "title": "Doğal Seçilim",
-    "ders": "biyoloji",
-    "konu": "bio_ekosistem",
-    "aciklama": "Tavşan popülasyonunda mutasyon + çevre baskısı → evrim.",
-    "url": "https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_gene_expression",
-    "title": "Gen Anlatımı (DNA → Protein)",
-    "ders": "biyoloji",
-    "konu": "bio_kalitim",
-    "aciklama": "DNA → mRNA → protein; transkripsiyon ve translasyon adım adım.",
-    "url": "https://phet.colorado.edu/sims/html/gene-expression-essentials/latest/gene-expression-essentials_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_neuron",
-    "title": "Nöron (Sinir Hücresi)",
-    "ders": "biyoloji",
-    "konu": "bio_hucre",
-    "aciklama": "Aksiyon potansiyeli, membran iyon kanalları — hücre fizyolojisi.",
-    "url": "https://phet.colorado.edu/sims/html/neuron/latest/neuron_all.html?locale=tr",
-    "kaynak": "PhET"
-  },
-  {
-    "id": "phet_membrane_channels",
-    "title": "Membran Kanalları",
-    "ders": "biyoloji",
-    "konu": "bio_hucre",
-    "aciklama": "Pasif/aktif taşıma, iyon kanalları, hücre zarı geçirgenliği.",
-    "url": "https://phet.colorado.edu/sims/html/membrane-channels/latest/membrane-channels_all.html?locale=tr",
-    "kaynak": "PhET"
+    "kaynak": "PhET",
+    "type": "phet"
   }
 ]

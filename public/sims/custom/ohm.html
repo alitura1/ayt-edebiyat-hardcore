@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ohm Yasası + Devre · TYT Fizik</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  input[type=range] {
+    -webkit-appearance: none; appearance: none;
+    width: 100%; height: 8px; background: #1e293b; border-radius: 4px; outline: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 22px; height: 22px; background: #3b82f6; border-radius: 50%; cursor: pointer;
+    box-shadow: 0 2px 8px rgba(59,130,246,0.5);
+  }
+  input[type=range]::-moz-range-thumb {
+    width: 22px; height: 22px; background: #3b82f6; border-radius: 50%; cursor: pointer; border: none;
+  }
+  .mode-btn {
+    padding: 0.5rem 1.2rem; border-radius: 999px;
+    font-weight: 700; font-size: 0.875rem; transition: all 0.15s;
+  }
+  .mode-btn.active { background: #3b82f6; color: white; }
+  .mode-btn:not(.active) { background: #1e293b; color: #94a3b8; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-blue-400">⚡ Ohm Yasası + Devre</h1>
+    <p class="text-sm text-slate-400">3 slider'la oyna · <strong class="text-blue-300">V = I × R</strong> · ampulün parlaklığı I'ya bağlı · seri/paralel direnç hesabı.</p>
+  </header>
+
+  <!-- Mode toggle -->
+  <div class="flex items-center gap-2 mb-4 flex-wrap">
+    <span class="text-sm text-slate-400 mr-2">Devre Tipi:</span>
+    <button id="mode-tek" class="mode-btn active">🔌 Tek Direnç</button>
+    <button id="mode-seri" class="mode-btn">→→ Seri (2 direnç)</button>
+    <button id="mode-paralel" class="mode-btn">⇉ Paralel (2 direnç)</button>
+  </div>
+
+  <div class="grid lg:grid-cols-2 gap-4">
+    <!-- Slider'lar + sonuçlar -->
+    <div class="bg-slate-900 rounded-xl p-5 border border-slate-700 space-y-4">
+
+      <div>
+        <label class="flex items-baseline justify-between mb-1">
+          <span class="text-sm font-bold">🔋 Gerilim (V) <span class="text-xs text-slate-400">Volt</span></span>
+          <span id="val-V" class="text-2xl font-mono font-bold text-blue-400">12.0</span>
+        </label>
+        <input type="range" id="slider-V" min="1" max="24" step="0.5" value="12" />
+        <div class="text-[10px] text-slate-500 flex justify-between"><span>1V</span><span>24V</span></div>
+      </div>
+
+      <div>
+        <label class="flex items-baseline justify-between mb-1">
+          <span class="text-sm font-bold">🔧 Direnç R₁ <span class="text-xs text-slate-400">Ohm (Ω)</span></span>
+          <span id="val-R1" class="text-2xl font-mono font-bold text-emerald-400">4.0</span>
+        </label>
+        <input type="range" id="slider-R1" min="1" max="20" step="0.5" value="4" />
+        <div class="text-[10px] text-slate-500 flex justify-between"><span>1Ω</span><span>20Ω</span></div>
+      </div>
+
+      <div id="r2-block" style="display:none">
+        <label class="flex items-baseline justify-between mb-1">
+          <span class="text-sm font-bold">🔧 Direnç R₂ <span class="text-xs text-slate-400">Ohm (Ω)</span></span>
+          <span id="val-R2" class="text-2xl font-mono font-bold text-emerald-400">6.0</span>
+        </label>
+        <input type="range" id="slider-R2" min="1" max="20" step="0.5" value="6" />
+        <div class="text-[10px] text-slate-500 flex justify-between"><span>1Ω</span><span>20Ω</span></div>
+      </div>
+
+      <!-- Sonuçlar -->
+      <div class="grid grid-cols-2 gap-3 pt-3 border-t border-slate-700">
+        <div class="bg-slate-800 rounded-lg p-3">
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Eşdeğer Direnç</div>
+          <div id="result-Req" class="text-3xl font-mono font-bold text-yellow-400">4.0 Ω</div>
+        </div>
+        <div class="bg-slate-800 rounded-lg p-3">
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Toplam Akım (I)</div>
+          <div id="result-I" class="text-3xl font-mono font-bold text-red-400">3.0 A</div>
+        </div>
+        <div class="bg-slate-800 rounded-lg p-3">
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Güç (P = V·I)</div>
+          <div id="result-P" class="text-2xl font-mono font-bold text-purple-400">36 W</div>
+        </div>
+        <div class="bg-slate-800 rounded-lg p-3">
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Ampul Parlaklığı</div>
+          <div id="result-parlak" class="text-2xl font-mono font-bold text-amber-400">Orta 💡</div>
+        </div>
+      </div>
+
+      <!-- Formül kutusu -->
+      <div id="formula-box" class="bg-blue-900/30 border border-blue-500/40 rounded-lg p-3 text-sm font-mono">
+        <div class="text-xs text-blue-300 mb-1 font-sans">📐 Formül</div>
+        <div id="formula-text">V = I · R → I = V / R = 12 / 4 = 3 A</div>
+      </div>
+    </div>
+
+    <!-- Canvas devre çizimi -->
+    <div class="bg-slate-900 rounded-xl p-4 border border-slate-700">
+      <div class="text-xs text-slate-400 uppercase tracking-wider mb-2 font-bold">🔌 Devre Diyagramı</div>
+      <canvas id="canvas" width="500" height="320" class="w-full bg-slate-950 rounded"></canvas>
+      <p id="canvas-note" class="text-xs text-slate-500 mt-2 italic">Tek direnç + ampul devresi. Slider'ları oynat, akım/parlaklık değişimini gör.</p>
+    </div>
+  </div>
+
+  <!-- Açıklama -->
+  <div class="mt-4 bg-blue-900/20 border border-blue-500/30 rounded-lg p-4 text-xs leading-relaxed">
+    <strong class="text-blue-300">💡 Ohm Yasası & Devre Kuralları:</strong><br>
+    • <strong>Tek direnç:</strong> V = I × R · Birim: Volt = Amper × Ohm.<br>
+    • <strong>Seri bağlı (→→):</strong> Eşdeğer direnç = R₁ + R₂. Akım her noktada eşit. Gerilim bölünür.<br>
+    • <strong>Paralel bağlı (⇉):</strong> 1/Reş = 1/R₁ + 1/R₂. Gerilim her kolda eşit. Akım bölünür.<br>
+    • <strong>Güç:</strong> P = V·I = V²/R = I²·R · Ampul parlaklığı I (akıma) bağlı.<br>
+    • <strong>ÖSYM klasik:</strong> "Anahtar kapatılınca hangi ampul söner / kalan ampuller nasıl parlar" tipi sorular.
+  </div>
+
+  <div class="text-center mt-6 text-xs text-slate-500">
+    📚 TYT Fizik · Elektrik ve Manyetizma · Elektrik Devreleri 6 soru/8 yıl ⭐ EN SICAK FİZİK
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const slider = { V: $('slider-V'), R1: $('slider-R1'), R2: $('slider-R2') };
+const val = { V: $('val-V'), R1: $('val-R1'), R2: $('val-R2') };
+const canvas = $('canvas');
+const ctx = canvas.getContext('2d');
+
+let mode = 'tek'; // 'tek' | 'seri' | 'paralel'
+
+function setMode(m) {
+  mode = m;
+  $('mode-tek').classList.toggle('active', m === 'tek');
+  $('mode-seri').classList.toggle('active', m === 'seri');
+  $('mode-paralel').classList.toggle('active', m === 'paralel');
+  $('r2-block').style.display = m === 'tek' ? 'none' : '';
+  update();
+}
+$('mode-tek').onclick = () => setMode('tek');
+$('mode-seri').onclick = () => setMode('seri');
+$('mode-paralel').onclick = () => setMode('paralel');
+
+function update() {
+  const V = parseFloat(slider.V.value);
+  const R1 = parseFloat(slider.R1.value);
+  const R2 = parseFloat(slider.R2.value);
+  val.V.textContent = V.toFixed(1);
+  val.R1.textContent = R1.toFixed(1);
+  val.R2.textContent = R2.toFixed(1);
+
+  let Req, formula;
+  if (mode === 'tek') {
+    Req = R1;
+    formula = `V = I · R → I = V / R = ${V} / ${R1} = ${(V/R1).toFixed(2)} A`;
+  } else if (mode === 'seri') {
+    Req = R1 + R2;
+    formula = `Seri: R<sub>eş</sub> = R₁ + R₂ = ${R1} + ${R2} = ${Req.toFixed(1)} Ω · I = V/R<sub>eş</sub> = ${(V/Req).toFixed(2)} A`;
+  } else {
+    Req = (R1 * R2) / (R1 + R2);
+    formula = `Paralel: 1/R<sub>eş</sub> = 1/R₁ + 1/R₂ → R<sub>eş</sub> = R₁·R₂ / (R₁+R₂) = ${Req.toFixed(2)} Ω · I = ${(V/Req).toFixed(2)} A`;
+  }
+  const I = V / Req;
+  const P = V * I;
+
+  $('result-Req').textContent = Req.toFixed(2) + ' Ω';
+  $('result-I').textContent = I.toFixed(2) + ' A';
+  $('result-P').textContent = P.toFixed(1) + ' W';
+  let parlak = 'Sönük 🌑';
+  if (I > 1.5) parlak = 'Parlak 💡';
+  else if (I > 0.7) parlak = 'Orta 💡';
+  $('result-parlak').textContent = parlak;
+  $('formula-text').innerHTML = formula;
+
+  drawCircuit(V, I, Req);
+}
+
+function drawCircuit(V, I, Req) {
+  const W = canvas.width, H = canvas.height;
+  ctx.clearRect(0, 0, W, H);
+
+  // Devre çerçeve (dikdörtgen tel)
+  ctx.strokeStyle = '#94a3b8';
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(80, 80);
+  ctx.lineTo(420, 80);
+  ctx.lineTo(420, 240);
+  ctx.lineTo(80, 240);
+  ctx.closePath();
+  ctx.stroke();
+
+  // Pil (sol orta)
+  drawPil(80, 160, V);
+
+  // Ampul (üst orta)
+  const brightness = Math.min(1, I / 3); // I'ya bağlı parlaklık 0-1
+  drawAmpul(250, 80, brightness);
+
+  if (mode === 'tek') {
+    drawDirenc(250, 240, 'R₁');
+    $('canvas-note').textContent = `Tek direnç ${$('val-R1').textContent}Ω + ampul. Akım: ${I.toFixed(2)}A.`;
+  } else if (mode === 'seri') {
+    // İki direnç alt çizgide yan yana
+    drawDirenc(180, 240, 'R₁');
+    drawDirenc(320, 240, 'R₂');
+    $('canvas-note').textContent = `Seri devre: R₁ + R₂ = ${Req.toFixed(1)}Ω · akım her noktada ${I.toFixed(2)}A.`;
+  } else {
+    // Paralel: iki kol
+    ctx.strokeStyle = '#94a3b8';
+    ctx.beginPath();
+    ctx.moveTo(250, 240);
+    ctx.lineTo(250, 195);
+    ctx.lineTo(180, 195);
+    ctx.lineTo(180, 160);
+    ctx.moveTo(250, 195);
+    ctx.lineTo(320, 195);
+    ctx.lineTo(320, 160);
+    ctx.stroke();
+    drawDirenc(180, 130, 'R₁', true);
+    drawDirenc(320, 130, 'R₂', true);
+    $('canvas-note').textContent = `Paralel devre: R₁ ∥ R₂ = ${Req.toFixed(2)}Ω · gerilim her kolda ${V}V.`;
+  }
+}
+
+function drawPil(x, y, V) {
+  // Pil: 2 dikey çizgi (uzun + kısa)
+  ctx.strokeStyle = '#fbbf24';
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(x, y - 18); ctx.lineTo(x, y + 18); // uzun = + kutup
+  ctx.moveTo(x - 12, y - 10); ctx.lineTo(x - 12, y + 10); // kısa = - kutup
+  ctx.stroke();
+  ctx.fillStyle = '#fbbf24';
+  ctx.font = 'bold 14px monospace';
+  ctx.textAlign = 'center';
+  ctx.fillText(V.toFixed(0) + 'V', x - 6, y + 38);
+  ctx.fillStyle = '#fde68a';
+  ctx.font = '11px sans-serif';
+  ctx.fillText('+', x + 6, y - 22);
+  ctx.fillText('−', x - 18, y - 12);
+}
+
+function drawAmpul(x, y, brightness) {
+  // Daire = ampul, içi parlaklığa göre dolu
+  ctx.beginPath();
+  ctx.arc(x, y, 25, 0, Math.PI * 2);
+  const glow = brightness;
+  ctx.fillStyle = `rgba(254, 240, 138, ${0.2 + glow * 0.8})`;
+  ctx.fill();
+  ctx.strokeStyle = brightness > 0.5 ? '#fde68a' : '#94a3b8';
+  ctx.lineWidth = 3;
+  ctx.stroke();
+  // X şekli içeride (ampul flaman)
+  ctx.beginPath();
+  ctx.moveTo(x - 12, y - 12); ctx.lineTo(x + 12, y + 12);
+  ctx.moveTo(x + 12, y - 12); ctx.lineTo(x - 12, y + 12);
+  ctx.strokeStyle = `rgba(251, 191, 36, ${0.3 + glow * 0.7})`;
+  ctx.lineWidth = 2;
+  ctx.stroke();
+  // Halka (parlaksa)
+  if (brightness > 0.4) {
+    ctx.beginPath();
+    ctx.arc(x, y, 32, 0, Math.PI * 2);
+    ctx.strokeStyle = `rgba(254, 240, 138, ${glow * 0.4})`;
+    ctx.lineWidth = 4;
+    ctx.stroke();
+  }
+  ctx.fillStyle = '#cbd5e1';
+  ctx.font = '10px sans-serif';
+  ctx.fillText('💡', x, y + 50);
+}
+
+function drawDirenc(x, y, label, vertical = false) {
+  ctx.strokeStyle = '#10b981';
+  ctx.fillStyle = '#064e3b';
+  ctx.lineWidth = 2;
+  const w = 50, h = 18;
+  if (vertical) {
+    ctx.fillRect(x - h/2, y - w/2, h, w);
+    ctx.strokeRect(x - h/2, y - w/2, h, w);
+  } else {
+    ctx.fillRect(x - w/2, y - h/2, w, h);
+    ctx.strokeRect(x - w/2, y - h/2, w, h);
+  }
+  ctx.fillStyle = '#a7f3d0';
+  ctx.font = 'bold 11px monospace';
+  ctx.textAlign = 'center';
+  ctx.fillText(label, x, vertical ? y + 4 : y - 22);
+}
+
+slider.V.addEventListener('input', update);
+slider.R1.addEventListener('input', update);
+slider.R2.addEventListener('input', update);
+update();
+</script>
+</body>
+</html>

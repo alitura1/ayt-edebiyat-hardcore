@@ -169,8 +169,41 @@ const TOPIC_HINTS_TARIH = [
   ['hatay', 'ikinci_dunya_cagdas'],
 ];
 
+// REV28 — Fen TOPIC_HINTS
+const TOPIC_HINTS_FEN = [
+  // Biyoloji
+  ['hucre', 'bio_hucre'], ['organel', 'bio_hucre'], ['zar gec', 'bio_hucre'],
+  ['kalitim', 'bio_kalitim'], ['mendel', 'bio_kalitim'], ['soyagac', 'bio_kalitim'], ['gen', 'bio_kalitim'],
+  ['bolunme', 'bio_bolunme'], ['mitoz', 'bio_bolunme'], ['mayoz', 'bio_bolunme'], ['ureme', 'bio_bolunme'],
+  ['canlilar dunyasi', 'bio_canlilar'], ['sinifland', 'bio_canlilar'], ['alem', 'bio_canlilar'],
+  ['ekosistem', 'bio_ekosistem'], ['besin zinciri', 'bio_ekosistem'], ['biyolojik cesit', 'bio_ekosistem'],
+  ['yasam bilimi', 'bio_yasam_bilimi'], ['bilesik', 'bio_yasam_bilimi'], ['organik', 'bio_yasam_bilimi'], ['inorganik', 'bio_yasam_bilimi'], ['enzim', 'bio_yasam_bilimi'],
+  // Fizik
+  ['optik', 'fizik_optik'], ['mercek', 'fizik_optik'], ['ayna', 'fizik_optik'], ['kirilma', 'fizik_optik'], ['aydinlanma', 'fizik_optik'],
+  ['hareket', 'fizik_hareket_kuvvet'], ['kuvvet', 'fizik_hareket_kuvvet'], ['newton', 'fizik_hareket_kuvvet'], ['surtunme', 'fizik_hareket_kuvvet'],
+  ['enerji', 'fizik_enerji'],
+  ['isi', 'fizik_isi_sicaklik'], ['sicaklik', 'fizik_isi_sicaklik'], ['genlesme', 'fizik_isi_sicaklik'], ['hal degis', 'fizik_isi_sicaklik'],
+  ['elektrik', 'fizik_elektrik_manyetizma'], ['devre', 'fizik_elektrik_manyetizma'], ['manyetik', 'fizik_elektrik_manyetizma'],
+  ['basinc', 'fizik_basinc_kaldirma'], ['kaldirma', 'fizik_basinc_kaldirma'],
+  ['dalga', 'fizik_dalgalar'], ['ses', 'fizik_dalgalar'],
+  ['ozkutle', 'fizik_madde'], ['madde ve', 'fizik_madde'], ['yapisma', 'fizik_madde'],
+  ['fizik bilim', 'fizik_giris'],
+  // Kimya
+  ['periyodik', 'kimya_atom_periyodik'], ['atom', 'kimya_atom_periyodik'], ['izotop', 'kimya_atom_periyodik'],
+  ['etkilesim', 'kimya_etkilesim'], ['bag', 'kimya_etkilesim'], ['kovalent', 'kimya_etkilesim'], ['iyonik', 'kimya_etkilesim'],
+  ['madde halleri', 'kimya_madde_halleri'], ['gaz', 'kimya_madde_halleri'], ['sivi', 'kimya_madde_halleri'],
+  ['mol', 'kimya_temel_kanunlar'], ['kimyanin kanun', 'kimya_temel_kanunlar'], ['stokiyo', 'kimya_temel_kanunlar'],
+  ['karisim', 'kimya_karisimlar'], ['homojen', 'kimya_karisimlar'], ['heterojen', 'kimya_karisimlar'],
+  ['asit', 'kimya_asit_baz_tuz'], ['baz', 'kimya_asit_baz_tuz'], ['ph', 'kimya_asit_baz_tuz'],
+  ['kimya bilimi', 'kimya_bilim'], ['sembolik dil', 'kimya_bilim'],
+  ['gunluk hayat kimya', 'kimya_her_yerde'],
+];
+
 function getTopicHints() {
-  return getDataSubject() === 'tarih' ? TOPIC_HINTS_TARIH : TOPIC_HINTS_EDEBIYAT;
+  const s = getDataSubject();
+  if (s === 'tarih') return TOPIC_HINTS_TARIH;
+  if (s === 'fen')   return TOPIC_HINTS_FEN;
+  return TOPIC_HINTS_EDEBIYAT;
 }
 
 function normalizeTr(s) {
@@ -261,10 +294,18 @@ function konuToAnchor(konuText) {
   return null;
 }
 
+function escapeAttr(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+function escapeText(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 export async function renderProgram() {
   const p = await Data.program();
   const state = loadState();
   const checks = state.program_checkbox || {};
+  const isFen = getDataSubject() === 'fen';
 
   window.__pageSetup = () => {
     document.querySelectorAll('[data-check]').forEach(box => {
@@ -288,10 +329,14 @@ export async function renderProgram() {
     }
   }
 
+  const headerSub = isFen
+    ? `Her gün için: <strong>📺 Video</strong> → <strong>📘 MEBİ özet</strong> → <strong>📝 Tarama testi</strong> → <strong>🎯 Site quiz</strong> → <strong>🔬 Simülasyon</strong>.<br><span class="text-xs">💡 Konu başlığına tıkla → site içi üniteye git · Video link'ine tıkla → YouTube açılır · Tik kutusu → tamamlandı</span>`
+    : `Her gün için: <strong>(R)</strong> Bu site rehberi · <strong>(M)</strong> MEBİ özet PDF · <strong>(S)</strong> Çıkmış sorular pratik.<br><span class="text-xs">💡 Konu kutusuna tıkla → o konuya git · Tik kutusu → tamamlandı</span>`;
+
   return `
     <header class="mb-6">
-      <h1 class="text-3xl font-bold mb-1">📅 1 Aylık Program</h1>
-      <p class="text-slate-600 dark:text-slate-400 text-sm">Her gün için: <strong>(R)</strong> Bu site rehberi · <strong>(M)</strong> MEBİ özet PDF · <strong>(S)</strong> Çıkmış sorular pratik.<br><span class="text-xs">💡 Konu kutusuna tıkla → o konuya git · Tik kutusu → tamamlandı</span></p>
+      <h1 class="text-3xl font-bold mb-1">📅 ${isFen ? 'TYT Fen' : ''} 4 Haftalık Program</h1>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">${headerSub}</p>
     </header>
 
     <div class="mb-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-3">
@@ -306,9 +351,10 @@ export async function renderProgram() {
 
     ${p.haftalar.map((hafta, hi) => `
       <section class="mb-6">
-        <h2 class="text-xl font-bold mb-3 text-primary-700 dark:text-primary-100">
+        <h2 class="text-xl font-bold mb-2 text-primary-700 dark:text-primary-100">
           Hafta ${hi+1}: ${hafta.baslik}
         </h2>
+        ${hafta.vurgu ? `<p class="text-xs text-slate-600 dark:text-slate-400 mb-3 italic">${hafta.vurgu}</p>` : ''}
         <div class="space-y-2">
           ${hafta.gunler.map((g, gi) => {
             const key = `h${hi+1}_${g.gun.toLowerCase()}`;
@@ -316,6 +362,90 @@ export async function renderProgram() {
             const slug = konuToSlug(g.konu);
             const anchor = slug ? konuToAnchor(g.konu) : null;
             const href = slug ? (anchor ? `#/konular/${slug}#${anchor}` : `#/konular/${slug}`) : null;
+
+            // FEN detaylı render
+            if (isFen) {
+              const dersBadge = g.ders === 'biyoloji' ? 'bg-emerald-600' : g.ders === 'kimya' ? 'bg-purple-600' : g.ders === 'fizik' ? 'bg-blue-600' : 'bg-slate-500';
+              const dersIcon = g.ders === 'biyoloji' ? '🧬' : g.ders === 'kimya' ? '🧪' : g.ders === 'fizik' ? '⚛' : '📚';
+              const videoUrl = g.video?.url || '';
+              const videoLabel = g.video?.baslik || g.rehber || '';
+              const showVideo = videoUrl && videoLabel;
+
+              const inner = `
+                <div class="flex items-baseline gap-2 mb-2 flex-wrap">
+                  <span class="font-bold text-sm bg-primary-700 text-white px-2 py-0.5 rounded">${g.gun}</span>
+                  <span class="inline-flex items-center gap-1 text-xs font-bold ${dersBadge} text-white px-2 py-0.5 rounded">${dersIcon} ${g.ders || ''}</span>
+                  <span class="font-semibold text-sm">${escapeText(g.konu)}</span>
+                  ${slug ? `<span class="text-[10px] text-primary-700 dark:text-primary-100 font-bold opacity-80">→ üniteye git</span>` : ''}
+                  ${g.sure_tahmini ? `<span class="ml-auto text-[10px] text-slate-500">⏱ ${escapeText(g.sure_tahmini)}</span>` : ''}
+                </div>
+
+                <div class="grid gap-1.5 text-xs">
+                  ${showVideo ? `
+                    <div class="bg-red-50 dark:bg-red-900/20 border border-red-500/30 rounded px-2 py-1.5">
+                      <a href="${escapeAttr(videoUrl)}" target="_blank" rel="noopener" class="flex items-start gap-2 hover:underline" onclick="event.stopPropagation()">
+                        <span class="text-red-600 dark:text-red-400 font-bold flex-shrink-0">📺 Video:</span>
+                        <span class="text-slate-700 dark:text-slate-200">${escapeText(videoLabel)} <span class="text-[10px] opacity-70">↗</span></span>
+                      </a>
+                    </div>
+                  ` : ''}
+
+                  ${g.mebi && g.mebi !== '—' ? `
+                    <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-500/30 rounded px-2 py-1.5">
+                      <span class="text-blue-700 dark:text-blue-300 font-bold">📘 MEBİ:</span>
+                      <span class="text-slate-700 dark:text-slate-200">${escapeText(g.mebi)}</span>
+                    </div>
+                  ` : ''}
+
+                  ${g.tarama && g.tarama !== '—' ? `
+                    <div class="bg-amber-50 dark:bg-amber-900/20 border border-amber-500/30 rounded px-2 py-1.5">
+                      <span class="text-amber-700 dark:text-amber-300 font-bold">📝 Tarama:</span>
+                      <span class="text-slate-700 dark:text-slate-200">${escapeText(g.tarama)}</span>
+                    </div>
+                  ` : ''}
+
+                  ${g.site_quiz && g.site_quiz !== '—' ? `
+                    <div class="bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-500/30 rounded px-2 py-1.5">
+                      <span class="text-emerald-700 dark:text-emerald-300 font-bold">🎯 Site Quiz:</span>
+                      <span class="text-slate-700 dark:text-slate-200">${escapeText(g.site_quiz)}</span>
+                    </div>
+                  ` : ''}
+
+                  ${g.simulasyon && g.simulasyon !== '—' ? `
+                    <div class="bg-purple-50 dark:bg-purple-900/20 border border-purple-500/30 rounded px-2 py-1.5">
+                      <span class="text-purple-700 dark:text-purple-300 font-bold">🔬 Simülasyon:</span>
+                      <span class="text-slate-700 dark:text-slate-200">${escapeText(g.simulasyon)}</span>
+                      <a href="#/simulasyonlar" class="ml-1 text-[10px] text-purple-700 dark:text-purple-300 underline" onclick="event.stopPropagation()">→ aç</a>
+                    </div>
+                  ` : ''}
+
+                  ${g.check ? `
+                    <div class="bg-slate-100 dark:bg-slate-800/50 border-l-4 border-slate-400 dark:border-slate-600 rounded px-2 py-1.5 mt-1">
+                      <span class="text-slate-700 dark:text-slate-200 font-bold">✅ Günün Hedefi:</span>
+                      <span class="text-slate-600 dark:text-slate-300">${escapeText(g.check)}</span>
+                    </div>
+                  ` : ''}
+                </div>
+              `;
+              return `
+                <div class="flex items-start gap-2 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg p-2 has-[input:checked]:bg-ok-500/5 has-[input:checked]:border-ok-500/30">
+                  <label class="cursor-pointer p-1 -m-1 flex items-center" title="Tamamlandı işaretle">
+                    <input type="checkbox" data-check="${key}" ${checked} class="w-5 h-5 cursor-pointer" />
+                  </label>
+                  ${href ? `
+                    <a href="${href}" class="flex-1 min-w-0 p-2 -m-2 rounded hover:bg-slate-50 dark:hover:bg-slate-800/50 transition">
+                      ${inner}
+                    </a>
+                  ` : `
+                    <div class="flex-1 min-w-0 p-2 -m-2">
+                      ${inner}
+                    </div>
+                  `}
+                </div>
+              `;
+            }
+
+            // EDEBİYAT / TARİH render (eski schema)
             const inner = `
               <div class="flex items-baseline gap-2 mb-1 flex-wrap">
                 <span class="font-bold text-sm bg-primary-700 text-white px-2 py-0.5 rounded">${g.gun}</span>

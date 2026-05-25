@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mendel Punnett Karesi · TYT Biyoloji</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .baskin { background: linear-gradient(135deg, #dc2626, #991b1b); color: white; font-weight: 700; }
+  .cekinik { background: linear-gradient(135deg, #2563eb, #1e40af); color: white; font-weight: 700; }
+  .punnett-cell {
+    display: flex; align-items: center; justify-content: center;
+    padding: 1rem; border-radius: 0.5rem; font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+  }
+  .punnett-cell:hover { transform: scale(1.05); }
+  .alel-card {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 36px; height: 36px; border-radius: 6px; font-weight: bold;
+  }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-4xl mx-auto">
+
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold mb-1 text-emerald-400">🧬 Mendel Punnett Karesi</h1>
+    <p class="text-sm text-slate-400">Anne + baba genotipini seç, çocuk olasılığını gör. Büyük harf <span class="alel-card baskin" style="width:28px;height:28px;font-size:14px">A</span> = baskın · küçük harf <span class="alel-card cekinik" style="width:28px;height:28px;font-size:14px">a</span> = çekinik.</p>
+  </header>
+
+  <!-- Genotip seçici -->
+  <div class="grid sm:grid-cols-2 gap-4 mb-6">
+    <div class="bg-slate-800 rounded-lg p-4">
+      <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">👩 Anne Genotipi</label>
+      <select id="anne" class="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-lg font-mono">
+        <option value="AA">AA (Homozigot Baskın)</option>
+        <option value="Aa" selected>Aa (Heterozigot — Taşıyıcı)</option>
+        <option value="aa">aa (Homozigot Çekinik)</option>
+      </select>
+    </div>
+    <div class="bg-slate-800 rounded-lg p-4">
+      <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">👨 Baba Genotipi</label>
+      <select id="baba" class="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-lg font-mono">
+        <option value="AA">AA (Homozigot Baskın)</option>
+        <option value="Aa" selected>Aa (Heterozigot — Taşıyıcı)</option>
+        <option value="aa">aa (Homozigot Çekinik)</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Punnett karesi -->
+  <div class="bg-slate-800 rounded-2xl p-6 mb-6">
+    <div class="text-center mb-3">
+      <span class="text-sm uppercase tracking-wider text-slate-400 font-bold">Punnett Karesi</span>
+    </div>
+    <div class="grid gap-2 mx-auto" style="grid-template-columns: 60px 1fr 1fr; max-width: 480px;">
+      <!-- Üst başlık (boş + baba alelleri) -->
+      <div></div>
+      <div id="baba-alel-1" class="text-center text-xl font-bold py-2"></div>
+      <div id="baba-alel-2" class="text-center text-xl font-bold py-2"></div>
+      <!-- Sol başlık + 2 hücre -->
+      <div id="anne-alel-1" class="text-xl font-bold flex items-center justify-center"></div>
+      <div id="cell-00" class="punnett-cell"></div>
+      <div id="cell-01" class="punnett-cell"></div>
+      <!-- Alt başlık + 2 hücre -->
+      <div id="anne-alel-2" class="text-xl font-bold flex items-center justify-center"></div>
+      <div id="cell-10" class="punnett-cell"></div>
+      <div id="cell-11" class="punnett-cell"></div>
+    </div>
+  </div>
+
+  <!-- Genotip + Fenotip oranları -->
+  <div class="grid sm:grid-cols-2 gap-4 mb-6">
+    <div class="bg-slate-800 rounded-lg p-4">
+      <h3 class="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3">📊 Genotip Oranları</h3>
+      <div id="genotip-list" class="space-y-2 text-sm"></div>
+    </div>
+    <div class="bg-slate-800 rounded-lg p-4">
+      <h3 class="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3">👁 Fenotip Oranları</h3>
+      <div id="fenotip-list" class="space-y-2 text-sm"></div>
+    </div>
+  </div>
+
+  <!-- Açıklama -->
+  <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-lg p-4 text-xs leading-relaxed">
+    <strong class="text-emerald-300">💡 Mendel İlkeleri:</strong><br>
+    • <strong>Ayrılma ilkesi:</strong> Gametler oluşurken alel çiftleri ayrılır, her gamet sadece 1 alel taşır.<br>
+    • <strong>Bağımsız dağılım:</strong> Farklı karakterlerin alelleri birbirinden bağımsız geçer (Aa × Bb → 9:3:3:1).<br>
+    • <strong>Baskınlık:</strong> A_ fenotipi baskın gösterir (AA = Aa = baskın görünüm). Sadece aa çekinik gösterir.<br>
+    • <strong>Klasik test:</strong> Aa × Aa → 1 AA : 2 Aa : 1 aa (genotip) = 3:1 (fenotip: 3 baskın, 1 çekinik).
+  </div>
+
+  <div class="text-center mt-6 text-xs text-slate-500">
+    📚 TYT Biyoloji · Kalıtımın Genel İlkeleri · 8 yılda 8 soru (her yıl 1)
+  </div>
+</div>
+
+<script>
+const anneSel = document.getElementById('anne');
+const babaSel = document.getElementById('baba');
+
+function alelClass(alel) {
+  return alel === alel.toUpperCase() ? 'alel-card baskin' : 'alel-card cekinik';
+}
+
+function combine(a, b) {
+  // Normalize: büyük harf önce
+  const arr = [a, b].sort((x, y) => {
+    if (x === x.toUpperCase() && y !== y.toUpperCase()) return -1;
+    if (y === y.toUpperCase() && x !== x.toUpperCase()) return 1;
+    return 0;
+  });
+  return arr.join('');
+}
+
+function fenotip(genotip) {
+  return /[A-Z]/.test(genotip) ? 'Baskın (A_)' : 'Çekinik (aa)';
+}
+
+function render() {
+  const anne = anneSel.value; // "AA", "Aa", "aa"
+  const baba = babaSel.value;
+
+  const a1 = anne[0], a2 = anne[1];
+  const b1 = baba[0], b2 = baba[1];
+
+  // Alel başlıkları
+  document.getElementById('anne-alel-1').innerHTML = `<span class="${alelClass(a1)}">${a1}</span>`;
+  document.getElementById('anne-alel-2').innerHTML = `<span class="${alelClass(a2)}">${a2}</span>`;
+  document.getElementById('baba-alel-1').innerHTML = `<span class="${alelClass(b1)}">${b1}</span>`;
+  document.getElementById('baba-alel-2').innerHTML = `<span class="${alelClass(b2)}">${b2}</span>`;
+
+  // 4 hücre
+  const cells = [
+    { id: 'cell-00', a: a1, b: b1 },
+    { id: 'cell-01', a: a1, b: b2 },
+    { id: 'cell-10', a: a2, b: b1 },
+    { id: 'cell-11', a: a2, b: b2 },
+  ];
+  const genotipler = [];
+  cells.forEach(c => {
+    const g = combine(c.a, c.b);
+    genotipler.push(g);
+    const bg = fenotip(g) === 'Çekinik (aa)' ? '#1e3a8a' : '#7f1d1d';
+    document.getElementById(c.id).style.background = bg;
+    document.getElementById(c.id).innerHTML = `
+      <span class="${alelClass(c.a)}">${c.a}</span>
+      <span class="${alelClass(c.b)}" style="margin-left:6px">${c.b}</span>
+    `;
+  });
+
+  // Genotip oranları
+  const genoCount = {};
+  genotipler.forEach(g => genoCount[g] = (genoCount[g] || 0) + 1);
+  const genoHtml = Object.entries(genoCount)
+    .sort((x, y) => y[1] - x[1])
+    .map(([g, c]) => {
+      const pct = (c / 4 * 100).toFixed(0);
+      const bg = fenotip(g) === 'Çekinik (aa)' ? 'bg-blue-900/40 border-blue-500/40' : 'bg-red-900/40 border-red-500/40';
+      return `<div class="flex items-center justify-between border ${bg} rounded px-3 py-2">
+        <span class="font-mono text-lg font-bold">${g}</span>
+        <span class="text-emerald-300 font-bold">${c}/4 · %${pct}</span>
+      </div>`;
+    }).join('');
+  document.getElementById('genotip-list').innerHTML = genoHtml;
+
+  // Fenotip oranları
+  const fenoCount = { 'Baskın (A_)': 0, 'Çekinik (aa)': 0 };
+  genotipler.forEach(g => fenoCount[fenotip(g)]++);
+  const fenoHtml = Object.entries(fenoCount)
+    .filter(([_, c]) => c > 0)
+    .map(([f, c]) => {
+      const pct = (c / 4 * 100).toFixed(0);
+      const bg = f.includes('Çekinik') ? 'bg-blue-900/40 border-blue-500/40 text-blue-200' : 'bg-red-900/40 border-red-500/40 text-red-200';
+      const icon = f.includes('Çekinik') ? '🔵' : '🔴';
+      return `<div class="flex items-center justify-between border ${bg} rounded px-3 py-2">
+        <span class="font-semibold">${icon} ${f}</span>
+        <span class="font-bold">${c}/4 · %${pct}</span>
+      </div>`;
+    }).join('');
+  document.getElementById('fenotip-list').innerHTML = fenoHtml;
+}
+
+anneSel.addEventListener('change', render);
+babaSel.addEventListener('change', render);
+render();
+</script>
+</body>
+</html>

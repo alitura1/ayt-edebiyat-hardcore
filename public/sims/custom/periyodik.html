@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Periyodik Tablo Mini · TYT Kimya</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .pt-grid {
+    display: grid;
+    grid-template-columns: repeat(18, minmax(0, 1fr));
+    gap: 2px;
+  }
+  .el {
+    aspect-ratio: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    border-radius: 4px; cursor: pointer;
+    transition: all 0.15s;
+    font-weight: 700;
+    font-size: 0.7rem; line-height: 1;
+    padding: 2px;
+  }
+  .el:hover { transform: scale(1.15); z-index: 10; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+  .el.active { outline: 3px solid #fbbf24; outline-offset: 1px; z-index: 20; }
+  .el .num { font-size: 0.55rem; opacity: 0.8; }
+  .el .sym { font-size: 1.1rem; font-weight: 800; }
+  .el .name { font-size: 0.5rem; opacity: 0.75; }
+  .empty { background: transparent; cursor: default; }
+  .empty:hover { transform: none; box-shadow: none; }
+  .metal { background: #b91c1c; color: #fee2e2; }
+  .ametal { background: #1d4ed8; color: #dbeafe; }
+  .soygaz { background: #7c3aed; color: #ede9fe; }
+  .yari-metal { background: #15803d; color: #dcfce7; }
+  .gecis { background: #c2410c; color: #fed7aa; }
+  .alkali { background: #be185d; color: #fce7f3; }
+  .toprak { background: #a16207; color: #fef3c7; }
+  .halojen { background: #0891b2; color: #cffafe; }
+  .filter-btn {
+    padding: 0.4rem 0.8rem; border-radius: 999px;
+    font-weight: 600; font-size: 0.75rem; transition: all 0.15s;
+    background: #1e293b; color: #94a3b8;
+  }
+  .filter-btn.active { background: #fbbf24; color: #0f172a; }
+  .dim { opacity: 0.25; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-6xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-purple-400">🧪 Periyodik Tablo Mini</h1>
+    <p class="text-sm text-slate-400">TYT kapsamı · 36 element · element üstüne gel/tıkla → proton/nötron/elektron/grup/periyot/değerlik. Vurgu butonlarıyla element tipini izole et.</p>
+  </header>
+
+  <!-- Filter butonları -->
+  <div class="flex flex-wrap gap-2 mb-3">
+    <span class="text-xs text-slate-400 mr-1 self-center">Vurgu:</span>
+    <button class="filter-btn active" data-filter="all">Tümü</button>
+    <button class="filter-btn" data-filter="alkali">Alkali</button>
+    <button class="filter-btn" data-filter="toprak">Toprak Alkali</button>
+    <button class="filter-btn" data-filter="gecis">Geçiş</button>
+    <button class="filter-btn" data-filter="ametal">Ametal</button>
+    <button class="filter-btn" data-filter="halojen">Halojen</button>
+    <button class="filter-btn" data-filter="soygaz">Soygaz</button>
+  </div>
+
+  <!-- Tablo + bilgi -->
+  <div class="grid lg:grid-cols-3 gap-4">
+    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700 overflow-x-auto">
+      <div id="pt" class="pt-grid min-w-[640px]"></div>
+      <p class="text-[10px] text-slate-500 mt-2">📌 TYT kapsamında ilk 4 periyot + soygazlar. Renkler element tipini gösterir.</p>
+    </div>
+
+    <div>
+      <div id="info-box" class="bg-slate-800 rounded-xl border-2 border-purple-500/40 p-4 sticky top-4">
+        <div class="text-xs uppercase tracking-wider text-purple-300 mb-1">📌 Element Detayı</div>
+        <div id="info-content">
+          <p class="text-slate-400 text-sm">Bir element üstüne tıkla — burada özellikleri açılacak.</p>
+        </div>
+      </div>
+
+      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
+        <strong class="text-purple-300 block mb-2">📊 Periyodik Trendler (TYT)</strong>
+        <ul class="space-y-1 list-disc list-inside text-slate-300">
+          <li><strong>Periyot (yatay)</strong> = elektron katmanı sayısı</li>
+          <li><strong>Grup (dikey)</strong> = değerlik elektronu sayısı</li>
+          <li>Soldan sağa: atom yarıçapı ↓, iyonlaşma enerjisi ↑, elektronegatiflik ↑</li>
+          <li>Yukarıdan aşağı: atom yarıçapı ↑, iyonlaşma enerjisi ↓</li>
+          <li>Metaller (sol) → ametaller (sağ) → soygazlar (en sağ 8A)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-6 text-xs text-slate-500">
+    📚 TYT Kimya · Atom ve Periyodik Sistem · 9 soru/8 yıl ⭐ EN SICAK KİMYA KONUSU
+  </div>
+</div>
+
+<script>
+// Element verisi: { sym, name, num, mass, grup, periyot, kat, valens, tip }
+// kat = 'metal'|'ametal'|'soygaz'|'yari-metal'|'gecis'|'alkali'|'toprak'|'halojen'
+// 18 sütun, 4 periyot + soygaz/alkali 5-6-7. periyot anahtar elementler
+const E = (sym, name, num, mass, grup, periyot, kat, valens) => ({sym, name, num, mass, grup, periyot, kat, valens});
+
+const elements = [
+  // Periyot 1
+  E('H', 'Hidrojen', 1, 1, '1A', 1, 'ametal', 1),
+  E('He', 'Helyum', 2, 4, '8A', 1, 'soygaz', 2),
+  // Periyot 2
+  E('Li', 'Lityum', 3, 7, '1A', 2, 'alkali', 1),
+  E('Be', 'Berilyum', 4, 9, '2A', 2, 'toprak', 2),
+  E('B', 'Bor', 5, 11, '3A', 2, 'yari-metal', 3),
+  E('C', 'Karbon', 6, 12, '4A', 2, 'ametal', 4),
+  E('N', 'Azot', 7, 14, '5A', 2, 'ametal', 5),
+  E('O', 'Oksijen', 8, 16, '6A', 2, 'ametal', 6),
+  E('F', 'Flor', 9, 19, '7A', 2, 'halojen', 7),
+  E('Ne', 'Neon', 10, 20, '8A', 2, 'soygaz', 8),
+  // Periyot 3
+  E('Na', 'Sodyum', 11, 23, '1A', 3, 'alkali', 1),
+  E('Mg', 'Magnezyum', 12, 24, '2A', 3, 'toprak', 2),
+  E('Al', 'Alüminyum', 13, 27, '3A', 3, 'metal', 3),
+  E('Si', 'Silisyum', 14, 28, '4A', 3, 'yari-metal', 4),
+  E('P', 'Fosfor', 15, 31, '5A', 3, 'ametal', 5),
+  E('S', 'Kükürt', 16, 32, '6A', 3, 'ametal', 6),
+  E('Cl', 'Klor', 17, 35.5, '7A', 3, 'halojen', 7),
+  E('Ar', 'Argon', 18, 40, '8A', 3, 'soygaz', 8),
+  // Periyot 4 (sadece kritik olanlar)
+  E('K', 'Potasyum', 19, 39, '1A', 4, 'alkali', 1),
+  E('Ca', 'Kalsiyum', 20, 40, '2A', 4, 'toprak', 2),
+  E('Fe', 'Demir', 26, 56, '8B', 4, 'gecis', 2),
+  E('Cu', 'Bakır', 29, 63.5, '1B', 4, 'gecis', 1),
+  E('Zn', 'Çinko', 30, 65, '2B', 4, 'gecis', 2),
+  E('Br', 'Brom', 35, 80, '7A', 4, 'halojen', 7),
+  E('Kr', 'Kripton', 36, 84, '8A', 4, 'soygaz', 8),
+  // Birkaç önemli daha
+  E('I', 'İyot', 53, 127, '7A', 5, 'halojen', 7),
+  E('Xe', 'Ksenon', 54, 131, '8A', 5, 'soygaz', 8),
+  E('Ag', 'Gümüş', 47, 108, '1B', 5, 'gecis', 1),
+  E('Au', 'Altın', 79, 197, '1B', 6, 'gecis', 1),
+];
+
+// Grup-periyot grid pozisyonu
+const GROUP_COL = { '1A':1, '2A':2, '3A':13, '4A':14, '5A':15, '6A':16, '7A':17, '8A':18, '1B':11, '2B':12, '8B':8 };
+
+function gridPosition(el) {
+  const col = GROUP_COL[el.grup] || (el.grup.endsWith('B') ? 8 : 1);
+  return { col, row: el.periyot };
+}
+
+function tipClass(kat) { return kat; }
+
+function render() {
+  const grid = document.getElementById('pt');
+  grid.innerHTML = '';
+  // 7 satır × 18 sütun grid pozisyon
+  const used = new Set();
+  for (const el of elements) {
+    const { col, row } = gridPosition(el);
+    used.add(`${row}-${col}`);
+    const cell = document.createElement('div');
+    cell.className = `el ${tipClass(el.kat)}`;
+    cell.style.gridColumn = col;
+    cell.style.gridRow = row;
+    cell.dataset.kat = el.kat;
+    cell.dataset.sym = el.sym;
+    cell.innerHTML = `
+      <span class="num">${el.num}</span>
+      <span class="sym">${el.sym}</span>
+      <span class="name">${el.name}</span>
+    `;
+    cell.addEventListener('click', () => showElement(el, cell));
+    cell.addEventListener('mouseenter', () => showElement(el, cell));
+    grid.appendChild(cell);
+  }
+}
+
+function showElement(el, cellEl) {
+  document.querySelectorAll('.el.active').forEach(c => c.classList.remove('active'));
+  cellEl.classList.add('active');
+  const proton = el.num;
+  const elektron = el.num; // nötr atom
+  const notron = Math.round(el.mass) - el.num;
+  const katmanlar = []; // 2, 8, 8, 2... e- dağılımı
+  const maxKat = [2, 8, 8, 18, 18, 32, 32];
+  let kalan = elektron;
+  for (const m of maxKat) {
+    if (kalan <= 0) break;
+    katmanlar.push(Math.min(m, kalan));
+    kalan -= m;
+  }
+
+  const kategoriAdi = {
+    'alkali': 'Alkali Metal (1A)',
+    'toprak': 'Toprak Alkali Metal (2A)',
+    'gecis': 'Geçiş Metali (B grupları)',
+    'metal': 'Metal',
+    'ametal': 'Ametal',
+    'halojen': 'Halojen (7A)',
+    'soygaz': 'Soygaz (8A) — kararlı',
+    'yari-metal': 'Yarı Metal (Metaloid)',
+  };
+
+  document.getElementById('info-content').innerHTML = `
+    <div class="text-center mb-3">
+      <div class="text-5xl font-mono font-bold ${el.kat === 'soygaz' ? 'text-purple-300' : el.kat === 'ametal' ? 'text-blue-300' : 'text-red-300'}">${el.sym}</div>
+      <div class="text-lg font-bold">${el.name}</div>
+      <div class="text-xs text-slate-400">${kategoriAdi[el.kat]}</div>
+    </div>
+    <div class="grid grid-cols-2 gap-2 text-xs">
+      <div class="bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Atom No</div>
+        <div class="text-lg font-bold text-amber-300">${el.num}</div>
+      </div>
+      <div class="bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Kütle</div>
+        <div class="text-lg font-bold text-amber-300">${el.mass}</div>
+      </div>
+      <div class="bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Proton</div>
+        <div class="text-lg font-bold text-red-300">${proton}</div>
+      </div>
+      <div class="bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Nötron</div>
+        <div class="text-lg font-bold text-blue-300">${notron}</div>
+      </div>
+      <div class="bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Elektron</div>
+        <div class="text-lg font-bold text-emerald-300">${elektron}</div>
+      </div>
+      <div class="bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Grup / Periyot</div>
+        <div class="text-lg font-bold text-purple-300">${el.grup} · ${el.periyot}</div>
+      </div>
+      <div class="col-span-2 bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Elektron Dizilimi (K-L-M-N)</div>
+        <div class="text-base font-mono font-bold text-yellow-300">${katmanlar.join(' · ')}</div>
+      </div>
+      <div class="col-span-2 bg-slate-900 rounded p-2">
+        <div class="text-slate-400">Değerlik Elektronu</div>
+        <div class="text-lg font-bold text-pink-300">${el.valens}</div>
+      </div>
+    </div>
+  `;
+}
+
+// Filter
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+    const f = btn.dataset.filter;
+    document.querySelectorAll('.el').forEach(c => {
+      c.classList.toggle('dim', f !== 'all' && c.dataset.kat !== f);
+    });
+  });
+});
+
+render();
+// İlk göster: Karbon
+const first = elements.find(e => e.sym === 'C');
+if (first) {
+  const cell = document.querySelector(`.el[data-sym="C"]`);
+  if (cell) showElement(first, cell);
+}
+</script>
+</body>
+</html>
