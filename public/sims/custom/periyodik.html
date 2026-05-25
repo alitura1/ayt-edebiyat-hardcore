@@ -3,267 +3,319 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Periyodik Tablo Mini · TYT Kimya</title>
+<title>Atom Kur · DENEY · TYT Kimya</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="../lib/sim-core.js"></script>
 <style>
   body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
-  .pt-grid {
-    display: grid;
-    grid-template-columns: repeat(18, minmax(0, 1fr));
-    gap: 2px;
-  }
-  .el {
-    aspect-ratio: 1;
-    display: flex; flex-direction: column;
-    align-items: center; justify-content: center;
-    border-radius: 4px; cursor: pointer;
-    transition: all 0.15s;
-    font-weight: 700;
-    font-size: 0.7rem; line-height: 1;
-    padding: 2px;
-  }
-  .el:hover { transform: scale(1.15); z-index: 10; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
-  .el.active { outline: 3px solid #fbbf24; outline-offset: 1px; z-index: 20; }
-  .el .num { font-size: 0.55rem; opacity: 0.8; }
-  .el .sym { font-size: 1.1rem; font-weight: 800; }
-  .el .name { font-size: 0.5rem; opacity: 0.75; }
-  .empty { background: transparent; cursor: default; }
-  .empty:hover { transform: none; box-shadow: none; }
-  .metal { background: #b91c1c; color: #fee2e2; }
-  .ametal { background: #1d4ed8; color: #dbeafe; }
-  .soygaz { background: #7c3aed; color: #ede9fe; }
-  .yari-metal { background: #15803d; color: #dcfce7; }
-  .gecis { background: #c2410c; color: #fed7aa; }
-  .alkali { background: #be185d; color: #fce7f3; }
-  .toprak { background: #a16207; color: #fef3c7; }
-  .halojen { background: #0891b2; color: #cffafe; }
-  .filter-btn {
-    padding: 0.4rem 0.8rem; border-radius: 999px;
-    font-weight: 600; font-size: 0.75rem; transition: all 0.15s;
-    background: #1e293b; color: #94a3b8;
-  }
-  .filter-btn.active { background: #fbbf24; color: #0f172a; }
-  .dim { opacity: 0.25; }
+  svg { touch-action: none; }
+  .particle-tool { cursor: grab; transition: transform 0.15s; }
+  .particle-tool:hover { transform: scale(1.15); }
+  .yorunge { fill: none; stroke: #475569; stroke-width: 1; stroke-dasharray: 3 3; }
 </style>
 </head>
 <body class="min-h-screen p-4">
 <div class="max-w-6xl mx-auto">
 
-  <header class="mb-4">
-    <h1 class="text-3xl font-bold mb-1 text-purple-400">🧪 Periyodik Tablo Mini</h1>
-    <p class="text-sm text-slate-400">TYT kapsamı · 36 element · element üstüne gel/tıkla → proton/nötron/elektron/grup/periyot/değerlik. Vurgu butonlarıyla element tipini izole et.</p>
+  <header class="mb-3">
+    <h1 class="text-2xl md:text-3xl font-bold mb-1 text-purple-400">⚛ Atom İnşa Et · DENEY YAP</h1>
+    <p class="text-xs text-slate-400">Toolbox'tan proton (+), nötron, elektron (−) <strong>sürükle</strong>. Çekirdeğe nukleon, yörüngeye elektron koy. Element + iyon + izotop gerçek-zamanlı tanımlanır.</p>
   </header>
 
-  <!-- Filter butonları -->
-  <div class="flex flex-wrap gap-2 mb-3">
-    <span class="text-xs text-slate-400 mr-1 self-center">Vurgu:</span>
-    <button class="filter-btn active" data-filter="all">Tümü</button>
-    <button class="filter-btn" data-filter="alkali">Alkali</button>
-    <button class="filter-btn" data-filter="toprak">Toprak Alkali</button>
-    <button class="filter-btn" data-filter="gecis">Geçiş</button>
-    <button class="filter-btn" data-filter="ametal">Ametal</button>
-    <button class="filter-btn" data-filter="halojen">Halojen</button>
-    <button class="filter-btn" data-filter="soygaz">Soygaz</button>
-  </div>
+  <div class="grid lg:grid-cols-4 gap-3">
+    <!-- Atom alanı -->
+    <div class="lg:col-span-3 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <svg id="svg" viewBox="0 0 700 480" class="w-full h-auto">
+        <rect x="0" y="0" width="700" height="480" fill="#0f172a"/>
 
-  <!-- Tablo + bilgi -->
-  <div class="grid lg:grid-cols-3 gap-4">
-    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700 overflow-x-auto">
-      <div id="pt" class="pt-grid min-w-[640px]"></div>
-      <p class="text-[10px] text-slate-500 mt-2">📌 TYT kapsamında ilk 4 periyot + soygazlar. Renkler element tipini gösterir.</p>
+        <!-- Yörüngeler -->
+        <circle cx="350" cy="220" r="50"  class="yorunge"/>
+        <circle cx="350" cy="220" r="100" class="yorunge"/>
+        <circle cx="350" cy="220" r="150" class="yorunge"/>
+
+        <!-- Çekirdek alanı (drop zone) -->
+        <circle id="cekirdek-zone" cx="350" cy="220" r="35" fill="#7c3aed" fill-opacity="0.15" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3 3"/>
+        <text x="350" y="225" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold" pointer-events="none">ÇEKIRDEK</text>
+
+        <!-- Parçacıklar -->
+        <g id="particles"></g>
+
+        <!-- Toolbox -->
+        <g transform="translate(50, 420)">
+          <text fill="#94a3b8" font-size="10" font-weight="bold" y="-12">🧪 TOOLBOX (sürükle):</text>
+          <g class="particle-tool" data-type="proton" transform="translate(40, 5)">
+            <circle r="14" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+            <text y="4" text-anchor="middle" fill="white" font-size="14" font-weight="bold">+</text>
+            <text y="32" text-anchor="middle" fill="#fca5a5" font-size="10">Proton</text>
+          </g>
+          <g class="particle-tool" data-type="notron" transform="translate(110, 5)">
+            <circle r="14" fill="#64748b" stroke="#fff" stroke-width="1.5"/>
+            <text y="4" text-anchor="middle" fill="white" font-size="11" font-weight="bold">n</text>
+            <text y="32" text-anchor="middle" fill="#cbd5e1" font-size="10">Nötron</text>
+          </g>
+          <g class="particle-tool" data-type="elektron" transform="translate(180, 5)">
+            <circle r="9" fill="#3b82f6" stroke="#fff" stroke-width="1.5"/>
+            <text y="3" text-anchor="middle" fill="white" font-size="11" font-weight="bold">−</text>
+            <text y="28" text-anchor="middle" fill="#93c5fd" font-size="10">Elektron</text>
+          </g>
+          <text x="270" y="0" fill="#fbbf24" font-size="10">+ → çekirdeğe (proton/nötron)</text>
+          <text x="270" y="14" fill="#fbbf24" font-size="10">− → yörüngeye (elektron)</text>
+        </g>
+      </svg>
     </div>
 
-    <div>
-      <div id="info-box" class="bg-slate-800 rounded-xl border-2 border-purple-500/40 p-4 sticky top-4">
-        <div class="text-xs uppercase tracking-wider text-purple-300 mb-1">📌 Element Detayı</div>
-        <div id="info-content">
-          <p class="text-slate-400 text-sm">Bir element üstüne tıkla — burada özellikleri açılacak.</p>
-        </div>
+    <!-- Element paneli -->
+    <div class="space-y-3">
+      <div class="bg-purple-900/40 border-2 border-purple-500/50 rounded-xl p-3 text-center">
+        <div class="text-xs uppercase tracking-wider text-purple-300 mb-1">🔬 Element</div>
+        <div id="element-sym" class="text-5xl font-mono font-bold text-purple-200">?</div>
+        <div id="element-ad" class="text-sm font-bold mt-1">— · grupsuz</div>
+        <div id="iyon-text" class="text-xs text-amber-300 mt-1"></div>
       </div>
 
-      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
-        <strong class="text-purple-300 block mb-2">📊 Periyodik Trendler (TYT)</strong>
-        <ul class="space-y-1 list-disc list-inside text-slate-300">
-          <li><strong>Periyot (yatay)</strong> = elektron katmanı sayısı</li>
-          <li><strong>Grup (dikey)</strong> = değerlik elektronu sayısı</li>
-          <li>Soldan sağa: atom yarıçapı ↓, iyonlaşma enerjisi ↑, elektronegatiflik ↑</li>
-          <li>Yukarıdan aşağı: atom yarıçapı ↑, iyonlaşma enerjisi ↓</li>
-          <li>Metaller (sol) → ametaller (sağ) → soygazlar (en sağ 8A)</li>
-        </ul>
+      <div class="bg-slate-900 rounded-xl p-3 border border-slate-700 text-xs">
+        <h3 class="text-xs uppercase tracking-wider text-purple-300 font-bold mb-2">📊 Yapı Tablo</h3>
+        <table class="w-full">
+          <tr><td>Proton:</td><td id="t-proton" class="text-right font-bold text-red-300">0</td></tr>
+          <tr><td>Nötron:</td><td id="t-notron" class="text-right font-bold text-slate-300">0</td></tr>
+          <tr><td>Elektron:</td><td id="t-elektron" class="text-right font-bold text-blue-300">0</td></tr>
+          <tr class="border-t border-slate-700"><td>Atom No:</td><td id="t-atomno" class="text-right font-bold text-amber-300">0</td></tr>
+          <tr><td>Kütle:</td><td id="t-kutle" class="text-right font-bold text-amber-300">0</td></tr>
+          <tr><td>Yük:</td><td id="t-yuk" class="text-right font-bold text-purple-300">0</td></tr>
+          <tr><td>Grup:</td><td id="t-grup" class="text-right font-bold text-pink-300">—</td></tr>
+          <tr><td>Periyot:</td><td id="t-periyot" class="text-right font-bold text-pink-300">—</td></tr>
+          <tr><td>Değerlik:</td><td id="t-valens" class="text-right font-bold text-amber-300">—</td></tr>
+        </table>
+        <button id="clear" class="w-full mt-2 py-1 bg-red-700 hover:bg-red-600 rounded text-xs font-bold">🗑 Atomu Boşalt</button>
       </div>
+
+      <div id="hyp-container"></div>
     </div>
   </div>
 
-  <div class="text-center mt-6 text-xs text-slate-500">
-    📚 TYT Kimya · Atom ve Periyodik Sistem · 9 soru/8 yıl ⭐ EN SICAK KİMYA KONUSU
+  <div class="mt-4 bg-purple-500/10 border border-purple-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-purple-300">🧪 İlk 20 Element:</strong>
+    H (1) · He (2) · Li (3) · Be (4) · B (5) · C (6) · N (7) · O (8) · F (9) · Ne (10) · Na (11) · Mg (12) · Al (13) · Si (14) · P (15) · S (16) · Cl (17) · Ar (18) · K (19) · Ca (20).
+    <br><strong class="text-amber-300">Kural:</strong> Proton sayısı = atom no = element ID. Nötron değişirse izotop. Elektron eksikse + iyon, fazlaysa − iyon.
   </div>
+
+  <div class="text-center mt-3 text-xs text-slate-500">📚 TYT Kimya · Atom ve Periyodik · 9 soru/8 yıl ⭐</div>
 </div>
 
 <script>
-// Element verisi: { sym, name, num, mass, grup, periyot, kat, valens, tip }
-// kat = 'metal'|'ametal'|'soygaz'|'yari-metal'|'gecis'|'alkali'|'toprak'|'halojen'
-// 18 sütun, 4 periyot + soygaz/alkali 5-6-7. periyot anahtar elementler
-const E = (sym, name, num, mass, grup, periyot, kat, valens) => ({sym, name, num, mass, grup, periyot, kat, valens});
+const svg = document.getElementById('svg');
+const particlesGroup = document.getElementById('particles');
 
-const elements = [
-  // Periyot 1
-  E('H', 'Hidrojen', 1, 1, '1A', 1, 'ametal', 1),
-  E('He', 'Helyum', 2, 4, '8A', 1, 'soygaz', 2),
-  // Periyot 2
-  E('Li', 'Lityum', 3, 7, '1A', 2, 'alkali', 1),
-  E('Be', 'Berilyum', 4, 9, '2A', 2, 'toprak', 2),
-  E('B', 'Bor', 5, 11, '3A', 2, 'yari-metal', 3),
-  E('C', 'Karbon', 6, 12, '4A', 2, 'ametal', 4),
-  E('N', 'Azot', 7, 14, '5A', 2, 'ametal', 5),
-  E('O', 'Oksijen', 8, 16, '6A', 2, 'ametal', 6),
-  E('F', 'Flor', 9, 19, '7A', 2, 'halojen', 7),
-  E('Ne', 'Neon', 10, 20, '8A', 2, 'soygaz', 8),
-  // Periyot 3
-  E('Na', 'Sodyum', 11, 23, '1A', 3, 'alkali', 1),
-  E('Mg', 'Magnezyum', 12, 24, '2A', 3, 'toprak', 2),
-  E('Al', 'Alüminyum', 13, 27, '3A', 3, 'metal', 3),
-  E('Si', 'Silisyum', 14, 28, '4A', 3, 'yari-metal', 4),
-  E('P', 'Fosfor', 15, 31, '5A', 3, 'ametal', 5),
-  E('S', 'Kükürt', 16, 32, '6A', 3, 'ametal', 6),
-  E('Cl', 'Klor', 17, 35.5, '7A', 3, 'halojen', 7),
-  E('Ar', 'Argon', 18, 40, '8A', 3, 'soygaz', 8),
-  // Periyot 4 (sadece kritik olanlar)
-  E('K', 'Potasyum', 19, 39, '1A', 4, 'alkali', 1),
-  E('Ca', 'Kalsiyum', 20, 40, '2A', 4, 'toprak', 2),
-  E('Fe', 'Demir', 26, 56, '8B', 4, 'gecis', 2),
-  E('Cu', 'Bakır', 29, 63.5, '1B', 4, 'gecis', 1),
-  E('Zn', 'Çinko', 30, 65, '2B', 4, 'gecis', 2),
-  E('Br', 'Brom', 35, 80, '7A', 4, 'halojen', 7),
-  E('Kr', 'Kripton', 36, 84, '8A', 4, 'soygaz', 8),
-  // Birkaç önemli daha
-  E('I', 'İyot', 53, 127, '7A', 5, 'halojen', 7),
-  E('Xe', 'Ksenon', 54, 131, '8A', 5, 'soygaz', 8),
-  E('Ag', 'Gümüş', 47, 108, '1B', 5, 'gecis', 1),
-  E('Au', 'Altın', 79, 197, '1B', 6, 'gecis', 1),
+let particles = []; // {id, type, x, y, target}
+let pid = 0;
+
+const ELEMENTLER = [
+  null, // 0
+  { sym: 'H', ad: 'Hidrojen', grup: '1A', periyot: 1, valens: 1 },
+  { sym: 'He', ad: 'Helyum', grup: '8A', periyot: 1, valens: 2 },
+  { sym: 'Li', ad: 'Lityum', grup: '1A', periyot: 2, valens: 1 },
+  { sym: 'Be', ad: 'Berilyum', grup: '2A', periyot: 2, valens: 2 },
+  { sym: 'B', ad: 'Bor', grup: '3A', periyot: 2, valens: 3 },
+  { sym: 'C', ad: 'Karbon', grup: '4A', periyot: 2, valens: 4 },
+  { sym: 'N', ad: 'Azot', grup: '5A', periyot: 2, valens: 5 },
+  { sym: 'O', ad: 'Oksijen', grup: '6A', periyot: 2, valens: 6 },
+  { sym: 'F', ad: 'Flor', grup: '7A', periyot: 2, valens: 7 },
+  { sym: 'Ne', ad: 'Neon', grup: '8A', periyot: 2, valens: 8 },
+  { sym: 'Na', ad: 'Sodyum', grup: '1A', periyot: 3, valens: 1 },
+  { sym: 'Mg', ad: 'Magnezyum', grup: '2A', periyot: 3, valens: 2 },
+  { sym: 'Al', ad: 'Alüminyum', grup: '3A', periyot: 3, valens: 3 },
+  { sym: 'Si', ad: 'Silisyum', grup: '4A', periyot: 3, valens: 4 },
+  { sym: 'P', ad: 'Fosfor', grup: '5A', periyot: 3, valens: 5 },
+  { sym: 'S', ad: 'Kükürt', grup: '6A', periyot: 3, valens: 6 },
+  { sym: 'Cl', ad: 'Klor', grup: '7A', periyot: 3, valens: 7 },
+  { sym: 'Ar', ad: 'Argon', grup: '8A', periyot: 3, valens: 8 },
+  { sym: 'K', ad: 'Potasyum', grup: '1A', periyot: 4, valens: 1 },
+  { sym: 'Ca', ad: 'Kalsiyum', grup: '2A', periyot: 4, valens: 2 },
 ];
 
-// Grup-periyot grid pozisyonu
-const GROUP_COL = { '1A':1, '2A':2, '3A':13, '4A':14, '5A':15, '6A':16, '7A':17, '8A':18, '1B':11, '2B':12, '8B':8 };
+// Çekirdek + yörünge yerleşimi
+const center = { x: 350, y: 220 };
+const yorungeR = [50, 100, 150]; // 3 katman
+const cekirdekR = 28;
 
-function gridPosition(el) {
-  const col = GROUP_COL[el.grup] || (el.grup.endsWith('B') ? 8 : 1);
-  return { col, row: el.periyot };
+function targetPositionForParticle(p, idx, total) {
+  if (p.target === 'cekirdek') {
+    // Çekirdek içinde sıkışık paket
+    const angle = (idx / total) * Math.PI * 2;
+    const r = total > 1 ? cekirdekR * 0.55 : 0;
+    return { x: center.x + Math.cos(angle) * r, y: center.y + Math.sin(angle) * r };
+  } else {
+    // Yörünge
+    const elektronlar = particles.filter(x => x.type === 'elektron');
+    const meIdx = elektronlar.findIndex(x => x.id === p.id);
+    // Yörünge dizilimi: 2, 8, 8 (TYT seviyesi)
+    let yIdx = 0, base = meIdx;
+    if (base >= 2) { yIdx = 1; base -= 2; }
+    if (base >= 8) { yIdx = 2; base -= 8; }
+    if (yIdx > 2) yIdx = 2;
+    const yMax = [2, 8, 8][yIdx];
+    const r = yorungeR[yIdx];
+    const angle = (base / yMax) * Math.PI * 2;
+    return { x: center.x + Math.cos(angle) * r, y: center.y + Math.sin(angle) * r };
+  }
 }
-
-function tipClass(kat) { return kat; }
 
 function render() {
-  const grid = document.getElementById('pt');
-  grid.innerHTML = '';
-  // 7 satır × 18 sütun grid pozisyon
-  const used = new Set();
-  for (const el of elements) {
-    const { col, row } = gridPosition(el);
-    used.add(`${row}-${col}`);
-    const cell = document.createElement('div');
-    cell.className = `el ${tipClass(el.kat)}`;
-    cell.style.gridColumn = col;
-    cell.style.gridRow = row;
-    cell.dataset.kat = el.kat;
-    cell.dataset.sym = el.sym;
-    cell.innerHTML = `
-      <span class="num">${el.num}</span>
-      <span class="sym">${el.sym}</span>
-      <span class="name">${el.name}</span>
-    `;
-    cell.addEventListener('click', () => showElement(el, cell));
-    cell.addEventListener('mouseenter', () => showElement(el, cell));
-    grid.appendChild(cell);
-  }
-}
-
-function showElement(el, cellEl) {
-  document.querySelectorAll('.el.active').forEach(c => c.classList.remove('active'));
-  cellEl.classList.add('active');
-  const proton = el.num;
-  const elektron = el.num; // nötr atom
-  const notron = Math.round(el.mass) - el.num;
-  const katmanlar = []; // 2, 8, 8, 2... e- dağılımı
-  const maxKat = [2, 8, 8, 18, 18, 32, 32];
-  let kalan = elektron;
-  for (const m of maxKat) {
-    if (kalan <= 0) break;
-    katmanlar.push(Math.min(m, kalan));
-    kalan -= m;
-  }
-
-  const kategoriAdi = {
-    'alkali': 'Alkali Metal (1A)',
-    'toprak': 'Toprak Alkali Metal (2A)',
-    'gecis': 'Geçiş Metali (B grupları)',
-    'metal': 'Metal',
-    'ametal': 'Ametal',
-    'halojen': 'Halojen (7A)',
-    'soygaz': 'Soygaz (8A) — kararlı',
-    'yari-metal': 'Yarı Metal (Metaloid)',
-  };
-
-  document.getElementById('info-content').innerHTML = `
-    <div class="text-center mb-3">
-      <div class="text-5xl font-mono font-bold ${el.kat === 'soygaz' ? 'text-purple-300' : el.kat === 'ametal' ? 'text-blue-300' : 'text-red-300'}">${el.sym}</div>
-      <div class="text-lg font-bold">${el.name}</div>
-      <div class="text-xs text-slate-400">${kategoriAdi[el.kat]}</div>
-    </div>
-    <div class="grid grid-cols-2 gap-2 text-xs">
-      <div class="bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Atom No</div>
-        <div class="text-lg font-bold text-amber-300">${el.num}</div>
-      </div>
-      <div class="bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Kütle</div>
-        <div class="text-lg font-bold text-amber-300">${el.mass}</div>
-      </div>
-      <div class="bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Proton</div>
-        <div class="text-lg font-bold text-red-300">${proton}</div>
-      </div>
-      <div class="bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Nötron</div>
-        <div class="text-lg font-bold text-blue-300">${notron}</div>
-      </div>
-      <div class="bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Elektron</div>
-        <div class="text-lg font-bold text-emerald-300">${elektron}</div>
-      </div>
-      <div class="bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Grup / Periyot</div>
-        <div class="text-lg font-bold text-purple-300">${el.grup} · ${el.periyot}</div>
-      </div>
-      <div class="col-span-2 bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Elektron Dizilimi (K-L-M-N)</div>
-        <div class="text-base font-mono font-bold text-yellow-300">${katmanlar.join(' · ')}</div>
-      </div>
-      <div class="col-span-2 bg-slate-900 rounded p-2">
-        <div class="text-slate-400">Değerlik Elektronu</div>
-        <div class="text-lg font-bold text-pink-300">${el.valens}</div>
-      </div>
-    </div>
-  `;
-}
-
-// Filter
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
-    const f = btn.dataset.filter;
-    document.querySelectorAll('.el').forEach(c => {
-      c.classList.toggle('dim', f !== 'all' && c.dataset.kat !== f);
-    });
+  particlesGroup.innerHTML = '';
+  const cekirdek = particles.filter(p => p.target === 'cekirdek');
+  cekirdek.forEach((p, i) => {
+    const pos = targetPositionForParticle(p, i, cekirdek.length);
+    p.x = pos.x; p.y = pos.y;
   });
+  const elektronlar = particles.filter(p => p.target === 'yorunge');
+  elektronlar.forEach((p, i) => {
+    const pos = targetPositionForParticle(p, i, elektronlar.length);
+    p.x = pos.x; p.y = pos.y;
+  });
+  for (const p of particles) {
+    if (p.type === 'proton') {
+      particlesGroup.innerHTML += `<circle cx="${p.x}" cy="${p.y}" r="9" fill="#ef4444" stroke="#fff" stroke-width="1"/><text x="${p.x}" y="${p.y + 3}" text-anchor="middle" fill="white" font-size="10" font-weight="bold" pointer-events="none">+</text>`;
+    } else if (p.type === 'notron') {
+      particlesGroup.innerHTML += `<circle cx="${p.x}" cy="${p.y}" r="9" fill="#64748b" stroke="#fff" stroke-width="1"/><text x="${p.x}" y="${p.y + 3}" text-anchor="middle" fill="white" font-size="9" font-weight="bold" pointer-events="none">n</text>`;
+    } else {
+      particlesGroup.innerHTML += `<circle cx="${p.x}" cy="${p.y}" r="7" fill="#3b82f6" stroke="#fff" stroke-width="1"/><text x="${p.x}" y="${p.y + 3}" text-anchor="middle" fill="white" font-size="9" font-weight="bold" pointer-events="none">−</text>`;
+    }
+  }
+  updateStats();
+}
+
+function updateStats() {
+  const p = particles.filter(x => x.type === 'proton').length;
+  const n = particles.filter(x => x.type === 'notron').length;
+  const e = particles.filter(x => x.type === 'elektron').length;
+  document.getElementById('t-proton').textContent = p;
+  document.getElementById('t-notron').textContent = n;
+  document.getElementById('t-elektron').textContent = e;
+  document.getElementById('t-atomno').textContent = p;
+  document.getElementById('t-kutle').textContent = p + n;
+  const yuk = p - e;
+  document.getElementById('t-yuk').textContent = yuk > 0 ? '+' + yuk : yuk;
+
+  const el = ELEMENTLER[p];
+  if (el) {
+    document.getElementById('element-sym').textContent = el.sym;
+    let adText = `${el.ad} · ${el.grup} grubu · ${el.periyot}. periyot`;
+    document.getElementById('element-ad').textContent = adText;
+    document.getElementById('t-grup').textContent = el.grup;
+    document.getElementById('t-periyot').textContent = el.periyot;
+    document.getElementById('t-valens').textContent = el.valens;
+
+    let iyonText = '';
+    if (yuk !== 0) {
+      const ion = `${el.sym}${yuk > 0 ? '⁺'.repeat(yuk) : '⁻'.repeat(Math.abs(yuk))}`;
+      iyonText = `İyon: <strong>${ion}</strong> (${yuk > 0 ? 'katyon' : 'anyon'})`;
+    }
+    // İzotop?
+    const expectedN = p; // basit yaklaşım: ilk 20 element için n ≈ p
+    if (n !== expectedN && p > 0) {
+      iyonText += (iyonText ? ' · ' : '') + `İzotop (kütle ${p+n})`;
+    }
+    document.getElementById('iyon-text').innerHTML = iyonText;
+  } else if (p === 0) {
+    document.getElementById('element-sym').textContent = '?';
+    document.getElementById('element-ad').textContent = '— · proton koy';
+    document.getElementById('iyon-text').textContent = '';
+    document.getElementById('t-grup').textContent = '—';
+    document.getElementById('t-periyot').textContent = '—';
+    document.getElementById('t-valens').textContent = '—';
+  } else {
+    document.getElementById('element-sym').textContent = `(${p}p)`;
+    document.getElementById('element-ad').textContent = `Element ${p} · TYT dışı`;
+  }
+}
+
+// Drag-drop
+let dragType = null;
+document.querySelectorAll('.particle-tool').forEach(item => {
+  function start(e) { dragType = item.dataset.type; e.preventDefault(); }
+  item.addEventListener('mousedown', start);
+  item.addEventListener('touchstart', start, { passive: false });
+});
+
+window.addEventListener('mouseup', handleDrop);
+window.addEventListener('touchend', handleDrop);
+
+function handleDrop(e) {
+  if (!dragType) return;
+  const evt = e.changedTouches ? e.changedTouches[0] : e;
+  const pt = svg.createSVGPoint();
+  pt.x = evt.clientX; pt.y = evt.clientY;
+  const ctm = svg.getScreenCTM();
+  if (ctm) {
+    const local = pt.matrixTransform(ctm.inverse());
+    const distToCenter = Math.sqrt((local.x - center.x)**2 + (local.y - center.y)**2);
+
+    // Çekirdek mi yörünge mi?
+    let target;
+    if (dragType === 'elektron') {
+      // Elektron sadece yörüngeye
+      if (distToCenter < cekirdekR + 5) {
+        // Yörüngeye it
+        target = 'yorunge';
+      } else {
+        target = 'yorunge';
+      }
+    } else {
+      // Proton/nötron sadece çekirdeğe
+      target = 'cekirdek';
+    }
+
+    particles.push({ id: pid++, type: dragType, target, x: 0, y: 0 });
+    render();
+  }
+  dragType = null;
+}
+
+// Clear
+document.getElementById('clear').onclick = () => { particles = []; render(); };
+
+// Çekirdek/yörüngeye tıklayarak parçacık çıkar
+svg.addEventListener('click', e => {
+  const pt = svg.createSVGPoint();
+  pt.x = e.clientX; pt.y = e.clientY;
+  const ctm = svg.getScreenCTM();
+  if (!ctm) return;
+  const local = pt.matrixTransform(ctm.inverse());
+  // En yakın parçacığı bul
+  let closest = null, minD = 14;
+  for (const p of particles) {
+    const d = Math.sqrt((p.x - local.x)**2 + (p.y - local.y)**2);
+    if (d < minD) { minD = d; closest = p; }
+  }
+  if (closest) {
+    particles = particles.filter(x => x !== closest);
+    render();
+  }
+});
+
+// Hipotez
+SimCore.hypothesis(document.getElementById('hyp-container'), {
+  soru: '🤔 8 proton + 8 nötron + 10 elektron koysam ne olur?',
+  secenekler: [
+    { id: 'oksijen-anyon', label: '🔵 O²⁻ (Oksijen anyonu)' },
+    { id: 'oksijen-katyon', label: '🔴 O²⁺ (Oksijen katyonu)' },
+    { id: 'flor-iyonu', label: '🟢 F⁻ (Flor iyonu)' },
+    { id: 'noluyo-bilmiyorum', label: '😐 Bilmiyorum, dene' },
+  ],
+  onDeney: () => {
+    particles = [];
+    for (let i = 0; i < 8; i++) particles.push({ id: pid++, type: 'proton', target: 'cekirdek' });
+    for (let i = 0; i < 8; i++) particles.push({ id: pid++, type: 'notron', target: 'cekirdek' });
+    for (let i = 0; i < 10; i++) particles.push({ id: pid++, type: 'elektron', target: 'yorunge' });
+    render();
+  },
+  onKontrol: (tahmin) => ({
+    correct: tahmin === 'oksijen-anyon',
+    sonuc: '8 proton = Oksijen (atom no 8). 10 elektron - 8 proton = -2 yük. Sonuç: <strong>O²⁻</strong> (oksijen anyonu, oksit iyonu). NaCl gibi bileşiklerde anyon olarak yer alır.',
+  }),
 });
 
 render();
-// İlk göster: Karbon
-const first = elements.find(e => e.sym === 'C');
-if (first) {
-  const cell = document.querySelector(`.el[data-sym="C"]`);
-  if (cell) showElement(first, cell);
-}
 </script>
 </body>
 </html>

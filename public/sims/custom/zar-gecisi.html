@@ -3,247 +3,375 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Hücre Zar Geçişi · TYT Biyoloji</title>
+<title>Hücre Zar Geçişi · DENEY · TYT Biyoloji</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="../lib/sim-core.js"></script>
 <style>
   body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
-  .mode-btn { padding: 0.5rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.8rem; transition: all 0.15s; }
-  .mode-btn.active { background: #10b981; color: white; box-shadow: 0 4px 12px rgba(16,185,129,0.4); }
-  .mode-btn:not(.active) { background: #1e293b; color: #94a3b8; }
-  .mol { transition: transform 0.05s linear; }
+  svg { touch-action: none; }
+  .mol { cursor: grab; transition: transform 0.05s; }
+  .mol:active { cursor: grabbing; }
+  .toolbox-item { cursor: grab; transition: all 0.15s; }
+  .toolbox-item:hover { transform: scale(1.15); }
 </style>
 </head>
 <body class="min-h-screen p-4">
-<div class="max-w-5xl mx-auto">
+<div class="max-w-6xl mx-auto">
 
-  <header class="mb-4">
-    <h1 class="text-3xl font-bold mb-1 text-emerald-400">💧 Hücre Zar Geçişi</h1>
-    <p class="text-sm text-slate-400">Yarı geçirgen zar · su (mavi nokta) ve madde (kırmızı nokta) hareketi · 3 senaryoyu kıyasla.</p>
+  <header class="mb-3">
+    <h1 class="text-2xl md:text-3xl font-bold mb-1 text-emerald-400">💧 Hücre Zar Geçişi · DENEY YAP</h1>
+    <p class="text-xs text-slate-400">Toolbox'tan tuz tanesi <strong>sürükle</strong>, hücre içine veya dışına bırak · molekül hareketleri canlı · osmoz/difüzyon real-time.</p>
   </header>
 
-  <!-- Mode toggle -->
-  <div class="flex flex-wrap gap-2 mb-4">
-    <span class="text-sm text-slate-400 mr-1 self-center">Ortam:</span>
-    <button id="mode-hiper" class="mode-btn active">🔴 Hipertonik (dış yoğun)</button>
-    <button id="mode-izo" class="mode-btn">🟡 İzotonik (denge)</button>
-    <button id="mode-hipo" class="mode-btn">🔵 Hipotonik (dış seyrek)</button>
-    <span class="text-sm text-slate-400 mr-1 self-center ml-4">Taşıma:</span>
-    <button id="mode-pasif" class="mode-btn active">⬅️➡️ Pasif (ATP yok)</button>
-    <button id="mode-aktif" class="mode-btn">⚡ Aktif (ATP)</button>
-  </div>
+  <div class="grid lg:grid-cols-4 gap-3">
+    <!-- Ana deney alanı -->
+    <div class="lg:col-span-3 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <svg id="svg" viewBox="0 0 700 450" class="w-full h-auto">
+        <rect x="0" y="0" width="700" height="450" fill="#0f172a"/>
 
-  <div class="grid lg:grid-cols-3 gap-4">
-    <!-- Hücre SVG -->
-    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700">
-      <svg viewBox="0 0 600 360" id="svg" class="w-full h-auto">
-        <!-- Dış ortam zemin -->
-        <rect x="0" y="0" width="600" height="360" fill="#0f172a" />
-
-        <!-- Hücre dışı etiketi -->
-        <text x="120" y="30" text-anchor="middle" fill="#94a3b8" font-size="14" font-weight="bold">HÜCRE DIŞI ORTAM</text>
+        <!-- Hücre dışı etiket -->
+        <text x="50" y="30" fill="#94a3b8" font-size="13" font-weight="bold">⬅ HÜCRE DIŞI</text>
+        <text x="500" y="30" fill="#22d3ee" font-size="13" font-weight="bold">HÜCRE İÇİ ➡</text>
 
         <!-- Hücre (yuvarlak) -->
-        <circle id="cell" cx="380" cy="180" r="110" fill="#0e7490" fill-opacity="0.3" stroke="#22d3ee" stroke-width="3" />
-        <text id="cell-label" x="380" y="290" text-anchor="middle" fill="#22d3ee" font-size="13" font-weight="bold">HÜCRE İÇİ</text>
+        <circle id="cell" cx="450" cy="225" r="130" fill="#0e7490" fill-opacity="0.25" stroke="#22d3ee" stroke-width="3"/>
+        <text id="cell-stats" x="450" y="230" text-anchor="middle" fill="#22d3ee" font-size="11" font-weight="bold"></text>
 
-        <!-- Su ve madde molekülleri (JS render) -->
+        <!-- Zar (dashed) -->
+        <circle cx="450" cy="225" r="133" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="4 4"/>
+
+        <!-- Moleküller -->
         <g id="molecules"></g>
 
-        <!-- Zar indicator: hücre etrafında ince çizgili çember -->
-        <circle cx="380" cy="180" r="113" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="4 4" />
-
-        <!-- Akış ok'u (mod'a göre) -->
-        <g id="flow-arrow" style="display:none">
-          <defs>
-            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-              <polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa" />
-            </marker>
-          </defs>
-          <line id="arrow-line" x1="100" y1="180" x2="280" y2="180" stroke="#60a5fa" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#arrowhead)" />
+        <!-- Toolbox (drag kaynağı) -->
+        <g transform="translate(20, 380)">
+          <text fill="#94a3b8" font-size="10" font-weight="bold" y="-5">🧪 TOOLBOX (sürükle):</text>
+          <g class="toolbox-item" data-type="tuz" transform="translate(20, 15)">
+            <circle r="10" fill="#f87171" stroke="#fff" stroke-width="1.5"/>
+            <text y="3" text-anchor="middle" fill="white" font-size="9" font-weight="bold">Na</text>
+            <text y="25" text-anchor="middle" fill="#fca5a5" font-size="9">Tuz</text>
+          </g>
+          <g class="toolbox-item" data-type="su" transform="translate(80, 15)">
+            <circle r="7" fill="#60a5fa" stroke="#fff" stroke-width="1.5"/>
+            <text y="3" text-anchor="middle" fill="white" font-size="8" font-weight="bold">H₂O</text>
+            <text y="25" text-anchor="middle" fill="#93c5fd" font-size="9">Su</text>
+          </g>
+          <g class="toolbox-item" data-type="glikoz" transform="translate(140, 15)">
+            <circle r="11" fill="#a78bfa" stroke="#fff" stroke-width="1.5"/>
+            <text y="3" text-anchor="middle" fill="white" font-size="8" font-weight="bold">Glu</text>
+            <text y="25" text-anchor="middle" fill="#c4b5fd" font-size="9">Glikoz</text>
+          </g>
+          <text x="220" y="20" fill="#fbbf24" font-size="10">← sürükle moleküle, hücre dışına/içine at</text>
         </g>
       </svg>
+
+      <div class="mt-2 text-xs text-slate-400 flex flex-wrap gap-3">
+        <span>🔴 Tuz: zarı geçemez (büyük)</span>
+        <span>🔵 Su: zarı geçer (küçük)</span>
+        <span>🟣 Glikoz: aktif taşıma ile geçer (ATP)</span>
+      </div>
     </div>
 
-    <!-- Info paneli -->
-    <div>
-      <div id="info-box" class="bg-emerald-900/30 border-2 border-emerald-500/40 rounded-xl p-4 sticky top-4">
-        <div class="text-xs uppercase tracking-wider text-emerald-300 mb-2">📌 Şu an oluyor</div>
-        <h3 id="info-title" class="text-lg font-bold mb-2 text-emerald-200">Hipertonik ortam</h3>
-        <p id="info-text" class="text-xs leading-relaxed text-slate-200">
-          Hücre dışındaki çözünen madde daha yoğun → su <strong>hücreden DIŞARI</strong> çıkar (osmoz) → hücre <strong>büzülür (plazmoliz)</strong>.
-          <br><br><strong>Örnek:</strong> Salatalığa tuz attığında suyu çekilir. Kan hücresi tuzlu çözeltide büzüşür.
-        </p>
-        <div id="info-result" class="mt-3 text-xs font-bold text-amber-300">🔴 SONUÇ: Hücre BÜZÜLÜR</div>
+    <!-- Kontrol paneli -->
+    <div class="space-y-3">
+      <!-- Slider'lar -->
+      <div class="bg-slate-900 rounded-xl p-3 border border-slate-700">
+        <h3 class="text-xs uppercase tracking-wider text-emerald-300 font-bold mb-2">⚙ Kontroller</h3>
+        <div id="sliders"></div>
+        <button id="reset" class="w-full mt-2 py-1.5 bg-slate-700 hover:bg-slate-600 rounded text-xs font-bold">↺ Sıfırla</button>
       </div>
 
-      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
-        <strong class="text-emerald-300 block mb-2">📊 Pasif vs Aktif Taşıma</strong>
-        <table class="w-full text-[11px]">
-          <tr class="border-b border-slate-700">
-            <th class="text-left py-1">Özellik</th>
-            <th class="text-center">Pasif</th>
-            <th class="text-center">Aktif</th>
-          </tr>
-          <tr><td class="py-1">Yön</td><td class="text-center">Yoğun→Az</td><td class="text-center">Az→Yoğun</td></tr>
-          <tr><td class="py-1">ATP</td><td class="text-center text-red-400">Hayır</td><td class="text-center text-green-400">Evet</td></tr>
-          <tr><td class="py-1">Örnek</td><td class="text-center">Osmoz<br>Difüzyon</td><td class="text-center">Na-K<br>pompası</td></tr>
-        </table>
+      <!-- Anlık durum -->
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-xl p-3">
+        <h3 class="text-xs uppercase tracking-wider text-emerald-300 font-bold mb-2">📊 Anlık Durum</h3>
+        <div class="text-xs space-y-1">
+          <div>Tuz: <strong id="tuz-dis" class="text-red-300">0</strong> dış · <strong id="tuz-ic" class="text-red-300">0</strong> iç</div>
+          <div>Su: <strong id="su-dis" class="text-blue-300">0</strong> dış · <strong id="su-ic" class="text-blue-300">0</strong> iç</div>
+          <div>Tonisite: <strong id="tonisite" class="text-amber-300">izotonik</strong></div>
+          <div>Hücre durumu: <strong id="durum">normal</strong></div>
+        </div>
       </div>
+
+      <!-- Hipotez kutusu -->
+      <div id="hyp-container"></div>
     </div>
   </div>
 
   <div class="mt-4 bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3 text-xs">
-    <strong class="text-emerald-300">💡 ÖSYM Klasik Soru:</strong><br>
-    "Bir hücre %20 tuz çözeltisine atılıyor. Hücre büzülür / şişer / değişmez?" → cevap: <strong>büzülür</strong> (hipertonik ortam = su dışarı çıkar).
-    Tatlı suya atılırsan: <strong>şişer</strong> (hipotonik = su içeri girer, fazla şişerse patlar/sitoliz).
+    <strong class="text-emerald-300">🧪 DENEY ÖNERİSİ:</strong>
+    1) Hücre içine 5-10 tuz tanesi koy · 2) Dışına su molekülleri koy · 3) "Aktif Taşıma" kapalıyken zarın küçük geçirgenliği ile su hücreye akacak (osmoz, hücre şişer). 4) Zar gözeneklerini büyüt (slider) → tuz da geçer · 5) Aktif taşıma aç → glikoz az yoğundan yoğuna pompalanır (ATP).
   </div>
 
-  <div class="text-center mt-4 text-xs text-slate-500">
-    📚 TYT Biyoloji · Hücre · 9 soru/8 yıl ⭐ EN SICAK BİYOLOJİ
-  </div>
+  <div class="text-center mt-3 text-xs text-slate-500">📚 TYT Biyoloji · Hücre · 9 soru/8 yıl ⭐</div>
 </div>
 
 <script>
 const svg = document.getElementById('svg');
-const cell = document.getElementById('cell');
-const cellLabel = document.getElementById('cell-label');
-const flowArrow = document.getElementById('flow-arrow');
-const arrowLine = document.getElementById('arrow-line');
 const molGroup = document.getElementById('molecules');
+const cell = document.getElementById('cell');
+const cellStats = document.getElementById('cell-stats');
 
-let mode = 'hiper';
-let transport = 'pasif';
+let molecules = []; // {id, type, x, y, vx, vy}
+let molId = 0;
 
-// Mod metaları
-const META = {
-  hiper: {
-    title: 'Hipertonik ortam',
-    text: 'Hücre dışındaki çözünen madde daha yoğun → su <strong>hücreden DIŞARI</strong> çıkar (osmoz) → hücre <strong>büzülür (plazmoliz)</strong>.<br><br><strong>Örnek:</strong> Salatalığa tuz attığında suyu çekilir. Kan hücresi tuzlu çözeltide büzüşür.',
-    result: '🔴 SONUÇ: Hücre BÜZÜLÜR',
-    cellRadius: 75,
-    cellColor: '#0e7490',
-    arrowFrom: [480, 180], arrowTo: [560, 180],
-    outerMol: 50, innerMol: 8, // dışarıda çok madde
-  },
-  izo: {
-    title: 'İzotonik ortam',
-    text: 'Hücre içi ve dışı yoğunluk EŞİT → su iki yönde de eşit miktarda hareket eder (net değişim YOK) → hücre <strong>aynı kalır</strong>.<br><br><strong>Örnek:</strong> Serum fizyolojik (%0.9 NaCl) kan hücrelerine izotoniktir.',
-    result: '🟡 SONUÇ: Hücre Değişmez',
-    cellRadius: 110,
-    cellColor: '#0e7490',
-    arrowFrom: null,
-    outerMol: 22, innerMol: 22,
-  },
-  hipo: {
-    title: 'Hipotonik ortam',
-    text: 'Hücre dışındaki çözünen madde daha az yoğun → su <strong>DIŞARIDAN HÜCREYE</strong> girer (osmoz) → hücre <strong>şişer</strong>. Çok şişerse patlar (sitoliz). Bitki hücrelerinde turgor.<br><br><strong>Örnek:</strong> Kan hücresini saf suya atarsan patlar.',
-    result: '🔵 SONUÇ: Hücre ŞİŞER (Bitkide turgor, hayvanda patlar)',
-    cellRadius: 135,
-    cellColor: '#0e7490',
-    arrowFrom: [100, 180], arrowTo: [240, 180],
-    outerMol: 8, innerMol: 50,
-  },
+// Konfigürasyon
+const config = {
+  zarGozenek: 1.0, // 0-3, su her zaman geçer; >1.5'te tuz geçer; >2.5'te glikoz da
+  hizFaktor: 1.0,
+  aktifTasima: false,
 };
 
-function setMode(m) {
-  mode = m;
-  ['hiper', 'izo', 'hipo'].forEach(k => {
-    document.getElementById('mode-' + k).classList.toggle('active', k === m);
-  });
-  render();
-}
-function setTransport(t) {
-  transport = t;
-  document.getElementById('mode-pasif').classList.toggle('active', t === 'pasif');
-  document.getElementById('mode-aktif').classList.toggle('active', t === 'aktif');
-  render();
+// Slider'lar
+const sliderContainer = document.getElementById('sliders');
+const sZar = SimCore.slider(sliderContainer, {
+  label: '🚪 Zar Gözenek Boyutu',
+  min: 0.3, max: 3.0, step: 0.1, value: 1.0,
+  fmt: v => v < 1 ? 'Sıkı (sadece su)' : v < 2 ? 'Orta (su+tuz)' : 'Geniş (her şey)',
+  onChange: v => config.zarGozenek = v,
+});
+const sHiz = SimCore.slider(sliderContainer, {
+  label: '⚡ Hız Faktörü',
+  min: 0.2, max: 3.0, step: 0.1, value: 1.0,
+  fmt: v => v.toFixed(1) + '×',
+  onChange: v => config.hizFaktor = v,
+});
+
+// Aktif taşıma toggle
+const aktifBtn = document.createElement('button');
+aktifBtn.className = 'w-full mt-1 py-1.5 bg-slate-700 rounded text-xs font-bold';
+aktifBtn.textContent = '⚡ Aktif Taşıma: KAPALI';
+aktifBtn.onclick = () => {
+  config.aktifTasima = !config.aktifTasima;
+  aktifBtn.textContent = `⚡ Aktif Taşıma: ${config.aktifTasima ? 'AÇIK (ATP harcanıyor)' : 'KAPALI'}`;
+  aktifBtn.classList.toggle('bg-yellow-700', config.aktifTasima);
+  aktifBtn.classList.toggle('bg-slate-700', !config.aktifTasima);
+};
+sliderContainer.appendChild(aktifBtn);
+
+// Hipotez UI
+const hyp = SimCore.hypothesis(document.getElementById('hyp-container'), {
+  soru: '🤔 Hücre içine sadece tuz koyarsam ne olur?',
+  secenekler: [
+    { id: 'sismek', label: '🔵 Su içeri girer, hücre ŞİŞER' },
+    { id: 'buzulmek', label: '🔴 Su dışarı çıkar, hücre BÜZÜLÜR' },
+    { id: 'hicbiri', label: '⚪ Hiçbir şey değişmez' },
+  ],
+  onDeney: () => {
+    // 10 tuz hücre içine, 15 su dışına ekle
+    for (let i = 0; i < 10; i++) addMolecule('tuz', 450 + (Math.random()-0.5)*180, 225 + (Math.random()-0.5)*180);
+    for (let i = 0; i < 15; i++) addMolecule('su', 100 + Math.random()*200, 100 + Math.random()*300);
+  },
+  onKontrol: (tahmin) => {
+    // Doğru cevap: sismek (içerideki tuz yoğunluğu yüksek → su içeri akar)
+    return {
+      correct: tahmin === 'sismek',
+      sonuc: 'Hücre içindeki tuz yoğunluğu yüksek (hipertonik iç). Su molekülleri osmoz ile hücreye akar — hücre ŞİŞER. (Saf su ortamında hayvan hücresi patlayabilir = sitoliz)',
+    };
+  },
+});
+
+// Molekül ekleme
+function addMolecule(type, x, y) {
+  const m = {
+    id: molId++,
+    type,
+    x: SimCore.clamp(x, 30, 670),
+    y: SimCore.clamp(y, 30, 360),
+    vx: (Math.random() - 0.5) * 30,
+    vy: (Math.random() - 0.5) * 30,
+  };
+  molecules.push(m);
+  return m;
 }
 
-document.getElementById('mode-hiper').onclick = () => setMode('hiper');
-document.getElementById('mode-izo').onclick = () => setMode('izo');
-document.getElementById('mode-hipo').onclick = () => setMode('hipo');
-document.getElementById('mode-pasif').onclick = () => setTransport('pasif');
-document.getElementById('mode-aktif').onclick = () => setTransport('aktif');
+function getRadius(type) {
+  return type === 'tuz' ? 10 : type === 'glikoz' ? 11 : 7;
+}
+function getColor(type) {
+  return type === 'tuz' ? '#f87171' : type === 'glikoz' ? '#a78bfa' : '#60a5fa';
+}
+function canCrossZar(type) {
+  if (type === 'su') return true; // su her zaman
+  if (type === 'tuz') return config.zarGozenek > 1.5;
+  if (type === 'glikoz') return config.zarGozenek > 2.5 || config.aktifTasima;
+  return false;
+}
 
+// Render
 function render() {
-  const m = META[mode];
-  // Hücre boyutu
-  cell.setAttribute('r', m.cellRadius);
-  // Hipotonik aşırı şişerse renk değişir (sitoliz uyarısı)
-  if (mode === 'hipo') {
-    cell.setAttribute('stroke', '#fbbf24');
-    cellLabel.setAttribute('fill', '#fbbf24');
-  } else if (mode === 'hiper') {
-    cell.setAttribute('stroke', '#f87171');
-    cellLabel.setAttribute('fill', '#f87171');
-  } else {
-    cell.setAttribute('stroke', '#22d3ee');
-    cellLabel.setAttribute('fill', '#22d3ee');
-  }
-
-  // Akış oku
-  if (m.arrowFrom) {
-    flowArrow.style.display = '';
-    arrowLine.setAttribute('x1', m.arrowFrom[0]);
-    arrowLine.setAttribute('y1', m.arrowFrom[1]);
-    arrowLine.setAttribute('x2', m.arrowTo[0]);
-    arrowLine.setAttribute('y2', m.arrowTo[1]);
-  } else {
-    flowArrow.style.display = 'none';
-  }
-
-  // Info paneli
-  document.getElementById('info-title').textContent = m.title + (transport === 'aktif' ? ' (Aktif Taşıma · ATP)' : '');
-  document.getElementById('info-text').innerHTML = m.text + (transport === 'aktif'
-    ? '<br><br><strong class="text-yellow-300">⚡ Aktif taşıma:</strong> Hücre ATP harcayarak maddeyi AZ yoğun ortamdan ÇOK yoğun ortama pompalar (osmoz tersi yön). Örnek: Na-K pompası.'
-    : '');
-  document.getElementById('info-result').textContent = m.result;
-
-  // Moleküller — sol ve sağ
   molGroup.innerHTML = '';
-  const outer = m.outerMol;
-  const inner = m.innerMol;
-  // Outer (sol taraf — hücre dışı, x: 30-260)
-  for (let i = 0; i < outer; i++) {
-    const x = 30 + Math.random() * 230;
-    const y = 30 + Math.random() * 310;
-    const isWater = i < outer / 2;
-    addMol(x, y, isWater);
-  }
-  // Inner (hücre içi — çember)
-  for (let i = 0; i < inner; i++) {
-    const angle = Math.random() * Math.PI * 2;
-    const r = Math.random() * (m.cellRadius - 15);
-    const x = 380 + Math.cos(angle) * r;
-    const y = 180 + Math.sin(angle) * r;
-    const isWater = i < inner / 2;
-    addMol(x, y, isWater);
+  for (const m of molecules) {
+    const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c.setAttribute('cx', m.x);
+    c.setAttribute('cy', m.y);
+    c.setAttribute('r', getRadius(m.type));
+    c.setAttribute('fill', getColor(m.type));
+    c.setAttribute('fill-opacity', '0.85');
+    c.setAttribute('stroke', '#fff');
+    c.setAttribute('stroke-width', '1.5');
+    molGroup.appendChild(c);
   }
 }
 
-function addMol(x, y, isWater) {
-  const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-  c.setAttribute('cx', x);
-  c.setAttribute('cy', y);
-  c.setAttribute('r', isWater ? 3 : 4);
-  c.setAttribute('fill', isWater ? '#60a5fa' : '#f87171');
-  c.classList.add('mol');
-  molGroup.appendChild(c);
+// Physics tick
+const cellCenter = { x: 450, y: 225 };
+const cellRadius = 130;
+
+SimCore.animate((dt) => {
+  const realDt = dt * config.hizFaktor;
+  for (const m of molecules) {
+    // Brown hareketi (random walk)
+    m.vx += (Math.random() - 0.5) * 200 * realDt;
+    m.vy += (Math.random() - 0.5) * 200 * realDt;
+    // Damping
+    m.vx *= 0.95;
+    m.vy *= 0.95;
+
+    // Aktif taşıma: glikoz az → çok yoğuna pompalanır
+    if (config.aktifTasima && m.type === 'glikoz') {
+      // Hücreye doğru çek
+      const dx = cellCenter.x - m.x;
+      const dy = cellCenter.y - m.y;
+      const d = Math.sqrt(dx*dx + dy*dy);
+      if (d > 5) {
+        m.vx += (dx/d) * 100 * realDt;
+        m.vy += (dy/d) * 100 * realDt;
+      }
+    }
+
+    let nx = m.x + m.vx * realDt;
+    let ny = m.y + m.vy * realDt;
+
+    // Zar çarpışması
+    const distToCenter = Math.sqrt((nx - cellCenter.x)**2 + (ny - cellCenter.y)**2);
+    const r = getRadius(m.type);
+    const wasInside = Math.sqrt((m.x - cellCenter.x)**2 + (m.y - cellCenter.y)**2) < cellRadius - r;
+    const willBeInside = distToCenter < cellRadius - r;
+    const willCrossZar = wasInside !== willBeInside && Math.abs(distToCenter - cellRadius) < 8;
+
+    if (willCrossZar && !canCrossZar(m.type)) {
+      // Zar engelliyor - sek
+      const dx = nx - cellCenter.x;
+      const dy = ny - cellCenter.y;
+      const d = Math.sqrt(dx*dx + dy*dy);
+      const nxN = dx/d, nyN = dy/d;
+      const dot = m.vx * nxN + m.vy * nyN;
+      m.vx -= 2 * dot * nxN;
+      m.vy -= 2 * dot * nyN;
+      nx = m.x;
+      ny = m.y;
+    }
+
+    // Osmoz: su gradient yönünde hareket eder
+    if (m.type === 'su' && Math.abs(distToCenter - cellRadius) < 15) {
+      const tuzIc = molecules.filter(x => x.type === 'tuz' && Math.sqrt((x.x-cellCenter.x)**2 + (x.y-cellCenter.y)**2) < cellRadius).length;
+      const tuzDis = molecules.filter(x => x.type === 'tuz' && Math.sqrt((x.x-cellCenter.x)**2 + (x.y-cellCenter.y)**2) >= cellRadius).length;
+      // Tuz yoğun olan tarafa doğru su akar
+      const targetInside = tuzIc > tuzDis;
+      const isInside = wasInside;
+      if (targetInside !== isInside) {
+        // İçeri / dışarı çek
+        const dx = cellCenter.x - m.x;
+        const dy = cellCenter.y - m.y;
+        const dn = Math.sqrt(dx*dx + dy*dy);
+        const dir = targetInside ? 1 : -1;
+        m.vx += dir * (dx/dn) * 80 * realDt;
+        m.vy += dir * (dy/dn) * 80 * realDt;
+      }
+    }
+
+    // Genel sınır
+    if (nx < 15) { nx = 15; m.vx *= -1; }
+    if (nx > 685) { nx = 685; m.vx *= -1; }
+    if (ny < 50) { ny = 50; m.vy *= -1; }
+    if (ny > 360) { ny = 360; m.vy *= -1; }
+
+    m.x = nx; m.y = ny;
+  }
+  render();
+  updateStats();
+});
+
+function updateStats() {
+  const tuzIc = molecules.filter(m => m.type === 'tuz' && SimCore.dist(m, cellCenter) < cellRadius).length;
+  const tuzDis = molecules.filter(m => m.type === 'tuz').length - tuzIc;
+  const suIc = molecules.filter(m => m.type === 'su' && SimCore.dist(m, cellCenter) < cellRadius).length;
+  const suDis = molecules.filter(m => m.type === 'su').length - suIc;
+
+  document.getElementById('tuz-dis').textContent = tuzDis;
+  document.getElementById('tuz-ic').textContent = tuzIc;
+  document.getElementById('su-dis').textContent = suDis;
+  document.getElementById('su-ic').textContent = suIc;
+
+  let tonisite, durum, cellColor = '#22d3ee';
+  const tuzDif = tuzIc - tuzDis;
+  if (Math.abs(tuzDif) < 3) {
+    tonisite = '🟡 izotonik (denge)';
+    durum = 'normal';
+  } else if (tuzDif > 0) {
+    tonisite = '🔵 iç hipertonik';
+    durum = '🔵 ŞİŞER (su içeri akıyor)';
+    cellColor = '#60a5fa';
+  } else {
+    tonisite = '🔴 dış hipertonik';
+    durum = '🔴 BÜZÜLÜR (su dışarı çıkıyor)';
+    cellColor = '#f87171';
+  }
+  document.getElementById('tonisite').textContent = tonisite;
+  document.getElementById('durum').textContent = durum;
+  cell.setAttribute('stroke', cellColor);
+  cellStats.setAttribute('fill', cellColor);
+  cellStats.textContent = `${suIc + tuzIc} parça`;
 }
 
-// Animasyon: moleküller hafif titreşim (Brown hareketi)
-function animate() {
-  molGroup.querySelectorAll('circle').forEach(c => {
-    const dx = (Math.random() - 0.5) * 1.5;
-    const dy = (Math.random() - 0.5) * 1.5;
-    c.setAttribute('cx', parseFloat(c.getAttribute('cx')) + dx);
-    c.setAttribute('cy', parseFloat(c.getAttribute('cy')) + dy);
-  });
-  requestAnimationFrame(animate);
+// Drag-drop toolbox → svg
+let dragGhost = null;
+let dragType = null;
+
+document.querySelectorAll('.toolbox-item').forEach(item => {
+  const type = item.dataset.type;
+  function start(e) {
+    dragType = type;
+    e.preventDefault();
+  }
+  item.addEventListener('mousedown', start);
+  item.addEventListener('touchstart', start, { passive: false });
+});
+
+svg.addEventListener('mousemove', handleDragMove);
+svg.addEventListener('touchmove', handleDragMove, { passive: false });
+window.addEventListener('mouseup', handleDragEnd);
+window.addEventListener('touchend', handleDragEnd);
+
+function handleDragMove(e) {
+  if (!dragType) return;
+  // Ghost yok, sadece pointer takip
+  e.preventDefault();
 }
+
+function handleDragEnd(e) {
+  if (!dragType) return;
+  const evt = e.changedTouches ? e.changedTouches[0] : e;
+  const pt = svg.createSVGPoint();
+  pt.x = evt.clientX; pt.y = evt.clientY;
+  const ctm = svg.getScreenCTM();
+  if (ctm) {
+    const local = pt.matrixTransform(ctm.inverse());
+    if (local.y > 40 && local.y < 370 && local.x > 20 && local.x < 680) {
+      addMolecule(dragType, local.x, local.y);
+    }
+  }
+  dragType = null;
+}
+
+// Reset
+document.getElementById('reset').onclick = () => {
+  molecules = [];
+  hyp.reset();
+};
 
 render();
-animate();
+updateStats();
 </script>
 </body>
 </html>

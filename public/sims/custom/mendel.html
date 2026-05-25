@@ -3,189 +3,300 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Mendel Punnett Karesi · TYT Biyoloji</title>
+<title>Mendel Popülasyon Deneyi · TYT Biyoloji</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="../lib/sim-core.js"></script>
 <style>
   body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
-  .baskin { background: linear-gradient(135deg, #dc2626, #991b1b); color: white; font-weight: 700; }
-  .cekinik { background: linear-gradient(135deg, #2563eb, #1e40af); color: white; font-weight: 700; }
-  .punnett-cell {
-    display: flex; align-items: center; justify-content: center;
-    padding: 1rem; border-radius: 0.5rem; font-size: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    transition: transform 0.2s;
-  }
-  .punnett-cell:hover { transform: scale(1.05); }
   .alel-card {
     display: inline-flex; align-items: center; justify-content: center;
-    width: 36px; height: 36px; border-radius: 6px; font-weight: bold;
+    width: 50px; height: 60px; border-radius: 8px;
+    font-size: 1.5rem; font-weight: 900; cursor: grab;
+    transition: transform 0.15s;
+    user-select: none;
   }
+  .alel-card:hover { transform: scale(1.1); }
+  .alel-card.A { background: linear-gradient(135deg,#dc2626,#991b1b); color: white; }
+  .alel-card.a { background: linear-gradient(135deg,#2563eb,#1e40af); color: white; }
+  .ebeveyn-slot {
+    min-height: 80px; padding: 8px; border-radius: 8px;
+    background: #1e293b; border: 2px dashed #475569;
+    display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+    transition: all 0.15s;
+  }
+  .ebeveyn-slot.over { border-color: #fbbf24; background: #2e1065; }
+  .cocuk { width: 40px; height: 50px; border-radius: 6px;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 0.85rem; font-weight: 700; color: white;
+    margin: 2px;
+  }
+  .cocuk.aa { background: #1e40af; }
+  .cocuk.Aa, .cocuk.aA { background: linear-gradient(135deg,#dc2626 50%,#1e40af 50%); }
+  .cocuk.AA { background: #991b1b; }
 </style>
 </head>
 <body class="min-h-screen p-4">
-<div class="max-w-4xl mx-auto">
+<div class="max-w-6xl mx-auto">
 
-  <header class="mb-6">
-    <h1 class="text-3xl font-bold mb-1 text-emerald-400">🧬 Mendel Punnett Karesi</h1>
-    <p class="text-sm text-slate-400">Anne + baba genotipini seç, çocuk olasılığını gör. Büyük harf <span class="alel-card baskin" style="width:28px;height:28px;font-size:14px">A</span> = baskın · küçük harf <span class="alel-card cekinik" style="width:28px;height:28px;font-size:14px">a</span> = çekinik.</p>
+  <header class="mb-3">
+    <h1 class="text-2xl md:text-3xl font-bold mb-1 text-emerald-400">🧬 Mendel Popülasyon Deneyi · YAP</h1>
+    <p class="text-xs text-slate-400">Alel kartlarını <strong>sürükle</strong> ebeveyn slotuna · "100 çocuk üret" → gerçek istatistik · teorik vs deneysel kıyas. <span class="text-red-300">A</span>=baskın · <span class="text-blue-300">a</span>=çekinik.</p>
   </header>
 
-  <!-- Genotip seçici -->
-  <div class="grid sm:grid-cols-2 gap-4 mb-6">
-    <div class="bg-slate-800 rounded-lg p-4">
-      <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">👩 Anne Genotipi</label>
-      <select id="anne" class="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-lg font-mono">
-        <option value="AA">AA (Homozigot Baskın)</option>
-        <option value="Aa" selected>Aa (Heterozigot — Taşıyıcı)</option>
-        <option value="aa">aa (Homozigot Çekinik)</option>
-      </select>
+  <div class="grid lg:grid-cols-3 gap-3">
+    <!-- Sol: alel havuzu + ebeveyn slotları -->
+    <div class="lg:col-span-2">
+      <div class="bg-slate-900 rounded-xl p-3 border border-slate-700 mb-3">
+        <h3 class="text-xs uppercase tracking-wider text-emerald-300 font-bold mb-2">🧪 Alel Havuzu (sürükle)</h3>
+        <div class="flex flex-wrap gap-2 justify-center">
+          <span class="alel-card A" draggable="true" data-alel="A">A</span>
+          <span class="alel-card A" draggable="true" data-alel="A">A</span>
+          <span class="alel-card a" draggable="true" data-alel="a">a</span>
+          <span class="alel-card a" draggable="true" data-alel="a">a</span>
+          <span class="alel-card A" draggable="true" data-alel="A">A</span>
+          <span class="alel-card a" draggable="true" data-alel="a">a</span>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-3 mb-3">
+        <div class="bg-slate-900 rounded-xl p-3 border border-slate-700">
+          <h3 class="text-xs font-bold text-pink-300 mb-2">👩 Anne Genotipi</h3>
+          <div class="ebeveyn-slot" id="anne-slot" data-ebeveyn="anne">
+            <span class="text-xs text-slate-500">2 alel sürükle</span>
+          </div>
+        </div>
+        <div class="bg-slate-900 rounded-xl p-3 border border-slate-700">
+          <h3 class="text-xs font-bold text-blue-300 mb-2">👨 Baba Genotipi</h3>
+          <div class="ebeveyn-slot" id="baba-slot" data-ebeveyn="baba">
+            <span class="text-xs text-slate-500">2 alel sürükle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 rounded-xl p-3 border border-slate-700">
+        <div class="flex gap-2 mb-3 flex-wrap">
+          <button id="uret10" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 rounded text-sm font-bold">🧬 10 Çocuk Üret</button>
+          <button id="uret100" class="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 rounded text-sm font-bold">🧬 100 Çocuk Üret</button>
+          <button id="uret1000" class="px-3 py-2 bg-emerald-700 hover:bg-emerald-800 rounded text-sm font-bold">🧬 1000 Çocuk!</button>
+          <button id="resetEbeveyn" class="px-3 py-2 bg-slate-700 hover:bg-slate-600 rounded text-sm">↺ Ebeveynleri Sıfırla</button>
+        </div>
+        <div id="cocuklar-area" class="min-h-[150px] p-2 bg-slate-950 rounded">
+          <span class="text-xs text-slate-500">Ebeveynleri kur → 'Çocuk üret' butonuna bas. Çocuklar burada belirir.</span>
+        </div>
+      </div>
     </div>
-    <div class="bg-slate-800 rounded-lg p-4">
-      <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">👨 Baba Genotipi</label>
-      <select id="baba" class="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-lg font-mono">
-        <option value="AA">AA (Homozigot Baskın)</option>
-        <option value="Aa" selected>Aa (Heterozigot — Taşıyıcı)</option>
-        <option value="aa">aa (Homozigot Çekinik)</option>
-      </select>
+
+    <!-- Sağ: istatistik -->
+    <div class="space-y-3">
+      <div class="bg-emerald-900/30 border-2 border-emerald-500/40 rounded-xl p-3">
+        <h3 class="text-xs uppercase tracking-wider text-emerald-300 font-bold mb-2">📊 Çocuk İstatistik</h3>
+        <div id="stat-content" class="text-xs space-y-1">
+          <p class="text-slate-400">Ebeveynler hazır olunca buraya istatistik gelir.</p>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 rounded-xl p-3 border border-slate-700">
+        <h3 class="text-xs uppercase tracking-wider text-amber-300 font-bold mb-2">📐 Teorik Tablo (Punnett)</h3>
+        <div id="punnett-area" class="grid gap-1 text-center text-xs">
+          <span class="text-slate-500">Ebeveynler hazır olunca tablo gelir.</span>
+        </div>
+      </div>
+
+      <div id="hyp-container"></div>
     </div>
   </div>
 
-  <!-- Punnett karesi -->
-  <div class="bg-slate-800 rounded-2xl p-6 mb-6">
-    <div class="text-center mb-3">
-      <span class="text-sm uppercase tracking-wider text-slate-400 font-bold">Punnett Karesi</span>
-    </div>
-    <div class="grid gap-2 mx-auto" style="grid-template-columns: 60px 1fr 1fr; max-width: 480px;">
-      <!-- Üst başlık (boş + baba alelleri) -->
-      <div></div>
-      <div id="baba-alel-1" class="text-center text-xl font-bold py-2"></div>
-      <div id="baba-alel-2" class="text-center text-xl font-bold py-2"></div>
-      <!-- Sol başlık + 2 hücre -->
-      <div id="anne-alel-1" class="text-xl font-bold flex items-center justify-center"></div>
-      <div id="cell-00" class="punnett-cell"></div>
-      <div id="cell-01" class="punnett-cell"></div>
-      <!-- Alt başlık + 2 hücre -->
-      <div id="anne-alel-2" class="text-xl font-bold flex items-center justify-center"></div>
-      <div id="cell-10" class="punnett-cell"></div>
-      <div id="cell-11" class="punnett-cell"></div>
-    </div>
+  <div class="mt-4 bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-emerald-300">🧪 Klasik Deney:</strong> Aa × Aa kur → 100 çocuk üret. Teorik 1:2:1 (AA:Aa:aa). Az sayıda çocukta sapma var, 1000'de teorikle yakın.
+    <br><strong class="text-amber-300">Fenotip:</strong> A_ baskın, aa çekinik → 3:1 oranı.
   </div>
 
-  <!-- Genotip + Fenotip oranları -->
-  <div class="grid sm:grid-cols-2 gap-4 mb-6">
-    <div class="bg-slate-800 rounded-lg p-4">
-      <h3 class="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3">📊 Genotip Oranları</h3>
-      <div id="genotip-list" class="space-y-2 text-sm"></div>
-    </div>
-    <div class="bg-slate-800 rounded-lg p-4">
-      <h3 class="text-sm font-bold uppercase tracking-wider text-emerald-400 mb-3">👁 Fenotip Oranları</h3>
-      <div id="fenotip-list" class="space-y-2 text-sm"></div>
-    </div>
-  </div>
-
-  <!-- Açıklama -->
-  <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-lg p-4 text-xs leading-relaxed">
-    <strong class="text-emerald-300">💡 Mendel İlkeleri:</strong><br>
-    • <strong>Ayrılma ilkesi:</strong> Gametler oluşurken alel çiftleri ayrılır, her gamet sadece 1 alel taşır.<br>
-    • <strong>Bağımsız dağılım:</strong> Farklı karakterlerin alelleri birbirinden bağımsız geçer (Aa × Bb → 9:3:3:1).<br>
-    • <strong>Baskınlık:</strong> A_ fenotipi baskın gösterir (AA = Aa = baskın görünüm). Sadece aa çekinik gösterir.<br>
-    • <strong>Klasik test:</strong> Aa × Aa → 1 AA : 2 Aa : 1 aa (genotip) = 3:1 (fenotip: 3 baskın, 1 çekinik).
-  </div>
-
-  <div class="text-center mt-6 text-xs text-slate-500">
-    📚 TYT Biyoloji · Kalıtımın Genel İlkeleri · 8 yılda 8 soru (her yıl 1)
-  </div>
+  <div class="text-center mt-3 text-xs text-slate-500">📚 TYT Biyoloji · Kalıtım · 8 soru/8 yıl ⭐</div>
 </div>
 
 <script>
-const anneSel = document.getElementById('anne');
-const babaSel = document.getElementById('baba');
+let anneAlels = [];
+let babaAlels = [];
+let cocuklar = []; // [{a, b}]
 
-function alelClass(alel) {
-  return alel === alel.toUpperCase() ? 'alel-card baskin' : 'alel-card cekinik';
-}
-
-function combine(a, b) {
-  // Normalize: büyük harf önce
-  const arr = [a, b].sort((x, y) => {
-    if (x === x.toUpperCase() && y !== y.toUpperCase()) return -1;
-    if (y === y.toUpperCase() && x !== x.toUpperCase()) return 1;
-    return 0;
+// Drag start
+document.querySelectorAll('.alel-card').forEach(card => {
+  card.addEventListener('dragstart', e => {
+    e.dataTransfer.setData('text/plain', card.dataset.alel);
+    e.dataTransfer.effectAllowed = 'copy';
   });
-  return arr.join('');
+  // Touch için fallback: tap = add to closest slot
+  card.addEventListener('click', () => {
+    if (anneAlels.length < 2) {
+      anneAlels.push(card.dataset.alel);
+    } else if (babaAlels.length < 2) {
+      babaAlels.push(card.dataset.alel);
+    }
+    renderEbeveynler();
+  });
+});
+
+// Slot drop
+document.querySelectorAll('.ebeveyn-slot').forEach(slot => {
+  slot.addEventListener('dragover', e => { e.preventDefault(); slot.classList.add('over'); });
+  slot.addEventListener('dragleave', () => slot.classList.remove('over'));
+  slot.addEventListener('drop', e => {
+    e.preventDefault();
+    slot.classList.remove('over');
+    const alel = e.dataTransfer.getData('text/plain');
+    if (slot.dataset.ebeveyn === 'anne') {
+      if (anneAlels.length < 2) anneAlels.push(alel);
+    } else {
+      if (babaAlels.length < 2) babaAlels.push(alel);
+    }
+    renderEbeveynler();
+  });
+});
+
+function renderEbeveynler() {
+  const anneSlot = document.getElementById('anne-slot');
+  const babaSlot = document.getElementById('baba-slot');
+  anneSlot.innerHTML = anneAlels.length === 0 ? '<span class="text-xs text-slate-500">2 alel sürükle</span>' :
+    anneAlels.map(a => `<span class="alel-card ${a}" onclick="removeAlel('anne', this)">${a}</span>`).join('');
+  babaSlot.innerHTML = babaAlels.length === 0 ? '<span class="text-xs text-slate-500">2 alel sürükle</span>' :
+    babaAlels.map(a => `<span class="alel-card ${a}" onclick="removeAlel('baba', this)">${a}</span>`).join('');
+  renderPunnett();
 }
 
-function fenotip(genotip) {
-  return /[A-Z]/.test(genotip) ? 'Baskın (A_)' : 'Çekinik (aa)';
+window.removeAlel = function(eb, el) {
+  const alel = el.textContent;
+  if (eb === 'anne') {
+    const i = anneAlels.indexOf(alel);
+    if (i >= 0) anneAlels.splice(i, 1);
+  } else {
+    const i = babaAlels.indexOf(alel);
+    if (i >= 0) babaAlels.splice(i, 1);
+  }
+  renderEbeveynler();
+};
+
+function renderPunnett() {
+  const area = document.getElementById('punnett-area');
+  if (anneAlels.length !== 2 || babaAlels.length !== 2) {
+    area.innerHTML = '<span class="text-slate-500">Her ebeveynde 2 alel olmalı.</span>';
+    return;
+  }
+  // 2×2 Punnett
+  const rows = [];
+  for (const a of anneAlels) {
+    for (const b of babaAlels) {
+      const sorted = [a, b].sort((x, y) => x === x.toUpperCase() ? -1 : 1).join('');
+      rows.push(sorted);
+    }
+  }
+  const counts = {};
+  rows.forEach(g => counts[g] = (counts[g] || 0) + 1);
+  const html = Object.entries(counts).map(([g, c]) => {
+    const pct = (c / 4 * 100).toFixed(0);
+    return `<div class="flex justify-between bg-slate-800 rounded px-2 py-1"><strong class="text-amber-300">${g}</strong><span>%${pct} teorik</span></div>`;
+  }).join('');
+  area.innerHTML = html;
 }
 
-function render() {
-  const anne = anneSel.value; // "AA", "Aa", "aa"
-  const baba = babaSel.value;
+// Çocuk üret
+function uretCocuk(adet) {
+  if (anneAlels.length !== 2 || babaAlels.length !== 2) {
+    alert('Önce her ebeveyne 2 alel koy!');
+    return;
+  }
+  cocuklar = [];
+  for (let i = 0; i < adet; i++) {
+    const a = anneAlels[Math.floor(Math.random() * 2)];
+    const b = babaAlels[Math.floor(Math.random() * 2)];
+    const sorted = [a, b].sort((x, y) => x === x.toUpperCase() ? -1 : 1).join('');
+    cocuklar.push(sorted);
+  }
+  renderCocuklar(adet);
+  renderStat();
+}
 
-  const a1 = anne[0], a2 = anne[1];
-  const b1 = baba[0], b2 = baba[1];
-
-  // Alel başlıkları
-  document.getElementById('anne-alel-1').innerHTML = `<span class="${alelClass(a1)}">${a1}</span>`;
-  document.getElementById('anne-alel-2').innerHTML = `<span class="${alelClass(a2)}">${a2}</span>`;
-  document.getElementById('baba-alel-1').innerHTML = `<span class="${alelClass(b1)}">${b1}</span>`;
-  document.getElementById('baba-alel-2').innerHTML = `<span class="${alelClass(b2)}">${b2}</span>`;
-
-  // 4 hücre
-  const cells = [
-    { id: 'cell-00', a: a1, b: b1 },
-    { id: 'cell-01', a: a1, b: b2 },
-    { id: 'cell-10', a: a2, b: b1 },
-    { id: 'cell-11', a: a2, b: b2 },
-  ];
-  const genotipler = [];
-  cells.forEach(c => {
-    const g = combine(c.a, c.b);
-    genotipler.push(g);
-    const bg = fenotip(g) === 'Çekinik (aa)' ? '#1e3a8a' : '#7f1d1d';
-    document.getElementById(c.id).style.background = bg;
-    document.getElementById(c.id).innerHTML = `
-      <span class="${alelClass(c.a)}">${c.a}</span>
-      <span class="${alelClass(c.b)}" style="margin-left:6px">${c.b}</span>
+function renderCocuklar(adet) {
+  const area = document.getElementById('cocuklar-area');
+  // Çok sayı varsa sadece istatistik göster
+  if (adet > 100) {
+    const aaN = cocuklar.filter(c => c === 'aa').length;
+    const AaN = cocuklar.filter(c => c === 'Aa').length;
+    const AAN = cocuklar.filter(c => c === 'AA').length;
+    area.innerHTML = `
+      <div class="text-center py-4">
+        <div class="text-2xl font-bold text-emerald-300 mb-2">🧬 ${adet} çocuk üretildi!</div>
+        <div class="text-xs text-slate-400">Bireysel göstermek yerine istatistik panelde sonuçları gör.</div>
+        <div class="mt-3 flex justify-center gap-2 flex-wrap">
+          <div class="cocuk AA" style="width:auto;padding:0 8px">AA: ${AAN}</div>
+          <div class="cocuk Aa" style="width:auto;padding:0 8px">Aa: ${AaN}</div>
+          <div class="cocuk aa" style="width:auto;padding:0 8px">aa: ${aaN}</div>
+        </div>
+      </div>
     `;
-  });
-
-  // Genotip oranları
-  const genoCount = {};
-  genotipler.forEach(g => genoCount[g] = (genoCount[g] || 0) + 1);
-  const genoHtml = Object.entries(genoCount)
-    .sort((x, y) => y[1] - x[1])
-    .map(([g, c]) => {
-      const pct = (c / 4 * 100).toFixed(0);
-      const bg = fenotip(g) === 'Çekinik (aa)' ? 'bg-blue-900/40 border-blue-500/40' : 'bg-red-900/40 border-red-500/40';
-      return `<div class="flex items-center justify-between border ${bg} rounded px-3 py-2">
-        <span class="font-mono text-lg font-bold">${g}</span>
-        <span class="text-emerald-300 font-bold">${c}/4 · %${pct}</span>
-      </div>`;
-    }).join('');
-  document.getElementById('genotip-list').innerHTML = genoHtml;
-
-  // Fenotip oranları
-  const fenoCount = { 'Baskın (A_)': 0, 'Çekinik (aa)': 0 };
-  genotipler.forEach(g => fenoCount[fenotip(g)]++);
-  const fenoHtml = Object.entries(fenoCount)
-    .filter(([_, c]) => c > 0)
-    .map(([f, c]) => {
-      const pct = (c / 4 * 100).toFixed(0);
-      const bg = f.includes('Çekinik') ? 'bg-blue-900/40 border-blue-500/40 text-blue-200' : 'bg-red-900/40 border-red-500/40 text-red-200';
-      const icon = f.includes('Çekinik') ? '🔵' : '🔴';
-      return `<div class="flex items-center justify-between border ${bg} rounded px-3 py-2">
-        <span class="font-semibold">${icon} ${f}</span>
-        <span class="font-bold">${c}/4 · %${pct}</span>
-      </div>`;
-    }).join('');
-  document.getElementById('fenotip-list').innerHTML = fenoHtml;
+  } else {
+    area.innerHTML = cocuklar.map((c, i) => `<span class="cocuk ${c}" title="${i+1}. çocuk">${c}</span>`).join('');
+  }
 }
 
-anneSel.addEventListener('change', render);
-babaSel.addEventListener('change', render);
-render();
+function renderStat() {
+  if (cocuklar.length === 0) return;
+  const counts = {};
+  cocuklar.forEach(c => counts[c] = (counts[c] || 0) + 1);
+  const total = cocuklar.length;
+
+  // Genotip
+  const genotipHtml = Object.entries(counts).sort().map(([g, c]) => {
+    const pct = (c / total * 100).toFixed(1);
+    return `<div class="flex justify-between"><span><strong class="text-amber-300">${g}</strong></span><span>${c}/${total} · %${pct}</span></div>`;
+  }).join('');
+
+  // Fenotip
+  const fenotipBaskin = cocuklar.filter(c => c.includes('A')).length;
+  const fenotipCekinik = total - fenotipBaskin;
+
+  document.getElementById('stat-content').innerHTML = `
+    <div class="font-bold text-emerald-200 mb-1">Genotip Dağılımı:</div>
+    ${genotipHtml}
+    <hr class="border-slate-700 my-2">
+    <div class="font-bold text-emerald-200 mb-1">Fenotip Dağılımı:</div>
+    <div class="flex justify-between"><span>🔴 Baskın (A_)</span><span>${fenotipBaskin}/${total} · %${(fenotipBaskin/total*100).toFixed(1)}</span></div>
+    <div class="flex justify-between"><span>🔵 Çekinik (aa)</span><span>${fenotipCekinik}/${total} · %${(fenotipCekinik/total*100).toFixed(1)}</span></div>
+    <div class="mt-2 text-[10px] text-slate-400 italic">💡 ${total >= 100 ? 'Büyük örneklem: teorikle uyumlu' : 'Küçük örneklem: sapma var, daha çok üret'}</div>
+  `;
+}
+
+document.getElementById('uret10').onclick = () => uretCocuk(10);
+document.getElementById('uret100').onclick = () => uretCocuk(100);
+document.getElementById('uret1000').onclick = () => uretCocuk(1000);
+document.getElementById('resetEbeveyn').onclick = () => {
+  anneAlels = []; babaAlels = []; cocuklar = [];
+  renderEbeveynler();
+  document.getElementById('cocuklar-area').innerHTML = '<span class="text-xs text-slate-500">Ebeveynleri kur → \'Çocuk üret\' butonuna bas.</span>';
+  document.getElementById('stat-content').innerHTML = '<p class="text-slate-400">Ebeveynler hazır olunca buraya istatistik gelir.</p>';
+};
+
+// Hipotez
+SimCore.hypothesis(document.getElementById('hyp-container'), {
+  soru: '🤔 Aa × Aa çocuklarında çekinik (aa) yüzdesi?',
+  secenekler: [
+    { id: '25', label: '~%25' },
+    { id: '50', label: '~%50' },
+    { id: '75', label: '~%75' },
+    { id: '0', label: '%0 (hiç olmaz)' },
+  ],
+  onDeney: () => {
+    anneAlels = ['A', 'a'];
+    babaAlels = ['A', 'a'];
+    renderEbeveynler();
+    uretCocuk(1000);
+  },
+  onKontrol: (tahmin) => ({
+    correct: tahmin === '25',
+    sonuc: 'Aa × Aa → 1 AA : 2 Aa : 1 aa (1:2:1) · genotip · fenotip 3:1 (baskın:çekinik). Çekinik %25. 1000 çocukta yaklaşık 250 aa.',
+  }),
+});
+
+renderEbeveynler();
 </script>
 </body>
 </html>
