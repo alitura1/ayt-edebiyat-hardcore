@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mitoz / Mayoz Animasyon · TYT Biyoloji</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .step-btn { padding: 0.5rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.8rem; transition: all 0.15s; background: #1e293b; color: #94a3b8; }
+  .step-btn.active { background: #10b981; color: white; }
+  .nav-btn { padding: 0.5rem 1.2rem; border-radius: 6px; font-weight: 700; font-size: 0.85rem; background: #3b82f6; color: white; transition: all 0.15s; }
+  .nav-btn:hover { background: #2563eb; }
+  .nav-btn:disabled { background: #475569; cursor: not-allowed; opacity: 0.5; }
+  .mode-pill { padding: 0.4rem 1rem; border-radius: 6px; font-weight: 700; font-size: 0.85rem; }
+  .mode-pill.mitoz { background: #ec4899; color: white; }
+  .mode-pill.mayoz { background: #8b5cf6; color: white; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-emerald-400">🧬 Mitoz / Mayoz Adım Adım</h1>
+    <p class="text-sm text-slate-400">Evre evre kromozom hareketini gör · Profaz → Metafaz → Anafaz → Telofaz · Mitoz vs Mayoz yan yana.</p>
+  </header>
+
+  <!-- Bölünme tipi seçici -->
+  <div class="flex flex-wrap gap-2 mb-4">
+    <span class="text-sm text-slate-400 mr-1 self-center">Bölünme:</span>
+    <button id="t-mitoz" class="mode-pill mitoz">🟣 Mitoz (vücut hücresi)</button>
+    <button id="t-mayoz" class="mode-pill" style="background:#1e293b;color:#94a3b8">🟪 Mayoz (üreme hücresi)</button>
+  </div>
+
+  <!-- Adım göstergeleri -->
+  <div class="flex flex-wrap gap-2 mb-4">
+    <button class="step-btn active" data-step="0">⏸ İnterfaz</button>
+    <button class="step-btn" data-step="1">1️⃣ Profaz</button>
+    <button class="step-btn" data-step="2">2️⃣ Metafaz</button>
+    <button class="step-btn" data-step="3">3️⃣ Anafaz</button>
+    <button class="step-btn" data-step="4">4️⃣ Telofaz / Sitokinez</button>
+  </div>
+
+  <div class="grid lg:grid-cols-3 gap-4">
+    <!-- Animasyon SVG -->
+    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <svg id="svg" viewBox="0 0 600 400" class="w-full h-auto"></svg>
+      <div class="flex gap-2 mt-2 justify-center">
+        <button id="prev" class="nav-btn">← Önceki Evre</button>
+        <button id="next" class="nav-btn">Sonraki Evre →</button>
+      </div>
+    </div>
+
+    <!-- Info paneli -->
+    <div>
+      <div id="info" class="bg-emerald-900/30 border-2 border-emerald-500/40 rounded-xl p-4 sticky top-4">
+        <div class="text-xs uppercase tracking-wider text-emerald-300 mb-2">📌 Şu anki evre</div>
+        <h3 id="info-title" class="text-lg font-bold mb-2 text-emerald-200">İnterfaz</h3>
+        <p id="info-text" class="text-xs leading-relaxed text-slate-200"></p>
+      </div>
+
+      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
+        <strong class="text-emerald-300 block mb-2">📊 Mitoz vs Mayoz</strong>
+        <table class="w-full text-[11px]">
+          <tr class="border-b border-slate-700">
+            <th></th>
+            <th class="text-center text-pink-300">Mitoz</th>
+            <th class="text-center text-purple-300">Mayoz</th>
+          </tr>
+          <tr><td class="py-1">Hücre türü</td><td class="text-center">Vücut</td><td class="text-center">Üreme</td></tr>
+          <tr><td class="py-1">Bölünme sayısı</td><td class="text-center">1</td><td class="text-center">2</td></tr>
+          <tr><td class="py-1">Sonuç hücre</td><td class="text-center">2 özdeş</td><td class="text-center">4 farklı</td></tr>
+          <tr><td class="py-1">Kromozom n</td><td class="text-center">2n→2n</td><td class="text-center">2n→n</td></tr>
+          <tr><td class="py-1">Crossover</td><td class="text-center text-red-400">Yok</td><td class="text-center text-green-400">Var</td></tr>
+          <tr><td class="py-1">Çeşitlilik</td><td class="text-center">Yok</td><td class="text-center">YÜKSEK</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-emerald-300">💡 ÖSYM Klasik Soru:</strong><br>
+    "Hangi evrede kromozomlar ekvator düzleminde dizilir?" → <strong>Metafaz</strong>.<br>
+    "Hangi evrede kardeş kromatitler zıt kutuplara çekilir?" → <strong>Anafaz</strong>.<br>
+    "Mayoz hangi aşamada genetik çeşitlilik sağlar?" → <strong>Profaz I (crossover/krossing over)</strong>.
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Biyoloji · Hücre Bölünmeleri · 8 soru/8 yıl
+  </div>
+</div>
+
+<script>
+const svg = document.getElementById('svg');
+let mode = 'mitoz'; // 'mitoz' | 'mayoz'
+let step = 0;
+
+const STEPS = {
+  mitoz: [
+    { title: 'İnterfaz (Bölünme Öncesi)', text: 'DNA eşlenir (S fazı), hücre büyür, organeller çoğalır. <strong>Henüz bölünme başlamadı.</strong> Kromatin yapıda, kromozomlar görünmez.', chromos: 'interfaz' },
+    { title: 'Profaz', text: 'Kromatin → <strong>kromozomlar belirginleşir</strong> (sıkı sarılır). Çekirdek zarı erir. <strong>İğ iplikleri</strong> sentrozomlardan oluşur.', chromos: 'profaz' },
+    { title: 'Metafaz', text: 'Kromozomlar <strong>hücrenin ortasına (ekvator düzlemi)</strong> dizilir. İğ iplikleri kromozomların sentromerine bağlanır.', chromos: 'metafaz' },
+    { title: 'Anafaz', text: '<strong>Kardeş kromatitler ayrılır</strong> ve zıt kutuplara çekilir (iğ iplikleri kısalır). Kromozom sayısı her kutupta 2n korunur.', chromos: 'anafaz' },
+    { title: 'Telofaz + Sitokinez', text: 'Kromozomlar kutuplara ulaşır, çekirdek zarı yeniden oluşur, kromatine geri döner. <strong>Sitokinez</strong>: sitoplazma bölünür → <strong>2 özdeş hücre</strong> (2n).', chromos: 'telofaz' },
+  ],
+  mayoz: [
+    { title: 'İnterfaz (Bölünme Öncesi)', text: 'DNA eşlenir. Mayoz da interfazla başlar.', chromos: 'interfaz' },
+    { title: 'Profaz I (Krossing Over!)', text: 'Homolog kromozomlar yan yana gelir (sinapsis), <strong>kardeş olmayan kromatitler arasında PARÇA DEĞİŞİMİ (crossover)</strong> → GENETİK ÇEŞİTLİLİK kaynağı. ÖSYM klasiği.', chromos: 'profaz1-mayoz' },
+    { title: 'Metafaz I', text: '<strong>HOMOLOG ÇİFTLER</strong> ekvator düzleminde yan yana dizilir (mitozdan FARK: çiftler birlikte). Bağımsız dağılım başlar.', chromos: 'metafaz1-mayoz' },
+    { title: 'Anafaz I', text: '<strong>HOMOLOG KROMOZOMLAR AYRILIR</strong>, kardeş kromatitler birlikte gider (mitoz tersine). Mayoz I sonu: n + n.', chromos: 'anafaz1-mayoz' },
+    { title: 'Mayoz II + Telofaz', text: 'Mayoz II: kardeş kromatitler ayrılır (mitoz benzeri ama n). Sonuç: <strong>4 farklı haploit (n) hücre</strong>. Çeşitlilik max.', chromos: 'mayoz2-sonu' },
+  ],
+};
+
+function drawChromosomes(state) {
+  const chromos = state.chromos;
+  let svgContent = `<rect x="0" y="0" width="600" height="400" fill="#0f172a" />`;
+
+  // Hücre membranı (büyük yuvarlak)
+  const cellR = chromos === 'telofaz' || chromos === 'mayoz2-sonu' ? 60 : 130;
+
+  if (chromos === 'telofaz' || chromos === 'mayoz2-sonu') {
+    // İki veya dört hücre
+    const count = chromos === 'telofaz' ? 2 : 4;
+    const positions = count === 2 ? [[200, 200], [400, 200]] : [[170, 130], [430, 130], [170, 280], [430, 280]];
+    positions.forEach((p, i) => {
+      svgContent += `<circle cx="${p[0]}" cy="${p[1]}" r="55" fill="none" stroke="#22d3ee" stroke-width="2"/>`;
+      svgContent += `<circle cx="${p[0]}" cy="${p[1]}" r="20" fill="#7c3aed" fill-opacity="0.4" stroke="#a78bfa" stroke-width="2"/>`;
+      svgContent += `<text x="${p[0]}" y="${p[1] + 5}" text-anchor="middle" fill="white" font-size="9" font-weight="bold">${count === 2 ? '2n' : 'n'}</text>`;
+    });
+    svgContent += `<text x="300" y="380" text-anchor="middle" fill="#cbd5e1" font-size="12" font-weight="bold">${count === 2 ? '2 özdeş hücre (mitoz sonucu)' : '4 farklı hücre (mayoz sonucu)'}</text>`;
+  } else {
+    svgContent += `<circle cx="300" cy="200" r="${cellR}" fill="none" stroke="#22d3ee" stroke-width="2"/>`;
+
+    // Çekirdek zarı (interfaz / telofaz haricinde yok)
+    if (chromos === 'interfaz') {
+      svgContent += `<circle cx="300" cy="200" r="65" fill="#7c3aed" fill-opacity="0.3" stroke="#a78bfa" stroke-width="2"/>`;
+      svgContent += `<text x="300" y="205" text-anchor="middle" fill="white" font-size="11" font-weight="bold">Kromatin</text>`;
+    }
+
+    // Kromozomlar
+    if (chromos === 'profaz') {
+      // 2 kromozom (4 kromatit), dağınık
+      svgContent += chromoX(250, 180, '#ec4899');
+      svgContent += chromoX(350, 220, '#f59e0b');
+    } else if (chromos === 'metafaz') {
+      // Ekvator düzleminde dizili
+      svgContent += `<line x1="170" y1="200" x2="430" y2="200" stroke="#fbbf24" stroke-width="1" stroke-dasharray="4 4"/>`;
+      svgContent += chromoX(265, 200, '#ec4899');
+      svgContent += chromoX(335, 200, '#f59e0b');
+      svgContent += `<text x="300" y="280" text-anchor="middle" fill="#fbbf24" font-size="11" font-weight="bold">Ekvator Düzlemi</text>`;
+    } else if (chromos === 'anafaz') {
+      // Kromatitler ayrılıyor
+      svgContent += chromoY(220, 150, '#ec4899');
+      svgContent += chromoY(220, 250, '#ec4899');
+      svgContent += chromoY(380, 150, '#f59e0b');
+      svgContent += chromoY(380, 250, '#f59e0b');
+      svgContent += `<text x="200" y="200" text-anchor="middle" fill="#22d3ee" font-size="11">←</text>`;
+      svgContent += `<text x="400" y="200" text-anchor="middle" fill="#22d3ee" font-size="11">→</text>`;
+    } else if (chromos === 'profaz1-mayoz') {
+      // Homolog çiftler yan yana (4 kromozom = 2 çift)
+      svgContent += chromoX(220, 180, '#ec4899');
+      svgContent += chromoX(260, 180, '#a855f7'); // homolog
+      svgContent += chromoX(340, 240, '#f59e0b');
+      svgContent += chromoX(380, 240, '#10b981'); // homolog
+      svgContent += `<text x="240" y="160" text-anchor="middle" fill="#fbbf24" font-size="10">↕ crossover</text>`;
+      svgContent += `<text x="360" y="280" text-anchor="middle" fill="#fbbf24" font-size="10">↕ crossover</text>`;
+    } else if (chromos === 'metafaz1-mayoz') {
+      svgContent += `<line x1="170" y1="200" x2="430" y2="200" stroke="#fbbf24" stroke-width="1" stroke-dasharray="4 4"/>`;
+      // Homolog çiftler ekvatorda
+      svgContent += chromoX(240, 180, '#ec4899');
+      svgContent += chromoX(240, 220, '#a855f7');
+      svgContent += chromoX(360, 180, '#f59e0b');
+      svgContent += chromoX(360, 220, '#10b981');
+      svgContent += `<text x="300" y="290" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="bold">Homolog çiftler ekvatorda</text>`;
+    } else if (chromos === 'anafaz1-mayoz') {
+      // Homolog ayrılır
+      svgContent += chromoX(220, 140, '#ec4899');
+      svgContent += chromoX(380, 140, '#a855f7');
+      svgContent += chromoX(220, 260, '#f59e0b');
+      svgContent += chromoX(380, 260, '#10b981');
+      svgContent += `<text x="300" y="200" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="bold">Homolog kromozomlar ayrılır</text>`;
+    }
+  }
+
+  svg.innerHTML = svgContent;
+}
+
+function chromoX(x, y, color) {
+  // X şeklinde kromozom (2 kardeş kromatit)
+  return `
+    <g>
+      <line x1="${x-8}" y1="${y-8}" x2="${x+8}" y2="${y+8}" stroke="${color}" stroke-width="6" stroke-linecap="round"/>
+      <line x1="${x-8}" y1="${y+8}" x2="${x+8}" y2="${y-8}" stroke="${color}" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  `;
+}
+
+function chromoY(x, y, color) {
+  // Tek kromatit (Y şeklinde)
+  return `<line x1="${x}" y1="${y-10}" x2="${x}" y2="${y+10}" stroke="${color}" stroke-width="6" stroke-linecap="round"/>`;
+}
+
+function render() {
+  // Mode toggle
+  document.getElementById('t-mitoz').style.background = mode === 'mitoz' ? '#ec4899' : '#1e293b';
+  document.getElementById('t-mitoz').style.color = mode === 'mitoz' ? 'white' : '#94a3b8';
+  document.getElementById('t-mayoz').style.background = mode === 'mayoz' ? '#8b5cf6' : '#1e293b';
+  document.getElementById('t-mayoz').style.color = mode === 'mayoz' ? 'white' : '#94a3b8';
+
+  // Step active
+  document.querySelectorAll('.step-btn').forEach((b, i) => b.classList.toggle('active', i === step));
+
+  // Info
+  const s = STEPS[mode][step];
+  document.getElementById('info-title').textContent = s.title;
+  document.getElementById('info-text').innerHTML = s.text;
+
+  // Çiz
+  drawChromosomes(s);
+
+  // Nav button enable/disable
+  document.getElementById('prev').disabled = step === 0;
+  document.getElementById('next').disabled = step === 4;
+}
+
+document.getElementById('t-mitoz').onclick = () => { mode = 'mitoz'; step = 0; render(); };
+document.getElementById('t-mayoz').onclick = () => { mode = 'mayoz'; step = 0; render(); };
+document.getElementById('prev').onclick = () => { if (step > 0) { step--; render(); } };
+document.getElementById('next').onclick = () => { if (step < 4) { step++; render(); } };
+document.querySelectorAll('.step-btn').forEach((b, i) => b.onclick = () => { step = i; render(); });
+
+render();
+</script>
+</body>
+</html>

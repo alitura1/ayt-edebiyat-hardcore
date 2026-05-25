@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Besin Ağı & Av-Avcı · TYT Biyoloji</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .canli { cursor: pointer; transition: all 0.15s; }
+  .canli:hover { filter: brightness(1.3) drop-shadow(0 0 8px #fbbf24); }
+  .canli.selected { filter: drop-shadow(0 0 12px #fbbf24); }
+  .mode-btn { padding: 0.5rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.85rem; transition: all 0.15s; background: #1e293b; color: #94a3b8; }
+  .mode-btn.active { background: #10b981; color: white; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-emerald-400">🦅 Besin Ağı & Av-Avcı</h1>
+    <p class="text-sm text-slate-400">Bir canlıya tıkla → ne yer ne tarafından yeniyor gör. Enerji piramidi + biyolojik birikim modu.</p>
+  </header>
+
+  <div class="flex flex-wrap gap-2 mb-4">
+    <button id="mode-zincir" class="mode-btn active">🔗 Besin Ağı</button>
+    <button id="mode-enerji" class="mode-btn">📐 Enerji Piramidi</button>
+    <button id="mode-birikim" class="mode-btn">☠ Biyolojik Birikim</button>
+  </div>
+
+  <div class="grid lg:grid-cols-3 gap-4">
+    <!-- Ekosistem SVG -->
+    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <svg id="svg" viewBox="0 0 600 450" class="w-full h-auto">
+        <rect x="0" y="0" width="600" height="450" fill="#0f172a"/>
+
+        <!-- Üst etiket: trofik düzeyler -->
+        <text x="300" y="25" text-anchor="middle" fill="#cbd5e1" font-size="13" font-weight="bold">EKOSİSTEM — Besin Akışı</text>
+
+        <!-- 3. düzey: ikincil/üçüncül tüketici -->
+        <text x="20" y="80" fill="#f87171" font-size="11" font-weight="bold">3. düzey</text>
+        <text x="20" y="92" fill="#94a3b8" font-size="9">Etçil tüketiciler</text>
+
+        <g class="canli" data-id="kartal" transform="translate(150, 60)">
+          <circle r="22" fill="#7c3aed" stroke="#a78bfa" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🦅</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Kartal</text>
+        </g>
+        <g class="canli" data-id="kurt" transform="translate(300, 60)">
+          <circle r="22" fill="#7c3aed" stroke="#a78bfa" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🐺</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Kurt</text>
+        </g>
+        <g class="canli" data-id="tilki" transform="translate(450, 60)">
+          <circle r="22" fill="#7c3aed" stroke="#a78bfa" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🦊</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Tilki</text>
+        </g>
+
+        <!-- 2. düzey: birincil tüketici (otçul) -->
+        <text x="20" y="200" fill="#fbbf24" font-size="11" font-weight="bold">2. düzey</text>
+        <text x="20" y="212" fill="#94a3b8" font-size="9">Otçul tüketiciler</text>
+
+        <g class="canli" data-id="tavsan" transform="translate(120, 180)">
+          <circle r="22" fill="#f59e0b" stroke="#fde68a" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🐰</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Tavşan</text>
+        </g>
+        <g class="canli" data-id="fare" transform="translate(240, 180)">
+          <circle r="22" fill="#f59e0b" stroke="#fde68a" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🐭</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Fare</text>
+        </g>
+        <g class="canli" data-id="kelebek" transform="translate(360, 180)">
+          <circle r="22" fill="#f59e0b" stroke="#fde68a" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🦋</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Kelebek</text>
+        </g>
+        <g class="canli" data-id="gecu" transform="translate(480, 180)">
+          <circle r="22" fill="#f59e0b" stroke="#fde68a" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🦗</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Çekirge</text>
+        </g>
+
+        <!-- 1. düzey: üretici (bitki) -->
+        <text x="20" y="330" fill="#22c55e" font-size="11" font-weight="bold">1. düzey</text>
+        <text x="20" y="342" fill="#94a3b8" font-size="9">Üreticiler (ototrof)</text>
+
+        <g class="canli" data-id="cim" transform="translate(120, 320)">
+          <circle r="22" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🌱</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Çim</text>
+        </g>
+        <g class="canli" data-id="bugday" transform="translate(240, 320)">
+          <circle r="22" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🌾</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Buğday</text>
+        </g>
+        <g class="canli" data-id="cicek" transform="translate(360, 320)">
+          <circle r="22" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🌷</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Çiçek</text>
+        </g>
+        <g class="canli" data-id="agac" transform="translate(480, 320)">
+          <circle r="22" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+          <text y="5" text-anchor="middle" font-size="18">🌳</text>
+          <text y="35" text-anchor="middle" fill="#cbd5e1" font-size="10">Çam</text>
+        </g>
+
+        <text x="300" y="425" text-anchor="middle" fill="#22c55e" font-size="11" font-weight="bold">☀ Güneş enerjisi (fotosentez)</text>
+
+        <!-- Av-avcı okları (JS draws) -->
+        <g id="arrows"></g>
+      </svg>
+    </div>
+
+    <!-- Info paneli -->
+    <div>
+      <div id="info" class="bg-emerald-900/30 border-2 border-emerald-500/40 rounded-xl p-4 sticky top-4">
+        <div class="text-xs uppercase tracking-wider text-emerald-300 mb-2">📌 Detay</div>
+        <p id="info-text" class="text-xs leading-relaxed text-slate-200">Bir canlıya tıkla — av-avcı bağlantılarını ve trofik düzeyini gör.</p>
+      </div>
+
+      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
+        <strong class="text-emerald-300 block mb-2">⚡ Trofik Düzeyler</strong>
+        <ul class="space-y-1 text-[11px] text-slate-300">
+          <li><span class="text-green-400">●</span> <strong>1. düzey (Üretici):</strong> Ototrof, güneşten enerji (bitki)</li>
+          <li><span class="text-amber-400">●</span> <strong>2. düzey (Birincil):</strong> Otçul (herbivor) — bitki yer</li>
+          <li><span class="text-purple-400">●</span> <strong>3. düzey (İkincil):</strong> Etçil (karnivor) — otçul yer</li>
+          <li><span class="text-pink-400">●</span> <strong>4. düzey (Üçüncül):</strong> Etçilin etçili</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-emerald-300">💡 ÖSYM Klasik:</strong><br>
+    "Bu besin ağında kurt kaçıncı trofik düzeyde?" → <strong>3. (ikincil tüketici, etçil)</strong>.<br>
+    "Hangisi en az enerjiye sahip?" → <strong>en üst düzey</strong> (her trofik düzeyde enerji %90 kaybolur).<br>
+    "DDT besin zincirinde nerede en yoğun?" → <strong>en üst düzey</strong> (biyolojik birikim).
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Biyoloji · Ekosistem Ekolojisi · 7 soru/8 yıl
+  </div>
+</div>
+
+<script>
+const CANLILAR = {
+  cim: { ad: 'Çim', duzey: 1, yer: [], yenir_tarafindan: ['tavsan', 'gecu', 'fare'] },
+  bugday: { ad: 'Buğday', duzey: 1, yer: [], yenir_tarafindan: ['fare', 'gecu'] },
+  cicek: { ad: 'Çiçek', duzey: 1, yer: [], yenir_tarafindan: ['kelebek', 'fare'] },
+  agac: { ad: 'Çam Ağacı', duzey: 1, yer: [], yenir_tarafindan: [] },
+  tavsan: { ad: 'Tavşan', duzey: 2, yer: ['cim'], yenir_tarafindan: ['kartal', 'kurt', 'tilki'] },
+  fare: { ad: 'Fare', duzey: 2, yer: ['cim', 'bugday', 'cicek'], yenir_tarafindan: ['kartal', 'tilki'] },
+  kelebek: { ad: 'Kelebek', duzey: 2, yer: ['cicek'], yenir_tarafindan: [] },
+  gecu: { ad: 'Çekirge', duzey: 2, yer: ['cim', 'bugday'], yenir_tarafindan: ['tilki'] },
+  kartal: { ad: 'Kartal', duzey: 3, yer: ['tavsan', 'fare'], yenir_tarafindan: [] },
+  kurt: { ad: 'Kurt', duzey: 3, yer: ['tavsan'], yenir_tarafindan: [] },
+  tilki: { ad: 'Tilki', duzey: 3, yer: ['tavsan', 'fare', 'gecu'], yenir_tarafindan: [] },
+};
+
+const POSITIONS = {
+  cim: [120, 320], bugday: [240, 320], cicek: [360, 320], agac: [480, 320],
+  tavsan: [120, 180], fare: [240, 180], kelebek: [360, 180], gecu: [480, 180],
+  kartal: [150, 60], kurt: [300, 60], tilki: [450, 60],
+};
+
+let mode = 'zincir';
+
+function setMode(m) {
+  mode = m;
+  ['zincir', 'enerji', 'birikim'].forEach(k => {
+    document.getElementById('mode-' + k).classList.toggle('active', k === m);
+  });
+  clearArrows();
+  document.querySelectorAll('.canli').forEach(c => c.classList.remove('selected'));
+  if (mode === 'enerji') showEnergyMode();
+  else if (mode === 'birikim') showBirikimMode();
+  else document.getElementById('info-text').innerHTML = 'Bir canlıya tıkla — av-avcı bağlantılarını gör.';
+}
+
+function clearArrows() {
+  document.getElementById('arrows').innerHTML = '';
+  document.getElementById('svg').querySelectorAll('.canli circle').forEach(c => {
+    c.setAttribute('fill-opacity', '1');
+  });
+}
+
+function drawArrow(fromId, toId, color = '#fbbf24') {
+  const [x1, y1] = POSITIONS[fromId];
+  const [x2, y2] = POSITIONS[toId];
+  const dx = x2 - x1, dy = y2 - y1;
+  const len = Math.sqrt(dx*dx + dy*dy);
+  const ux = dx/len, uy = dy/len;
+  const sx = x1 + ux * 25, sy = y1 + uy * 25;
+  const ex = x2 - ux * 25, ey = y2 - uy * 25;
+  const arrows = document.getElementById('arrows');
+  arrows.innerHTML += `
+    <line x1="${sx}" y1="${sy}" x2="${ex}" y2="${ey}" stroke="${color}" stroke-width="2" marker-end="url(#arrowhead-eko)"/>
+  `;
+  // marker tanım
+  if (!document.getElementById('arrowhead-eko')) {
+    const def = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    def.innerHTML = `<marker id="arrowhead-eko" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="${color}"/></marker>`;
+    document.getElementById('svg').appendChild(def);
+  }
+}
+
+function showCanli(id) {
+  if (mode !== 'zincir') return;
+  clearArrows();
+  document.querySelectorAll('.canli').forEach(c => c.classList.toggle('selected', c.dataset.id === id));
+  const c = CANLILAR[id];
+  // Ne yer (yeşil ok ona doğru)
+  c.yer.forEach(yId => drawArrow(yId, id, '#22c55e'));
+  // Kim onu yer (kırmızı ok ondan)
+  c.yenir_tarafindan.forEach(avId => drawArrow(id, avId, '#ef4444'));
+
+  const duzeyAdi = ['', 'Üretici (1.düzey)', 'Birincil Tüketici - Otçul (2.düzey)', 'İkincil/Üçüncül Tüketici - Etçil (3.düzey)'][c.duzey];
+  document.getElementById('info-text').innerHTML = `
+    <h3 class="text-base font-bold text-emerald-200 mb-1">${c.ad}</h3>
+    <div class="text-[11px] text-amber-300 mb-2">🏷 ${duzeyAdi}</div>
+    <div class="text-[11px] mb-2">
+      <strong class="text-green-300">🍽 NE YER:</strong> ${c.yer.length ? c.yer.map(x => CANLILAR[x].ad).join(', ') : 'Güneş (ototrof)'}
+    </div>
+    <div class="text-[11px]">
+      <strong class="text-red-300">🪤 KİM ONU YER:</strong> ${c.yenir_tarafindan.length ? c.yenir_tarafindan.map(x => CANLILAR[x].ad).join(', ') : '— (en üst basamak)'}
+    </div>
+    <div class="mt-2 text-[10px] text-slate-400 italic">🟢 yeşil ok = ${c.ad} yiyor · 🔴 kırmızı ok = ${c.ad} avcılara av oluyor</div>
+  `;
+}
+
+function showEnergyMode() {
+  clearArrows();
+  // Trofik düzey rengi belirginleştir
+  document.getElementById('info-text').innerHTML = `
+    <h3 class="text-base font-bold text-emerald-200 mb-1">⚡ Enerji Piramidi</h3>
+    <p class="text-xs">Her trofik düzeyde aktarılan enerji ~%10. Yani 1000 birim güneş enerjisi:</p>
+    <ul class="text-[11px] mt-2 space-y-1 text-slate-300">
+      <li>🌱 Üreticide: <strong class="text-green-300">1000 birim</strong></li>
+      <li>🐰 Birincil tüketicide: <strong class="text-amber-300">100 birim</strong> (~%10)</li>
+      <li>🐺 İkincil tüketicide: <strong class="text-purple-300">10 birim</strong> (~%1)</li>
+      <li>🦅 Üçüncül tüketicide: <strong class="text-pink-300">1 birim</strong> (~%0.1)</li>
+    </ul>
+    <p class="text-[10px] mt-2 text-slate-400">Bu yüzden en üst basamakta canlı sayısı az, biyokütle düşük.</p>
+  `;
+  // Trofik düzey arası okları çiz
+  drawArrow('cim', 'tavsan', '#22c55e');
+  drawArrow('tavsan', 'kurt', '#ef4444');
+  drawArrow('cicek', 'kelebek', '#22c55e');
+  drawArrow('fare', 'kartal', '#ef4444');
+  drawArrow('bugday', 'gecu', '#22c55e');
+}
+
+function showBirikimMode() {
+  clearArrows();
+  document.getElementById('info-text').innerHTML = `
+    <h3 class="text-base font-bold text-emerald-200 mb-1">☠ Biyolojik Birikim (DDT)</h3>
+    <p class="text-xs">Zehirli madde besin zincirinde <strong>en üst basamakta yoğunlaşır</strong>. Çünkü her basamakta organizma çok fazla av yer, ama zehir vücudundan atılmaz, birikir.</p>
+    <ul class="text-[11px] mt-2 space-y-1 text-slate-300">
+      <li>🌱 Bitki: <strong class="text-green-300">1 ppm</strong> (en az)</li>
+      <li>🐰 Otçul: <strong class="text-amber-300">10 ppm</strong></li>
+      <li>🐺 Etçil: <strong class="text-purple-300">100 ppm</strong></li>
+      <li>🦅 Süper etçil: <strong class="text-pink-300">1000 ppm</strong> (10x10x10)</li>
+    </ul>
+    <p class="text-[10px] mt-2 text-slate-400">Kartal yumurtası ince kabuk, balık ölümleri = DDT'nin sonucu. Türkiye'de DDT yasaklı.</p>
+  `;
+  // Renk: alt seviye yeşil, üst kırmızı
+  document.getElementById('svg').querySelectorAll('.canli').forEach(c => {
+    const id = c.dataset.id;
+    const duzey = CANLILAR[id].duzey;
+    const opa = duzey === 1 ? 0.3 : duzey === 2 ? 0.6 : 1.0;
+    c.querySelector('circle').setAttribute('fill-opacity', opa);
+  });
+}
+
+document.querySelectorAll('.canli').forEach(c => c.onclick = () => showCanli(c.dataset.id));
+document.getElementById('mode-zincir').onclick = () => setMode('zincir');
+document.getElementById('mode-enerji').onclick = () => setMode('enerji');
+document.getElementById('mode-birikim').onclick = () => setMode('birikim');
+
+setMode('zincir');
+</script>
+</body>
+</html>

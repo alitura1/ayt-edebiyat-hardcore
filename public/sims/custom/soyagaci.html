@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Soyağacı Analiz Aracı · TYT Biyoloji</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .scen-btn { padding: 0.6rem 1rem; border-radius: 8px; font-weight: 700; font-size: 0.8rem; transition: all 0.15s; }
+  .scen-btn.active { background: #10b981; color: white; }
+  .scen-btn:not(.active) { background: #1e293b; color: #94a3b8; }
+  .opt-btn { padding: 0.5rem 0.8rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem; background: #1e293b; color: #e2e8f0; border: 2px solid #334155; transition: all 0.15s; }
+  .opt-btn:hover { border-color: #fbbf24; }
+  .opt-btn.correct { background: #065f46; border-color: #10b981; color: white; }
+  .opt-btn.wrong { background: #7f1d1d; border-color: #ef4444; color: white; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-emerald-400">🌳 Soyağacı Analiz Aracı</h1>
+    <p class="text-sm text-slate-400">3 nesilli aile soyağacında kalıtım tipini tahmin et · ÖSYM her yıl bu tip sorar (2023, 2024, 2025 hepsinde geldi).</p>
+  </header>
+
+  <!-- Senaryo seçici -->
+  <div class="flex flex-wrap gap-2 mb-4">
+    <span class="text-sm text-slate-400 mr-1 self-center">Senaryo:</span>
+    <button class="scen-btn active" data-scen="0">🧬 #1</button>
+    <button class="scen-btn" data-scen="1">🧬 #2</button>
+    <button class="scen-btn" data-scen="2">🧬 #3</button>
+    <button class="scen-btn" data-scen="3">🧬 #4</button>
+  </div>
+
+  <div class="grid lg:grid-cols-5 gap-4">
+    <!-- Soyağacı SVG -->
+    <div class="lg:col-span-3 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <svg viewBox="0 0 600 400" class="w-full h-auto">
+        <!-- Nesil etiketleri -->
+        <text x="20" y="60" fill="#94a3b8" font-size="12" font-weight="bold">I.</text>
+        <text x="20" y="190" fill="#94a3b8" font-size="12" font-weight="bold">II.</text>
+        <text x="20" y="320" fill="#94a3b8" font-size="12" font-weight="bold">III.</text>
+
+        <!-- I. nesil -->
+        <g id="I-1" class="birey" data-id="I-1" data-cins="erkek" data-row="1" data-col="1"></g>
+        <g id="I-2" class="birey" data-id="I-2" data-cins="kadin" data-row="1" data-col="2"></g>
+
+        <!-- Çizgiler I-II arası -->
+        <line x1="150" y1="50" x2="200" y2="50" stroke="#94a3b8" stroke-width="2" />
+        <line x1="175" y1="50" x2="175" y2="180" stroke="#94a3b8" stroke-width="2" />
+        <line x1="100" y1="180" x2="350" y2="180" stroke="#94a3b8" stroke-width="2" />
+        <line x1="100" y1="160" x2="100" y2="180" stroke="#94a3b8" stroke-width="2" />
+        <line x1="250" y1="160" x2="250" y2="180" stroke="#94a3b8" stroke-width="2" />
+        <line x1="350" y1="160" x2="350" y2="180" stroke="#94a3b8" stroke-width="2" />
+
+        <!-- II. nesil -->
+        <g id="II-1" class="birey" data-id="II-1" data-cins="kadin" data-row="2" data-col="1"></g>
+        <g id="II-2" class="birey" data-id="II-2" data-cins="erkek" data-row="2" data-col="2"></g>
+        <g id="II-3" class="birey" data-id="II-3" data-cins="kadin" data-row="2" data-col="3"></g>
+
+        <!-- II-2 evlilik (eş dışarıdan) -->
+        <g id="II-2x" class="birey" data-id="II-2x" data-cins="kadin" data-row="2" data-col="2x"></g>
+        <line x1="250" y1="200" x2="320" y2="200" stroke="#94a3b8" stroke-width="2" />
+        <line x1="285" y1="200" x2="285" y2="310" stroke="#94a3b8" stroke-width="2" />
+        <line x1="220" y1="310" x2="380" y2="310" stroke="#94a3b8" stroke-width="2" />
+        <line x1="220" y1="290" x2="220" y2="310" stroke="#94a3b8" stroke-width="2" />
+        <line x1="290" y1="290" x2="290" y2="310" stroke="#94a3b8" stroke-width="2" />
+        <line x1="380" y1="290" x2="380" y2="310" stroke="#94a3b8" stroke-width="2" />
+
+        <!-- III. nesil -->
+        <g id="III-1" class="birey" data-id="III-1" data-cins="kadin" data-row="3" data-col="1"></g>
+        <g id="III-2" class="birey" data-id="III-2" data-cins="erkek" data-row="3" data-col="2"></g>
+        <g id="III-3" class="birey" data-id="III-3" data-cins="kadin" data-row="3" data-col="3"></g>
+
+        <!-- Legend -->
+        <g transform="translate(420, 60)">
+          <text fill="#94a3b8" font-size="12" font-weight="bold" y="0">Sembol Anahtarı</text>
+          <rect x="0" y="10" width="20" height="20" fill="none" stroke="#94a3b8" stroke-width="2"/>
+          <text x="28" y="25" fill="#cbd5e1" font-size="11">Sağlıklı erkek</text>
+          <circle cx="10" cy="50" r="11" fill="none" stroke="#94a3b8" stroke-width="2"/>
+          <text x="28" y="55" fill="#cbd5e1" font-size="11">Sağlıklı kadın</text>
+          <rect x="0" y="70" width="20" height="20" fill="#dc2626" stroke="#dc2626"/>
+          <text x="28" y="85" fill="#cbd5e1" font-size="11">Hasta erkek</text>
+          <circle cx="10" cy="110" r="11" fill="#dc2626" stroke="#dc2626"/>
+          <text x="28" y="115" fill="#cbd5e1" font-size="11">Hasta kadın</text>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Soru + cevap paneli -->
+    <div class="lg:col-span-2">
+      <div class="bg-emerald-900/30 border-2 border-emerald-500/40 rounded-xl p-4 mb-3">
+        <div class="text-xs uppercase tracking-wider text-emerald-300 mb-2">📌 Soru</div>
+        <p class="text-sm font-bold mb-3">Bu soyağacındaki kalıtım tipi nedir?</p>
+        <div class="grid gap-2">
+          <button class="opt-btn" data-opt="oto-bas">🟢 Otozomal Baskın</button>
+          <button class="opt-btn" data-opt="oto-cek">🔵 Otozomal Çekinik</button>
+          <button class="opt-btn" data-opt="x-bas">🟡 X'e Bağlı Baskın</button>
+          <button class="opt-btn" data-opt="x-cek">🟣 X'e Bağlı Çekinik</button>
+        </div>
+      </div>
+
+      <div id="reveal" class="hidden bg-amber-900/30 border-2 border-amber-500/40 rounded-xl p-4">
+        <div class="text-xs uppercase tracking-wider text-amber-300 mb-2">💡 Açıklama</div>
+        <p id="reveal-text" class="text-xs leading-relaxed text-slate-200"></p>
+      </div>
+
+      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
+        <strong class="text-emerald-300 block mb-2">🔑 İpuçları</strong>
+        <ul class="space-y-1 list-disc list-inside text-slate-300 text-[11px]">
+          <li><strong>Baskın</strong>: Her hasta çocuğun en az bir hasta ebeveyni VAR.</li>
+          <li><strong>Çekinik</strong>: Sağlıklı ebeveynlerden hasta çocuk OLABİLİR.</li>
+          <li><strong>X'e bağlı çekinik</strong>: Erkeklerde sık (XᵃY tek alel yetiyor), hemofili / renk körlüğü.</li>
+          <li><strong>X'e bağlı baskın</strong>: Hasta baba → tüm kız çocuklar hasta.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-emerald-300">💡 ÖSYM Klasik Adım Adım Strateji:</strong><br>
+    1) Önce <strong>çekinik mi baskın mı</strong> bak: sağlıklı ebeveynlerden hasta çocuk → çekinik.<br>
+    2) Sonra <strong>otozomal mi X'e bağlı mı</strong>: hasta erkek-sağlıklı kadından hasta KIZ varsa → çekinik X'e bağlı OLAMAZ → otozomal.<br>
+    3) Hemofili/renk körlüğü tarzı erkeklerde fazla → X'e bağlı çekinik.
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Biyoloji · Kalıtımın Genel İlkeleri · 8 soru/8 yıl ⭐
+  </div>
+</div>
+
+<script>
+// Senaryo veri: her bireyin hasta mı sağlıklı mı
+// Format: { I-1: 'h'|'s', ... } + correct answer + reveal text
+const SCENARIOS = [
+  {
+    name: 'Senaryo 1',
+    bireyler: { 'I-1': 's', 'I-2': 'h', 'II-1': 's', 'II-2': 'h', 'II-3': 's', 'II-2x': 's', 'III-1': 'h', 'III-2': 's', 'III-3': 's' },
+    correct: 'oto-bas',
+    reveal: '<strong>Otozomal Baskın</strong>: I-2 (hasta anne) → II-2 hasta erkek (kalıtım var). Her hasta bireyin EN AZ BİR hasta ebeveyni var. Cinsiyet ayrımı yok (hem kız hem erkek hasta olabilir).',
+  },
+  {
+    name: 'Senaryo 2',
+    bireyler: { 'I-1': 's', 'I-2': 's', 'II-1': 'h', 'II-2': 's', 'II-3': 's', 'II-2x': 's', 'III-1': 's', 'III-2': 'h', 'III-3': 's' },
+    correct: 'oto-cek',
+    reveal: '<strong>Otozomal Çekinik</strong>: I. nesil sağlıklı ama II-1 hasta → ebeveynler taşıyıcı (Aa × Aa). III-2 de hasta erkek → otozomal (cinsiyet ayrımı yok), çekinik (taşıyıcı ebeveynler).',
+  },
+  {
+    name: 'Senaryo 3',
+    bireyler: { 'I-1': 'h', 'I-2': 's', 'II-1': 'h', 'II-2': 'h', 'II-3': 'h', 'II-2x': 's', 'III-1': 'h', 'III-2': 's', 'III-3': 'h' },
+    correct: 'x-bas',
+    reveal: '<strong>X\'e Bağlı Baskın</strong>: Hasta baba (I-1) → tüm KIZ çocukları hasta (II-1, II-3) ama erkek çocuk hasta olduğu için bilgi tamamlanmaz. III-2 sağlıklı erkek (Xᴬ\' geçmedi). Hasta erkekten doğan kızların hepsi hastaysa → X\'e bağlı baskın.',
+  },
+  {
+    name: 'Senaryo 4',
+    bireyler: { 'I-1': 's', 'I-2': 's', 'II-1': 's', 'II-2': 'h', 'II-3': 's', 'II-2x': 's', 'III-1': 's', 'III-2': 'h', 'III-3': 's' },
+    correct: 'x-cek',
+    reveal: '<strong>X\'e Bağlı Çekinik</strong>: II-2 hasta erkek, anne taşıyıcı XᴬXᵃ. III-2 hasta erkek, anne yine taşıyıcı. Çekinik (sağlıklı ebeveynlerden hasta çocuk) + erkeklerde belirgin (XᵃY tek alel) → X\'e bağlı çekinik. Klasik HEMOFİLİ / RENK KÖRLÜĞÜ örneği.',
+  },
+];
+
+let currentScen = 0;
+let answered = false;
+
+function drawBirey(id, sicklik, cins, x, y) {
+  const g = document.getElementById(id);
+  if (!g) return;
+  g.innerHTML = '';
+  const isHasta = sicklik === 'h';
+  const fillColor = isHasta ? '#dc2626' : '#1e293b';
+  if (cins === 'erkek') {
+    const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    rect.setAttribute('x', x - 15);
+    rect.setAttribute('y', y - 15);
+    rect.setAttribute('width', 30);
+    rect.setAttribute('height', 30);
+    rect.setAttribute('fill', fillColor);
+    rect.setAttribute('stroke', '#94a3b8');
+    rect.setAttribute('stroke-width', 2);
+    g.appendChild(rect);
+  } else {
+    const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c.setAttribute('cx', x);
+    c.setAttribute('cy', y);
+    c.setAttribute('r', 16);
+    c.setAttribute('fill', fillColor);
+    c.setAttribute('stroke', '#94a3b8');
+    c.setAttribute('stroke-width', 2);
+    g.appendChild(c);
+  }
+  // Label
+  const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+  txt.setAttribute('x', x);
+  txt.setAttribute('y', y + 35);
+  txt.setAttribute('text-anchor', 'middle');
+  txt.setAttribute('fill', '#cbd5e1');
+  txt.setAttribute('font-size', '10');
+  txt.textContent = id;
+  g.appendChild(txt);
+}
+
+// Pozisyonlar (id → x, y)
+const POSITIONS = {
+  'I-1': [150, 50], 'I-2': [200, 50],
+  'II-1': [100, 160], 'II-2': [250, 160], 'II-3': [350, 160],
+  'II-2x': [320, 200],
+  'III-1': [220, 290], 'III-2': [290, 290], 'III-3': [380, 290],
+};
+
+function render() {
+  const sc = SCENARIOS[currentScen];
+  // Soyağacı çiz
+  for (const id in POSITIONS) {
+    const [x, y] = POSITIONS[id];
+    const grup = document.getElementById(id);
+    const cins = grup?.dataset.cins || 'erkek';
+    const sicklik = sc.bireyler[id] || 's';
+    drawBirey(id, sicklik, cins, x, y);
+  }
+  // Cevap butonları reset
+  document.querySelectorAll('.opt-btn').forEach(b => {
+    b.classList.remove('correct', 'wrong');
+    b.disabled = false;
+  });
+  document.getElementById('reveal').classList.add('hidden');
+  answered = false;
+}
+
+document.querySelectorAll('.scen-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentScen = parseInt(btn.dataset.scen);
+    document.querySelectorAll('.scen-btn').forEach(b => b.classList.toggle('active', b === btn));
+    render();
+  });
+});
+
+document.querySelectorAll('.opt-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (answered) return;
+    answered = true;
+    const sc = SCENARIOS[currentScen];
+    const isCorrect = btn.dataset.opt === sc.correct;
+    document.querySelectorAll('.opt-btn').forEach(b => {
+      b.disabled = true;
+      if (b.dataset.opt === sc.correct) b.classList.add('correct');
+      if (b === btn && !isCorrect) b.classList.add('wrong');
+    });
+    document.getElementById('reveal-text').innerHTML = sc.reveal;
+    document.getElementById('reveal').classList.remove('hidden');
+  });
+});
+
+render();
+</script>
+</body>
+</html>

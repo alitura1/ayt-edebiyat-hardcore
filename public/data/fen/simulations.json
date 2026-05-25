@@ -1,11 +1,61 @@
 [
   {
+    "id": "custom_zar_gecisi",
+    "title": "Hücre Zar Geçişi (Osmoz/Difüzyon)",
+    "ders": "biyoloji",
+    "konu": "bio_hucre",
+    "aciklama": "Hipertonik/izotonik/hipotonik ortam · su+madde molekülleri animasyon · hücre büzülme/şişme gözlem. ÖSYM klasik tuz çözeltisi sorusu.",
+    "url": "./sims/custom/zar-gecisi.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
     "id": "custom_mendel",
     "title": "Mendel Punnett Karesi",
     "ders": "biyoloji",
     "konu": "bio_kalitim",
     "aciklama": "Anne + baba genotipi seç, Punnett karesi otomatik · olasılık + fenotip oranı. TYT kalıtım sıcak alanı için.",
     "url": "./sims/custom/mendel.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_soyagaci",
+    "title": "Soyağacı Analiz Aracı",
+    "ders": "biyoloji",
+    "konu": "bio_kalitim",
+    "aciklama": "3 nesilli aile şeması · 4 kalıtım senaryosu (otozomal/X'e bağlı · baskın/çekinik) · tahmin + doğrulama. ÖSYM her yıl gelir.",
+    "url": "./sims/custom/soyagaci.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_mitoz_mayoz",
+    "title": "Mitoz / Mayoz Animasyon",
+    "ders": "biyoloji",
+    "konu": "bio_bolunme",
+    "aciklama": "Profaz → Metafaz → Anafaz → Telofaz adım adım · kromozom hareketi · mitoz vs mayoz kıyaslama. 'Hangi evrede ne olur' sorusunun cevabı.",
+    "url": "./sims/custom/mitoz-mayoz.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_besin_agi",
+    "title": "Besin Ağı & Av-Avcı",
+    "ders": "biyoloji",
+    "konu": "bio_ekosistem",
+    "aciklama": "Üretici → Tüketici basamakları · av-avcı oklar · enerji piramidi %10 kuralı · biyolojik birikim (DDT). ÖSYM her yıl besin zinciri sorar.",
+    "url": "./sims/custom/besin-agi.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_canli_alemleri",
+    "title": "Canlı Âlemleri Sınıflandırma",
+    "ders": "biyoloji",
+    "konu": "bio_canlilar",
+    "aciklama": "5 alem (Monera/Protista/Mantar/Bitki/Hayvan) · 12 canlı kartı tıkla-doğrula · ototrof/heterotrof + prokaryot/ökaryot. Linnaeus sistemi.",
+    "url": "./sims/custom/canli-alemleri.html",
     "kaynak": "Site içi · Türkçe",
     "type": "custom"
   },
@@ -30,12 +80,42 @@
     "type": "custom"
   },
   {
+    "id": "custom_hal_degisimi",
+    "title": "Hâl Değişimi Q-T Grafiği",
+    "ders": "fizik",
+    "konu": "fizik_isi_sicaklik",
+    "aciklama": "Buz → Su → Buhar geçişleri animasyonu · Q-T grafiği canlı çizilir · ergime/kaynama sırasında T sabit görsel. ÖSYM klasik grafik sorusu.",
+    "url": "./sims/custom/hal-degisimi.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_kaldirma",
+    "title": "Kaldırma Kuvveti (Arşimet)",
+    "ders": "fizik",
+    "konu": "fizik_basinc_kaldirma",
+    "aciklama": "Cisim+sıvı yoğunluk slider · yüzme/askıda/batma şartları görsel · Fkald=ρ·g·V formülü canlı. 5 farklı sıvı (su/alkol/yağ/tuzlu/cıva).",
+    "url": "./sims/custom/kaldirma.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
     "id": "custom_periyodik",
     "title": "Periyodik Tablo Mini",
     "ders": "kimya",
     "konu": "kimya_atom_periyodik",
     "aciklama": "İlk 4 periyot + soygazlar · tıkla element bilgisi (proton/nötron/elektron/grup/periyot/değerlik) · metal/ametal/soygaz vurgu. EN SICAK kimya (9 soru).",
     "url": "./sims/custom/periyodik.html",
+    "kaynak": "Site içi · Türkçe",
+    "type": "custom"
+  },
+  {
+    "id": "custom_karisim_ayirma",
+    "title": "Karışım Ayırma Teknikleri",
+    "ders": "kimya",
+    "konu": "kimya_karisimlar",
+    "aciklama": "6 teknik (Süzme/Damıtma/Mıknatıs/Buharlaştırma/Ayırma Hunisi/Kromatografi) · interaktif quiz 'Bunu nasıl ayırırsın'. ⭐ Kimya'nın en sıcak alanı (8 soru).",
+    "url": "./sims/custom/karisim-ayirma.html",
     "kaynak": "Site içi · Türkçe",
     "type": "custom"
   },

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hâl Değişimi Q-T Grafiği · TYT Fizik</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .madde-btn { padding: 0.5rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.8rem; transition: all 0.15s; background: #1e293b; color: #94a3b8; }
+  .madde-btn.active { background: #ef4444; color: white; }
+  .ctrl-btn { padding: 0.5rem 1.2rem; border-radius: 6px; font-weight: 700; font-size: 0.85rem; background: #3b82f6; color: white; transition: all 0.15s; }
+  .ctrl-btn:hover { background: #2563eb; }
+  .ctrl-btn:disabled { background: #475569; opacity: 0.5; cursor: not-allowed; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-orange-400">🌡 Hâl Değişimi Q-T Grafiği</h1>
+    <p class="text-sm text-slate-400">Buz → Su → Buhar geçişleri · Hâl değişimi sırasında sıcaklık SABİT · Q=m·c·ΔT vs Q=m·L.</p>
+  </header>
+
+  <!-- Madde seçici -->
+  <div class="flex flex-wrap gap-2 mb-4">
+    <span class="text-sm text-slate-400 mr-1 self-center">Madde:</span>
+    <button class="madde-btn active" data-madde="su">💧 Su (0°C / 100°C)</button>
+    <button class="madde-btn" data-madde="etanol">🍷 Etanol (-114°C / 78°C)</button>
+    <button class="madde-btn" data-madde="civa">⚪ Cıva (-39°C / 357°C)</button>
+  </div>
+
+  <div class="grid lg:grid-cols-3 gap-4">
+    <!-- Canvas grafik -->
+    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <canvas id="canvas" width="600" height="380" class="w-full"></canvas>
+      <div class="flex gap-2 mt-3 justify-center">
+        <button id="play" class="ctrl-btn">▶ Başlat (Isıtmaya başla)</button>
+        <button id="reset" class="ctrl-btn" style="background:#64748b">↺ Sıfırla</button>
+      </div>
+      <div class="text-center mt-2">
+        <span class="inline-block bg-slate-800 rounded px-3 py-1 text-xs">
+          🌡 Anlık sıcaklık: <strong id="t-now" class="text-orange-300">—</strong> · Faz: <strong id="faz-now" class="text-cyan-300">—</strong>
+        </span>
+      </div>
+    </div>
+
+    <!-- Info paneli -->
+    <div>
+      <div id="info" class="bg-orange-900/30 border-2 border-orange-500/40 rounded-xl p-4 sticky top-4">
+        <div class="text-xs uppercase tracking-wider text-orange-300 mb-2">📌 Açıklama</div>
+        <p id="info-text" class="text-xs leading-relaxed text-slate-200">
+          ▶ Başlat'a bas, ısıtmayı başlat. Madde önce sıcaklığı YÜKSELT olur (Q=mcΔT), sonra ergime/kaynama sırasında <strong>sıcaklık SABİT kalır</strong> (Q=mL).
+        </p>
+      </div>
+
+      <div class="mt-3 bg-slate-800 rounded-lg p-3 text-xs">
+        <strong class="text-orange-300 block mb-2">📐 Formüller</strong>
+        <div class="space-y-1 text-[11px] text-slate-300">
+          <div><strong>Sıcaklık artarken</strong>: Q = m · c · ΔT<br><span class="text-slate-500">(c: öz ısı, ΔT: sıcaklık farkı)</span></div>
+          <div class="mt-2"><strong>Hâl değişimi sırasında</strong>: Q = m · L<br><span class="text-slate-500">(L: erime/buharlaşma gizli ısısı, T SABİT)</span></div>
+        </div>
+        <hr class="border-slate-700 my-2">
+        <strong class="text-orange-300 block mb-1">💡 Su için</strong>
+        <div class="text-[11px] text-slate-300">
+          T_e = 0°C · T_k = 100°C<br>
+          c_buz = 0.5 cal/g·°C · c_su = 1 cal/g·°C<br>
+          L_erime = 80 cal/g · L_buhar = 540 cal/g
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-orange-500/10 border border-orange-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-orange-300">💡 ÖSYM Klasik Soru:</strong><br>
+    "Sabit ısı veren ısıtıcıda buz ısıtılıyor. Q-T grafiği nasıl olur?" → 3 eğimli + 2 yatay bölge:
+    Buz ısınır (eğim dik, küçük c) → 0°C'de yatay (erime) → Su ısınır (eğim daha az dik, büyük c) → 100°C'de uzun yatay (buharlaşma, büyük L) → Buhar ısınır.
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Fizik · Isı ve Sıcaklık · 8 soru/8 yıl
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+
+const MADDELER = {
+  su:    { ad: 'Su',     te: 0,    tk: 100,  Lb: 540, Le: 80,  cKati: 0.5, cSivi: 1.0,  cGaz: 0.5 },
+  etanol:{ ad: 'Etanol', te: -114, tk: 78,   Lb: 200, Le: 25,  cKati: 0.5, cSivi: 0.58, cGaz: 0.3 },
+  civa:  { ad: 'Cıva',   te: -39,  tk: 357,  Lb: 65,  Le: 2.8, cKati: 0.03,cSivi: 0.033,cGaz: 0.02 },
+};
+
+let madde = 'su';
+let t = MADDELER.su.te - 30; // başlangıç sıcaklığı
+let zaman = 0;
+let playing = false;
+let path = []; // [{t, T}]
+
+const ISI_RATE = 1; // birim Q / frame
+
+function getMadde() { return MADDELER[madde]; }
+
+function setMadde(m) {
+  madde = m;
+  document.querySelectorAll('.madde-btn').forEach(b => b.classList.toggle('active', b.dataset.madde === m));
+  reset();
+}
+
+function reset() {
+  t = getMadde().te - 30;
+  zaman = 0;
+  path = [];
+  playing = false;
+  document.getElementById('play').textContent = '▶ Başlat';
+  draw();
+  updateInfo();
+}
+
+function step() {
+  if (!playing) return;
+  zaman += 1;
+  const m = getMadde();
+
+  // Faz aşamaları (toplam ısı bazında)
+  // 1. Kati ısıtma: -30°C'den te'ye (Q = c_kati * 1g * (te-(-30+m.te)) yaklaşık)
+  // 2. Erime: te sabit, Q = Le birim ısı kadar
+  // 3. Sıvı ısıtma: te'den tk'ye
+  // 4. Buharlaşma: tk sabit, Q = Lb
+  // 5. Gaz ısıtma: tk üstüne
+
+  if (t < m.te) {
+    // Katı ısınma
+    t += ISI_RATE / m.cKati / 5;
+    if (t > m.te) t = m.te;
+  } else if (Math.abs(t - m.te) < 0.5 && (path.length === 0 || path[path.length - 1].faz !== 'kati' || zaman < path[0].t + (m.te + 30) / (ISI_RATE / m.cKati / 5) + m.Le / ISI_RATE)) {
+    // Erime — sabit T
+    t = m.te;
+    // Erime tamamlanma sayacı: önceki path girdileri sayılır
+    const erimeStart = path.findIndex(p => p.faz === 'erime');
+    if (erimeStart === -1 || path.filter(p => p.faz === 'erime').length < m.Le / ISI_RATE) {
+      // hâlâ eriyor
+    } else {
+      // erime bitti, sıvıya geç
+      t = m.te + 0.5;
+    }
+  } else if (t < m.tk) {
+    // Sıvı ısınma
+    t += ISI_RATE / m.cSivi / 5;
+    if (t > m.tk) t = m.tk;
+  } else if (Math.abs(t - m.tk) < 0.5 && path.filter(p => p.faz === 'buharlasma').length < m.Lb / ISI_RATE) {
+    // Buharlaşma — sabit T
+    t = m.tk;
+  } else {
+    // Gaz ısınma
+    t += ISI_RATE / m.cGaz / 5;
+  }
+
+  // Faz tag
+  let faz = 'kati';
+  if (t >= m.te - 0.5 && t <= m.te + 0.5) faz = path.filter(p => p.faz === 'erime').length < m.Le / ISI_RATE ? 'erime' : 'sivi';
+  else if (t > m.te + 0.5 && t < m.tk - 0.5) faz = 'sivi';
+  else if (t >= m.tk - 0.5 && t <= m.tk + 0.5) faz = path.filter(p => p.faz === 'buharlasma').length < m.Lb / ISI_RATE ? 'buharlasma' : 'gaz';
+  else if (t > m.tk + 0.5) faz = 'gaz';
+
+  path.push({ t: zaman, T: t, faz });
+
+  if (zaman > 1000) playing = false; // limit
+
+  draw();
+  updateInfo();
+  if (playing) requestAnimationFrame(step);
+}
+
+function draw() {
+  ctx.fillStyle = '#0f172a';
+  ctx.fillRect(0, 0, W, H);
+
+  // Eksen çizgileri
+  const pad = 50;
+  ctx.strokeStyle = '#475569';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(pad, pad);
+  ctx.lineTo(pad, H - pad);
+  ctx.lineTo(W - pad, H - pad);
+  ctx.stroke();
+
+  // Y ekseni etiketleri (sıcaklık)
+  const m = getMadde();
+  const tMin = Math.min(m.te - 40, -40);
+  const tMax = Math.max(m.tk + 50, 200);
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '10px monospace';
+  ctx.textAlign = 'right';
+  const ySteps = 6;
+  for (let i = 0; i <= ySteps; i++) {
+    const T = tMin + (tMax - tMin) * i / ySteps;
+    const y = H - pad - (i / ySteps) * (H - 2 * pad);
+    ctx.fillText(T.toFixed(0) + '°', pad - 5, y + 3);
+    ctx.beginPath();
+    ctx.moveTo(pad, y);
+    ctx.lineTo(W - pad, y);
+    ctx.strokeStyle = '#1e293b';
+    ctx.stroke();
+  }
+
+  // Te ve Tk yatay özel çizgileri
+  function tToY(T) {
+    return H - pad - ((T - tMin) / (tMax - tMin)) * (H - 2 * pad);
+  }
+  ctx.strokeStyle = '#3b82f6';
+  ctx.setLineDash([4, 3]);
+  ctx.beginPath();
+  ctx.moveTo(pad, tToY(m.te));
+  ctx.lineTo(W - pad, tToY(m.te));
+  ctx.stroke();
+  ctx.fillStyle = '#60a5fa';
+  ctx.fillText(`T_e=${m.te}°`, W - pad + 5, tToY(m.te) + 3);
+
+  ctx.strokeStyle = '#ef4444';
+  ctx.beginPath();
+  ctx.moveTo(pad, tToY(m.tk));
+  ctx.lineTo(W - pad, tToY(m.tk));
+  ctx.stroke();
+  ctx.fillStyle = '#f87171';
+  ctx.fillText(`T_k=${m.tk}°`, W - pad + 5, tToY(m.tk) + 3);
+  ctx.setLineDash([]);
+
+  // X ekseni etiketi
+  ctx.fillStyle = '#cbd5e1';
+  ctx.font = 'bold 12px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('Zaman (Q ∝)', W / 2, H - 15);
+  ctx.save();
+  ctx.translate(15, H / 2);
+  ctx.rotate(-Math.PI / 2);
+  ctx.fillText('Sıcaklık (°C)', 0, 0);
+  ctx.restore();
+
+  // Path çiz
+  if (path.length > 1) {
+    ctx.strokeStyle = '#fbbf24';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    const xScale = (W - 2 * pad) / 1000;
+    path.forEach((p, i) => {
+      const x = pad + p.t * xScale;
+      const y = tToY(p.T);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+
+    // Faz renkli noktalar
+    const FAZ_COLORS = { kati: '#60a5fa', erime: '#fbbf24', sivi: '#22d3ee', buharlasma: '#ef4444', gaz: '#a855f7' };
+    path.forEach(p => {
+      const x = pad + p.t * xScale;
+      const y = tToY(p.T);
+      ctx.fillStyle = FAZ_COLORS[p.faz] || '#fbbf24';
+      ctx.beginPath();
+      ctx.arc(x, y, 1.5, 0, Math.PI * 2);
+      ctx.fill();
+    });
+  }
+}
+
+function updateInfo() {
+  document.getElementById('t-now').textContent = t.toFixed(1) + '°C';
+  const m = getMadde();
+  let faz = 'Katı 🧊', infoText = '';
+  if (t < m.te) {
+    faz = 'Katı 🧊';
+    infoText = `Madde katı halde. Sıcaklık artıyor: <strong>Q = m·c·ΔT</strong> (c_katı=${m.cKati}). Eğim büyük (küçük c).`;
+  } else if (Math.abs(t - m.te) < 0.6) {
+    faz = 'Erime ⏸';
+    infoText = `Sıcaklık SABİT! <strong>Erime</strong> oluyor. Verilen ısı: <strong>Q = m·L</strong> (L_erime=${m.Le} cal/g). Tüm madde sıvıya dönüşene kadar T değişmez.`;
+  } else if (t < m.tk) {
+    faz = 'Sıvı 💧';
+    infoText = `Madde sıvı halde. Sıcaklık artıyor: <strong>Q = m·c·ΔT</strong> (c_sıvı=${m.cSivi}). Eğim daha düz (büyük c).`;
+  } else if (Math.abs(t - m.tk) < 0.6) {
+    faz = 'Kaynama ⏸';
+    infoText = `Sıcaklık SABİT! <strong>Buharlaşma</strong> oluyor. <strong>Q = m·L</strong> (L_buhar=${m.Lb} cal/g) — bu en uzun yatay bölge!`;
+  } else {
+    faz = 'Gaz 💨';
+    infoText = `Madde gaz halde. Sıcaklık artıyor: <strong>Q = m·c·ΔT</strong> (c_gaz=${m.cGaz}).`;
+  }
+  document.getElementById('faz-now').textContent = faz;
+  document.getElementById('info-text').innerHTML = infoText;
+}
+
+document.getElementById('play').onclick = () => {
+  playing = !playing;
+  document.getElementById('play').textContent = playing ? '⏸ Duraklat' : '▶ Devam';
+  if (playing) step();
+};
+document.getElementById('reset').onclick = reset;
+document.querySelectorAll('.madde-btn').forEach(b => b.onclick = () => setMadde(b.dataset.madde));
+
+reset();
+</script>
+</body>
+</html>

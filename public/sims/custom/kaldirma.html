@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kaldırma Kuvveti (Arşimet) · TYT Fizik</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 8px; background: #1e293b; border-radius: 4px; }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; background: #06b6d4; border-radius: 50%; cursor: pointer; box-shadow: 0 2px 8px rgba(6,182,212,0.5); }
+  input[type=range]::-moz-range-thumb { width: 22px; height: 22px; background: #06b6d4; border-radius: 50%; cursor: pointer; border: none; }
+  .sivi-btn { padding: 0.4rem 0.8rem; border-radius: 6px; font-weight: 600; font-size: 0.75rem; background: #1e293b; color: #94a3b8; transition: all 0.15s; }
+  .sivi-btn.active { background: #06b6d4; color: white; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-cyan-400">⚓ Kaldırma Kuvveti (Arşimet)</h1>
+    <p class="text-sm text-slate-400">Cismin ve sıvının yoğunluklarını değiştir · yüzme / askıda / batma şartlarını gözle.</p>
+  </header>
+
+  <div class="grid lg:grid-cols-3 gap-4">
+    <!-- SVG -->
+    <div class="lg:col-span-2 bg-slate-900 rounded-xl p-3 border border-slate-700">
+      <svg id="svg" viewBox="0 0 600 400" class="w-full h-auto">
+        <rect x="0" y="0" width="600" height="400" fill="#0f172a"/>
+        <!-- Kap çerçeve -->
+        <rect x="100" y="100" width="400" height="280" fill="none" stroke="#94a3b8" stroke-width="3"/>
+        <!-- Sıvı (JS doldurur) -->
+        <rect id="sivi" x="103" y="103" width="394" height="274" fill="#0ea5e9" fill-opacity="0.4"/>
+        <!-- Cisim (JS pozisyon) -->
+        <rect id="cisim" x="270" y="160" width="60" height="60" fill="#dc2626" stroke="#fca5a5" stroke-width="2"/>
+        <!-- Yoğunluk etiketi sıvı -->
+        <text id="sivi-label" x="120" y="370" fill="#67e8f9" font-size="13" font-weight="bold">Su ρ=1.0</text>
+        <!-- Cisim ρ etiketi -->
+        <text id="cisim-label" x="300" y="195" text-anchor="middle" fill="white" font-size="11" font-weight="bold">ρ=0.5</text>
+        <!-- Kaldırma kuvveti oku -->
+        <g id="kaldirma-ok">
+          <line x1="430" y1="240" x2="430" y2="180" stroke="#fbbf24" stroke-width="3" marker-end="url(#arr1)"/>
+          <text x="445" y="215" fill="#fbbf24" font-size="11" font-weight="bold" id="fk-label">Fk</text>
+        </g>
+        <!-- Ağırlık oku -->
+        <g id="agirlik-ok">
+          <line x1="200" y1="180" x2="200" y2="250" stroke="#ef4444" stroke-width="3" marker-end="url(#arr2)"/>
+          <text x="170" y="215" fill="#ef4444" font-size="11" font-weight="bold">W</text>
+        </g>
+        <defs>
+          <marker id="arr1" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#fbbf24"/>
+          </marker>
+          <marker id="arr2" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#ef4444"/>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+
+    <!-- Kontroller + Sonuç -->
+    <div class="bg-slate-900 rounded-xl p-4 border border-slate-700 space-y-4">
+      <div>
+        <label class="flex items-baseline justify-between mb-1">
+          <span class="text-sm font-bold">🟥 Cisim Yoğunluğu</span>
+          <span id="val-rcisim" class="text-xl font-mono font-bold text-red-400">0.5</span>
+        </label>
+        <input type="range" id="slider-rcisim" min="0.3" max="3.0" step="0.1" value="0.5"/>
+        <div class="text-[10px] text-slate-500 flex justify-between"><span>0.3</span><span>3.0 g/cm³</span></div>
+      </div>
+
+      <div>
+        <span class="text-sm font-bold mr-2">🟦 Sıvı:</span>
+        <div class="flex flex-wrap gap-1 mt-2">
+          <button class="sivi-btn active" data-sivi="su" data-r="1.0">💧 Su (1.0)</button>
+          <button class="sivi-btn" data-sivi="alkol" data-r="0.79">🍷 Alkol (0.79)</button>
+          <button class="sivi-btn" data-sivi="yag" data-r="0.92">🛢 Yağ (0.92)</button>
+          <button class="sivi-btn" data-sivi="tuzlu" data-r="1.2">🧂 Tuzlu (1.2)</button>
+          <button class="sivi-btn" data-sivi="civa" data-r="13.6">⚪ Cıva (13.6)</button>
+        </div>
+      </div>
+
+      <!-- Sonuç paneli -->
+      <div class="bg-slate-800 rounded-lg p-3 border-l-4 border-amber-500">
+        <div class="text-xs uppercase tracking-wider text-amber-300">📌 Sonuç</div>
+        <div id="durum" class="text-2xl font-bold mt-1">⏸</div>
+        <div id="durum-text" class="text-xs text-slate-300 mt-1"></div>
+      </div>
+
+      <div class="text-xs font-mono space-y-1">
+        <div>F_kald = ρ_sıvı · g · V_batık</div>
+        <div>W = ρ_cisim · g · V</div>
+        <div class="text-amber-300" id="fk-result">F_kald = — N</div>
+        <div class="text-red-300" id="w-result">W = — N</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-cyan-500/10 border border-cyan-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-cyan-300">💡 Yüzme Şartları:</strong><br>
+    • <strong>Cisim ρ &lt; Sıvı ρ</strong> → cisim <strong>YÜZER</strong> (F_kald > W, denge için kısmen batık)<br>
+    • <strong>Cisim ρ = Sıvı ρ</strong> → cisim <strong>ASKIDA</strong> (F_kald = W, her yerde dengede)<br>
+    • <strong>Cisim ρ &gt; Sıvı ρ</strong> → cisim <strong>BATAR</strong> (W > F_kald, dibe iner)<br>
+    <strong>Klasik örnek:</strong> Demir suda batar (ρ_demir=7.8 > 1.0), ama tahta yüzer (ρ_tahta=0.6 < 1.0). Cıva çok yoğun (13.6) — demir bile cıvada yüzer!
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Fizik · Basınç ve Kaldırma Kuvveti · 5 soru/8 yıl
+  </div>
+</div>
+
+<script>
+const slider = document.getElementById('slider-rcisim');
+const val = document.getElementById('val-rcisim');
+const sivi = document.getElementById('sivi');
+const cisim = document.getElementById('cisim');
+const cisimLabel = document.getElementById('cisim-label');
+const siviLabel = document.getElementById('sivi-label');
+const durum = document.getElementById('durum');
+const durumText = document.getElementById('durum-text');
+const fkResult = document.getElementById('fk-result');
+const wResult = document.getElementById('w-result');
+
+const SIVI_RENKLER = {
+  su: { fill: '#0ea5e9', label: '💧 Su', emoji: '💧' },
+  alkol: { fill: '#f97316', label: '🍷 Alkol', emoji: '🍷' },
+  yag: { fill: '#eab308', label: '🛢 Yağ', emoji: '🛢' },
+  tuzlu: { fill: '#14b8a6', label: '🧂 Tuzlu Su', emoji: '🧂' },
+  civa: { fill: '#94a3b8', label: '⚪ Cıva', emoji: '⚪' },
+};
+
+let rCisim = 0.5;
+let rSivi = 1.0;
+let siviAdi = 'su';
+
+function update() {
+  rCisim = parseFloat(slider.value);
+  val.textContent = rCisim.toFixed(2);
+
+  const ratio = rCisim / rSivi;
+
+  // Cismin konumu (yüzme/batma)
+  let cisimY, cisimRenk;
+  const cisimYukseklik = 60;
+  const kapUst = 103;
+  const kapAlt = 377;
+
+  if (ratio < 1) {
+    // Yüzer — kısmen batık (orantı)
+    const batikOran = ratio; // ne kadar batık
+    cisimY = kapUst + (kapAlt - kapUst - cisimYukseklik) * (1 - 1 + batikOran); // su yüzeyinden aşağı batık
+    // basit: cismin alt kısmı su yüzeyine yakın, üst hava
+    // batik = ratio * yükseklik = ne kadar suya gömülür
+    cisimY = kapUst + (batikOran * cisimYukseklik) - cisimYukseklik;
+    // suyun en üstü kapUst = 103
+    cisimY = kapUst - (1 - batikOran) * cisimYukseklik;
+    cisimRenk = '#22c55e'; // yeşil = yüzer
+  } else if (Math.abs(ratio - 1) < 0.05) {
+    // Askıda — ortada
+    cisimY = (kapUst + kapAlt - cisimYukseklik) / 2;
+    cisimRenk = '#fbbf24'; // sarı = askıda
+  } else {
+    // Batar — en altta
+    cisimY = kapAlt - cisimYukseklik;
+    cisimRenk = '#ef4444'; // kırmızı = batar
+  }
+
+  cisim.setAttribute('y', cisimY);
+  cisim.setAttribute('fill', cisimRenk);
+  cisimLabel.setAttribute('y', cisimY + 35);
+  cisimLabel.textContent = `ρ=${rCisim.toFixed(2)}`;
+
+  // Sıvı rengi
+  const sr = SIVI_RENKLER[siviAdi];
+  sivi.setAttribute('fill', sr.fill);
+  sivi.setAttribute('fill-opacity', '0.4');
+  siviLabel.textContent = `${sr.label} ρ=${rSivi.toFixed(2)}`;
+
+  // Durum
+  let dur, durText;
+  if (ratio < 0.95) {
+    dur = '⬆️ YÜZER';
+    durText = `Cisim sıvıdan ${(1 - ratio).toFixed(2)} kat hafif. F_kald > W (dengede kısmen batık).`;
+  } else if (ratio < 1.05) {
+    dur = '⏸ ASKIDA';
+    durText = `Yoğunluklar eşit. F_kald = W → her noktada denge.`;
+  } else {
+    dur = '⬇️ BATAR';
+    durText = `Cisim sıvıdan ağır. W > F_kald → dibe iner.`;
+  }
+  durum.textContent = dur;
+  durum.style.color = cisimRenk;
+  durumText.textContent = durText;
+
+  // Kuvvet hesabı (V=1 cm³ varsay, g=10)
+  const V = 1; // birim hacim
+  const g = 10;
+  const fk = rSivi * g * V * Math.min(1, 1 / ratio); // V_batık
+  const w = rCisim * g * V;
+  fkResult.textContent = `F_kald = ${fk.toFixed(2)} N`;
+  wResult.textContent = `W = ${w.toFixed(2)} N`;
+}
+
+slider.oninput = update;
+document.querySelectorAll('.sivi-btn').forEach(b => b.onclick = () => {
+  siviAdi = b.dataset.sivi;
+  rSivi = parseFloat(b.dataset.r);
+  document.querySelectorAll('.sivi-btn').forEach(x => x.classList.toggle('active', x === b));
+  update();
+});
+
+update();
+</script>
+</body>
+</html>

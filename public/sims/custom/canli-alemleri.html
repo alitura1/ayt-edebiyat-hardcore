@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Canlı Âlemleri Sınıflandırma · TYT Biyoloji</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .alem-kart {
+    border-radius: 12px; padding: 1rem; transition: all 0.15s; cursor: pointer;
+    border: 3px solid transparent;
+  }
+  .alem-kart.target { border-style: dashed; border-color: #fbbf24; box-shadow: 0 0 20px rgba(251,191,36,0.3); }
+  .canli-kart {
+    background: #1e293b; border: 2px solid #334155; border-radius: 10px;
+    padding: 0.6rem; cursor: pointer; transition: all 0.15s; text-align: center;
+  }
+  .canli-kart:hover { border-color: #fbbf24; transform: translateY(-2px); }
+  .canli-kart.correct { background: #065f46; border-color: #10b981; }
+  .canli-kart.wrong { background: #7f1d1d; border-color: #ef4444; }
+  .canli-kart.done { opacity: 0.5; cursor: default; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-emerald-400">🌿 Canlı Âlemleri Sınıflandırma</h1>
+    <p class="text-sm text-slate-400">5 alem · Linnaeus sistemi · Canlı kartına tıkla → hangi aleme ait olduğunu seç.</p>
+  </header>
+
+  <!-- Skor bar -->
+  <div class="mb-4 bg-slate-900 border border-slate-700 rounded-lg p-3 flex items-center justify-between">
+    <div class="text-sm">
+      <strong class="text-emerald-300">Skor:</strong>
+      <span id="skor" class="text-amber-300 font-bold">0/0</span>
+      <span class="text-xs text-slate-400 ml-2">(Hedef: 12/12)</span>
+    </div>
+    <button id="reset" class="px-3 py-1 bg-slate-700 hover:bg-slate-600 text-white rounded text-xs">↺ Yeniden Başla</button>
+  </div>
+
+  <!-- 5 alem kartları -->
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-5">
+    <div class="alem-kart" data-alem="monera" style="background: linear-gradient(135deg,#6b21a8,#581c87)">
+      <div class="text-3xl mb-1">🦠</div>
+      <h3 class="font-bold text-purple-200 text-sm">Monera</h3>
+      <p class="text-[10px] text-purple-300">Bakteri · Prokaryot</p>
+    </div>
+    <div class="alem-kart" data-alem="protista" style="background: linear-gradient(135deg,#0e7490,#155e75)">
+      <div class="text-3xl mb-1">🔬</div>
+      <h3 class="font-bold text-cyan-200 text-sm">Protista</h3>
+      <p class="text-[10px] text-cyan-300">Amip, Öglena · Ökaryot tek hücreli</p>
+    </div>
+    <div class="alem-kart" data-alem="mantar" style="background: linear-gradient(135deg,#a16207,#92400e)">
+      <div class="text-3xl mb-1">🍄</div>
+      <h3 class="font-bold text-amber-200 text-sm">Mantar</h3>
+      <p class="text-[10px] text-amber-300">Heterotrof · Çeperli</p>
+    </div>
+    <div class="alem-kart" data-alem="bitki" style="background: linear-gradient(135deg,#15803d,#166534)">
+      <div class="text-3xl mb-1">🌿</div>
+      <h3 class="font-bold text-green-200 text-sm">Bitki</h3>
+      <p class="text-[10px] text-green-300">Ototrof · Fotosentez</p>
+    </div>
+    <div class="alem-kart" data-alem="hayvan" style="background: linear-gradient(135deg,#b91c1c,#991b1b)">
+      <div class="text-3xl mb-1">🐾</div>
+      <h3 class="font-bold text-red-200 text-sm">Hayvan</h3>
+      <p class="text-[10px] text-red-300">Heterotrof · Hareketli</p>
+    </div>
+  </div>
+
+  <!-- Aktif soru -->
+  <div class="bg-slate-900 rounded-xl p-4 border border-slate-700 mb-4">
+    <div id="active-q" class="text-center">
+      <p class="text-sm text-slate-400 mb-3">Aşağıdan bir canlıya tıkla, sonra hangi aleme ait olduğunu yukarıdan seç.</p>
+    </div>
+  </div>
+
+  <!-- 12 canlı kartları -->
+  <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 mb-5">
+    <div class="canli-kart" data-id="ecoli" data-alem="monera">
+      <div class="text-3xl">🦠</div>
+      <div class="text-xs font-bold mt-1">E. coli</div>
+      <div class="text-[10px] text-slate-400">Bakteri</div>
+    </div>
+    <div class="canli-kart" data-id="laktobasil" data-alem="monera">
+      <div class="text-3xl">🦠</div>
+      <div class="text-xs font-bold mt-1">Laktobasil</div>
+      <div class="text-[10px] text-slate-400">Yoğurt bakterisi</div>
+    </div>
+    <div class="canli-kart" data-id="amip" data-alem="protista">
+      <div class="text-3xl">🔬</div>
+      <div class="text-xs font-bold mt-1">Amip</div>
+      <div class="text-[10px] text-slate-400">Tek hücreli ökaryot</div>
+    </div>
+    <div class="canli-kart" data-id="oglena" data-alem="protista">
+      <div class="text-3xl">🔬</div>
+      <div class="text-xs font-bold mt-1">Öglena</div>
+      <div class="text-[10px] text-slate-400">Hem oto- hem heterotrof</div>
+    </div>
+    <div class="canli-kart" data-id="mantarrr" data-alem="mantar">
+      <div class="text-3xl">🍄</div>
+      <div class="text-xs font-bold mt-1">Şapkalı Mantar</div>
+      <div class="text-[10px] text-slate-400">Heterotrof</div>
+    </div>
+    <div class="canli-kart" data-id="kufe" data-alem="mantar">
+      <div class="text-3xl">🍞</div>
+      <div class="text-xs font-bold mt-1">Ekmek Küfü</div>
+      <div class="text-[10px] text-slate-400">Saprofit mantar</div>
+    </div>
+    <div class="canli-kart" data-id="maya" data-alem="mantar">
+      <div class="text-3xl">🧁</div>
+      <div class="text-xs font-bold mt-1">Maya</div>
+      <div class="text-[10px] text-slate-400">Tek hücreli mantar</div>
+    </div>
+    <div class="canli-kart" data-id="gul" data-alem="bitki">
+      <div class="text-3xl">🌹</div>
+      <div class="text-xs font-bold mt-1">Gül</div>
+      <div class="text-[10px] text-slate-400">Çiçekli bitki</div>
+    </div>
+    <div class="canli-kart" data-id="cam" data-alem="bitki">
+      <div class="text-3xl">🌲</div>
+      <div class="text-xs font-bold mt-1">Çam</div>
+      <div class="text-[10px] text-slate-400">Açık tohumlu</div>
+    </div>
+    <div class="canli-kart" data-id="alg" data-alem="protista">
+      <div class="text-3xl">🌊</div>
+      <div class="text-xs font-bold mt-1">Yeşil Alg</div>
+      <div class="text-[10px] text-slate-400">Su yosunu</div>
+    </div>
+    <div class="canli-kart" data-id="kus" data-alem="hayvan">
+      <div class="text-3xl">🐦</div>
+      <div class="text-xs font-bold mt-1">Serçe</div>
+      <div class="text-[10px] text-slate-400">Omurgalı</div>
+    </div>
+    <div class="canli-kart" data-id="kelebek2" data-alem="hayvan">
+      <div class="text-3xl">🦋</div>
+      <div class="text-xs font-bold mt-1">Kelebek</div>
+      <div class="text-[10px] text-slate-400">Omurgasız (eklembacaklı)</div>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-emerald-500/10 border border-emerald-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-emerald-300">💡 Linnaeus Sınıflandırma:</strong><br>
+    <strong>Âlem → Şube → Sınıf → Takım → Aile → Cins → Tür</strong> · İkili adlandırma (örn. <em>Homo sapiens</em>).<br>
+    <strong>Ototrof:</strong> Kendi besinini üretir (bitki, bazı bakteri). <strong>Heterotrof:</strong> Dışarıdan alır (hayvan, mantar, çoğu bakteri).<br>
+    <strong>Prokaryot:</strong> Çekirdek zarı yok (Monera). <strong>Ökaryot:</strong> Çekirdek zarı var (diğer 4 alem).
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Biyoloji · Canlılar Dünyası · 8 soru/8 yıl ⭐
+  </div>
+</div>
+
+<script>
+let activeCanli = null;
+let dogru = 0;
+let toplam = 0;
+
+const ALEM_ACIKLAMA = {
+  monera: 'Prokaryot (çekirdek zarı yok), tek hücreli. Bakteri, mavi-yeşil alg.',
+  protista: 'Ökaryot tek hücreli (genelde). Amip, öglena, terliksi, su yosunu.',
+  mantar: 'Ökaryot, heterotrof, hücre çeperi (kitin). Şapkalı, küf, maya.',
+  bitki: 'Ökaryot, ototrof (fotosentez), hücre çeperi (selüloz).',
+  hayvan: 'Ökaryot, heterotrof, hareketli, çeper yok.',
+};
+
+function highlightAlemTargets(show) {
+  document.querySelectorAll('.alem-kart').forEach(k => k.classList.toggle('target', show));
+}
+
+function showActiveQ(text, color = 'text-slate-200') {
+  document.getElementById('active-q').innerHTML = `<p class="${color} text-sm">${text}</p>`;
+}
+
+document.querySelectorAll('.canli-kart').forEach(card => {
+  card.onclick = () => {
+    if (card.classList.contains('done')) return;
+    activeCanli = card;
+    document.querySelectorAll('.canli-kart').forEach(c => c.style.outline = '');
+    card.style.outline = '3px solid #fbbf24';
+    showActiveQ(`<strong class="text-amber-300">${card.querySelector('.font-bold').textContent}</strong> · Hangi aleme ait? <span class="text-xs">(Yukarıdan bir aleme tıkla)</span>`);
+    highlightAlemTargets(true);
+  };
+});
+
+document.querySelectorAll('.alem-kart').forEach(ak => {
+  ak.onclick = () => {
+    if (!activeCanli) {
+      showActiveQ('Önce bir canlı kart seç.', 'text-amber-400');
+      return;
+    }
+    const dogruAlem = activeCanli.dataset.alem;
+    const secilenAlem = ak.dataset.alem;
+    const isCorrect = dogruAlem === secilenAlem;
+    toplam++;
+    if (isCorrect) dogru++;
+    activeCanli.classList.add(isCorrect ? 'correct' : 'wrong', 'done');
+    activeCanli.style.outline = '';
+    document.getElementById('skor').textContent = `${dogru}/${toplam}`;
+    showActiveQ(`${isCorrect ? '✅ Doğru!' : '❌ Yanlış. Doğru: <strong>' + dogruAlem.toUpperCase() + '</strong>'} · ${activeCanli.querySelector('.font-bold').textContent} → ${dogruAlem}.<br><span class="text-[10px] text-slate-400">${ALEM_ACIKLAMA[dogruAlem]}</span>`, isCorrect ? 'text-green-400' : 'text-red-400');
+    activeCanli = null;
+    highlightAlemTargets(false);
+  };
+});
+
+document.getElementById('reset').onclick = () => {
+  dogru = 0; toplam = 0;
+  document.getElementById('skor').textContent = '0/0';
+  document.querySelectorAll('.canli-kart').forEach(c => {
+    c.classList.remove('correct', 'wrong', 'done');
+    c.style.outline = '';
+  });
+  showActiveQ('Aşağıdan bir canlıya tıkla, sonra hangi aleme ait olduğunu yukarıdan seç.');
+};
+</script>
+</body>
+</html>

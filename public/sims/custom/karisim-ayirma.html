@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karışım Ayırma Teknikleri · TYT Kimya</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+  .teknik-kart {
+    background: #1e293b; border: 2px solid #334155; border-radius: 12px;
+    padding: 1rem; cursor: pointer; transition: all 0.15s;
+  }
+  .teknik-kart:hover { border-color: #a855f7; transform: translateY(-2px); }
+  .teknik-kart.selected { border-color: #a855f7; background: #2e1065; }
+  .quiz-btn {
+    padding: 0.5rem 0.8rem; border-radius: 6px; font-weight: 600; font-size: 0.85rem;
+    background: #1e293b; color: #e2e8f0; border: 2px solid #334155; transition: all 0.15s;
+  }
+  .quiz-btn:hover { border-color: #a855f7; }
+  .quiz-btn.correct { background: #065f46; border-color: #10b981; color: white; }
+  .quiz-btn.wrong { background: #7f1d1d; border-color: #ef4444; color: white; }
+</style>
+</head>
+<body class="min-h-screen p-4">
+<div class="max-w-5xl mx-auto">
+
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold mb-1 text-purple-400">🧪 Karışım Ayırma Teknikleri</h1>
+    <p class="text-sm text-slate-400">6 teknik · her birinin görselli açıklaması + interaktif quiz · 8 yılda 7 soru.</p>
+  </header>
+
+  <h2 class="text-lg font-bold mb-2 text-purple-300">📚 Teknikler (üstüne tıkla, detayını gör)</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+    <div class="teknik-kart" data-teknik="suzme">
+      <div class="text-3xl mb-1">🪺</div>
+      <h3 class="font-bold text-purple-300">Süzme</h3>
+      <p class="text-[11px] text-slate-400">Çözünmeyen katı + sıvı</p>
+    </div>
+    <div class="teknik-kart" data-teknik="damitma">
+      <div class="text-3xl mb-1">♨</div>
+      <h3 class="font-bold text-purple-300">Damıtma</h3>
+      <p class="text-[11px] text-slate-400">Kaynama noktası farklı sıvılar</p>
+    </div>
+    <div class="teknik-kart" data-teknik="miknatis">
+      <div class="text-3xl mb-1">🧲</div>
+      <h3 class="font-bold text-purple-300">Mıknatıs</h3>
+      <p class="text-[11px] text-slate-400">Demir / nikel + başka madde</p>
+    </div>
+    <div class="teknik-kart" data-teknik="buharlastirma">
+      <div class="text-3xl mb-1">💨</div>
+      <h3 class="font-bold text-purple-300">Buharlaştırma</h3>
+      <p class="text-[11px] text-slate-400">Çözünmüş katı + sıvı</p>
+    </div>
+    <div class="teknik-kart" data-teknik="ayirma-hunisi">
+      <div class="text-3xl mb-1">🍯</div>
+      <h3 class="font-bold text-purple-300">Ayırma Hunisi</h3>
+      <p class="text-[11px] text-slate-400">Karışmayan sıvı çiftleri</p>
+    </div>
+    <div class="teknik-kart" data-teknik="kromatografi">
+      <div class="text-3xl mb-1">🌈</div>
+      <h3 class="font-bold text-purple-300">Kromatografi</h3>
+      <p class="text-[11px] text-slate-400">Renkli karışımları ayırma</p>
+    </div>
+  </div>
+
+  <!-- Detay panel -->
+  <div id="detay" class="bg-purple-900/30 border-2 border-purple-500/40 rounded-xl p-4 mb-6">
+    <p class="text-sm text-slate-400 text-center">↑ Üstteki tekniklerden birine tıkla, detayını gör.</p>
+  </div>
+
+  <!-- Quiz -->
+  <div class="bg-slate-900 rounded-xl p-4 border border-slate-700">
+    <h2 class="text-lg font-bold mb-3 text-purple-300">🎯 Mini Quiz — Bu karışım nasıl ayrılır?</h2>
+    <div id="quiz-content"></div>
+    <div class="mt-3 flex gap-2 items-center">
+      <button id="next-q" class="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded font-bold text-sm">Sonraki Soru →</button>
+      <span class="text-xs text-slate-400">Skor: <strong id="skor" class="text-amber-300">0/0</strong></span>
+    </div>
+  </div>
+
+  <div class="mt-4 bg-purple-500/10 border border-purple-500/30 rounded-lg p-3 text-xs">
+    <strong class="text-purple-300">💡 ÖSYM Klasik Mantık:</strong><br>
+    1) Karışım hangi <strong>fazlardan</strong> oluşuyor? (katı-sıvı, sıvı-sıvı, katı-katı)<br>
+    2) Bileşenlerin <strong>özelliği</strong>: çözünür mü? mıknatıslanır mı? farklı kaynama noktası mı? renkli mi?<br>
+    3) Buna göre uygun teknik seç.
+  </div>
+
+  <div class="text-center mt-4 text-xs text-slate-500">
+    📚 TYT Kimya · Karışımlar · 8 soru/8 yıl ⭐
+  </div>
+</div>
+
+<script>
+const TEKNIKLER = {
+  suzme: {
+    ad: 'Süzme',
+    icon: '🪺',
+    aciklama: '<strong>Çözünmeyen katı bir madde ile sıvı karışımı</strong> süzme kâğıdından geçirilir. Katı kâğıtta kalır, sıvı geçer.',
+    ornek: 'Tortulu çay yaprağı ve çay sıvısı → süzgeçten geçir.<br>Kum + su → süz, kum süzgeçte kalır.',
+    secondary: 'Heterojen karışım. Katı tanecik boyutu süzgeç gözeneğinden büyük.',
+  },
+  damitma: {
+    ad: 'Damıtma',
+    icon: '♨',
+    aciklama: '<strong>Farklı kaynama noktasına sahip sıvılar</strong> ısıtılır. Önce daha düşük KN olan kaynar, buharı yoğunlaşır → ayrılır.',
+    ornek: 'Su + alkol karışımı → 78°C\'de alkol kaynar (önce ayrılır), su 100°C\'de kalır.<br>Tuzlu su → damıtılınca saf su buharı alınır, tuz kapta kalır.',
+    secondary: 'Hem homojen hem heterojen karışımlarda kullanılabilir.',
+  },
+  miknatis: {
+    ad: 'Mıknatıs',
+    icon: '🧲',
+    aciklama: '<strong>Mıknatıslanma özelliği olan madde</strong> (Fe, Ni, Co) mıknatısla çekilerek ayrılır.',
+    ornek: 'Demir tozu + kum → mıknatıs çek, demir gelir.<br>Demir + bakır → mıknatıs sadece demiri çeker.',
+    secondary: 'Heterojen karışımda kolay. Mıknatıslanmayan madde kalır.',
+  },
+  buharlastirma: {
+    ad: 'Buharlaştırma',
+    icon: '💨',
+    aciklama: '<strong>Çözünmüş katı + sıvı</strong> ısıtılır. Sıvı buharlaşır, katı kapta kalır.',
+    ornek: 'Tuzlu su → ısıt, su uçar, tuz kalır.<br>Şekerli su → su uçur, şeker kalır.',
+    secondary: 'Damıtmadan FARKLI: damıtmada sıvı toplanır, buharlaştırmada sadece KATI alınır (sıvı kaybedilir).',
+  },
+  'ayirma-hunisi': {
+    ad: 'Ayırma Hunisi',
+    icon: '🍯',
+    aciklama: '<strong>Birbiri içinde çözünmeyen iki sıvı</strong> ayırma hunisine konur. Yoğun olan altta, hafif üstte. Vana açılır, alttaki akar.',
+    ornek: 'Su + zeytinyağı → yağ üstte (ρ=0.92), su altta (ρ=1.0).<br>Su + benzin → benzin üstte.',
+    secondary: 'Heterojen sıvı-sıvı karışım. Sadece iki faz oluştuğunda işe yarar.',
+  },
+  kromatografi: {
+    ad: 'Kromatografi',
+    icon: '🌈',
+    aciklama: '<strong>Renkli karışımlardaki bileşenler</strong> kâğıt veya başka durağan faza emdirilir. Çözücü yukarı yürür, farklı maddeler farklı yüksekliklerde ayrılır.',
+    ornek: 'Yeşil mürekkep → kâğıda damlat, alkolde batır → sarı + mavi pigment ayrı yüksekliklerde.<br>Bitki yapraklarındaki pigmentler (klorofil + karotin).',
+    secondary: 'Çok hassas yöntem. Tıpta kan analizi, gıda mühendisliğinde de kullanılır.',
+  },
+};
+
+function showDetay(teknikId) {
+  document.querySelectorAll('.teknik-kart').forEach(k => k.classList.toggle('selected', k.dataset.teknik === teknikId));
+  const t = TEKNIKLER[teknikId];
+  document.getElementById('detay').innerHTML = `
+    <div class="flex items-start gap-3">
+      <div class="text-5xl">${t.icon}</div>
+      <div class="flex-1">
+        <h3 class="text-xl font-bold text-purple-300 mb-2">${t.ad}</h3>
+        <p class="text-sm text-slate-200 mb-2">${t.aciklama}</p>
+        <div class="bg-slate-800 rounded p-2 text-xs mb-2"><strong class="text-amber-300">📌 Örnek:</strong> ${t.ornek}</div>
+        <p class="text-xs text-slate-400 italic">${t.secondary}</p>
+      </div>
+    </div>
+  `;
+}
+
+document.querySelectorAll('.teknik-kart').forEach(k => k.onclick = () => showDetay(k.dataset.teknik));
+
+// QUIZ
+const SORULAR = [
+  { karisim: 'Tuz + Su (çözünmüş)', dogru: 'buharlastirma', aciklama: 'Tuz suda çözünür → süzme işe yaramaz. Buharlaştır → su uçar, tuz kalır.' },
+  { karisim: 'Kum + Demir tozu', dogru: 'miknatis', aciklama: 'Demir mıknatıslanır, kum mıknatıslanmaz. Mıknatıs çek → demir gelir.' },
+  { karisim: 'Su + Zeytinyağı', dogru: 'ayirma-hunisi', aciklama: 'İki sıvı birbiri içinde çözünmez (heterojen). Ayırma hunisinde yoğunluk farkıyla ayrılır.' },
+  { karisim: 'Su + Alkol', dogru: 'damitma', aciklama: 'Karışırlar (homojen) ama kaynama noktaları farklı (alkol 78°C, su 100°C). Damıtma ile ayrılır.' },
+  { karisim: 'Çay yaprağı + Çay (sıvı)', dogru: 'suzme', aciklama: 'Yaprak çözünmez, sıvıdan büyük → süzgeçten süzülür.' },
+  { karisim: 'Yeşil yaprak pigmentleri', dogru: 'kromatografi', aciklama: 'Renkli bileşikleri ayırmak için kromatografi: klorofil, karotin, ksantofil ayrılır.' },
+  { karisim: 'Şekerli su', dogru: 'buharlastirma', aciklama: 'Şeker çözünmüş — süzme olmaz. Buharlaştır → şeker kalır.' },
+  { karisim: 'Çakıl + su', dogru: 'suzme', aciklama: 'Çakıl çözünmez, irice. Süzme ile ayrılır.' },
+];
+
+let qIdx = 0;
+let skorDogru = 0;
+let skorToplam = 0;
+let answered = false;
+
+function showQ() {
+  answered = false;
+  const s = SORULAR[qIdx];
+  const sec = ['suzme', 'damitma', 'miknatis', 'buharlastirma', 'ayirma-hunisi', 'kromatografi'];
+  document.getElementById('quiz-content').innerHTML = `
+    <p class="text-base font-bold mb-3">🧪 Karışım: <span class="text-amber-300">${s.karisim}</span></p>
+    <p class="text-sm text-slate-300 mb-3">Hangi teknikle ayrılır?</p>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+      ${sec.map(t => `<button class="quiz-btn" data-cevap="${t}">${TEKNIKLER[t].icon} ${TEKNIKLER[t].ad}</button>`).join('')}
+    </div>
+    <div id="quiz-reveal" class="mt-3 hidden bg-slate-800 rounded p-3 text-xs"></div>
+  `;
+  document.querySelectorAll('.quiz-btn').forEach(b => b.onclick = () => {
+    if (answered) return;
+    answered = true;
+    const isCorrect = b.dataset.cevap === s.dogru;
+    document.querySelectorAll('.quiz-btn').forEach(x => {
+      x.disabled = true;
+      if (x.dataset.cevap === s.dogru) x.classList.add('correct');
+      if (x === b && !isCorrect) x.classList.add('wrong');
+    });
+    skorToplam++;
+    if (isCorrect) skorDogru++;
+    document.getElementById('skor').textContent = `${skorDogru}/${skorToplam}`;
+    document.getElementById('quiz-reveal').innerHTML = `<strong class="${isCorrect ? 'text-green-400' : 'text-amber-300'}">${isCorrect ? '✓ Doğru!' : '💡 Doğru cevap: ' + TEKNIKLER[s.dogru].ad}</strong><br><span class="text-slate-300">${s.aciklama}</span>`;
+    document.getElementById('quiz-reveal').classList.remove('hidden');
+  });
+}
+
+document.getElementById('next-q').onclick = () => {
+  qIdx = (qIdx + 1) % SORULAR.length;
+  showQ();
+};
+
+showDetay('suzme');
+showQ();
+</script>
+</body>
+</html>
