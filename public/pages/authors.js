@@ -196,6 +196,30 @@ export async function renderAuthorDetail(slug) {
       </div>
     </div>
 
+    <!-- REV17 — 2026 PRIORITY BADGE -->
+    ${a.priority_2026 && a.priority_2026 !== 'İHMAL' ? `
+      <div class="mb-4 rounded-lg p-3 flex items-center gap-3 ${
+        a.priority_2026 === 'ÇOK YÜKSEK' ? 'bg-accent-500/10 border-2 border-accent-500/40' :
+        a.priority_2026 === 'YÜKSEK' ? 'bg-warn-500/10 border-2 border-warn-500/40' :
+        'bg-primary-500/10 border-2 border-primary-500/30'
+      }">
+        <div class="text-2xl">🎯</div>
+        <div class="flex-1">
+          <div class="text-xs font-bold uppercase tracking-wider opacity-75">2026 Önceliği (Pattern Engine)</div>
+          <div class="text-sm font-bold mt-0.5">
+            <span class="${
+              a.priority_2026 === 'ÇOK YÜKSEK' ? 'text-accent-700 dark:text-accent-200' :
+              a.priority_2026 === 'YÜKSEK' ? 'text-warn-700 dark:text-warn-200' :
+              'text-primary-700 dark:text-primary-100'
+            }">${a.priority_2026}</span>
+            <span class="text-slate-500 ml-1">— skor ${Math.round(a.due_score_2026 || 0)}/100</span>
+          </div>
+          ${a.rationale_2026 ? `<div class="text-[11px] text-slate-500 mt-1">${a.rationale_2026}</div>` : ''}
+        </div>
+        <a href="#/sistem" class="text-[10px] underline text-slate-500 hover:text-primary-500">Detay</a>
+      </div>
+    ` : ''}
+
     <!-- ANEKDOT -->
     ${a.anekdot ? `
       <div class="bg-white dark:bg-slate-900 border-l-4 border-primary-700 dark:border-primary-100 rounded-r-lg p-4 mb-4">

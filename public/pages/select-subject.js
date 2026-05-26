@@ -28,7 +28,7 @@ export async function renderSelectSubject() {
             AYT Edebiyat
           </h2>
           <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">
-            85 yazar · 600+ kart · 13 konu · 251 eser
+            104 yazar · 592 kart · 13 konu · 302 eser
           </p>
           <p class="text-xs text-slate-500 italic">
             Yazar avı, ezber atışı

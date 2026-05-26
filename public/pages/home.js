@@ -739,8 +739,9 @@ async function renderEdebiyatHome() {
       ${shortcut('quiz/setup', '🎯', 'Quiz', 'Konu seç, çöz', 'accent')}
       ${shortcut('cikmis-sorular', '📋', 'Çıkmış Sorular', '192 ÖSYM sorusu', 'accent')}
       ${shortcut('konular', '📚', '13 Konu', 'Öğretim + ezber', 'primary')}
-      ${shortcut('yazarlar', '👤', '85 Yazar', 'Trading kartlar', 'primary')}
-      ${shortcut('eserler', '📖', 'Eserler', '251 eser', 'primary')}
+      ${shortcut('yazarlar', '👤', '104 Yazar', 'Trading kartlar', 'primary')}
+      ${shortcut('eserler', '📖', 'Eserler', '302 eser', 'primary')}
+      ${shortcut('sistem', '🧮', 'Pattern', 'ÖSYM matematiği', 'accent')}
       ${shortcut('gruplar', '👥', 'Gruplar', 'Garip, II. Yeni...', 'primary')}
       ${shortcut('koleksiyon', '🎴', 'Koleksiyon', 'Kaç tanıdın?', 'accent')}
       ${shortcut('tahminler', '🔮', 'Tahminler', '2026 boşluk', 'primary')}
