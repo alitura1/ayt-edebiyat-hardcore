@@ -135,7 +135,12 @@ export function dailyHero(authors, works = []) {
   const fresh = basePool.filter(a => !recent.has(slugify(a.name)));
   const pool = fresh.length ? fresh : basePool;
 
-  const author = pool[Math.floor(Math.random() * pool.length)];
+  // REV17 — 2026 boost: %70 olasılıkla due_score>=60 yazarlardan seç
+  // (matematiksel pattern engine'in "vadesi yaklaşan" yazarlarına öncelik)
+  const high2026 = pool.filter(a => (a.due_score_2026 || 0) >= 60);
+  const author = (high2026.length >= 3 && Math.random() < 0.7)
+    ? high2026[Math.floor(Math.random() * high2026.length)]
+    : pool[Math.floor(Math.random() * pool.length)];
 
   // History'ye ekle
   s.daily_hero.history.push(slugify(author.name));

@@ -21,7 +21,9 @@ from mebi_map import MEBI_TOPIC, MEBI_SUB, MEBI_AUTHOR
 from sections_authors_predictions import EXTRA_WORKS_BY_AUTHOR as EXTRA_WORKS
 
 BASE = Path(__file__).parent.parent.parent  # Edebiyat Analiz/
-SITE = Path(__file__).parent.parent / 'public' / 'data'
+# REV17: site data.js subject-aware path → ./data/edebiyat/. Bu yüzden output dir 'edebiyat' alt klasörü.
+SITE = Path(__file__).parent.parent / 'public' / 'data' / 'edebiyat'
+SITE.mkdir(parents=True, exist_ok=True)
 SITE.mkdir(parents=True, exist_ok=True)
 
 ANNOTATED = json.load(open(BASE / 'annotated_questions.json', encoding='utf-8'))
@@ -188,6 +190,24 @@ YAZAR_ESERLERI = {
     'Kaşgarlı Mahmut': ["Divânü Lügâti't-Türk"],
     'Edip Ahmet Yükneki': ["Atabetü'l Hakayık"],
     'Ahmet Yesevi': ['Divan-ı Hikmet'],
+    # ====== REV17 — Eksik çıkmış yazarlar ======
+    # Divan eksikleri
+    'Taşlıcalı Yahya': ['Şah u Geda', 'Gencîne-i Râz', 'Gülşen-i Envâr', 'Yusuf u Züleyha', 'Kitab-ı Usul', 'Şehzade Mustafa Mersiyesi'],
+    'Aşık Paşa': ['Garibname', 'Fakrname', 'Vasf-ı Hâl', 'Hikâye'],
+    'Ahmet Paşa': ['Divan', 'Kerem Kasidesi'],
+    'Sehi Bey': ['Heşt Bihişt'],
+    'Şeyhülislam Yahya': ['Divan'],
+    'Hamdullah Hamdi': ['Yusuf u Züleyha', 'Leyla vü Mecnun', "Tuhfetü'l-Uşşak", 'Kıyafetname', 'Ahmediyye'],
+    'Zati': ['Şem ü Pervane', 'Divan', 'Edirne Şehrengizi'],
+    'Neşati': ['Divan', 'Şitaiyye'],
+    # Tanzimat eksikleri (REV4'ten Direktör Ali Bey zaten EXTRA_WORKS'ta)
+    'Hüseyin Rahmi Gürpınar': ['Mürebbiye', 'Şıpsevdi', 'Şık', 'Kuyruklu Yıldız Altında Bir İzdivaç', 'Gulyabani', 'Cadı', 'Ben Deli miyim?'],
+    # Cumhuriyet eksikleri
+    'Sevgi Soysal': ["Yenişehir'de Bir Öğle Vakti", 'Tante Rosa', 'Tutkulu Perçem', 'Yürümek', 'Şafak'],
+    'İsmet Özel': ['Erbain', 'Of Not Being a Jew', 'Şair Erbain', 'Bir Yusuf Masalı'],
+    'Cevat Fehmi Başkut': ['Buzlar Çözülmeden', 'Paydos', 'Küçük Şehir', 'Hacı Kaptan', 'Sana Rey Veriyorum'],
+    # Edebi akımlar (kuramsal/yabancı)
+    'Aristoteles': ['Poetika', 'Retorik', "Nikomakhos'a Etik"],
 }
 
 # Eser → Yazar reverse map
@@ -212,6 +232,11 @@ YAZAR_DONEM = {
     **{y: 'cumhuriyet' for y in ['Cevdet Kudret','Ziya Osman Saba','Sabri Esat Siyavuşgil','Yaşar Nabi Nayır','Vasfi Mahir Kocatürk','Kenan Hulusi Koray','Yahya Kemal Beyatlı','Mehmet Akif Ersoy','Cahit Sıtkı Tarancı','Ahmet Hamdi Tanpınar','Ahmet Muhip Dıranas','Necip Fazıl Kısakürek','Asaf Halet Çelebi','Behçet Necatigil','Fazıl Hüsnü Dağlarca','Arif Nihat Asya','Ahmet Kutsi Tecer','Bedri Rahmi Eyüboğlu','Cahit Külebi','Orhan Veli Kanık','Oktay Rifat','Melih Cevdet Anday','Cemal Süreya','Edip Cansever','Turgut Uyar','İlhan Berk','Sezai Karakoç','Ece Ayhan','Nazım Hikmet','Rıfat Ilgaz','Ahmed Arif','Ataol Behramoğlu','Munis Faik Ozansoy','Mehmet Çınarlı','Attila İlhan','Sabahattin Ali','Yaşar Kemal','Orhan Kemal','Kemal Tahir','Fakir Baykurt','Talip Apaydın','Mahmut Makal','Peyami Safa','Tarık Buğra','Mustafa Kutlu','Samiha Ayverdi','Oğuz Atay','Yusuf Atılgan','Bilge Karasu','Orhan Pamuk','İhsan Oktay Anar','Latife Tekin','Hasan Ali Toptaş','Sait Faik Abasıyanık','Halikarnas Balıkçısı','Haldun Taner','Turgut Özakman','Necati Cumalı','Güngör Dilmen','Turan Oflazoğlu','Nurullah Ataç','Suut Kemal Yetkin','Falih Rıfkı Atay']},
     # Geçiş
     **{y: 'gecis' for y in ['Yusuf Has Hacip','Kaşgarlı Mahmut','Edip Ahmet Yükneki','Ahmet Yesevi']},
+    # REV17 eksikleri
+    **{y: 'divan' for y in ['Taşlıcalı Yahya','Aşık Paşa','Ahmet Paşa','Sehi Bey','Şeyhülislam Yahya','Hamdullah Hamdi','Zati','Neşati']},
+    **{y: 'tanzimat' for y in ['Hüseyin Rahmi Gürpınar']},  # Tanzimat-Milli geçişi
+    **{y: 'cumhuriyet' for y in ['Sevgi Soysal','İsmet Özel','Cevat Fehmi Başkut']},
+    **{y: 'edebi_akim' for y in ['Aristoteles']},  # yabancı akım teorisyeni
 }
 
 # Dönem → topic kodu mapping
@@ -1282,6 +1307,24 @@ def main():
     print(f"  ilkler: {len([c for c in all_cards if c['tip']=='ilkler-eser'])}")
 
     print(f"TOPLAM: {len(all_cards)} kart")
+
+    # REV17 — Pattern skorlarını kartlara enjekte (konu bazlı)
+    _pa_path = BASE / 'data' / 'pattern_analysis.json'
+    if _pa_path.exists():
+        try:
+            _pa = json.loads(_pa_path.read_text(encoding='utf-8'))
+            _pa_konu = {k['kod']: k for k in _pa.get('konular', [])}
+            score_count = 0
+            for c in all_cards:
+                kp = _pa_konu.get(c.get('konu', ''), {})
+                c['due_score_2026'] = kp.get('due_score', 0)
+                c['priority_2026'] = kp.get('priority', 'İHMAL')
+                if kp:
+                    score_count += 1
+            print(f"  REV17: {score_count}/{len(all_cards)} kart 2026 skorlandı")
+        except Exception as e:
+            print(f"⚠ Kart pattern skoru: {e}")
+
     with open(SITE / 'cards-auto.json', 'w', encoding='utf-8') as f:
         json.dump(all_cards, f, ensure_ascii=False, indent=1)
     print(f"  → {SITE / 'cards-auto.json'}")
@@ -1363,6 +1406,54 @@ def main():
         merged[canonical]['years'].update(info['years'])
         merged[canonical]['occurrences'].extend(info['occurrences'])
 
+    # REV17 — M1.a all_authors_in_questions.json'dan eksik yazarları çek
+    # (şıklarda geçen ama mentioned_authors'a girmemiş yazarlar — örn. Taşlıcalı Yahya)
+    extra_path = BASE / 'data' / 'all_authors_in_questions.json'
+    if extra_path.exists():
+        try:
+            extra = json.loads(extra_path.read_text(encoding='utf-8'))
+            added_authors = 0
+            added_occs = 0
+            for name, info in extra.items():
+                canonical = ALIAS.get(name, name)
+                if canonical not in merged:
+                    merged[canonical] = {'count': 0, 'years': set(), 'occurrences': []}
+                    added_authors += 1
+                existing_qnos = {(o.get('year'), o.get('qno')) for o in merged[canonical]['occurrences']}
+                for occ in info.get('occurrences', []):
+                    key = (occ['year'], occ['qno'])
+                    if key not in existing_qnos:
+                        merged[canonical]['occurrences'].append({
+                            'year': occ['year'],
+                            'qno': occ['qno'],
+                            'topic': occ.get('topic', ''),
+                        })
+                        merged[canonical]['years'].add(occ['year'])
+                        merged[canonical]['count'] += 1
+                        existing_qnos.add(key)
+                        added_occs += 1
+            print(f"  REV17: +{added_authors} yeni yazar, +{added_occs} ek occurrence (şık yazarları)")
+        except Exception as e:
+            print(f"⚠ all_authors_in_questions.json okunamadı: {e}")
+
+    # REV17 — pattern_analysis.json'dan yazar bazlı due_score yükle
+    pattern_yazar_map = {}
+    pattern_konu_map = {}
+    pattern_path = BASE / 'data' / 'pattern_analysis.json'
+    if pattern_path.exists():
+        try:
+            pa = json.loads(pattern_path.read_text(encoding='utf-8'))
+            for y in pa.get('yazarlar', []):
+                key = ALIAS.get(y['name'], y['name'])
+                # En yüksek skoru tut (alias birden çok kayıt dönerse)
+                if key not in pattern_yazar_map or y['due_score'] > pattern_yazar_map[key]['due_score']:
+                    pattern_yazar_map[key] = y
+            for k in pa.get('konular', []):
+                pattern_konu_map[k['kod']] = k
+            print(f"  REV17: pattern_analysis yüklendi ({len(pattern_yazar_map)} yazar, {len(pattern_konu_map)} konu)")
+        except Exception as e:
+            print(f"⚠ pattern_analysis okunamadı: {e}")
+
     authors_list = []
     for name, info in merged.items():
         donem = YAZAR_DONEM.get(name, '')
@@ -1371,6 +1462,8 @@ def main():
         diger_eserler = ', '.join(eserler[:5]) if eserler else EXTRA_WORKS.get(name, '')
         if not diger_eserler:
             diger_eserler = ''
+        # REV17 — Pattern lookup
+        p = pattern_yazar_map.get(name, {})
         authors_list.append({
             'name': name,
             'soru_sayisi': info['count'],
@@ -1379,6 +1472,12 @@ def main():
             'mebi_sayfa': MEBI_AUTHOR.get(name, ''),
             'diger_eserler': diger_eserler,
             'occurrences': info['occurrences'],
+            # REV17 — 2026 öncelik bilgisi (matematiksel pattern engine'den)
+            'due_score_2026': p.get('due_score', 0),
+            'priority_2026': p.get('priority', 'İHMAL'),
+            'son_yil': p.get('last_year'),
+            'current_gap': p.get('current_gap'),
+            'rationale_2026': p.get('rationale', ''),
         })
     authors_list.sort(key=lambda a: (-a['soru_sayisi'], a['name']))
     with open(SITE / 'authors.json', 'w', encoding='utf-8') as f:
@@ -1459,6 +1558,55 @@ def main():
             {'konu': 'EDEBİ AKIMLAR', 'alt_basliklar': 'Ekspresyonizm (Kafka), Empresyonizm', 'guc': 'YÜKSEK'},
         ],
     }
+    # REV17 — pattern_analysis.json'dan otomatik Top 20 + konu skorlarını enjekte
+    pa_path = BASE / 'data' / 'pattern_analysis.json'
+    if pa_path.exists():
+        try:
+            pa = json.loads(pa_path.read_text(encoding='utf-8'))
+            # Pattern engine output'u site'a da kopyala (/sistem sayfası fetch eder)
+            (SITE / 'pattern_analysis.json').write_text(
+                json.dumps(pa, ensure_ascii=False, indent=1),
+                encoding='utf-8'
+            )
+            # Top 20 yazar (due_score azalan, alias dedupe)
+            seen_yazar = set()
+            top20 = []
+            for y in pa.get('yazarlar', []):
+                canonical = ALIAS.get(y['name'], y['name'])
+                if canonical in seen_yazar:
+                    continue
+                seen_yazar.add(canonical)
+                top20.append({
+                    'ad': canonical,
+                    'due_score': y['due_score'],
+                    'priority': y['priority'],
+                    'freq': y['freq_8yil'],
+                    'son_yil': y.get('last_year'),
+                    'current_gap': y.get('current_gap'),
+                    'rationale': y.get('rationale', ''),
+                })
+                if len(top20) >= 20:
+                    break
+            predictions['top_20_yazar_2026'] = top20
+            # Konu skorları (skor azalan)
+            predictions['pattern_konu_skorlari'] = [
+                {
+                    'kod': k['kod'],
+                    'ad': TOPIC_LABEL.get(k['kod'], k['kod']),
+                    'due_score': k['due_score'],
+                    'priority': k['priority'],
+                    'freq': k.get('freq_8yil', 0),
+                    'raw_count': k.get('raw_count', 0),
+                    'last_year': k.get('last_year'),
+                    'current_gap': k.get('current_gap'),
+                    'rationale': k.get('rationale', ''),
+                }
+                for k in sorted(pa.get('konular', []), key=lambda x: -x['due_score'])
+            ]
+            print(f"  REV17: Top 20 yazar + {len(predictions['pattern_konu_skorlari'])} konu skoru enjekte")
+        except Exception as e:
+            print(f"⚠ predictions pattern enjekte: {e}")
+
     with open(SITE / 'predictions.json', 'w', encoding='utf-8') as f:
         json.dump(predictions, f, ensure_ascii=False, indent=1)
     print("  → predictions.json")

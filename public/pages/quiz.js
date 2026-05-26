@@ -79,6 +79,9 @@ export async function renderQuizSetup() {
       });
       const dersVal = data.get('ders');
       if (dersVal && dersVal !== 'hepsi') params.set('ders', dersVal);
+      // REV17 — 2026 öncelik filtre
+      const onc = data.get('oncelik_2026');
+      if (onc && onc !== 'hepsi') params.set('oncelik_2026', onc);
       location.hash = '#/quiz?' + params.toString();
     });
   };
@@ -128,6 +131,16 @@ export async function renderQuizSetup() {
       </div>
 
       <div>
+        <label class="block text-sm font-semibold mb-1">🎯 2026 Önceliği <span class="text-[10px] font-normal text-slate-500">(matematiksel pattern engine)</span></label>
+        <select name="oncelik_2026" class="w-full px-3 py-2 rounded-md border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900">
+          <option value="hepsi">🔀 Hepsi (standart)</option>
+          <option value="cok_yuksek">🔴 Sadece ÇOK YÜKSEK (80+ skor) — vadesi geçti</option>
+          <option value="yuksek">🟠 YÜKSEK ve üstü (60+ skor)</option>
+          <option value="orta">🟡 ORTA ve üstü (40+ skor)</option>
+        </select>
+      </div>
+
+      <div>
         <label class="block text-sm font-semibold mb-1">Soru sayısı</label>
         <div class="grid grid-cols-4 gap-2">
           ${[10, 20, 30, 0].map(n => `
@@ -172,6 +185,14 @@ export async function renderQuizSession() {
   // REV5 — Yazara göre filtre (alt_konu eşleşmesi: "halit_ziya_usakligil" -> "halit-ziya-usakligil")
   if (q.yazar) {
     pool = pool.filter(c => altKonuToAuthorSlug(c.alt_konu) === q.yazar);
+  }
+  // REV17 — 2026 öncelik filtresi (due_score_2026 alanına göre)
+  if (q.oncelik_2026 && q.oncelik_2026 !== 'hepsi') {
+    const thresholds = { 'cok_yuksek': 80, 'yuksek': 60, 'orta': 40 };
+    const min = thresholds[q.oncelik_2026];
+    if (min !== undefined) {
+      pool = pool.filter(c => (c.due_score_2026 || 0) >= min);
+    }
   }
 
   if (pool.length === 0) {

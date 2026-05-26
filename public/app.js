@@ -4,6 +4,7 @@ import { renderHome } from './pages/home.js';
 import { renderTopicList, renderTopicDetail } from './pages/topics.js';
 import { renderAuthorList, renderAuthorDetail } from './pages/authors.js';
 import { renderPredictions } from './pages/predictions.js';
+import { renderPattern } from './pages/pattern.js';
 import { renderProgram } from './pages/program.js';
 import { renderGlossary } from './pages/glossary.js';
 import { renderQuizSetup, renderQuizSession, renderQuizResult } from './pages/quiz.js';
@@ -145,6 +146,8 @@ async function render() {
       html = await renderCikmisSorular();
     } else if (parts[0] === 'tahminler') {
       html = await renderPredictions();
+    } else if (parts[0] === 'sistem' || parts[0] === 'pattern') {
+      html = await renderPattern();
     } else if (parts[0] === 'program') {
       html = await renderProgram();
     } else if (parts[0] === 'sozluk') {

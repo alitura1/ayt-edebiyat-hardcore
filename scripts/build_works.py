@@ -8,8 +8,10 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 BASE = Path(__file__).parent.parent
-AUTHORS = BASE / 'public' / 'data' / 'authors.json'
-OUT = BASE / 'public' / 'data' / 'works.json'
+# REV17: subject-aware path
+AUTHORS = BASE / 'public' / 'data' / 'edebiyat' / 'authors.json'
+OUT = BASE / 'public' / 'data' / 'edebiyat' / 'works.json'
+MEBI_WORKS = BASE.parent / 'data' / 'mebi_works_raw.json'  # M2.a OCR çıktısı
 
 
 def slugify(s):
@@ -94,6 +96,28 @@ TUR_OVERRIDE = {
 def main():
     authors = json.loads(AUTHORS.read_text(encoding='utf-8'))
 
+    # REV17 — MEBİ OCR'dan tür bilgisi (lookup tablosu)
+    # mebi_lookup[yazar_norm][eser_norm] = tur
+    mebi_lookup = {}
+    if MEBI_WORKS.exists():
+        try:
+            mw = json.loads(MEBI_WORKS.read_text(encoding='utf-8'))
+            def norm_key(s):
+                return slugify(s)  # ASCII slug — alias match
+            for yazar, info in mw.items():
+                yk = norm_key(yazar)
+                if yk not in mebi_lookup:
+                    mebi_lookup[yk] = {}
+                for e in info.get('eserler', []):
+                    title = e.get('title', '')
+                    tur = e.get('tur')
+                    if tur and title:
+                        mebi_lookup[yk][norm_key(title)] = tur
+            total_pairs = sum(len(v) for v in mebi_lookup.values())
+            print(f"  REV17 MEBİ lookup: {len(mebi_lookup)} yazar, {total_pairs} eser-tur eşleşmesi")
+        except Exception as e:
+            print(f"⚠ MEBİ lookup: {e}")
+
     works = []
     seen = set()  # (slug, yazarSlug) tekrar engelle
 
@@ -126,9 +150,10 @@ def main():
                 continue
             seen.add(key)
 
-            # Tür belirle
+            # Tür belirle — Öncelik: MEBİ (REV17) > TUR_OVERRIDE > guess_tur > '—'
             el = e.lower()
-            tur = TUR_OVERRIDE.get(el) or guess_tur(e) or '—'
+            mebi_tur = mebi_lookup.get(yazarSlug, {}).get(slug)
+            tur = mebi_tur or TUR_OVERRIDE.get(el) or guess_tur(e) or '—'
 
             work = {
                 'title': e,

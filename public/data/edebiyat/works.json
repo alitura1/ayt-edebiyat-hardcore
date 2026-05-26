@@ -50,6 +50,16 @@
     "cikmis": false
   },
   {
+    "title": "Ahmediyye",
+    "slug": "ahmediyye",
+    "yazar": "Hamdullah Hamdi",
+    "yazarSlug": "hamdullah-hamdi",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Ahmet Vefik Paşa çevirdi: Cimri",
     "slug": "ahmet-vefik-pasa-cevirdi-cimri",
     "yazar": "Molière",
@@ -220,11 +230,31 @@
     "cikmis": false
   },
   {
+    "title": "Bela Çiçeği",
+    "slug": "bela-cicegi",
+    "yazar": "Attila İlhan",
+    "yazarSlug": "attila-i-lhan",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Belde",
     "slug": "belde",
     "yazar": "Abdülhak Hamit Tarhan",
     "yazarSlug": "abdulhak-hamit-tarhan",
     "donem": "tanzimat",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Ben Sana Mecburum",
+    "slug": "ben-sana-mecburum",
+    "yazar": "Attila İlhan",
+    "yazarSlug": "attila-i-lhan",
+    "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -310,6 +340,16 @@
     "cikmis": false
   },
   {
+    "title": "Bir Yusuf Masalı",
+    "slug": "bir-yusuf-masali",
+    "yazar": "İsmet Özel",
+    "yazarSlug": "i-smet-ozel",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Bir Şoförün Gizli Defteri",
     "slug": "bir-soforun-gizli-defteri",
     "yazar": "Aka Gündüz",
@@ -345,6 +385,16 @@
     "yazar": "Refik Halit Karay",
     "yazarSlug": "refik-halit-karay",
     "donem": "milli_edebiyat",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Buzlar Çözülmeden",
+    "slug": "buzlar-cozulmeden",
+    "yazar": "Cevat Fehmi Başkut",
+    "yazarSlug": "cevat-fehmi-baskut",
+    "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -472,6 +522,16 @@
   {
     "title": "Divan",
     "slug": "divan",
+    "yazar": "Ahmet Paşa",
+    "yazarSlug": "ahmet-pasa",
+    "donem": "divan_edebiyati",
+    "tur": "Şiir Kitabı / Divan",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Divan",
+    "slug": "divan",
     "yazar": "Hayali Bey",
     "yazarSlug": "hayali-bey",
     "donem": "divan_edebiyati",
@@ -485,6 +545,36 @@
     "yazar": "Yunus Emre",
     "yazarSlug": "yunus-emre",
     "donem": "halk_edebiyati",
+    "tur": "Şiir Kitabı / Divan",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Divan",
+    "slug": "divan",
+    "yazar": "Şeyhülislam Yahya",
+    "yazarSlug": "seyhulislam-yahya",
+    "donem": "divan_edebiyati",
+    "tur": "Şiir Kitabı / Divan",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Divan",
+    "slug": "divan",
+    "yazar": "Neşati",
+    "yazarSlug": "nesati",
+    "donem": "divan_edebiyati",
+    "tur": "Şiir Kitabı / Divan",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Divan",
+    "slug": "divan",
+    "yazar": "Zati",
+    "yazarSlug": "zati",
+    "donem": "divan_edebiyati",
     "tur": "Şiir Kitabı / Divan",
     "yil": null,
     "cikmis": false
@@ -530,6 +620,16 @@
     "cikmis": false
   },
   {
+    "title": "Divânü Lügâti't-Türk",
+    "slug": "divanu-lugati-t-turk",
+    "yazar": "Kaşgarlı Mahmut",
+    "yazarSlug": "kasgarli-mahmut",
+    "donem": "islamiyet_oncesi_gecis",
+    "tur": "Sözlük",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Diyet",
     "slug": "diyet",
     "yazar": "Ömer Seyfettin",
@@ -560,6 +660,16 @@
     "cikmis": false
   },
   {
+    "title": "Duvar",
+    "slug": "duvar",
+    "yazar": "Attila İlhan",
+    "yazarSlug": "attila-i-lhan",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Dönemeçte",
     "slug": "donemecte",
     "yazar": "Tarık Buğra",
@@ -580,11 +690,31 @@
     "cikmis": false
   },
   {
+    "title": "Edirne Şehrengizi",
+    "slug": "edirne-sehrengizi",
+    "yazar": "Zati",
+    "yazarSlug": "zati",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Elhan-ı Şita",
     "slug": "elhan-i-sita",
     "yazar": "Cenap Şahabettin",
     "yazarSlug": "cenap-sahabettin",
     "donem": "servet_i_funun_fecr_i_ati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Erbain",
+    "slug": "erbain",
+    "yazar": "İsmet Özel",
+    "yazarSlug": "i-smet-ozel",
+    "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -730,6 +860,16 @@
     "cikmis": false
   },
   {
+    "title": "Galile Denizi",
+    "slug": "galile-denizi",
+    "yazar": "İlhan Berk",
+    "yazarSlug": "i-lhan-berk",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Garip",
     "slug": "garip",
     "yazar": "Orhan Veli Kanık",
@@ -745,6 +885,36 @@
     "yazar": "Melih Cevdet Anday",
     "yazarSlug": "melih-cevdet-anday",
     "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Garip",
+    "slug": "garip",
+    "yazar": "Oktay Rifat",
+    "yazarSlug": "oktay-rifat",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Gencîne-i Râz",
+    "slug": "gencine-i-raz",
+    "yazar": "Taşlıcalı Yahya",
+    "yazarSlug": "taslicali-yahya",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Gulyabani",
+    "slug": "gulyabani",
+    "yazar": "Hüseyin Rahmi Gürpınar",
+    "yazarSlug": "huseyin-rahmi-gurpinar",
+    "donem": "milli_edebiyat",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -800,11 +970,31 @@
     "cikmis": false
   },
   {
+    "title": "Gülşen-i Envâr",
+    "slug": "gulsen-i-envar",
+    "yazar": "Taşlıcalı Yahya",
+    "yazarSlug": "taslicali-yahya",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Hac Yolunda",
     "slug": "hac-yolunda",
     "yazar": "Cenap Şahabettin",
     "yazarSlug": "cenap-sahabettin",
     "donem": "servet_i_funun_fecr_i_ati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Hacı Kaptan",
+    "slug": "haci-kaptan",
+    "yazar": "Cevat Fehmi Başkut",
+    "yazarSlug": "cevat-fehmi-baskut",
+    "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -940,6 +1130,16 @@
     "cikmis": false
   },
   {
+    "title": "Heşt Bihişt",
+    "slug": "hest-bihist",
+    "yazar": "Sehi Bey",
+    "yazarSlug": "sehi-bey",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Huzur",
     "slug": "huzur",
     "yazar": "Ahmet Hamdi Tanpınar",
@@ -1055,7 +1255,7 @@
     "yazar": "Ahmedi",
     "yazarSlug": "ahmedi",
     "donem": "divan_edebiyati",
-    "tur": "—",
+    "tur": "Mesnevi",
     "yil": null,
     "cikmis": false
   },
@@ -1170,6 +1370,16 @@
     "cikmis": true
   },
   {
+    "title": "Kerem Kasidesi",
+    "slug": "kerem-kasidesi",
+    "yazar": "Ahmet Paşa",
+    "yazarSlug": "ahmet-pasa",
+    "donem": "divan_edebiyati",
+    "tur": "Şiir Kitabı / Divan",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Keşanlı Ali Destanı",
     "slug": "kesanli-ali-destani",
     "yazar": "Haldun Taner",
@@ -1188,6 +1398,16 @@
     "tur": "Roman",
     "yil": null,
     "cikmis": true
+  },
+  {
+    "title": "Kitab-ı Usul",
+    "slug": "kitab-i-usul",
+    "yazar": "Taşlıcalı Yahya",
+    "yazarSlug": "taslicali-yahya",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
   },
   {
     "title": "Komedi ustası (Klasisizm)",
@@ -1220,12 +1440,32 @@
     "cikmis": false
   },
   {
+    "title": "Kutadgu Bilig",
+    "slug": "kutadgu-bilig",
+    "yazar": "Yusuf Has Hacip",
+    "yazarSlug": "yusuf-has-hacip",
+    "donem": "islamiyet_oncesi_gecis",
+    "tur": "Mesnevi",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Kuvâyi Milliye Destanı",
     "slug": "kuvayi-milliye-destani",
     "yazar": "Nazım Hikmet",
     "yazarSlug": "nazim-hikmet",
     "donem": "cumhuriyet",
     "tur": "Şiir Destanı",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Kuyruklu Yıldız Altında Bir İzdivaç",
+    "slug": "kuyruklu-yildiz-altinda-bir-i-zdivac",
+    "yazar": "Hüseyin Rahmi Gürpınar",
+    "yazarSlug": "huseyin-rahmi-gurpinar",
+    "donem": "milli_edebiyat",
+    "tur": "—",
     "yil": null,
     "cikmis": false
   },
@@ -1280,6 +1520,16 @@
     "cikmis": true
   },
   {
+    "title": "Küçük Şehir",
+    "slug": "kucuk-sehir",
+    "yazar": "Cevat Fehmi Başkut",
+    "yazarSlug": "cevat-fehmi-baskut",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Küçük Şeyler",
     "slug": "kucuk-seyler",
     "yazar": "Samipaşazade Sezai",
@@ -1298,6 +1548,16 @@
     "tur": "Roman",
     "yil": null,
     "cikmis": true
+  },
+  {
+    "title": "Kıyafetname",
+    "slug": "kiyafetname",
+    "yazar": "Hamdullah Hamdi",
+    "yazarSlug": "hamdullah-hamdi",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
   },
   {
     "title": "Kızılelma",
@@ -1354,6 +1614,16 @@
     "slug": "leyla-vu-mecnun",
     "yazar": "Fuzuli",
     "yazarSlug": "fuzuli",
+    "donem": "divan_edebiyati",
+    "tur": "Mesnevi",
+    "yil": null,
+    "cikmis": true
+  },
+  {
+    "title": "Leyla vü Mecnun",
+    "slug": "leyla-vu-mecnun",
+    "yazar": "Hamdullah Hamdi",
+    "yazarSlug": "hamdullah-hamdi",
     "donem": "divan_edebiyati",
     "tur": "Mesnevi",
     "yil": null,
@@ -1560,11 +1830,31 @@
     "cikmis": false
   },
   {
+    "title": "Mürebbiye",
+    "slug": "murebbiye",
+    "yazar": "Hüseyin Rahmi Gürpınar",
+    "yazarSlug": "huseyin-rahmi-gurpinar",
+    "donem": "milli_edebiyat",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Nemide",
     "slug": "nemide",
     "yazar": "Halit Ziya Uşaklıgil",
     "yazarSlug": "halit-ziya-usakligil",
     "donem": "servet_i_funun_fecr_i_ati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Nikomakhos'a Etik",
+    "slug": "nikomakhos-a-etik",
+    "yazar": "Aristoteles",
+    "yazarSlug": "aristoteles",
+    "donem": "edebi_akimlar",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -1576,6 +1866,16 @@
     "yazarSlug": "yakup-kadri-karaosmanoglu",
     "donem": "milli_edebiyat",
     "tur": "Roman",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Of Not Being a Jew",
+    "slug": "of-not-being-a-jew",
+    "yazar": "İsmet Özel",
+    "yazarSlug": "i-smet-ozel",
+    "donem": "cumhuriyet",
+    "tur": "—",
     "yil": null,
     "cikmis": false
   },
@@ -1640,6 +1940,16 @@
     "cikmis": false
   },
   {
+    "title": "Paydos",
+    "slug": "paydos",
+    "yazar": "Cevat Fehmi Başkut",
+    "yazarSlug": "cevat-fehmi-baskut",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Pejmurde",
     "slug": "pejmurde",
     "yazar": "Recaizade Mahmut Ekrem",
@@ -1680,6 +1990,16 @@
     "cikmis": true
   },
   {
+    "title": "Poetika",
+    "slug": "poetika",
+    "yazar": "Aristoteles",
+    "yazarSlug": "aristoteles",
+    "donem": "edebi_akimlar",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Psikanaliz kurucusu (sürrealizm akımının kuramsal temeli)",
     "slug": "psikanaliz-kurucusu-surrealizm-akiminin-kuramsal-temeli",
     "yazar": "Freud",
@@ -1695,6 +2015,16 @@
     "yazar": "Melih Cevdet Anday",
     "yazarSlug": "melih-cevdet-anday",
     "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Retorik",
+    "slug": "retorik",
+    "yazar": "Aristoteles",
+    "yazarSlug": "aristoteles",
+    "donem": "edebi_akimlar",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -1790,6 +2120,16 @@
     "cikmis": false
   },
   {
+    "title": "Sana Rey Veriyorum",
+    "slug": "sana-rey-veriyorum",
+    "yazar": "Cevat Fehmi Başkut",
+    "yazarSlug": "cevat-fehmi-baskut",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Sanat",
     "slug": "sanat",
     "yazar": "Faruk Nafiz Çamlıbel",
@@ -1870,6 +2210,16 @@
     "cikmis": true
   },
   {
+    "title": "Sisler Bulvarı",
+    "slug": "sisler-bulvari",
+    "yazar": "Attila İlhan",
+    "yazarSlug": "attila-i-lhan",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Su Kasidesi",
     "slug": "su-kasidesi",
     "yazar": "Fuzuli",
@@ -1945,6 +2295,16 @@
     "yazar": "Recaizade Mahmut Ekrem",
     "yazarSlug": "recaizade-mahmut-ekrem",
     "donem": "tanzimat",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Tante Rosa",
+    "slug": "tante-rosa",
+    "yazar": "Sevgi Soysal",
+    "yazarSlug": "sevgi-soysal",
+    "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -2045,6 +2405,26 @@
     "yazar": "Nef'i",
     "yazarSlug": "nef-i",
     "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Tuhfetü'l-Uşşak",
+    "slug": "tuhfetu-l-ussak",
+    "yazar": "Hamdullah Hamdi",
+    "yazarSlug": "hamdullah-hamdi",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Tutkulu Perçem",
+    "slug": "tutkulu-percem",
+    "yazar": "Sevgi Soysal",
+    "yazarSlug": "sevgi-soysal",
+    "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -2190,6 +2570,26 @@
     "cikmis": false
   },
   {
+    "title": "Yağmur Kaçağı",
+    "slug": "yagmur-kacagi",
+    "yazar": "Attila İlhan",
+    "yazarSlug": "attila-i-lhan",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Yaşayıp Ölmek Aşk ve Avarelik Üstüne Şiirler",
+    "slug": "yasayip-olmek-ask-ve-avarelik-ustune-siirler",
+    "yazar": "Oktay Rifat",
+    "yazarSlug": "oktay-rifat",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Yeni Hayat",
     "slug": "yeni-hayat",
     "yazar": "Ziya Gökalp",
@@ -2204,6 +2604,16 @@
     "slug": "yenisi",
     "yazar": "Orhan Veli Kanık",
     "yazarSlug": "orhan-veli-kanik",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Yenişehir'de Bir Öğle Vakti",
+    "slug": "yenisehir-de-bir-ogle-vakti",
+    "yazar": "Sevgi Soysal",
+    "yazarSlug": "sevgi-soysal",
     "donem": "cumhuriyet",
     "tur": "—",
     "yil": null,
@@ -2246,6 +2656,36 @@
     "yazarSlug": "kemal-tahir",
     "donem": "cumhuriyet",
     "tur": "Roman",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Yusuf u Züleyha",
+    "slug": "yusuf-u-zuleyha",
+    "yazar": "Taşlıcalı Yahya",
+    "yazarSlug": "taslicali-yahya",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Yusuf u Züleyha",
+    "slug": "yusuf-u-zuleyha",
+    "yazar": "Hamdullah Hamdi",
+    "yazarSlug": "hamdullah-hamdi",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Yürümek",
+    "slug": "yurumek",
+    "yazar": "Sevgi Soysal",
+    "yazarSlug": "sevgi-soysal",
+    "donem": "cumhuriyet",
+    "tur": "—",
     "yil": null,
     "cikmis": false
   },
@@ -2420,6 +2860,36 @@
     "cikmis": false
   },
   {
+    "title": "Şafak",
+    "slug": "safak",
+    "yazar": "Sevgi Soysal",
+    "yazarSlug": "sevgi-soysal",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Şah u Geda",
+    "slug": "sah-u-geda",
+    "yazar": "Taşlıcalı Yahya",
+    "yazarSlug": "taslicali-yahya",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Şair Erbain",
+    "slug": "sair-erbain",
+    "yazar": "İsmet Özel",
+    "yazarSlug": "i-smet-ozel",
+    "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Şair Evlenmesi",
     "slug": "sair-evlenmesi",
     "yazar": "Şinasi",
@@ -2445,6 +2915,16 @@
     "yazar": "Ahmet Kutsi Tecer",
     "yazarSlug": "ahmet-kutsi-tecer",
     "donem": "cumhuriyet",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Şem ü Pervane",
+    "slug": "sem-u-pervane",
+    "yazar": "Zati",
+    "yazarSlug": "zati",
+    "donem": "divan_edebiyati",
     "tur": "—",
     "yil": null,
     "cikmis": false
@@ -2505,6 +2985,36 @@
     "yazar": "Fuzuli",
     "yazarSlug": "fuzuli",
     "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Şitaiyye",
+    "slug": "sitaiyye",
+    "yazar": "Neşati",
+    "yazarSlug": "nesati",
+    "donem": "divan_edebiyati",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Şık",
+    "slug": "sik",
+    "yazar": "Hüseyin Rahmi Gürpınar",
+    "yazarSlug": "huseyin-rahmi-gurpinar",
+    "donem": "milli_edebiyat",
+    "tur": "—",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Şıpsevdi",
+    "slug": "sipsevdi",
+    "yazar": "Hüseyin Rahmi Gürpınar",
+    "yazarSlug": "huseyin-rahmi-gurpinar",
+    "donem": "milli_edebiyat",
     "tur": "—",
     "yil": null,
     "cikmis": false

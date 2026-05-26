@@ -8,7 +8,8 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 BASE = Path(__file__).parent.parent
-AUTHORS_PATH = BASE / 'public' / 'data' / 'authors.json'
+# REV17: subject-aware path → data/edebiyat/authors.json
+AUTHORS_PATH = BASE / 'public' / 'data' / 'edebiyat' / 'authors.json'
 
 # Yazar adı -> 5 field enrichment
 # anekdot: 1-3 cümle, somut/anekdotal/akılda kalan + bir sınava bridge cümlesi
@@ -609,6 +610,150 @@ ENRICHMENT = {
         "anekdot": "Türk hikayeciliğinin BABASI. 'Genç Kalemler' dergisinde dil sadeleşmesinin manifestosunu yazdı. 'Bomba', 'Pembe İncili Kaftan', 'Falaka', 'Kaşağı' — okumayan kalmadı bu hikayeleri. 36'da hapishanede öldü.",
         "klasik_tuzak": "Refik Halit ile karıştırma — ikisi de Milli Edebiyat hikayeciliği. Ömer Seyfettin DİL SADELEŞMESİ + tarih/mizah + 'Genç Kalemler', Refik Halit MEMLEKET GERÇEKÇİLİĞİ.",
         "rakipleri": ["Refik Halit Karay", "Ahmet Hikmet Müftüoğlu", "Yakup Kadri Karaosmanoğlu"]
+    },
+    # ====== REV17 — Eksik çıkmış yazarlar (M1.b) ======
+    # 6 kritik (3+ soru, doğru cevap veya şıkta)
+    "Taşlıcalı Yahya": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "Divan edebiyatında 'hamse sahibi' (5 mesnevi yazan) büyük şairlerden. En çarpıcı eseri: Kanuni'nin oğlu Şehzade Mustafa'nın idamına yazdığı 'Şehzade Mustafa Mersiyesi' (terkibibent). Padişahı ve veziri Rüstem Paşa'yı usta bir dille hicvetti — bu mersiye Divan'ın en cesur siyasi metni. Son 4 sınavda 4 kez (2020-2025) şıklarda geçti, sitede yoktu.",
+        "klasik_tuzak": "Şeyhülislam Yahya ile karıştırma — ikisi de '16-17. yy Divan + Yahya'. Taşlıcalı MESNEVİCİ + hamse + Şehzade Mustafa Mersiyesi; Şeyhülislam GAZEL ustası + IV. Murat dönemi şeyhülislamı. Şehzade Mustafa Mersiyesi = Taşlıcalı'nın anahtar eseri.",
+        "rakipleri": ["Şeyhülislam Yahya", "Baki", "Hayali Bey"]
+    },
+    "Aşık Paşa": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "13-14. yy Anadolu Türkçesini yücelten şair. 'Garibname' adlı 12000 beyitlik mesnevisi tamamı Türkçe — o dönemde Farsça hâkimken bu çok cesur bir hareketti. 'Türk diline kimseler bakmaz idi / Türklere hergiz gönül akmaz idi' diyerek Türkçenin değerini ilan etti. Geçiş döneminden Anadolu Türkçesine köprü olan isim.",
+        "klasik_tuzak": "Aşık VEYSEL veya halk şairi sanma. Aşık PAŞA = 13-14. yy Divan/tasavvuf (Garibname, mesnevi); Aşık VEYSEL = 20. yy HALK şairi. Mesnevi + Anadolu Türkçesi öncüsü = Aşık Paşa.",
+        "rakipleri": ["Yunus Emre", "Sultan Veled", "Mevlana"]
+    },
+    "Ahmet Paşa": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "15. yy'ın 'Şairler Sultanı'. Fatih Sultan Mehmet'in sohbet arkadaşı + veziri + hocası. Fatih'le bir kez arası açıldığında 'Kerem' redifli kasidesini sundu — bu kaside onu idamdan kurtardı. Tarih düşürmeyi (ebced) sanat haline getirdi, türeyen şairlere etkili nazireler yazdırdı. Tek eseri Divan'ıdır.",
+        "klasik_tuzak": "Baki ile karıştırma — 'Şairler Sultanı' lakabı 16. yy'da Baki için de kullanılır. AMA Ahmet PAŞA 15. yy + Fatih dönemi + 'Kerem' redifli kaside + idamdan kurtuluş; Baki 16. yy + Kanuni dönemi + 'Kanuni Mersiyesi'. 'Şehzade Mustafa Mersiyesi' = Taşlıcalı, 'Kanuni Mersiyesi' = Baki.",
+        "rakipleri": ["Baki", "Necati Bey", "Şeyhi"]
+    },
+    "Sehi Bey": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Tezkire yazarı",
+        "anekdot": "Türk edebiyatının İLK TEZKİRE yazarı — 'Heşt Bihişt' (Sekiz Cennet, 1538) divan şairlerinin biyografi geleneğini başlattı. Her tezkire: şair başına bölüm + örnek beyit yapısı. Sehi Bey'siz Divan edebiyatı tarihi yazılamaz.",
+        "klasik_tuzak": "Latifi (sonraki tezkire yazarı) ve Aşık Çelebi ile karıştırma. İLK TEZKİRE = Sehi Bey + Heşt Bihişt (1538); sonra Latifi (1546), Aşık Çelebi (1568) ve diğerleri. 'İlk Türk edebiyat tarihi yazarı' sorulursa cevap Sehi Bey.",
+        "rakipleri": ["Latifi", "Aşık Çelebi", "Kınalızade Hasan Çelebi"]
+    },
+    "Şeyhülislam Yahya": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "17. yy'ın gazel ustası, IV. Murat döneminin şeyhülislamı. 'Aşk-ı Hakiki' yerine zarif/dünyevi aşk gazelleri yazdı — şeyhülislam olduğu halde 'Subh-i mübarekde mey iç' diyebilen bir lirizm. Sade Türkçeyi divan estetiğinde işleyen ender sanatçılardan.",
+        "klasik_tuzak": "Taşlıcalı Yahya ile karıştırma — aynı isim, farklı yüzyıllar (16 vs 17). Taşlıcalı MESNEVİ + Şehzade Mustafa Mersiyesi; Şeyhülislam GAZEL + zarif aşk + IV. Murat dönemi şeyhülislamı. Devlet adamı + gazel = Şeyhülislam Yahya.",
+        "rakipleri": ["Taşlıcalı Yahya", "Nef'i", "Nedim"]
+    },
+    "Hamdullah Hamdi": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "15. yy mesnevi şairi — Akşemseddin'in oğlu. 'Yusuf u Züleyha' Türkçedeki ilk büyük örneklerinden. Tasavvufi sembolizm + Kur'an'daki Yusuf kıssasının Türkçeye uyarlanması onun imzasıdır.",
+        "klasik_tuzak": "Şeyyad Hamza ile karıştırma — her ikisi de Türkçe Yusuf u Züleyha yazmış. Hamdullah HAMDİ 15. yy + Akşemseddin oğlu; Şeyyad HAMZA 13-14. yy daha eski. 'Akşemseddin'in oğlu' = Hamdullah.",
+        "rakipleri": ["Şeyyad Hamza", "Ahmedi", "Süleyman Çelebi"]
+    },
+    # 10 tek-sefer (1-2 soru, profil yine de eklenir)
+    "Yusuf Has Hacip": {
+        "donem": "islamiyet_oncesi_gecis",
+        "pozisyon": "Şair",
+        "anekdot": "Karahanlılar dönemi (11. yy) — 'Kutadgu Bilig' (Mutluluk Veren Bilgi) yazarı. Aruz vezniyle yazılmış didaktik mesnevi: devlet yönetimi + ahlak öğüdü. 4 sembolik kişi (Kün-Toğdı/adalet, Ay-Toldı/saadet vs.) üzerinden alegorik anlatım. Türk edebiyatının ilk büyük eseri.",
+        "klasik_tuzak": "Geçiş Dönemi 4 büyük eser hep karıştırılır: Kutadgu Bilig (Yusuf Has Hacip), Divânü Lügâti't-Türk (Kaşgarlı Mahmut), Atabetü'l-Hakayık (Edip Ahmet Yükneki), Divan-ı Hikmet (Ahmet Yesevi). 'Kutadgu Bilig' = Yusuf Has Hacip.",
+        "rakipleri": ["Kaşgarlı Mahmut", "Edip Ahmet Yükneki", "Ahmet Yesevi"]
+    },
+    "Kaşgarlı Mahmut": {
+        "donem": "islamiyet_oncesi_gecis",
+        "pozisyon": "Sözlük yazarı",
+        "anekdot": "11. yy 'Divânü Lügâti't-Türk' (Türk Dilleri Sözlüğü) yazarı. Bağdat halifesine Türkçenin Arapça'ya üstünlüğünü kanıtlamak için yazıldı. Türk dünyası hakkında ilk ansiklopedik kaynak — atasözleri, ağıtlar, harita.",
+        "klasik_tuzak": "Kutadgu Bilig (Yusuf Has Hacip) ile karıştırma. Kutadgu Bilig MESNEVİ/şiir; Divânü Lügat SÖZLÜK/nesir. İkisi de 11. yy Karahanlı.",
+        "rakipleri": ["Yusuf Has Hacip", "Edip Ahmet Yükneki", "Ahmet Yesevi"]
+    },
+    "Aristoteles": {
+        "donem": "edebi_akimlar",
+        "pozisyon": "Filozof/Eleştirmen",
+        "anekdot": "Antik Yunan filozofu — 'Poetika' adlı eseri Batı edebiyat eleştirisinin TEMELİ. Trajedi tanımı, katarsis (arınma) kavramı, klasik birlik kuralları (zaman/mekan/olay) ondan. Klasisizm akımının kuramsal kökeni.",
+        "klasik_tuzak": "Klasisizmin felsefi temeli = Aristoteles; 17. yy manifestosu = Boileau (L'Art Poétique). 'Klasisizmin kuramsal kökeni' diye sorulursa cevap Aristoteles.",
+        "rakipleri": ["Boileau", "Homeros", "Sofokles"]
+    },
+    "Hüseyin Rahmi Gürpınar": {
+        "donem": "milli_edebiyat",
+        "pozisyon": "Romancı",
+        "anekdot": "Tanzimat-Milli Edebiyat geçişinin halkçı romancısı. 'Mürebbiye', 'Şıpsevdi', 'Şık' romanlarında İstanbul halk yaşamını + alaturka-alafranga çatışmasını mizahi dille anlatır. Ahmet Mithat geleneğinin devamı.",
+        "klasik_tuzak": "Ahmet Mithat Efendi ile karıştırma — ikisi de halkçı/popüler. Ahmet Mithat TANZİMAT I., Hüseyin Rahmi sonraki kuşak. 'Mürebbiye' Hüseyin Rahmi; 'Felatun Bey ile Rakım Efendi' Ahmet Mithat.",
+        "rakipleri": ["Ahmet Mithat Efendi", "Recaizade Mahmut Ekrem", "Halit Ziya Uşaklıgil"]
+    },
+    "Sevgi Soysal": {
+        "donem": "cumhuriyet",
+        "pozisyon": "Hikayeci",
+        "anekdot": "1970'lerin kadın yazarı — 'Tante Rosa', 'Tutkulu Perçem', 'Yenişehir'de Bir Öğle Vakti' modern hikayeleriyle bilinir. 12 Mart döneminin tanığı, hapis yatmış ve genç yaşta vefat etmiş bir entelektüel.",
+        "klasik_tuzak": "Aynı kuşak kadın yazarlarla karıştırılır: Adalet Ağaoğlu, Pınar Kür, Tomris Uyar. Sevgi Soysal MODERN HİKAYE + 12 Mart tanığı + 'Yenişehir'de Bir Öğle Vakti'.",
+        "rakipleri": ["Adalet Ağaoğlu", "Pınar Kür", "Tomris Uyar"]
+    },
+    "İsmet Özel": {
+        "donem": "cumhuriyet",
+        "pozisyon": "Şair",
+        "anekdot": "1970-1980'lerin İslamcı şairi. 'Erbain' (40 yaşında yazdığı şiirler) en bilinen kitabı. Marksist olarak başlayıp İslamcı düşünceye geçti. Diriliş Dergisi çevresinin şairlerinden, bağımsız bir entelektüel.",
+        "klasik_tuzak": "Sezai Karakoç ile karıştırma — ikisi de İslamcı şair. Sezai Karakoç DİRİLİŞ kurucusu + 'Mona Roza' + 'Hızırla Kırk Saat'; İsmet Özel sonradan KATILMIŞ + 'Erbain'.",
+        "rakipleri": ["Sezai Karakoç", "Cahit Zarifoğlu", "Erdem Bayazıt"]
+    },
+    "Cevat Fehmi Başkut": {
+        "donem": "cumhuriyet",
+        "pozisyon": "Tiyatrocu",
+        "anekdot": "Cumhuriyet dönemi tiyatro yazarı — 'Buzlar Çözülmeden' onun en bilinen oyunu (sosyal eleştiri). 'Paydos', 'Küçük Şehir' diğer önemli oyunları. Türk tiyatrosunda eleştirel realizm + halk tipleri.",
+        "klasik_tuzak": "Haldun Taner, Turgut Özakman ile karıştırma — hepsi Cumhuriyet tiyatrosu. 'Buzlar Çözülmeden' = Cevat Fehmi; 'Keşanlı Ali Destanı' = Haldun Taner; 'Resimli Osmanlı Tarihi' = Turgut Özakman.",
+        "rakipleri": ["Haldun Taner", "Turgut Özakman", "Necati Cumalı"]
+    },
+    "Attila İlhan": {
+        "donem": "cumhuriyet",
+        "pozisyon": "Çok yönlü",
+        "anekdot": "Cumhuriyet'in MAVİ akımının kurucusu — Garip'e ve İkinci Yeni'ye karşı 'sosyal realizm + estetik' duruşu. 'Ben Sana Mecburum', 'Sisler Bulvarı', 'Yağmur Kaçağı' şiirleri; 'Sırtlan Payı', 'Kurtlar Sofrası' romanları. Gazeteci + düşünür de.",
+        "klasik_tuzak": "Mavi akımı Garip ile karıştırılır — Garip BİÇİMSEL özgürlük (Orhan Veli), Mavi YENİ TOPLUMCU + estetik (Attila İlhan). 'Ben Sana Mecburum' = Attila İlhan'ın marka şiiri.",
+        "rakipleri": ["Orhan Veli Kanık", "Cemal Süreya", "Edip Cansever"]
+    },
+    "Zati": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "16. yy Divan şairi — Edirneli, hayatı boyunca yoksul yaşadı. Padişaha kasideler sunarak geçimini sağlardı. 'Şem ü Pervane' mesnevisi + gazelleri var. Bağdatlı Ruhi'nin hocası kabul edilir.",
+        "klasik_tuzak": "Bağdatlı Ruhi, Hayali Bey ile karıştırma — hepsi 16. yy. Zati YOKSUL/kaside; Hayali ZARİF gazel; Ruhi TASAVVUFİ terkibibent (öğrencisi).",
+        "rakipleri": ["Hayali Bey", "Bağdatlı Ruhi", "Necati Bey"]
+    },
+    "Neşati": {
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "17. yy Sebk-i Hindi (Hint Tarzı) akımının Türkçedeki temsilcilerinden. Edirneli, derviş. 'Şitaiyye' (kış kasidesi) ünlüdür — Sebk-i Hindi'nin kapalı/derin/imgesel estetiğinin örneği.",
+        "klasik_tuzak": "Naili ile karıştırma — ikisi de Sebk-i Hindi. Naili daha ünlü/sembol şair; Neşati Edirneli derviş + Şitaiyye. Şeyh Galip 18. yy + tasavvufi sembolizm, ondan farklı.",
+        "rakipleri": ["Naili", "Fehim", "Şeyh Galip"]
+    },
+    # Alias keys (canonical yazılışlar mevcut, alternatif yazılışlar için):
+    "Âşık Paşa": {  # PDF 'Âşık Paşa' yazıyor — A vs Â alias
+        "donem": "divan_edebiyati",
+        "pozisyon": "Şair",
+        "anekdot": "13-14. yy Anadolu Türkçesini yücelten şair. 'Garibname' adlı 12000 beyitlik mesnevisi tamamı Türkçe — o dönemde Farsça hâkimken cesur bir hareket. 'Türk diline kimseler bakmaz idi / Türklere hergiz gönül akmaz idi' diyerek Türkçenin değerini ilan etti.",
+        "klasik_tuzak": "Aşık VEYSEL veya halk şairi sanma. Âşık PAŞA = 13-14. yy Divan/tasavvuf (Garibname); Aşık VEYSEL = 20. yy HALK şairi. Mesnevi + Anadolu Türkçesi = Âşık Paşa.",
+        "rakipleri": ["Yunus Emre", "Sultan Veled", "Mevlana"]
+    },
+    "Nikola Tesla": {  # Tesla'nın tam adı
+        "donem": "edebi_akimlar",
+        "pozisyon": "Bilim insanı",
+        "anekdot": "Sırp-Amerikalı mühendis (1856-1943). Edebi profili yok ama AYT'de paragraf okuma sorularının konusu olarak geçer — bilim insanı kişiliği, alternatif akım keşfi vb. Edebiyat sınavında çeldirici/yan bağlam.",
+        "klasik_tuzak": "Edebi bir kimlik aranmaz — paragraf konusu olarak geçer. Akım/yazar sorularında çeldirici olarak görmek için.",
+        "rakipleri": ["Brancusi", "Freud"]
+    },
+    "Oktay Rifat": {
+        "donem": "cumhuriyet",
+        "pozisyon": "Şair",
+        "anekdot": "Garip akımının üç kurucu üyesinden biri (Orhan Veli, Melih Cevdet, Oktay Rifat). 1941'de 'Garip' kitabıyla Türk şiirinde geleneksel hece + aruz + duygusallığı reddedip günlük dilin şiirini başlattılar. Sonraki dönemde II. Yeni'ye yakın çizgilere de uzandı.",
+        "klasik_tuzak": "Garip üçlüsü karıştırılır: Orhan Veli (lider, 'Yaprak' dergisi), Melih Cevdet (sonradan tiyatro/roman), Oktay Rifat (uzun şiir + sonraki dönüşüm). 'Garip' = ortak kitap.",
+        "rakipleri": ["Orhan Veli Kanık", "Melih Cevdet Anday", "Cemal Süreya"]
+    },
+    "İlhan Berk": {
+        "donem": "cumhuriyet",
+        "pozisyon": "Şair",
+        "anekdot": "İkinci Yeni akımının en görsel/deneysel şairi. 'Galile Denizi', 'Aşıkane' kitaplarında dilin sınırlarını zorladı — anlam yerine SES + GÖRSEL imge. 80 yaşında şiir yazmaya devam etti.",
+        "klasik_tuzak": "İkinci Yeni şairleri sıkça karıştırılır: Cemal Süreya, Edip Cansever, Turgut Uyar, İlhan Berk, Ece Ayhan, Sezai Karakoç. İlhan Berk DENEYSEL + GÖRSEL imge + uzun kariyer.",
+        "rakipleri": ["Cemal Süreya", "Edip Cansever", "Turgut Uyar"]
     },
 }
 
