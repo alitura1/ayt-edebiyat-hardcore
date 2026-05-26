@@ -50,7 +50,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 2,
@@ -85,7 +86,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 3,
@@ -122,7 +124,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 4,
@@ -159,7 +162,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Freud",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 5,
@@ -194,7 +203,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 6,
@@ -231,7 +241,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 7,
@@ -268,7 +279,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 8,
@@ -303,7 +315,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 9,
@@ -340,7 +353,8 @@
       "mentioned_movements": [],
       "tags": [
         "söylenemez"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 10,
@@ -375,7 +389,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 11,
@@ -414,7 +429,13 @@
         "Hamlet"
       ],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Shakespeare",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 12,
@@ -449,7 +470,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 13,
@@ -486,7 +508,17 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Nikola Tesla",
+          "role": "in_body"
+        },
+        {
+          "name": "Tesla",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 14,
@@ -521,7 +553,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 15,
@@ -556,7 +589,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 16,
@@ -591,7 +625,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 17,
@@ -628,7 +663,8 @@
       "mentioned_movements": [],
       "tags": [
         "söylenemez"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 18,
@@ -663,7 +699,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 19,
@@ -700,7 +737,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Yahya Kemal",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 20,
@@ -735,7 +778,13 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Aristoteles",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 21,
@@ -770,7 +819,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 22,
@@ -807,7 +857,8 @@
       "mentioned_movements": [],
       "tags": [
         "ulaşılamaz"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 23,
@@ -842,7 +893,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 24,
@@ -879,7 +931,8 @@
       "mentioned_movements": [],
       "tags": [
         "değinilmemiştir"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 25,
@@ -914,7 +967,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 26,
@@ -949,7 +1003,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 27,
@@ -986,7 +1041,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Brancusi",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 28,
@@ -1021,7 +1082,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 29,
@@ -1058,7 +1120,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 30,
@@ -1093,7 +1156,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 31,
@@ -1130,7 +1194,8 @@
       "mentioned_movements": [],
       "tags": [
         "değinilmemiştir"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 32,
@@ -1165,7 +1230,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 33,
@@ -1202,7 +1268,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 34,
@@ -1239,7 +1306,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Oğuz Atay",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 35,
@@ -1274,7 +1347,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 36,
@@ -1309,7 +1383,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 37,
@@ -1344,7 +1419,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 38,
@@ -1381,7 +1457,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 39,
@@ -1418,7 +1495,8 @@
       "mentioned_movements": [],
       "tags": [
         "değinilmemiştir"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 40,
@@ -1455,7 +1533,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 41,
@@ -1490,7 +1569,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 42,
@@ -1527,7 +1607,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Mary Shelley",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 43,
@@ -1564,7 +1650,8 @@
       "mentioned_movements": [],
       "tags": [
         "değinilmemiştir"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 44,
@@ -1599,7 +1686,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 45,
@@ -1634,7 +1722,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 46,
@@ -1669,7 +1758,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 47,
@@ -1704,7 +1794,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 48,
@@ -1739,7 +1830,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 49,
@@ -1776,7 +1868,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 50,
@@ -1811,7 +1909,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 51,
@@ -1846,7 +1945,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 52,
@@ -1881,7 +1981,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 53,
@@ -1916,7 +2017,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 54,
@@ -1951,7 +2053,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 55,
@@ -1988,7 +2091,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Köroğlu",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 56,
@@ -2023,7 +2132,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 57,
@@ -2058,7 +2168,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 58,
@@ -2093,7 +2204,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 59,
@@ -2128,7 +2240,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 60,
@@ -2163,7 +2276,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 61,
@@ -2198,7 +2312,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 62,
@@ -2233,7 +2348,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 63,
@@ -2268,7 +2384,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 64,
@@ -2303,7 +2420,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 65,
@@ -2341,7 +2459,17 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_body"
+        },
+        {
+          "name": "Necati",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 66,
@@ -2376,7 +2504,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 67,
@@ -2411,7 +2540,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 68,
@@ -2446,7 +2576,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 69,
@@ -2481,7 +2612,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 70,
@@ -2516,7 +2648,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 71,
@@ -2551,7 +2684,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 72,
@@ -2588,7 +2722,8 @@
       "mentioned_movements": [],
       "tags": [
         "ulaşılamaz"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 73,
@@ -2623,7 +2758,13 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Sehi Bey",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 74,
@@ -2658,7 +2799,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 75,
@@ -2693,7 +2835,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 76,
@@ -2728,7 +2871,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 77,
@@ -2763,7 +2907,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 78,
@@ -2798,7 +2943,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 79,
@@ -2835,7 +2981,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 80,
@@ -2870,7 +3017,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 81,
@@ -2905,7 +3053,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 82,
@@ -2942,7 +3091,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 83,
@@ -2977,7 +3127,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 84,
@@ -3012,7 +3163,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 85,
@@ -3049,7 +3201,17 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Yesevi",
+          "role": "in_body"
+        },
+        {
+          "name": "Kaşgarlı Mahmut",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 86,
@@ -3090,6 +3252,12 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Yunus Emre",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -3129,7 +3297,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 88,
@@ -3168,7 +3337,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 89,
@@ -3203,7 +3373,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 90,
@@ -3238,7 +3409,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 91,
@@ -3273,7 +3445,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 92,
@@ -3308,7 +3481,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 93,
@@ -3343,7 +3517,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 94,
@@ -3380,7 +3555,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 95,
@@ -3415,7 +3591,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 96,
@@ -3456,6 +3633,12 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -3493,7 +3676,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 98,
@@ -3537,6 +3721,24 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Nabi",
+          "role": "in_option"
+        },
+        {
+          "name": "Nedim",
+          "role": "in_option"
+        },
+        {
+          "name": "Şeyh Galip",
+          "role": "in_option"
+        },
+        {
+          "name": "Şeyhülislam Yahya",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -3577,7 +3779,29 @@
         "Hüsn ü Aşk"
       ],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Nabi",
+          "role": "in_body"
+        },
+        {
+          "name": "Şeyh Galip",
+          "role": "in_body"
+        },
+        {
+          "name": "Âşık Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmedi",
+          "role": "in_option"
+        },
+        {
+          "name": "Zati",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 100,
@@ -3612,7 +3836,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 101,
@@ -3647,7 +3872,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 102,
@@ -3682,7 +3908,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 103,
@@ -3717,7 +3944,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 104,
@@ -3758,6 +3986,24 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_option"
+        },
+        {
+          "name": "Necati",
+          "role": "in_option"
+        },
+        {
+          "name": "Taşlıcalı Yahya",
+          "role": "in_option"
+        },
+        {
+          "name": "Baki",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -3798,6 +4044,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Nabi",
+          "role": "in_option"
+        },
+        {
+          "name": "Nef'i",
+          "role": "in_option"
+        },
+        {
+          "name": "Şeyhülislam Yahya",
+          "role": "in_option"
+        },
+        {
+          "name": "Neşati",
+          "role": "in_option"
+        },
+        {
+          "name": "Naili",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -3833,7 +4101,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 107,
@@ -3868,7 +4137,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 108,
@@ -3909,6 +4179,36 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Necati",
+          "role": "in_body"
+        },
+        {
+          "name": "Şeyhi",
+          "role": "in_body"
+        },
+        {
+          "name": "Âşık Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Taşlıcalı Yahya",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Sehi Bey",
+          "role": "in_option"
+        },
+        {
+          "name": "Süleyman Çelebi",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -3944,7 +4244,13 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Nedim",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 110,
@@ -3981,7 +4287,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 111,
@@ -4016,7 +4323,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 112,
@@ -4059,6 +4367,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Nabi",
+          "role": "in_option"
+        },
+        {
+          "name": "Nedim",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmedi",
+          "role": "in_option"
+        },
+        {
+          "name": "Baki",
+          "role": "in_option"
+        },
+        {
+          "name": "Nef'i",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4100,6 +4430,24 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_option"
+        },
+        {
+          "name": "Necati",
+          "role": "in_option"
+        },
+        {
+          "name": "Şeyhi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Paşa",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4135,7 +4483,25 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Nabi",
+          "role": "in_body"
+        },
+        {
+          "name": "Şeyh Galip",
+          "role": "in_body"
+        },
+        {
+          "name": "Âşık Paşa",
+          "role": "in_body"
+        },
+        {
+          "name": "Yusuf Has Hacip",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 115,
@@ -4174,7 +4540,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 116,
@@ -4214,6 +4581,32 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_body"
+        },
+        {
+          "name": "Şeyhi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmedi",
+          "role": "in_option"
+        },
+        {
+          "name": "Taşlıcalı Yahya",
+          "role": "in_option"
+        },
+        {
+          "name": "Baki",
+          "role": "in_option"
+        },
+        {
+          "name": "Hayali Bey",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4251,7 +4644,8 @@
         "Mesnevi"
       ],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 118,
@@ -4286,7 +4680,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 119,
@@ -4330,6 +4725,24 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Şeyh Galip",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmedi",
+          "role": "in_option"
+        },
+        {
+          "name": "Yunus Emre",
+          "role": "in_option"
+        },
+        {
+          "name": "Mevlana",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4373,6 +4786,32 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_option"
+        },
+        {
+          "name": "Nabi",
+          "role": "in_option"
+        },
+        {
+          "name": "Şeyhi",
+          "role": "in_option"
+        },
+        {
+          "name": "Âşık Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Nef'i",
+          "role": "in_option"
+        },
+        {
+          "name": "Hacı Bayram Veli",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -4412,6 +4851,12 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Fuzuli",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -4452,6 +4897,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Necati",
+          "role": "in_option"
+        },
+        {
+          "name": "Şeyhi",
+          "role": "in_option"
+        },
+        {
+          "name": "Taşlıcalı Yahya",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Hamdullah Hamdi",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4487,7 +4954,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 124,
@@ -4528,6 +4996,12 @@
       "mentioned_movements": [],
       "tags": [
         "söylenemez"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Şinasi",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -4578,6 +5052,36 @@
       ],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_option"
+        },
+        {
+          "name": "Namık Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat Efendi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat",
+          "role": "in_option"
+        },
+        {
+          "name": "Sami Paşazade Sezai",
+          "role": "in_option"
+        },
+        {
+          "name": "Nabizade Nazım",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4624,6 +5128,40 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_option"
+        },
+        {
+          "name": "Namık Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat Efendi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Vefik Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Direktör Ali Bey",
+          "role": "in_option"
+        },
+        {
+          "name": "Molière",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -4668,6 +5206,12 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Namık Kemal",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -4703,7 +5247,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 129,
@@ -4744,7 +5289,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 130,
@@ -4787,6 +5333,40 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_option"
+        },
+        {
+          "name": "Namık Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat Efendi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat",
+          "role": "in_option"
+        },
+        {
+          "name": "Abdülhak Hamit",
+          "role": "in_option"
+        },
+        {
+          "name": "Abdülhak Hamit Tarhan",
+          "role": "in_option"
+        },
+        {
+          "name": "Şemsettin Sami",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4830,6 +5410,32 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Namık Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat Efendi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat",
+          "role": "in_option"
+        },
+        {
+          "name": "Şinasi",
+          "role": "in_option"
+        },
+        {
+          "name": "Şemsettin Sami",
+          "role": "in_option"
+        },
+        {
+          "name": "Ziya Paşa",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4873,6 +5479,36 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_option"
+        },
+        {
+          "name": "Namık Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat Efendi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat",
+          "role": "in_option"
+        },
+        {
+          "name": "Muallim Naci",
+          "role": "in_option"
+        },
+        {
+          "name": "Samipaşazade Sezai",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4914,6 +5550,28 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_option"
+        },
+        {
+          "name": "Namık Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_option"
+        },
+        {
+          "name": "Abdülhak Hamit",
+          "role": "in_option"
+        },
+        {
+          "name": "Abdülhak Hamit Tarhan",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -4952,7 +5610,8 @@
         "Çalıkuşu"
       ],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 135,
@@ -4992,7 +5651,33 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_option"
+        },
+        {
+          "name": "Refik Halit Karay",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri",
+          "role": "in_option"
+        },
+        {
+          "name": "Cenap Şahabettin",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri Karaosmanoğlu",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 136,
@@ -5035,6 +5720,16 @@
       "tags": [
         "söylenemez",
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_body"
+        },
+        {
+          "name": "Abdülhak Hamit",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -5072,7 +5767,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 138,
@@ -5113,6 +5809,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Refik Halit Karay",
+          "role": "in_option"
+        },
+        {
+          "name": "Tevfik Fikret",
+          "role": "in_option"
+        },
+        {
+          "name": "Hüseyin Cahit Yalçın",
+          "role": "in_option"
+        },
+        {
+          "name": "Hüseyin Rahmi Gürpınar",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5154,7 +5872,37 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_option"
+        },
+        {
+          "name": "Yahya Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Cenap Şahabettin",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Akif",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Akif Ersoy",
+          "role": "in_option"
+        },
+        {
+          "name": "Ziya Paşa",
+          "role": "in_option"
+        },
+        {
+          "name": "Yahya Kemal Beyatlı",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 140,
@@ -5200,6 +5948,32 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_option"
+        },
+        {
+          "name": "Abdülhak Hamit",
+          "role": "in_option"
+        },
+        {
+          "name": "Yahya Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Nedim",
+          "role": "in_body"
+        },
+        {
+          "name": "Cenap Şahabettin",
+          "role": "in_option"
+        },
+        {
+          "name": "Tevfik Fikret",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5243,6 +6017,48 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Refik Halit Karay",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket Esendal",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri Karaosmanoğlu",
+          "role": "in_option"
+        },
+        {
+          "name": "Halide Edip",
+          "role": "in_option"
+        },
+        {
+          "name": "Reşat Nuri",
+          "role": "in_option"
+        },
+        {
+          "name": "Halide Edip Adıvar",
+          "role": "in_option"
+        },
+        {
+          "name": "Reşat Nuri Güntekin",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5289,6 +6105,52 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_body"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_body"
+        },
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Mithat Efendi",
+          "role": "in_body"
+        },
+        {
+          "name": "Ahmet Mithat",
+          "role": "in_body"
+        },
+        {
+          "name": "Abdülhak Hamit",
+          "role": "in_body"
+        },
+        {
+          "name": "Cenap Şahabettin",
+          "role": "in_option"
+        },
+        {
+          "name": "Tevfik Fikret",
+          "role": "in_option"
+        },
+        {
+          "name": "Abdülhak Hamit Tarhan",
+          "role": "in_body"
+        },
+        {
+          "name": "Muallim Naci",
+          "role": "in_option"
+        },
+        {
+          "name": "Süleyman Nazif",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5324,7 +6186,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 144,
@@ -5367,7 +6230,33 @@
       "mentioned_movements": [
         "parnasizm"
       ],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_option"
+        },
+        {
+          "name": "Tevfik Fikret",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Akif",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Akif Ersoy",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Emin Yurdakul",
+          "role": "in_option"
+        },
+        {
+          "name": "Ziya Gökalp",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 145,
@@ -5404,7 +6293,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 146,
@@ -5447,6 +6337,28 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri",
+          "role": "in_option"
+        },
+        {
+          "name": "Halide Edip",
+          "role": "in_option"
+        },
+        {
+          "name": "Reşat Nuri",
+          "role": "in_option"
+        },
+        {
+          "name": "Aka Gündüz",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5490,7 +6402,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 148,
@@ -5535,6 +6448,36 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Refik Halit Karay",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket Esendal",
+          "role": "in_option"
+        },
+        {
+          "name": "Mithat Cemal Kuntay",
+          "role": "in_option"
+        },
+        {
+          "name": "Peyami Safa",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Hikmet Müftüoğlu",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5580,6 +6523,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Sabahattin Ali",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Hamdi Tanpınar",
+          "role": "in_option"
+        },
+        {
+          "name": "Haldun Taner",
+          "role": "in_option"
+        },
+        {
+          "name": "Kemal Tahir",
+          "role": "in_option"
+        },
+        {
+          "name": "Tarık Buğra",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5619,7 +6584,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 151,
@@ -5667,6 +6633,44 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_option"
+        },
+        {
+          "name": "Yahya Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Faruk Nafiz Çamlıbel",
+          "role": "in_option"
+        },
+        {
+          "name": "Faruk Nafiz",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Akif",
+          "role": "in_option"
+        },
+        {
+          "name": "Mehmet Akif Ersoy",
+          "role": "in_option"
+        },
+        {
+          "name": "Yahya Kemal Beyatlı",
+          "role": "in_option"
+        },
+        {
+          "name": "Necip Fazıl Kısakürek",
+          "role": "in_option"
+        },
+        {
+          "name": "Necip Fazıl",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5710,6 +6714,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Necati",
+          "role": "in_option"
+        },
+        {
+          "name": "Haldun Taner",
+          "role": "in_option"
+        },
+        {
+          "name": "Orhan Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Necati Cumalı",
+          "role": "in_option"
+        },
+        {
+          "name": "Yaşar Kemal",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5750,7 +6776,33 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Refik Halit Karay",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket Esendal",
+          "role": "in_option"
+        },
+        {
+          "name": "Sabahattin Ali",
+          "role": "in_option"
+        },
+        {
+          "name": "Orhan Kemal",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 154,
@@ -5794,7 +6846,57 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Refik Halit",
+          "role": "in_option"
+        },
+        {
+          "name": "Refik Halit Karay",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri",
+          "role": "in_option"
+        },
+        {
+          "name": "Yakup Kadri Karaosmanoğlu",
+          "role": "in_option"
+        },
+        {
+          "name": "Halide Edip",
+          "role": "in_option"
+        },
+        {
+          "name": "Reşat Nuri",
+          "role": "in_option"
+        },
+        {
+          "name": "Halide Edip Adıvar",
+          "role": "in_option"
+        },
+        {
+          "name": "Reşat Nuri Güntekin",
+          "role": "in_option"
+        },
+        {
+          "name": "Aka Gündüz",
+          "role": "in_option"
+        },
+        {
+          "name": "Mithat Cemal Kuntay",
+          "role": "in_option"
+        },
+        {
+          "name": "Ömer Seyfettin",
+          "role": "in_option"
+        },
+        {
+          "name": "Falih Rıfkı Atay",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 155,
@@ -5834,6 +6936,28 @@
       "mentioned_movements": [],
       "tags": [
         "söylenemez"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Orhan Veli",
+          "role": "in_option"
+        },
+        {
+          "name": "Orhan Veli Kanık",
+          "role": "in_option"
+        },
+        {
+          "name": "Melih Cevdet Anday",
+          "role": "in_option"
+        },
+        {
+          "name": "Oktay Rifat",
+          "role": "in_option"
+        },
+        {
+          "name": "Melih Cevdet",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -5872,7 +6996,21 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Sevgi Soysal",
+          "role": "in_option"
+        },
+        {
+          "name": "Latife Tekin",
+          "role": "in_option"
+        },
+        {
+          "name": "Pınar Kür",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 157,
@@ -5911,6 +7049,12 @@
       "mentioned_movements": [],
       "tags": [
         "ulaşılamaz"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Hamdi Tanpınar",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -5949,7 +7093,17 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Haşim",
+          "role": "in_body"
+        },
+        {
+          "name": "Orhan Veli",
+          "role": "in_body"
+        }
+      ]
     },
     {
       "qno": 159,
@@ -5984,7 +7138,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 160,
@@ -6027,6 +7182,36 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Recaizade",
+          "role": "in_option"
+        },
+        {
+          "name": "Recaizade Mahmut Ekrem",
+          "role": "in_option"
+        },
+        {
+          "name": "Şinasi",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Hamdi Tanpınar",
+          "role": "in_option"
+        },
+        {
+          "name": "Hüseyin Cahit Yalçın",
+          "role": "in_option"
+        },
+        {
+          "name": "Halit Ziya",
+          "role": "in_option"
+        },
+        {
+          "name": "Halit Ziya Uşaklıgil",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6066,7 +7251,29 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Orhan Veli",
+          "role": "in_option"
+        },
+        {
+          "name": "Attila İlhan",
+          "role": "in_option"
+        },
+        {
+          "name": "Cahit Külebi",
+          "role": "in_option"
+        },
+        {
+          "name": "İlhan Berk",
+          "role": "in_option"
+        },
+        {
+          "name": "Nâzım Hikmet",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 162,
@@ -6106,6 +7313,24 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Ahmet Kutsi Tecer",
+          "role": "in_option"
+        },
+        {
+          "name": "Necip Fazıl Kısakürek",
+          "role": "in_option"
+        },
+        {
+          "name": "Necip Fazıl",
+          "role": "in_option"
+        },
+        {
+          "name": "Cevat Fehmi Başkut",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6150,6 +7375,36 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Faruk Nafiz Çamlıbel",
+          "role": "in_option"
+        },
+        {
+          "name": "Faruk Nafiz",
+          "role": "in_option"
+        },
+        {
+          "name": "Süleyman Çelebi",
+          "role": "in_body"
+        },
+        {
+          "name": "Orhan Seyfi Orhon",
+          "role": "in_option"
+        },
+        {
+          "name": "Yusuf Ziya Ortaç",
+          "role": "in_option"
+        },
+        {
+          "name": "Halit Fahri Ozansoy",
+          "role": "in_option"
+        },
+        {
+          "name": "Enis Behiç Koryürek",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6194,6 +7449,28 @@
       ],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Necati",
+          "role": "in_option"
+        },
+        {
+          "name": "Köroğlu",
+          "role": "in_body"
+        },
+        {
+          "name": "Ahmet Kutsi Tecer",
+          "role": "in_option"
+        },
+        {
+          "name": "Necati Cumalı",
+          "role": "in_option"
+        },
+        {
+          "name": "Bedri Rahmi Eyüboğlu",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6233,6 +7510,12 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-doldur"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Adalet Ağaoğlu",
+          "role": "in_body"
+        }
       ]
     },
     {
@@ -6275,6 +7558,28 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Faruk Nafiz Çamlıbel",
+          "role": "in_option"
+        },
+        {
+          "name": "Faruk Nafiz",
+          "role": "in_option"
+        },
+        {
+          "name": "Orhan Seyfi Orhon",
+          "role": "in_option"
+        },
+        {
+          "name": "Yusuf Ziya Ortaç",
+          "role": "in_option"
+        },
+        {
+          "name": "Halit Fahri Ozansoy",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6318,6 +7623,32 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Memduh Şevket",
+          "role": "in_option"
+        },
+        {
+          "name": "Memduh Şevket Esendal",
+          "role": "in_option"
+        },
+        {
+          "name": "Sabahattin Ali",
+          "role": "in_option"
+        },
+        {
+          "name": "Haldun Taner",
+          "role": "in_option"
+        },
+        {
+          "name": "Orhan Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Halikarnas Balıkçısı",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6357,7 +7688,29 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Orhan Veli",
+          "role": "in_option"
+        },
+        {
+          "name": "Orhan Veli Kanık",
+          "role": "in_option"
+        },
+        {
+          "name": "Ece Ayhan",
+          "role": "in_option"
+        },
+        {
+          "name": "İsmet Özel",
+          "role": "in_option"
+        },
+        {
+          "name": "Sezai Karakoç",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 169,
@@ -6396,7 +7749,8 @@
         "Küçük Ağa"
       ],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 170,
@@ -6442,6 +7796,32 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
+      ],
+      "siklar_yazarlari": [
+        {
+          "name": "Faruk Nafiz Çamlıbel",
+          "role": "in_option"
+        },
+        {
+          "name": "Faruk Nafiz",
+          "role": "in_option"
+        },
+        {
+          "name": "Ahmet Kutsi Tecer",
+          "role": "in_option"
+        },
+        {
+          "name": "Bedri Rahmi Eyüboğlu",
+          "role": "in_option"
+        },
+        {
+          "name": "Arif Nihat Asya",
+          "role": "in_option"
+        },
+        {
+          "name": "Fazıl Hüsnü Dağlarca",
+          "role": "in_option"
+        }
       ]
     },
     {
@@ -6477,7 +7857,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 172,
@@ -6517,7 +7898,29 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Sabahattin Ali",
+          "role": "in_option"
+        },
+        {
+          "name": "Kemal Tahir",
+          "role": "in_option"
+        },
+        {
+          "name": "Tarık Buğra",
+          "role": "in_option"
+        },
+        {
+          "name": "Yaşar Kemal",
+          "role": "in_option"
+        },
+        {
+          "name": "Attila İlhan",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 173,
@@ -6552,7 +7955,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 174,
@@ -6587,7 +7991,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 175,
@@ -6622,7 +8027,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 176,
@@ -6657,7 +8063,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 177,
@@ -6692,7 +8099,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 178,
@@ -6729,7 +8137,8 @@
         "Sis"
       ],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 179,
@@ -6766,7 +8175,8 @@
       "mentioned_movements": [],
       "tags": [
         "söylenemez"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 180,
@@ -6803,7 +8213,13 @@
       ],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": [
+        {
+          "name": "Köroğlu",
+          "role": "in_option"
+        }
+      ]
     },
     {
       "qno": 181,
@@ -6840,7 +8256,8 @@
       "mentioned_movements": [],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 182,
@@ -6875,7 +8292,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 183,
@@ -6912,7 +8330,8 @@
       "mentioned_movements": [],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 184,
@@ -6947,7 +8366,8 @@
       "mentioned_authors": [],
       "mentioned_works": [],
       "mentioned_movements": [],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 185,
@@ -6990,7 +8410,8 @@
       ],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 186,
@@ -7032,7 +8453,8 @@
         "dadaizm",
         "egzistansiyalizm"
       ],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     },
     {
       "qno": 187,
@@ -7075,7 +8497,8 @@
       ],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 188,
@@ -7118,7 +8541,8 @@
       ],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 189,
@@ -7162,7 +8586,8 @@
       ],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 190,
@@ -7206,7 +8631,8 @@
       ],
       "tags": [
         "boşluk-sıralı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 191,
@@ -7249,7 +8675,8 @@
       ],
       "tags": [
         "paragraf-tanı"
-      ]
+      ],
+      "siklar_yazarlari": []
     },
     {
       "qno": 192,
@@ -7290,7 +8717,8 @@
         "fütürizm",
         "dadaizm"
       ],
-      "tags": []
+      "tags": [],
+      "siklar_yazarlari": []
     }
   ]
 }

@@ -323,6 +323,17 @@ function renderQuizCard(idx) {
         </div>
         ${card.tuzak ? `<div class="tuzak-box"><strong>⚠ TUZAK</strong><br>${card.tuzak}</div>` : ''}
         ${card.mebi_sayfa ? `<div class="mebi-box"><strong>📘 Derinleştirme</strong> → MEBİ Konu Özet PDF sayfa <strong>${card.mebi_sayfa}</strong></div>` : ''}
+        ${card.priority_2026 && card.priority_2026 !== 'İHMAL' ? `
+          <div class="rounded-md p-3 text-xs ${
+            card.priority_2026 === 'ÇOK YÜKSEK' ? 'bg-accent-500/15 border border-accent-500/40 text-accent-700 dark:text-accent-300' :
+            card.priority_2026 === 'YÜKSEK' ? 'bg-warn-500/15 border border-warn-500/40 text-warn-700 dark:text-warn-300' :
+            'bg-primary-500/10 border border-primary-500/30 text-primary-700 dark:text-primary-200'
+          }">
+            <strong>🎯 2026 Önceliği: ${card.priority_2026}</strong>
+            <span class="font-bold ml-1">(skor ${Math.round(card.due_score_2026 || 0)}/100)</span>
+            <span class="ml-2 text-[10px] opacity-75">Matematiksel pattern engine — bu konuya çalış</span>
+          </div>
+        ` : ''}
       </div>
 
       <div class="flex justify-end">

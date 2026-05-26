@@ -10,7 +10,10 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 BASE = Path(__file__).parent.parent.parent  # Edebiyat Analiz/
 SRC = BASE / 'annotated_questions.json'
-OUT = Path(__file__).parent.parent / 'public' / 'data' / 'cikmis-sorular.json'
+# REV17: subject-aware path
+OUT = Path(__file__).parent.parent / 'public' / 'data' / 'edebiyat' / 'cikmis-sorular.json'
+# REV17: M1.a şık yazarları
+ALL_AUTHORS_IN_Q = BASE / 'data' / 'all_authors_in_questions.json'
 
 
 def parse_options(raw_text):
@@ -56,6 +59,22 @@ def main():
     questions = src['questions']
     print(f"Kaynak: {len(questions)} soru")
 
+    # REV17 — M1.a şık yazarlarını qno → [authors] indeksi olarak yükle
+    sik_yazarlari = {}  # {(year, qno): [{name, role}]}
+    if ALL_AUTHORS_IN_Q.exists():
+        try:
+            aaq = json.loads(ALL_AUTHORS_IN_Q.read_text(encoding='utf-8'))
+            for name, info in aaq.items():
+                for occ in info.get('occurrences', []):
+                    key = (occ['year'], occ['qno'])
+                    sik_yazarlari.setdefault(key, []).append({
+                        'name': name,
+                        'role': occ.get('role', 'in_option'),
+                    })
+            print(f"  REV17 şık yazarları: {len(sik_yazarlari)} soruda toplam {sum(len(v) for v in sik_yazarlari.values())} yazar referansı")
+        except Exception as e:
+            print(f"⚠ all_authors_in_questions okunamadı: {e}")
+
     output = {
         'meta': {
             'count': len(questions),
@@ -84,6 +103,8 @@ def main():
             'mentioned_works': q.get('mentioned_works', []),
             'mentioned_movements': q.get('mentioned_movements', []),
             'tags': q.get('question_type_tags', []),
+            # REV17 — şık metinlerindeki tüm yazarlar (mentioned_authors eksiklerini tamamlar)
+            'siklar_yazarlari': sik_yazarlari.get((q['year'], q['question_no']), []),
         }
         output['questions'].append(parsed)
         if opts:
