@@ -9450,7 +9450,15 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Akım tanı sorusu. Pasaj: 'Roman yazarı bilim adamı deneyci + gözlem + sebep-sonuç + biyolojik kalıtım + sosyoekonomik şartlar + insan tabiatı objektif gözlem'.",
+      "neden_dogru": "NATÜRALİZM: (1) 'Bilim metodu + deney' = Zola'nın 'Deneysel Roman' tezi. (2) 'Biyolojik kalıtım + sosyoekonomik şartlar' = natüralizm DETERMİNİZMİ (insan = çevre+genetik tutsağı). (3) 'Hipotez ispat' = bilimsel roman. (4) Objektif gözlem. Tüm bu öğeler natüralizmin Zola tarafından formüle edilmiş manifestosu.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tipik çeldiriciler: Realizm (gözlem ✓ ama bilimsel kalıtım yok), Klasisizm, Romantizm."
+      },
+      "osym_mantigi": "ÖSYM Natüralizm ↔ Realizm ayrımını sık test eder. REALİZM = gözlem + günlük gerçek; NATÜRALİZM = realizm + BİLİMSEL DETERMİNİZM + biyoloji/genetik. Natüralizm'in farkı: 'bilim laboratuvar' yaklaşımı + Zola.",
+      "dersini_ogren": "Natüralizm = Realizm + bilimsel determinizm + biyolojik kalıtım. Zola'nın Therese Raquin/Rougon-Macquart serisi.",
+      "analiz_var": true
     },
     {
       "qno": 186,
@@ -9494,7 +9502,15 @@
       ],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Akım tanı pasajı. 'Mantık egemenliği + uygarlık/bilimsellik üstüne psikoloji görmezden geldi + amaca hizmet etmeyen yöntemler aforoz + rüya + çağrışım + bilinçdışı'.",
+      "neden_dogru": "SÜRREALİZM: (1) 'Mantık reddi' = sürrealizmin temel ilkesi. (2) 'Rüya + çağrışım + bilinç dışı' = André Breton'un Sürrealist Manifesto'da (1924) ortaya koyduğu yöntem (otomatik yazma, rüya analizi). (3) 'İnsan ruhunu/gerçekliğini anlamak için bunlara yönelmek' = Freud'un psikanalizine yaslanma. (4) Şiirin görmediği bilinç dışı alanlar = sürrealist şiir.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tipik çeldiriciler: Dadaizm (anlamsızlık ama bilinç dışı sistematiği yok), Ekspresyonizm (iç dışavurum)."
+      },
+      "osym_mantigi": "ÖSYM Sürrealizm ↔ Dadaizm ↔ Ekspresyonizm karıştırır. SÜRREALİZM = bilinçaltı + otomatik + rüya + Freud; DADAİZM = sanat reddi + anlamsızlık + savaş tepkisi; EKSPRESYONİZM = iç dünya dışavurumu + Kafka.",
+      "dersini_ogren": "Sürrealizm = bilinçaltı + rüya + Freud + Breton. Otomatik yazma yöntemi.",
+      "analiz_var": true
     },
     {
       "qno": 187,
@@ -9539,7 +9555,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki akım karşılaştırma boşluk doldurma. İlk akım: 'kitap sayfalarından + eski yazardan alıntı doğrulama'. İkinci akım: 'doğrudan yüreğe yücelik duygusuna seslen'.",
+      "neden_dogru": "A) Klasisizm - Romantizm: (1) KLASİSİZM = antik kaynaklar (Yunan/Latin) referansı, kurallı sanat, Aristoteles Poetika'sı temelli, eski yazardan alıntı şart. (2) ROMANTİZM = klasisizmin kuralcılığına tepki, DUYGUYA + yüceliğe doğrudan seslenme, bireysel ifade. Tam zıt iki akım.",
+      "celdirici_analizi": {
+        "B": "Realizm-Romantizm — Realizm gözlem temelli, kitap sayfaları değil; eşleşmiyor.",
+        "C": "Realizm-Sembolizm — eşleşmiyor.",
+        "D": "Natüralizm-Sembolizm — eşleşmiyor.",
+        "E": "Klasisizm-Natüralizm — Natüralizm de bilimsel objektif, duygu hitabı değil."
+      },
+      "osym_mantigi": "ÖSYM Klasisizm ↔ Romantizm karşıt çiftini sık test eder. Klasisizm = akıl/kural/antik; Romantizm = duygu/özgürlük/birey. 'Eski yazar' = klasisizmin antik referansı; 'doğrudan yürek' = romantizmin duygu hitabı.",
+      "dersini_ogren": "Klasisizm = akıl + antik kaynak. Romantizm = duygu + bireysellik (tam karşıt).",
+      "analiz_var": true
     },
     {
       "qno": 188,
@@ -9584,7 +9611,15 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Akım tanı pasajı. 'Nesneleri olduğu gibi değil olması gerektiği gibi + manalarını verme + soyutlama + simgeleme + gerçek bizim tarafımızdan yaratılmalı + sanatçının iç dünyası'.",
+      "neden_dogru": "EKSPRESYONİZM: (1) 'Nesnenin görünüşünün arkasındaki anlam' = Ekspresyonizmin İÇ GERÇEK arayışı. (2) 'Soyutlama + simgeleme' = Ekspresyonizmin yöntemi. (3) 'Gerçek sanatçının iç dünyasında' = Ekspresyonizmin temel ilkesi (İÇTEN DIŞA dışavurum). Kafka, Strindberg temsilcileri. (Sembolizm de yakın ama Sembolizm dış gerçeği SİMGE ile arar; Ekspresyonizm iç dünyayı dışa vurur.)",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Olası çeldiriciler: Sembolizm (yakın), Sürrealizm (bilinçaltı), İzlenimcilik."
+      },
+      "osym_mantigi": "ÖSYM Ekspresyonizm ↔ Sembolizm karıştırır. EKSPRESYONİZM = iç dünyayı dışa vurma, bireyin ruh hali; SEMBOLİZM = dış gerçeği sembollerle ifade. Pasajda 'sanatkârın iç dünyası' anahtar.",
+      "dersini_ogren": "Ekspresyonizm = iç dışa vurum + sanatçı ruhu (Kafka). Sembolizm = sembol/sezgi (Baudelaire).",
+      "analiz_var": true
     },
     {
       "qno": 189,
@@ -9630,7 +9665,15 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Akım tanı pasajı. '20. yy travma + akıl reddi + hayal ve ötesi + bilinçaltı + akıl perdelemesi + estetik ve ahlaki kaygıdan sıyrılma + sağaltma'.",
+      "neden_dogru": "SÜRREALİZM: (1) '20. yy travma + akıl reddi' = I. Dünya Savaşı sonrası akıl-yenildi tepkisi. (2) 'Hayal + bilinçaltı' = sürrealizmin merkezi. (3) 'Estetik/ahlaki kaygıdan sıyrılma + sağaltma' = André Breton'un Manifesto'sundaki amaç. Sürrealizm = bilinçaltı + otomatik yazma + Freud etkisi.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Çeldiriciler: Dadaizm (anlamsızlık ama 'sağaltma' amacı yok), Ekspresyonizm (iç dışavurum ama akıl reddi sistemli değil)."
+      },
+      "osym_mantigi": "ÖSYM Sürrealizm tanımlamayı her yıl test eder. Anahtarlar: bilinçaltı + otomatik yazım + akıl reddi + Freud + Breton. 'Sağaltma' = psikolojik iyileşme = Freud psikanaliz.",
+      "dersini_ogren": "Sürrealizm = bilinçaltı + akıl reddi + Freud + sağaltma + Breton Manifesto.",
+      "analiz_var": true
     },
     {
       "qno": 190,
@@ -9676,7 +9719,15 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "İki akım karşılaştırma. İlk: 'objektif + lirik/romantik karşıtı + nesnel şiir + dış güzellik'. İkinci: 'görünenin dışına çıkma + varlık özü + asıl gerçek sembollerin arkasında'.",
+      "neden_dogru": "PARNASİZM - SEMBOLİZM: (1) PARNASİZM = romantizmin duygusallığına tepki, OBJEKTİF nesnel şiir, biçim mükemmelliği, antik temalar, Theophile Gautier-Leconte de Lisle. (2) SEMBOLİZM = parnasizmin biçimciliğine tepki, gerçeği SEMBOLLE ifade, iç gerçek, Baudelaire-Verlaine-Rimbaud-Mallarmé.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tipik çeldirici: Romantizm-Realizm, Klasisizm-Romantizm."
+      },
+      "osym_mantigi": "ÖSYM Parnasizm ↔ Sembolizm geçişini test eder. Parnasizm tepki + sembolizm tepki — şiirde akım zinciri: Romantizm → Parnasizm (biçim) → Sembolizm (sembol) → Sürrealizm (bilinçaltı).",
+      "dersini_ogren": "Parnasizm = nesnel + biçim. Sembolizm = sembol + sezgi. Şiir akım zinciri: Rom→Parnas→Sembol→Sürreal.",
+      "analiz_var": true
     },
     {
       "qno": 191,
@@ -9721,7 +9772,15 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Akım tanı pasajı. 'Geçmiş sanat kuralları reddi + dinamizm + makine + hız + geleceğe yönelim + ölçü/nazım bırakılmalı + sanayi/makine güzelliği'.",
+      "neden_dogru": "FÜTÜRİZM: (1) Filippo Marinetti'nin 1909 Fütürist Manifesto'su = geçmişin reddi + hız + makine güzelliği + müze yıkımı. (2) 'Sanata dinamizm + makine + hız sokarak geleceğe yönelmek' = Fütürizmin TANIMI. (3) Geleneksel ölçü/nazım reddi = Fütürist şiir.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Çeldiriciler: Dadaizm (sanat reddi ama makine değil), Sürrealizm, Ekspresyonizm."
+      },
+      "osym_mantigi": "ÖSYM Fütürizm anahtar kelimelerini test eder: HIZ, MAKİNE, DİNAMİZM, GELECEK, MÜZE/KÜTÜPHANE REDDİ. Marinetti İtalyan, 1909 manifesto. 20. yy başı tek temsilcili akım.",
+      "dersini_ogren": "Fütürizm = hız + makine + gelecek + Marinetti 1909 manifesto.",
+      "analiz_var": true
     },
     {
       "qno": 192,
@@ -9764,7 +9823,15 @@
       ],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Akım tanı diyaloğu. Zola karakter ifadesi: 'Therese Raquin + karakterler değil mizaçları + sinirler + irade yok + içgüdü + bilim + ruh yok'.",
+      "neden_dogru": "NATÜRALİZM: (1) Therese Raquin (1867) = Zola'nın Natüralizm öncüsü romanı, manifestosu. (2) 'Karakterler değil MİZAÇLAR' = Zola'nın bilimsel yaklaşımı (humor teorisi). (3) 'İrade yok + içgüdü + ruh yok' = Natüralizm DETERMİNİZMİ (insan biyoloji+çevre tutsağı, özgür irade yok). (4) Eleştirmenlere meydan okuma = Zola'nın bilimsel sanat anlayışı.",
+      "celdirici_analizi": {
+        "not": "Çeldiriciler tipik: Realizm (gözlem ama ruh red yok), Romantizm, Klasisizm, Parnasizm."
+      },
+      "osym_mantigi": "ÖSYM Zola'nın eserlerini direkt isimle vererek Natüralizm'i sorar. THERESE RAQUIN = Zola = NATÜRALİZM = 3'lü ezber. Aday eser-yazar-akım üçlüsünü direkt yapmalı.",
+      "dersini_ogren": "Therese Raquin = Zola = Natüralizm. Mizaç + içgüdü + determinizm + ruh red.",
+      "analiz_var": true
     }
   ]
 }
