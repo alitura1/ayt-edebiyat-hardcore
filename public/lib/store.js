@@ -181,9 +181,16 @@ export function updateProgress(cardId, isCorrect) {
   if (!isCorrect) {
     if (!s.hata_defteri.includes(cardId)) s.hata_defteri.push(cardId);
   } else {
-    // Yeterince doğru çözdüyse hata defterinden çıkar
-    if (p.dogru >= 2 && p.cozuldu - p.dogru < p.dogru) {
-      s.hata_defteri = s.hata_defteri.filter(id => id !== cardId);
+    // REV18a — 2 üst üste doğru = hata defterinden çıkar
+    // streak_correct[cardId] = ardışık doğru sayısı (recordSrs ile +1 oluyor)
+    // updateProgress recordSrs'den ÖNCE çağrılır → şu anki cevap için streak henüz +1 olmamış.
+    // Effective streak = (önceki streak) + 1 (bu cevap doğru olduğu için).
+    // 2 üst üste doğru = effective >= 2 = önceki streak >= 1.
+    if (s.hata_defteri.includes(cardId)) {
+      const prevStreak = (s.streak_correct && s.streak_correct[cardId]) || 0;
+      if (prevStreak + 1 >= 2) {
+        s.hata_defteri = s.hata_defteri.filter(id => id !== cardId);
+      }
     }
   }
   saveState(s);
