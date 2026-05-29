@@ -681,7 +681,18 @@
         "söylenemez"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf anlatım özellikleri — Osmanlı seyyahları parçası, 'söylenemez' özellik bul. 5 anlatım tekniği (ikileme, açıklama, nicel veri, öznel ifade, örnek) kontrol edilir.",
+      "neden_dogru": "E) 'Örneklerden yararlanılmıştır' — SÖYLENEMEZ. Parça GENEL ifadelerle Osmanlı sistemini anlatıyor: 'kusursuz işleyen sistem, 15 milyon km², 12 eyalet'. Spesifik bir seyyah, bir şehir, bir kurum ismi vb. örnek yok. Diğer şıklar var: (A) İkileme — 'öve öve'; (B) Açıklama — 'devleti yaşatıyor, eyalet barındırıyordu'; (C) Nicel — '15 milyon km², 12 eyalet'; (D) Öznel — 'kusursuz, büyüklüğü, güzelliğini'.",
+      "celdirici_analizi": {
+        "A": "Doğru — 'öve öve' = ikileme net.",
+        "B": "Doğru — devletin işleyişi açıklama tarzında.",
+        "C": "Doğru — 15 milyon km², 12 eyalet rakamsal veri.",
+        "D": "Doğru — 'kusursuz, büyüklüğü' değer yüklü öznel."
+      },
+      "osym_mantigi": "ÖSYM paragraf anlatım özelliklerini ayırt etme sorularında 'örnek' çeldiricisini sıkça kullanır. Aday 'spesifik örnekleme' (isim, olay) ile 'genel ifade' farkını bilmeli. Nicel veri ve ikileme açık; örnek somut bir vaka gerektirir.",
+      "dersini_ogren": "Örnekleme = spesifik vaka/isim/durum. Genel betim ≠ örnek. Nicel veri (rakam) örnek değildir.",
+      "analiz_var": true
     },
     {
       "qno": 18,
@@ -718,7 +729,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — Hemingway 'buzdağı' teorisi tarif ediliyor: söyledikleri+sessizliği = yoğunluk + ilk bakışta ele vermez. Bu özelliğin en YOĞUN açıklaması seçilir.",
+      "neden_dogru": "C) 'Anlam derinliğine sahip olması': (1) Buzdağı metaforu = yüzeyde görünen az, altında çok = ANLAM DERİNLİĞİ. (2) 'Söyledikleri kadar söylemedikleri' = açıkça anlatılmayan derin katman. (3) 'Kelimeleri+sessizliği = yoğunluk' = anlamın yüzeyin altında. (4) 'İlk bakışta ele vermez' = derinlik gerektiriyor okuma. Birebir 'anlam derinliği' eşleşir.",
+      "celdirici_analizi": {
+        "A": "Özgün bakış açısı — parçada bakış açısı vurgusu yok, 'yazılış tarzı/yoğunluk' var.",
+        "B": "Hayal öğeleri — hayal/fantezi parçada bahsedilmiyor.",
+        "D": "Üretim süresi — uzun zaman/emek vurgulanmıyor, ürünün özelliği vurgulanıyor.",
+        "E": "Okuyucu ilgi alanı — parça okuyucunun ilgi alanı değil eserin DERİNLİĞİ üzerinde."
+      },
+      "osym_mantigi": "ÖSYM paragraf yorumlarında 'en yoğun/en doğru' özelliği test eder. Buzdağı metaforu açıkça 'görünen az, derinlik çok' = anlam derinliği eşleşmesi. Aday metafor + sıfat eşleştirmesini yapabilmeli.",
+      "dersini_ogren": "Hemingway 'buzdağı' = anlam derinliği (söylenmeyen, sessizlik = yüzey altı yoğunluk).",
+      "analiz_var": true
     },
     {
       "qno": 19,
@@ -762,7 +784,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf yorumu — Yahya Kemal'in 'Çamlar Altında Musahabe' tarif ediliyor. Şu özellikler: ilk bilim kurgu + Wells'ten esinli + medeniyet tartışmasında Yahya Kemal'in konumunu açıkça ortaya koyan İLK eser. 5 yargıdan paragrafa en uygun olanı seçilir.",
+      "neden_dogru": "A) 'Medeniyet tartışmasında öncü nitelik taşıdığına': (1) Parçada açıkça 'döneminin en popüler konularından biri olan medeniyet tartışması' + 'Yahya Kemal'in konumunu açıkça ortaya koyan İLK eser' = öncü nitelik. (2) 'İlk' kelimesi = öncülük. (3) Medeniyet tartışmasında konumlanma öncü davranıştır.",
+      "celdirici_analizi": {
+        "B": "Döneminde beklenen ilgiyi görmediği — parçada ilgi konusu geçmiyor.",
+        "C": "Toplumsal sorunları göz ardı ettiği — parça medeniyet tartışması diyor, sorunları göz ardı etmiyor.",
+        "D": "İçerik bütünüyle özgün olmadığı — Wells'ten esinli evet AMA bu paragraf SONUÇ olarak 'öncü' vurgusunu öne çıkarıyor; D zayıf tartışmacı yorum.",
+        "E": "Geçmiş ve geleceği birlikte ele aldığı — sadece gelecek (İstanbul'un gelecek yüzyıllardaki hali) ele alınıyor, geçmiş yok."
+      },
+      "osym_mantigi": "ÖSYM 'paragraftan hangisine ulaşılır' sorularında parçanın en VURGULU YARGISINA en yakın şıkkı seçer. 'İlk eser' + 'konumunu açıkça ortaya koyan' = öncülük vurgusu. Diğer şıklar parçada AÇIKÇA YOK veya zayıf çıkarsama.",
+      "dersini_ogren": "Paragrafta 'ilk', 'açıkça', 'öncü' kelimeleri ÖNCÜLÜK yargısının imzasıdır. Esinlenmek özgünlüğü tamamen ortadan kaldırmaz.",
+      "analiz_var": true
     },
     {
       "qno": 20,
@@ -804,7 +837,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — 3 farklı çağdan (Hint mit, Aristoteles, Newton) evren açıklamaları veriliyor. ANA FİKİR sorusu — paragrafın temel mesajı nedir?",
+      "neden_dogru": "C) 'Evrenin nasıl oluştuğuna ve yapılandığına ilişkin açıklamalar çağlara göre farklılık göstermiştir': (1) Parçanın ÇERÇEVE FİKRİ — 3 ayrı dönem, 3 ayrı açıklama. (2) 'Eski Hint - Eski Çağ Aristoteles - Yeni Çağ Newton' = çağsal sıralama. (3) Her dönem için farklı tanım veriliyor = farklılık vurgusu net.",
+      "celdirici_analizi": {
+        "A": "Halk anlatılarından uzaklaşma + kesinlik kazanma — Newton kesin AMA parça 'halktan uzaklaşma' demiyor, 'farklı çağlarda farklı açıklamalar' diyor.",
+        "B": "Edebiyatçı/felsefeci vs bilim insanı ayrımı — parçada böyle bir karşıtlık yok.",
+        "D": "Evrenin sonsuzluğu ve sürekli değişimi — evren değil teoriler değişiyor parçada.",
+        "E": "Her uygarlığın özgül inançları — uygarlık bazlı değil, çağ bazlı sıralama."
+      },
+      "osym_mantigi": "ÖSYM paragraftan 'ulaşılabilir' yargılarda anasal yapı/ZAMAN AKIŞI'na dikkat ister. 3 farklı çağ + 3 farklı açıklama = ÇAĞSAL FARKLILIK temel mesaj. Aday paragrafı omurgasından okumalı, ayrıntıdan değil.",
+      "dersini_ogren": "Paragrafta zaman akışı (eski→Aristoteles→Newton) + her dönem farklı tanım = çağsal farklılık ana fikri.",
+      "analiz_var": true
     },
     {
       "qno": 21,
@@ -841,7 +885,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf yorumu — 'yanlış önermeler bilim tarihinin temeli, üretken, doğru olmayan ama önermeler insan ve doğa hakkında değerli rasyonel görüşler'. 'Yanlış önermeler' özelliği soruluyor.",
+      "neden_dogru": "E) 'Fikirlerin olgunlaşıp değer kazanmasında önemli bir rol oynamış': (1) Parçanın özü — 'düşüncenin gelişimine işaret eden önermeler, dikkate değer üretkenliğe sahip'. (2) 'İnsan ve topluma dair çok sayıda temel görüş ilk ifadelerini mitlerde, peri masallarında ve birkaç kuşak sonra doğru olmadığı kanıtlanan bilimsel varsayımlarda bulmuştur' = yanlış önermeler İLK İFADE olmuş, sonra olgunlaşmış. (3) Üretkenlik + ilk ifade = fikrin olgunlaşmasında rol.",
+      "celdirici_analizi": {
+        "A": "Kişiden kişiye değişkenlik — parçada böyle bir vurgu yok.",
+        "B": "Bilgileri sınamak için ortaya çıktı — yanlış önermeler kendileri sınanan, sınama aracı değil.",
+        "C": "Sözlü kültürün kalıcılığı — sözlü kültür değil bilim/fikir tartışılıyor.",
+        "D": "Kuşaktan kuşağa aktarılması güvenirliği artırdı — tam tersi, 'birkaç kuşak sonra doğru olmadığı kanıtlanan' yanlış önermeler."
+      },
+      "osym_mantigi": "ÖSYM paragraf yorumlarında 'üretkenlik/değer kazanma' gibi paragrafın ÇERÇEVE FİKRİ sorulur. 'Yanlış önermeler' paragrafın hedefi değil; düşüncenin GELİŞİMİNE katkısı vurgulanıyor. Aday önermenin işlevini paragrafta görmeli.",
+      "dersini_ogren": "Yanlış önermeler bilim tarihinde 'ilk ifade'leri taşır → fikirler olgunlaşıp değer kazanırken bunlardan beslenir.",
+      "analiz_var": true
     },
     {
       "qno": 22,
@@ -880,7 +935,18 @@
         "ulaşılamaz"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf 'ulaşılamaz' yorumu — bilim kurgu + Jules Verne/Wells + sinema mecrası + 1950'lerden sonra gelişim. 5 önerme paragrafa uyumu kontrol edilir.",
+      "neden_dogru": "D) 'Türün sinema yapımları edebi örneklerinden daha fazla ilgi görmüştür' — ULAŞILAMAZ. Parçada SİNEMA-EDEBİ karşılaştırması veya 'ilgi' bilgisi YOK. Sadece 'sinemada yer bulması düzensiz, 1950 sonrası gelişti' deniyor — bu ilgi karşılaştırması değil. Diğerleri ulaşılır: (A) Bilim+hayal — 'imkansızı mümkün kılma'; (B) Yazar örnekleri — Verne, Wells; (C) Sınırları aşmada bilim — denizaltı/uzay aracı; (E) Sinemada görsellik imkanı.",
+      "celdirici_analizi": {
+        "A": "Ulaşılır — bilim+hayal birleşimi açık.",
+        "B": "Ulaşılır — Verne ve Wells örnek yazarlar olarak verilmiş.",
+        "C": "Ulaşılır — imkansızı mümkün kılma teması.",
+        "E": "Ulaşılır — sinema görsellik için doğal mecra."
+      },
+      "osym_mantigi": "ÖSYM 'ulaşılamaz' sorularında parçada AÇIKÇA olmayan veya yanlış bağlanmış bilgiyi arar. Karşılaştırma (sinema vs edebi) bilgisi parçada yok — bu 'ulaşılamaz' tipik tuzağı. Aday parçada SOMUT olarak bilgi var mı kontrol etmeli.",
+      "dersini_ogren": "'Ulaşılamaz' = parçada AÇIKÇA yok veya yanlış bağlanmış. Sinema-edebi 'ilgi' karşılaştırması yoksa o yargı ulaşılamaz.",
+      "analiz_var": true
     },
     {
       "qno": 23,
@@ -917,7 +983,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — Gluck'un yeni opera dinlerken eski melodilere reverans hareketi. Bu davranışın anlamı sorulur.",
+      "neden_dogru": "C) 'Sanatın sürekliliğini ve gelenekten beslendiğini anlatmak': (1) 'Eski tanıdık melodileri selamlıyorum' = yeni eserin eskiden beslendiğini göstermek. (2) Yeni opera + eski melodi = SANATIN SÜREKLİLİĞİ + gelenekten beslenme. (3) Reverans (selam) = saygı + bağlılık. Bu davranışın açık mesajı.",
+      "celdirici_analizi": {
+        "A": "Saygıyı GİZLEMEK — Gluck saygıyı GÖSTERİYOR, gizlemiyor.",
+        "B": "Genç bestecileri teşvik — parçada Gluck'un bu motivasyonu yok.",
+        "D": "Yeni eserlerdeki özgün/modern tarzlara dikkat çekme — Gluck ESKİ melodilere atıf yapıyor, yeniliği değil.",
+        "E": "İçerik ve icra ayrımı — parça içerik-icra ayrımı vurgulamıyor."
+      },
+      "osym_mantigi": "ÖSYM anekdot yorumlarında DAVRANIŞIN ANLAMINI çıkartmayı test eder. Gluck'un reveransı + 'eski melodileri selamlıyorum' = sanatın geçmiş-yeni bağı (süreklilik). Aday davranışın altındaki MESAJI okuyabilmeli.",
+      "dersini_ogren": "Sanatçının eski yapıtlara saygısı = sanatın gelenekten beslenmesi + sürekliliği vurgusu.",
+      "analiz_var": true
     },
     {
       "qno": 24,
@@ -956,7 +1033,18 @@
         "değinilmemiştir"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf 'değinilmemiş' yorumu — Mezopotamya karaciğer falı + duygu merkezi + Japonca cesaret/öfke ifadeleri + Türkçe ciğerparem deyimi. 5 yargıdan parçada OLMAYANI bul.",
+      "neden_dogru": "A) 'Üzerine yüklenen anlamın zamanla değişiklik gösterdiğine' — DEĞİNİLMEMİŞ. Parça karaciğere YÜKLENEN ANLAMI (duygu merkezi, ruh barınağı) tek bir anlam olarak veriyor; ANLAMIN DEĞİŞMESİ vurgulanmıyor. Anlam SÜREKLİ AYNI (cesaret, öfke, sevgi merkezi). Diğerleri değinilmiş: (B) Biyolojik+duygusal önem — 'hayati organ + duygu/heyecan merkezi'; (C) Kişilik betimi — 'cesur=karaciğer kuvvetli, öfke=yanan karaciğer'; (D) Farklı dillerde söz kalıpları — Japonca + Türkçe örnekler; (E) Olumsuz tahminler — fal yoluyla kötü olaylar/hastalıklar öğrenilir.",
+      "celdirici_analizi": {
+        "B": "Değinilmiş — hayati organ + duygu merkezi.",
+        "C": "Değinilmiş — 'cesur' Japoncada karaciğer kuvvetli (kişilik betimi).",
+        "D": "Değinilmiş — Türkçe ciğerparem + Japonca kimo ga futo.",
+        "E": "Değinilmiş — falla kötü olaylar/hastalıklar öğreniliyor."
+      },
+      "osym_mantigi": "ÖSYM 'değinilmemiş' sorularında parçada AÇIKÇA olmayan tek yargıyı arar. 'Anlamın zamanla değişmesi' parçada YOK — anlam (duygu merkezi) tek ve sabit veriliyor. Aday parçayı 5 yargı için tek tek kontrol etmeli.",
+      "dersini_ogren": "Paragrafta tek bir anlam (duygu merkezi) verilirse 'anlamın değişmesi' değinilmemiştir. Anlam değişiminin paragrafta SOMUT örneği aranır.",
+      "analiz_var": true
     },
     {
       "qno": 25,
@@ -993,7 +1081,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — yaratıcı yazarlık tavsiyesi. Önce 'korkudan bayılacak gibi oldu, ürperdi' (SOYUT/SÖYLEME); sonra 'ayak sesleri, yay gibi gerildi, kalbi sığmıyordu' (SOMUT/GÖSTERME). Tavsiye SOMUT yazma yönünde.",
+      "neden_dogru": "C) 'Güçlü kalem olmak için ayın parladığını söylemeden, kırık camın ışıltısını göstermelisin': (1) Bu klasik 'SHOW DON'T TELL' tavsiyesi — Anton Chekhov'un meşhur sözü. (2) Öğrencinin değişimi tam bunu yapıyor: soyut 'korkudan ürperdi' → somut 'ayak sesleri duydu, yay gibi gerildi'. (3) Cam ışıltısı = somut detay; ay parladığı = soyut bilgi.",
+      "celdirici_analizi": {
+        "A": "Mekan vs duygu öncelik — parçada bu çatışma yok.",
+        "B": "Olaylara tanıklık — direk olay tanıklığı önerilmiyor; tasvir tarzı değişiyor.",
+        "D": "Temel duygulara odaklanmak — soyut/içsel odak, parçanın değişimi bu değil.",
+        "E": "Duyguları zaman/mekanla bütünleştir — değişimin yönü 'somut detay göstermek', mekan değil."
+      },
+      "osym_mantigi": "ÖSYM yaratıcı yazarlık konusunda 'show don't tell' prensibini test eder. Aday öğrencinin metin değişimini analiz etmeli: SOYUT söylem → SOMUT detay. Chekhov'un cam-ay metaforu birebir bu prensip.",
+      "dersini_ogren": "Show don't tell = soyut duyguyu söyleme, somut detayı göster. 'Korktu' yerine 'ayak sesi duydu, kalbi sığmadı'.",
+      "analiz_var": true
     },
     {
       "qno": 26,
@@ -1030,7 +1129,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf yorumu — Diderot'un 'en çok konuşulan en az bilinendir' aforizması + güzel kavramı örneği. ANA FİKİR seçilir.",
+      "neden_dogru": "D) 'Günlük hayatta sıkça kullandığımız kavramları tanımlamaya çalıştığımızda bocalarız': (1) Diderot'un sözü açıkça bunu söylüyor — çok konuşulan az bilinir. (2) Örnek: 'güzel' kavramını her yerde kullanıyoruz ama 'güzel nedir?' diye düşününce afallıyoruz. (3) 'Bocalama/afallama' = tanımlamada zorlanma. Paragrafın özü budur.",
+      "celdirici_analizi": {
+        "A": "Çok dillendirdikçe anlaşılmaz — neden-sonuç ters; paragraf 'sıkça kullanmamıza rağmen az biliyoruz' diyor, kullanmak anlaşılmazlık üretmiyor.",
+        "B": "Günlük durumlardan kaçınma — parça kaçınmayı değil 'tanımlama zorluğunu' vurguluyor.",
+        "C": "Somut vs soyut kavramları açıklama — paragraf soyut/somut ayrımı yapmıyor.",
+        "E": "Kavramların silikleşmesi — silikleşme değil tanımlama bocalaması vurgulanıyor."
+      },
+      "osym_mantigi": "ÖSYM aforizma + örnek yapısında ANA FİKRİ test eder. Diderot'un sözü + 'güzel' örneği = sıkça kullanım + tanımlama zorluğu eşleşmesi. Aday özdeyişi örnekle birleştirip ana fikri çıkartmalı.",
+      "dersini_ogren": "Sıkça kullanılan günlük kavramları tanımlamak zordur (Diderot). 'Güzel nedir?' diye sorulunca bocalama klasik örneği.",
+      "analiz_var": true
     },
     {
       "qno": 27,
@@ -1074,7 +1184,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf yorumu — Brancusi'nin Rodin'den ayrılma nedeni. Anahtar cümle: 'Bu büyük usta insan figüründe denenebilecek her şeyi denemiş, bütün yolları tıkamıştı. Bu atölyeden yola çıkıp özgün bir sanat geliştirmesi olanaksızdı.'",
+      "neden_dogru": "E) 'Rodin'in etkisinden kurtulup kendine has bir üslup geliştiremeyeceği endişesi': (1) Parçada açıkça: 'Bu atölyeden yola çıkıp ÖZGÜN bir sanat geliştirmesi OLANAKSIZDI'. (2) 'Bütün yolları tıkamıştı' = Rodin'in etkisi öyle güçlü ki yeni üslup üretilemez. (3) 'Kendi uzun yolculuğuna çıktı' = bağımsızlaşma. Birebir cevap.",
+      "celdirici_analizi": {
+        "A": "Yetenek hak etmeme — parçada Brancusi'nin yeteneği vurgulanıyor ('insan anatomisi çalışmış'), yeteneksizlik yok.",
+        "B": "Rekabet ortamı — parçada rekabet yok, ustanın domine etmesi var.",
+        "C": "Rodin'in kapalı tutumu — parçada Rodin kapalılığı değil, 'her şeyi denemişliği' var.",
+        "D": "Şöhret gölgeleme — kişisel şöhret kaygısı yok, sanatsal özgünlük kaygısı var."
+      },
+      "osym_mantigi": "ÖSYM neden-sonuç sorularında parçanın AÇIK GEREKÇESİNİ test eder. 'Özgün sanat geliştirmesi olanaksızdı' cümlesi birebir 'kendine has üslup geliştirememe endişesi' = E. Aday parçadaki ANAHTAR CÜMLEYİ bulmalı, çıkarsamayla değil doğrudan eşleştirmeli.",
+      "dersini_ogren": "Brancusi-Rodin örneği = ustanın etkisinden kurtulup özgün üslup geliştirme isteği. Sanatsal bağımsızlaşma motifi.",
+      "analiz_var": true
     },
     {
       "qno": 28,
