@@ -2558,7 +2558,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Dize-sanat eşleştirme 'yoktur'. Parantezdeki sanatla dize uyuşmaz.",
+      "neden_dogru": "E) 'Senin yanındayken, avuçlarımda / Suda sabun gibi eriyor zaman' = (Teşhis) YOK. Bu dizede TEŞBİH (zaman ↔ sabun benzetmesi) var, teşhis (insan özelliğini eşyaya verme) YOK. 'Erimek' nesnenin doğal özelliği, insan eylemi değil.",
+      "celdirici_analizi": {
+        "A": "'Bir uzak yıldıza benzerdi güneş sen varken' = Tenâsüb (uyumlu kavramlar: yıldız+güneş+mehtap) ✓.",
+        "B": "'Gül gülse daim ağlasa bülbül acep değil' = Tezat (gül↔bülbül, gül↔ağla) ✓.",
+        "C": "'Yûsuf'u görenler ellerin kestiler / Gün yüzün gördü senin çakk oldu bedrin ayası' = Telmih (Hz. Yusuf kıssası: kadınların ellerini kesmesi) ✓.",
+        "D": "'Sen akşamlar kadar büyülü sıcak / Rüyalarım kadar sade güzeldin' = Teşbih (sen↔akşam/rüya) ✓."
+      },
+      "osym_mantigi": "ÖSYM Teşhis ↔ Teşbih ↔ İstiare karışıklığı yaratır. TEŞHİS = insan özelliği (gülmek/ağlamak/konuşmak) eşyaya verme; TEŞBİH = açık benzetme (gibi/kadar); İSTİARE = benzetmenin tek unsuruyla (sadece benzetilen). 'Zaman erir' = doğal değişim, teşhis değil. DERS: Teşhis için 'insan eylemi mi sor?' (konuşma/gülme/ağlama gerçek insan eylemi).",
+      "dersini_ogren": "Teşhis = insan eylemi eşyaya (gülen ağaç). Teşbih = açık benzetme (gibi/kadar). 'Erir' nesne özelliği = teşhis değil.",
+      "analiz_var": true
     },
     {
       "qno": 62,
@@ -2595,7 +2606,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Beyit-sanat eşleştirme 'irsalimesel YOK'. İrsalimesel = beyitte atasözü/darbımesel kullanma.",
+      "neden_dogru": "C) 'Ne siyâh eylemiş bu nâsiyeyi / Saçımı bembeyaz eden bahtım' = ATASÖZÜ YOK. Bu beyit BİREYSEL HÜZÜN/şikayet ifadesi, atasözü değil. İrsalimesel için 'el sözü'/'darbımesel' geçmeli.",
+      "celdirici_analizi": {
+        "A": "'Bugün bana ise yarın sanadır' ✓ atasözü tipik.",
+        "B": "'Kardeşine kuyu kazarsa kişi kuyuya düşer' ✓ atasözü ('Kuyu kazan kuyuya düşer').",
+        "D": "'Balık baştan kokar' ✓ atasözü.",
+        "E": "'Gözden ırak olunca gönülden ırak olur' ✓ atasözü ('Gözden uzak gönülden uzak')."
+      },
+      "osym_mantigi": "ÖSYM irsalimesel sanatını sık sorar: Divan beytinde halk atasözünün/darbımeselin kullanımı = irsalimesel. Aday atasözü/deyim 'el sözü' olduğunu hatırlamalı. Bireysel duygu/şikayet ≠ atasözü.",
+      "dersini_ogren": "İrsalimesel = beyitte atasözü kullanımı. 'Bana bugün sana yarın' tipik. Bireysel şikayet ≠ atasözü.",
+      "analiz_var": true
     },
     {
       "qno": 63,
@@ -2632,7 +2654,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Beyit-sanat tespit. Altı çizili 'ömr-i âşık-ı nâlân gelir geçer' = ömrün insan gibi gelip geçmesi.",
+      "neden_dogru": "D) Teşhis: 'Ömr gelir geçer' = ÖMRE insan eylemi (gelip geçmek/yürümek) verme = teşhis. Ömür soyut bir kavram, ama beyitte sevgili gibi 'gelir geçer' hareket atfedilmiş. Bu kişileştirme.",
+      "celdirici_analizi": {
+        "A": "İstiare — açık değil (sevgili açık geçiyor 'serv-i hıram').",
+        "B": "Tevriye — tek söz iki anlam, burada tek anlam.",
+        "C": "Mecaz-ı mürsel — parça-bütün ilişkisi yok.",
+        "E": "İntak — konuşma yok."
+      },
+      "osym_mantigi": "ÖSYM TEŞHİS sanatını sık test eder. Teşhis = soyut/cansız nesneye insan özelliği. Ömür = soyut; gelip geçmek = insan eylemi. Aday 'fâil canlı mı?' sor — değilse + insan eylemi varsa teşhis.",
+      "dersini_ogren": "Teşhis = cansıza/soyuta insan eylemi (ağaç gülüyor, ömür yürüyor).",
+      "analiz_var": true
     },
     {
       "qno": 64,
@@ -2669,7 +2702,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Beyit 'söylenemez'. 'Sen olasan diyü yir yir asılup âyineler / Gelene gidene eyler nazarı döne döne' = Sevgili olabilir umuduyla aynalar dizilmiş bakıyor.",
+      "neden_dogru": "D) Âşığın ızdırabının aynalara yansıması SÖYLENEMEZ. Beyitte AYNA = sevgili arayanı; âşığın ızdırabı yok, AYNALARIN bakışı/arayışı var. Aynaların kendisi âşık konumunda (teşhis), şair değil.",
+      "celdirici_analizi": {
+        "A": "Sen = sevgili ✓ doğru.",
+        "B": "Aynalar sevgiliye âşık ✓ doğru (teşhis).",
+        "C": "Aynaların asılması güzel nedene bağlanma (hüsn-i tâlîl) ✓ doğru.",
+        "E": "Ahenk tekrarları (döne döne, yir yir) ✓ doğru."
+      },
+      "osym_mantigi": "ÖSYM beytin GERÇEK ANLAMINI test eder. Beyit özneyi 'aynalar' yapıyor — aynalar sevgili arıyor. Şair-âşık konumunda DEĞİL. DERS: Beyitte fâili (özne) doğru tespit et.",
+      "dersini_ogren": "Beyitin öznesi kim? Aynalar mı, şair mi? Yanlış özne = yanlış cevap.",
+      "analiz_var": true
     },
     {
       "qno": 65,
@@ -2718,7 +2762,17 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Necati + Fuzuli iki beyit karşılaştırma 'söylenemez'. İkisinde de 'bâd-ı sabâ' (sabah rüzgârı) tek dost olarak gösterilir.",
+      "neden_dogru": "C) İkinci beyitte tevriye SÖYLENEMEZ (muhtemel). Fuzuli'nin beyitinde 'bâd-ı sabâ' tek anlamlı kullanılıyor (sabah rüzgârı), tevriye (tek söz iki anlam) yok. Necati'nin beyitinde de tevriye yok.",
+      "celdirici_analizi": {
+        "A": "İki beyit yalnızlık teması ✓ — 'beni ağlan beni' + 'ne yanar kimse' yalnızlık ifade ediyor.",
+        "B": "Sabah rüzgârı vefalı dost ✓ — her ikisinde de.",
+        "not": "D, E şıkları görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM tevriye sanatını sık sorar. Tevriye = tek söz, biri görünür biri gizli iki anlam. 'Bâd-ı sabâ' tek anlamlı (sabah rüzgârı). Aday tevriye için 'iki anlam aktif mi?' sor.",
+      "dersini_ogren": "Tevriye = tek söz iki anlam (gül = çiçek + gülmek). Tek anlam = tevriye yok.",
+      "analiz_var": true
     },
     {
       "qno": 66,
@@ -2755,7 +2809,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Beyit-sanat 'mübalağa YOK'. Mübalağa = aşırı abartı.",
+      "neden_dogru": "E) 'Bu hicrânı işitsin ağlasun derd ehli âh itsin / Sen olmayınca sohbetde gözüm kime nigâh itsin' = Mübalağa YOK. Sevgili olmadan kimseye bakamamak SIRADAN AŞK ifadesi, aşırı abartı değil. Sadece duygu.",
+      "celdirici_analizi": {
+        "A": "Yüz=cennet bağı, dehân=selsebil = ✓ mübalağa (sevgili cennet).",
+        "B": "Ayrılığın seli ev yıkar + göz yaşı derya = ✓ mübalağa.",
+        "C": "Feryadın göklere erişmesi = ✓ mübalağa.",
+        "D": "Sultan-ı âlemsin (dünya sultanı) = ✓ mübalağa."
+      },
+      "osym_mantigi": "ÖSYM Divan'da mübalağa şarttır kabul ettirir ama bazı beyitler SADE aşk ifadesi olabilir. Aday her şıkta 'gerçeğin aşırı üstü mü?' sor.",
+      "dersini_ogren": "Mübalağa = aşırı abartı (cennet/sel/sultan). Sade aşk ifadesi ≠ mübalağa.",
+      "analiz_var": true
     },
     {
       "qno": 67,
@@ -2792,7 +2857,15 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Pasaj: Sevgili benzetmesinin evrimi (servi gibi → servi boyu → sadece servi). 15-16. yy'dan itibaren AÇIK İSTİARE kullanımının yaygınlaşması.",
+      "neden_dogru": "A) İstiare (muhtemel): Pasaj benzetilenin (servi/gonca) tek başına benzeyeni (sevgili) ifade etmesi süreci anlatıyor = AÇIK İSTİARE. Sadece 'servi' demek = açık istiare. (Şıklar tam görünmüyor; istiare olası cevap.)",
+      "celdirici_analizi": {
+        "not": "Şıklar tam görünmüyor. Tipik şık: İstiare, Teşbih, Mecaz, Telmih, Tenasüp."
+      },
+      "osym_mantigi": "ÖSYM TEŞBİH ↔ İSTİARE evrim mantığını test eder. Teşbih (4 unsur: benzeyen+benzetilen+yön+edat) → İstiare (yön/edat düşer) → AÇIK İSTİARE (benzeyen düşer, sadece benzetilen). 'Servi' tek başına = açık istiare.",
+      "dersini_ogren": "Teşbih (gibi/kadar) → İstiare (gibi düşer) → Açık istiare (sadece benzetilen).",
+      "analiz_var": true
     },
     {
       "qno": 68,
@@ -2829,7 +2902,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Beyit 'söylenemez'. 'Gül üzülsün gonca açılsın bana sen gül yeter / Ağlasın bülbüllerin ey gonca tek sen gül yeter'.",
+      "neden_dogru": "E olası: Bülbülün ağlaması güzel nedene bağlanma (hüsn-i tâlîl) SÖYLENEMEZ — bülbül ağlamasının nedeni beyitte basit/genel, özgün bir güzel neden yok. Veya gerçek nedene bağlanmıyor.",
+      "celdirici_analizi": {
+        "A": "Gül iki anlam (çiçek + gülmek emir) ✓ tevriye doğru.",
+        "B": "Tekrarlar (sen gül yeter) ✓ doğru.",
+        "C": "İnsan özellikleri (üzülmek/açılmak) doğaya = teşhis ✓ doğru.",
+        "D": "Karşıt anlamlar (gül↔ağla, üzülsün↔gül) = tezat ✓ doğru."
+      },
+      "osym_mantigi": "ÖSYM TEVRİYE, TEZAT, TEŞHİS, TEKRİR aynı beyitte test eder. Hüsn-i tâlîl (güzel nedene bağlama) AYRI SANAT — olayın gerçek olmayan güzel bir nedene bağlanması. Beyitte bülbül ağlamasının özgün güzel nedeni yoksa hüsn-i tâlîl yok.",
+      "dersini_ogren": "Hüsn-i tâlîl = olayı GERÇEK OLMAYAN güzel nedene bağlama (sebep uydurulmuş, güzel).",
+      "analiz_var": true
     },
     {
       "qno": 69,
@@ -2866,7 +2950,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Beyit-sanat tespit. 'Hüsn içre o yâr göz terazisiyle Mısr'un Yûsuf-ı Ken'ânîdür' = sevgilinin güzellikte Hz. Yusuf gibi olması.",
+      "neden_dogru": "C) Telmih: 'Yûsuf-ı Ken'ânî' = Hz. Yusuf'a (Kur'an Yusuf Suresi'nde Ken'an diyarından, Mısır'a satılan peygamber) TELMİH (anıştırma). Hz. Yusuf güzellik sembolü; sevgili onun gibi diyerek dolaylı atıf yapılıyor.",
+      "celdirici_analizi": {
+        "A": "Tezat — karşıt anlam yok.",
+        "B": "Tekrir — söz tekrarı yok.",
+        "D": "Teşhis — insan eylemi cansıza verme yok.",
+        "E": "Tevriye — tek söz iki anlam yok."
+      },
+      "osym_mantigi": "ÖSYM TELMİH sanatını sık test eder. Telmih = bilinen bir kıssaya/olaya/şahsiyete anıştırma. 'Yûsuf-ı Ken'ânî' = Hz. Yusuf kıssası. Aday dini/tarihi/mitolojik özel adlar görürse → telmih düşün.",
+      "dersini_ogren": "Telmih = bilinen kıssa/olay/şahsa anıştırma (Yûsuf, Leylâ, Mecnûn, Kerem...).",
+      "analiz_var": true
     },
     {
       "qno": 70,
@@ -2903,7 +2998,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Beyit-sanat tanım eşleştirme. Fuzuli: 'Aşk derdiyle hoşem el-çek ilâcumdan tabîb / Kılma derman kim helâkum zehri dermânundadur' = aşk acısından memnun, ilaç istemem, çünkü ölümüm dermanın zehrinde.",
+      "neden_dogru": "C) Tezat: 'Karşıt anlamlı kavramları bir arada verme.' Beyitte DERMAN ↔ ZEHR (ilaç ↔ zehir) + HOŞEM ↔ HELÂKUM (mutluyum ↔ ölümüm) karşıtlıkları. Aşk acısı 'derdi tatlı, dermanı zehir' tezadıyla anlatılıyor.",
+      "celdirici_analizi": {
+        "A": "Mecaz-ı mürsel (parça-bütün) — beyitte ad aktarması yok, karşıt anlam var.",
+        "B": "Kinaye (gerçek+mecaz) — beyit doğrudan mecaz, kinaye yok.",
+        "D": "Teşhis — insan eylemi cansıza verme yok.",
+        "E": "Tariz (eleştiri için zıt anlamla) — eleştiri yok, aşk acısı ifadesi var."
+      },
+      "osym_mantigi": "ÖSYM tezat ↔ tariz karışıklığı yaratır. TEZAT = karşıt kavramlar bir arada (derman/zehir, gece/gündüz); TARİZ = zıt anlamla iğne batırma/eleştiri. Beyitte eleştiri yok = tezat. DERS: Tariz hep eleştiri/iğneleme, tezat ise sadece karşıtlık.",
+      "dersini_ogren": "Tezat = karşıt anlam (derman/zehir). Tariz = eleştiri için zıt anlam (övgü gibi yergi).",
+      "analiz_var": true
     },
     {
       "qno": 71,
