@@ -5732,7 +5732,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Eser hakkında 'söylenemez'. Şair Evlenmesi (Şinasi, 1860) = ilk Türk tiyatrosu, geleneksel orta oyunu etkili, GÖRÜCÜ USULÜ EVLENMEYİ eleştirir.",
+      "neden_dogru": "D) Batılılaşmanın olumsuz yönlerini yerme SÖYLENEMEZ. Şair Evlenmesi'nin asıl konusu GÖRÜCÜ USULÜ EVLENMENİN sakıncaları, yanlış evlilik geleneği eleştirisi. Batılılaşma yergisi bu eserde YOK; tam tersi Şinasi Batılı yenilikçidir.",
+      "celdirici_analizi": {
+        "A": "Kişiler eğitim düzeyine göre konuşturuldu ✓ — Müştak Bey aydın, Habbe Kadın halk dili.",
+        "B": "Gülmece yoluyla toplumsal eleştiri ✓ — komedi geleneği.",
+        "C": "İsim-özellik bağı ✓ — Müştak Bey (özleyen), Kumru (sevgili), Habbe Kadın (geveze).",
+        "E": "Tipleştirme ✓ — orta oyunu tipi karakterler (sersem, geveze, dahi)."
+      },
+      "osym_mantigi": "ÖSYM ŞAİR EVLENMESİ'nin TEMASINI test eder: GÖRÜCÜ USULÜ EVLENMEYİ ELEŞTİRİ (toplumsal sorun). Batılılaşma eleştirisi DEĞİL. Aday hem Tanzimat'ın yenilikçi tutumunu hem de bu eserin spesifik konusunu bilmeli.",
+      "dersini_ogren": "Şair Evlenmesi = Şinasi + ilk Türk tiyatrosu (1860) + görücü usulü evlilik eleştirisi (Batılılaşma değil).",
+      "analiz_var": true
     },
     {
       "qno": 125,
@@ -5813,7 +5824,17 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Eser-yazar tanı. İpuçları: 'Kıskançlık + yazar ölümünden sonra arkadaşı Mahmud Sadık SF'da yayım + natüralizm etkili ilk roman + Şevket Efendi + Suphi + Münire Hanım'.",
+      "neden_dogru": "ZEHRA - Nabizade Nazım: (1) Zehra (1894-96) Türk edebiyatında natüralizmin etkilerinin görüldüğü ilk roman olarak kabul edilir. (2) Yazar Nabizade Nazım 1893'te öldü, eseri arkadaşı Mahmud Sadık tarafından Servet-i Fünun dergisinde tefrika edildi. (3) KISKANÇLIK teması = romanın merkezi (Zehra'nın kıskançlığı yıkım yaratır). (4) Şevket Efendi + Suphi karakterleri romanın aileleridir.",
+      "celdirici_analizi": {
+        "A": "Namık Kemal-İntibah — Tanzimat'ın ilk edebi romanı (1876) ama natüralizm değil romantizm.",
+        "B": "Recaizade-Araba Sevdası — ilk realist roman, kıskançlık değil yanlış Batılılaşma teması.",
+        "not": "Diğer şıklar PDF'te kesik."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat'ın 'ilk' romanlarını sık sorar: İlk roman (Taaşşuk-ı Talat ve Fitnat, Şemsettin Sami 1872), İlk edebi (İntibah, Namık Kemal 1876), İlk realist (Araba Sevdası, Recaizade 1898), İlk natüralist (Zehra, Nabizade 1894-96), İlk köy (Karabibik, Nabizade 1890). Ezber: 'natüralizm + Şevket Efendi' = Zehra.",
+      "dersini_ogren": "Zehra = Nabizade Nazım + ilk natüralist roman + kıskançlık. Karabibik = ilk köy romanı (aynı yazar).",
+      "analiz_var": true
     },
     {
       "qno": 126,
@@ -5894,7 +5915,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Sanatçı tanı boşluk doldurma. İpuçları: 'Tiyatro kuruluş + Molière'in tüm eserleri Türkçeye + Cimri + Tanzimat kültür adamı + çeviri ve uyarlama'.",
+      "neden_dogru": "D) Ahmet Vefik Paşa: (1) Türk tiyatrosunda 'Bursa Tiyatrosu'nu kuran (1879). (2) Molière'in CİMRİ (Avare), Tartüf (Zoraki Tabip), 16 oyununu Türkçeye uyarladı. (3) Tanzimat kültür adamı, Lehçe-i Osmani sözlüğü, Şecere-i Türki çevirisi. Tüm ipuçları sadece Ahmet Vefik Paşa.",
+      "celdirici_analizi": {
+        "A": "Recaizade Mahmut Ekrem — eleştirmen + Araba Sevdası, tiyatro çevirisi yok.",
+        "B": "Ahmet Mithat Efendi — yazı makinesi + 200+ eser, Molière uyarlaması yapmadı.",
+        "C": "Namık Kemal — Vatan Yahut Silistre + Gülnihal, kendi oyunları, Molière çevirisi yok.",
+        "E": "Direktör Ali Bey — Letaif-i Aşıkan + Komedyalar, kendi mizah, Molière uyarlaması yok."
+      },
+      "osym_mantigi": "ÖSYM Ahmet Vefik Paşa'nın imzasını = Molière çevirisi olarak ezberletir. Cimri (Avare), Zoraki Tabip Türk edebiyatında Molière'in en bilinen uyarlamaları. DERS: Tanzimat tiyatrocularını ayır: Şinasi=ilk Türk tiyatrosu (Şair Evlenmesi), Namık Kemal=siyasi oyunlar (Vatan), Ahmet Vefik=Molière çevirileri.",
+      "dersini_ogren": "Ahmet Vefik Paşa = Molière çevirileri (Cimri, Zoraki Tabip) + Bursa Tiyatrosu + Lehçe-i Osmani.",
+      "analiz_var": true
     },
     {
       "qno": 127,
@@ -5945,7 +5977,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Namık Kemal tiyatrosu boşluk doldurma. İpuçları: 'Vatanperverlik + İslam birliği + Gülnihal (Rumeli yönetici zulmü) + kuşatma altındaki kalenin kurtuluşu'.",
+      "neden_dogru": "D) Vatan Yahut Silistre: Namık Kemal'in 1873'te sahnelenen oyunu. (1) SİLİSTRE = Tuna nehri kıyısındaki kale (Bulgaristan). (2) Kırım Savaşı'nda Rusların kuşatması altındaki kaleyi Osmanlı askerinin fedakârca kurtarması. (3) VATANPERVERLİK temasının zirvesi. (4) Sahnelendiğinde halk sokağa döküldü, Namık Kemal sürgün edildi (Magosa).",
+      "celdirici_analizi": {
+        "A": "Kara Bela — Namık Kemal'in oyunu ama Endülüs konulu, kuşatma yok.",
+        "B": "Zavallı Çocuk — Namık Kemal'in oyunu ama görücü usulü evlilik eleştirisi, kuşatma yok.",
+        "C": "Âkif Bey — Namık Kemal'in oyunu, vatansever ama Silistre kalesi değil.",
+        "E": "Görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM Namık Kemal'in 6 oyununu ayırt eder: İntibah (roman), Cezmi (roman), Vatan Yahut Silistre (oyun-kale), Gülnihal (oyun-Rumeli zulüm), Akif Bey (oyun-vatansever), Zavallı Çocuk (oyun-görücü), Kara Bela (oyun-Endülüs). KUŞATMA + KALE KURTULUŞU = Vatan Yahut Silistre.",
+      "dersini_ogren": "Vatan Yahut Silistre = Namık Kemal + Silistre kalesi kuşatma kurtuluşu (Kırım Savaşı) + 1873.",
+      "analiz_var": true
     },
     {
       "qno": 128,
@@ -5982,7 +6025,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Beyit-tema eşleştirme. Felâtun Bey ile Râkım Efendi'nin (Ahmet Mithat) işlediği sosyal sorun = SAHTE/YOZLAŞMIŞ BATILILAŞMA. Hangi beyit bu temaya uyar?",
+      "neden_dogru": "B) 'Yorgan döşek demez satar / Tiyatroda loca tutar / Gider evde yerde yatar / Şık beylerde olan halet / Kabul olunmaz rezalet' = Tipik SAHTE ALAFRANGA züppe tipinin betimlenmesi. Felâtun Bey de aynen böyledir: maddi imkanı olmadan tiyatroda loca tutar, alafranga yaşar, sefil bir hayata düşer. Bu beyit Ahmet Mithat'ın eleştirdiği SOSYAL SORUNU tam ifade eder.",
+      "celdirici_analizi": {
+        "A": "'Ey vatan ver elini bir öpeyim' = vatansever lirizm, alafranga züppe değil.",
+        "C": "'Hür olmak ister isen olma cihanın' = felsefi, sahte Batılılaşma yok.",
+        "D": "Mecazi/aşk = Batılılaşma teması yok.",
+        "E": "Görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat romanlarının ORTAK SOSYAL SORUNU 'sahte Batılılaşma'yı test eder. Hem Ahmet Mithat (Felâtun Bey), hem Recaizade (Bihruz Bey), hem Hüseyin Rahmi (Şıpsevdi) bu tipi işler. Anahtar kelimeler: 'şık bey + alafranga + tiyatro loca + ev yer yatak (sefil iç)' = sahte Batılılaşma züppesi.",
+      "dersini_ogren": "Felâtun Bey ile Râkım Efendi = sahte Batılılaşma eleştirisi (Ahmet Mithat). Aynı tip: Bihruz Bey (Araba Sevdası), Şıpsevdi (Hüseyin Rahmi).",
+      "analiz_var": true
     },
     {
       "qno": 129,
@@ -6025,7 +6079,15 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Roman tanı. İpuçları: 'Dilber + Asaf Paşa konağı + Celal Bey Paris resim + tablolar model + esir + ağlama + oyuncak/sevgili'.",
+      "neden_dogru": "SERGÜZEŞT - Samipaşazade Sezai: Sergüzeşt (1888) Türk edebiyatında ESARET (Çerkez kız Dilber'in trajik hayatı) konulu erken romanı. Karakterler: Dilber (esir kız), Asaf Paşa (konak sahibi), Celal Bey (paşanın oğlu, Paris resim eğitimi), Mestan Dadı. Roman ESARET ELEŞTİRİSİ + ROMANTİZM unsurları taşır.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Çeldiriciler tahmini: Namık Kemal-İntibah, Ahmet Mithat-Felâtun Bey, Recaizade-Araba Sevdası, Nabizade-Karabibik."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat 'ilk romanları' arasında SERGÜZEŞT'i ayırt eder: İLK ESARET ELEŞTİRİSİ romanı + ROMANTİZMDEN REALİZME geçiş örneği. Karakterler: Dilber + Celal Bey ezber. Sezai = Sergüzeşt + Küçük Şeyler (hikâye).",
+      "dersini_ogren": "Sergüzeşt = Samipaşazade Sezai + Dilber/Celal Bey + esaret eleştirisi (1888).",
+      "analiz_var": true
     },
     {
       "qno": 130,
@@ -6103,7 +6165,16 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Sanatçı tanı. İpuçları: 'Manzum hatta mensur tiyatro şairane üslup + Nazife/Tezer/Eşber/Sardanapal/İlhan/Turhan aruz oyunlar + okumak için yazılmış'.",
+      "neden_dogru": "ABDÜLHAK HAMİT TARHAN: (1) 'Şair-i Azam' lakaplı Tanzimat II. dönem şairi. (2) Oyunları: Nesteren, Nazife, Tezer, Eşber, Sardanapal, İlhan, Turhan, Liberte = Hamit'in manzum/uzun tiyatroları. (3) Bu oyunlar sahnelenemez/okunmak için yazılmış kabul edilir (çok uzun, şairane). (4) Şiir + tiyatroda aynı şairane üslup. Hamit'in imzası.",
+      "celdirici_analizi": {
+        "A": "Namık Kemal — Vatan, Gülnihal, Âkif Bey, Zavallı Çocuk, Kara Bela; sahnelenmek için.",
+        "not": "Diğer şıklar tipik: Recaizade, Şinasi, Ahmet Vefik Paşa."
+      },
+      "osym_mantigi": "ÖSYM Abdülhak Hamit'i 'sahne için DEĞİL okumak için' tiyatrocu olarak tanıtır. Bu Hamit'in farkı — Namık Kemal sahne için, Hamit kâğıt için. Oyun isimleri (Eşber, Tezer, Sardanapal) = Hamit'in imzaları.",
+      "dersini_ogren": "Abdülhak Hamit = Eşber/Tezer/Sardanapal/İlhan/Turhan + okumak için tiyatro + Şair-i Azam.",
+      "analiz_var": true
     },
     {
       "qno": 131,
@@ -6173,7 +6244,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Sanatçı tanı. İpuçları: 'Tercüman-ı Ahvâl Mukaddime + gazete halk dili + Tasvir-i Efkâr (1862) + genç sanatçı yetiştirme'.",
+      "neden_dogru": "A) İbrahim Şinasi: (1) Tercüman-ı Ahvâl (1860) = ilk özel Türk gazetesi (Agah Efendi ile birlikte kurdu); Şinasi'nin Mukaddime'si Türk gazeteciliğinin manifestosu. (2) TASVİR-İ EFKÂR (1862) = Şinasi'nin kendi gazetesi. (3) Halk diline yönelme + dil sadeleşmesi öncüsü. (4) Tasvir-i Efkâr'da Namık Kemal'in yetişmesi. Şinasi Tanzimat I. dönemin BAŞTA gelen ismi.",
+      "celdirici_analizi": {
+        "B": "Ahmet Mithat — Tercüman-ı Hakikat gazetesi (1878), Tasvir-i Efkâr değil.",
+        "C": "Ziya Paşa — Hürriyet gazetesi (Londra), Tasvir-i Efkâr değil.",
+        "D": "Namık Kemal — Şinasi'nin Tasvir-i Efkâr'ında yetişti, sonra İbret kendisi çıkardı.",
+        "E": "Görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat gazetelerini sık karıştırır: TERCÜMAN-I AHVÂL (1860, Şinasi+Agah Efendi, ilk özel), TASVİR-İ EFKÂR (1862, Şinasi), HÜRRİYET (1868, Ziya Paşa+Namık Kemal, Londra), İBRET (1872, Namık Kemal), TERCÜMAN-I HAKİKAT (1878, Ahmet Mithat). Şinasi = ilk gazete + Mukaddime + Tasvir-i Efkâr.",
+      "dersini_ogren": "Şinasi = Tercüman-ı Ahvâl (ilk gazete) + Tasvir-i Efkâr + Mukaddime + Şair Evlenmesi + ilk şiir çevirisi.",
+      "analiz_var": true
     },
     {
       "qno": 132,
@@ -6247,7 +6329,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Sanatçı tanı. İpuçları: 'Mekteb-i Mülkiye hocalık + ÜSTAD + Batılı yazarlar etki + güzellik+üslup+muhteva + Nağme-i Seher + Yâdigâr-ı Şebâb'.",
+      "neden_dogru": "RECAİZADE MAHMUT EKREM: (1) 'Üstad' lakaplı Tanzimat II. dönem şairi/eleştirmeni. (2) Mekteb-i Mülkiye (Mülkiye Mektebi) hocalığı yaptı. (3) Talim-i Edebiyat = edebiyat ders kitabı, Batılı eleştiri yöntemleri. (4) NAĞME-İ SEHER (1871) = Recaizade'nin ilk şiir kitabı. (5) YÂDİGÂR-I ŞEBÂB (1873) = ikinci şiir kitabı. (6) Sanat anlayışı: 'her güzel şey şiirin konusudur'. Tüm ipuçları sadece Recaizade.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Çeldiriciler: Namık Kemal, Abdülhak Hamit, Şinasi, Muallim Naci."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat II. dönem şairlerinin SANAT ANLAYIŞINI test eder. Recaizade = 'her güzel şey şiir konusu' + Batılı estetik; Muallim Naci = klasik gelenekçi (Demdeme). Eski-yeni kavgası: Recaizade YENİ tarafı.",
+      "dersini_ogren": "Recaizade Mahmut Ekrem = Üstad + Mülkiye + Nağme-i Seher + Yâdigâr-ı Şebâb + Talim-i Edebiyat + Araba Sevdası.",
+      "analiz_var": true
     },
     {
       "qno": 133,
@@ -6311,7 +6401,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "İki boşluklu eser + sanatçı sorusu. İpuçları: 'Eyvah! Ne yer ne yâr kaldı / Gönlüm dolu âh u zâr kaldı' + ölüm acısı + ahret + varlık + ölümsüzlük + ruh + bilgi sorgulamaları.",
+      "neden_dogru": "E) Makber - Abdülhak Hamit Tarhan: (1) MAKBER (1885) = Hamit'in eşi Fatma Hanım'ın ölümü üzerine yazdığı uzun mersiye/şiir. (2) Türk şiirinde ilk büyük ROMANTİK FERYAT. (3) Açılış dizesi: 'Eyvah! Ne yer ne yâr kaldı / Gönlüm dolu âh u zâr kaldı' — ANAHTAR. (4) Ölüm + ahret + varlık sorgulaması = Makber'in felsefi derinliği. Tüm ipuçları Makber'i ve Hamit'i işaret eder.",
+      "celdirici_analizi": {
+        "A": "Sahra - Abdülhak Hamit Tarhan: Sahra (1879) = Hamit'in pastoral şiirleri, ilk pastoral, ölüm teması değil doğa.",
+        "B": "Ah Nijad - Recaizade Mahmut Ekrem: Recaizade'nin oğlu Nijad'ın ölümü üzerine yazdığı mersiye (Pejmurde), Makber'in açılış dizesi değil.",
+        "C": "Hürriyet Kasidesi - Namık Kemal: Hürriyet teması, ölüm/ahret değil.",
+        "D": "Vaveyla - Namık Kemal: 'Vaveyla' Namık Kemal'in vatan şiiri değil mersiye değil."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat şiir mersiyelerini karıştırır: MAKBER (Hamit, eşine), AH NİJAD (Recaizade, oğluna). İkisi de mersiye/ölüm ama farklı yazar+sebep. 'Eyvah ne yer ne yâr' açılışı + 'âh u zâr' = Makber'in imzası. Hamit'in çok yönlü dehasının ZİRVESİ Makber kabul edilir.",
+      "dersini_ogren": "Makber = Abdülhak Hamit + eşi Fatma Hanım için (1885) + ilk büyük romantik feryat. 'Eyvah ne yer ne yâr' = Makber.",
+      "analiz_var": true
     },
     {
       "qno": 134,
