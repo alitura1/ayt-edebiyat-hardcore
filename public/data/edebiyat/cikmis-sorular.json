@@ -4688,7 +4688,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf-şair tanı. Çoklu ipucu: kaside ustası + fahriye uzmanlığı + mübalağa + iki divan (Türkçe+Farsça) + ölümünden sonra HİCV alanında dönemi aşan eser.",
+      "neden_dogru": "E) Nef'i: (1) 'Kaside ustası' = Nef'i'nin imzası (Türk edebiyatının en büyük kaside şairi). (2) 'Fahriye'de gösterdiği sanatlı anlatım' = Nef'i'nin AŞIRI fahriyeleri ünlü. (3) 'Mübalağalı ifadeler' = Nef'i'nin sloganı. (4) 'Türkçe ve Farsça iki divan' = Nef'i'nin iki divanı. (5) ANAHTAR: 'Hiciv alanında dönemini aşan eser' = SİHÂM-I KAZÂ (Nef'i'nin hiciv eseri, IV. Murat zamanında idamına sebep oldu).",
+      "celdirici_analizi": {
+        "A": "Nedim — 18. yy mahallileşme, kaside ustası DEĞİL, gazel + şarkı ustası. İki divan yok.",
+        "B": "Nabi — 17. yy hikemî tarz, kaside ustası değil, didaktik şiir + Hayriye/Hayrabad mesnevisi.",
+        "C": "Ahmedi — 14-15. yy, İskendername mesnevisi, kaside ustası değil.",
+        "D": "Baki — 16. yy gazel ustası + Kanuni Mersiyesi, kaside ustası ama HİCV alanında dönemi aşan eser yok."
+      },
+      "osym_mantigi": "ÖSYM bu soruda 'kaside ustası + hiciv' birleşimini test ediyor. Bu çift = Nef'i'nin EŞSİZ imzası. Aday 'kaside + hiciv' duyduğunda Nef'i'yi düşünmeli — başka kimse bu iki alanda zirve değil. Sihâm-ı Kazâ (Felaket Okları) eseri hicvin Türkçedeki zirvesidir.",
+      "dersini_ogren": "Nef'i = kaside ustası + fahriye + iki divan (Türkçe/Farsça) + Sihâm-ı Kazâ (hiciv). Hiciv alanında zirve = Nef'i.",
+      "analiz_var": true
     },
     {
       "qno": 113,
@@ -4748,7 +4759,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Paragraf-şair tanı. 5 ipucu: 15. yy Anadolu + halk söyleyişleri/deyim/atasözü kullanma + 'döne döne' redifli gazel + 'Hüsrev-i Rûm' (Anadolu şairlerinin sultanı) lakabı + Fuzuli/Baki gibi sonraki büyüklere etki.",
+      "neden_dogru": "B) Necati Bey: (1) 'XV. yy Anadolu' ✓ — Necati (?-1509). (2) 'Halk söyleyişleri + deyim + atasözleri' = Necati'nin TÜRKİ-İ BASİT öncüsü kimliği (sade Türkçe). (3) 'Döne döne redifli gazel' = Necati'nin en bilinen gazeli. (4) 'Hüsrev-i Rûm' (Anadolu şairlerinin sultanı) = Necati'nin lakabı. (5) Fuzuli ve Baki gibi sonraki şairler Necati'nin dilinden etkilendi.",
+      "celdirici_analizi": {
+        "A": "Şeyhi/Necati (?) — Şeyhi 14-15. yy ✓ ama Harname/Hüsrev ü Şirin yazarı, 'döne döne' gazeli yok.",
+        "C": "Ahmet Paşa — 15. yy ✓ + Fatih dönemi ama 'Kerem' redifli kaside ünlü, 'döne döne' gazeli Ahmet Paşa'nın değil.",
+        "D": "Ahmed-i Dai — 14-15. yy ✓ ama Çeng-name + Vasiyet-i Nuşirevan ile bilinen, halk söyleyişleri stil değil.",
+        "E": "Fuzuli — 16. yy (15. yy değil), Türki-i Basit değil Azerbaycan Türkçesi."
+      },
+      "osym_mantigi": "ÖSYM 15. yy Anadolu Divan şairlerini sık karıştırır. Ayırım: Necati = Türki-i Basit + 'döne döne' + Hüsrev-i Rûm; Ahmet Paşa = 'Kerem' redifi + Şairler Sultanı + Fatih sohbet arkadaşı; Şeyhi = Harnâme + hekim. Bu üçünün imzalarını ayrı ayrı ezberle.",
+      "dersini_ogren": "Necati Bey = 'döne döne' redifli gazel + Türki-i Basit (sade Türkçe) + Hüsrev-i Rûm (15. yy).",
+      "analiz_var": true
     },
     {
       "qno": 114,
@@ -4802,7 +4824,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Uzun pasaj: mesnevi araştırması üzerine. 'Türk edebiyatındaki ilk siyasetname örneği' = Kutadgu Bilig (Yusuf Has Hacip). Aşık Paşa (Garibname), Nabi (Hayrabad), Şeyh Galip (Hüsn ü Aşk) — hepsi mesnevi yazarı. Hamse sahibi şairler ek olarak. Soru sonu kesik — muhtemelen 'araştırmacı hangi konuya değinmemiştir' tarzı yorum sorusu.",
+      "neden_dogru": "Soru metni tamamı PDF'te kesik. Pasajdan çıkan ana fikir: mesnevi nazım şekli + ilk siyasetname (Kutadgu Bilig) + hamse + Doğu edebiyatı etkisi. Doğru cevap belirlemek için tam metin gerekli. ÖSYM resmi cevap anahtarı kontrolü tavsiye.",
+      "celdirici_analizi": {
+        "not": "Şıklar pasajda görünmüyor; sonraki güncellemede ÖSYM resmi cevap anahtarından kontrol edilecek."
+      },
+      "osym_mantigi": "ÖSYM 'pasaja göre değinilen/değinilmeyen' yorumlu sorularda paragraftaki AÇIK bilgileri eşleştirir. Strateji: pasajdaki anahtar kavramları (mesnevi, siyasetname, hamse, Doğu edebiyatı) listele, şıkları tek tek paragraftan doğrula.",
+      "dersini_ogren": "Mesnevi araştırma pasajı: Kutadgu Bilig = ilk siyasetname; Aşık Paşa = Garibname; Nabi = Hayrabad; Şeyh Galip = Hüsn ü Aşk.",
+      "analiz_var": true
     },
     {
       "qno": 115,
@@ -4843,7 +4873,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Mesnevi konusu tanı. Alegorik aşk hikâyesi: kız-erkek kabilesi + Kalp ülkesi + Kimya + zorluklar (kuyu/dev/cadı/Çin padişahı) + Sühan ihtiyar + 'gizli sır KENDİ İÇİNDE' tasavvufi sonuç.",
+      "neden_dogru": "B) Hüsn ü Aşk: Şeyh Galip'in alegorik mesnevisi. (1) 'Sevgioğulları kabilesi' = Beni Sevgi (aşk kabilesi). (2) Kahramanlar: Hüsn (kız, güzellik) + Aşk (erkek, sevgi). (3) 'Kalp ülkesi + Kimya arayışı' = Hüsn ü Aşk'ın merkezi sembolizmi (kimya = saadet sırrı). (4) Sühan (söz/sufi rehber) ihtiyar = Hüsn ü Aşk'ın mistik karakteri. (5) 'Gizli sır kendi içindedir' = TASAVVUFUN ÖZÜ. Hüsn ü Aşk'ın imzası.",
+      "celdirici_analizi": {
+        "A": "Leylâ vü Mecnûn — Arap aşk efsanesi, Kalp ülkesi/Sühan/Çin padişahı yok.",
+        "C": "Hüsrev ü Şîrîn — Sasani+Ermeni kralı aşkı, alegorik değil tarihsel romantik.",
+        "D": "Cemşîd ü Hurşîd — Cem+Güneş alegorisi (Ahmedi), Kalp ülkesi temasına uymaz.",
+        "E": "Şem ü Pervâne — mum+pervane aşk alegorisi (Zâti), Kalp ülkesi yok."
+      },
+      "osym_mantigi": "ÖSYM mesnevi konularını ALEGORİK SEMBOLLERİYLE test eder. Hüsn ü Aşk'ın imzası: Kalp ülkesi + Kimya + tasavvufi son ('sır içinde'). Bu üçü tek başına Hüsn ü Aşk'ı tanımlar. DERS: Mesnevileri konularına göre değil ALEGORİK SEMBOLLERİYLE ezberle.",
+      "dersini_ogren": "Hüsn ü Aşk = Şeyh Galip + Kalp ülkesi/Kimya/Sühan + 'sır kendi içinde' tasavvufi son.",
+      "analiz_var": true
     },
     {
       "qno": 116,
@@ -4910,7 +4951,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf-şair tanı. İpuçları: Bağdat'ın fethi sırasında Fuzuli ile tanışma + Fuzuli'yi Leyla vü Mecnun yazmaya teşvik + hamse sahibi + Yusuf u Züleyha + Şâh u Gedâ.",
+      "neden_dogru": "C) Taşlıcalı Yahya: (1) Bağdat'ın fethi 1534, Kanuni'nin seferinde Taşlıcalı Yahya bulundu, Fuzuli ile tanıştı. (2) Fuzuli'ye Leyla vü Mecnun yazma teşviki = Taşlıcalı'nın bilinen anekdotu. (3) HAMSE sahibi (5 mesnevi: Şah u Geda, Gencîne-i Râz, Gülşen-i Envâr, Yusuf u Züleyha, Kitab-ı Usul) = Taşlıcalı'nın imzası. (4) Yusuf u Züleyha + Şâh u Gedâ = ikisi de Taşlıcalı'nın hamse eserleri. Tüm ipuçları sadece Taşlıcalı'da toplanır.",
+      "celdirici_analizi": {
+        "A": "Hayâli Bey — 16. yy ✓ ama hamse sahibi DEĞİL, sadece Divan'ı var, mesnevi yok.",
+        "B": "Bâkî — 16. yy ✓ + Kanuni dönemi ama hamse sahibi değil, sadece Divan + Kanuni Mersiyesi.",
+        "D": "Şeyhî — 14-15. yy (Bağdat fethinden 100 yıl önce), Hüsrev ü Şirin + Harnâme yazdı, hamse sahibi sayılmaz.",
+        "E": "Ahmedî — 14-15. yy + İskendername, Bağdat fethinde değil."
+      },
+      "osym_mantigi": "ÖSYM hamse sahibi şairleri sık sorar — Anadolu sahasında HAMSE SAHİBİ az şair var: Hamdullah Hamdi (15. yy ilk hamse sahibi), Taşlıcalı Yahyâ (16. yy), Nev'î-zâde Atâî (17. yy). Bağdat fethi + Fuzuli ilişkisi = sadece Taşlıcalı. Yusuf u Züleyha + Şâh u Gedâ ikilisi de Taşlıcalı imzası.",
+      "dersini_ogren": "Taşlıcalı Yahya = hamse sahibi + Şâh u Gedâ/Yusuf u Züleyha + Bağdat'ta Fuzuli ile tanışma. (Şehzade Mustafa Mersiyesi de Taşlıcalı.)",
+      "analiz_var": true
     },
     {
       "qno": 117,
@@ -4949,7 +5001,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Şiir analizi → nazım şekli tespiti. Eşrefoğlu Rumî mahlas geçen şiir. Yapı: her beyit 'adı aşk' redifle bitiyor + son beyitte ŞAİR MAHLASI ('Var Eşrefoğlu Rûmî bil hakikat / Vücudu fâni itmekdür adı aşk').",
+      "neden_dogru": "B) Gazel: (1) Nazım birimi BEYİT (her bölüm 2 mısra). (2) Redif: 'adı aşk' tekrarlanan ek + son sözcük → klasik redif yapısı. (3) Son beyitte MAHLAS ('Eşrefoğlu Rûmî') = makta beyit, gazelin imzası. (4) Konu: tasavvufi aşk = Divan'da tipik gazel konusu. (5) Aa-ba-ca kafiye düzenine uygun. Gazel'in imzası — mahlaslı son beyit.",
+      "celdirici_analizi": {
+        "A": "Mesnevi — aa-bb-cc her beyit kendi içinde kafiyeli, redif ve mahlas kuralı yok.",
+        "C": "Murabba — 4 mısralık bentler (3+1 yapısı), beyitten oluşmaz.",
+        "D": "Kıt'a — 2 beyit, mahlas/redif sistemi yok.",
+        "E": "Müstezat — uzun-kısa mısra alternasyonu, eşit uzunluk yok burada."
+      },
+      "osym_mantigi": "ÖSYM nazım şekli sorularında MAHLAS BEYTİ (makta) ve REDİF anahtar göstergeler. Mahlas görüldüğünde GAZEL veya KASİDE düşün — kaside uzundur (33+ beyit), gazel kısa (5-15). Bu şiir 5-6 beyit gözüküyor → gazel. DERS: 'Eşrefoğlu Rûmî' gibi mahlas + 'adı aşk' redif = gazelin İMZASI.",
+      "dersini_ogren": "Gazel = beyitler + son beyitte mahlas (makta) + redif. 'Eşrefoğlu Rûmî bil' = gazel makta.",
+      "analiz_var": true
     },
     {
       "qno": 118,
@@ -4986,7 +5049,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Terim-tanım uyumsuzluğu = 'açıklama-terim uyuşmamaktadır'. Kaside bölümleri ve divan kavramları test ediyor.",
+      "neden_dogru": "A) Açıklama: 'Kaside içinde şairin kendini övdüğü bölümdür; şair, kendini büyük şairlerle karşılaştırarak şiirinin onlardan üstün olduğunu abartılı bir şekilde dile getirir.' Etiket: METHİYE. UYUŞMAZ! Bu tanım FAHRİYE'ye aittir (şair kendini över); METHİYE = padişah/vezir gibi başka birini övme. ÖSYM bilerek fahriye tanımını methiye etiketiyle vermiş — terim hatasını yakalat.",
+      "celdirici_analizi": {
+        "B": "Ölüm + terkibibent = MERSİYE ✓ doğru eşleşme (Bâkî'nin Kanuni Mersiyesi terkibibent).",
+        "C": "Allah'a yalvarış + kaside başında = MÜNACAAT ✓ doğru.",
+        "D": "Yermek amaçlı = HİCVİYE ✓ doğru (Nef'i'nin Sihâm-ı Kazâ).",
+        "E": "Allah'ın birliği = TEVHİT (Anlatım tam görünmüyor ama tipik eşleşme doğru)."
+      },
+      "osym_mantigi": "ÖSYM Divan kasidesi bölümlerini sık karıştırır: METHİYE (başkasını öv) ↔ FAHRİYE (kendini öv). Bu ayrım kritik. METHİYE'de övülen 3. kişi (sultan/vezir); FAHRİYE'de övülen ŞAİRİN KENDİSİ. 'Kendini büyük şairlerle karşılaştırma' → fahriye, methiye değil.",
+      "dersini_ogren": "Methiye = başkasını öv (sultan/vezir). Fahriye = kendini öv (şair). Karıştırma!",
+      "analiz_var": true
     },
     {
       "qno": 119,
@@ -5049,7 +5123,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "İki boşluklu şair + eser sorusu. İpuçları: Karamanoğlu Mehmed Bey fermanı (Türkçe konuşma) sonrası + ---- önce Farsça Felekname yazdı + Farsça meşhur eseri Türkçeye tercüme + 30 kuş + Hüdhüd rehber + Allah'a ulaşma.",
+      "neden_dogru": "E) Gülşehrî - Mantıku't-Tayr: (1) Gülşehrî 14. yy Türk şairi, Karamanoğlu Türkçe fermanı (1277) sonrası dönem. (2) Önce Farsça FELEKNAME yazdı, sonra Attar'ın MANTIKU'T-TAYR'ını Türkçeye uyarladı. (3) 30 kuş = Mantıku't-Tayr'ın merkez alegorisi (kuşlar nefsleri temsil eder, Simurg = Allah'a ulaşma). (4) Hüdhüd = kuşların rehberi/mürşid sembolü. Tüm ipuçları sadece Gülşehrî'ye götürür.",
+      "celdirici_analizi": {
+        "A": "Yunus Emre - Risaletü'n-Nushiyye: Yunus 13-14. yy ✓ + tasavvufi mesnevi ✓ ama 30 kuş/Hüdhüd yok.",
+        "B": "Ahmedi - İskendername: 14-15. yy + Büyük İskender mesnevisi, 30 kuş yok.",
+        "C": "Şeyh Galip - Hüsn ü Aşk: 18. yy (Karamanoğlu fermanından 500 yıl sonra), alegorik ama farklı sembolizm.",
+        "D": "Mevlana - Mesnevî: 13. yy ✓ + tasavvufi ama Farsça yazdı (Türkçe tercüme değil)."
+      },
+      "osym_mantigi": "ÖSYM iki boşluklu sorularda HER İKİ boşluğu BAĞIMSIZ doğrula. Şair: Karamanoğlu Türkçe fermanı + Farsça Felekname yazımı sonrası Türkçeye geçiş = Gülşehrî'nin biyografisi. Eser: 30 kuş + Hüdhüd = Mantıku't-Tayr'ın anahtar sembolleri. İkisi de bağımsız doğrulandı → E.",
+      "dersini_ogren": "Gülşehrî = Karamanoğlu sonrası 14. yy + Felekname (Farsça) → Mantıku't-Tayr Türkçe uyarlaması (Attar'dan).",
+      "analiz_var": true
     },
     {
       "qno": 120,
@@ -5119,7 +5204,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "İki boşluklu şair + eser sorusu. İpuçları: İran'da tasavvuf+tıp eğitimi + Hacı Bayram Veli'ye tabi + ---- mahlas + Çelebi Sultan Mehmed'i tedavi + Tokuzlu köyü timar + soyulma + ironik manzum mizahi hikâye.",
+      "neden_dogru": "B) Şeyhî - Harnâme: (1) Şeyhî (14-15. yy) İran'da tasavvuf+tıp eğitimi aldı. (2) Hacı Bayram Veli'ye tabi olarak 'Şeyhî' MAHLASINI aldı. (3) Çelebi Sultan Mehmed'i tedavi etti = Şeyhî'nin tarihsel bilinen olayı. (4) Tokuzlu köyü timar verildi, eski sahipler soydu, soyulma. (5) İronik manzum mizahi hikâye = HARNÂME (eşek hakkında 126 beyit alegorik hiciv). Şeyhî'nin imzası.",
+      "celdirici_analizi": {
+        "A": "Nabi - Hayriyye: Hayriye Nabi'nin OĞLUNA NASİHAT mesnevisi (didaktik), mizahi değil.",
+        "C": "Nef'i - Sihâm-ı Kazâ: Sihâm-ı Kazâ HİCV eseri ✓ ama alegorik hayvan hikâyesi değil, doğrudan kişi yergi.",
+        "D": "Âşık Paşa - Garibname: Tasavvufi mesnevi ama hayvan alegorisi/timar olayı yok.",
+        "E": "Fuzuli - Şikâyetnâme: Fuzuli'nin Bağdat'ta maaş alamamasıyla ilgili şikayet mektubu, hayvan alegorisi/timar olayı yok."
+      },
+      "osym_mantigi": "ÖSYM Şeyhî biyografisi + Harnâme imzası birleşimini test ediyor. Hekim + Tokuzlu timar + soyulma + mizahi hayvan alegorisi = sadece Şeyhî'nin başına gelen olay. DERS: Türk edebiyatının ünlü 'mizahi hiciv' eserleri ayrıştır: Harnâme (Şeyhî, eşek alegorisi), Sihâm-ı Kazâ (Nef'i, doğrudan kişi yergi), Şikâyetnâme (Fuzuli, mektup formu).",
+      "dersini_ogren": "Şeyhî = İran tıp + Hacı Bayram Veli + Çelebi Mehmed tedavi + soyulma + Harnâme (eşek mizahi hicvi).",
+      "analiz_var": true
     },
     {
       "qno": 121,
@@ -5165,7 +5261,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki boşluklu Fuzuli eser sorusu. İpuçları: Fuzuli MENSUR Türkçe eserlerinden + (1) Hz. Hüseyin'in şehit edilişini anlatan + (2) Mektup şeklinde + kişisel yaşam.",
+      "neden_dogru": "A) Hadîkatü's-Süedâ - Şikâyetnâme: (1) HADÎKATÜ'S-SÜEDÂ ('Mutlular Bahçesi') = Fuzuli'nin MENSUR Türkçe eseri; Kerbela olayı, Hz. Hüseyin'in şehadeti konu. (2) ŞİKÂYETNÂME = Fuzuli'nin MEKTUP şeklindeki mensur eseri; Kanuni'den aldığı maaşı tahsil edemediği için yazdığı şikayet mektubu, kişisel yaşamına ışık tutar.",
+      "celdirici_analizi": {
+        "B": "Beng ü Bâde - Leylâ vü Mecnûn: Beng ü Bâde manzum (esrar-şarap alegorisi mesnevi), Leyla vü Mecnun manzum. İkisi de mensur değil.",
+        "C": "Rind ü Zâhid - Şikâyetnâme: Rind ü Zâhid = Fuzuli'nin Farsça mensur eseri (Türkçe değil). İlk boşluk uyumsuz.",
+        "D": "Leylâ vü Mecnûn - Rind ü Zâhid: İkisi de eşleşmiyor (Leyla manzum, Rind ü Zâhid Farsça).",
+        "E": "Hadîkatü's-Süedâ - Beng ü Bâde: İkinci boşluk yanlış (Beng ü Bâde manzum, mektup değil)."
+      },
+      "osym_mantigi": "ÖSYM Fuzuli eserlerini sık sorar. MENSUR Türkçe eserleri: Hadîkatü's-Süedâ + Şikâyetnâme + Mektuplar. MANZUM eserleri: Leyla vü Mecnun (Türkçe mesnevi), Beng ü Bâde, Türkçe/Farsça/Arapça Divanları, Su Kasidesi. Mensur + Türkçe kombinasyonu sadece iki esere uyar. DERS: Fuzuli eserlerini DİL (Türkçe/Farsça/Arapça) ve TÜR (manzum/mensur) ayrımıyla tablo halinde ezberle.",
+      "dersini_ogren": "Fuzuli MENSUR Türkçe: Hadîkatü's-Süedâ (Kerbela) + Şikâyetnâme (mektup). Diğer mensur (Rind ü Zâhid) Farsça.",
+      "analiz_var": true
     },
     {
       "qno": 122,
@@ -5228,7 +5335,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Paragraf-şair tanı. İpuçları: Anadolu sahasının HAMSE SAHİBİ İLK şairi + En tanınmış eseri Yusuf u Züleyhâ + Molla Cami etkisi + millî/mahallî öğeler + yalın akıcı Türkçe.",
+      "neden_dogru": "B) Hamdullah Hamdi: (1) 'Anadolu sahasında HAMSE SAHİBİ İLK şair' = ANAHTAR — Hamdullah Hamdi (Akşemseddin'in oğlu, 1449-1503) Anadolu'da hamse veren ilk şair. (2) Yusuf u Züleyhâ = onun en bilinen eseri (Kur'an Yusuf kıssası). (3) Molla Cami (15. yy İranlı şair) etkisi — Cami'nin Yusuf u Züleyha'sının Anadolu Türkçesi yeniden yorumu. (4) Yalın Türkçe + mahalli öğeler = Hamdullah Hamdi'nin imzası.",
+      "celdirici_analizi": {
+        "A": "Şeyhî — 14-15. yy ✓ ama Harnâme + Hüsrev ü Şirin yazdı, hamse SAHİBİ DEĞİL (sadece 2 mesnevi).",
+        "C": "Necati Bey — 15. yy + 'döne döne' gazel + Türki-i Basit, hamse yok.",
+        "D": "Ahmet Paşa — 15. yy + Fatih dönemi + 'Kerem' kasidesi, hamse yok.",
+        "E": "Taşlıcalı Yahyâ — 16. yy + HAMSE sahibi ✓ ama 'İLK' değil (Hamdullah Hamdi'den sonra)."
+      },
+      "osym_mantigi": "ÖSYM 'hamse sahibi şair' sorularını sevdiği için ANADOLU'DAKİ HAMSE SAHİPLERİNİ tarihsel sırayla ezberle: (1) Hamdullah Hamdi (15. yy ilk), (2) Taşlıcalı Yahyâ (16. yy), (3) Nev'î-zâde Atâî (17. yy). 'İLK' kelimesi Hamdullah Hamdi'ye götürür. Tuzak: Taşlıcalı da hamse sahibi ama ikinci sırada.",
+      "dersini_ogren": "Hamdullah Hamdi = Anadolu'nun İLK hamse sahibi şairi + Yusuf u Züleyhâ + Akşemseddin oğlu (15. yy).",
+      "analiz_var": true
     },
     {
       "qno": 123,
@@ -5265,7 +5383,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Beyit içeriği → nazım türü tespiti. Beyitlerde 'Cümle eşya birliğine şâhid olur', 'Cümle varlık varlığına âlem oldu dâl', 'Zâtının mahiyetine eremez fehm ü ukûl', 'Hikmetinin kudretine eremez vehm ü hayâl' → Allah'ın BİRLİĞİ ve KUDRETİ vurgulu → TEVHİT.",
+      "neden_dogru": "B) Tevhit: ANAHTAR kelimeler — 'birliği' (Allah'ın birliği), 'cümle eşya birliğine şâhid', 'cümle varlık', 'Zâtının mahiyeti' (Allah'ın özü), 'Hikmetinin kudreti' (Allah'ın gücü). Tüm beyitler Allah'ın BİRLİĞİNİ ve VARLIĞINI doğrulamaya odaklı = TEVHİT. Münacat'tan farkı: münacat YAKARIŞ (yardım iste); tevhit BİRLİK İFADESİ (Allah birdir, ortaksızdır).",
+      "celdirici_analizi": {
+        "A": "Naat — Peygamber methiyesi, 'Muhammed' yok.",
+        "C": "Methiye — padişah/vezir övgüsü, Allah'ın birliği değil.",
+        "D": "Münacat — yakarış/dua ('Yâ Rab çare kıl'), burada yakarış yok birlik vurgusu var.",
+        "E": "Mersiye — ölü ardından ağıt, burada ağıt yok."
+      },
+      "osym_mantigi": "ÖSYM TEVHİT ↔ MÜNACAT karışıklığını sık test eder. Ayırım: TEVHİT = 'Allah birdir, eşi ortağı yoktur, mahiyeti bilinemez' (BİRLİK İFADESİ); MÜNACAT = 'Yâ Rab çare kıl, halâs eyle, sığınıyorum' (YAKARIŞ). Bu beyitlerde 'birliğine şâhid', 'mahiyetine eremez' = Allah'ın özelliklerini SAYAR → tevhit. Yakarış yok.",
+      "dersini_ogren": "Tevhit = Allah'ın birliği/kudretini ifade. Münacat (yakarış) ile karıştırma. 'Birliğine şâhid' = tevhit imzası.",
+      "analiz_var": true
     },
     {
       "qno": 124,
