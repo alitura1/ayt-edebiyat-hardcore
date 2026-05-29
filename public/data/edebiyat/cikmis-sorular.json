@@ -6452,7 +6452,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Yazar özelliklerinden esere ulaşma. İpuçları: 'SF bağımsız yazar + ince mizah + eski-yeni çatışma + yüzeysel Batılılaşma + aile geçimsizliği'.",
+      "neden_dogru": "A) Şık: Bu özellikler Hüseyin Rahmi Gürpınar'ın yazar profilidir — SF dönemi bağımsız (SF topluluğuna katılmadı), mizahi romancı. 'ŞIK' (1888) Hüseyin Rahmi'nin SAHTE BATILILAŞMA eleştirisi roman. Şık Bey = alafranga züppe tipi. Diğer eserleri: Mürebbiye, Şıpsevdi, Kuyruklu Yıldız Altında Bir İzdivaç.",
+      "celdirici_analizi": {
+        "B": "Kırık Hayatlar — Halit Ziya Uşaklıgil (SF üyesi, bağımsız değil).",
+        "C": "Sözde Kızlar — Peyami Safa (Cumhuriyet dönemi).",
+        "D": "İstanbul'un İç Yüzü — Refik Halit Karay (Milli Edebiyat).",
+        "E": "Çalıkuşu — Reşat Nuri Güntekin (Milli Edebiyat)."
+      },
+      "osym_mantigi": "ÖSYM Hüseyin Rahmi'yi 'SF döneminde ama bağımsız' olarak ayırt eder. SF üyeleri (Halit Ziya, Mehmet Rauf, Tevfik Fikret) Servet-i Fünun dergisinin temsilcileri; Hüseyin Rahmi onlarla aynı dönemde ama bağımsız, halkçı, mizahi. 'Şık + mürebbiye + alafranga züppe' = Hüseyin Rahmi.",
+      "dersini_ogren": "Hüseyin Rahmi Gürpınar = SF döneminde BAĞIMSIZ + Şık/Mürebbiye/Şıpsevdi + sahte Batılılaşma mizahı.",
+      "analiz_var": true
     },
     {
       "qno": 135,
@@ -6519,7 +6530,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Topluluk üyesi 'değildir'. İpuçları: 'II. Meşrutiyet sonrası + ferdiyetçi sanat + ilk bildirgeyle ortaya çıkma + sosyal/politik nedenle dağılma'.",
+      "neden_dogru": "E) Cenap Şahabettin: Bu pasaj FECR-İ ÂTİ topluluğunu tanımlıyor (II. Meşrutiyet sonrası 1909, 'Sanat şahsî ve muhteremdir' bildirgesi, ferdiyetçi). Cenap Şahabettin Servet-i Fünun üyesidir, Fecr-i Âti'ye katılmadı. Yakup Kadri, Refik Halit, Ahmet Haşim, Celal Sahir = Fecr-i Âti üyeleri.",
+      "celdirici_analizi": {
+        "A": "Yakup Kadri ✓ — Fecr-i Âti üyesi, sonra Milli Edebiyat'a geçti.",
+        "B": "Refik Halit ✓ — Fecr-i Âti üyesi.",
+        "C": "Ahmet Haşim ✓ — Fecr-i Âti'nin başta gelen şairi (Piyale, Göl Saatleri).",
+        "D": "Celal Sahir Erozan ✓ — Fecr-i Âti üyesi, sonra Milli Ed."
+      },
+      "osym_mantigi": "ÖSYM Servet-i Fünun ↔ Fecr-i Âti üyelerini karıştırır. SF (1896-1901): Tevfik Fikret, Halit Ziya, Mehmet Rauf, Cenap Şahabettin, Hüseyin Cahit, Süleyman Nazif. FECR-İ ÂTİ (1909-1912): Ahmet Haşim, Yakup Kadri, Refik Halit, Celal Sahir + 16 isim. Cenap Şahabettin = SF, Haşim = Fecr-i Âti (önemli ayrım).",
+      "dersini_ogren": "Cenap Şahabettin = Servet-i Fünun (Fecr-i Âti DEĞİL). Ahmet Haşim = Fecr-i Âti (Cenap'la karıştırma).",
+      "analiz_var": true
     },
     {
       "qno": 136,
@@ -6573,7 +6595,15 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "SF döneminin az tercih edilen TÜRLERİ üzerine araştırma. Şiir+roman+öykü dışındaki türler. 'Recaizade ve Hamit'in sağladığı hazırlık' = SF'nin Tanzimat II. dönemden beslendiği. Soru sonu görünmüyor.",
+      "neden_dogru": "Pasaj SF'nin az çalışılan türlerine odaklanan bir araştırmacının metni. Az tercih edilen SF türleri: GEZİ (Cenap Şahabettin'in Hac Yolunda), HATIRA (Halit Ziya'nın Kırk Yıl), MENSUR ŞİİR (Halit Ziya, Mehmet Rauf), TENKİT/ELEŞTİRİ (Hüseyin Cahit). Soru muhtemelen 'bu araştırmada hangi türden bahsedilmemiştir' tarzı.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. SF'nin türleri: şiir-roman-öykü (ana), mensur şiir, gezi, hatıra, tenkit."
+      },
+      "osym_mantigi": "ÖSYM SF'nin az bilinen türlerini test eder: MENSUR ŞİİR (SF'de Halit Ziya başlattı), GEZİ (Hac Yolunda), HATIRA (Kırk Yıl, Saray ve Ötesi), TENKİT (Mehmet Rauf, Hüseyin Cahit). DERS: SF sadece şiir/roman değil, geniş türlü bir dönem.",
+      "dersini_ogren": "SF az tercih edilen türler: mensur şiir, gezi yazısı, hatıra, tenkit. Recaizade-Hamit hazırlığıyla beslenir.",
+      "analiz_var": true
     },
     {
       "qno": 137,
@@ -6612,7 +6642,15 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Sanatçı tanı. İpuçları: 'Yeni imgeler + Arapça/Farsça ağır dil + siyasi baskıdan hayale kaçış + KIRK YIL adlı kitap + matbuat-idari baskı'.",
+      "neden_dogru": "HALİT ZİYA UŞAKLIGİL: (1) Kırk Yıl (1936) = Halit Ziya'nın 4 ciltlik hatırat eseri. (2) SF dönemi yazarı + ağır Arapça/Farsça tamlamalı dil = SF özelliği. (3) 'Siyasi baskıdan kaçma' = II. Abdülhamit dönemi sansüründen kurtulma çabası. Halit Ziya hem romancı (Aşk-ı Memnu, Mai ve Siyah) hem hatıra yazarı.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Çeldiriciler tipik: Mehmet Rauf, Tevfik Fikret, Hüseyin Cahit, Cenap Şahabettin."
+      },
+      "osym_mantigi": "ÖSYM SF yazarlarının HATIRA eserlerini test eder: HALİT ZİYA = Kırk Yıl + Saray ve Ötesi; HÜSEYİN CAHİT = Kavgalarım + Edebî Hatıralar; HALİDE EDİP = Mor Salkımlı Ev + Türk'ün Ateşle İmtihanı. 'Kırk Yıl' = Halit Ziya'nın imzası.",
+      "dersini_ogren": "Halit Ziya Uşaklıgil = Kırk Yıl (hatıra) + Mai ve Siyah/Aşk-ı Memnu (roman) + SF ağır dil.",
+      "analiz_var": true
     },
     {
       "qno": 138,
@@ -6676,7 +6714,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Sanatçı tanı. İpuçları: 'SF'da tenkit + akıl/mantık + dekadanlık kavgası + Ali Kemal çatışması + Kavgalarım/Matbuat Hatıraları/Edebî Hatıralar'.",
+      "neden_dogru": "A) Hüseyin Cahit Yalçın: (1) SF döneminin TENKİTÇİSİ (eleştirmen) — Tevfik Fikret yanında dergi yazı işleri müdürü. (2) DEKADANLIK MESELESİ (1897-1900) = Ahmet Mithat'ın SF'cilere 'dekadan' demesi, Hüseyin Cahit + Cenap Şahabettin cevap verdi. (3) Ali Kemal ile çatışma = SF dışı tenkitçilerle kavga. (4) KAVGALARIM (1910) + MATBUAT HATIRALARIM + EDEBÎ HATIRALAR = Hüseyin Cahit'in hatıra üçlüsü. Tüm ipuçları H. Cahit.",
+      "celdirici_analizi": {
+        "B": "Ahmet Rasim — Şehir Mektupları + halk dili köşe yazıları, SF tenkitçisi değil.",
+        "C": "Tevfik Fikret — şair (Rübab-ı Şikeste), tenkit eserleri 'Kavgalarım' adıyla yok.",
+        "D": "Hüseyin Rahmi Gürpınar — romancı, tenkit değil.",
+        "E": "Görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM SF tenkitçilerini sık sorar. HÜSEYİN CAHİT YALÇIN = SF'nin tenkit kalemi + Ali Kemal kavgaları + Edebî Hatıralar üçlüsü. Aday 'dekadanlık kavgası' ve 'Ali Kemal' duyduğunda direkt H. Cahit.",
+      "dersini_ogren": "Hüseyin Cahit Yalçın = SF tenkitçisi + dekadanlık kavgası + Ali Kemal çatışması + Kavgalarım/Edebî Hatıralarım.",
+      "analiz_var": true
     },
     {
       "qno": 139,
@@ -6748,7 +6797,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Şiir-şair tanı. Şiir: 'Annenin oğluna konuşması + küfeci çocuk + yetimlik + iş öğrenme' = diyaloglu halk dili şiiri, sosyal tema.",
+      "neden_dogru": "TEVFİK FİKRET (muhtemel): Bu şiir Tevfik Fikret'in 'Halûk'un Defteri' veya 'Hasta Çocuk' tarzı SOSYAL ŞİİRİ olabilir. Fikret SF döneminde halk diline yönelen, çocuk teması işleyen tek isim. ALTERNATİF: 'Küfe' Mehmet Akif'in Safahat'tan ünlü şiiridir. Eğer şiir 'Küfe' ise = MEHMET AKİF (Milli Edebiyat) — ama topic SF olarak işaretli, çelişki var. PDF'te yıl/topic kontrol gerek.",
+      "celdirici_analizi": {
+        "A": "Cenap Şahabettin — sembolist, çocuk/sosyal teması yok.",
+        "B": "Ahmet Haşim — saf şiir, halk dili değil.",
+        "C": "Yahya Kemal Beyatlı — saf şiir + İstanbul, halk diyaloğu yok.",
+        "not": "D, E görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM şair tanı sorularında DİL ÜSLUBUNU test eder. Halk diyaloğu + sosyal tema = Fikret veya Mehmet Akif. Anne-çocuk konuşması özel olarak Mehmet Akif'in 'Küfe' şiirinin imzasıdır.",
+      "dersini_ogren": "Halk diyaloğu + sosyal tema = Mehmet Akif (Küfe, Hasta) veya Fikret (Halûk'un Defteri).",
+      "analiz_var": true
     },
     {
       "qno": 140,
@@ -6821,7 +6881,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Diyalog formatlı şair tanı. Boşluğa 'Sis şiirinde İstanbul'a kendi karamsarlığını yükleyen' şair.",
+      "neden_dogru": "TEVFİK FİKRET: 'SİS' (1902) = Tevfik Fikret'in en bilinen şiiri. II. Abdülhamit dönemi İstanbul'una yönelik karamsar/iğneleyici yergi. Şiirde İstanbul = sis ile örtülmüş çürüme/zulüm. Fikret kendi karamsarlığını/öfkesini İstanbul'a yansıtır. SF'nin başyapıtı.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Çeldiriciler tipik: Nedim (İstanbul güzelliği), Yahya Kemal (İstanbul saf şiir), Cenap Şahabettin."
+      },
+      "osym_mantigi": "ÖSYM 'Sis' şiirini direkt Fikret'le özdeşleştirir. Nedim İstanbul güzelliği övgüsü ↔ Fikret İstanbul karanlık karamsar = tam zıt iki yaklaşım. Aday 'Sis = Fikret = karamsar İstanbul' ezberini yapmalı.",
+      "dersini_ogren": "Sis = Tevfik Fikret + II. Abdülhamit dönemi İstanbul karamsar yergi. Nedim İstanbul methiyesinin tam zıddı.",
+      "analiz_var": true
     },
     {
       "qno": 141,
@@ -6907,7 +6975,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Sanatçı tanı. İpuçları: 'Sanat şahsî ve muhteremdir + tiyatro/hikâye/mensur şiir + roman + 1908-1950 sosyo-politik + Anamın Kitabı + Gençlik ve Edebiyat Hatıraları'.",
+      "neden_dogru": "YAKUP KADRİ KARAOSMANOĞLU: (1) 'Sanat şahsî ve muhteremdir' = Fecr-i Âti bildirgesi (Yakup Kadri imzaladı). (2) İlk dönem: Mensur şiir (Erenlerin Bağından), tiyatro, hikâye. (3) Roman: 1908-1950 panoraması = Kiralık Konak/Nur Baba/Hüküm Gecesi/Sodom ve Gomore/Yaban/Ankara/Panorama I-II. (4) Hatıralar: ANAMIN KİTABI + GENÇLİK VE EDEBİYAT HATIRALARIM + Zoraki Diplomat. Tüm ipuçları Yakup Kadri.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tipik çeldirici: Halide Edip, Refik Halit, Reşat Nuri."
+      },
+      "osym_mantigi": "ÖSYM Yakup Kadri'nin DÖNEM DEĞİŞTİREN kariyerini test eder: Fecr-i Âti (1908) → Milli Edebiyat (1916) → Cumhuriyet panoraması (1928-1950). Roman panoraması + 'Anamın Kitabı' + Yakup Kadri'nin imzaları.",
+      "dersini_ogren": "Yakup Kadri = Fecr-i Âti → Milli Ed → Cumhuriyet (dönem geçişi) + Anamın Kitabı + Yaban/Panorama.",
+      "analiz_var": true
     },
     {
       "qno": 142,
@@ -7000,7 +7076,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Sanatçı boşluk doldurma. İpuçları: 'Recaizade + Hamit etkisi + genç + TÂMÂT şiir kitabı + dekadanlık tartışması + Ahmet Mithat'a cevap + sembolist ses/ahenk'.",
+      "neden_dogru": "D) Cenap Şahabettin: (1) Tâmât (1887) = Cenap'ın 19 yaşında çıkardığı ilk şiir kitabı. (2) Recaizade + Hamit etkisi = SF öncesi Tanzimat II. dönem beslenmesi. (3) DEKADANLIK TARTIŞMASI (1897) = Ahmet Mithat'ın SF'cileri 'dekadan' (yozlaşmış) ilan etmesine Hüseyin Cahit + Cenap cevap verdi. (4) SEMBOLİZM ETKİSİ = Cenap'ın 'Elhân-ı Şitâ'sı (Kış İlahileri) Türkçedeki sembolizmin zirvesi.",
+      "celdirici_analizi": {
+        "A": "Tevfik Fikret — SF lideri ama Tâmât onun değil, Rübab-ı Şikeste.",
+        "B": "Süleyman Nazif — SF üyesi ama Tâmât yazmadı.",
+        "C": "Ahmet Haşim — Fecr-i Âti, SF değil, Piyale + Göl Saatleri.",
+        "E": "Muallim Naci — Tanzimat eski tarz, sembolizmden uzak."
+      },
+      "osym_mantigi": "ÖSYM SF şairlerinin İLK ESERLERİNİ ezberletir: TÂMÂT = Cenap Şahabettin (1887, 19 yaşında); RÜBAB-I ŞİKESTE = Tevfik Fikret. Tâmât + sembolizm = Cenap'ın imzası. Elhân-ı Şitâ + Hac Yolunda diğer eserleri.",
+      "dersini_ogren": "Cenap Şahabettin = Tâmât (ilk şiir 1887) + Elhân-ı Şitâ + sembolizm + dekadanlık cevabı. Tevfik Fikret = Rübab-ı Şikeste.",
+      "analiz_var": true
     },
     {
       "qno": 143,
