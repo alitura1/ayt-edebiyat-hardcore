@@ -1232,7 +1232,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf yorumu — özlem/depresyon ifadelerinin kültürlere göre farklılaşması. Şair örneği (bıçak metaforu) + Japon (ruhun üşümesi) + Anadolu (gönlün yorulması). 'Ulaşılabilir' yargıyı bul.",
+      "neden_dogru": "A) 'Kişilerin duygularını paylaşma arzuları, toplumdan topluma farklılaşır': (1) Parça duyguların farklı kültürel ifade biçimlerini gösteriyor — Japonca/Türkçe farklı kalıplar. (2) Bu farklılaşma 'paylaşma/ifade etme' aşamasında ortaya çıkıyor. (3) Şair örneği bireysel kullanım, kültür örneği kollektif kullanım — her ikisi toplumsal farklılaşmaya bağlı.",
+      "celdirici_analizi": {
+        "B": "Derecelendirme — parça farklılaşma diyor, sıralama/derecelendirme yok.",
+        "C": "Ruh durumları kişiler/olaylara göre — kişi/olay değil KÜLTÜR farkı.",
+        "D": "Sanatçı dikkatiyle sıradanlıktan kurtulma — paragraf sıradanlık vurgulamıyor.",
+        "E": "Şairler kelimelerini toplum hassasiyetine bağlı seçer — şair örneği var ama paragrafın çekirdek mesajı bu değil, A kapsayıcı."
+      },
+      "osym_mantigi": "ÖSYM 'ulaşılabilir' sorularında paragrafın TÜM ÖRNEKLERİNİ kapsayan en geniş yargıyı arar. Şair + iki kültür → toplum farkı imzası. Aday tek örneğe değil bütüne bakmalı.",
+      "dersini_ogren": "Duygu ifade biçimleri kültürden kültüre farklılaşır. Şair dili + halk dili = toplumsal ifade biçimi.",
+      "analiz_var": true
     },
     {
       "qno": 29,
@@ -1271,7 +1282,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — araştırma sonucu yorumlama. 3 yaş grubu (ergen/genç yetişkin/yetişkin) araba oyunu + akran etkisi araştırması. Bulgu: ergenler ÖZELLİKLE AKRAN BAKARKEN riskli davranıyor.",
+      "neden_dogru": "C) 'Ergen gençler, akran etkisi altındayken daha riskli davranışlar sergileme eğilimindedir': (1) Parçada açıkça 'ergenlerin tek başına çok az, başkaları izlerken çok yüksek riskli davranış' bulgusu. (2) Bu birebir 'akran etkisi → riskli davranış' eşleşmesi. (3) Diğer yaş gruplarında bu fark yok.",
+      "celdirici_analizi": {
+        "A": "Etkileşime kolay giren — parça riskli davranış, etkileşim ölçmüyor.",
+        "B": "Yetişkinlerin tek başına olumlu davranış olasılığı — parçada yetişkin olumluluk yok.",
+        "D": "Yetişkinler de akranlara göre davranış — bulgu sadece ergende, yetişkinde değil.",
+        "E": "Ergenlerin büyüklerin görüşünü göz ardı ettiği — bulgu büyük-küçük değil akran etkisi."
+      },
+      "osym_mantigi": "ÖSYM araştırma sonucu yorumlarında BİREBİR BULGU + ŞIK eşleşmesini ister. Aday paragrafın asıl bulgusunu (ergen+akran=risk) bir cümleye sıkıştırmalı, sonra şıkları kontrol etmeli.",
+      "dersini_ogren": "Ergen + akran gözetiminde = artan risk alma. Akran etkisi (peer pressure) ergende belirgin.",
+      "analiz_var": true
     },
     {
       "qno": 30,
@@ -1308,7 +1330,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf yorumu — edebi eserin üslubu sosyolojik ama 'asıl toplumsal olan ANLATIM BİÇİMİ' (içerik değil biçim). ANA FİKİR seçimi.",
+      "neden_dogru": "A) 'Toplumsal gerçekliği yansıtan, edebi eserin ne anlattığından ziyade nasıl anlattığıdır': (1) Parçada 'sosyolojik çözümlemenin en büyük hatası sadece içerik+ekonomi bağlantısı' = içerik öne çıkarma yanlış. (2) 'Edebiyatta asıl TOPLUMSAL olan ANLATIM BİÇİMİDİR' = birebir cevap. (3) İçerik (ne) - biçim (nasıl) ayrımı parçanın çekirdek tezi.",
+      "celdirici_analizi": {
+        "B": "Sosyolojik içeriği yorumlama önceliği — parça tam tersi, içerik tek başına yetmez diyor.",
+        "C": "Biçim gerçek hayata bağlı → içeriği belirler — parçanın yönü farklı (biçim toplumsal).",
+        "D": "Ekonomik ilişkilerin belirlenmesi — parça bu yaklaşımı eleştiriyor.",
+        "E": "İçerik = hayata dair değerlendirme — içerik vurgulu, parça biçim vurgulu."
+      },
+      "osym_mantigi": "ÖSYM edebi/sanat eleştirisi paragraflarında 'içerik vs biçim' ayrımını test eder. 'Ne anlatır' = içerik; 'nasıl anlatır' = biçim. Paragraf 'biçim toplumsaldır' diyorsa cevap 'nasıl' ekseninde olmalı.",
+      "dersini_ogren": "Edebi eserin toplumsal yanı NE anlattığı değil NASIL anlattığıdır (üslup/biçim). İçerik-biçim ayrımı kritik.",
+      "analiz_var": true
     },
     {
       "qno": 31,
@@ -1347,7 +1380,18 @@
         "değinilmemiştir"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf 'değinilmemiş' yorumu — minimalist sanatçılar + heykel-resim sınırı + mühendislik tasarımı + boyama. Hangi özelliği parçada YOK?",
+      "neden_dogru": "E) 'Heykel yapımını farklı sanatçıların ortak üretimi olarak gördüklerine' — DEĞİNİLMEMİŞ. Parça minimalistlerin 'mühendislik tasarımı/proje' yaklaşımını anlatıyor ama 'ortak üretim/kollektif sanatçı' bilgisi YOK. Tek bir sanatçının proje üretmesi de mümkün. Diğer şıklar var: (A) Geleneksel ayrımlara karşı çıkma — 'geleneksel görüşü kabul etmemişlerdir'; (B) Yöntemsel değişiklik — proje tasarımı yaklaşımı; (C) Farklı duyulara hitap fikrini reddetme — 'görme-dokunma ayrımını kabul etmemişlerdir'; (D) Geçmişte var olan tekniği yeniden — 'Eski/Orta Çağda boyamanın esas olduğu eserler' önceden vardı.",
+      "celdirici_analizi": {
+        "A": "Değinilmiş — geleneksel ayrımlara karşı çıkma açık.",
+        "B": "Değinilmiş — mühendislik+proje yöntemsel değişiklik.",
+        "C": "Değinilmiş — görme/dokunma duyu ayrımı reddi.",
+        "D": "Değinilmiş — Eski/Orta Çağda boyamanın esas olduğu söyleniyor."
+      },
+      "osym_mantigi": "ÖSYM 'değinilmemiş' sorularında parçada AÇIKÇA olmayan tek şıkkı bulmayı ister. 'Ortak üretim/kollektif' bilgisi parçada yok — minimalist sanatçıların kollektif çalışma motifi olmadığı. Aday parçadaki her şıkkı bire bir kontrol etmeli.",
+      "dersini_ogren": "Paragrafta her şıkkı tek tek izlemek 'değinilmemiş' tipinde şart. 'Ortak üretim/kollektif' bilgisi parçada yoksa şık o.",
+      "analiz_var": true
     },
     {
       "qno": 32,
@@ -1384,7 +1428,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — Mozambik'te dişsiz fil oranı artışı + dişlerin günlük yaşam işlevi (toprak kazma vs.). 'Dişsiz fil' hakkında 'ulaşılabilir' yargı bul.",
+      "neden_dogru": "C) 'Uzuvlarındaki eksikliğin yaşamsal faaliyetlerini sınırlar nitelikte olduğuna': (1) Parça açıkça: 'Dişsiz doğum, fillerin vücut yapısından yaşam tarzlarına kadar pek çok şeyi olumsuz etkiliyor'. (2) 'Suya ve yaşamsal minerallere dev dişleriyle toprağı kazarak ulaşabildikleri' = uzuv eksikliği → yaşamsal faaliyet sınırlı. (3) Birebir cevap.",
+      "celdirici_analizi": {
+        "A": "Doğum oranlarının bölgeden bölgeye değişimi — parça Mozambik+Tanzanya'da YAYILIYOR diyor, değişim değil yaygınlaşma.",
+        "B": "Doğal etkenlerle yok olma — parçada 'ÇEVRESEL DEĞİŞKENLER' diyor, doğal etken belirsiz kalıyor + tamamen yok olma yok.",
+        "D": "Dışarıdan desteğe ihtiyaç — parçada dış destek bahsedilmiyor.",
+        "E": "Araştırmaların farkındalık oluşturması — farkındalık konusu parçada yok."
+      },
+      "osym_mantigi": "ÖSYM 'ulaşılabilir' sorularında parçanın açıkça söylediği bilgiye en yakın şıkkı seçer. 'Yaşam tarzına olumsuz etki' + 'kazarak ulaşma' = uzuv eksikliği yaşamsal sınırlama. Aday paragrafın ÇIKARIM cümlesini bulmalı.",
+      "dersini_ogren": "Uzuv eksikliği → yaşamsal faaliyetlerin sınırlanması. Filin dişiz olması → su/mineral ulaşımının azalması (paragrafta sebep-sonuç).",
+      "analiz_var": true
     },
     {
       "qno": 33,
@@ -1423,7 +1478,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf yorumu — yazarın kitap tasarımı: bölümler, açıklama yazıları, 2 tür okur (sırayla / atlayarak), her ikisine de hitap. 'Söylenebilir' yargı bul.",
+      "neden_dogru": "D) 'İçerik planlaması yapılırken okurun beklentileri dikkate alınmıştır': (1) Yazar açıkça '2 tür okuru gözetmeye çalıştım' diyor — okur beklentisi merkezi. (2) Sürekliliği gerektiren okur için bütünlük + atlayan okur için bölümleme — her ikisi okur beklentisine bağlı tasarım. (3) Birebir cevap.",
+      "celdirici_analizi": {
+        "A": "Yazarın farklı yazılarının bir araya getirildiği — derleme değil özgün bölümler.",
+        "B": "Açıklamalar okur isteklerine yönelik — kısmen doğru ama içerik planlaması daha kapsamlı.",
+        "C": "Okur sınıflandırması yazmaya kolaylık — kolaylık yok, çok yönlü tasarım çabası var.",
+        "E": "Okurun ilgisini çekecek konulara öncelik — yazar tüm konuları yazmış, öncelik vermemiş."
+      },
+      "osym_mantigi": "ÖSYM yazar perspektifi sorularında yazarın AÇIKLADIĞI niyetine en yakın yargıyı seçer. '2 tür okuru gözettim' = okur beklentisini merkezi tutmak. Aday yazarın açık ifadesini bulmalı.",
+      "dersini_ogren": "Yazar 'okuru gözettim' diyorsa okur beklentisi tasarım merkezindedir. Çift hedef kitle = içerik planlaması okura uyarlı.",
+      "analiz_var": true
     },
     {
       "qno": 34,
@@ -1467,7 +1533,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf yorumu — 'Bir Bilim Adamının Romanı' (Oğuz Atay) süreci. TÜBİTAK projesi + gençlerin bilime özenmesi + Mustafa İnan + Cahit Arf önerisi + Oğuz Atay seçimi. 'Değinilmiş' bul.",
+      "neden_dogru": "A) 'Romanın yazdırılmasında gözetilen temel TOPLUMSAL HEDEFE': (1) Parça açıkça: 'TÜBİTAK'ın birincil amacı GENÇLERİN BİLİMSEL ARAŞTIRMAYA ÖZENMESİNİ sağlamaktır'. (2) Bu birebir toplumsal hedef. (3) 'Türkiye'de bir bilim insanının nasıl yetiştiğini anlatma' = toplumsal hedef.",
+      "celdirici_analizi": {
+        "B": "Mustafa İnan'ın seçilme nedeni — parçada Cahit Arf'ın TEKLİFİ etkili dendi ama 'neden Mustafa İnan' ayrıntısı yok.",
+        "C": "Roman yazma fikri Cahit Arf'tan — Cahit Arf BİLİM İNSANI SEÇİMİNDE teklif etti, romanı yazma fikri TÜBİTAK projesi.",
+        "D": "Yurt dışı örneklerden faydalanma — parçada yurt dışı bilgisi yok.",
+        "E": "Gerçeklere bire bir sadık kalma — yazım sürecindeki sadakat parçada yok."
+      },
+      "osym_mantigi": "ÖSYM 'değinilmiş' sorularında parçada AÇIKÇA olan tek şıkkı bulur. Diğer şıklar yarı-doğru/yarı-yanlış çeldirici. Aday paragrafın AÇIK bilgisine sadık kalmalı, çıkarım yapmamalı.",
+      "dersini_ogren": "TÜBİTAK'ın Mustafa İnan biyografisi hedefi = gençlerin bilime özenmesi. Toplumsal/eğitsel hedef vurgulu.",
+      "analiz_var": true
     },
     {
       "qno": 35,
@@ -1504,7 +1581,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf yorumu — Baudrillard tüketim teorisi: eksiklik fikri + nesneye sahiplik fikri + iç motivasyon + geçici tatmin + hayal kırıklığı. 'Tüketim alışkanlığı' hakkında çıkarım.",
+      "neden_dogru": "A) 'Nesnelerle anlık motivasyon sağladığı': (1) Parçada 'GEÇİCİ TATMİN sağladığı için bizi hayal kırıklığına uğratır' = anlık/geçici motivasyon. (2) 'İç motivasyon ve güdülerle bağlantılıdır' = anlık duygu sağlama. (3) Tüketimin geçici, tatmin etmeyen yapısı = anlık motivasyon imzası.",
+      "celdirici_analizi": {
+        "B": "Farklı alışkanlıkları ortaya çıkarma — parçada alışkanlık çeşitliliği yok, tek bir tüketim mekanizması.",
+        "C": "Bireysel farkındalığı artırma — parça tam tersi, hayal kırıklığı sonu farkındalık değil.",
+        "D": "Toplumsal sınıfların oluşması — parçada sınıf konusu yok.",
+        "E": "Ekonomik sistemlere göre çeşitlilik — sistem çeşitliliği değil, kapitalizm tek yapı."
+      },
+      "osym_mantigi": "ÖSYM felsefe/sosyal teori paragraflarında teorinin TEMEL İDDİASINI yakalattırır. Baudrillard tüketim = geçici tatmin + hayal kırıklığı = anlık motivasyon. Aday teorik kavramı 'anlık vs kalıcı' eksende okumalı.",
+      "dersini_ogren": "Baudrillard tüketim = geçici tatmin + anlık motivasyon. Sürekli tatmin etmeyen, derin ihtiyacı karşılamayan.",
+      "analiz_var": true
     },
     {
       "qno": 36,
@@ -1541,7 +1629,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Paragraf yorumu — tiyatro sahnesi metaforu + persona/maske + 'gerçekten yapmak' vs 'yapıyor gibi görünmek' = kişilik oluşumu. ANA FİKİR seçimi.",
+      "neden_dogru": "B) 'İnsanlar, içsel çatışma ve sosyal çevre beklentisi arasındaki çelişki içinde kimliğini bulur': (1) Parça açıkça 'GERÇEKTEN YAPMAK' (iç) ile 'YAPIYOR GİBİ GÖRÜNMEK' (sosyal beklenti) arasındaki MÜCADELEnin kişiliği oluşturduğunu söylüyor. (2) Persona = maske + iç-dış çelişkisi = B'nin tarifi. (3) 'Kim bilir?' = belirsizlik, çelişki içinde kimlik bulma.",
+      "celdirici_analizi": {
+        "A": "Kişiliğinden ödün — parça ödün değil çelişki içinde kimlik bulma vurguluyor.",
+        "C": "Rol model alma — parçada başkasını model alma yok, kendi rolünü oynama.",
+        "D": "İyi izlenim bırakma — sonuç değil süreç (kimlik oluşumu) vurgulu.",
+        "E": "Denge çabası + davranış doğruluğunu belirlemek zor — parçanın sonu var ama temel mesaj 'içsel çatışma+kimlik'."
+      },
+      "osym_mantigi": "ÖSYM metaforik paragraflarda METAFORUN ANLAMINI yakalattırır. Tiyatro sahnesi + persona/maske = içsel/sosyal çelişki + kimlik. Aday metaforun anlamını bireysel-toplumsal eksende okumalı.",
+      "dersini_ogren": "Persona (maske) = içsel benlik ile sosyal beklenti arasındaki çelişkide oluşan kimlik. Tiyatro sahnesi metaforu temel.",
+      "analiz_var": true
     },
     {
       "qno": 37,
@@ -1578,7 +1677,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf yorumu — yazar perspektifi. Fıstık ezmesi testi + alzaymir + koku alma yetisi azalması. Yazar neyi VURGULUYOR? sorusu.",
+      "neden_dogru": "D) 'Alzaymir teşhisinde bir DUYUDAKİ İŞLEV KAYBININ önemini vurgulamıştır': (1) Yazar tüm paragrafı 'KOKU ALMA YETİSİNİN AZALMASI' üzerinde inşa ediyor. (2) 'Koku alma yetisi, bilişsel eksiklik durumunda ilk etkilenecek duyular' = duyu işlev kaybı önem. (3) 'Teşhisinin fıstık ezmesi testiyle kolaylaşacağı' = duyu testi → teşhis.",
+      "celdirici_analizi": {
+        "A": "İşlenmiş gıdaların rolü — fıstık ezmesi 'işlenmiş gıda' değil, test malzemesi.",
+        "B": "Bilimsel tartışmalar — parça tek bir bulgu, tartışma yok.",
+        "C": "Alzaymir hastalarının özelliklerini detaylı — parça hastalık özelliklerinden çok TESTİ anlatıyor.",
+        "E": "Tedavide alternatif yöntemler — tedavi değil teşhis konusu."
+      },
+      "osym_mantigi": "ÖSYM yazar perspektifi sorularında 'yazarın VURGUSU' sorulur. Paragrafın merkezinde ne var? Fıstık ezmesi → koku → teşhis. Aday paragrafın ana eksenini izlemeli.",
+      "dersini_ogren": "Alzaymir + koku alma azalması = duyusal işlev kaybı teşhis aracı. Fıstık ezmesi testi koku duyu test örneği.",
+      "analiz_var": true
     },
     {
       "qno": 38,
@@ -1617,7 +1727,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — hafıza geliştirme programı + öğrenme bozukluğu/yaşlanma/dikkat eksikliği/hiperaktivite tedavisinde kullanılabilir. 'Program' özelliği bul.",
+      "neden_dogru": "C) 'Beyin temelli bazı rahatsızlıkların iyileştirilmesine katkı sağlayacağı öngörülmektedir': (1) Parça açıkça 'çalışma başarılı olursa programın öğrenme bozuklukları, hafıza problemleri, dikkat eksikliği, hiperaktivite tedavisinde kullanılabileceği DÜŞÜNÜLÜYOR'. (2) Hepsi BEYİN TEMELLİ rahatsızlıklar. (3) 'Düşünülüyor' = öngörü.",
+      "celdirici_analizi": {
+        "A": "Önceki araştırma sonuçlarını çürütme — parça tam tersi, önceki çalışmalardan FAYDALANIYOR.",
+        "B": "Bilinen oyunları güncelleme — parçada güncelleme yok, YENİ program tasarımı.",
+        "D": "Eğitim tasarımları yenileme — eğitim değil tıbbi rahatsızlık vurgulu.",
+        "E": "Farklı yaş grupları için yazılım — yaş gruplarına ayrım yok."
+      },
+      "osym_mantigi": "ÖSYM bilimsel araştırma paragraflarında 'olası uygulamalar' yargısını test eder. Hafıza programı + tedavi listesi = sağlık uygulaması. Aday paragrafın bildirdiği amacı izlemeli.",
+      "dersini_ogren": "Hafıza programı = beyin temelli rahatsızlıklar (alzaymir, ADHD, öğrenme bozukluğu) tedavisi öngörüsü.",
+      "analiz_var": true
     },
     {
       "qno": 39,
@@ -1656,7 +1777,18 @@
         "değinilmemiştir"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf 'değinilmemiş' yorumu — güvercinler + eğitilebilirlik + farklı coğrafya + 700 km eve dönüş + manyetik alan + mesaj taşıma. 'Sosyal bağ' bilgisi parçada yok.",
+      "neden_dogru": "D) 'Kendi aralarında güçlü sosyal bağlar kurduklarına' — DEĞİNİLMEMİŞ. Parça güvercinlerin YETENEKLERİNİ (eğitim, yön bulma, mesafe) anlatıyor; SOSYAL BAĞ bilgisi YOK. Diğerleri var: (A) Eğitilme zahmetsiz — 'az bir çabayla eğitilebilen'; (B) Farklı bölge yaşam — 'taban tabana zıt coğrafi koşullarda yaşayabilen'; (C) İletişim — 'mesaj taşıma'; (E) Yön bulma kaynağı — 'dünyanın manyetik alanı'.",
+      "celdirici_analizi": {
+        "A": "Değinilmiş — az çabayla eğitilebilir.",
+        "B": "Değinilmiş — zıt coğrafi koşullarda yaşayabilir.",
+        "C": "Değinilmiş — mesaj taşıma görevi.",
+        "E": "Değinilmiş — manyetik alan yön bulma kaynağı."
+      },
+      "osym_mantigi": "ÖSYM 'değinilmemiş' sorularında PARÇADA OLMAYAN tek bilgiyi arar. 'Sosyal bağ/kommunikasyon' güvercinlerin DOĞAL ÖZELLİĞİ ama bu paragrafta YOK — yetenek listesi var. Aday paragrafın listelediği bilgilerle şıkları karşılaştırmalı.",
+      "dersini_ogren": "'Değinilmemiş' = parçada YOK demek, doğal özellik OLABİLİR ama paragrafta YOKSA o şık. Sosyal bağ güvercinlerin özelliği ama parçada yok.",
+      "analiz_var": true
     },
     {
       "qno": 40,
@@ -1695,7 +1827,18 @@
         "boşluk-doldur"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Boşluk doldurma — düşünce akışı: 'tıbbi bitki kavramı popüler... ----. Doğanın insanlığa sunduğu şifa kaynakları gelecekte umut kaynağı'. Boşluğa giren cümle hem geriye (popülerlik) hem ileriye (gelecekte umut) köprü olmalı.",
+      "neden_dogru": "E) 'Geçmişte olduğu gibi bugün de tedavi ve sağlıklı bir yaşam sürdürmek amacıyla bitkisel kaynaklardan yararlanılmaktadır': (1) GEÇMİŞ-BUGÜN köprüsü — paragrafın başında 'eski uygarlık deneyimleri' atıfı, devamda 'gelecekte umut kaynağı'. (2) Akıcı geçiş — şu an kullanımı vurgulayan, sonra gelecek umuduna açılan cümle. (3) Tıbbi bitki ana teması korunuyor.",
+      "celdirici_analizi": {
+        "A": "Salgın hastalık + geleneksel yöntem — özel bir örnek, akışta yer almaz.",
+        "B": "Yeniden yorumlama + kategorize — kategorize bilgi parçada yok.",
+        "C": "Alternatif tıbbın modern tıbba geçti — bu modern karşıtı bir iddia, parça karşıt değil bütünleyici tonda.",
+        "D": "Modern tıbbın sorgulanmasına yol açma — sorgulama vurgusu parçanın tonuna uymuyor."
+      },
+      "osym_mantigi": "ÖSYM boşluk doldurma sorularında ÖNCESİ-SONRASI köprü kuran cümleyi arar. Boşluk öncesi: popülerlik; sonrası: gelecek umudu. Köprü cümle = şu an yararlanma + geçmişe atıf = E.",
+      "dersini_ogren": "Boşluk doldurmada cümle hem geriye (önceki cümle) hem ileriye (sonraki cümle) bağlanmalı. Tematik sürekliklik + akıcı geçiş şart.",
+      "analiz_var": true
     },
     {
       "qno": 41,
@@ -1732,7 +1875,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf yorumu — ulusal sinema + imgeler + ortak tarih/kültür/inanç/sanat geleneği + Polonya örneği. 'Ulaşılabilir' yargı.",
+      "neden_dogru": "C) 'Ulusal sinema kültürü, bir topluma ait kolektif bilinç unsurları tarafından oluşturulur': (1) Parça açıkça 'ulusal sinema kültürünü besleyen ORTAK TARİH, KÜLTÜR, İNANÇ ve SANAT GELENEKLERİ' = KOLLEKTİF BİLİNÇ. (2) 'Üretildiği toplumun gözüyle bakmak' = kollektif perspektif. (3) Birebir cevap.",
+      "celdirici_analizi": {
+        "A": "Çok uluslu toplum + tematik çeşitlilik — parça Polonya çok kültürlü AMA tematik çeşitlilik vurgusu yok.",
+        "B": "Polonya sineması GELİŞİMİNDE kültürel unsurların etkin rolü — parça Polonya'yı örnek veriyor, gelişim teorisi değil.",
+        "D": "Evrenselliğe ulaşma — parça evrensellik vurgulamıyor.",
+        "E": "Kültürel imgeler + doğru hikaye birleşimi = zengin sinema dili — parça zengin sinema dilinden bahsetmiyor."
+      },
+      "osym_mantigi": "ÖSYM paragraf yorumlarında ÇERÇEVE FİKRİ + ŞIK eşleşmesi ister. 'Ortak tarih/kültür/inanç' = kollektif bilinç eşleşmesi. Aday parçanın kapsayıcı tezi bulmalı, örneklere takılmamalı.",
+      "dersini_ogren": "Ulusal sinema = toplumun kollektif bilinç unsurlarıyla (tarih, kültür, inanç, sanat) şekillenir.",
+      "analiz_var": true
     },
     {
       "qno": 42,
@@ -1776,7 +1930,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf yorumu — Mary Shelley Frankenstein + Galvani galvanizm deneyi + Milton 'Kayıp Cennet' ad + simya + bilim. 'Ulaşılabilir' yargı.",
+      "neden_dogru": "D) 'Eserini kurgularken bilimsel bir araştırmadan esinlenmiştir': (1) Parçada açıkça 'Luigi Galvani'nin ölü kurbağaya elektrik verme deneyi, Shelley'in kalemine ilham vermiştir'. (2) Galvani = bilimsel araştırma, Shelley = ilham aldı = birebir cevap. (3) Frankenstein bilimsel kurgu kökeni.",
+      "celdirici_analizi": {
+        "A": "Romanıyla bilimsel gelişmelere ilham vermiştir — TAM TERSİ, bilim Shelley'e ilham verdi.",
+        "B": "Simyaya merakı — parçada Frankenstein KARAKTERİ simyaya hayran, Shelley değil.",
+        "C": "Milton'ı yeniden kurgulama — parça karakter adının kaynağı Milton diyor, yeniden kurgu değil.",
+        "E": "Ölümsüzlüğü bularak kontrol edilemez güç kazanma — parça karakterin GÜCÜ KAYBETTİĞİNİ söylüyor, kazanmadığını."
+      },
+      "osym_mantigi": "ÖSYM paragraf yorumlarında 'kim kime ilham' yön testi sıkça yapar. Shelley'e Galvani ilham verdi (BİLİM → EDEBİYAT). Aday yön karışıklığına dikkat etmeli, A şıkkındaki ters yön tuzak.",
+      "dersini_ogren": "Mary Shelley Frankenstein'ı Galvani'nin elektrik deneyinden ilham alarak yazdı. Bilim → edebiyat ilhamı.",
+      "analiz_var": true
     },
     {
       "qno": 43,
@@ -1815,7 +1980,18 @@
         "değinilmemiştir"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf 'değinilmemiş' yorumu — Cemal Reşit Rey + Türk Beşleri + az bilinen yapıtlar derlemesi + yalnızlık/özlem/kayboluş + makamlar/kültür + soyut anlatım. Parçada YOK olanı bul.",
+      "neden_dogru": "E) 'Duyguları harmanlayarak müziğe aktarmada ÖNCÜLÜK ETTİĞİNE' — DEĞİNİLMEMİŞ. Parça Rey'in duygulu bestelerini anlatıyor AMA 'ÖNCÜLÜK' (ilk olma, başlatan) bilgisi YOK. Diğer şıklar var: (A) Bir oluşumun üyesi — 'Türk Beşleri grubunun üyesi'; (B) Ün kazanmamış kayıt seçkisi — 'az bilinen yapıtları derleme halinde'; (C) Farklı duyuş/arayışlar — 'yalnızlaşmış insanın sanrıları, özlemleri, kaybediş ve buluşları'; (D) Yetiştiği toplumun kültürel değerleri — 'makamlar ve kültürüne dayandırdığı soyut anlatım'.",
+      "celdirici_analizi": {
+        "A": "Değinilmiş — Türk Beşleri üyesi.",
+        "B": "Değinilmiş — az bilinen yapıtlar derleme.",
+        "C": "Değinilmiş — yalnızlık/sanrı/özlem duygu çeşitliliği.",
+        "D": "Değinilmiş — makam ve kültüre dayanan soyut anlatım."
+      },
+      "osym_mantigi": "ÖSYM 'değinilmemiş' sorularında 'öncülük' çeldiricisini sıkça kullanır — parçada SADECE özelliklerden bahsedilir, ÖNCÜLÜK (ilk olma) somut olarak söylenmemişse o şık. Aday 'ilk', 'öncü', 'başlatan' kelimelerini parçada aramalı.",
+      "dersini_ogren": "'Öncülük' = ilk olma, başlatan. Paragrafta açıkça söylenmemişse o yargı değinilmemiştir.",
+      "analiz_var": true
     },
     {
       "qno": 44,
