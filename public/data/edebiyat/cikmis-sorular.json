@@ -3046,7 +3046,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Beyitlerin türünü belirleme — komşu hakkı, ahlak/öğüt teması veriliyor. Divan nesir türleri (...name) içinde içeriğe göre eşleştirme. 'Pendname' = öğüt kitabı, dini-ahlaki nasihat türü.",
+      "neden_dogru": "B) Pendname: (1) 'Pend' = öğüt; pendname = ahlaki öğütler kitabı. (2) Beyitler doğrudan EMİR/ÖĞÜT veriyor: 'Gözle komşu hakkını', 'kırma gönlün, hoş geçin, mümin isen'. (3) Hak (komşu hakkı) + ahlak temaları pendname'nin tipik içeriği. (4) Divan edebiyatında Attar'ın Pend-nâme'si en meşhuru, Türk pendname'lerinden Güvâhî'nin Pend-nâme'si.",
+      "celdirici_analizi": {
+        "A": "Surname — düğün/şenlik anlatımı, II. Selim'in oğlu Mehmed'in sünnet düğünü gibi tören kitabı.",
+        "C": "Kıyafetname — insan yüzünden karakter okuma kitabı (fizyognomi).",
+        "D": "Seyahatname — gezi izlenimleri, mekan tasviri.",
+        "E": "Gazavatname — savaş/zafer kitabı, ordu kahramanlıkları."
+      },
+      "osym_mantigi": "ÖSYM Divan nesri türlerinde TEMATİK eşleştirme test eder. Her 'name' türü özel bir konuya bağlı: pend (öğüt), seyahat (gezi), gazavat (savaş), sur (düğün), kıyafet (fizyognomi), sefaret (elçilik), şehrengiz (şehir güzelleri), mihnât (sıkıntılar) vb. Öğüt teması → pendname birebir.",
+      "dersini_ogren": "Pendname = öğüt/ahlak kitabı (pend=öğüt). Komşu hakkı, ahlak, dini öğüt = pendname içeriği.",
+      "analiz_var": true
     },
     {
       "qno": 72,
@@ -3085,7 +3096,18 @@
         "ulaşılamaz"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Postmodern roman özellikleri sorusu — Orhan Pamuk'un 'Kar' romanından parça. Postmodernizmin temel özellikleri: kurmacanın hissettirilmesi, üst-kurmaca, anlatıcı oyunları, gerçek-kurmaca sınırının bulanıklaşması. 'Ulaşılamaz' özelliği bul.",
+      "neden_dogru": "D) 'Kurmaca ile gerçeklik arasındaki sınır belirginleştirilir' — ULAŞILAMAZ. Postmodernde tam tersi: sınır BULANIKLAŞTIRILIR/SİLİNİR. Parçada 'Ka'nın eski arkadaşıyım, başına gelecekleri biliyorum' = anlatıcı kendini gerçek dünyaya bağlıyor, gerçek-kurmaca sınırı belirsizleşiyor. Diğer önermeler postmoderne uyar: (A) Kurmacanın hissettirilmesi — 'bu kitapta öyle yapacağım' = açıkça kurmaca; (B) Yazma süreci konu edilir — 'şimdi söyleyeyim'; (C) Anlatıcı etkin figür — anlatıcı sürekli giriyor; (E) Okurla iletişim — 'sizi kandırmak istemem'.",
+      "celdirici_analizi": {
+        "A": "Doğru — 'bu kitapta öyle yapacağım' kurmaca farkındalığı.",
+        "B": "Doğru — yazma sürecini anlatması (şimdi söyleyeyim) üst-kurmaca.",
+        "C": "Doğru — anlatıcı 'Ka'nın arkadaşıyım' diyerek etkin figür.",
+        "E": "Doğru — 'sizi kandırmak istemem' okurla doğrudan iletişim."
+      },
+      "osym_mantigi": "ÖSYM postmodern roman test ederken klasik tuzak: 'sınır belirgin' iddiası — postmodernizmin TERSİDİR. Modern romanda gerçek-kurmaca AYRI; postmodernde BULANIK. Aday postmodernizmin 4 imza özelliğini (kurmaca farkındalığı, üst-kurmaca, anlatıcı oyunları, sınır bulanıklığı) hatasız bilmeli.",
+      "dersini_ogren": "Postmodern roman = kurmaca-gerçek SINIR BULANIK. Modernde belirgin; postmodernde silinir/iç içe geçer.",
+      "analiz_var": true
     },
     {
       "qno": 73,
@@ -3127,7 +3149,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Boşluk doldurma + tür tanıma. Anadolu'da XVI. yy + biyografi geleneği + şairler hakkında bilgi + Mecâlisü'n-Nefâis + Sehî Bey Heşt Behişt. Bu tarif TEZKİRE türüne aittir.",
+      "neden_dogru": "B) Tezkire: (1) Şair biyografilerini toplayan eser türü. (2) Anadolu sahasında ilk tezkire SEHÎ BEY'in Heşt Behişt'idir (1538). (3) Ali Şir Nevâî'nin Mecâlisü'n-Nefâis'i model alındı — Çağatay sahasında ilk şair tezkiresi. (4) Türk edebiyatında Latifi, Aşık Çelebi, Hasan Çelebi, Beyani, Riyazi gibi tezkire yazarları geleneği oluşturdu.",
+      "celdirici_analizi": {
+        "A": "Mecmua — derleme defteri (şiir/nesir karışık), biyografi özelliği yok.",
+        "C": "Surname — düğün/şenlik kitabı, biyografi değil.",
+        "D": "Mersiye — bir ölünün ardından yazılan ağıt, biyografi değil.",
+        "E": "Menakıbname — veli/din büyüğünün kerametleri, sufi biyografisi (şair biyografisi değil)."
+      },
+      "osym_mantigi": "ÖSYM Divan nesri türlerinde tezkire/menakıbname/mecmua ayrımını test eder. Tezkire = ŞAİR biyografisi; Menakıbname = VELİ kerameti; Mecmua = derleme. Şair odaklı + biyografik = tezkire. Sehî Bey-Heşt Behişt eşleşmesi ezbere bilinmeli (Anadolu ilk şair tezkiresi).",
+      "dersini_ogren": "Tezkire = şair biyografi sözlüğü. Anadolu ilk tezkire = Sehî Bey, Heşt Behişt (1538). Model: Ali Şir Nevâî Mecâlisü'n-Nefâis.",
+      "analiz_var": true
     },
     {
       "qno": 74,
@@ -3164,7 +3197,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Hikaye parçası özellikleri — Sait Faik tarzı sokak hikayesi. 'Söylenemez' özelliği bul. Bakış açısı, dil, betimleme, psikoloji, gündelik hayat unsurları kontrol edilir.",
+      "neden_dogru": "A) 'Olaylar hakim bakış açısıyla anlatılmıştır' — SÖYLENEMEZ. Parçada 'kapısını açtığım', 'bir şey demek üzereydim', 'vazgeçtim', 'yürüdüm' — BEN anlatım = KAHRAMAN BAKIŞ AÇISI. Hakim bakış (3. tekil, her şeyi bilen) DEĞİL. Diğer şıklar doğru: (B) Sade içten dil; (C) Betimleme — 'kirli soluk yanaklar, çıplak ayaklar'; (D) Psikolojik durum — 'merhametle değil, sevgiyle baktım'; (E) Gündelik hayat — sokak, küfeci çocuk.",
+      "celdirici_analizi": {
+        "B": "Doğru — sade, içten Sait Faik üslubu.",
+        "C": "Doğru — çocuğun fiziksel betimi.",
+        "D": "Doğru — anlatıcının ruhsal durumu (sevgi, hayal kırıklığı) açık.",
+        "E": "Doğru — sokakta küfeci çocukla karşılaşma günlük yaşam kesiti."
+      },
+      "osym_mantigi": "ÖSYM hikaye parçası analizinde BAKIŞ AÇISI testi sıkça yapar. 'Ben/sen' = kahraman/kahraman bakış; 'O' + her şeyi bilen = hakim; 'O' + sınırlı bilgi = gözlemci. Aday cümle başında zamiri (ben/sen/o) kontrol etmeli + anlatıcının bilgi düzeyini değerlendirmeli.",
+      "dersini_ogren": "Hakim bakış = 3. tekil + her şeyi bilen anlatıcı. 'Ben' anlatımı = kahraman bakış açısı. Karıştırma!",
+      "analiz_var": true
     },
     {
       "qno": 75,
@@ -3201,7 +3245,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Bilinç akışı tekniği örneği — tanım veriliyor: düzensiz, çağrışımlı, aracısız iç dünya. 5 parça arasında bu özelliğe en uygun olan seçilir. Bilinç akışı ile iç monolog ayrımı KRİTİK.",
+      "neden_dogru": "B) Rüya parçası: (1) 'Gerçeği hemen kabul edemiyordu, rüyayı hayalinden eklemeler yaptı, görüntüler silindi, düşüncelere bıraktı' = ÇAĞRIŞIM ZİNCİRİ. (2) Rüya → gerçek → düşünce → meseleler arasında AKICI ama DÜZENSİZ geçiş = bilinç akışı imzası. (3) Yazar kontrol değil, kahramanın zihninin akışı doğrudan veriliyor. Diğer parçalar düzenli olay anlatımı veya kontrollü iç monolog.",
+      "celdirici_analizi": {
+        "A": "'Sokağa çıkmaya karar verdim. Günseli'ye gitmek istiyordum...' — DÜZENLİ olay zinciri, bilinç akışı değil.",
+        "C": "'Ahmet telefonu kapattı... Cevdet Bey'in resmini yapmalı diye düşündü' — kontrollü iç monolog (yazar etkin).",
+        "D": "'İster istemez bir yabancının horladığı odada...' — 2. tekil anlatım, kontrollü iç anlatım, bilinç akışı değil.",
+        "E": "'Mutlak birisini çiğnedi, bu herifi hapse tıktılar' — düz anlatım, çağrışım yok."
+      },
+      "osym_mantigi": "ÖSYM bilinç akışı vs iç monolog ayrımını test eder. Bilinç akışı = DÜZENSİZ, çağrışımlı, yazar kontrolü zayıf; iç monolog = düzenli, yazar kontrollü iç ses. Rüya/uyanış/düşünce silsileleri tipik bilinç akışı imzası. Joyce, Woolf, Faulkner örnekleri.",
+      "dersini_ogren": "Bilinç akışı = düzensiz çağrışım, aracısız zihin akışı. İç monolog = kontrollü iç ses. Rüya-gerçek-düşünce geçişleri bilinç akışı tipiktir.",
+      "analiz_var": true
     },
     {
       "qno": 76,
@@ -3238,7 +3293,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Hikaye parçası özellikleri — Beyazıt Havuzu kenarı bekleyiş, lirik ve düşünce yoğun anlatım. 'Söylenemez' özelliği bul. Durum hikayesi (Sait Faik/Memduh Şevket tarzı) tanıma.",
+      "neden_dogru": "C) 'Düşüncelerin bilinç akışı tekniğiyle aktarıldığı' — SÖYLENEMEZ. Parçada düşünceler DÜZENLİ, KONTROLLÜ — 'düşünüyorum', 'belki', 'sonra' gibi mantıklı bağlaçlarla ilerliyor. Bilinç akışı DÜZENSİZ ÇAĞRIŞIM ZİNCİRİ gerektirir; burada lirik iç ses var ama düzen kontrollü = iç monolog. Diğer özellikler doğru: (A) Hayal kırıklığı — 'siz görmeden geçeceksiniz, sizi göremedim'; (B) Betimleme — 'bembeyaz ova, ölülük uzayıp gidecek'; (D) Gerçek-hayal iç içe — 'sizinle kurulmuş bir şehir' (hayal); (E) Durum hikayesi nitelikleri — olay yok, bekleyiş anı.",
+      "celdirici_analizi": {
+        "A": "Doğru — hayal kırıklığı/özlem teması net.",
+        "B": "Doğru — Beyazıt Havuzu, kar, ova betimlemeleri.",
+        "D": "Doğru — gerçek bekleyiş + hayali şehir iç içe.",
+        "E": "Doğru — olay değil durum (bekleyiş anı) Sait Faik tarzı."
+      },
+      "osym_mantigi": "ÖSYM 'bilinç akışı' çeldiricisini lirik/iç monolog parçalarında tuzak olarak koyar. Aday FARKI bilmeli: bilinç akışı düzensiz çağrışım gerektirir. Düzenli iç ses = iç monolog. Bu parça lirik ama kontrollü → bilinç akışı DEĞİL.",
+      "dersini_ogren": "Bilinç akışı DÜZENSİZ çağrışım gerektirir. Lirik/kontrollü iç ses = iç monolog. Düşüncelerin mantıklı sırası bilinç akışı değil.",
+      "analiz_var": true
     },
     {
       "qno": 77,
@@ -3275,7 +3341,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Divan nesri türü tanıma — bir şairin (Huffi/Ayakkabıcı) hakkında biyografik bilgi: meslek, ümmilik, dil yeteneği, Divan, cinasa yatkınlık. Bu tanım türü TEZKİRE.",
+      "neden_dogru": "B) Tezkire: (1) Bir ŞAİRİN biyografisi + sanat değerlendirmesi (cinas özelliği) + eserleri (Mürettep Divan) = tezkire formatı. (2) 'Esnaftandır, ayakkabıcı, mahlası Huffî' = şair kimlik bilgisi. (3) Şiir sanatlarına yöneliklik (cinasa meyil) = tezkire'nin sanat eleştirisi bölümü. (4) Latifi, Aşık Çelebi gibi tezkireciler bu formatı kullandı.",
+      "celdirici_analizi": {
+        "A": "Seyahatname — gezi gözlemi, mekan tasviri (şair biyografisi değil).",
+        "C": "Şehrengiz — şehir güzellerini/güzelliklerini anlatan tür (esnaf-şair biyografisi değil).",
+        "D": "Pendname — öğüt/ahlak kitabı, biyografi değil.",
+        "E": "Surname — düğün/şenlik kitabı, biyografi değil."
+      },
+      "osym_mantigi": "ÖSYM Divan nesri türleri arasında tezkire'yi sıkça sorar — şair biyografi kombinasyonu (kişilik + meslek + eser + sanat özelliği) klasik tezkire formatı. Aday tezkire'nin AYIRT EDİCİ özelliğini bilmeli: şair odaklı + sanat eleştirisi.",
+      "dersini_ogren": "Tezkire = şair biyografisi (kimlik + eser + sanat değerlendirmesi). Şair-meslek-divan-sanat yatkınlığı bilgisi içerirse tezkire.",
+      "analiz_var": true
     },
     {
       "qno": 78,
@@ -3312,7 +3389,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Yakup Kadri 'Yaban' romanından parça + 'söylenemez' özellik bul. Aydın-halk uçurumu temalı parça. 5 önerme bakış açısı, tema, anlatı türü kontrolü.",
+      "neden_dogru": "C) 'Olay hikayesine özgü bir anlatım sergilenmektedir' — SÖYLENEMEZ. Parça DURUM/DÜŞÜNCE odaklı — Ahmet Celal'in iç sorgulaması ('İspat edebilecek miyim?', 'Türk aydınının yalnızlığı'), olay yok, lirik/düşünsel akış. Olay hikayesi (Maupassant/Ömer Seyfettin tarzı) DRAMATİK OLAY gerektirir. Diğer doğru: (A) Kahraman bakış — 'beni kızdırdı, ispat edebilecek miyim' = ben anlatımı; (B) Aydın-halk uçurumu — temanın özü; (D) İç konuşma — soru-sorgu cümleleri; (E) Yaşananların anlatıcı üzerinde etkisi — 'kızdırdı, garip yalnız kişi'.",
+      "celdirici_analizi": {
+        "A": "Doğru — kahraman ('ben') bakış açısı net.",
+        "B": "Doğru — Türk aydını-Anadolu köylüsü uçurumu Yaban'ın temel teması.",
+        "D": "Doğru — anlatıcının iç sorgulamaları (sorularla iç ses).",
+        "E": "Doğru — yaşananlar (yaban denmesi, dil yetersizliği) anlatıcıyı etkiliyor."
+      },
+      "osym_mantigi": "ÖSYM hikaye türlerinde OLAY vs DURUM hikayesi ayrımını test eder. Olay hikayesi = dramatik olay+gerilim+çözüm (klasik); Durum hikayesi = anlık, lirik, düşünsel (modern Sait Faik). Yaban gibi düşünce yoğun parçalar olay hikayesi değil — durum/karakter hikayesi.",
+      "dersini_ogren": "Olay hikayesi = dramatik olay+gerilim. Durum hikayesi = lirik düşünsel, olay yok. Yaban iç sorgulama düz anlatımı durum tipinde.",
+      "analiz_var": true
     },
     {
       "qno": 79,
@@ -3351,7 +3439,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Divan nesri türü tanım sorusu — ordu akınları/savaşları/kahramanlıkları manzum/mensur anlatan eser. Bu tarif GAZAVATNAME türüne ait.",
+      "neden_dogru": "A) Gazavatname: (1) 'Gazavat' = gaza/savaşlar; gazavatname = savaş kitabı. (2) Osmanlı padişahlarının veya komutanlarının seferleri/zaferleri anlatılır. (3) Hem manzum hem mensur olabilir. (4) Türk edebiyatında Gelibolulu Mustafa Âli, Suzi Çelebi gibi yazarlar yazdı. (5) Tarihsel kaynak olarak değerli.",
+      "celdirici_analizi": {
+        "B": "Menakıbname — veli/din büyüğünün kerametleri (savaş değil).",
+        "C": "Seyahatname — gezi/mekan anlatımı.",
+        "D": "İskendername — Büyük İskender'in efsanevi yolculuğu (genel kahramanlık değil, bir kahraman destanı).",
+        "E": "Sefaretname — yabancı ülkeye giden elçinin raporu."
+      },
+      "osym_mantigi": "ÖSYM Divan nesri türlerinde KONU-TÜR eşleştirmesi yapar. Savaş/ordu/zafer → gazavatname; gezi → seyahatname; elçilik → sefaretname; düğün → surname; öğüt → pendname; veli kerameti → menakıbname; şair biyografisi → tezkire. 7-8 ana tür ezbere bilinmeli.",
+      "dersini_ogren": "Gazavatname = ordu akınları/savaşları/zaferleri kitabı (manzum-mensur). Gaza = savaş.",
+      "analiz_var": true
     },
     {
       "qno": 80,
@@ -3388,7 +3487,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Divan nesri türü tanıma — sadrazam çadırı, 4 sofra, vezirler, kapıcıbaşılar, yeme-içme protokolü = bir TÖREN/ŞENLİK anlatımı. Bu içerik SURNAME türünün tipik özelliği.",
+      "neden_dogru": "B) Surname: (1) Surname = düğün/şenlik kitabı (Osmanlı şehzadelerinin sünnet düğünü, evlilik şenlikleri vs.). (2) Parçada sadrazam çadırı + protokole göre sofra düzeni + vezirler/yardımcıları/aşçıbaşı = devlet protokollü ŞENLİK anlatımı. (3) Sûrî, Vehbî, İntizami gibi yazarlar Osmanlı şenliklerini surnamelerde belgelemiştir. (4) Protokolün ayrıntısı surname'nin temel özelliği.",
+      "celdirici_analizi": {
+        "A": "Pendname — öğüt kitabı, protokol/tören değil.",
+        "C": "Şehrengiz — şehir güzelleri/güzellikler türü.",
+        "D": "Sefaretname — yabancı ülke elçilik raporu (yurtdışı seyahat).",
+        "E": "Tezkire — şair biyografisi (kişi odaklı)."
+      },
+      "osym_mantigi": "ÖSYM surname türünü 'protokol+tören+sofra/şenlik' detaylarıyla test eder. Saray protokolü + sıralı oturma + vezirler = devlet şenliği = surname. Aday saray protokol detaylarını surname'nin imzası olarak tanımalı.",
+      "dersini_ogren": "Surname = düğün/şenlik kitabı. Saray protokolü, sofra düzeni, vezirlerin sıralanması = surname içeriği.",
+      "analiz_var": true
     },
     {
       "qno": 81,
@@ -3425,7 +3535,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Hikaye parçası özellikleri — rugan iskarpinler-hayat benzetmesi, melankoli, sorgulama. 'Söylenemez' özelliği bul. Üslup, tema, betimleme kontrolü.",
+      "neden_dogru": "E) 'Sosyal eleştiri mizahi bir üslupla' — SÖYLENEMEZ. Parça MELANKOLİK/lirik, mizah yok. 'Hayat bu rugan iskarpinlere benziyor — aşınma, çirkinleşme, işe yaramama' = BİREYSEL/varoluşsal sıkıntı, sosyal eleştiri değil. Mizah da yok — ciddi, kederli ton. Diğer doğru: (A) Açık-yalın üslup; (B) İç sorgulama — 'hayat ne güzel fakat sıkıcı'; (C) Gündelik hayat — daire/sinema/uyku; (D) Benzetme (rugan-hayat) + betimleme (rugan iskarpin parıltısı).",
+      "celdirici_analizi": {
+        "A": "Doğru — sade, açık üslup.",
+        "B": "Doğru — kişinin hayat sorgulaması net.",
+        "C": "Doğru — daire-yemek-sinema-uyku günlük rutin.",
+        "D": "Doğru — rugan iskarpin-hayat benzetmesi + dış görünüm betimi."
+      },
+      "osym_mantigi": "ÖSYM 'sosyal eleştiri+mizah' çeldiricisini lirik bireysel parçalarda kullanır. Aday tonu okumalı — melankoli/sorgulama mizah değil; bireysel sıkıntı sosyal eleştiri değil. İçeriğin tonu (kederli vs alaycı) kritik.",
+      "dersini_ogren": "Melankolik bireysel sorgulama = sosyal eleştiri+mizah DEĞİL. Mizah alaycı/ironik ton gerektirir; bireysel keder ayrı.",
+      "analiz_var": true
     },
     {
       "qno": 82,
@@ -3464,7 +3585,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Divan nesri türü tanım sorusu — XVII. yy + Osmanlı + yabancı ülke elçileri + yolculuk raporları + takrir + edip/şair kaleminden. Bu tarif SEFARETNAME türünün tipik tanımı.",
+      "neden_dogru": "E) Sefaretname: (1) 'Sefaret' = elçilik; sefaretname = elçinin raporu/anıları. (2) XVII. yy sonrası Osmanlı'da yaygınlaştı (gerileme dönemi Avrupa elçilikleri). (3) 'Takrir' = sözlü/yazılı rapor, sefaretnamenin başlangıç adı. (4) Yirmisekiz Mehmed Çelebi'nin Paris Sefaretnamesi en meşhuru. (5) Tarihçilere de kaynak olmuş = parçadaki bilgi.",
+      "celdirici_analizi": {
+        "A": "Surname — düğün/şenlik kitabı, elçilik değil.",
+        "B": "Ruzname — günlük kayıt defteri (saray günlüğü), elçilik raporu değil.",
+        "C": "Fütüvvetname — ahi/esnaf ahlak kitabı.",
+        "D": "Seyahatname — gezi gözlemi, ama 'elçi raporu' özelliği yok (Evliya Çelebi seyahatname yazdı, elçi değildi)."
+      },
+      "osym_mantigi": "ÖSYM seyahatname vs sefaretname ayrımını sıkça test eder. Seyahatname = genel gezi (Evliya Çelebi); Sefaretname = ELÇİLİK görevi (Yirmisekiz Mehmed Çelebi). Aday 'elçi+rapor+takrir' kelimelerini sefaretname'nin imzası olarak tanımalı.",
+      "dersini_ogren": "Sefaretname = yabancı ülke elçisinin raporu (XVII. yy+). Seyahatname = genel gezi. 'Elçi' kelimesi = sefaretname imzası.",
+      "analiz_var": true
     },
     {
       "qno": 83,
@@ -3501,7 +3633,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Divan nesri türü tanıma — bir bölgenin verimliliği/ucuzluğu/ürünleri/bostanları anlatımı. Mekan-tasviri yoğun + gözlem-bilgi karışımı. Bu özellikler SEYAHATNAME türünün imzası.",
+      "neden_dogru": "E) Seyahatname: (1) Bir mekanın (bostanlar, ucuzluk, buğdayın bolluğu, mezraası) DETAYLI tasviri = seyahatname özelliği. (2) 'Mahsuldardır, mamur, ucuzluktur' = gezgin bakışı, gözlem bildirimi. (3) Evliya Çelebi'nin Seyahatname'sinden tipik bir bölge tanıtımı izlenimi taşıyor (Evliya Çelebi'nin tarz sıfatları). (4) Buğdayın 'beş eşek yükü bir guruşa' = ucuzluk detayı seyahatname'de sıkça yer alır.",
+      "celdirici_analizi": {
+        "A": "Tezkire — şair biyografisi, mekan tasviri değil.",
+        "B": "Surname — düğün/şenlik kitabı.",
+        "C": "Fütüvvetname — ahi/esnaf ahlak kitabı.",
+        "D": "Sefaretname — elçi raporu (yabancı ülke), iç bölge gözlemi farklı."
+      },
+      "osym_mantigi": "ÖSYM seyahatname'yi mekan tasviri + ürün/ekonomik gözlem detaylarıyla test eder. Aday 'bostan/buğday/fiyat' gibi gezgin gözlem unsurlarını seyahatname'nin işaret kelimeleri olarak tanımalı. Evliya Çelebi tarzı abartılı tasvir (deve dişi buğday) seyahatname imzası.",
+      "dersini_ogren": "Seyahatname = bir mekanın detaylı gezgin tasviri (ürünler, fiyatlar, mamurluk). Evliya Çelebi prototipi.",
+      "analiz_var": true
     },
     {
       "qno": 84,
@@ -3538,7 +3681,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "İç çözümleme tekniği örneği — tanım veriliyor: ANLATICI okuyucu ile kahramanın arasına girer, duygu-düşünce aktarır, KENDİ duygularını katmaz. 5 parça arasında bu tekniğe en uygun olanı seçilir.",
+      "neden_dogru": "D) Meral parçası: (1) 'Meral caddeye çıktı... dalgındı, mahzun, arzusuzluğun verdiği istikamet buhranı, hiçbir şey istemiyordu' — ANLATICI 3. tekil olarak Meral'in iç dünyasını AKTARIYOR, doğrudan iç sesi vermiyor. (2) Anlatıcı kendi yorumu katmıyor (objektif aktarım). (3) İç ÇÖZÜMLEME = anlatıcı tarafından yapılan iç dünya tahlili. Diğer parçalar farklı teknikler.",
+      "celdirici_analizi": {
+        "A": "Suyun gözü betimi — DIŞ TASVİR, iç dünya yok.",
+        "B": "Halit Ayarcı'yı tanıma — BEN anlatımı, doğrudan iç MONOLOG (anlatıcı kendisi, kahraman 'ben').",
+        "C": "Yusuf-Muazzez seyahati — DIŞ EYLEM anlatımı, iç dünya çözümleme yok.",
+        "E": "Çayhane çıkış — dış olay, çözümleme yok."
+      },
+      "osym_mantigi": "ÖSYM iç çözümleme vs iç monolog ayrımını test eder. İç çözümleme = 3. TEKİL ANLATICI'nın aktardığı iç dünya; iç monolog = 1. TEKİL kahraman doğrudan iç ses. Aday cümle başında zamiri kontrol etmeli: 'O' + iç dünya = iç çözümleme; 'Ben' + iç dünya = iç monolog.",
+      "dersini_ogren": "İç çözümleme = 3. tekil ANLATICI iç dünyayı aktarır. İç monolog = 1. tekil kahramanın doğrudan iç sesi.",
+      "analiz_var": true
     },
     {
       "qno": 85,
