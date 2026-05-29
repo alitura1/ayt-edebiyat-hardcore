@@ -9528,7 +9528,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Halk hikayesi parçası üzerinden NEGATİF eleme — 'söylenemez' özellik bul. Parça Tahir ile Zühre halk hikayesinden alınmış (Padişah-vezir oğlu, sihirbaz, türküler). 5 önerme tek tek kontrol edilir.",
+      "neden_dogru": "D) Nesil çatışması üzerine kurulmuştur — SÖYLENEMEZ. Parçada Zühre'nin ANNESİ'nin SINIFSAL/MEVKİ kaygısıyla itirazı var ('Tahir vezir oğlu, kızım padişahlara layıktır') AMA bu nesil/kuşak çatışması DEĞİL, sınıf-ayrımcılığı. Diğer önermeler doğrulanır: (A) Halk hikayesi tipik motifler — saz, türkü, sihirbaz; (B) Mensur anlatım + manzum türküler bir arada — halk hikayesinin temel özelliği; (C) Eski dil unsurları ('figan', 'figan u zar') dönem dili; (E) Sihirbaz, iksir = olağanüstü öğeler.",
+      "celdirici_analizi": {
+        "A": "Halk hikayesi alındığı doğru — saz/türkü/halk anlatımı.",
+        "B": "Manzum (türkü dörtlüğü) + mensur (anlatı) birleşimi halk hikayesi özelliği.",
+        "C": "Dönem dil özelliği görünüyor (figan u zar gibi divan dili etkisi).",
+        "E": "Sihirbaz büyüsü + iksir gerçeküstü olağanüstülük."
+      },
+      "osym_mantigi": "ÖSYM halk hikayesi sorularında 'sınıf çatışması' ile 'nesil çatışması' farkını test edebilir. Halk hikayelerinde annenin itirazı KLASİK motif AMA bu 'nesil' değil 'sınıf/zümre' çatışmasıdır. Aday tipik motifleri (saz, türkü, sihirbaz) doğrularken nesil-çatışmasının roman özelliği olduğunu hatırlamalı.",
+      "dersini_ogren": "Halk hikayesi = mensur+manzum + olağanüstü + halk dili. Nesil çatışması (kuşak) modern roman özelliği, halk hikayesinde sınıf-mevki çatışması olur.",
+      "analiz_var": true
     },
     {
       "qno": 178,
@@ -9567,7 +9578,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Masal yapısı (döşeme/serim/düğüm/çözüm/dilek) — döşeme bölümünden alınan ifade hangisi? Döşeme = masalın AÇILIŞ TEKERLEMESİ; ses oyunları, abartılı zıtlık, anlamsız ama ritmik cümleler.",
+      "neden_dogru": "A) 'Pireler berber iken develer tellal iken...' = KLASİK Türk masalı döşeme tekerlemesi. (1) İçinde MANTIKSIZ zıtlık (pire-berber, deve-tellal). (2) Ritmik söyleyiş. (3) Masalın ATMOSFERİ açma işlevi. Halk masallarının ÖZGÜN döşemesidir. Diğer şıklar masalın farklı bölümlerine ait.",
+      "celdirici_analizi": {
+        "B": "'Onlar ermiş muradına, biz çıkalım kerevetine' = DİLEK bölümü (masalın kapanış formülü).",
+        "C": "'Uzak memleketin birinde bir padişah yaşarmış' = SERİM bölümü (giriş, durum belirleme).",
+        "D": "'Padişah işini göredursun, biz gelelim Keloğlan'a' = anlatım geçişi (formel söz), döşeme değil — sahne geçişi.",
+        "E": "'Sislerin arasından ansızın tek gözlü bir dev belirivermiş' = DÜĞÜM/SERİM içinde olay başlangıcı."
+      },
+      "osym_mantigi": "ÖSYM masal yapısının 5 bölümünü (döşeme, serim, düğüm, çözüm, dilek) ÖRNEK İFADELERLE eşleştirmeyi test eder. Döşeme = açılış tekerlemesi (mantıksız zıtlık), Dilek = kapanış duası ('muradına ermiş'). Bu ikisi sıkça karıştırılır; aday içeriğe bakmalı.",
+      "dersini_ogren": "Döşeme = masalın açılış tekerlemesi (pireler berber, develer tellal). Dilek = kapanış (muradına ermiş, kerevetine).",
+      "analiz_var": true
     },
     {
       "qno": 179,
@@ -9606,7 +9628,18 @@
         "söylenemez"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Oğuz Kağan Destanı'ndan parça + NEGATİF eleme — 'söylenemez' özellik bul. Destanların yapısı (kahraman, olağanüstülük, doğa tasvirleri, zaman) bilinmeli.",
+      "neden_dogru": "A) 'Kahramanı ruhsal derinlikleriyle tasvir edilmiştir' — SÖYLENEMEZ. Destanlarda kahramanlar TİP/ŞABLON özellikli, ruhsal derinlik YOK. Oğuz Kağan dış görünümle (yüzü gök, gözleri ela, ayağı öküz ayağı gibi) tasvir edilir, iç dünyası anlatılmaz. Ruhsal derinlik = modern roman tekniği. Diğer şıklar destana uyar: (B) Gerçek+hayali bir arada — kırk günde büyüme; (C) Tabiat unsurlu tasvir — öküz/kurt benzetmesi; (D) Zaman gerçeküstü — kırk gün; (E) Olağanüstü — ilk sütten sonra et yeme, kırk günde yetişme.",
+      "celdirici_analizi": {
+        "B": "Gerçek (et/çorba) + hayali (kırk günde yürüme) bir arada — destan özelliği.",
+        "C": "Doğa unsurlu tasvir (öküz, kurt, ela, kara) açık.",
+        "D": "Zamanlar gerçeküstü (kırk gün = sonsuz/efsanevi).",
+        "E": "Olağanüstü özellikler — ateşten ağız, kırk günde yetişme."
+      },
+      "osym_mantigi": "ÖSYM destanlardan parça verince 'ruhsal derinlik' çeldiricisini kullanır — bu modern roman özelliği, destanda yok. Aday destan-roman ayrımını net bilmeli: destan = dış görünüş tasviri + olağanüstülük + tip kahraman; roman = iç dünya analizi + gerçeklik + birey karakteri.",
+      "dersini_ogren": "Destan kahramanı = dış tasvir + olağanüstü beceri + TİP. Ruhsal derinlik = modern roman özelliği, destanda asla.",
+      "analiz_var": true
     },
     {
       "qno": 180,
@@ -9650,7 +9683,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "İslamiyet öncesi Türk destanları envanteri — 5 destan adından hangisi İSLAMİYET ÖNCESİ dönemine ait? Türk destanları: İslamiyet öncesi (Alp Er Tunga, Şu, Oğuz Kağan, Bozkurt, Ergenekon, Göç) ve İslamiyet sonrası (Manas, Satuk Buğra, Cengiz Han, Köroğlu, Battal Gazi, Danişmend Gazi).",
+      "neden_dogru": "E) Bozkurt Destanı: Göktürk dönemine ait, İslamiyet ÖNCESİ Türk destanı. Türklerin bir bozkurttan türediği inancını anlatır. Göktürk efsane çekirdeği.",
+      "celdirici_analizi": {
+        "A": "Cengiz Han Destanı — Moğol/İslamiyet sonrası dönem (13. yy).",
+        "B": "Köroğlu Destanı — İslamiyet sonrası halk hikayesi/destan (16. yy).",
+        "C": "Satuk Buğra Han Destanı — Karahanlıların İSLAMİYETİ KABUL ETME destanı, İslam sonrası.",
+        "D": "Danişmend Gazi Destanı — Anadolu Selçuklu İslam gazileri, İslam sonrası."
+      },
+      "osym_mantigi": "ÖSYM destanlar konusunda İSLAMİYET ÖNCESİ vs SONRASI ayrımını sıkça test eder. Aday 6 ana İslamiyet öncesi destanı ezbere bilmeli: Alp Er Tunga (Saka/İskit), Şu (Saka), Oğuz Kağan (Hun/Oğuz), Bozkurt-Ergenekon-Göç (Göktürk-Uygur). İslam sonrası favoriler tuzak çeldiricisi: Cengiz, Köroğlu, Manas, Satuk Buğra.",
+      "dersini_ogren": "İslamiyet öncesi 6 destan: Alp Er Tunga, Şu, Oğuz Kağan, Bozkurt, Ergenekon, Göç. Satuk Buğra/Cengiz/Köroğlu İslam sonrası.",
+      "analiz_var": true
     },
     {
       "qno": 181,
@@ -9689,7 +9733,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki boşluk eşleştirme: Uygur Dönemi masal niteliği + Arap-İran kaynaklı Türk edebiyatına ilham veren eser. Eski Türk masal envanterindeki AYIRT EDİCİ iki eser.",
+      "neden_dogru": "A) Kalyanamkara ve Papamkara - Binbir Gece Masalları: (1) Kalyanamkara ve Papamkara — Uygur Dönemi (8-9. yy) Budist kökenli, Türk edebiyatında MASAL niteliği gösteren İLK eser. (2) Binbir Gece Masalları — Arap kaynaklı, Türk edebiyatında çok ilham vermiş, Nazım Hikmet'ten Sait Faik'e birçok yazara esin kaynağı.",
+      "celdirici_analizi": {
+        "B": "Kelile ve Dimne - Billur Köşk — Kelile ve Dimne Beydeba'nın eseri (Sanskrit→Pehlevi→Arapça), fabl AMA Uygur eseri değil. Billur Köşk Türk masal kitabı, Arap-İran kaynaklı değil.",
+        "C": "Kalyanamkara - Pançatantra — Pançatantra Sanskrit/Hint, 'Arap ve İran kaynaklı' tanımına uymuyor.",
+        "D": "Kelile ve Dimne - Pançatantra — Uygur dönemi değil + ikincisi Hint.",
+        "E": "Billur Köşk - Binbir Gece — Billur Köşk Türk derleme, Uygur ilk eser değil."
+      },
+      "osym_mantigi": "ÖSYM masal tarihinde ilk eserleri (Uygur Budist masal Kalyanamkara) + yabancı kaynaklı klasikleri (Binbir Gece, Pançatantra, Kelile ve Dimne) ayırt etmeyi test eder. 'Uygur dönemi ilk masal eseri' = Kalyanamkara ve Papamkara — ezbere bilinmeli. Pançatantra/Kelile ve Dimne fabl (hayvan masalı), klasik masal değil.",
+      "dersini_ogren": "Kalyanamkara ve Papamkara = Uygur Dönemi ilk Türk masal eseri (Budist kökenli). Binbir Gece = Arap kaynaklı, Türk edebiyatına ilham verici klasik.",
+      "analiz_var": true
     },
     {
       "qno": 182,
@@ -9726,7 +9781,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Göç Destanı'ndan parça + destan oluşum aşamalarından (çekirdek dönem, sözlü gelenek, kahraman, anlatıcı, yazıya geçirme) HANGİSİ HAKKINDA BİLGİ YOK? sorusu. Klasik 'destanın evreleri' ezberi.",
+      "neden_dogru": "C) Kahramanın ortaya çıkışı — HAKKINDA BİLGİ YOK. Parça Uygur Göç Destanı; halkın kollektif acısı, Çinlilerin entrikası, doğanın çoraklaşması, göç. Tek bir KAHRAMAN figürü yok — Genç Uygur hakanı bir an geçiyor ama destan kahramanı değil. Diğer aşamalar parçada var: (A) Çekirdek dönem — Hatun Dağı/Kutlu Kaya kayası mitik dönem; (B) Sözlü gelenek — 'ozanların kopuzunda hayat buldu'; (D) Destan anlatıcısı — kopuzlu ozanlar; (E) Yazıya geçirme — 'kalem ehli kimselerin kitaplarında işlendi'.",
+      "celdirici_analizi": {
+        "A": "Çekirdek dönem — Çinlilerin entrikası + Kutlu Kaya teması mitik çekirdek.",
+        "B": "Sözlü gelenek — kopuz/ozan anlatımı net.",
+        "D": "Destan anlatıcısı — ozanlar (Türk destan anlatıcıları).",
+        "E": "Yazıya geçirilme — 'kalem ehli silinmemek üzere kağıda işledi' = yazılı kayıt."
+      },
+      "osym_mantigi": "ÖSYM destan oluşum aşamaları sorularında parçada ne VAR/YOK ayrımını test eder. Aday 5 aşamayı (çekirdek/sözlü/kahraman/anlatıcı/yazı) bilmeli ve parça-aşama eşleştirmesi yapmalı. Göç Destanı kolektif halk destanı (kahraman tek bir kişi değil) — bu detay tuzak.",
+      "dersini_ogren": "Destan oluşum 5 aşama: çekirdek dönem → sözlü gelenek → kahraman ortaya çıkışı → destan anlatıcısı (ozan) → yazıya geçirme.",
+      "analiz_var": true
     },
     {
       "qno": 183,
@@ -9765,7 +9831,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Masal bölümü tanım sorusu. Tekerleme + kafiyeli kalıp + 'bir varmış bir yokmuş' örneği veriliyor. Bu DÖŞEME bölümünün TARİFİ.",
+      "neden_dogru": "A) Döşeme: (1) Masalın AÇILIŞ tekerlemesi; ses oyunları, mantıksız zıtlıklar (develer tellal, pireler berber). (2) Anlatıcının 'sazı eline aldığını duyuran söz başı' — döşemenin tipik işlevi. (3) 'Bir varmış bir yokmuş' = klasik döşeme. (4) Olağanüstü atmosferine hazırlama amaçlı — döşemenin pedagojik işlevi.",
+      "celdirici_analizi": {
+        "B": "Serim — masalın giriş bölümü, durum belirleme ('Uzak memleketin birinde bir padişah yaşarmış').",
+        "C": "Düğüm — olayın karmaşıklaştığı bölüm, sorun ortaya çıkar.",
+        "D": "Çözüm — düğümün çözüldüğü bölüm, sonuç.",
+        "E": "Dilek — kapanış duası ('muradına ermiş, kerevetine')."
+      },
+      "osym_mantigi": "ÖSYM masal yapısı sorularında 5 bölümün TANIM EZBERİNİ test eder. Döşeme'nin AYIRT EDİCİ özelliği 'mantıksız tekerleme + ritmik söz oyunu'. Serim ile karıştırma riski — serim olay/karakter tanıtır, döşeme atmosfer açar.",
+      "dersini_ogren": "Döşeme = masalın açılış tekerlemesi (mantıksız zıtlık, ritim). Serim = giriş tanıtım (durum belirleme).",
+      "analiz_var": true
     },
     {
       "qno": 184,
@@ -9802,7 +9879,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Parça türünü belirleme — Hızır + cimri kadın + kaplumbağaya dönüşme. Halk anlatı türleri arasında ayrım: efsane = olağanüstü olayla bir varlığın/yerin oluşumu/dönüşümü; menkıbe = din büyüğünün kerameti; masal = tamamen hayal.",
+      "neden_dogru": "D) Efsane: (1) Efsane TANIMI = bir varlığın/durumun (kaplumbağa) OLUŞUMUNU/SEBEBİNİ anlatan, INANIŞLA aktarılan halk anlatısı. (2) 'İnanış odur ki' başlangıcı klasik efsane formülü. (3) Hızır → ceza → kaplumbağaya dönüşüm = bir varlığın AÇIKLAMASI (kaplumbağa neden doymak bilmez?). Bu efsanenin AYIRT EDİCİ işlevi. (4) Olağanüstü öğe + gerçeklik inancı + bir varlığın kökenini açıklama = efsane.",
+      "celdirici_analizi": {
+        "A": "Masal — tamamen kurmaca, gerçeklik iddiası yok. Burada 'inanış odur ki' = inanç var.",
+        "B": "Destan — millet kahramanları, savaşlar, büyük olaylar; bireysel ceza-dönüşüm değil.",
+        "C": "Fabl — hayvan kahramanlı kıssa, ders veren. Burada hayvan başlangıçta yok, dönüşüm sonra.",
+        "E": "Menkıbe — DİN BÜYÜĞÜNÜN (veli, mürşit) kerameti. Hızır halk inancında peygamber/veli görüntüsü ama dönüşüm efsanevi açıklama — menkıbe değil. Hızır kerameti gösterip CEZA veriyor, bu efsanevi neden-sonuç."
+      },
+      "osym_mantigi": "ÖSYM halk anlatı türleri ayrımını test eder: masal/destan/fabl/efsane/menkıbe. Anahtar ayırt edici: efsane = bir varlığın/durumun KÖKENİNİ açıklayan + inanışla aktarılan. Menkıbe = veli kerameti. 'İnanış odur ki' + 'kaplumbağa neden doymaz' efsanenin imzası.",
+      "dersini_ogren": "Efsane = bir varlığın oluşumunu/sebebini açıklayan inanış. 'İnanış odur ki' formülü + dönüşüm açıklaması = efsane (menkıbe değil).",
+      "analiz_var": true
     },
     {
       "qno": 185,
