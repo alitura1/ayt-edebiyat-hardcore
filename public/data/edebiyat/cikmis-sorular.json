@@ -52,7 +52,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "İki boşluk doldurma — sözcükte/cümlede anlam. Çevre sorunları (Kiev nükleer, tropik orman, ozon, sera) örnekleri veriliyor. Boşluğa giren KAVRAM + SONUÇ kelimesi parçayla bütünleşmeli.",
+      "neden_dogru": "B) 'doğanın bütünselliği - tüm dünya insanlarının ortak sorunu': (1) Verilen örnekler (Kiev reaktörü → İzmir'i etkilemek, tropik orman → ozon → sera) tek bir kavramı kanıtlıyor — DOĞANIN BÜTÜNSELLİĞİ (her şey birbirine bağlı). (2) İkinci boşluk: 'ozon/sera etkisi = TÜM DÜNYA İNSANLARININ ORTAK SORUNU' — küresel etki. (3) Birebir oturuyor: bütünsellik + ortak sorun.",
+      "celdirici_analizi": {
+        "A": "dünyanın değişimi - hepimizin bildiği tehditler — 'değişim' kavramı örneklerle bağlanmıyor; bilinen tehditler kapsayıcı değil.",
+        "C": "evrenimizin hassaslığı - konuşulmaya değer — 'hassaslık' örneklerde geçmiyor.",
+        "D": "kelebek etkisi - Türkiye'de karşılaştığımız problemler — CAZIP TUZAK: popüler kavram. AMA kelebek etkisi 'küçük neden→büyük sonuç' (zincirleme), parça 'global etkileşim' (bütünsellik). 2. boşluk 'Türkiye' kapsamı çok dar.",
+        "E": "hassas ayarlar - cömertliğin sonuçları — 'cömertlik' yanlış (parça SORUNLARDAN bahsediyor)."
+      },
+      "osym_mantigi": "ÖSYM iki boşluk doldurma sorularında kavram + sonuç çiftini test eder. Aday her boşluğu bağımsız doldurmalı, sonra şıkkı eşleştirmeli. 'Kelebek etkisi' tuzak çeldiricisi sıkça kullanılır — popüler kavram ama paragrafa uymaz.",
+      "dersini_ogren": "Çevre sorunları (Kiev → İzmir, tropik orman → ozon) = doğanın bütünselliği. Kelebek etkisiyle karıştırma — kelebek etkisi zincirleme, bütünsellik global etkileşim.",
+      "analiz_var": true
     },
     {
       "qno": 2,
@@ -89,7 +100,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Sözcük-parantez açıklama eşleşme sorusu. 5 sözcüğün (yeşil tasarım, kapsayacak, genelgeçer, üst seviyede değerlendirmek, geri dönüşümlü) parantez içi açıklamasıyla UYUŞMAYANI bul.",
+      "neden_dogru": "D) IV. 'üst seviyede değerlendirme (denetleme)' — UYUŞMAZ. 'Değerlendirme' = bir şeyi kullanmak/yararlanmak; 'denetleme' = kontrol etmek. İki kelime farklı anlamlarda. Doğru parantez 'azami yararlanma/kullanma' olmalıydı. Diğer şıklar uyuşuyor: (I) tasarım = zihinde canlandırılan biçim ✓; (II) kapsayacak = sınırları içine alacak ✓; (III) genelgeçer = hemen herkesçe benimsenen ✓; (V) geri dönüşümlü = yeniden değerlendirilebilir ✓.",
+      "celdirici_analizi": {
+        "A": "I uyuşuyor — tasarım=zihinde canlandırma doğru.",
+        "B": "II uyuşuyor — kapsayacak=sınırlar içine alacak doğru.",
+        "C": "III uyuşuyor — genelgeçer=hemen herkesçe benimsenen doğru.",
+        "E": "V uyuşuyor — geri dönüşüm=yeniden değerlendirilebilir doğru."
+      },
+      "osym_mantigi": "ÖSYM sözcük-parantez açıklama sorularında YAKIN ama FARKLI anlamlı çiftler tuzak kurar. 'Değerlendirme' ile 'denetleme' yakın görünür ama 'kullanma/yararlanma' ≠ 'kontrol'. Aday sözlük anlamlarını birebir karşılaştırmalı.",
+      "dersini_ogren": "Değerlendirme = kullanma/yararlanma. Denetleme = kontrol. Yakın görünen ama farklı anlamlı sözcükler ÖSYM tuzağı.",
+      "analiz_var": true
     },
     {
       "qno": 3,
@@ -128,7 +150,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Üç boşluk doldurma — uyumlu kavram + benzetme + sonuç. Davranış konusu + duruma göre değişim + sınırsız örnek. 3 sözcük birbiriyle anlamca/üslupça uyumlu olmalı.",
+      "neden_dogru": "B) 'kalıpları - bir elin parmakları kadar - mümkündür': (1) Davranış KALIPLARI = doğal terminoloji (psikolojide kullanılır). (2) 'Bir elin parmakları kadar' = SAYISAL azlık ifadesi (fark az olabilir tezi). Beklenmedik az çok farkı tarif eder. (3) 'Sınırsız örnek görmek MÜMKÜNDÜR' = mantıklı sonuç. Üç sözcük uyumlu akış.",
+      "celdirici_analizi": {
+        "A": "ölçüleri - dağlar kadar - şaşırtıcıdır — 'şaşırtıcıdır' sonucu doğru ama 'dağlar kadar' büyük fark vurgusu, paragraf büyük fark söylemiyor.",
+        "C": "sınırları - öngörülemez - sıradanlaşmıştır — 'sıradanlaşmıştır' sonuç negatif/durağan, parça çeşitlilik vurguluyor.",
+        "D": "biçimleri - geceyle gündüz gibi - kaçınılmazdır — 'geceyle gündüz' büyük zıtlık, 'kaçınılmaz' uyum yok.",
+        "E": "özellikleri - ciddi bir oranda - tartışılmazdır — 'tartışılmaz' sonuç kesin/durağan, parça çeşitlilik vurguluyor."
+      },
+      "osym_mantigi": "ÖSYM üç boşluk sorularında 3 sözcüğün AYNI TON+ANLAM AKIŞINDA uyumunu ister. Davranış kalıpları = teknik terim; çeşitlilik vurgulu paragraf → 'mümkündür' nötr sonuç uyar. Aday tek bir boşluğa fokuslanmamalı.",
+      "dersini_ogren": "Üç boşluk sorularında 3 sözcük aynı tonda (nötr/abartılı/kesin) ve anlamca uyumlu olmalı. Paragraf tezi (çeşitlilik) sonucu belirler.",
+      "analiz_var": true
     },
     {
       "qno": 4,
@@ -172,7 +205,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Mecazlı ifade yorumu — 'bilimsel peri masalı' eleştirisi. Freud'un çalışmasına Richard Kraft-Ebing'in olumsuz eleştirisi. 'Olamaz' (yanlış) yorumu bul.",
+      "neden_dogru": "C) 'Elde edilen sonuçların beklentinin üzerinde çıkması' — OLAMAZ. 'Peri masalı' eleştirisi OLUMSUZ bir ifade — bilimsel olmadığı, hayali/inandırıcılıktan uzak olduğu. 'Beklentinin üzerinde sonuçlar' POZİTİF bir ifade — eleştirilen yöne uymaz. Diğer şıklar 'peri masalı' eleştirisine uyabilir: (A) Kanıtlanması mümkün olmayan tespitler ✓; (B) Gerçek ile hayali bir arada ✓; (D) İnandırıcılıktan uzak çıkarımlar ✓; (E) Kesinliği ile ilgili şüphe ✓.",
+      "celdirici_analizi": {
+        "A": "Olabilir — peri masalı = kanıtlanması zor, hayali.",
+        "B": "Olabilir — peri masalı = gerçek+hayali karışım.",
+        "D": "Olabilir — peri masalı = inandırıcılıktan uzak.",
+        "E": "Olabilir — peri masalı = şüphe uyandıran."
+      },
+      "osym_mantigi": "ÖSYM mecaz yorumlarında 'OLAMAZ' tipinde olumsuz mecazın olumlu yorumunu çeldirici yapar. 'Peri masalı' bilimsel kontekstte EKSİK/HAYALİ vurgulu — beklentiyi aşan başarı değildir. Aday mecazın TONUNU okumalı.",
+      "dersini_ogren": "'Peri masalı' eleştirisi bilimsel kontekstte = inandırıcı olmayan, kanıtsız, hayali. Olumlu (başarılı/üst düzey) anlamı YOK.",
+      "analiz_var": true
     },
     {
       "qno": 5,
@@ -209,7 +253,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Altı çizili sözle ne anlatılmak istendiği — felsefe hakkında. Paragraf: edebiyat hayatla doğrulanma kaygısı taşımaz, felsefe de yaratıcılıkla geçer AMA 'hayatla SINANMAYI bekler, GERÇEK HAYAT İLE KÖPRÜLERİ KORUR'. Felsefe ↔ gerçek ilişkisi temel.",
+      "neden_dogru": "A) 'Geçerliliğinin gerçekle ilişkisine bağlı olduğu': (1) 'Hayatla sınanmayı bekler' = gerçeklikle test edilme. (2) 'Köprüleri korur' = gerçeklikle bağ. (3) Felsefenin geçerliliği gerçeklikle doğrulanmasına bağlı. Birebir cevap.",
+      "celdirici_analizi": {
+        "B": "Edebi yaratıcılığın ötesinde güç — paragraf edebiyatla benzediğini söylüyor, üstün değil.",
+        "C": "Yaratıcılığı hayatın parçası haline getirmek — felsefe gerçeklikle SINANMA bekler, yaratıcılığı hayatla birleştirme değil.",
+        "D": "Hayatı olduğu gibi anlamlandırma — felsefe yaratıcılıktan geçer, olduğu gibi değil.",
+        "E": "Deneyimle ilişkili bakış — deneyim ≠ gerçeklikle sınanma. Daha geniş ve belirsiz."
+      },
+      "osym_mantigi": "ÖSYM altı çizili sözcük/ifade yorumlarında ANAHTAR CÜMLEYİ tam anlamayı test eder. 'Köprüleri korur' = bağı sürdürür = gerçeklikle ilişki. Aday metafor + bağlam ile geçerliliğe ulaşmalı.",
+      "dersini_ogren": "Felsefe = yaratıcılık + gerçeklikle sınanma. Geçerliliği gerçekle ilişkiye bağlı (edebiyattan farkı).",
+      "analiz_var": true
     },
     {
       "qno": 6,
@@ -248,7 +303,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "İki boşluk doldurma — algoritmaların insan karar mekanizmasına etkisi + uzmanlardan daha ___ öngörüler. Üst sözcük: pozitif (yardımcı/etkili) → katkı + isabetli birebir bağlanır.",
+      "neden_dogru": "B) 'katkı sağlayan - isabetli': (1) Algoritmalar karar mekanizmasına KATKI SAĞLAR — yardımcı/destekleyici terim. (2) Uzmanlardan daha İSABETLİ öngörüler — doğruluk vurgusu. (3) Birebir akış: katkı + isabet = algoritmanın pozitif rolü.",
+      "celdirici_analizi": {
+        "A": "bilgi sunan - verimli — 'verimli öngörü' garip kullanım, isabet vurgusu yok.",
+        "C": "zarar veren - gerçekçi — 'zarar verme' paragraf pozitif tonuyla çelişiyor.",
+        "D": "yardım eden - açık — 'açık öngörü' anlamsız (açık = anlaşılır olabilir ama isabet değil).",
+        "E": "müdahale eden - tutarlı — 'müdahale' yan negatif konotasyon, 'tutarlı' isabetten zayıf."
+      },
+      "osym_mantigi": "ÖSYM boşluk sorularında EŞ ANLAMLI değil ANLAM AKIŞINA uygun sözcük seçimini test eder. Algoritma + olumlu = katkı/yardım; öngörü + güvenilir = isabetli/doğru. Aday sözcüğün YAN ANLAMLARINI da kontrol etmeli.",
+      "dersini_ogren": "Algoritma + olumlu vurgu = katkı sağlama (zararsız). 'İsabetli' öngörü = doğru tahmin.",
+      "analiz_var": true
     },
     {
       "qno": 7,
@@ -287,7 +353,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "İki boşluk doldurma — Kant Analitik Aklın Eleştirisi. İlk: 'amaçlı eylemlerden farklı' = istemsizlik/amaçsızlık. İkinci: 'ortak insani özellik' = evrensellik. Felsefi terim doğru seçilmeli.",
+      "neden_dogru": "B) 'istemsizliğini - evrenselliğini': (1) Beğeni yargısı 'amaçlı eylemden farklı' = İSTEMSİZ, doğal, kendiliğinden. (2) 'Ortak insani özellik' = EVRENSEL, herkes için geçerli. (3) Kant'ın estetik teorisinin iki temel iddiası: çıkarsız beğeni (istemsizlik) + evrensel geçerlilik. Birebir.",
+      "celdirici_analizi": {
+        "A": "Özneliğini - sistemini — 'sistem' kavramı 'ortak özellik' tanımına uymaz.",
+        "C": "Güçlüğünü - estetiğini — 'güçlüğünü' ve 'estetik' Kant'ın iddialarıyla eşleşmez.",
+        "D": "Aykırılığını - özgünlüğünü — aykırılık paragrafta yok; özgünlük 'ortak özellik' tezine ters.",
+        "E": "Karmaşıklığını - niteliğini — karmaşıklık paragrafta yok; nitelik genel kavram, evrensel değil."
+      },
+      "osym_mantigi": "ÖSYM felsefe terimleri sorularında Kant gibi büyük filozofların temel kavramlarını test eder. Beğeni yargısı = istemsiz + evrensel (Kant estetik). Aday felsefe terminolojisini ve büyük filozofların ana iddialarını bilmeli.",
+      "dersini_ogren": "Kant estetik = beğeni yargısı ISTEMSİZ (amaçsız) + EVRENSEL (ortak insani özellik). Analitik Aklın Eleştirisi temel iddiaları.",
+      "analiz_var": true
     },
     {
       "qno": 8,
@@ -324,7 +401,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Deyim-açıklama eşleşme sorusu. 5 dil deyiminin (dil uzatmak, dile vermek, dili durmak, dili çözülmek, dili sürmek) parantezdeki açıklamayla uyumu kontrol edilir.",
+      "neden_dogru": "C) III. 'dili durmak (bir daha konuşmamak üzere söz vermek)' — UYUŞMAZ. Gerçekte 'dili durmak' = ŞAŞKINLIK/HAYRET ile konuşamaz olmak, lal kalmak. 'Söz vermek' açıklaması yanlış. Diğerleri uyuyor: (I) dil uzatmak = kötü söz söylemek ✓; (II) dile vermek = gizli açığa vurmak ✓; (IV) dili çözülmek = konuşmaya başlamak ✓; (V) dili sürmek = yanlış söylemek ✓.",
+      "celdirici_analizi": {
+        "A": "I uyuşuyor — dil uzatmak doğru.",
+        "B": "II uyuşuyor — dile vermek doğru.",
+        "D": "IV uyuşuyor — dili çözülmek doğru.",
+        "E": "V uyuşuyor — dili sürmek doğru."
+      },
+      "osym_mantigi": "ÖSYM deyim sorularında YAKIN ANLAMLI ama farklı deyimleri çeldirici yapar. 'Dili durmak' ≠ 'söz vermek'; gerçek anlam ŞAŞKINLIK ile susmak. Aday her deyimin tam sözlük anlamını ezberlemeli.",
+      "dersini_ogren": "Dili durmak = şaşkınlıktan konuşamamak (söz vermek değil). Dil deyimleri tam sözlük anlamı kritik.",
+      "analiz_var": true
     },
     {
       "qno": 9,
@@ -363,7 +451,18 @@
         "söylenemez"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Numaralanmış cümlelerle ilgili 'söylenemez' sorusu. Araştırma+kardeş+zihinsel aktivite parçası. Her cümle için verilen özellik kontrol edilir.",
+      "neden_dogru": "E) 'V. cümlede araştırma sonuçlarına dayalı bir öneride bulunulmuştur' — SÖYLENEMEZ. V. cümle 'farklı yaşlardaki kardeşler arasında kurulan usta-çırak ilişkisi, bu ÖNERMELERDEN sadece biri' diyor — yani VARSAYIMLARDAN biri açıklanıyor. ÖNERİ (suggestion) değil, ÖNERMELERDEN biri (hypothesis). Sözcük anlamı farkı kritik. Diğerleri söylenir: (A) I. araştırma kimler üzerinde ✓; (B) II. karşılaştırmaya dayalı ✓; (C) III. çıkarım yapılmış ('böylece ulaşılmıştır') ✓; (D) IV. varsayımlar geliştiriliyor ✓.",
+      "celdirici_analizi": {
+        "A": "Söylenir — I. cümle 'kendinden küçük/büyük kardeşi olan vs olmayan çocuklar' = kimler.",
+        "B": "Söylenir — II. cümle 'tek/ikiz vs küçük-büyük kardeşli' karşılaştırma açık.",
+        "C": "Söylenir — III. cümle 'böylece... sonuca ulaşılmıştır' = çıkarım.",
+        "D": "Söylenir — IV. cümle 'çeşitli varsayımlar geliştiriliyor' = devam ediyor."
+      },
+      "osym_mantigi": "ÖSYM cümlelerle ilgili sorularda sözcük FARKLARINI test eder. 'Öneri' (suggestion, tavsiye) vs 'önerme' (hypothesis, proposition) farklı. V. cümle 'önermelerden biri' diyor, 'öneri' demiyor. Aday sözcükleri tam okumalı.",
+      "dersini_ogren": "Öneri (tavsiye) vs önerme (hipotez) farkı kritik. 'Önermelerden biri' = varsayımlardan biri (öneri değil).",
+      "analiz_var": true
     },
     {
       "qno": 10,
@@ -400,7 +499,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Numaralanmış cümlelerle ilgili 'söylenebilir' sorusu. Balıkların büyümesi + ergenlikten sonra duran insanlar + aşırı avlanma.",
+      "neden_dogru": "A) 'I. cümlede insanlarla balıklar, belirli bir özellik üzerinden karşılaştırılmıştır': (1) I. cümle 'ergenlikten sonra büyümesi DURAN insanların aksine pek çok balık yaşam boyu GELİŞİMİNİ sürdürüyor' = açıkça insan-balık KARŞILAŞTIRMASI yapılıyor. (2) 'Büyüme/gelişim' özelliği = belirli bir özellik. (3) Birebir eşleşme.",
+      "celdirici_analizi": {
+        "B": "II. cümle balık türü yaşam süresi + boy ilişkisi — sadece BİLGİ veriliyor (mersin balığı 100+ yıl ve 2.5 m), ilişki kurulmuyor.",
+        "C": "III. cümle balıkların yaşam süresini UZATAN faktör — TAM TERSİ, aşırı avlanma KISALTAN faktör.",
+        "D": "IV. cümle nesli tükenme nedenleri — neden değil, 'büyük balıkları kaybediyor' SONUÇ.",
+        "E": "V. cümle dünya genelinde kısıtlama gerekliliği vurgulu — V. cümle KISITLAMA YAPILAN bölgelerden bahsediyor, gereklilik vurgusu yok."
+      },
+      "osym_mantigi": "ÖSYM cümle yorumlarında AÇIK karşılaştırma + sözcük ipucunu test eder. 'Aksine' = karşılaştırma kelimesi. Aday cümlenin yapısal özelliğini (karşılaştırma/sebep/sonuç) tanımalı.",
+      "dersini_ogren": "'Aksine' = karşılaştırma. İnsan (büyüme durur) vs balık (devam eder) = belirli özellik karşılaştırması.",
+      "analiz_var": true
     },
     {
       "qno": 11,
@@ -446,7 +556,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Cümle yorumu — 'Hamlet'i tekrar okuma + tepkimizi yazma = yaşam öyküsünü yazma; çünkü yaşamı tanıdıkça Shakespeare farklı yorumlar getirir. Anlam: bireysel tecrübe ↔ okuma yorumu ilişkisi.",
+      "neden_dogru": "B) 'Bireysel tecrübeler arttıkça okumalardan çıkarılan anlamlar çeşitlenir': (1) Cümlede 'yaşamı tanıdıkça' = tecrübe artışı. (2) 'farklı yorumlar getirir' = anlam çeşitlenmesi. (3) Birebir: tecrübe arttıkça yorum çeşitlenir. (4) 'Tepkimizi yazma = yaşam öyküsünü yazma' = okuma kişisel yaşam izlerini taşır.",
+      "celdirici_analizi": {
+        "A": "Tecrübe edinme yolunun kitaplardan geçtiği — cümle tersi, hayat tecrübesi okuma yorumunu etkiliyor.",
+        "C": "Her kitapta yaşamından parça bulup yazarla bağ kurma — bağ kurma değil, yorumun değişimi vurgulu.",
+        "D": "Kültürel birikim okuma hazzını yoğunlaştırır — haz değil yorum değişimi.",
+        "E": "Modern çağın beklentilerinin öne çıkması — modern çağ değil bireysel tecrübe vurgulu."
+      },
+      "osym_mantigi": "ÖSYM cümle yorumlarında ANA İLİŞKİYİ test eder. 'Yaşamı tanıdıkça' + 'farklı yorumlar' = bireysel tecrübe → yorum çeşitlenmesi. Aday cümlenin sebep-sonuç bağını okumalı.",
+      "dersini_ogren": "Yaşamı tanıdıkça okumalardan çıkarılan yorumlar değişir. Bireysel tecrübe → okuma yorumu çeşitlenmesi (Hamlet örneği).",
+      "analiz_var": true
     },
     {
       "qno": 12,
@@ -483,7 +604,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki cümleyi anlamca birleştirme. I: insan vücudu temelde 'yaşamak için yemeyi' hedefliyor. II: insanoğlu beslenmeyi 'yemek için yaşamayı' önceliyor. KARŞITLIK ilişkisi - 'her ne kadar X olsa da Y' yapısı uygun.",
+      "neden_dogru": "A) 'Her ne kadar insanoğlu beslenme kavramını psikolojik veya keyfi bir hâle dönüştürerek yemek için yaşamayı ön plana alsa da temelde vücut, hücresel düzeyde enerji üretip yaşamsal işlevlerini yerine getirmeyi yani yaşamak için yemeyi amaçlıyor': (1) 'Her ne kadar... da' = mükemmel karşıtlık bağlacı. (2) İnsanın eğilimini önce, vücudun gerçek hedefini sonra veriyor — anlam akışı doğru. (3) 'Temelde' = vücudun ana hedefini vurguluyor.",
+      "celdirici_analizi": {
+        "B": "'-iken... için' bağlacı zayıf, karşıtlık net değil.",
+        "C": "Sıralama tersi (insanın eğilimi → vücut) ama 'da' yerine 'sa da' kullanılmadığı için karşıtlık zayıf.",
+        "D": "Eksik metin (PDF kesim) — okunamayan.",
+        "E": "Yine eksik şıklar mevcut değil."
+      },
+      "osym_mantigi": "ÖSYM cümle birleştirme sorularında karşıtlık bağlaçlarını (her ne kadar... da, -e rağmen, fakat) test eder. İki karşıt fikir birleşimi için 'her ne kadar X olsa da Y' yapısı en güçlü/akıcı bağlanma. Aday bağlaç + anlam akışı kontrolü yapmalı.",
+      "dersini_ogren": "'Her ne kadar X olsa da Y' = en güçlü karşıtlık bağlacı. İki karşıt fikir birleşimi için ideal yapı.",
+      "analiz_var": true
     },
     {
       "qno": 13,
@@ -531,7 +663,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Numaralanmış cümlelerle Tesla 'söylenemez' sorusu. 5 cümle Tesla'nın hakkı, projeleri, sayısal veriler, basit ihtiyaçlara değil, motivasyonu.",
+      "neden_dogru": "D) 'IV. cümlede projelerinin çağdaşlarının projelerinden farklarına değinilmiştir' — SÖYLENEMEZ. IV. cümle 'bu buluşların hiçbiri çağının BASİT BİLİMSEL İHTİYAÇLARINI çözmeye yönelik tasarlanmamıştı' diyor — çağdaşlarının PROJELERİNDEN FARKI değil, basit ihtiyaçlara yönelmeme bilgisi veriliyor. Çağdaşlarıyla karşılaştırma yok. Diğerleri söylenir.",
+      "celdirici_analizi": {
+        "A": "Söylenir — I. 'yıllar süren umursamazlık' = görmezden gelinme.",
+        "B": "Söylenir — II. 'güzel gelecek hayalini gerçekleştirmek için insanlığa adamış' = amaç.",
+        "C": "Söylenir — III. '100+ patent, 700+ icat' = sayısal veriler.",
+        "E": "Söylenir — V. 'çağdaşlarının ne düşündüğünü umursamadan evrenin sırlarını' = motivasyon."
+      },
+      "osym_mantigi": "ÖSYM cümle yorumlarında YAKIN ama FARKLI yorumu çeldirici yapar. 'Basit ihtiyaçlara yönelik tasarlanmama' ≠ 'çağdaşların projelerinden farklı'. Aday cümlenin AÇIK ifadesini kontrol etmeli.",
+      "dersini_ogren": "Cümlede 'X için tasarlanmamıştı' ≠ 'X'tekilerden farklıydı'. Birinde Tesla'nın projesini, diğerinde karşılaştırmayı söyler.",
+      "analiz_var": true
     },
     {
       "qno": 14,
@@ -568,7 +711,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Numaralanmış cümlelerle oksitosin 'söylenemez' sorusu. 5 cümle: görev/işlev, dolaşım, davranış etkisi, olumsuz etkiler, kişisel farklılık.",
+      "neden_dogru": "C) 'III. cümlede davranışları olumlu bir şekilde etkilediğine değinilmiştir' — SÖYLENEMEZ. III. cümle 'huzurlu VE STRESLI durumlarda salgılanan oksitosinin davranışları NE ŞEKİLDE etkilediğini AÇIKLAMAYA ÇALIŞIYOR' diyor — araştırmalar henüz açıklama aşamasında, OLUMLU etkiledi YOK. Stresli durumlar da var, salt olumlu değil. IV. cümlede zaten 'olumsuz etkiler bulduğu' söyleniyor.",
+      "celdirici_analizi": {
+        "A": "Söylenir — I. 'sinir hücreleri/sinyalleri etkinliğini değiştiren' = beyindeki görev.",
+        "B": "Söylenir — II. 'hipotalamus → hipofiz → kan dolaşımı/beyin bölgeleri' = dolaşım süreci.",
+        "D": "Söylenir — IV. 'sanıldığı kadar masum/mucizevi değil' = bilinenin aksine.",
+        "E": "Söylenir — V. 'kişisel özelliklere bağlı' = kişiye göre değişir."
+      },
+      "osym_mantigi": "ÖSYM 'söylenemez' sorularında 'olumlu/olumsuz' nüansını test eder. III. cümle TARAFSIZ açıklama girişimi anlatıyor; OLUMLU vurgusu yok. Aday cümleyi salt yorumdan kaçınmalı, açıkça olumlu/olumsuz ifade aramalı.",
+      "dersini_ogren": "Araştırmaların 'açıklamaya çalıştığı' bilgisi olumlu/olumsuz değer içermez. III. cümle nötr araştırma süreci.",
+      "analiz_var": true
     },
     {
       "qno": 15,
@@ -605,7 +759,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Numaralanmış cümlelerle Galileo+teleskop 'yanlış' sorusu. 5 cümle: Kepler matematik, doğrulama, Galileo görüşü, teleskop icadı, kendi teleskobu.",
+      "neden_dogru": "E) 'V. cümlede bir bilim insanının yaptığı icadın TASARLANMA AMACINA değinilmiştir' — YANLIŞ. V. cümle 'kendi teleskobunu yapıp dönemin entelektüellerine HEDİYE etti' diyor — TASARLAMA AMACI değil, HEDİYE ETME eylemi. İcat amacı (yakınlaştırma) değil, sonradan dağıtım vurgulanıyor. Diğerleri doğru: (A) Kepler matematiksel doğrulama; (B) deneysel doğrulama gereği; (C) Galileo aynı görüşte; (D) teleskop nesneleri yakınlaştırır.",
+      "celdirici_analizi": {
+        "A": "Doğru — I. 'yeni bir dönem' = bilimsel gelişme.",
+        "B": "Doğru — II. 'matematiksel olarak ortaya konulanları doğrulama' = I. fikrin doğrulanması.",
+        "C": "Doğru — III. 'Galileo da bu görüşteydi' = başka bilim insanı benimsedi.",
+        "D": "Doğru — IV. 'teleskobun nesneleri yakınlaştırması' = icadın işlevi."
+      },
+      "osym_mantigi": "ÖSYM cümle yorumlarında EYLEM vs AMAÇ ayrımı test eder. V. cümle Galileo'nun YAPMA + HEDİYE ETME eylemini anlatıyor; AMAÇ (yakınlaştırma) IV. cümlede. Aday cümlenin AÇIK içeriğini izlemeli.",
+      "dersini_ogren": "Bir eylem vs amaç farklı. 'Hediye etti' eylem; 'yakınlaştırmak için yapıldı' amaç. Cümlede hangisi varsa o vurgulanır.",
+      "analiz_var": true
     },
     {
       "qno": 16,
@@ -642,7 +807,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "İki cümle arasındaki ilişki sorusu. I: Piri Reis spesifik örnek (denizcilik+haritacılık). II: yetkin bilinmediğimiz birçok tarihi değer (genel). II'nin I ile ilişkisi GENELLEME.",
+      "neden_dogru": "C) 'I. cümlede örneği sunulan durumla ilgili bir GENELLEME yapılmaktadır': (1) I. cümle: Piri Reis SPESIFIK örnek. (2) II. cümle: 'birçok tarihi değer vardır' = GENEL ifade. (3) Tek bir örnekten (Piri Reis) genele (tarihi değerler) çıkış = genelleme.",
+      "celdirici_analizi": {
+        "A": "I'i eleştiren — eleştiri değil, kapsayıcı genelleme.",
+        "B": "Göreceli olduğuna işaret — görelilik değil, genelleme.",
+        "D": "Öneride bulunma — öneri değil, genel betimleme.",
+        "E": "Gerekçe dile getirme — gerekçe değil, kapsayıcı yargı."
+      },
+      "osym_mantigi": "ÖSYM iki cümle ilişki sorularında SPESIFIK → GENEL geçişini (genelleme) ve GENEL → SPESIFIK (örnek) ilişkilerini test eder. Piri Reis (özel) + birçok tarihi değer (genel) = genelleme. Aday cümlelerin kapsam genişliğini karşılaştırmalı.",
+      "dersini_ogren": "Bir örnekten (Piri Reis) genel yargıya (birçok tarihi değer) geçiş = genelleme. SPESIFIK → GENEL akış.",
+      "analiz_var": true
     },
     {
       "qno": 17,
