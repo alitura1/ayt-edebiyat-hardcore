@@ -1731,7 +1731,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Dörtlük analizi 'yanlıştır' — kafiye düzeni, redif, hece, sanat tespit. Karacaoğlan tipi koşma dörtlüğü.",
+      "neden_dogru": "B) Sarma kafiye düzeni (abba) YANLIŞ. Dörtlük: 'ettiği/güttüğü/ettiği/yumuşaklığından' — kafiye 'ettiği-güttüğü-ettiği' aynı ses + redif 'yumuşaklığından' farklı. Bu DÜZ kafiye (aaab) veya benzeri, SARMA (abba) DEĞİL.",
+      "celdirici_analizi": {
+        "A": "Telmih ✓ doğru — 'Hâbîl' (Habil-Kabil kıssası, Kur'an'a telmih).",
+        "C": "Redif ✓ — 'ettiği' tekrarlanan ek/kelime.",
+        "D": "Yarım kafiye ✓ — 1 sessiz benzerliği.",
+        "E": "11'li hece ✓ — koşma için tipik (6+5 veya 4+4+3)."
+      },
+      "osym_mantigi": "ÖSYM kafiye düzenlerini sık karıştırır: DÜZ (aaab/aaaa), ÇAPRAZ (abab), SARMA (abba), MANİ TİPİ (aaxa). Koşma genelde abab (çapraz). Sarma kafiye divan rubaisinde, halk şiirinde nadir. Aday kafiye düzenini şema çizerek kontrol etmeli.",
+      "dersini_ogren": "Kafiye düzenleri: aaab=düz, abab=çapraz, abba=sarma, aaxa=mani. Şema çizerek doğrula.",
+      "analiz_var": true
     },
     {
       "qno": 45,
@@ -1768,7 +1779,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Dörtlük analizi 'söylenemez'. Yahya Kemal tipi nostaljik şiir — körfez, mehtap, geçmiş gece, en güzel akis.",
+      "neden_dogru": "C) Yaşama sevinci teması SÖYLENEMEZ. Şiirde GEÇMİŞE ÖZLEM/HÜZÜN/NOSTALJİ var ('geçmiş gecelerden biri durmakta derinde'). Yaşama sevinci ≠ geçmişin tatlı hüznü. Yaşama sevinci = bugünü kucaklama; bu şiir DÜNÜ ANMA.",
+      "celdirici_analizi": {
+        "A": "Ahenk unsurları ✓ — kafiye+redif+iç ses uyumu.",
+        "B": "Çapraz kafiye (abab) ✓ — göreceksin/derinde/aksin/yerinde.",
+        "D": "Kişileştirme ✓ — 'rüya duruyor' (rüyaya hareket atfı).",
+        "E": "Görsel öğeler ✓ — körfez, mehtap, su, akis."
+      },
+      "osym_mantigi": "ÖSYM 'tema' sorularında şiirin DUYGU TONUNU okumayı test eder. 'Geçmiş gecelerden biri durmakta', 'velhasıl o rüya' = anma/nostalji ÜSLUBU. Yaşama sevinci üslubu farklıdır ('bu sabah uyandım', 'gün ışığı'). DERS: Şiirin TONUNU 2-3 anahtar kelimeden çıkar — nostaljik vs sevinçli vs öfkeli vs hüzünlü.",
+      "dersini_ogren": "Geçmişe özlem ≠ yaşama sevinci. Şiir tonu = anahtar kelimelerden çıkar.",
+      "analiz_var": true
     },
     {
       "qno": 46,
@@ -1805,7 +1827,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Dörtlük → şiir türü tespiti. 'Asılsız nesilsiz kibirli adam' yergi: aşağılayıcı dille eleştiri = SATİRİK.",
+      "neden_dogru": "B) Satirik: Şiir 'iş gelmez elinden + asilsiz/nesilsiz + gömleksiz duran + bedestene gelir kaftan beğenmez' = TOPLUMSAL YERGİ (sosyal kibire yönelik aşağılayıcı eleştiri). Satirik şiir = yergi şiiri (Seyrani gibi). Halk şiirinde TAŞLAMA türü = satirik karşılığı.",
+      "celdirici_analizi": {
+        "A": "Epik = kahramanlık (Köroğlu/koçaklama), buradaki konu kibir eleştirisi.",
+        "C": "Lirik = duygu/aşk, burada eleştiri var.",
+        "D": "Didaktik = öğretici (Nâbî), burada öğüt değil yergi var.",
+        "E": "Pastoral = doğa/köy yaşamı, burada yok."
+      },
+      "osym_mantigi": "ÖSYM şiir türlerini İÇERİK + ÜSLUP ile ayırt eder: LİRİK (duygu), EPİK (kahramanlık), DRAMATİK (oyun), DİDAKTİK (öğretici), PASTORAL (doğa), SATİRİK (yergi). Halk karşılıkları: güzelleme (lirik), koçaklama (epik), taşlama (satirik), öğüt (didaktik). Yergi/aşağılama → satirik.",
+      "dersini_ogren": "Satirik = yergi şiiri. 'Asilsiz/kibirli adam' eleştirisi = satirik.",
+      "analiz_var": true
     },
     {
       "qno": 47,
@@ -1842,7 +1875,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "İki dörtlük karşılaştırma — ortak olmayan özellik. Her ikisi de 'dedim/dedi' diyaloglu halk şiiri.",
+      "neden_dogru": "Olası D: Ortak NAZIM ŞEKLİ koşma. Soru kesik. Eğer fark: I'de 'yarasıdır' redif; II'de 'yok yok' redif. Tahmin: 'redife yer verilmesi' veya 'kafiye tipi' farklı. Cevap D (kafiye düzeni) veya E (ölçü) muhtemel.",
+      "celdirici_analizi": {
+        "A": "11'li hece ✓ ortak — koşma her iki dörtlükte de.",
+        "B": "Benzer tema ✓ ortak — sevgili/aşk diyalog.",
+        "C": "Koşma nazım şekli ✓ ortak.",
+        "not": "D ve E PDF'te kesik."
+      },
+      "osym_mantigi": "ÖSYM karşılaştırmalı soruda BENZER GÖRÜNEN şiirlerin İNCE FARKlarını test eder. Dedim/dedi formatı aynı olabilir ama nazım türü (güzelleme/koçaklama) veya kafiye tipi (tam/zengin) farklılaşabilir.",
+      "dersini_ogren": "Karşılaştırma sorularında SES farkını + KAFİYE tipini + NAZIM TÜRÜNÜ tek tek kontrol et.",
+      "analiz_var": true
     },
     {
       "qno": 48,
@@ -1879,7 +1923,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Dörtlük analizi 'yanlış'. Halk şiiri aşk konulu — Kerem'e telmih + ahû gözlü dilber.",
+      "neden_dogru": "A) Pastoral şiir YANLIŞ. Pastoral = doğa/çoban/köy yaşamı. Bu şiir AŞK KONULU GÜZELLEME (sevgili güzelliği + aşk acısı + Kerem ile Aslı kıssasına telmih). Pastoral değil LİRİK/GÜZELLEME.",
+      "celdirici_analizi": {
+        "B": "Redif ✓ — 'tüm' tekrar.",
+        "C": "Düz kafiye (aaab veya aaaa) ✓ doğru.",
+        "D": "Birden fazla edebî sanat ✓ — telmih (Kerem) + teşbih.",
+        "E": "Güzelleme ✓ doğru — koşmada güzelleme = aşk/güzellik."
+      },
+      "osym_mantigi": "ÖSYM PASTORAL ↔ LİRİK ↔ GÜZELLEME karışıklığı yaratır. Pastoral kesinlikle DOĞA-ÇOBAN konulu; aşk konulu şiir lirik veya güzelleme. 'Ahû gözlü dilber' = sevgili göndermeli güzelleme.",
+      "dersini_ogren": "Pastoral = doğa/çoban yaşamı. Aşk/sevgili = lirik/güzelleme. Karıştırma!",
+      "analiz_var": true
     },
     {
       "qno": 49,
@@ -1923,7 +1978,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Şiir analizi 'söylenemez'. Şiir Divan tarzı: 'piyale (kadeh) güldür değil ateş doludur' + Fuzuli + Mecnun telmih.",
+      "neden_dogru": "B) Epik nitelikleri TAŞIMASI SÖYLENEMEZ. Şiir LİRİK + Divan estetiği (aşk acısı/sembolik kadeh/Fuzuli-Mecnun telmihi). Epik = kahramanlık/savaş (Köroğlu); burada lirik var.",
+      "celdirici_analizi": {
+        "A": "Divan benzetme öğeleri ✓ — piyale (kadeh), gülgûn renk.",
+        "C": "Eğretileme ✓ — 'ateş doludur' aşk acısı için.",
+        "D": "İç kafiye ✓ — gül/püfle ses uyumu.",
+        "E": "Telmih ✓ — Fuzuli + Mecnun (Leyla vü Mecnun kıssası)."
+      },
+      "osym_mantigi": "ÖSYM şiir türleri ayrımında EPİK ↔ LİRİK karışıklığı sık yapar. Lirik = duygu/aşk; Epik = kahramanlık/savaş. 'Aşk şarabı yanarsın' tipi metafor = lirik. DERS: Şiirin TEMA SORUSUNU sor — duygu mu kahramanlık mı.",
+      "dersini_ogren": "Lirik = duygu/aşk (Fuzuli/Mecnun). Epik = kahramanlık (Köroğlu). Karıştırma!",
+      "analiz_var": true
     },
     {
       "qno": 50,
@@ -1960,7 +2026,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Halk şiiri 'söylenemez'. Karacaoğlan mahlaslı koşma + 'sevilmeyi sevilmeyi/sarılmayı sarılmayı' tekrar.",
+      "neden_dogru": "D) Çapraz kafiye düzeni SÖYLENEMEZ. Dörtlüklerin yapısı: aaab (düz kafiye) + nakaratlı 'sevilmeyi'. Çapraz (abab) değil. Karacaoğlan koşmalarında genelde abab veya aaab+nakarat.",
+      "celdirici_analizi": {
+        "A": "Birden fazla kafiye çeşidi ✓ — tam+yarım karışık.",
+        "B": "Koşmaya benzerlik ✓ — 8 hece + dörtlük + mahlas.",
+        "C": "8'li hece ✓ — semai tarzı (koşma genelde 11, ama 8 de var).",
+        "E": "İrsalimesel (atasözü kullanma) ✓ — 'Taş düştüğü yerde ağır' atasözü."
+      },
+      "osym_mantigi": "ÖSYM halk şiiri kafiye düzenlerinde yanıltır. Koşma standartı abab (çapraz) AMA 8 heceli semai/güzelleme aaab olabilir. Aday kafiye sesini şema halinde yazıp kontrol etmeli — yanılma ihtimali yüksek.",
+      "dersini_ogren": "Koşma 11 hece + abab. Semai 8 hece + aaab veya abab. Kafiye şemasını yaz.",
+      "analiz_var": true
     },
     {
       "qno": 51,
@@ -1997,7 +2074,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki farklı dönem şiir karşılaştırma — ortak özellik. I serbest modern + 'gülümseme/can' aşk; II divan beyit 'âşık olur kim kılur cânın fedâ cânâna' aşk.",
+      "neden_dogru": "A) TEMA: Her iki şiir parçası da AŞK temalıdır. (I) 'gülümseme + canım' modern aşk diyaloğu. (II) 'Âşık olur kim kılur cânın fedâ cânâna' = âşığın canını sevgiliye feda etmesi. Tema = aşk = ortak.",
+      "celdirici_analizi": {
+        "B": "Dil/üslup — I modern Türkçe, II Osmanlı Türkçesi. Farklı.",
+        "C": "Kafiye düzeni — I serbest, II aa beyit. Farklı.",
+        "D": "Nazım birimi — I serbest mısra, II beyit. Farklı.",
+        "E": "Ölçü — I ölçüsüz, II aruz. Farklı."
+      },
+      "osym_mantigi": "ÖSYM farklı dönem şiirlerinin ORTAK YÖNÜNÜ TEMA'da bulur. Biçimsel öğeler (dil/kafiye/birim/ölçü) genelde farklılaşır. Tek ortak nokta TEMA. DERS: Karşılaştırmalı sorularda önce TEMA kontrol et.",
+      "dersini_ogren": "Farklı dönem şiirleri ortak yön = TEMA (genelde). Biçim farklı, duygu/konu ortak.",
+      "analiz_var": true
     },
     {
       "qno": 52,
@@ -2034,7 +2122,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Dörtlük 'söylenemez'. 'Bu dünyaya sanki vefa gelmemiş + Cihanda bir söze duran mı kaldı' = hayat felsefesi/öğüt.",
+      "neden_dogru": "B) Satirik şiir SÖYLENEMEZ. Şiir DİDAKTİK/HİKEMÎ (hayat hakkında öğüt/felsefe). Satirik = aşağılayıcı yergi; bu şiirde yergi yok, FELSEFE var ('cihanda söze duran kalmadı' = sözünde durma erdemi yitti).",
+      "celdirici_analizi": {
+        "A": "11'li hece ✓ — koşma.",
+        "C": "Düz kafiye (aaab veya aaaa) ✓.",
+        "D": "Teşbih ✓ — örtük benzetme.",
+        "E": "Redif ✓ — 'gelmemiş/kalmamış' fiil tekrarı."
+      },
+      "osym_mantigi": "ÖSYM SATİRİK ↔ DİDAKTİK ayrımını test eder. Satirik AŞAĞILAYICI yergi; Didaktik ÖĞÜT/öğretici. 'Dünyaya vefa gelmemiş' tipi felsefe = didaktik. Yergi olsa 'şu adam böyle kötü' olurdu.",
+      "dersini_ogren": "Satirik = yergi/aşağılama. Didaktik = öğüt/felsefe. Karıştırma.",
+      "analiz_var": true
     },
     {
       "qno": 53,
@@ -2071,7 +2170,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "İki halk dörtlüğü karşılaştırma — ortak olmayan. Sümmâni + Karacaoğlan mahlaslı son dörtlükler.",
+      "neden_dogru": "C) Güzelleme türünde yazılma ORTAK DEĞİL. Birinci dörtlük (Sümmâni) AŞKLA İLGİLİ (sevda/aşk ateşi) → güzelleme yakın. İkinci (Karacaoğlan) KÖTÜLERE NASİHAT ('kötülerle konup göçücü olma') → güzelleme DEĞİL öğüt/taşlama. Tür farklı.",
+      "celdirici_analizi": {
+        "A": "Son dörtlük olma ✓ — ikisinde de mahlas (Sümmâni, Karacaoğlan) = makta.",
+        "B": "Aynı kafiye düzeni ✓ — ikisi de aaab koşma.",
+        "D": "Mecazlı anlatım ✓ — sevda temreni (Sümmâni), aşkın deryası (Karacaoğlan).",
+        "E": "11'li hece ✓ — koşma için tipik."
+      },
+      "osym_mantigi": "ÖSYM halk şiiri türlerini karıştırır: GÜZELLEME (aşk/güzellik), KOÇAKLAMA (kahramanlık), TAŞLAMA (yergi), AĞIT (ölüm). Aynı şair (Karacaoğlan) hem güzelleme hem taşlama yazabilir — TEMA önemli. 'Kötülerle göçücü olma' = öğüt = güzelleme değil.",
+      "dersini_ogren": "Güzelleme = aşk/güzellik. Öğüt/taşlama = farklı tür. Şairin tüm dörtlükleri aynı tür olmak zorunda değil.",
+      "analiz_var": true
     },
     {
       "qno": 54,
@@ -2108,7 +2218,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Türkü 'söylenemez'. Ali'şim türküsü + 'Görmedin mi ah civan Ali'şimi Tuna boyunda' nakarat.",
+      "neden_dogru": "Şıklar A-D görünüyor doğru. E şıkkı PDF'te kesik. Olası 'söylenemez': 'Lirik şiirdir' DEĞİL (lirik halk şiiri, doğru) veya 'tezat sanatı kullanılmış' (yok belki) veya 'belirli bir şair tarafından yazıldığı' (anonim türkü olduğu için yanlış olabilir).",
+      "celdirici_analizi": {
+        "A": "Bentlerden oluştuğu ✓ — türkü bent yapısı + nakarat.",
+        "B": "Nakaratlara yer verildiği ✓ — 'Görmedin mi ah civan' tekrarı.",
+        "C": "Tekrir sanatı ✓ — 'hane hane', 'tane tane' tekrarlar.",
+        "D": "Kafiye + redif ✓ — kara/yara/şara + 'Ali'şim'."
+      },
+      "osym_mantigi": "ÖSYM türkü gibi anonim halk şiir türlerinde tipik unsurları (bent + nakarat + tekrir + kafiye) sorgular. E şıkkı kesik için tahmin: ANONİM olduğu için belirli şaire atfedilemez veya benzeri.",
+      "dersini_ogren": "Türkü = bent + nakarat + halk ezgisi + anonim (genelde) + 8 veya 11 hece.",
+      "analiz_var": true
     },
     {
       "qno": 55,
@@ -2152,7 +2273,16 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Özellik listesi → hangi dörtlük? Özellikler: güzelleme + klasik âşık-sevgili + mübalağa + tam kafiye.",
+      "neden_dogru": "A) 'Nesin methedeyim bir kaşı kara / Şu sineme açtı onulmaz yara / Cümle tabip gelse derdime şara / Derdimin dermanı Lokman'a kalsın': (1) GÜZELLEME ✓ — sevgili güzelliği övgüsü. (2) Klasik âşık-sevgili tipi ✓ — 'kaşı kara' sevgili + sineye yara = aşk acısı. (3) MÜBALAĞA ✓ — Lokman (efsanevi hekim) bile çare bulamaz = aşırı abartı. (4) TAM KAFİYE — kara/yara/şara (2 sesli+sessiz benzerliği).",
+      "celdirici_analizi": {
+        "B": "Köroğlu naralı (koçaklama) — güzelleme değil, kahramanlık.",
+        "not": "Diğer şıklar tam görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM 4 özellik listesi vererek tek şıkta hepsi var olanı buldurur. Güzelleme (tema) + klasik âşık-sevgili (içerik) + mübalağa (sanat) + tam kafiye (biçim) birleşimi sadece bir şıkta tam tutuyor. Lokman = mübalağa için klasik telmih.",
+      "dersini_ogren": "Güzelleme + Lokman/Mecnun telmihi + tam kafiye = klasik halk aşk dörtlüğü.",
+      "analiz_var": true
     },
     {
       "qno": 56,
@@ -2189,7 +2319,16 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Şiir 'söylenemez'. Şiir: 'Sen geldin benim deli köşemde durdun + merhamet+güldün+yaralı ceylan gözleri' = METHİYE/SEVGİ vurgusu.",
+      "neden_dogru": "B) Sevgiliye SİTEM SÖYLENEMEZ. Şiirde sevgilinin GELİŞİ, MERHAMETİ, GÜLÜMSEMESİ övülüyor = sevgi/methiye. Sitem (sevgiliden şikayet) YOK. 'Yaralı ceylan' = sevgilinin gözleri benzetilmesi (övgü), şair yaralı değil sevgili merhametli.",
+      "celdirici_analizi": {
+        "A": "Serbest şiir ✓ — ölçüsüz/kafiye yok.",
+        "not": "C, D, E şıkları görünmüyor ama 'çağrışım', 'duygusal anlatım', 'imge kullanımı' tarzı şıklar olabilir."
+      },
+      "osym_mantigi": "ÖSYM şiirin DUYGUSAL TONUNU okumayı test eder. 'Sevgiliye sitem' vs 'sevgili övgüsü' tam zıt. 'Geldin durdun + merhametin gözlerin' = övgü; sitem = 'gelmedin/aldatın/bırakın'. DERS: Şiirin ANA DUYGUSUNU 2-3 satırla özetle önce.",
+      "dersini_ogren": "Methiye (övgü) ≠ sitem. 'Merhametin/güldün' = övgü; 'gelmedin/aldattın' = sitem.",
+      "analiz_var": true
     },
     {
       "qno": 57,
@@ -2226,7 +2365,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Dörtlük 'söylenemez'. 'Dolandım el gibi + Sarardım dal gibi + Çiğnendim yol gibi' = benzetme silsilesi + 'gibi' redifi.",
+      "neden_dogru": "E) Semai nazım biçimi SÖYLENEMEZ. Dörtlükler 11 heceli görünüyor (Dolandım el gibi bir gönül gibi = 6+5=11). Semai 8 hecelidir. 11 hece = KOŞMA. Semai değil.",
+      "celdirici_analizi": {
+        "A": "Hece ölçüsü ✓.",
+        "B": "Redif ✓ — 'gibi' tekrar.",
+        "C": "Düz uyak ✓ — aaab veya aaaa.",
+        "D": "Yalın anlatım ✓ — halk diliyle benzetme zinciri."
+      },
+      "osym_mantigi": "ÖSYM halk şiirinde HECE SAYISI ile nazım biçimini ayırt eder: 11 hece = koşma; 8 hece = semai; 7 hece = mani. Aday önce dizeyi say sonra biçimi karar ver. Bu örnekte 11 → koşma.",
+      "dersini_ogren": "Koşma = 11 hece (6+5 veya 4+4+3). Semai = 8 hece (4+4). Mani = 7 hece. Önce SAY.",
+      "analiz_var": true
     },
     {
       "qno": 58,
@@ -2263,7 +2413,19 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Divan beyti 'söylenemez'. 'Kılsa güneş yüzüne nazar kendüden gider / Elbette gün görünse kamer kendüden gider' = sevgilinin yüzünün güneşten/aydan parlak olması.",
+      "neden_dogru": "Belirsiz. Beyit: sevgilinin güzelliği güneşi/ayı kendinden geçirir (göz kamaştırır). A) Redif ✓ ('kendüden gider'), B) Mübalağa ✓ (aşırı abartı), C) Sevgili güzelliği övgü ✓, D) Tabiat olayı ✓ (güneş+ay). E muhtemelen 'Sevgilinin yüzü AYA benzetilmiştir' → aslında beyit AY'ın sevgili karşısında kendinden geçtiği, yani sevgili AY'dan ÜSTÜN tutuluyor (benzetme değil, üstün tutma). E söylenemez olabilir.",
+      "celdirici_analizi": {
+        "A": "Kelime hâlinde redif ✓ — 'kendüden gider' tüm beyti tekrarlıyor.",
+        "B": "Mübalağa ✓ — sevgili karşısında güneş+ay kendinden gider.",
+        "C": "Sevgili güzelliği övgü ✓ — methiye.",
+        "D": "Tabiat olayı ✓ — güneş ve ay.",
+        "E": "Sevgilinin yüzünün ayA BENZETİLMESİ — beyitte üstün tutma var, basit benzetme değil. SÖYLENEMEZ olabilir."
+      },
+      "osym_mantigi": "ÖSYM divan beytlerinde BENZETME vs ÜSTÜN TUTMA ayrımını test eder. 'Sevgili yüzü ay gibi' = teşbih; 'Sevgili karşısında ay kendinden geçer' = üstün tutma (mübalağa + tafdil). E şıkkı eğer 'aya benzetildiği' diyorsa bu yanlış (üstün tutma var, benzetme yok).",
+      "dersini_ogren": "Mübalağa + tafdil ≠ teşbih. Sevgili karşısında doğa unsurları küçük → aşırı övgü.",
+      "analiz_var": true
     },
     {
       "qno": 59,
@@ -2300,7 +2462,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Koşma dörtlüğü 'söylenemez'. 'Şu karşıki dağda yanar bir ışık + Aldırmış sevdiğin ağlar bir âşık + Bir ceren bakışlı zülfü dolaşık + Sende bir gümanım var Çiçek Dağı'.",
+      "neden_dogru": "B) Pişmanlık duygusu SÖYLENEMEZ. Şiirde sevgiliden AYRILIK + ÖZLEM + ŞÜPHE ('gümanım var') var; pişmanlık (geçmişte yaptığı için pişman) YOK. Şüphe/sitem/özlem ≠ pişmanlık.",
+      "celdirici_analizi": {
+        "A": "Sevgiliden ayrı düşme ✓ — 'aldırmış sevdiğin' = sevgili kaybedilmiş.",
+        "C": "Zengin kafiye ✓ — ışık/âşık/dolaşık (3+ ses benzerliği) zengin.",
+        "D": "Koşma nazım biçimi ✓ — 4 dörtlük abab (varsa).",
+        "E": "Ceren benzetmesi ✓ — sevgili gözü ceren (ceylan) gözüne benzetilmiş."
+      },
+      "osym_mantigi": "ÖSYM 'pişmanlık' ↔ 'özlem' ↔ 'sitem' duygu nüanslarını test eder. Pişmanlık = geçmişte yaptığın için suçluluk; özlem = uzaktaki için arzu; sitem = sevgilinin tutumundan şikayet. Şiirin DUYGUSUNU doğru oku.",
+      "dersini_ogren": "Pişmanlık ≠ özlem ≠ sitem. Şair pişman mı (kendi suçu), özlem mi (uzakta), sitem mi (sevgili kötü)?",
+      "analiz_var": true
     },
     {
       "qno": 60,
@@ -2337,7 +2510,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Dörtlük + parantezdeki kavram eşleştirme 'örneklemez'. 4 dörtlük + 5. kavram listesi.",
+      "neden_dogru": "D) 'Tabakta portakalsın / Sözümüz burda kalsın / Yılda bir kabrime gel / Toprağım kokun alsın' = (İnanç). UYUMSUZ! Bu dörtlük İNANÇ değil ÖZLEM/AYRILIK/VAFA ifade ediyor. Ölüm sonrası bile sevgiliyi anma = özlem/vefa. İnanç (Allah'a inanç) ile alakası yok.",
+      "celdirici_analizi": {
+        "A": "'Senden başka seversem kör olsun iki gözüm' = SADAKAT ✓ doğru eşleşme.",
+        "B": "'Aslan yürekli yârim' = ÖVGÜ ✓ doğru.",
+        "C": "'Sunam... öldüm yasa mı geldin' = SİTEM ✓ doğru (sevgili geç geldi).",
+        "E": "Görünmüyor ama tipik bir eşleşme olur."
+      },
+      "osym_mantigi": "ÖSYM dörtlük-kavram eşleştirmesinde DUYGU/TEMA nüanslarını test eder. İnanç = Allah'a/dine; vefa = sevgiye sadakat; sadakat = bağlılık; sitem = şikayet; özlem = arzu. Karıştırma.",
+      "dersini_ogren": "Vefa/sadakat ≠ inanç. Sevgiliye bağlılık = vefa/sadakat; Allah'a = inanç.",
+      "analiz_var": true
     },
     {
       "qno": 61,
