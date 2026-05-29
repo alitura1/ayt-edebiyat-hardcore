@@ -7872,7 +7872,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Şiir-şair tanı. Şiirin biçim/içerik özellikleri: 'Troya... Hitit çağı... gök çılgın uzaklığın... beyaz kâğıtlarca gittiniz uzun... ne denizler gördüm hiç anmamışımdır' = SOYUT/MİTOLOJİK/İMGESEL/SERBEST nazım → İkinci Yeni stili.",
+      "neden_dogru": "B) İlhan Berk: (1) Troya, Hitit gibi MİTOLOJİK/ARKEOLOJİK referanslar = İlhan Berk'in işareti (Galile Denizi, Aşıkane). (2) İmge ağırlıklı + soyut/yarı kapalı dil = II. Yeni tipik özelliği. (3) Serbest nazım + ölçüsüz + uzun mısra = İlhan Berk'in deneysel şiir tarzı. (4) 'Beyaz kâğıtlarca gittiniz' tipi sürrealist görsel imge.",
+      "celdirici_analizi": {
+        "A": "Cahit Külebi — memleket şiirleri (Adamın Biri, Yangın), sade halk dili, Garip yakın değil II. Yeni.",
+        "C": "Orhan Veli — Garip akımı, günlük dil, ironi. Mitolojik soyut imge yok.",
+        "D": "Attila İlhan — Mavi akımı, romantik bireysel + sosyal, mitoloji yok.",
+        "not": "E şıkkı PDF'te kesik ama yine II. Yeni dışı bir şair olur."
+      },
+      "osym_mantigi": "ÖSYM şair tanı sorularında AKIM özelliklerini önce eler. Bu şiir mitoloji + soyut imge + serbest nazım → II. Yeni. II. Yeni şairleri: Cemal Süreya, Edip Cansever, Turgut Uyar, İlhan Berk, Ece Ayhan, Sezai Karakoç. İlhan Berk'in MİTOLOJİ/ARKEOLOJİ tutkusu eserlerinin imzası. DERS: II. Yeni şairlerini birbirlerinden alt-stillerle ayırt et.",
+      "dersini_ogren": "İlhan Berk = II. Yeni + mitoloji/arkeoloji (Troya/Hitit) + Galile Denizi + deneysel görsel imge.",
+      "analiz_var": true
     },
     {
       "qno": 162,
@@ -7931,7 +7942,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: 'Batı'nın maddeye + akla eleştiri + 1935 ilk oyun TOHUM + 'her şeyin anahtarı ruhta ve göze görünmeyende' + Nam-ı Diğer Parmaksız Salih + Para oyunu (bankacı materyalist).'",
+      "neden_dogru": "D) Necip Fazıl Kısakürek: (1) Batı materyalizmi + akıl ELEŞTİRİSİ = Necip Fazıl'ın felsefi duruşu (İslamcı/spiritüalist). (2) TOHUM (1935) = Necip Fazıl'ın ilk oyunu. (3) Nam-ı Diğer Parmaksız Salih = Necip Fazıl'ın oyunu. (4) Para = Necip Fazıl'ın bankacı/materyalizm eleştiri oyunu. (5) 'Ruh ve göze görünmeyende' = Necip Fazıl'ın metafizik tutumu. Tüm ipuçları sadece Necip Fazıl.",
+      "celdirici_analizi": {
+        "A": "Cevat Fehmi Başkut — Buzlar Çözülmeden + Paydos, sosyal eleştiri ama materyalizm-akıl eleştirisi imzası yok.",
+        "B": "Ahmet Kutsi Tecer — Köşebaşı + Koçyiğit Köroğlu, halk kültürü teması, materyalizm değil.",
+        "C": "Orhan Asena — Hürrem Sultan + tarih konulu oyunlar, materyalizm eleştirisi değil.",
+        "E": "Sabahattin Kudret Aksal — sosyal/lirik oyunlar, materyalizm eleştirisi imzası yok."
+      },
+      "osym_mantigi": "ÖSYM tiyatro yazarlarını OYUN ADLARINI ipucu olarak verir. Tohum + Parmaksız Salih + Para = Necip Fazıl üçlüsü. Aday bu üçü duyduğunda anında cevaplar. Necip Fazıl şair OLDUĞU KADAR oyun yazarı (5-6 oyun). DERS: Necip Fazıl = Sakarya Türküsü/Kaldırımlar şiir + Tohum/Para/Parmaksız Salih oyunları + İslamcı/spiritüalist.",
+      "dersini_ogren": "Necip Fazıl Kısakürek = Tohum (1935 ilk oyun) + Para + Parmaksız Salih + Bir Adam Yaratmak + materyalizm eleştirisi.",
+      "analiz_var": true
     },
     {
       "qno": 163,
@@ -8006,7 +8028,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf-şair tanı. İpuçları: 'Aruz → hece + durak değişiklikleri + Miras (ilk şiir) + gür sesli kahramanlık + Varidat-ı Süleyman Çelebi (mistik) + korsanlık şiirleri'.",
+      "neden_dogru": "C) Enis Behiç Koryürek: (1) Beş Hececiler grubundan ✓. (2) MİRAS (1927) = Enis Behiç'in ilk şiir kitabı. (3) Varidat-ı Süleyman Çelebi (1949) = ölümünden sonra yayımlanan mistik şiirleri. (4) KORSANLIK ŞİİRLERİ = Enis Behiç'in imzası ('Eski Korsan Hikâyeleri'). (5) Aruz→hece geçişi + heyecanlı epik üslup = Beş Hececiler'in ortak özelliği. Korsan + Miras = Enis Behiç'in benzersiz işareti.",
+      "celdirici_analizi": {
+        "A": "Faruk Nafiz Çamlıbel — Han Duvarları + Çoban Çeşmesi, memleket teması, korsan değil.",
+        "B": "Orhan Seyfi Orhon — Fırtına ve Kar + Peri Kızı ile Çoban Hikâyesi, manzum masal, korsan değil.",
+        "D": "Yusuf Ziya Ortaç — Akından Akına, mizahi, korsan değil.",
+        "E": "Halit Fahri Ozansoy — Cenk Duyguları + Baykuş, mistik temalar var ama korsan yok."
+      },
+      "osym_mantigi": "ÖSYM Beş Hececiler'i (Faruk Nafiz, Yusuf Ziya, Orhan Seyfi, Enis Behiç, Halit Fahri) sık karıştırır. Ayırım için BENZERSİZ ESERLERİ ezberle: F. Nafiz = Han Duvarları (memleket); Y. Ziya = Akından Akına; O. Seyfi = Peri Kızı (masal); E. Behiç = Miras + KORSAN ŞİİRLERİ; H. Fahri = Cenk Duyguları + Baykuş.",
+      "dersini_ogren": "Enis Behiç Koryürek = Miras (ilk şiir) + Varidat-ı Süleyman Çelebi (mistik) + KORSAN ŞİİRLERİ + Beş Hececiler'den.",
+      "analiz_var": true
     },
     {
       "qno": 164,
@@ -8073,7 +8106,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Paragraf-sanatçı tanı. İpuçları: 'Gölgesinde Oturduğum Ağaç ve Ben (1921 Dergâh) + romantizm/aşk/ölüm/yalnızlık + halk kültürü → ülke/toplum + KÖŞEBAŞI oyunu + Koçyiğit Köroğlu mensur destan-piyes'.",
+      "neden_dogru": "B) Ahmet Kutsi Tecer: (1) Dergâh'ta yayım (1921) = Tecer'in başlangıcı. (2) Bireysel temalardan halk kültürüne YÖNELİŞ = Tecer'in evrimi (Anadolu folkloru araştırmaları). (3) KÖŞEBAŞI (1947) = Tecer'in en bilinen oyunu. (4) KOÇYİĞİT KÖROĞLU (1949) = Tecer'in mensur destan-piyesi. (5) Aşık Veysel'i edebiyat dünyasına Tecer tanıttı. Tüm ipuçları sadece Tecer.",
+      "celdirici_analizi": {
+        "A": "Behçet Kemal Çağlar — Cumhuriyet şairi, halk söyleyişi var ama Köşebaşı yazmadı.",
+        "C": "Kemalettin Kamu — Bingöl Çobanları gibi memleket şiirleri, halk kültürü ama oyun yazmadı.",
+        "D": "Necati Cumalı — Tütün Üçlemesi + Susuz Yaz oyunu, ama Köşebaşı/Koçyiğit Köroğlu yok.",
+        "E": "Bedri Rahmi Eyüboğlu — Şair-ressam (Karadut), oyun yazmadı."
+      },
+      "osym_mantigi": "ÖSYM 'halk kültürüne yönelen Cumhuriyet aydını' modelinde Tecer'i öne çıkarır. Köşebaşı (Köroğlu Türk halk hikâyesinin Cumhuriyet versiyonu) + Aşık Veysel keşfi = Tecer'in IMZAsı. DERS: Tecer = aşık edebiyatı + halk şiiri + Aşık Veysel + tiyatro yönlü Cumhuriyet aydını.",
+      "dersini_ogren": "Ahmet Kutsi Tecer = Köşebaşı + Koçyiğit Köroğlu + Aşık Veysel keşfi + Dergâh yazarı.",
+      "analiz_var": true
     },
     {
       "qno": 165,
@@ -8119,7 +8163,15 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Adalet Ağaoğlu romanı boşluk doldurma. Pasajda Dar Zamanlar Üçlemesi + Üç Beş Kişi + Fikrimin İnce Gülü + Bir Düğün Gecesi sayılmış, son boşluk üçleme kitaplarından biri olabilir.",
+      "neden_dogru": "Adalet Ağaoğlu romanları: Dar Zamanlar Üçlemesi = (1) Ölmeye Yatmak (1973), (2) Bir Düğün Gecesi (1979), (3) Hayır... (1987). Diğer romanları: Üç Beş Kişi (1984), Fikrimin İnce Gülü (1976), Romantik Bir Viyana Yazı (1993), Ruh Üşümesi (1991). Pasajda 'Bir Düğün Gecesi veya ----' diye boşluk, muhtemelen Hayır... veya Ölmeye Yatmak. Şıklar PDF'te kesik.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tahmin: Hayır... veya Ölmeye Yatmak (üçleme kitapları)."
+      },
+      "osym_mantigi": "ÖSYM Adalet Ağaoğlu'nun ÜÇLEMESİNİ özellikle test eder. Ezber: Dar Zamanlar Üçlemesi = Ölmeye Yatmak + Bir Düğün Gecesi + Hayır... Bu üçü ÜÇLEME, ayrı romanlardan ayırt edilmeli (Üç Beş Kişi, Fikrimin İnce Gülü farklı).",
+      "dersini_ogren": "Adalet Ağaoğlu Dar Zamanlar Üçlemesi = Ölmeye Yatmak + Bir Düğün Gecesi + Hayır... (3 kitap).",
+      "analiz_var": true
     },
     {
       "qno": 166,
@@ -8184,7 +8236,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf-şair tanı. İpuçları: 'Milli edebiyat + aruz→hece + Fırtına ve Kar (aruz) + Gönülden Sesler/O Beyaz Bir Kuştu/Kervan (hece) + manzum masal Peri Kızı ile Çoban Hikâyesi + Fiske mahlas + Akbaba/Papağan dergileri'.",
+      "neden_dogru": "E) Orhan Seyfi Orhon: (1) Beş Hececiler'den ✓. (2) Fırtına ve Kar (1919) = Orhon'un aruz dönem eseri. (3) Gönülden Sesler + O Beyaz Bir Kuştu + Kervan = hece dönem eserleri. (4) PERİ KIZI İLE ÇOBAN HİKÂYESİ = Orhon'un manzum masal kitabı. (5) FİSKE = Orhon'un mizahi mahlas adı. (6) Akbaba dergisi yazarı. Tüm ipuçları sadece Orhan Seyfi.",
+      "celdirici_analizi": {
+        "A": "Faruk Nafiz Çamlıbel — Han Duvarları, Beş Hececiler ✓ ama manzum masal yazmadı.",
+        "B": "Behçet Kemal Çağlar — Cumhuriyet şairi, Beş Hececiler'den değil.",
+        "C": "Yusuf Ziya Ortaç — Beş Hececiler ✓, Akından Akına ile bilinir ama Peri Kızı manzum masalı yok.",
+        "D": "Halit Fahri Ozansoy — Beş Hececiler ✓, Cenk Duyguları/Baykuş ama Peri Kızı yok."
+      },
+      "osym_mantigi": "ÖSYM Beş Hececiler ayrımında MANZUM MASAL kavramını Orhan Seyfi'ye atfeder. Peri Kızı ile Çoban Hikâyesi (1948) = Türk edebiyatında manzum masalın önemli örneği. FİSKE mahlas + AKBABA dergisi de Orhon'un imzaları. DERS: Beş Hececiler'i benzersiz eserleriyle ayırt et (önceki sorudaki listeye ek olarak).",
+      "dersini_ogren": "Orhan Seyfi Orhon = Fırtına ve Kar + Peri Kızı ile Çoban Hikâyesi (manzum masal) + Fiske mahlas + Akbaba dergisi.",
+      "analiz_var": true
     },
     {
       "qno": 167,
@@ -8254,7 +8317,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: '1940 sonrası + düzyazı/öykü/tiyatro çok yönlü + toplumsal yapı bütüncül + eleştirel + ŞİŞHANE'YE YAĞMUR YAĞIYORDU + AYIŞIĞINDA ÇALIŞKUR'.",
+      "neden_dogru": "C) Haldun Taner: (1) 1940 sonrası ✓ — Haldun Taner (1915-1986). (2) Çok yönlü: hikâye + tiyatro + denemeci. (3) ŞİŞHANE'YE YAĞMUR YAĞIYORDU (1953) = Haldun Taner'in hikâye kitabı. (4) AYIŞIĞINDA ÇALIŞKUR (1954) = Haldun Taner'in hikâye kitabı. (5) Toplumsal eleştiri + bütüncül anlatım = Taner'in stili. Hikâyeleri Keşanlı Ali Destanı oyunundan önce. (6) Sonra epik tiyatroya geçti.",
+      "celdirici_analizi": {
+        "A": "Orhan Kemal — Toplumcu gerçekçi, Bereketli Topraklar Üzerinde + Murtaza romanı, Şişhane/Ayışığında değil.",
+        "B": "Halikarnas Balıkçısı — Bodrum + Ege deniz öyküleri (Mavi Sürgün), Şişhane değil.",
+        "D": "Memduh Şevket Esendal — Mendil Altında + Ayaşlı ve Kiracıları, başka kitap.",
+        "E": "Sabahattin Ali — Değirmen/Kağnı/Ses, 1948'de öldü, 1940 sonrası 8 yıl yazdı ama bu kitaplar onun değil."
+      },
+      "osym_mantigi": "ÖSYM Cumhuriyet öykücülerini KİTAP ADLARI ile ayırt eder. Şişhane'ye Yağmur Yağıyordu + Ayışığında Çalışkur = Haldun Taner'in BENZERSİZ kitapları. Aday bu iki adı görünce direkt cevap. Hikâyeci + sonra tiyatro = Taner'in iki dönemli kariyer. DERS: Haldun Taner = Şişhane + Ayışığında + Keşanlı Ali Destanı + Gözlerimi Kaparım Vazifemi Yaparım.",
+      "dersini_ogren": "Haldun Taner = Şişhane'ye Yağmur Yağıyordu + Ayışığında Çalışkur (hikâye) + Keşanlı Ali Destanı (epik tiyatro).",
+      "analiz_var": true
     },
     {
       "qno": 168,
@@ -8316,7 +8390,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Şiir-şair tanı. Şiir: 'Mahallemizde / Senden başka ağaç olsaydı / Seni bu kadar sevmezdim... Sen kuruduğun zaman / Biz de inşallah / Başka mahalleye taşınmış oluruz' = sade dil + günlük konuşma + mizah + ironik teselli → GARİP TARZI.",
+      "neden_dogru": "D) Orhan Veli Kanık: (1) Sade günlük dil ✓ — Garip akımının temel özelliği. (2) MİZAH + İRONİ ('sen kuruduğun zaman biz başka mahalleye taşınırız' = sıradan kayıtsızlık humoru). (3) Kısa serbest mısra. (4) Sıradan obje (mahalledeki ağaç) konu. (5) Halk konuşma kalıbı ('inşallah'). Tüm özellikler GARİP IMZA. Orhan Veli, Garip'in lideri.",
+      "celdirici_analizi": {
+        "A": "Ece Ayhan — II. Yeni, soyut/kapalı, mizah var ama daha karanlık.",
+        "B": "İsmet Özel — İslamcı şair (Erbain), günlük dil değil felsefi.",
+        "C": "Özdemir Asaf — kısa şiir + ironi var ama daha hüzünlü/aforist.",
+        "E": "Sezai Karakoç — Diriliş şairi, mistik/dini, günlük dil değil."
+      },
+      "osym_mantigi": "ÖSYM Garip ↔ benzer akımları (II. Yeni mizah, Özdemir Asaf kısa şiir) ayırır. Garip'in imzası: GÜNLÜK KONUŞMA + İRONİK SAFLIK + sıradan obje. 'İnşallah taşınmış oluruz' tipi günlük kalıp = Garip. DERS: Şiir kıtasını okumadan önce ÜSLUBU tanı — günlük mü, kapalı mı, mistik mi, soyut mu.",
+      "dersini_ogren": "Orhan Veli = Garip lideri + günlük dil + ironik saflık + sıradan obje. 'İnşallah' tipi konuşma kalıbı = Orhan Veli imzası.",
+      "analiz_var": true
     },
     {
       "qno": 169,
@@ -8357,7 +8442,15 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Genel roman türü tanım pasajı. Geçmiş zaman + tarihte yaşamış kahramanlar + hayalî kişiler + tarih-millî doku + aşk/fazilet/yiğitlik motifleri. Soru sonu görünmüyor — muhtemelen 'bu paragrafta sözü edilen roman tipi' tarzı kavram sorusu.",
+      "neden_dogru": "Pasajdaki tanım = TARİHİ ROMAN. 'Tarihte yaşamış kahramanlar + millî doku + aşk/fazilet/yiğitlik' tarihi roman tanımı. Türk edebiyatında tarihi roman örnekleri: Cezmi (Namık Kemal), Devlet Ana (Kemal Tahir), Küçük Ağa (Tarık Buğra), Şu Çılgın Türkler (Turgut Özakman).",
+      "celdirici_analizi": {
+        "not": "Şıklar tam görünmüyor. Tipik şıklar: Tarihi roman ✓, milli roman, biyografik roman, töre romanı, sosyal roman."
+      },
+      "osym_mantigi": "ÖSYM roman türlerini tanım üzerinden ayırt eder: TARİHİ (geçmiş + tarihi kahraman), MİLLİ (toplum-millet teması), BİYOGRAFİK (gerçek bir kişi), POLİSİYE (suç-çözüm), MACERA (fantastik olaylar), TÖRE (gelenek). Tarihi roman = geçmiş + hayalî+gerçek karışım.",
+      "dersini_ogren": "Tarihi roman = tarihte yaşamış kahramanlar + hayalî karışım + millî doku + aşk/yiğitlik motifleri.",
+      "analiz_var": true
     },
     {
       "qno": 170,
@@ -8430,7 +8523,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Paragraf-sanatçı tanı. İpuçları: 'Uzun sanat yaşamı + deneyci + Türk dili yeni öğe + sürekli yenileme + millî romantik → çocuklar → toplum + Havaya Çizilen Dünya/Çakır'ın Destanı/Üç Şehitler Destanı (dörtlüklü) + Toprak Ana (beşli/altılı bentler).'",
+      "neden_dogru": "B) Fazıl Hüsnü Dağlarca: (1) 'Uzun sanat yaşamı' ✓ — Dağlarca (1914-2008) 95 yaşına kadar yazdı. (2) Deneyci/yenileyici ✓ — Dağlarca her dönem yeni biçim/tema dener. (3) 'Havaya Çizilen Dünya, Çakır'ın Destanı, Üç Şehitler Destanı, Toprak Ana' = tüm bu eserler Dağlarca'nın. (4) Millî romantik (Üç Şehitler) → çocuk şiirleri (Çocuk ve Allah) → toplum (Çakır'ın Destanı) = tema evrimi. (5) Biçim değişiklikleri: dörtlüklerden bentlere geçiş Dağlarca'ya özgü.",
+      "celdirici_analizi": {
+        "A": "Arif Nihat Asya — Bayrak + Heykeltıraş, milli/dini ama Dağlarca kitap listesi farklı.",
+        "C": "Ahmet Kutsi Tecer — Köşebaşı + Koçyiğit Köroğlu, halk kültürü, Dağlarca eserleri yok.",
+        "D": "Faruk Nafiz Çamlıbel — Han Duvarları, memleket, Dağlarca eserleri yok.",
+        "not": "E şıkkı tam görünmüyor."
+      },
+      "osym_mantigi": "ÖSYM Cumhuriyet uzun ömürlü şairlerini KİTAP LİSTESİ ile ayırt eder. Dağlarca'nın KİTAP SAYISI 60+ — kitap listesi tek başına yeterli ipucu. Üç Şehitler Destanı + Çakır'ın Destanı + Toprak Ana = Dağlarca'nın imzaları. DERS: Dağlarca'yı Necip Fazıl/Cahit Sıtkı/Faruk Nafiz'den AYIRMAK için 'deneyci/sürekli yenileme + dörtlük → bent geçişi' kavramları.",
+      "dersini_ogren": "Fazıl Hüsnü Dağlarca = uzun ömürlü deneyci + Havaya Çizilen Dünya/Çakır'ın Destanı/Üç Şehitler Destanı/Toprak Ana + Çocuk ve Allah.",
+      "analiz_var": true
     },
     {
       "qno": 171,
@@ -8467,7 +8571,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Diyalog formatlı akım tanı. Üç görüş: (1) bilinçaltı otomatizm/sürrealist yöntem, (2) halk edebiyatı/folkloru reddetme, (3) popüler meselelerden uzak + kültürel donanım hitabı. Bu üçü hangi topluluğa ait?",
+      "neden_dogru": "C) İkinci Yeni: (1) BİLİNÇALTI OTOMATİZMİ = sürrealizm etkisi = İkinci Yeni'nin temel yöntemi. (2) Halk edebiyatından uzaklaşma + folklor reddi = II. Yeni'nin Garip'e tepkisi (Garip halka inerken II. Yeni soyutlaştı). (3) Kültürel donanıma hitap + popüler reddi = II. Yeni'nin elit/entelektüel tavrı. Üç görüş de II. Yeni'nin manifestosuna uygun.",
+      "celdirici_analizi": {
+        "A": "Garip — günlük dil + halka inme + popüler yaklaşım = II. Yeni'nin TAM ZIDDI. Bilinçaltı otomatizmi yok.",
+        "B": "Beş Hececiler — milli/memleket + halk şiiri/hece, folklor REDDETMEZ tam tersi.",
+        "D": "Yedi Meşale — bireysel/sanatkârane ama sürrealizm yok, halk reddi imzası değil.",
+        "E": "Hisar — gelenekçi + halk şiiri yanlısı, II. Yeni'nin tam zıddı."
+      },
+      "osym_mantigi": "ÖSYM Cumhuriyet şiir akımlarını MANİFESTO/YÖNTEM ile ayırır. II. Yeni özellikleri: (a) sürrealizm/bilinçaltı, (b) folklor/halk reddi, (c) kapalı dil/imge, (d) entelektüel hitap. Garip ZIT (halk dili, somut, mizah). Hisar gelenekçi (II. Yeni'ye karşı). DERS: Bu üç akımın çizdiği SPEKTRUM: Garip (halkçı) ↔ Hisar (gelenekçi) ↔ II. Yeni (modernist/elit).",
+      "dersini_ogren": "İkinci Yeni = sürrealizm/bilinçaltı + folklor reddi + kapalı imge + entelektüel hitap. Garip'in tam zıddı.",
+      "analiz_var": true
     },
     {
       "qno": 172,
@@ -8530,7 +8645,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Yazar-eleştirmen diyaloğu. İpuçları: 'Romanlar arası devamlılık + KURTLAR SOFRASI + AYNANIN İÇİNDEKİLER + Türk toplumunun son 50 yıllık sorunları + I. Dünya Savaşı + İstiklal Harbi + Cumhuriyet kuşağı'.",
+      "neden_dogru": "A) Attila İlhan: (1) Kurtlar Sofrası = Attila İlhan'ın romanı. (2) Aynanın İçindekiler = Attila İlhan'ın 5 ciltlik roman serisi (Sırtlan Payı, Bıçağın Ucu, Yaraya Tuz Basmak, Dersaadet'te Sabah Ezanları, O Karanlıkta Biz). (3) 'Son 50 yıl + I. Dünya Savaşı + İstiklal Harbi + Cumhuriyet' = Attila İlhan'ın Mavi akımı + tarihsel-toplumcu roman görüşü. (4) Devamlılık/dizi roman = İlhan'ın imzası. Tüm ipuçları Attila İlhan.",
+      "celdirici_analizi": {
+        "B": "Tarık Buğra — Küçük Ağa + Firavun İmanı, Cumhuriyet/Kurtuluş ama Kurtlar Sofrası onun değil.",
+        "C": "Kemal Tahir — Devlet Ana + Esir Şehrin İnsanları, tarihsel-toplumcu ✓ ama Kurtlar Sofrası onun değil.",
+        "D": "Yaşar Kemal — İnce Memed Çukurova destanı, Kurtlar Sofrası onun değil.",
+        "E": "Sabahattin Ali — Kuyucaklı Yusuf + Kürk Mantolu Madonna, 1948'de öldü, son 50 yıl panoraması yapamadı."
+      },
+      "osym_mantigi": "ÖSYM Attila İlhan'ın ROMAN dünyasını test eder (şair olduğu kadar romancı). Aynanın İçindekiler 5 ciltlik dev seri, Türk toplum tarihinin sosyalist gözle panoraması. DERS: Attila İlhan'ı sadece şair (Mavi/Ben Sana Mecburum) değil ROMANCI olarak da bil — Kurtlar Sofrası + Sırtlan Payı + Aynanın İçindekiler.",
+      "dersini_ogren": "Attila İlhan = Kurtlar Sofrası + Aynanın İçindekiler 5 cilt (Sırtlan Payı vb.) + Türk toplumu son 50 yıl panoraması.",
+      "analiz_var": true
     },
     {
       "qno": 173,
