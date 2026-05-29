@@ -6942,7 +6942,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: 'Yeni yapılmış apartman + dokuz odalı bölüm + Ayaşlı İbrahim Efendi + kiraya verme + Cumhuriyet'in ilk Ankara'sı + toplumsal kesit + bürokrasiye eleştiri'.",
+      "neden_dogru": "C) Memduh Şevket Esendal: Romanın adı 'Ayaşlı ve Kiracıları' (1934) = Esendal'ın imzası. Cumhuriyet'in ilk Ankara'sını oda oda kiracı portreleri üzerinden anlatır. Yeni başkent + bürokrasi + topluluk eleştirisi = Esendal'ın gözlemci stili. 'Mendil Altında' hikâyesi gibi sıradan insanı yakalama.",
+      "celdirici_analizi": {
+        "A": "Peyami Safa — Cumhuriyet roman ustası ✓ ama 'Dokuzuncu Hariciye Koğuşu', 'Fatih-Harbiye' ile bilinir, apartman+Ankara teması yok.",
+        "B": "Mithat Cemal Kuntay — Üç İstanbul yazarı, Ankara değil İstanbul.",
+        "D": "Ahmet Hikmet Müftüoğlu — Çağlayanlar/Gönül Hanım, Milli Edebiyat döneminde, Cumhuriyet Ankara'sı değil.",
+        "E": "Refik Halit Karay — Memleket/Gurbet Hikâyeleri (Anadolu, sürgün), Ayaşlı+Ankara değil."
+      },
+      "osym_mantigi": "ÖSYM 'Cumhuriyet'in ilk Ankara'sı' temasını ESENDAL'la özdeşleştirir. 'Ayaşlı ve Kiracıları' = yeni başkent + apartman + memur tipleri = Esendal imzası. Roman karakterleri (Ayaşlı İbrahim Efendi) anahtar. DERS: Cumhuriyet roman temalarını yazara göre ezberle: Esendal = Ankara apartman; Peyami Safa = İstanbul yaşam felsefe; Yakup Kadri = panorama; Refik Halit = Anadolu/sürgün.",
+      "dersini_ogren": "Memduh Şevket Esendal = Ayaşlı ve Kiracıları (Cumhuriyet Ankara apartman romanı). Mendil Altında hikâyesi + Çakıcının İlk Kurşunu.",
+      "analiz_var": true
     },
     {
       "qno": 149,
@@ -7010,7 +7021,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: 'Toplumsal gerçekçi hikayeci + halk şiiri geleneği + Değirmen/Kağnı/Ses/Yeni Dünya/Sırça Köşk hikâye kitapları + üç roman + sanat propaganda + insanı yükseltme'.",
+      "neden_dogru": "A) Sabahattin Ali: (1) 'Toplumsal gerçekçilik' ✓ — Sabahattin Ali Türk edebiyatında toplumcu gerçekçiliğin başlatıcısı. (2) 'Halk şiiri geleneği' ✓ — Şarkılar, halk türküleri besteleri. (3) ANAHTAR: 'Değirmen, Kağnı, Ses, Yeni Dünya, Sırça Köşk' = Sabahattin Ali'nin 5 hikâye kitabı (tam liste). (4) 'Üç romanı' = Kuyucaklı Yusuf, Kürk Mantolu Madonna, İçimizdeki Şeytan. (5) 'Sanat insan yükseltme aracı' = toplumcu sanat manifestosu.",
+      "celdirici_analizi": {
+        "B": "Ahmet Hamdi Tanpınar — Saf şiir + Huzur/SAE romanları, toplumsal gerçekçi değil bireyin iç dünyası.",
+        "C": "Haldun Taner — Tiyatrocu + Keşanlı Ali Destanı, hikâyeci değil.",
+        "D": "Kemal Tahir — Toplumcu gerçekçi roman (Devlet Ana, Esir Şehrin İnsanları) ✓ ama hikâye kitap listesi farklı, halk şiiri geleneği imzası yok.",
+        "E": "Tarık Buğra — Küçük Ağa romancısı, milli/dini tema, toplumcu gerçekçi değil."
+      },
+      "osym_mantigi": "ÖSYM HİKÂYE KİTAPLARININ TAM LİSTESİNİ ipucu olarak verir. Değirmen+Kağnı+Ses+Yeni Dünya+Sırça Köşk = Sabahattin Ali'nin BAŞKA HİÇ KİMSEDE OLMAYAN imzası. Bu listeyi gören aday saniyede cevaplar. DERS: Cumhuriyet hikâyecilerinin kitap listelerini ezberle.",
+      "dersini_ogren": "Sabahattin Ali = Toplumsal gerçekçi hikâyeci + Değirmen/Kağnı/Ses/Yeni Dünya/Sırça Köşk + Kuyucaklı Yusuf/Kürk Mantolu Madonna.",
+      "analiz_var": true
     },
     {
       "qno": 150,
@@ -7051,7 +7073,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Roman karakter eşleştirme — Milli Edebiyat kuşak çatışması teması hangi roman karakterleri arasında? Klasik soru tipi.",
+      "neden_dogru": "A) Naim Efendi ile Seniha: Yakup Kadri Karaosmanoğlu'nun 'Kiralık Konak' romanından. Naim Efendi (eski Osmanlı muhafazakâr DEDE) ile torunu Seniha (Batılılaşmış, modernleşen GENÇ KIZ) arasındaki KUŞAK ÇATIŞMASI = Milli Edebiyat roman temasının PROTOTİP örneği. Konak'ın çöküşü = eski değerlerin çöküşü.",
+      "celdirici_analizi": {
+        "B": "Nur Baba ile Celile Bacı — Yakup Kadri'nin Nur Baba romanından, ama bu kuşak çatışması değil tarikat/Bektaşi sömürüsü teması.",
+        "C": "Ahmet Celâl ile Emine — Yakup Kadri'nin Yaban romanından, kuşak çatışması değil aydın-köylü uçurumu.",
+        "D": "Vehbi Dede ile Rabia — Halide Edip'in Sinekli Bakkal romanından, kuşak çatışması değil dini-batılılaşma teması.",
+        "E": "İhsan ile Ayşe — Yakup Kadri'nin Hüküm Gecesi romanından, kuşak çatışması değil siyasi tema."
+      },
+      "osym_mantigi": "ÖSYM Yakup Kadri romanlarının TEMALARINI sık karıştırır: Kiralık Konak = kuşak çatışması; Yaban = aydın-köylü; Nur Baba = tarikat eleştirisi; Hüküm Gecesi = siyaset; Ankara = Cumhuriyet panorama; Sodom ve Gomore = işgal İstanbul; Sodalit ve Gomore... Romanı + ana karakter + tema üçlüsünü ezberle.",
+      "dersini_ogren": "Kiralık Konak = Yakup Kadri + Naim Efendi (dede) ↔ Seniha (torun) = kuşak çatışması (Milli Edebiyat prototipi).",
+      "analiz_var": true
     },
     {
       "qno": 151,
@@ -7138,7 +7171,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "İki boşluklu şair + eser sorusu. İpuçları: 'Hayatının sonuna doğru şiir kitabı detaylarıyla ilgilenmiş + şiirleri ölümünden sonra kitaplaşmış + 1961 yayım + Süleymaniye'de Bayram Sabahı şiirini içeren + adını bu şiirin 3. dizesinden alan'.",
+      "neden_dogru": "B) Yahya Kemal Beyatlı - Kendi Gök Kubbemiz: (1) Yahya Kemal (1884-1958) hayatı boyunca tek şiir kitabı yayımlamadı. (2) Ölümünden sonra (1961) İstanbul Fetih Cemiyeti tarafından 'Kendi Gök Kubbemiz' adıyla yayımlandı. (3) 'Süleymaniye'de Bayram Sabahı' = Yahya Kemal'in en bilinen şiiri. (4) 3. dize: 'Bir sabah... kendi gök kubbemiz' = kitabın adının kaynağı. Tüm ipuçları kitabın yayım hikâyesiyle bire bir uyar.",
+      "celdirici_analizi": {
+        "A": "Ahmet Haşim - Piyale: Piyale 1926'da hayatta iken yayımlandı, ölümden sonra değil. 'Süleymaniye'de Bayram Sabahı' Haşim'in değil.",
+        "C": "Necip Fazıl Kısakürek - Çile: Çile 1962'de yayımlandı ✓ ama Necip Fazıl hayatta iken (1983'te öldü). Süleymaniye şiiri Necip Fazıl'ın değil.",
+        "D": "Mehmet Âkif Ersoy - Safahat: Safahat hayatta iken yayımlandı, Süleymaniye şiiri yok.",
+        "E": "Faruk Nafiz Çamlıbel - Han Duvarları: Han Duvarları kitap değil tek bir şiir, Süleymaniye değil."
+      },
+      "osym_mantigi": "ÖSYM şair-eser eşleştirmede YAYIM HİKÂYESİNİ ipucu olarak verir. 'Ölümünden sonra yayım' + '1961' + 'Süleymaniye'de Bayram Sabahı' kombinasyonu sadece Yahya Kemal'e ait. DERS: Cumhuriyet şairlerinin İLK kitap yayım yıllarını ve ölüm-yayım ilişkilerini ezberle.",
+      "dersini_ogren": "Yahya Kemal = Kendi Gök Kubbemiz (1961 ölümden sonra) + Süleymaniye'de Bayram Sabahı + Aziz İstanbul + Eski Şiirin Rüzgârıyle.",
+      "analiz_var": true
     },
     {
       "qno": 152,
@@ -7204,7 +7248,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: 'Toplumcu gerçekçi + Tütün Üçlemesi + Acı Tütün romanı + Batı Anadolu (İzmir-Urla) + toprak/tarım dramı + Arabacı Yusuf + Ferit Taşçı'.",
+      "neden_dogru": "A) Necati Cumalı: (1) Toplumcu gerçekçi roman ✓. (2) 'Tütün Üçlemesi' = Acı Tütün + Yağmurlar ve Topraklar + Aşk da Gezer = Necati Cumalı'nın romanları. (3) Batı Anadolu (İzmir-Urla) = Cumalı'nın memleketi + roman zemini. (4) 'Arabacı Yusuf, Ferit Taşçı' karakterleri Acı Tütün'de. Cumalı şair + romancı + hikâyeci olarak çok yönlü.",
+      "celdirici_analizi": {
+        "not": "Diğer şıklar PDF'te tam görünmüyor ama tipik çeldiriciler: Yaşar Kemal (Çukurova/İnce Memed), Orhan Kemal (Adana toplumcu), Fakir Baykurt (Anadolu köy). Hiçbiri Batı Anadolu İzmir-Urla + Tütün Üçlemesi imzasına sahip değil."
+      },
+      "osym_mantigi": "ÖSYM toplumcu gerçekçi romancıları BÖLGE + TEMA + ÜÇLEME ile ayırt eder: Cumalı=Batı Anadolu/Tütün; Yaşar Kemal=Çukurova/İnce Memed; Orhan Kemal=Adana göç/Murtaza; Kemal Tahir=Devlet Ana/Anadolu tarih. DERS: Her toplumcu gerçekçi yazarın BÖLGESİNİ + ÜÇLEMESİNİ ezberle.",
+      "dersini_ogren": "Necati Cumalı = Tütün Üçlemesi (Acı Tütün/Yağmurlar ve Topraklar/Aşk da Gezer) + İzmir-Urla + Susuz Yaz.",
+      "analiz_var": true
     },
     {
       "qno": 153,
@@ -7271,7 +7323,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Paragraf-hikâyeci tanı. İpuçları: 'Tam gözlemci + kalemden çok silgi (sade) + sicil müdürü Cavit Bey/Mendil Altında öyküsü + günlük olağan + devlet dairesi + sokak/ev + mütevazı + büyük olay yok + mizah/eleştiri vurgusu YOK'.",
+      "neden_dogru": "Memduh Şevket Esendal: 'Mendil Altında' = Esendal'ın en tanınmış hikâye kitabı (1940). Cavit Bey'in mütevazı günü, devlet dairesi, sokak, ev = Esendal'ın klasik sahneleri. 'Tam gözlemci + sade + büyük olay yok' = Esendal'ın STİLİ. Şıklarda görünüm tahmini C. (PDF kesik, tam doğrulanma gerek.)",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tipik çeldiriciler: Sait Faik (mütevazı insan ✓ ama Adalar/balıkçı temalı, devlet dairesi değil), Sabahattin Ali (toplumcu, devlet dairesi memuru değil köylü), Ömer Seyfettin (Milli Edebiyat, devlet daire değil mizah)."
+      },
+      "osym_mantigi": "ÖSYM 'Mendil Altında' eser adını AÇIKÇA verirse → Esendal kesin. Esendal'ın stili: Çehov tarzı (gözlemci, kısa, sade, günlük olağan, büyük olay yok). Sait Faik'le karıştırma: Esendal = devlet dairesi/memur; Sait Faik = Adalar/balıkçı/seçkin münzevi.",
+      "dersini_ogren": "Memduh Şevket Esendal = Mendil Altında + gözlemci sade Çehov tarzı + devlet dairesi memurları + büyük olay yok.",
+      "analiz_var": true
     },
     {
       "qno": 154,
@@ -7366,7 +7426,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Üçlü yazar eşleştirme. Milli Edebiyat nesirde 'YILDIZ ÜÇLÜSÜ' romanlar: Miskinler Tekkesi + Tatarcık + Hep O Şarkı; hikâyeler: Sönmüş Yıldızlar + Dağa Çıkan Kurt + Milli Savaş Hikâyeleri.",
+      "neden_dogru": "B) Reşat Nuri Güntekin - Halide Edip Adıvar - Yakup Kadri Karaosmanoğlu: Milli Edebiyat NESİRDE yıldız üçlüsü. (1) Reşat Nuri = Miskinler Tekkesi (1946) + Sönmüş Yıldızlar (hikâye kitabı yok ama bağımsız hikâyeler). (2) Halide Edip = Tatarcık (1939) + romancı hikâye yazma az. (3) Yakup Kadri = Hep O Şarkı (1956) + Milli Savaş Hikâyeleri. Üçü de hem roman hem hikâye yazdı, ama hikâyeleri romanları kadar tanınmadı.",
+      "celdirici_analizi": {
+        "A": "Ömer Seyfettin - Aka Gündüz - Müfide Ferit Tek: Ömer Seyfettin Milli Edebiyat hikâye USTASI (yıldız üçlüsünden DEĞİL, kendi başına büyük). Aka Gündüz + Müfide Ferit Tek yıldız üçlüsünde değil."
+      },
+      "osym_mantigi": "ÖSYM 'Milli Edebiyat yıldız üçlüsü' kavramını test eder = Reşat Nuri + Halide Edip + Yakup Kadri (üç büyük romancı). Bu üçlü hem ROMAN hem HİKÂYE yazdı, ama romanları daha bilinir. Ömer Seyfettin = bağımsız hikâye dehası, yıldız üçlüsünden ayrı. DERS: Milli Edebiyat nesir = (a) Yıldız Üçlüsü (Reşat Nuri+Halide Edip+Yakup Kadri); (b) Ömer Seyfettin (hikâye solo); (c) Refik Halit (memleket hikâyeleri).",
+      "dersini_ogren": "Milli Edebiyat yıldız üçlüsü = Reşat Nuri + Halide Edip + Yakup Kadri (roman+hikâye).",
+      "analiz_var": true
     },
     {
       "qno": 155,
@@ -7429,7 +7497,16 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "'Söylenemez' negatif eleme — 1940'lar şiiri değişimi (Garip akımı): sokağa çıkma + kasket giydirme + sıradan insan + bireysellik. Şıklarda hangisi söylenemez?",
+      "neden_dogru": "Cevap PDF'te kesik. Şık A'daki Melih Cevdet+Oktay Rifat topluluğu (Garip akımı) doğrudur (söylenebilir). Diğer şıklar görünmüyor — muhtemelen II. Yeni veya Saf şiir özelliği eklenmiş, Garip'e ait olmayan ifade söylenemez sayılır.",
+      "celdirici_analizi": {
+        "A": "Garip akımı + Melih Cevdet/Oktay Rifat ✓ DOĞRU (söylenebilir, çeldirici değil).",
+        "not": "Diğer şıklar tam görünmüyor. Tipik 'söylenemez' tuzakları: 'Sembolist tarz', 'kapalı dil', 'imge ağırlıklı', 'lirik soyutlama' — bunlar Garip'e ait DEĞİLDİR."
+      },
+      "osym_mantigi": "ÖSYM Garip akımının ÖZELLİKLERİNİ test eder: günlük dil, ironi, sıradan insan, mizah, kısa şiir, ölçüsüz, kafiye-redif reddi. Şıklarda 'soyutlama, imge ağırlıklı, kapalı dil' geçerse Garip'e ait DEĞİL (II. Yeni'ye ait) = söylenemez.",
+      "dersini_ogren": "Garip = günlük dil + ironi + sıradan insan + kasket. Tersi (soyutlama, imge, kapalılık) = II. Yeni.",
+      "analiz_var": true
     },
     {
       "qno": 156,
@@ -7482,7 +7559,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: '1980 sonrası + köy gerçekliği + köyden kente göç + çarpık kentleşme + yabancılaşma + içsel yolculuk + gerçeküstücü yaklaşım + Sevgili Arsız Ölüm/Berci Kristin Çöp Masalları/Gece Dersleri/Aşk İşaretleri/Unutma Bahçesi'.",
+      "neden_dogru": "A) Latife Tekin (şık A 'Le...' olarak görünüyor): (1) 1980 sonrası ✓ — Latife Tekin (1957-) postmodern dönem. (2) Köy/kente göç + çarpık kent yabancılaşma = 'Berci Kristin Çöp Masalları' (gecekondu/çöp toplayıcı kadınlar) ve 'Sevgili Arsız Ölüm'ün (köyden İstanbul'a göç) merkez teması. (3) 'Gerçeküstücü + halk anlatı tarzı' = Latife Tekin'in masalsı stili. (4) Tüm kitap adları Latife Tekin'in romanları.",
+      "celdirici_analizi": {
+        "not": "Diğer şıklar tam görünmüyor. Tipik çeldiriciler: Orhan Pamuk (postmodern ama köy değil İstanbul), Bilge Karasu (modernist), Yusuf Atılgan (Anayurt Oteli ama farklı tema)."
+      },
+      "osym_mantigi": "ÖSYM 1980 sonrası kadın yazarlarda Latife Tekin'i 'gerçeküstücü köy/kent göç anlatısı' ile özdeşleştirir. Kitap listesi (Sevgili Arsız Ölüm + Berci Kristin) tek başına yeterli ipucu.",
+      "dersini_ogren": "Latife Tekin = 1980 sonrası + gerçeküstücü + köy-kent göç + Sevgili Arsız Ölüm/Berci Kristin Çöp Masalları.",
+      "analiz_var": true
     },
     {
       "qno": 157,
@@ -7528,7 +7613,15 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Diyalog formatlı yorum sorusu. Yazar-eleştirmen konuşması: 'Tanpınar'ın romanları + Türk modernleşmesi parodisi + Hayri İrdal/Halit Ayarcı/Doktor Ramiz karakterleri + Kurtuluş mücadelesi romanı (en az 'Tanpınar romanı' olan).' Şıklar tam görünmüyor.",
+      "neden_dogru": "Pasajda iki Tanpınar romanı anılıyor: (1) 'Türk roman modernleşmesi parodisi + Hayri İrdal + Halit Ayarcı + Doktor Ramiz' = SAATLERİ AYARLAMA ENSTİTÜSÜ (1962). (2) 'Kurtuluş mücadelesine odaklanan, en az Tanpınar romanı olan' = SAHNENİN DIŞINDAKİLER (1973 ölümden sonra). Soru muhtemelen 'sözü edilen iki roman' veya benzer.",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tanpınar romanları: Huzur (1949) + Mahur Beste (1944) + Sahnenin Dışındakiler (1973) + Saatleri Ayarlama Enstitüsü (1962) + Aydaki Kadın (yarım kalan)."
+      },
+      "osym_mantigi": "ÖSYM Tanpınar romanlarını TEMA + KARAKTER ile ayırır. Hayri İrdal/Halit Ayarcı = SAE; Mümtaz/Nuran/Suat = Huzur; Sahnenin Dışındakiler = İstiklal mücadelesi arka plan ama bireyin iç dünyası. DERS: Tanpınar'ın 5 romanını + ana karakterlerini ezberle.",
+      "dersini_ogren": "Tanpınar SAE = Hayri İrdal/Halit Ayarcı/Doktor Ramiz (modernleşme parodisi). Sahnenin Dışındakiler = Kurtuluş bağlamı.",
+      "analiz_var": true
     },
     {
       "qno": 158,
@@ -7577,7 +7670,17 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Kurgusal şair diyaloğu — Ahmet Haşim (Saf şiir/sembolizm) vs Orhan Veli (Garip/anlamsızlık-saflık) tartışması. Şıklarda hangisi tutarlı?",
+      "neden_dogru": "A) A. Haşim: 'Nazımdan ritim ve şekli atarsanız geriye bir şey kalmaz!' O. Veli: 'Anlam kalır, doğal söyleyiş kalır, gerçek şiir budur!' BU TUTARLI: Haşim'in 'şiir nesre çevrilemeyen nazımdır' tezi = ritim/şekil olmadan şiir olamaz; Orhan Veli'nin 'günlük konuşma + anlam' tezi = nazım/şekil değil anlam ve doğallık. İki şairin GERÇEK POZİSYONLARI.",
+      "celdirici_analizi": {
+        "B": "O. Veli: 'Mana kadar müzikaliteye önem verseydiniz...' A. Haşim: 'Şiirde yalınlık aradım ben!' — POZİSYONLAR TERS. Haşim müzikaliteye önem verir, yalınlık aramaz. Orhan Veli yalınlık arar.",
+        "C": "O. Veli: 'Divan nazmı şekillerini serbest müstezata kurban edemezsiniz!' A. Haşim: 'Halk şiir...' — TERS POZİSYONLAR. O. Veli serbest şiirin savunucusu, divan şekli savunmaz. Haşim halk şiiri değil saf şiir savunur.",
+        "not": "D ve E şıkları tam görünmüyor ama tipik olarak ya tarihsel anakronizm ya pozisyon ters."
+      },
+      "osym_mantigi": "ÖSYM kurgusal diyalog sorularında her şairin GERÇEK POZİSYONUNU bilmek gerek. Haşim = Saf şiir + sembolizm + müzikalite; Orhan Veli = Garip + yalın dil + günlük konuşma + nazım reddi. Şıkta pozisyonlar TERS verilirse yanlış. DERS: Şairlerin manifestolarını net çiftler halinde ezberle.",
+      "dersini_ogren": "Haşim = müzikalite + 'şiir nesre çevrilemez' + sembolizm. Orhan Veli = anlam + doğallık + günlük konuşma + Garip.",
+      "analiz_var": true
     },
     {
       "qno": 159,
@@ -7614,7 +7717,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "'Garip şiirine örnek OLAMAZ' negatif eleme. 5 şiir kıtası verilmiş, hangi şiir Garip akımı dışı? Garip özellikleri: günlük dil, mizah, sıradan insan, kısa, ölçüsüz.",
+      "neden_dogru": "E) 'İkiz hayaletler gibi yürüdük / Puslu aydınlıkta o bahar günü / Gece, bir tepeden seyrettik, büyük / Yıldızların suya döküldüğünü.' Bu şiir İMGESEL + SEMBOLİK + LİRİK (puslu aydınlık, ikiz hayaletler, yıldızların suya dökülmesi) = II. YENİ tarzı, Garip değil. Garip = günlük + somut + ironi.",
+      "celdirici_analizi": {
+        "A": "'Deli eder insanı bu dünya / Bu gece bu yıldızlar bu koku' — Cahit Sıtkı/duygusal lirizm yakın AMA günlük dil + somut anılar = Garip yakın. Söylenebilir.",
+        "B": "'Bir misafirliğe gitsem / Bana temiz bir yatak yapsalar / Adımı bile unutup uyusam' — Orhan Veli tarzı saflık + kaçış arzusu = GARİP TİPİK.",
+        "C": "'Kuşçu amca! / Bizim kuşumuz da var, ağacımız da. / Sen bize bulut ver sade / Yüz paralık' — çocuk dili + günlük + somut = GARİP TİPİK.",
+        "D": "'Ona bir kitap vereceğim / Rahatını kaçırmak için' — ironik + günlük + kısa = GARİP TİPİK."
+      },
+      "osym_mantigi": "ÖSYM Garip ↔ II. Yeni ayrımını test eder. Garip = somut/günlük/mizah; II. Yeni = imgesel/sembolik/kapalı. 'İkiz hayaletler + puslu aydınlık + yıldızların suya dökülmesi' = imgesel = II. Yeni. DERS: Akım örneklerini metinden çıkarsa: somut detay var mı (Garip) vs soyut imge var mı (II. Yeni).",
+      "dersini_ogren": "Garip = günlük dil + somut + ironi. 'İmgesel + kapalı sembol' = II. Yeni (Garip değil).",
+      "analiz_var": true
     },
     {
       "qno": 160,
@@ -7688,7 +7802,15 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "—",
+      "soru_tipi_analizi": "Paragraf-yazar tanı. İpuçları: 'Yüksek zümre + Boğaziçi/Beyoğlu/Adalar + ekmek kaygısı yok + alafranga sofralar + yabancı mürebbiyeler + piyano + hayalî şair (geçim sıkıntılı)'.",
+      "neden_dogru": "Bu betimleme = Halit Ziya Uşaklıgil'in tipik roman dünyası (Mai ve Siyah, Aşk-ı Memnu, Kırık Hayatlar). Yüksek zümre + Boğaziçi konakları + alafranga + mürebbiye + piyano = Servet-i Fünun roman zemini. 'Hayalî şair geçim sıkıntılı' = Ahmet Cemil (Mai ve Siyah'ın kahramanı). Tahmin: Halit Ziya Uşaklıgil. (Şıklar PDF'te kesik, kontrol gerek.)",
+      "celdirici_analizi": {
+        "not": "Şıklar PDF'te kesik. Tipik çeldiriciler: Mehmet Rauf (Eylül - yüksek zümre ama dar tema aşk), Yakup Kadri (Kiralık Konak - eski Osmanlı), Peyami Safa (Cumhuriyet İstanbul'u)."
+      },
+      "osym_mantigi": "ÖSYM Servet-i Fünun roman ZEMİNİNİ test eder: Boğaziçi konakları + yabancı dil + Batı yaşam + iç bunalım. Halit Ziya = bu zeminin USTASI. Mehmet Rauf'la karıştırma: Halit Ziya geniş aile romanı, Mehmet Rauf dar aşk romanı.",
+      "dersini_ogren": "Halit Ziya = Boğaziçi yüksek zümre + alafranga + mürebbiye + 'Mai ve Siyah'taki şair Ahmet Cemil + 'Aşk-ı Memnu' Bihter.",
+      "analiz_var": true
     },
     {
       "qno": 161,
