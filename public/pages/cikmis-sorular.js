@@ -31,6 +31,14 @@ function normalizeQuestion(raw, subject) {
     konu: raw.topic || '',
     konuLabel: raw.topic_label || raw.topic || '—',
     secenekler: raw.secenekler || null,
+    // REV18c — derin analiz alanları
+    dogru_cevap: raw.dogru_cevap || null,
+    soru_tipi_analizi: raw.soru_tipi_analizi || null,
+    neden_dogru: raw.neden_dogru || null,
+    celdirici_analizi: raw.celdirici_analizi || null,
+    osym_mantigi: raw.osym_mantigi || null,
+    dersini_ogren: raw.dersini_ogren || null,
+    analiz_var: raw.analiz_var || false,
   };
 }
 
@@ -67,7 +75,10 @@ export async function renderCikmisSorular() {
 
   const isTarih = subject === 'tarih';
   const headerTitle = isTarih ? '📋 AYT Tarih Çıkmış Sorular' : '📋 AYT Edebiyat Çıkmış Sorular';
-  const headerSub = `${questions.length} soru · 2018-2025 ÖSYM kaynağı · ${Object.values(savedAnswers).length} cevap manuel girildi`;
+  // REV18c — derin analizli soru sayısı
+  const analizliCount = questions.filter(q => q.analiz_var).length;
+  const headerSub = `${questions.length} soru · 2018-2025 ÖSYM kaynağı · ${Object.values(savedAnswers).length} cevap girildi`
+    + (analizliCount > 0 ? ` · <span class="text-ok-500 font-bold">${analizliCount} soruda derin analiz</span>` : '');
 
   window.__pageSetup = () => {
     const search = document.getElementById('csSearch');
@@ -139,9 +150,50 @@ export async function renderCikmisSorular() {
             ${q.secenekler ? `
               <div class="mt-3 space-y-1 text-sm">
                 ${q.secenekler.map(s => `
-                  <div class="flex gap-2"><span class="font-bold text-${isTarih ? 'amber' : 'primary'}-700 dark:text-${isTarih ? 'amber' : 'primary'}-100">${s.id})</span><span>${escapeHtml(s.text)}</span></div>
+                  <div class="flex gap-2 ${q.dogru_cevap === s.id ? 'bg-ok-500/15 px-2 -mx-2 py-1 rounded' : ''}"><span class="font-bold text-${isTarih ? 'amber' : 'primary'}-700 dark:text-${isTarih ? 'amber' : 'primary'}-100">${s.id})</span><span>${escapeHtml(s.text)}</span>${q.dogru_cevap === s.id ? '<span class="ml-auto text-ok-500 text-xs font-bold">✓ DOĞRU</span>' : ''}</div>
                 `).join('')}
               </div>
+            ` : ''}
+            ${q.analiz_var ? `
+              <details class="mt-3 border-t border-slate-200 dark:border-slate-700 pt-3">
+                <summary class="cursor-pointer text-sm font-bold text-primary-700 dark:text-primary-100 hover:text-accent-500">📚 ÖSYM Mantığı + Derin Analizi Aç</summary>
+                <div class="mt-3 space-y-3 text-sm">
+                  ${q.soru_tipi_analizi ? `
+                    <div class="bg-primary-500/5 border-l-4 border-primary-500 p-3 rounded-r">
+                      <strong class="text-primary-700 dark:text-primary-100">🎯 Soru Tipi Analizi</strong>
+                      <p class="mt-1 text-slate-700 dark:text-slate-300">${escapeHtml(q.soru_tipi_analizi)}</p>
+                    </div>
+                  ` : ''}
+                  ${q.neden_dogru ? `
+                    <div class="bg-ok-500/10 border-l-4 border-ok-500 p-3 rounded-r">
+                      <strong class="text-ok-700 dark:text-ok-300">✓ Neden ${q.dogru_cevap || ''} Doğru</strong>
+                      <p class="mt-1 text-slate-700 dark:text-slate-300">${escapeHtml(q.neden_dogru)}</p>
+                    </div>
+                  ` : ''}
+                  ${q.celdirici_analizi && Object.keys(q.celdirici_analizi).length ? `
+                    <div class="bg-warn-500/10 border-l-4 border-warn-500 p-3 rounded-r">
+                      <strong class="text-warn-700 dark:text-warn-300">🔍 Çeldirici Analizi</strong>
+                      <div class="mt-2 space-y-1">
+                        ${Object.entries(q.celdirici_analizi).map(([k,v]) => `
+                          <div class="text-xs"><strong class="text-warn-600 dark:text-warn-400">${k})</strong> <span class="text-slate-700 dark:text-slate-300">${escapeHtml(v)}</span></div>
+                        `).join('')}
+                      </div>
+                    </div>
+                  ` : ''}
+                  ${q.osym_mantigi ? `
+                    <div class="bg-accent-500/10 border-l-4 border-accent-500 p-3 rounded-r">
+                      <strong class="text-accent-700 dark:text-accent-300">🧠 ÖSYM'nin Mantığı</strong>
+                      <p class="mt-1 text-slate-700 dark:text-slate-300">${escapeHtml(q.osym_mantigi)}</p>
+                    </div>
+                  ` : ''}
+                  ${q.dersini_ogren ? `
+                    <div class="bg-slate-100 dark:bg-slate-800 border-l-4 border-slate-400 p-3 rounded-r">
+                      <strong class="text-slate-700 dark:text-slate-300">📝 Dersini Öğren</strong>
+                      <p class="mt-1 text-slate-700 dark:text-slate-300 italic">${escapeHtml(q.dersini_ogren)}</p>
+                    </div>
+                  ` : ''}
+                </div>
+              </details>
             ` : ''}
           </div>
         `;

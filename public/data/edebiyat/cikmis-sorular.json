@@ -51,7 +51,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 2,
@@ -87,7 +88,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 3,
@@ -125,7 +127,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 4,
@@ -168,7 +171,8 @@
           "name": "Freud",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 5,
@@ -204,7 +208,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 6,
@@ -242,7 +247,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 7,
@@ -280,7 +286,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 8,
@@ -316,7 +323,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 9,
@@ -354,7 +362,8 @@
       "tags": [
         "söylenemez"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 10,
@@ -390,7 +399,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 11,
@@ -435,7 +445,8 @@
           "name": "Shakespeare",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 12,
@@ -471,7 +482,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 13,
@@ -518,7 +530,8 @@
           "name": "Tesla",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 14,
@@ -554,7 +567,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 15,
@@ -590,7 +604,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 16,
@@ -626,7 +641,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 17,
@@ -664,7 +680,8 @@
       "tags": [
         "söylenemez"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 18,
@@ -700,7 +717,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 19,
@@ -743,7 +761,8 @@
           "name": "Yahya Kemal",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 20,
@@ -784,7 +803,8 @@
           "name": "Aristoteles",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 21,
@@ -820,7 +840,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 22,
@@ -858,7 +879,8 @@
       "tags": [
         "ulaşılamaz"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 23,
@@ -894,7 +916,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 24,
@@ -932,7 +955,8 @@
       "tags": [
         "değinilmemiştir"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 25,
@@ -968,7 +992,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 26,
@@ -1004,7 +1029,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 27,
@@ -1047,7 +1073,8 @@
           "name": "Brancusi",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 28,
@@ -1083,7 +1110,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 29,
@@ -1121,7 +1149,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 30,
@@ -1157,7 +1186,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 31,
@@ -1195,7 +1225,8 @@
       "tags": [
         "değinilmemiştir"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 32,
@@ -1231,7 +1262,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 33,
@@ -1269,7 +1301,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 34,
@@ -1312,7 +1345,8 @@
           "name": "Oğuz Atay",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 35,
@@ -1348,7 +1382,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 36,
@@ -1384,7 +1419,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 37,
@@ -1420,7 +1456,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 38,
@@ -1458,7 +1495,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 39,
@@ -1496,7 +1534,8 @@
       "tags": [
         "değinilmemiştir"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 40,
@@ -1534,7 +1573,8 @@
       "tags": [
         "boşluk-doldur"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 41,
@@ -1570,7 +1610,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 42,
@@ -1613,7 +1654,8 @@
           "name": "Mary Shelley",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 43,
@@ -1651,7 +1693,8 @@
       "tags": [
         "değinilmemiştir"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 44,
@@ -1687,7 +1730,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 45,
@@ -1723,7 +1767,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 46,
@@ -1759,7 +1804,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 47,
@@ -1795,7 +1841,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 48,
@@ -1831,7 +1878,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 49,
@@ -1874,7 +1922,8 @@
           "name": "Fuzuli",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 50,
@@ -1910,7 +1959,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 51,
@@ -1946,7 +1996,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 52,
@@ -1982,7 +2033,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 53,
@@ -2018,7 +2070,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 54,
@@ -2054,7 +2107,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 55,
@@ -2097,7 +2151,8 @@
           "name": "Köroğlu",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 56,
@@ -2133,7 +2188,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 57,
@@ -2169,7 +2225,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 58,
@@ -2205,7 +2262,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 59,
@@ -2241,7 +2299,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 60,
@@ -2277,7 +2336,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 61,
@@ -2313,7 +2373,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 62,
@@ -2349,7 +2410,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 63,
@@ -2385,7 +2447,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 64,
@@ -2421,7 +2484,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 65,
@@ -2469,7 +2533,8 @@
           "name": "Necati",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 66,
@@ -2505,7 +2570,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 67,
@@ -2541,7 +2607,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 68,
@@ -2577,7 +2644,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 69,
@@ -2613,7 +2681,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 70,
@@ -2649,7 +2718,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 71,
@@ -2685,7 +2755,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 72,
@@ -2723,7 +2794,8 @@
       "tags": [
         "ulaşılamaz"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 73,
@@ -2764,7 +2836,8 @@
           "name": "Sehi Bey",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 74,
@@ -2800,7 +2873,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 75,
@@ -2836,7 +2910,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 76,
@@ -2872,7 +2947,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 77,
@@ -2908,7 +2984,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 78,
@@ -2944,7 +3021,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 79,
@@ -2982,7 +3060,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 80,
@@ -3018,7 +3097,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 81,
@@ -3054,7 +3134,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 82,
@@ -3092,7 +3173,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 83,
@@ -3128,7 +3210,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 84,
@@ -3164,7 +3247,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 85,
@@ -3211,7 +3295,8 @@
           "name": "Kaşgarlı Mahmut",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 86,
@@ -3258,7 +3343,8 @@
           "name": "Yunus Emre",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 87,
@@ -3298,7 +3384,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 88,
@@ -3338,7 +3425,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 89,
@@ -3374,7 +3462,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 90,
@@ -3410,7 +3499,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 91,
@@ -3446,7 +3536,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 92,
@@ -3482,7 +3573,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 93,
@@ -3518,7 +3610,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 94,
@@ -3556,7 +3649,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 95,
@@ -3592,7 +3686,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 96,
@@ -3639,7 +3734,19 @@
           "name": "Fuzuli",
           "role": "in_body"
         }
-      ]
+      ],
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki boşluklu paralel kavram-eser sorusu. ÖSYM hem DİVAN KAVRAMI (yek-ahenk gazel) hem de YAZAR REPERTUARI (Fuzuli'nin mesnevisi) testi yapıyor. Bu çift soru tipi sıkça gelir: kavramı bilmek yetmez, ünlü yazarların ünlü eserlerini de bilmek gerek.",
+      "neden_dogru": "A) yek-ahenk gazel - Leyla vü Mecnun: (1) 'Yek-ahenk gazel' = tüm beyitleri aynı konuda olan gazel türü (en yaygın gazel tipi). 'Beyitler arası duygu ve düşünce birliği' tanımı tam buna oturuyor. (2) Fuzuli'nin Türkçe mesnevisi olarak en bilineni 'Leyla vü Mecnun' (Türk edebiyatının en meşhur mesnevisi). Bu iki bilgi paragraftaki tanımla bire bir eşleşiyor.",
+      "celdirici_analizi": {
+        "B": "Eylül — Mehmet Rauf'un romanı, Fuzuli'nin mesnevisi değil. 'Mesnevi' kavramına da uymuyor (Eylül roman türü).",
+        "C": "yek-avaz gazel — daha az bilinen kavram (her beyit musikalitede aynı). Bu tanım da eserle eşleşmez.",
+        "D": "Beng ü Bâde — Fuzuli'nin gerçek eseri AMA tek başına 'yek-ahenk' tanımına uyan beraber kavram yok. Yine de ayartıcı çünkü Fuzuli'ye ait.",
+        "E": "Hadîkatü's-Suedâ — Fuzuli'nin mensur eseri, mesnevi değil. Kavram-eser çiftinde uyumsuz."
+      },
+      "osym_mantigi": "ÖSYM bu soruda 'kavram + yazar repertuarı' çiftini test ediyor. Tipik tuzak: tek doğru bilgi yetmez, BOŞLUK SAYISI kadar bilgi gerekli. Aday 'Fuzuli' bağlantısını yakalasa bile mesnevi olduğunu hatırlamalı; 'mesnevi' kavramını bilse bile Fuzuli'nin Türkçesini bilmeli. Yek-ahenk gazel kavramı son 3 yılda 2 kez geldi (periyodik).",
+      "dersini_ogren": "Fuzuli'nin Leyla vü Mecnun'u Türk mesnevisinin zirvesi; yek-ahenk gazel = beyitleri aynı konuda gazel. Çift soru tipinde iki boşluğu da bağımsız doldur, sonra şıkkı eşleştir.",
+      "analiz_var": true
     },
     {
       "qno": 97,
@@ -3677,7 +3784,8 @@
       "tags": [
         "boşluk-doldur"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 98,
@@ -3739,7 +3847,8 @@
           "name": "Şeyhülislam Yahya",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 99,
@@ -3801,7 +3910,8 @@
           "name": "Zati",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 100,
@@ -3837,7 +3947,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 101,
@@ -3873,7 +3984,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 102,
@@ -3909,7 +4021,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 103,
@@ -3945,7 +4058,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 104,
@@ -4004,7 +4118,8 @@
           "name": "Baki",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 105,
@@ -4066,7 +4181,19 @@
           "name": "Naili",
           "role": "in_option"
         }
-      ]
+      ],
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Paragraf-yazar tanı sorusu. Verilen yazar tanıtım metninden hangi şairi anlattığını çıkarmak gerek. ÖSYM'nin EN SIK Divan soru tipi (8 yılda 12+ kez geldi). Anahtar: belirleyici özellikler + dönem ipuçları.",
+      "neden_dogru": "E) Nâbî: (1) '17. yüzyılda yetişmiştir' = Nabi (1642-1712, 17. yy). (2) 'Hikemî tarz kurucusu' = Nabi'nin BENZERSİZ imzası — kavram bizzat onunla anılır (didaktik/öğretici şiir). (3) 'Hikmet ve darbımesel ağırlıklı şiirler' = Hayriye'sinin tipik özelliği. (4) 'Tecrübeli devlet adamı' = Nabi gerçek hayatta vezir-i azamlık yapmıştır. 4 ipucunun hepsi sadece Nâbî'ye götürür.",
+      "celdirici_analizi": {
+        "A": "Neşâti — 17. yy ✓ ama Sebk-i Hindi temsilcisi, hikemî değil. Şitaiyye (kış kasidesi) ile ünlü.",
+        "B": "Şeyhülislam Yahya — 17. yy ✓ ama gazel + zarif aşk şairi, hikemî değil. Devlet adamı tanımına kısmen uyar (şeyhülislam).",
+        "C": "Nef'i — 17. yy ✓ ama HİCİV ustası, hikemî değil. 'Sosyal eleştiri' kelimesi Nef'i'ye doğru çekebilir AMA Nef'i kelime oyunlarına bayılır (paragrafta 'duygu ve hayal ve kelime oyunlarından çok' deniyor → Nef'i değil).",
+        "D": "Nâilî — 17. yy ✓ ama Sebk-i Hindi'nin Türkçedeki büyük temsilcisi (Hint tarzı), hikemî değil. Kapalı/sembolik tarz."
+      },
+      "osym_mantigi": "ÖSYM bu paragraf-tanı sorusunda 4 çeldiriciyi de aynı yüzyıldan (17. yy) seçerek 'dönem' ipucunu nötr hale getirdi. Ayırım sadece TARZ üzerinden — hikemî tarz = Nabi (öğretici, atasözlü, didaktik). DERS: Yüzyıl bilmek yetmez, akım/tarz isimlerini ezberle. Hikemî = Nâbî sloganı.",
+      "dersini_ogren": "Nâbî = hikemî tarz (didaktik) + 17. yy + Hayriye (oğluna nasihat mesnevisi). 'Bir şairi öğüt verirken hayal eder' → Nabi.",
+      "analiz_var": true
     },
     {
       "qno": 106,
@@ -4102,7 +4229,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 107,
@@ -4138,7 +4266,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 108,
@@ -4209,7 +4338,8 @@
           "name": "Süleyman Çelebi",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 109,
@@ -4250,7 +4380,8 @@
           "name": "Nedim",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 110,
@@ -4288,7 +4419,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 111,
@@ -4324,7 +4456,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 112,
@@ -4389,7 +4522,8 @@
           "name": "Nef'i",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 113,
@@ -4448,7 +4582,8 @@
           "name": "Ahmet Paşa",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 114,
@@ -4501,7 +4636,8 @@
           "name": "Yusuf Has Hacip",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 115,
@@ -4541,7 +4677,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 116,
@@ -4607,7 +4744,8 @@
           "name": "Hayali Bey",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 117,
@@ -4645,7 +4783,8 @@
       ],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 118,
@@ -4681,7 +4820,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 119,
@@ -4743,7 +4883,8 @@
           "name": "Mevlana",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 120,
@@ -4812,7 +4953,8 @@
           "name": "Hacı Bayram Veli",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 121,
@@ -4857,7 +4999,8 @@
           "name": "Fuzuli",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 122,
@@ -4919,7 +5062,8 @@
           "name": "Hamdullah Hamdi",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 123,
@@ -4955,7 +5099,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 124,
@@ -5002,7 +5147,8 @@
           "name": "Şinasi",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 125,
@@ -5082,7 +5228,8 @@
           "name": "Nabizade Nazım",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 126,
@@ -5162,7 +5309,8 @@
           "name": "Molière",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 127,
@@ -5212,7 +5360,8 @@
           "name": "Namık Kemal",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 128,
@@ -5248,7 +5397,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 129,
@@ -5290,7 +5440,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 130,
@@ -5367,7 +5518,8 @@
           "name": "Şemsettin Sami",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 131,
@@ -5436,7 +5588,8 @@
           "name": "Ziya Paşa",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 132,
@@ -5509,7 +5662,8 @@
           "name": "Samipaşazade Sezai",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 133,
@@ -5572,7 +5726,8 @@
           "name": "Abdülhak Hamit Tarhan",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 134,
@@ -5611,7 +5766,8 @@
       ],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 135,
@@ -5677,7 +5833,8 @@
           "name": "Yakup Kadri Karaosmanoğlu",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 136,
@@ -5730,7 +5887,8 @@
           "name": "Abdülhak Hamit",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 137,
@@ -5768,7 +5926,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 138,
@@ -5831,7 +5990,8 @@
           "name": "Hüseyin Rahmi Gürpınar",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 139,
@@ -5902,7 +6062,8 @@
           "name": "Yahya Kemal Beyatlı",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 140,
@@ -5974,7 +6135,8 @@
           "name": "Tevfik Fikret",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 141,
@@ -6059,7 +6221,8 @@
           "name": "Reşat Nuri Güntekin",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 142,
@@ -6151,7 +6314,8 @@
           "name": "Süleyman Nazif",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 143,
@@ -6187,7 +6351,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 144,
@@ -6256,7 +6421,8 @@
           "name": "Ziya Gökalp",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 145,
@@ -6294,7 +6460,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 146,
@@ -6359,7 +6526,8 @@
           "name": "Aka Gündüz",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 147,
@@ -6403,7 +6571,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 148,
@@ -6478,7 +6647,8 @@
           "name": "Ahmet Hikmet Müftüoğlu",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 149,
@@ -6545,7 +6715,8 @@
           "name": "Tarık Buğra",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 150,
@@ -6585,7 +6756,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 151,
@@ -6671,7 +6843,8 @@
           "name": "Necip Fazıl",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 152,
@@ -6736,7 +6909,8 @@
           "name": "Yaşar Kemal",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 153,
@@ -6802,7 +6976,8 @@
           "name": "Orhan Kemal",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 154,
@@ -6896,7 +7071,8 @@
           "name": "Falih Rıfkı Atay",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 155,
@@ -6958,7 +7134,8 @@
           "name": "Melih Cevdet",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 156,
@@ -7010,7 +7187,8 @@
           "name": "Pınar Kür",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 157,
@@ -7055,7 +7233,8 @@
           "name": "Ahmet Hamdi Tanpınar",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 158,
@@ -7103,7 +7282,8 @@
           "name": "Orhan Veli",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 159,
@@ -7139,7 +7319,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 160,
@@ -7212,7 +7393,8 @@
           "name": "Halit Ziya Uşaklıgil",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 161,
@@ -7273,7 +7455,8 @@
           "name": "Nâzım Hikmet",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 162,
@@ -7331,7 +7514,8 @@
           "name": "Cevat Fehmi Başkut",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 163,
@@ -7405,7 +7589,8 @@
           "name": "Enis Behiç Koryürek",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 164,
@@ -7471,7 +7656,8 @@
           "name": "Bedri Rahmi Eyüboğlu",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 165,
@@ -7516,7 +7702,8 @@
           "name": "Adalet Ağaoğlu",
           "role": "in_body"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 166,
@@ -7580,7 +7767,8 @@
           "name": "Halit Fahri Ozansoy",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 167,
@@ -7649,7 +7837,8 @@
           "name": "Halikarnas Balıkçısı",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 168,
@@ -7710,7 +7899,8 @@
           "name": "Sezai Karakoç",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 169,
@@ -7750,7 +7940,8 @@
       ],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 170,
@@ -7822,7 +8013,8 @@
           "name": "Fazıl Hüsnü Dağlarca",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 171,
@@ -7858,7 +8050,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 172,
@@ -7920,7 +8113,8 @@
           "name": "Attila İlhan",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 173,
@@ -7956,7 +8150,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 174,
@@ -7992,7 +8187,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 175,
@@ -8028,7 +8224,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 176,
@@ -8064,7 +8261,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 177,
@@ -8100,7 +8298,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 178,
@@ -8138,7 +8337,8 @@
       ],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 179,
@@ -8176,7 +8376,8 @@
       "tags": [
         "söylenemez"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 180,
@@ -8219,7 +8420,8 @@
           "name": "Köroğlu",
           "role": "in_option"
         }
-      ]
+      ],
+      "analiz_var": false
     },
     {
       "qno": 181,
@@ -8257,7 +8459,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 182,
@@ -8293,7 +8496,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 183,
@@ -8331,7 +8535,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 184,
@@ -8367,7 +8572,8 @@
       "mentioned_works": [],
       "mentioned_movements": [],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 185,
@@ -8411,7 +8617,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 186,
@@ -8454,7 +8661,8 @@
         "egzistansiyalizm"
       ],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 187,
@@ -8498,7 +8706,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 188,
@@ -8542,7 +8751,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 189,
@@ -8587,7 +8797,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 190,
@@ -8632,7 +8843,8 @@
       "tags": [
         "boşluk-sıralı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 191,
@@ -8676,7 +8888,8 @@
       "tags": [
         "paragraf-tanı"
       ],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     },
     {
       "qno": 192,
@@ -8718,7 +8931,8 @@
         "dadaizm"
       ],
       "tags": [],
-      "siklar_yazarlari": []
+      "siklar_yazarlari": [],
+      "analiz_var": false
     }
   ]
 }

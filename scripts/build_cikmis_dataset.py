@@ -14,6 +14,8 @@ SRC = BASE / 'annotated_questions.json'
 OUT = Path(__file__).parent.parent / 'public' / 'data' / 'edebiyat' / 'cikmis-sorular.json'
 # REV17: M1.a şık yazarları
 ALL_AUTHORS_IN_Q = BASE / 'data' / 'all_authors_in_questions.json'
+# REV18c: insan-yazılı derin analiz (her soruya dogru_cevap + 5 analiz alanı)
+ANALIZ_PATH = BASE / 'data' / 'cikmis_sorular_analiz.json'
 
 
 def parse_options(raw_text):
@@ -58,6 +60,18 @@ def main():
     src = json.loads(SRC.read_text(encoding='utf-8'))
     questions = src['questions']
     print(f"Kaynak: {len(questions)} soru")
+
+    # REV18c — İnsan-yazılı derin analiz lookup
+    analiz_lookup = {}  # {"YYYY-N": {...}}
+    analiz_count = 0
+    if ANALIZ_PATH.exists():
+        try:
+            adata = json.loads(ANALIZ_PATH.read_text(encoding='utf-8'))
+            analiz_lookup = adata.get('sorular', {})
+            analiz_count = len(analiz_lookup)
+            print(f"  REV18c: {analiz_count} sorunun derin analizi yüklendi")
+        except Exception as e:
+            print(f"⚠ cikmis_sorular_analiz okunamadı: {e}")
 
     # REV17 — M1.a şık yazarlarını qno → [authors] indeksi olarak yükle
     sik_yazarlari = {}  # {(year, qno): [{name, role}]}
@@ -106,6 +120,19 @@ def main():
             # REV17 — şık metinlerindeki tüm yazarlar (mentioned_authors eksiklerini tamamlar)
             'siklar_yazarlari': sik_yazarlari.get((q['year'], q['question_no']), []),
         }
+        # REV18c — insan-yazılı derin analiz merge
+        analiz_key = f"{q['year']}-{q['question_no']}"
+        if analiz_key in analiz_lookup:
+            a = analiz_lookup[analiz_key]
+            parsed['dogru_cevap'] = a.get('dogru_cevap')
+            parsed['soru_tipi_analizi'] = a.get('soru_tipi_analizi')
+            parsed['neden_dogru'] = a.get('neden_dogru')
+            parsed['celdirici_analizi'] = a.get('celdirici_analizi', {})
+            parsed['osym_mantigi'] = a.get('osym_mantigi')
+            parsed['dersini_ogren'] = a.get('dersini_ogren')
+            parsed['analiz_var'] = True
+        else:
+            parsed['analiz_var'] = False
         output['questions'].append(parsed)
         if opts:
             parsed_ok += 1
