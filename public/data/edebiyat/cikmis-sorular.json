@@ -3586,7 +3586,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Eser-özellik eşleştirme NEGATİF sorusu — 'hangi iki eser DIŞTA kalır?'. 5 eser var, 3 özellik veriliyor. Eşleşmeyen iki eseri bulmak gerek.",
+      "neden_dogru": "C) II ve III (Muhakemetü'l Lugateyn + Atabetü'l Hakayık): (1) Verilen 3 özellik: Yesevi divanı, Kaşgarlı sözlük, Oğuz hikayeleri. Bunlar sırayla I (Divan-ı Hikmet ✓), V (Divânu Lugâti't-Türk ✓), IV (Dede Korkut Kitabı ✓) ile eşleşir. (2) II (Muhakemetü'l Lugateyn = Ali Şir Nevai'nin Türkçe-Farsça mukayese eseri) ve III (Atabetü'l Hakayık = Edip Ahmet Yükneki'nin ahlak kitabı) özellikleri verilmedi — bunlar DIŞTA kalır.",
+      "celdirici_analizi": {
+        "A": "I ve II — Divan-ı Hikmet (I) Yesevi özelliğiyle eşleşiyor, dışta kalmaz.",
+        "B": "I ve IV — Dede Korkut (IV) Oğuz hikayeleri özelliğiyle eşleşiyor, dışta kalmaz.",
+        "D": "III ve V — Divânu Lugati't-Türk (V) Kaşgarlı sözlük özelliğiyle eşleşiyor, dışta kalmaz.",
+        "E": "IV ve V — Dede Korkut (IV) ve DLT (V) ikisi de özelliklerle eşleşir, dışta kalmaz."
+      },
+      "osym_mantigi": "ÖSYM İslamiyet öncesi/geçiş dönemi 6 büyük eserin (DİVANU LUGATİT-TÜRK, KUTADGU BİLİG, ATABETÜ'L HAKAYIK, DİVAN-I HİKMET, DEDE KORKUT, MUHAKEMETÜ'L LUGATEYN) yazar-özellik üçlemesini test eder. Her birinin yazarı + içerik özelliği + dönemi ezbere bilinmeli.",
+      "dersini_ogren": "Geçiş dönemi 6 eserin yazarı: DLT-Kaşgarlı, KB-Yusuf Has Hacib, Atabetü'l Hakayık-Edip Ahmet, Divan-ı Hikmet-Ahmet Yesevi, Dede Korkut-anonim, Muhakemetü'l Lugateyn-Ali Şir Nevai.",
+      "analiz_var": true
     },
     {
       "qno": 86,
@@ -3634,7 +3645,18 @@
           "role": "in_body"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Boşluk doldurma — yazar (Yunus Emre) + tür (mesnevi + mensur birleşik) + tema (insan-ı kamil, akıl-iman) verilince eser tek seçimle bulunur.",
+      "neden_dogru": "D) Risaletü'n-Nushiye: (1) Yunus Emre'nin TEK MESNEVİSİ. 1307'de yazılmış, 600+ beyit. (2) Mesnevi ile başlayıp mensur (nesir) bölümle devam etme özelliği bu esere özgü. (3) İnsan-ı kamil olma yolu, akıl-iman üzerine didaktik içerik — Yunus'un tasavvuf öğretisini sistematik veren eser. (4) Diğer bilinen Yunus Emre eseri Divan'dır; risale türü olan budur.",
+      "celdirici_analizi": {
+        "A": "Divan-ı Hikmet — Ahmet Yesevi'nin eseri, Yunus Emre'nin değil.",
+        "B": "Kutadgu Bilig — Yusuf Has Hacib'in eseri (11. yy Karahanlı), Yunus'la ilgisi yok.",
+        "C": "Atabetü'l Hakayık — Edip Ahmet Yükneki'nin eseri (12. yy), yine Yunus dışı.",
+        "E": "Vesiletü'n Necât — Süleyman Çelebi'nin Mevlid'i (15. yy), Yunus'un eseri değil."
+      },
+      "osym_mantigi": "ÖSYM yazar-eser eşleştirmesinde 'mesnevi başlayıp nesir devam etme' gibi YAPISAL özelliği ipucu olarak verir. Aday hem Yunus'un eserlerini hem Vesiletü'n Necat'ın Süleyman Çelebi'ye ait olduğunu bilmeli. Geçiş dönemi büyük eserlerinin yazar ataması kritik.",
+      "dersini_ogren": "Risaletü'n-Nushiye = Yunus Emre'nin tek mesnevisi (mesnevi+nesir birleşik). Divan-ı Hikmet=Yesevi, KB=Yusuf, Atabetü'l Hakayık=Edip Ahmet, Mevlid=Süleyman Çelebi.",
+      "analiz_var": true
     },
     {
       "qno": 87,
@@ -3675,7 +3697,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Kutadgu Bilig'in 4 alegorik kahramanını eşleştirme. ADALET-SAADET-AKIL-AKIBET kavramlarının sembolik adları: Kün Togdı, Ay Toldı, Öğdülmiş, Odgurmış. Ezber soru — Kutadgu Bilig'in temel yapı bilgisi.",
+      "neden_dogru": "B) Kün Togdı - Ay Toldı - Öğdülmiş - Odgurmış: (1) Kün Togdı (Gün doğdu) = HAKAN = ADALETİ temsil eder. (2) Ay Toldı (Ay doldu) = VEZİR = SAADETİ temsil. (3) Öğdülmiş (Övülmüş) = bilge danışman, AKIL — Ay Toldı'nın oğlu, saadetten türeyen. (4) Odgurmış (Uyanmış) = zahit, AKIBET, hakanın görev tekliflerini reddeden. Birebir sırayla şıkta verilmiş.",
+      "celdirici_analizi": {
+        "A": "Kün Togdı - Odgurmış - Ay Toldı - Öğdülmiş — 2. ve 3. yer karışmış (Saadet=Ay Toldı, Akıl=Öğdülmiş olmalı).",
+        "C": "Odgurmış başta — Adalet=Hakan=Kün Togdı olmalı, Odgurmış zahit.",
+        "D": "Odgurmış başta + Öğdülmiş 2'de — başlangıç yanlış.",
+        "E": "Kün Togdı - Ay Toldı - Odgurmış - Öğdülmiş — son ikisi yer değiştirmiş (Akıl=Öğdülmiş, Akıbet=Odgurmış)."
+      },
+      "osym_mantigi": "ÖSYM Kutadgu Bilig'in dört alegorik karakteri TEMEL EZBER bilgisidir — eserin omurgası budur. Kavramların sırası (Adalet-Saadet-Akıl-Akıbet) + Türkçe adların sırası (Kün Togdı-Ay Toldı-Öğdülmiş-Odgurmış) doğru eşleşmeli. Geçiş döneminin en önemli eseri için bu detay mutlak bilgi.",
+      "dersini_ogren": "Kutadgu Bilig 4 sembol: Kün Togdı=Adalet/Hakan, Ay Toldı=Saadet/Vezir, Öğdülmiş=Akıl/Bilge, Odgurmış=Akıbet/Zahit.",
+      "analiz_var": true
     },
     {
       "qno": 88,
@@ -3716,7 +3749,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Eser tanıma — özellikler verilmiş: XII. yy + manzum ahlak + Allah/Hz. Muhammed/4 halife övgüsü + giriş beyit + asıl dörtlük + ilim/cömertlik teması. Bu kombinasyon TEK esere işaret eder.",
+      "neden_dogru": "A) Atabetü'l Hakayık: (1) XII. yy. Karahanlı dönemi — Edip Ahmet Yükneki'nin eseri. (2) MANZUM AHLAK kitabı — başlıca özelliği. (3) Allah, Muhammed, dört halife ÖVGÜ + devlet büyüğü (Muhammed Dad İspehsalar Bey) övgüsü — eserin giriş bölümünün tipik içeriği. (4) Giriş BEYİT, asıl bölüm DÖRTLÜK — Atabetü'l Hakayık'ın eşsiz yapısal özelliği. (5) Konular: ilim, cömertlik, alçakgönüllülük, zamanın bozukluğu — Edip Ahmet'in temel temaları.",
+      "celdirici_analizi": {
+        "B": "Divan-ı Hikmet — Ahmet Yesevi'nin (XII. yy aynı dönem) tasavvufi hikmetler kitabı; manzum AMA dörtlük yapısı dini-tasavvufi şiir, giriş beyit-asıl dörtlük yapısı yok.",
+        "C": "Divânu Lugati't-Türk — Kaşgarlı'nın Türkçe sözlüğü; nesir, ahlak kitabı değil.",
+        "D": "Mukaddimetü'l-Edep — Zemahşeri'nin Arapça sözlüğü/lugat kitabı; manzum ahlak değil.",
+        "E": "Kutadgu Bilig — Yusuf Has Hacib'in eseri (XI. yy), manzum AMA mesnevi (beyit) yapısında, dörtlük asıl bölüm değil."
+      },
+      "osym_mantigi": "ÖSYM geçiş döneminde 4-5 büyük eseri DETAY ÖZELLİKLERLE ayırt etmeyi test eder. Atabetü'l Hakayık'ın AYIRT EDİCİ özelliği 'giriş beyit + asıl dörtlük' yapısı + 'manzum ahlak' kimliği. Bu yapısal detayı bilen aday Divan-ı Hikmet (sadece dörtlük), Kutadgu Bilig (sadece beyit) ile karıştırmaz.",
+      "dersini_ogren": "Atabetü'l Hakayık = Edip Ahmet + XII. yy + manzum ahlak + giriş BEYİT + asıl DÖRTLÜK + ilim/cömertlik/alçakgönüllülük teması.",
+      "analiz_var": true
     },
     {
       "qno": 89,
@@ -3753,7 +3797,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Dörtlüğün nazım türünü bulma sorusu. Halk şiirinde NAZIM ŞEKLİ (koşma, semai, varsağı) ile NAZIM TÜRÜ (güzelleme, koçaklama, taşlama, nutuk, devriye, münacat) ayrımı kritik. Bu soruda nazım TÜRÜ isteniyor — yani konu/içerik bakımından sınıflandırma.",
+      "neden_dogru": "A) Nutuk: (1) Dörtlük doğrudan ÖĞÜT veriyor — 'Edebli ol çün isen / Hakk'ı bil insan isen / Var edeb öğren edeb'. (2) Nutuk = tarikat öğretilerini, din-tasavvuf yolunu, edep adabını anlatan dini-tasavvufi nazım türü. (3) Yunus Emre, Pir Sultan, Niyazi-i Mısri gibi tekke şairleri nutuklar yazmıştır. 'Edep' temalı, didaktik, emredici ton = klasik nutuk özelliği.",
+      "celdirici_analizi": {
+        "B": "Devriye — kainatın Hak'tan çıkıp Hak'a dönüşünü anlatan tasavvufi tür. Burada vücud-i mutlak felsefesi yok, sadece öğüt var.",
+        "C": "Şathiye — dini-mizahi, halkça anlaşılmaz görünen ironik söyleyiş. Bu dörtlük ironi yok, düz öğüt.",
+        "D": "Güzelleme — sevgili, doğa, kahraman övgüsü. Konu uymuyor.",
+        "E": "Münacaat — sadece Allah'a yakarış. Burada hitap insanlara, münacaat değil."
+      },
+      "osym_mantigi": "ÖSYM nazım türü sorularında konu/içerik kelimesiyle türün tanımı arasındaki birebir eşleşmeyi test eder. 'Edep öğren' = öğüt = nutuk. Aday önce her şıkkın tanımını bilmeli, sonra dörtlükteki temayı tespit edip eşleştirmeli. Tekke edebiyatının türleri (nutuk, devriye, şathiye, ilahi, münacat, nefes) ezbere bilinmeli.",
+      "dersini_ogren": "Öğüt + dini-tasavvufi + edep teması = NUTUK. Devriye'yle karıştırma — devriye 'kainat döngüsü' anlatır.",
+      "analiz_var": true
     },
     {
       "qno": 90,
@@ -3790,7 +3845,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Mâni dize sıralama sorusu. Mâni özellikleri: 7 heceli, aaxa kafiye, ilk iki dize DOLDURMA (anlamca esas konuyla ilgisiz), son iki dize ASIL DUYGU/KONU. Bu yapı bilinmezse soru çözülemez.",
+      "neden_dogru": "D) III - II - I - IV: (1) III. 'Su gelir deste gider' + II. 'Sağ gelen hasta gider' = doldurma dizeleri (su/sağ → ses oyunu, anlamsal bağlantısız). (2) I. 'Ayrılır dosta gider' + IV. 'Gurbet yansın yıkılsın' = ASIL TEMA: ayrılık/gurbet acısı. (3) aaxa düzeni: 'gider-gider-gider-yıkılsın' → ilk üçü aynı redif, son farklı — uyuyor.",
+      "celdirici_analizi": {
+        "A": "I-II-IV-III: III. son'a koymak doldurmayı arkaya atar, mâni yapısı tersine döner.",
+        "B": "I-III-II-IV: 'Ayrılır dosta gider' başa konursa doldurma değil esas dize başta olur — mâni mantığı bozulur.",
+        "C": "III-I-IV-II: II. 'Sağ gelen hasta gider' doldurma sona giderse ASIL konu (gurbet) ortada kalır, kafiye düzeni bozulur.",
+        "E": "IV-II-I-III: IV. esas dize başa gelirse mâninin doldurma-konu yapısı tersine, kafiye düzeni bozulur."
+      },
+      "osym_mantigi": "ÖSYM bu tip sorularda nazım şeklinin İÇ YAPI bilgisini test eder. Mâni'nin ezber özelliklerinden biri 'ilk iki dize doldurma' — bu bilinmeden soru çözülemez. Sıralama soruları kafiye + anlam akışı çift kontrol ister: aaxa düzeni + tematik bütünlük.",
+      "dersini_ogren": "Mâni = aaxa + 7 hece + ilk 2 doldurma, son 2 asıl konu. Doldurma dizeleri ses uyumu için, anlam taşımaz.",
+      "analiz_var": true
     },
     {
       "qno": 91,
@@ -3827,7 +3893,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Cinaslı mâni tamamlama sorusu. Cinaslı mâni = kesik mâni; baş dize bir kelime (cinas), kafiyeleri SES BENZER ama ANLAM FARKLI sözcüklerle kurulu. Bu yapı yakalanırsa şık bulunur.",
+      "neden_dogru": "A) Oyarsın - 'o yarsın' - 'uyarsın': (1) Verilen 'yarsın' (sevgili-sın eki); A'daki 'oyarsın' (oymak fiili) + 'o yarsın' (sevgili) — SES AYNI, ANLAM FARKLI = klasik cinas. (2) 'Şirin-Ferhat' temasıyla anlam bütünlüğü de kuruluyor. (3) Cinas oluşumunun en somut örneği bu — diğer şıklarda cinas yok.",
+      "celdirici_analizi": {
+        "B": "'yarsın-uyarsın-yarsın' — kafiye var ama 'yarsın' iki kez aynı anlamda, cinas YOK.",
+        "C": "'sevda-sevda-vefa' — düz kafiye, cinas özelliği yok.",
+        "D": "'kalsın-olsun-dönedursun' — kafiye uyumsuz, cinas hiç yok.",
+        "E": "'sevda-sevda-sarsın' — yine cinas değil, basit ses tekrarı."
+      },
+      "osym_mantigi": "ÖSYM cinas sorularında 'aynı ses farklı anlam' tanımının somut örnekle eşleşmesini ister. Aday cinası tanımdan hareketle değil ÖRNEKTEN tanıyabilmeli. 'Oyarsın/o yarsın' gibi tarihi cinas örneklerini ezbere bilen aday avantajlı.",
+      "dersini_ogren": "Cinas = ses aynı, anlam farklı. 'Oyarsın' (fiil) vs 'o yarsın' (sevgili) klasik halk şiiri cinası.",
+      "analiz_var": true
     },
     {
       "qno": 92,
@@ -3864,7 +3941,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Aşık edebiyatı nazım şekli tanıma sorusu. Varsağı = aşık şiiri biçimi, 8 hece, mertçe/yiğitçe eda, 'bre/behey' nidaları, Karacaoğlan ve Dadaloğlu'nun favori biçimi. İçerikte savaş, isyan, mertlik temaları.",
+      "neden_dogru": "E) 'Düşman geldi tabur tabur dizildi / Tüfek icad oldu mertlik bozuldu / Eğri kılıç kında paslanmalıdır' — bu DADALOĞLU'NUN MEŞHUR VARSAĞISI. Mertlik kaybı, tüfek-kılıç karşıtlığı, kahramanca eda + 11 heceli, dörtlük yapısı. Tipik varsağı içeriği — yiğitçe söyleyiş.",
+      "celdirici_analizi": {
+        "A": "'Şol salınıp giden dilber / Boyuna kurban olduğum' — GÜZELLEME (sevgili övgüsü), aşk teması, varsağı değil.",
+        "B": "'Dağlarda gezer oldum / Bir güzel uğruna gazel oldum' — KOŞMA/GÜZELLEME, aşk-doğa teması.",
+        "C": "'Yürü bire yalan dünya / Sana konan göçer bir gün' — TAŞLAMA/NEFES, dünya eleştirisi, varsağı eda değil.",
+        "D": "'Cümlenin Halık'ı her yerde hazır / Kalp gözüyle dört yanına iyce bak' — DİNİ-TASAVVUFİ ÖĞÜT, nutuk, varsağı değil."
+      },
+      "osym_mantigi": "ÖSYM aşık edebiyatı türleri arasında AYRIM testi yapıyor: koşma (aşk-doğa), semai (lirik, 8 hece), varsağı (yiğitçe), destan (uzun, olay anlatımı). Tema + söyleyiş + hece sayısı üçlü kontrol gerek. Varsağı = 'mertlik-savaş-isyan' eda.",
+      "dersini_ogren": "Varsağı = yiğitçe söyleyiş + 8 hece + 'bre/behey' nidaları. Dadaloğlu'nun 'tüfek icad oldu mertlik bozuldu' klasik varsağı.",
+      "analiz_var": true
     },
     {
       "qno": 93,
@@ -3901,7 +3989,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "NEGATİF eleme sorusu — 'felek kişileştirilmiyor' olanı bul. Açıklama: felek = kader, talihsizlik kaynağı, halk şiirinde sıkça KİŞİLEŞTİRİLİR (teşhis sanatı) ve hesap sorulur. Burada teşhis olmayan dörtlük aranıyor.",
+      "neden_dogru": "E) 'Düşünce gönlüme o güzel melek / Ahımdan sarsılır kubbe-i felek' — burada 'felek' kelimesi GÖK KUBBESİ anlamında, kainatın bir parçası olarak kullanılmış. 'Kubbe-i felek' = gök kubbesi (eski tabirden). KİŞİLEŞTİRME YOK; teşhis sanatı yok. Sadece mecazi atıf.",
+      "celdirici_analizi": {
+        "A": "'Felek bu dertleri taktı peşime' — felek dertleri 'takıyor', kişileştirme VAR.",
+        "B": "'Felek senden kime feryat edeyim' — feleğe SESLENİYOR, hesap soruyor — kişileştirme VAR.",
+        "C": "'Felek biçer demedim mi' — felek 'biçer' (hasat eder), kişileştirme VAR.",
+        "D": "'Buz etmeye gerek var mı ah felek' — feleğe SİTEM, 'ah felek' nidası, kişileştirme VAR."
+      },
+      "osym_mantigi": "ÖSYM 'olumsuz' sorularında 4 şık aynı özelliği gösterirken 1 şık o özelliği taşımaz. Aday önce ortak özelliği (kişileştirme) doğrulamalı, sonra istisnayı tek tek elemeli. 'Kubbe-i felek' tabiri klasik divan/halk şiiri ifadesi — 'gök kubbesi' anlamında nötr atıf.",
+      "dersini_ogren": "Kişileştirme = nesneye INSANI EYLEM verme (taktı, biçer, feryat ettim). 'Kubbe-i felek' kişileştirme değil, gök kubbe için tabir.",
+      "analiz_var": true
     },
     {
       "qno": 94,
@@ -3940,7 +4039,18 @@
         "paragraf-tanı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Halk hikayesi tanıma sorusu — özet üzerinden eseri çıkar. Anahtar motifler: İsfahan + hükümdar/keşiş + elma fidanı + Ahmet Mirza + Kara Sultan + söz verme. Bu hikaye envanteri (Ferhat-Şirin, Kerem-Aslı, Leyla-Mecnun, Arzu-Kamber, Tahir-Zühre) içinde tek tek aranır.",
+      "neden_dogru": "E) Tahir ile Zühre: (1) Klasik halk hikayesi; İsfahan'da hükümdar ile veziri/keşişin çocuklarının evlendirilmesi sözü. (2) ELMA fidanı motifi Tahir ile Zühre'nin başlangıç sahnesidir — ihtiyar derviş, çocuksuz çiftlere elma verir. (3) Hükümdarın oğlu Tahir, vezirin kızı Zühre — sonradan ayrı düşerler, hikaye trajik aşk olarak gelişir. Ahmet Mirza/Kara Sultan eserin başlangıç adlandırması varyantlarından.",
+      "celdirici_analizi": {
+        "A": "Ferhat ile Şirin — Ferhat'ın dağ delmesi motifi, İran/Azeri kökenli, elma motifi yok.",
+        "B": "Kerem ile Aslı — Türk-Ermeni aşkı, kül olma sonu, hükümdar/keşiş motifi yok.",
+        "C": "Leyla ile Mecnun — Arap kökenli, Necd çölü mekanı, çocuksuzluk/elma motifi yok.",
+        "D": "Arzu ile Kamber — Türkmen halk hikayesi, çoban hikayesi, hükümdar İsfahan motifi yok."
+      },
+      "osym_mantigi": "ÖSYM halk hikayesi sorularında MOTİF + ŞAHIS ADI çiftiyle eseri çıkartmayı test eder. Aday 5 büyük halk hikayesinin özet motiflerini ezbere bilmeli: Ferhat (dağ delme), Kerem (kül), Leyla (çöl), Arzu-Kamber (çoban), Tahir-Zühre (İsfahan/elma).",
+      "dersini_ogren": "Tahir ile Zühre = İsfahan'da hükümdar+vezir/keşiş çocuklarının evlendirilmesi sözü + elma fidanı motifi.",
+      "analiz_var": true
     },
     {
       "qno": 95,
@@ -7124,7 +7234,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Edebi dönem özellik eşleştirme. 4 özellik veriliyor: sade dil + hitabet tonu + didaktik + hece-halk nazım biçimleri. Bu kombinasyon TEK bir döneme tam uyar.",
+      "neden_dogru": "A) Milli Edebiyat: (1) 'Sade dil' = Genç Kalemler 'Yeni Lisan' hareketi (Ali Canip, Ömer Seyfettin, Ziya Gökalp). (2) 'Hitabet tonu + didaktik' = Mehmet Akif, Mehmet Emin Yurdakul, Ziya Gökalp'in toplumcu eda. (3) 'Hece vezni + halk biçimleri' = Milli Edebiyat'ın temel programı (aruz reddi, halk şiiri biçimleri benimsenmesi). 4 özellik birden bu döneme oturuyor.",
+      "celdirici_analizi": {
+        "B": "Servet-i Fünun — aruz vezni, ağır dil (Arapça-Farsça terkipler), sembolizm. Tam tersi.",
+        "C": "Garip Hareketi — serbest şiir, ölçü yok, kafiye yok. Hece YOK.",
+        "D": "Tanzimat — bireysel/toplumsal karışık, aruz hakim, hece az. Tam uymuyor.",
+        "E": "Fecr-i Âti — bireysel, sembolist, ağır dil. Karşı kutup."
+      },
+      "osym_mantigi": "ÖSYM dönem sorularında ÇOKLU ÖZELLİK eşleşmesi ister — 1 özellik birkaç döneme uyabilir, 4 birden TEK döneme oturur. Aday 'sade dil' Tanzimat'ta da var diye karıştırmamalı; 'hece + halk biçimleri' SADECE Milli Edebiyat'ın programı. Tarihsel olarak Milli Edebiyat'ın ÇEKİRDEK ÖZELLİKLERİ ezbere bilinmeli.",
+      "dersini_ogren": "Milli Edebiyat = sade Türkçe + hece + halk biçimleri + didaktik/toplumcu eda. Yeni Lisan hareketi temelidir.",
+      "analiz_var": true
     },
     {
       "qno": 144,
@@ -7194,7 +7315,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "D",
+      "soru_tipi_analizi": "Çoklu boşluk + NEGATİF eleme: 'hangisi GETİRİLEMEZ?'. Parçada 4 farklı şair tanımlanıyor (milliyetçi-romantik, Türkçü Genç Kalemler, Servet-i Fünun'dan toplumcu, Fecr-i Âti'den bireyselci). 5 şıktan biri bu 4 profilden hiçbirine uymuyor.",
+      "neden_dogru": "D) Mehmet Akif Ersoy: (1) Akif milli/toplumcu bir şair AMA Genç Kalemler/Türkçü kanada GİRMEZ — İslamcı/Osmanlıcı çizgide, Türkçülüğe karşı. (2) Servet-i Fünun'la ilgisi yok (Akif Sırat-ı Müstakim çevresinde). (3) Fecr-i Âti üyesi de değil. Parçadaki 4 profilin (milliyetçi-romantik=Mehmet Emin, Türkçü=Ziya Gökalp, SF'den toplumcu=Tevfik Fikret, bireyselci Fecr-i Âti=Ahmet Haşim) hiçbirine uymuyor — boşluğa GETİRİLEMEZ.",
+      "celdirici_analizi": {
+        "A": "Tevfik Fikret — Servet-i Fünun parnasizm, sonra Haluk'un Defteri ile toplumcu çizgiye geçti. 3. boşluğa uyar.",
+        "B": "Mehmet Emin Yurdakul — milliyetçi-romantik şiirin öncüsü ('Cenge Giderken'). 1. boşluğa uyar.",
+        "C": "Ziya Gökalp — Genç Kalemler/Türkçü teorisyen. 2. boşluğa uyar.",
+        "E": "Ahmet Haşim — Fecr-i Âti'nin en önemli bireyselci şairi. 4. boşluğa uyar."
+      },
+      "osym_mantigi": "ÖSYM bu tip 'getirilemez' sorularında 4 doğru profil oturtur, 1 tane FARKLI ÇİZGİDEN şair koyar. Akif sıkça TUZAK ÇELDİRİCİSİDİR — milli/toplumcu görünür ama İslamcı/Akif çizgisi Türkçü değil. 'Sırat-ı Müstakim' dergisi - 'Genç Kalemler' dergisi ayrımı kritik.",
+      "dersini_ogren": "Mehmet Akif Ersoy = İslamcı-Osmanlıcı, Türkçü/milliyetçi çizgide DEĞİL. Genç Kalemler ekibinden (Gökalp, Ömer Seyfettin, Ali Canip) ayrı durur.",
+      "analiz_var": true
     },
     {
       "qno": 145,
@@ -7233,7 +7365,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "İki paralel boşluk: Tanzimat züppesi (Periveş'in peşinde) + II. Meşrutiyet züppesi (kurnaz, yükselen). 'Bihruz Bey - Efruz Bey' ikilisi Türk romanının iki büyük züppe tipolojisini temsil eder.",
+      "neden_dogru": "A) Bihruz Bey - Efruz Bey: (1) Bihruz Bey = Recaizade'nin 'Araba Sevdası' romanı kahramanı. Tanzimat züppesinin en meşhur örneği; Periveş'in peşinden koşar, alafranga aşk hayalleri, kandırılır-dolandırılır. (2) Efruz Bey = Ömer Seyfettin'in hikayeleri. II. Meşrutiyet sonrası ortamında 'puslu havadan yararlanan' kurnaz tip. Hem 'kendini bilmez' Bihruz hem 'kurnaz' Efruz parçada tarif edilen şekillerle birebir.",
+      "celdirici_analizi": {
+        "B": "Bihruz Bey - Ali Bey — Ali Bey 'İntibah' (Namık Kemal) kahramanı, Mahpeyker'le ilişki — züppe tipi DEĞİL, masum bir genç.",
+        "C": "Ali Bey - Rakım Efendi — Rakım = 'Felatun Bey ve Rakım Efendi'nin Doğu kültürlü ÖRNEK Türk'ü, züppe karşıtı.",
+        "D": "Rakım Efendi - Efruz Bey — Rakım züppe değil (yukarıdaki gibi).",
+        "E": "Felatun Bey - Efruz Bey — Felatun Bey gerçek bir Tanzimat züppesi (Ahmet Mithat romanı) AMA Periveş'in peşindeki tip BİHRUZ'dur — Felatun farklı bir alafranga züppe (kumar, israf)."
+      },
+      "osym_mantigi": "ÖSYM Tanzimat-Milli geçiş romanlarındaki TİPOLOJİ envanterini test eder. 5 büyük 'züppe' tip: Felatun (Ahmet Mithat), Bihruz (Recaizade), Ali Bey (Namık Kemal — züppe değil ama karıştırılır), Efruz Bey (Ömer Seyfettin), Rakım Efendi (örnek Türk — antitez). Eserin SOMUT MOTİFİ (Periveş, alafranga aşk) belirleyici.",
+      "dersini_ogren": "Bihruz Bey (Araba Sevdası, Periveş'in peşinde) + Efruz Bey (Ömer Seyfettin, II. Meşrutiyet kurnazı) Türk romanının iki klasik züppe tipi.",
+      "analiz_var": true
     },
     {
       "qno": 146,
@@ -7299,7 +7442,18 @@
           "role": "in_option"
         }
       ],
-      "analiz_var": false
+      "dogru_cevap": "B",
+      "soru_tipi_analizi": "Çift yazar-eser eşleştirme. 1. yazar: konak romanı + tekke romanı + Batılılaşma yozlaşması. 2. yazar: İstanbul-Bursa + aşk + Anadolu öğretmeni. Her iki yazar somut romanlarıyla tanınmalı.",
+      "neden_dogru": "B) Yakup Kadri - Reşat Nuri: (1) Yakup Kadri = 'Kiralık Konak' (konak çevresinde Batılılaşma/yozlaşma) + 'Nur Baba' (tekke yozlaşması). İki roman da Tanzimat'tan I. Dünya Savaşı'na kadar olan dönem ve 'aile-kurum' yozlaşması temasını işliyor. (2) Reşat Nuri = 'Çalıkuşu' (Feride'nin İstanbul-Bursa-Anadolu yolculuğu, kasaba öğretmenliği, aşk+sosyal meseleler). 'Anadolu kasabasında öğretmen' = Çalıkuşu'nun klişe açıklaması.",
+      "celdirici_analizi": {
+        "A": "Halide Edip - Refik Halit — Halide Edip de konak romanları yazdı (Sinekli Bakkal) ama 'tekke' bağı yok; Refik Halit Anadolu/kasaba değil, mizah/hikaye yazarı.",
+        "C": "Reşat Nuri - Aka Gündüz — sıra yanlış; Reşat Nuri konak/tekke yazarı değil.",
+        "D": "Refik Halit - Yakup Kadri — sıra ters, ilk yazar uyumsuz.",
+        "E": "Aka Gündüz - Halide Edip — Aka Gündüz çok satar romancı, konak/tekke yozlaşması teması yok."
+      },
+      "osym_mantigi": "ÖSYM milli-cumhuriyet geçiş döneminin BÜYÜK ROMANCI ENVANTERİNİ test eder: Halide Edip, Yakup Kadri, Reşat Nuri, Refik Halit, Aka Gündüz. Her birinin İMZA ROMANI ezbere bilinmeli. Yakup Kadri 'konak-yozlaşma' = Kiralık Konak; Reşat Nuri 'Anadolu öğretmen' = Çalıkuşu — bu birebir eşleşmelerdir.",
+      "dersini_ogren": "Yakup Kadri = Kiralık Konak + Nur Baba (yozlaşma trajedileri). Reşat Nuri = Çalıkuşu (Anadolu kasaba öğretmeni).",
+      "analiz_var": true
     },
     {
       "qno": 147,
@@ -7344,7 +7498,18 @@
         "boşluk-sıralı"
       ],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "A",
+      "soru_tipi_analizi": "Milli Mücadele romanlarından iki eser tanıma. Anahtar motifler: Sakarya Ordusu + Peyami + Ayşe (1. eser) // Ahmet Celal + Porsuk Çayı + işgal sonrası köy (2. eser). Klasik MM romanları envanterinden çekiliyor.",
+      "neden_dogru": "A) Ateşten Gömlek - Yaban: (1) 'Ateşten Gömlek' (Halide Edip, 1922) — Sakarya Ordusu'na adanan ilk MM romanı, Peyami ve Ayşe karakterleri, idealistlik teması. (2) 'Yaban' (Yakup Kadri, 1932) — Ahmet Celal Birinci Dünya gazisi, İstanbul işgalinde Porsuk Çayı kıyısı köye gelir, köylüyle yabancılaşma — eserin TANIM KART CÜMLELERİ.",
+      "celdirici_analizi": {
+        "B": "Yeşil Gece - Yaban — Yeşil Gece (Reşat Nuri) öğretmen-din ilişkisi konulu, Sakarya/Peyami motifi yok.",
+        "C": "Küçük Ağa - Yorgun Savaşçı — Küçük Ağa (Tarık Buğra) MM romanı ama Sakarya/Peyami farklı; Yorgun Savaşçı (Kemal Tahir) farklı kahraman.",
+        "D": "Yeşil Gece - Küçük Ağa — iki roman da Sakarya/Peyami veya Ahmet Celal/Porsuk içermez.",
+        "E": "Ateşten Gömlek - Yorgun Savaşçı — Yorgun Savaşçı'nın kahramanı Cehennem Topçu Cemil, Ahmet Celal değil."
+      },
+      "osym_mantigi": "ÖSYM Milli Mücadele romanları envanterini KAHRAMAN ADI + MEKAN MOTİFİ ile sorar. 5 büyük MM romanı: Ateşten Gömlek (Halide Edip), Yaban (Yakup Kadri), Küçük Ağa (Tarık Buğra), Yorgun Savaşçı (Kemal Tahir), Sahnenin Dışındakiler (Halide Edip). Her birinin BAŞ KAHRAMAN + ÖZEL MEKAN motifi ayırt edici.",
+      "dersini_ogren": "Ateşten Gömlek = Halide Edip + Sakarya + Peyami-Ayşe. Yaban = Yakup Kadri + Ahmet Celal + Porsuk Çayı köyü.",
+      "analiz_var": true
     },
     {
       "qno": 148,
@@ -9171,7 +9336,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Bilgi yanlışı sorusu — Karagöz oyunu hakkında 5 cümleden 1'i hatalı. Tipik 'numaralanmış cümle' sorusu, dikkat gerektirir.",
+      "neden_dogru": "E. cümle yanlış: 'Karagöz mendil, baston, sandalye aksesuarlarını kullanırken Hacivat bu aksesuarları kullanmaz' — YANLIŞ. Gerçekte hem KARAGÖZ hem HACİVAT aksesuar kullanır; Hacivat şemsiye, baston gibi şeylerle perdeye çıkar. 'Aksesuar Karagöz'e özgü' yanlış bilgisi. Diğer cümleler doğru: (I) gölge oyunu/lamba/perde, (II) yardımcı tipler, (III) 4 bölüm, (IV) Karagöz şakacı/Hacivat eğitimli.",
+      "celdirici_analizi": {
+        "A": "I — gölge oyunu, ışık kaynağı, yarı saydam perde: bilgi doğru.",
+        "B": "II — yardımcı tipler isim isim doğru.",
+        "C": "III — 4 bölüm tanımı klasik Karagöz yapısı.",
+        "D": "IV — Karagöz cahil-patavatsız, Hacivat medreseli eğitimli tipler ayrımı doğru."
+      },
+      "osym_mantigi": "ÖSYM Karagöz/Orta Oyunu sorularında AYRINTIYI test eder — genel bilgileri herkes bilir, ayrıntıda tuzak. 'Aksesuar kullanım' Karagöz oyunu bilgilerinin orta-detay seviyesi; aday hem Karagöz hem Hacivat'ın aksesuar kullandığını bilmeli. Geleneksel tiyatro sorularında 'kim ne yapar' titiz ayrıntı kritik.",
+      "dersini_ogren": "Karagöz oyununda hem Karagöz hem Hacivat aksesuar kullanır — sandalye/baston/şemsiye gibi. 'Aksesuar tek tarafa ait' yanlış.",
+      "analiz_var": true
     },
     {
       "qno": 174,
@@ -9208,7 +9384,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "C",
+      "soru_tipi_analizi": "Bilgi yanlışı — Karagöz vs Orta Oyunu karşılaştırması üzerine 5 cümle. Yanlış cümleyi bulmak için iki türün BÖLÜM ADLARI bilinmeli.",
+      "neden_dogru": "C. cümle yanlış: 'Orta oyununda asıl konunun işlendiği bölüme FASIL denir, Karagöz'de bu bölümün adı MUHAVERE'dir' — YANLIŞ. Gerçekte hem orta oyununda hem Karagöz'de ASIL KONU = FASIL. Karagöz'ün muhaveresi sadece TANITMA/GİRİŞ bölümü; asıl konu fasıldır. ÖSYM burada iki türün bölüm adlarını tersleyerek tuzak kurmuş.",
+      "celdirici_analizi": {
+        "A": "I — Karagöz/orta oyunu geleneksel tiyatro türleri: doğru genel bilgi.",
+        "B": "II — Yazılı metne dayanmama, doğaçlama: doğru ortak özellik.",
+        "D": "IV — Müzik eşliği iki oyunda da var: doğru.",
+        "E": "V — Hacivat=Pişekar, Karagöz=Kavuklu eşleşmesi: doğru klasik bilgi."
+      },
+      "osym_mantigi": "ÖSYM iki geleneksel tür arasındaki BÖLÜM/KİŞİ ENVANTERİ ayrımını test eder. Karagöz 4 bölüm (giriş-muhavere-fasıl-bitiş), Orta Oyunu da 4 bölüm (giriş-muhavere-fasıl-bitiş) — bölüm adları AYNI. Aday muhavere=tanıtma, fasıl=asıl konu olduğunu bilmeli. Tuzak: 'farklı bölüm adı' iddiası.",
+      "dersini_ogren": "Karagöz ve Orta Oyunu'nun bölüm adları AYNI: giriş-muhavere-fasıl-bitiş. Asıl konu = FASIL (her ikisinde de).",
+      "analiz_var": true
     },
     {
       "qno": 175,
@@ -9245,7 +9432,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Orta Oyunu bölümünü tanıma — Pişekar'ın zurnacıyla konuşması + 'Yazıcı oyununun taklidini aldım, çal da oyunumuz başlasın' diyerek oyunu açması = bölüm tipini belirleme sorusu.",
+      "neden_dogru": "E) Giriş: (1) Orta oyununda 'GİRİŞ' (mukaddime) bölümünde PİŞEKAR sahneye gelir, zurnacıyı selamlar, oyunu duyurur. (2) 'Tenezzülen teşrif buyurun zevât-ı kirâm zevkyâb olsunlar' = klasik Pişekar açılış formülü, seyirciyi karşılama. (3) 'Çal da oyunumuz başlasın' = açılış komutu; asıl konuya geçiş öncesi. Bu bölümün TARİFİ giriş.",
+      "celdirici_analizi": {
+        "A": "Muhavere — Pişekar ile Kavuklu'nun TANIŞMA/SÖZ OYUNU bölümü. Burada Kavuklu yok, sadece Pişekar+zurnacı.",
+        "B": "Tekerleme — muhaverenin alt bölümü, tekerleme/söz oyunları içerir. Burada tekerleme yok.",
+        "C": "Fasıl — asıl konunun (taklit) işlendiği bölüm. Burada 'taklidini aldım, BAŞLASIN' diyor — fasıl henüz başlamamış.",
+        "D": "Bitiş — oyunun finali, özürle kapanış. Buradaki ton açılış."
+      },
+      "osym_mantigi": "ÖSYM orta oyununun BÖLÜM AKIŞINI test eder: GİRİŞ (Pişekar zurnacıyla) → MUHAVERE (Pişekar-Kavuklu söz oyunu) → FASIL (asıl konu, taklit) → BİTİŞ. Bu sırada Pişekar'ın açılış cümleleri 'çal başlasın, tenezzülen teşrif' = giriş formülü. Aday hangi karakter hangi bölümde belirgin bilmeli.",
+      "dersini_ogren": "Orta Oyunu GİRİŞ = Pişekar zurnacıyla konuşur, seyirciyi selamlar, oyunu başlatır. 'Tenezzülen teşrif buyurun' klasik giriş formülü.",
+      "analiz_var": true
     },
     {
       "qno": 176,
@@ -9282,7 +9480,18 @@
       "mentioned_movements": [],
       "tags": [],
       "siklar_yazarlari": [],
-      "analiz_var": false
+      "dogru_cevap": "E",
+      "soru_tipi_analizi": "Karagöz hakkında yanlış bilgi bulma. 5 önermeden 1'i Karagöz oyununun temel özelliklerine aykırı olmalı.",
+      "neden_dogru": "E) yanlış: 'Hayali, oyun bölümlerinin sırasını değiştirerek özgünlüğünü ortaya koyar' — YANLIŞ. Karagöz oyununun bölüm sıralaması SABİTTİR: giriş (mukaddime) → muhavere → fasıl → bitiş. Hayali bu sırayı asla değiştirmez; her oyun aynı çerçevede ilerler. Özgünlük FASIL konusunda (hangi taklit yapılacağı), bölüm sıralamasında değil.",
+      "celdirici_analizi": {
+        "A": "Tipler belirli özellikli — doğru: Karagöz cahil/patavatsız, Hacivat eğitimli vs tipler standart.",
+        "B": "Tef çalıp tasviri perdeye veren yardımcı (Yardak) — doğru: Karagöz oyununun yardımcı oyuncuları.",
+        "C": "Güldürü yöresel konuşma+yanlış anlama — doğru: Karagöz mizahının temel öğesi (Lazlar, Kayserili, vs.)",
+        "D": "Günlük hayatın aksayan yönlerini ele alır — doğru: toplumsal eleştiri Karagöz'ün temel işlevi."
+      },
+      "osym_mantigi": "ÖSYM Karagöz oyunu için 'bölüm sırasının sabitliği' detayını test ediyor. Aday genel özellikleri (tipler, mizah, eleştiri) bilse de 'sıra değişir mi?' sorusunda doğru cevabı verebilmeli. Hayalinin esnekliği FASIL içeriğindedir, bölüm yapısında değil — bu detay seviyesi 2025 sorusu için olası özellik.",
+      "dersini_ogren": "Karagöz oyununun bölüm sırası SABİT: giriş-muhavere-fasıl-bitiş. Hayali sırayı değiştirmez; fasılda farklı taklitler oynayabilir ama yapı korunur.",
+      "analiz_var": true
     },
     {
       "qno": 177,
