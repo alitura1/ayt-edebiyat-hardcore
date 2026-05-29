@@ -323,6 +323,18 @@ function renderQuizCard(idx) {
         </div>
         ${card.tuzak ? `<div class="tuzak-box"><strong>⚠ TUZAK</strong><br>${card.tuzak}</div>` : ''}
         ${card.mebi_sayfa ? `<div class="mebi-box"><strong>📘 Derinleştirme</strong> → MEBİ Konu Özet PDF sayfa <strong>${card.mebi_sayfa}</strong></div>` : ''}
+        ${card.osym_stratejisi ? `
+          <div class="bg-primary-500/5 border-l-4 border-primary-500 rounded-r-md p-3 text-sm">
+            <strong class="text-primary-700 dark:text-primary-100">🎯 ÖSYM STRATEJİSİ</strong>
+            <div class="mt-1 text-slate-700 dark:text-slate-300">${card.osym_stratejisi}</div>
+          </div>
+        ` : ''}
+        ${card.dersini_ogren ? `
+          <div class="bg-ok-500/10 border-l-4 border-ok-500 rounded-r-md p-3 text-sm">
+            <strong class="text-ok-700 dark:text-ok-300">📝 DERSİNİ ÖĞREN</strong>
+            <div class="mt-1 text-slate-700 dark:text-slate-300 italic">${card.dersini_ogren}</div>
+          </div>
+        ` : ''}
         ${card.priority_2026 && card.priority_2026 !== 'İHMAL' ? `
           <div class="rounded-md p-3 text-xs ${
             card.priority_2026 === 'ÇOK YÜKSEK' ? 'bg-accent-500/15 border border-accent-500/40 text-accent-700 dark:text-accent-300' :

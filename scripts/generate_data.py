@@ -348,8 +348,9 @@ def shuffle_seed(items, seed_str):
     return a
 
 
-def card(id_, konu, alt, tip, soru, dogru_text, celdiriciler, aciklama, tuzak='', mebi_sayfa='', zorluk='orta'):
-    """Bir kart oluştur."""
+def card(id_, konu, alt, tip, soru, dogru_text, celdiriciler, aciklama, tuzak='',
+         mebi_sayfa='', zorluk='orta', osym_stratejisi='', dersini_ogren=''):
+    """Bir kart oluştur (REV18b: osym_stratejisi + dersini_ogren alanları eklendi)."""
     opts = celdiriciler[:4]  # max 4 çeldirici → 5 toplam şık (1 doğru + 4)
     opts.append(dogru_text)
     opts = shuffle_seed(opts, id_)
@@ -373,7 +374,101 @@ def card(id_, konu, alt, tip, soru, dogru_text, celdiriciler, aciklama, tuzak=''
         'mebi_sayfa': mebi_sayfa,
         'zorluk': zorluk,
         'kaynak': 'otomatik',
+        # REV18b — Pedagojik derinlik
+        'osym_stratejisi': osym_stratejisi,
+        'dersini_ogren': dersini_ogren,
     }
+
+
+# REV18b — Authors meta lookup (zengin template'ler için)
+_AUTHORS_META_CACHE = None
+def get_author_meta(yazar):
+    """authors.json'dan donem/pozisyon/anekdot/klasik_tuzak/rakipleri çek."""
+    global _AUTHORS_META_CACHE
+    if _AUTHORS_META_CACHE is None:
+        try:
+            ap = SITE / 'authors.json'
+            if ap.exists():
+                data = json.loads(ap.read_text(encoding='utf-8'))
+                _AUTHORS_META_CACHE = {a['name']: a for a in data}
+            else:
+                _AUTHORS_META_CACHE = {}
+        except Exception:
+            _AUTHORS_META_CACHE = {}
+    return _AUTHORS_META_CACHE.get(yazar, {})
+
+
+# REV18b — Works meta lookup (eser → tür/yıl/akım)
+_WORKS_META_CACHE = None
+def get_eser_meta(eser_title):
+    """works.json'dan tur/yil/cikmis çek (eser adı bazlı)."""
+    global _WORKS_META_CACHE
+    if _WORKS_META_CACHE is None:
+        try:
+            wp = SITE / 'works.json'
+            if wp.exists():
+                data = json.loads(wp.read_text(encoding='utf-8'))
+                _WORKS_META_CACHE = {}
+                for w in data:
+                    key = w['title'].lower().strip()
+                    if key not in _WORKS_META_CACHE:
+                        _WORKS_META_CACHE[key] = w
+            else:
+                _WORKS_META_CACHE = {}
+        except Exception:
+            _WORKS_META_CACHE = {}
+    return _WORKS_META_CACHE.get(eser_title.lower().strip(), {})
+
+
+def build_celdirici_analizi(celdiriciler, dogru_yazar):
+    """Çeldiricileri tek tek analiz et — her birinin dönemi + neden cazip."""
+    parts = []
+    for c in celdiriciler[:3]:  # ilk 3 çeldirici
+        m = get_author_meta(c)
+        if not m:
+            continue
+        donem = m.get('donem', '')
+        anekdot = (m.get('anekdot') or '')[:80]
+        parts.append(f"<strong>{c}</strong> ({donem.replace('_', ' ')}) — {anekdot}...")
+    return ' | '.join(parts) if parts else ''
+
+
+# REV18b — Tip-spesifik pedagojik default'lar (kalan 9 fonksiyon için)
+_TIP_OSYM_STRATEJI = {
+    'kosma-tur': "ÖSYM koşma türünde KONU AYRIMI test eder: aşk→güzelleme, kahramanlık→koçaklama, yergi→taşlama, ölüm→ağıt. Stratejisi: Soru-paragrafındaki his/tema kelimesini yakala.",
+    'kosma-sair': "Aşıkları türleriyle eşleştir: Karacaoğlan=güzelleme (aşk), Köroğlu/Dadaloğlu=koçaklama (kahramanlık), Seyrani=taşlama (yergi), Aşık Veysel=memleket. Strateji: aşık adı + dönem + tema üçlüsünü ezberle.",
+    'soz-sanati-tanim': "ÖSYM söz sanatlarında BENZETME-İSTİARE-MECAZ-I MÜRSEL ayrımını test eder. Strateji: 'Benzeyen + benzetilen' var → benzetme; tek unsur var → istiare; benzetme yok ama parça-bütün ilişkisi → mecaz-ı mürsel; ses uyumu → tevriye/cinas.",
+    'kafiye': "ÖSYM kafiye türünde SES SAYISINI test eder. Strateji: ses-ses say (yarım=1, tam=2, zengin=3+). Cinas/tunç ise ek anlam katmanı bak.",
+    'olcu': "Hece sayısı + duraklar = hece ölçüsü; uzun-kısa hece kalıpları = aruz. Strateji: önce kalıbı çıkar (mef'ûlü/mefâ'îlü vb.); yoksa hece say.",
+    'redif': "Kafiye SONRASI tekrarlanan aynı ek/sözcük = redif. Strateji: önce kafiyeyi bul, sonrası varsa redif.",
+    'nazim-birimi': "Mısra=tek satır; beyit=2 mısra; dörtlük=4 mısra; bent=4+ mısra topluluğu. Strateji: kaç mısra bir grup oluşturuyor say.",
+    'siir-turu': "Lirik=duygu; epik=kahramanlık; didaktik=öğretici; pastoral=doğa/köy; satirik=hiciv. Strateji: paragrafta hâkim duygu/tema → tür.",
+    'kavram-tanim': "ÖSYM kavram-tanım sorusunda EDEBİYAT TERMİNOLOJİSİNİ test eder. Strateji: terimi parçala (mahallileşme = yerelleşme; sebk-i hindi = Hint tarzı), kök anlamını yakala.",
+    'soylenemez': "Negatif eleme: 4 doğru + 1 YANLIŞ. Strateji: önce doğru olduğuna emin olduğun şıkları ele, kalan = yanlış cevap. Her şık için tek tek mini-doğrulama yap.",
+    'negatif-eleme': "Aynı tipte negatif eleme. Strateji: 'değildir/yoktur' kelimesine dikkat. Genel-özel ilişkisini kontrol et.",
+    'masal-yapisi': "Masal bölümleri: döşeme (giriş tekerlemesi) → serim → düğüm → çözüm → dilek tekerlemesi. Strateji: bölüm sırası + işlevi ezberle.",
+    'destan-tur': "Doğal destan = anonim, sözlü gelenek (Manas, Oğuz Kağan); Yapma destan = belli yazar (Üç Şehitler, Çakır'ın Destanı). Strateji: yazar belli mi/değil mi.",
+    'fabl': "Fabl = hayvan kahramanlı + ders veren = Ezop, La Fontaine, Beydeba (Kelile ve Dimne). Strateji: hayvan + ahlak dersi → fabl.",
+    'paragraf-yazar-tani': "Paragrafta ipucu kelimeler → yazar. Strateji: dönem+tarz+anahtar eser/kavram. Çoğu zaman 'mahlas, mizah, sade dil, memleket' gibi tek kelime ipucu eserin yazarına götürür.",
+    'dortluk-analiz': "Dörtlükten sanat/biçim çıkar. Strateji: kafiye düzeni + nazım birimi + içerikten tür+yazar tahmini.",
+    'ilkler-eser': "Tanzimat 'İlk'leri: İlk roman=Taaşşuk-ı Talat ve Fitnat (Şemsettin Sami), İlk yerli roman=İntibah (Namık Kemal), İlk realist=Araba Sevdası (Recaizade), İlk tiyatro=Şair Evlenmesi (Şinasi), İlk köy=Karabibik (Nabizade). Strateji: 'ilk' + tür + dönem üçlüsünü ezberle.",
+}
+
+def enrich_kart_default(c):
+    """Kart c'ye varsayılan pedagojik alanlar ekle (eğer boşsa).
+    REV18b — kalan fonksiyonlar için hızlı pedagojik enrichment."""
+    if not c.get('osym_stratejisi'):
+        c['osym_stratejisi'] = _TIP_OSYM_STRATEJI.get(c.get('tip',''), '')
+    if not c.get('dersini_ogren'):
+        # Doğru cevap text'i + kısa özet
+        dogru_text = ''
+        for opt in c.get('secenekler', []):
+            if opt.get('id') == c.get('dogru'):
+                dogru_text = opt.get('text', '')
+                break
+        if dogru_text:
+            c['dersini_ogren'] = f"Doğru cevap: {dogru_text}. ({c.get('tip','')} tipi soru)"
+    return c
 
 
 def get_donem_yazarlar(donem):
@@ -413,7 +508,6 @@ def gen_eser_yazar_cards():
     GENERIC = {'Divan', 'Şiirleri', 'Şiirler', 'Şarkıları', 'Nefesler'}
     for yazar, eserler in YAZAR_ESERLERI.items():
         if not eserler: continue
-        # Generic eserleri parantezle ayırt et
         spesifik = []
         for e in eserler:
             base = e.split(' (')[0].strip()
@@ -426,6 +520,57 @@ def gen_eser_yazar_cards():
             konu = DONEM_TOPIC.get(donem, 'cumhuriyet')
             mebi = MEBI_AUTHOR.get(yazar, '—')
             id_ = f"ey_{len(cards):04d}"
+
+            # REV18b — Pedagojik zengin meta
+            auth_m = get_author_meta(yazar)
+            eser_m = get_eser_meta(eser)
+            pozisyon = auth_m.get('pozisyon', '')
+            anekdot = (auth_m.get('anekdot') or '')[:300]
+            klasik_tuzak = auth_m.get('klasik_tuzak', '')
+            eser_tur = eser_m.get('tur', '')
+            eser_yil = eser_m.get('yil', '')
+            eser_cikmis = eser_m.get('cikmis', False)
+            diger = auth_m.get('diger_eserler', '')
+            diger_top3 = ', '.join([e.strip() for e in diger.split(',')[:4] if e.strip() and e.strip() != eser])[:140]
+
+            # Zengin açıklama
+            eser_meta_str = f"{eser_tur}" if eser_tur and eser_tur != '—' else ''
+            if eser_yil: eser_meta_str += f", {eser_yil}" if eser_meta_str else eser_yil
+            cikmis_badge = " <span style='color:#f59e0b'>⭐ ÖSYM çıkmış</span>" if eser_cikmis else ""
+
+            aciklama = (
+                f"<strong>📖 Eser:</strong> «{eser}»"
+                + (f" ({eser_meta_str})" if eser_meta_str else "")
+                + f"{cikmis_badge}<br>"
+                + f"<strong>✍ Yazar:</strong> {yazar}"
+                + (f" — {pozisyon}, {TOPIC_LABEL.get(konu, donem)}" if pozisyon else f" — {TOPIC_LABEL.get(konu, donem)}")
+                + "<br><br>"
+                + (f"<strong>🎯 Bağlam:</strong> {anekdot}{'...' if len(auth_m.get('anekdot','')) > 300 else ''}<br><br>" if anekdot else "")
+                + (f"<strong>📚 Yazarın diğer eserleri:</strong> {diger_top3}" if diger_top3 else "")
+            )
+
+            # Zengin tuzak — gerçek klasik tuzak metni + çeldirici analizi
+            celdirici_analiz = build_celdirici_analizi(celdiriciler, yazar)
+            tuzak = (
+                (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {klasik_tuzak}<br><br>" if klasik_tuzak else "")
+                + (f"<strong>🔍 Şıklardaki çeldiriciler:</strong> {celdirici_analiz}<br><br>" if celdirici_analiz else "")
+                + f"<strong>✓ Ayrım anahtarı:</strong> Bu eser doğrudan {yazar}'ın imzasıdır — {pozisyon.lower() if pozisyon else 'yazar'}lık tarzı + dönem özelliklerinden çıkarsanır."
+            )
+
+            # ÖSYM stratejisi (kart tipine özel)
+            osym_stratejisi = (
+                f"ÖSYM 'eser → yazar' sorusunda eserin ÖZEL ANLAMINI ve yazarın imzasını test eder. "
+                f"Strateji: (1) Eser türü ({eser_tur or 'belirsiz'}) → yazar pozisyonu eşleşmeli "
+                + (f"({pozisyon} ✓)" if pozisyon else "")
+                + ". (2) Eser yılı/akımı → yazarın aktif dönemi. (3) Aynı dönemden çeldiriciler — yazarın benzersiz eserlerini öğrenin."
+            )
+
+            dersini_ogren = (
+                f"«{eser}» = {yazar}'ın imzası"
+                + (f" (çünkü {pozisyon.lower()} olarak en bilinen)" if pozisyon else "")
+                + "."
+            )
+
             c = card(
                 id_=id_,
                 konu=konu,
@@ -434,10 +579,12 @@ def gen_eser_yazar_cards():
                 soru=f"<strong>«{eser}»</strong> adlı eserin yazarı aşağıdakilerden hangisidir?",
                 dogru_text=yazar,
                 celdiriciler=celdiriciler,
-                aciklama=f"<strong>{eser}</strong> → <strong>{yazar}</strong>. {yazar}'ın {TOPIC_LABEL[konu]} dönemindeki önemli eserlerinden.",
-                tuzak=f"Çeldiriciler aynı döneme ait yazarlar. Karıştırmamak için yazarın ESER REPERTUARINI bilmek gerek.",
+                aciklama=aciklama,
+                tuzak=tuzak,
                 mebi_sayfa=mebi if mebi != '—' else '',
                 zorluk='orta',
+                osym_stratejisi=osym_stratejisi,
+                dersini_ogren=dersini_ogren,
             )
             cards.append(c)
     return cards
@@ -451,17 +598,66 @@ def gen_yazar_eser_cards():
         if not eserler: continue
         donem = YAZAR_DONEM.get(yazar, 'cumhuriyet')
         konu = DONEM_TOPIC.get(donem, 'cumhuriyet')
-        # En ünlü spesifik eser
         spesifik = [e for e in eserler if e.split(' (')[0].strip() not in GENERIC]
         if not spesifik: continue
         dogru_eser = spesifik[0]
         if dogru_eser in seen: continue
         seen.add(dogru_eser)
-        # Çeldirici eserler: aynı dönem farklı yazar
         celdiriciler = celdirici_eser_ayni_yazar_donem(dogru_eser, 4)
         if len(celdiriciler) < 3: continue
         mebi = MEBI_AUTHOR.get(yazar, '—')
         id_ = f"ye_{len(cards):04d}"
+
+        # REV18b — Pedagojik meta
+        auth_m = get_author_meta(yazar)
+        eser_m = get_eser_meta(dogru_eser)
+        pozisyon = auth_m.get('pozisyon', '')
+        anekdot = (auth_m.get('anekdot') or '')[:300]
+        klasik_tuzak = auth_m.get('klasik_tuzak', '')
+        eser_tur = eser_m.get('tur', '')
+        eser_yil = eser_m.get('yil', '')
+        cikmis = eser_m.get('cikmis', False)
+        diger = auth_m.get('diger_eserler', '')
+        diger_top = [e.strip() for e in diger.split(',')[:5] if e.strip() and e.strip() != dogru_eser][:4]
+
+        meta_str = eser_tur if eser_tur and eser_tur != '—' else ''
+        if eser_yil: meta_str += f", {eser_yil}" if meta_str else eser_yil
+        cikmis_badge = " <span style='color:#f59e0b'>⭐ ÖSYM çıkmış</span>" if cikmis else ""
+
+        aciklama = (
+            f"<strong>✍ Yazar:</strong> {yazar}"
+            + (f" — {pozisyon}, {TOPIC_LABEL.get(konu, donem)}" if pozisyon else "") + "<br>"
+            + f"<strong>📖 Doğru eser:</strong> «{dogru_eser}»"
+            + (f" ({meta_str})" if meta_str else "")
+            + f"{cikmis_badge}<br><br>"
+            + (f"<strong>🎯 Bağlam:</strong> {anekdot}{'...' if len(auth_m.get('anekdot','')) > 300 else ''}<br><br>" if anekdot else "")
+            + (f"<strong>📚 Yazarın diğer eserleri:</strong> {', '.join(diger_top)}" if diger_top else "")
+        )
+
+        # Çeldirici eserlerin yazarlarını çıkar (ESER_YAZAR ile)
+        cel_owners = []
+        for ce in celdiriciler[:3]:
+            owner = ESER_YAZAR.get(ce, '?')
+            cel_owners.append(f"«{ce}» → <strong>{owner}</strong>")
+        cel_str = ' | '.join(cel_owners)
+
+        tuzak = (
+            (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {klasik_tuzak}<br><br>" if klasik_tuzak else "")
+            + (f"<strong>🔍 Çeldirici eserlerin gerçek sahipleri:</strong> {cel_str}<br><br>" if cel_str else "")
+            + f"<strong>✓ Ayrım anahtarı:</strong> {yazar}'ın repertuarında «{dogru_eser}» var; diğer şıklar aynı dönem ama farklı yazarlardan."
+        )
+
+        osym_stratejisi = (
+            f"ÖSYM 'yazar → eser' sorusunda yazarın ESER REPERTUARINI test eder. "
+            f"Strateji: (1) Yazarın {pozisyon.lower() if pozisyon else 'sanatçı'} olarak en ünlü eserini hatırla. "
+            f"(2) Aynı dönem yazarlarının eserlerini birbirinden ayırt et. "
+            f"(3) Yıl/akım eşleştirmesi → tarihsel sıra önemli."
+        )
+
+        dersini_ogren = f"{yazar} → «{dogru_eser}»"
+        if diger_top:
+            dersini_ogren += f" (ayrıca {', '.join(diger_top[:2])})."
+
         c = card(
             id_=id_,
             konu=konu,
@@ -470,10 +666,12 @@ def gen_yazar_eser_cards():
             soru=f"<strong>{yazar}</strong>'a ait olan eser aşağıdakilerden hangisidir?",
             dogru_text=dogru_eser,
             celdiriciler=celdiriciler,
-            aciklama=f"<strong>{yazar}</strong>'ın eserleri arasında <strong>{dogru_eser}</strong> bulunur. Çeldiriciler aynı döneme ait diğer yazarların eserleri.",
-            tuzak=f"{TOPIC_LABEL[konu]} döneminde birden çok yazar var. Hangi eser kime ait olduğunu ezberlemek gerek.",
+            aciklama=aciklama,
+            tuzak=tuzak,
             mebi_sayfa=mebi if mebi != '—' else '',
             zorluk='orta',
+            osym_stratejisi=osym_stratejisi,
+            dersini_ogren=dersini_ogren,
         )
         cards.append(c)
     return cards
@@ -481,16 +679,63 @@ def gen_yazar_eser_cards():
 
 def gen_akim_temsilci_cards():
     cards = []
+    # Çeldirici akımı belirle (her doğru akım için karşıt çeldirici)
+    AKIM_KARSIT = {
+        'Klasisizm': 'Romantizm', 'Romantizm': 'Klasisizm',
+        'Realizm': 'Romantizm', 'Natüralizm': 'Realizm',
+        'Parnasizm': 'Romantizm', 'Sembolizm': 'Parnasizm',
+        'Fütürizm': 'Klasisizm', 'Dadaizm': 'Sürrealizm',
+        'Sürrealizm': 'Dadaizm', 'Egzistansiyalizm': 'Klasisizm',
+        'Ekspresyonizm': 'Realizm',
+    }
     for akim, temsilciler in AKIM_TEMSILCI.items():
         if not temsilciler: continue
-        dogru = temsilciler[0]  # En öncü temsilci
-        # Çeldirici: başka akımlardan
+        dogru = temsilciler[0]
         celdiriciler = []
         for ak2, ts2 in AKIM_TEMSILCI.items():
             if ak2 != akim and ts2:
                 celdiriciler.append(ts2[0])
         celdiriciler = shuffle_seed(celdiriciler, akim + '-c')[:4]
         id_ = f"at_{len(cards):04d}"
+
+        ozellik = AKIM_OZELLIK.get(akim, '')
+        diger_temsilciler = ', '.join(temsilciler[1:5]) if len(temsilciler) > 1 else ''
+        karsit = AKIM_KARSIT.get(akim, '')
+        karsit_ozellik = AKIM_OZELLIK.get(karsit, '')
+
+        aciklama = (
+            f"<strong>🎨 Akım:</strong> {akim}<br>"
+            f"<strong>👑 Öncü temsilci:</strong> {dogru}<br><br>"
+            f"<strong>📋 Akımın temel özellikleri:</strong> {ozellik}<br><br>"
+            + (f"<strong>👥 Diğer temsilcileri:</strong> {diger_temsilciler}" if diger_temsilciler else "")
+        )
+
+        cel_anal = []
+        for ce in celdiriciler[:3]:
+            # Çeldirici hangi akımdan?
+            for ak2, ts2 in AKIM_TEMSILCI.items():
+                if ce in ts2 and ak2 != akim:
+                    cel_anal.append(f"<strong>{ce}</strong> ({ak2})")
+                    break
+        cel_str = ' | '.join(cel_anal)
+
+        tuzak = (
+            (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {akim} {karsit} ile sıkça karıştırılır. "
+             f"{akim} = {ozellik[:80]}...; {karsit} = {karsit_ozellik[:80]}...<br><br>"
+             if karsit else "")
+            + (f"<strong>🔍 Çeldirici temsilciler farklı akımlardan:</strong> {cel_str}<br><br>" if cel_str else "")
+            + f"<strong>✓ Ayrım anahtarı:</strong> {akim}'in temel sloganı/felsefesi → {dogru}'in yapıtlarında somutlaşır."
+        )
+
+        osym_stratejisi = (
+            f"ÖSYM 'akım → temsilci' sorusunda akımın FELSEFİ KÖKEN ve sloganlarını test eder. "
+            f"Strateji: (1) Akımın temel ilkesini hatırla ({ozellik[:60]}). "
+            f"(2) Karşıt akımla zıtlık ilişkisini ezberle. "
+            f"(3) Öncü temsilci genelde manifestoyu yazan veya akımı başlatandır."
+        )
+
+        dersini_ogren = f"{akim} → {dogru} (önce). Karşıtı: {karsit}." if karsit else f"{akim} → {dogru}."
+
         c = card(
             id_=id_,
             konu='edebi_akimlar',
@@ -499,10 +744,12 @@ def gen_akim_temsilci_cards():
             soru=f"<strong>{akim}</strong> akımının önde gelen temsilcisi aşağıdakilerden hangisidir?",
             dogru_text=dogru,
             celdiriciler=celdiriciler,
-            aciklama=f"<strong>{akim}</strong> → <strong>{dogru}</strong>. {AKIM_OZELLIK.get(akim, '')}",
-            tuzak=f"Akım temsilcileri sürekli karıştırılır. {akim} özelliği: {AKIM_OZELLIK.get(akim, '')[:60]}...",
+            aciklama=aciklama,
+            tuzak=tuzak,
             mebi_sayfa='186-190',
             zorluk='orta',
+            osym_stratejisi=osym_stratejisi,
+            dersini_ogren=dersini_ogren,
         )
         cards.append(c)
     return cards
@@ -510,10 +757,47 @@ def gen_akim_temsilci_cards():
 
 def gen_akim_tanim_cards():
     cards = []
+    AKIM_KARSIT = {
+        'Klasisizm': 'Romantizm', 'Romantizm': 'Klasisizm',
+        'Realizm': 'Natüralizm', 'Natüralizm': 'Realizm',
+        'Parnasizm': 'Sembolizm', 'Sembolizm': 'Parnasizm',
+        'Fütürizm': 'Klasisizm', 'Dadaizm': 'Sürrealizm',
+        'Sürrealizm': 'Dadaizm', 'Egzistansiyalizm': 'Klasisizm',
+        'Ekspresyonizm': 'Realizm',
+    }
     for akim, ozellik in AKIM_OZELLIK.items():
         celdiriciler = [a for a in AKIM_OZELLIK.keys() if a != akim]
         celdiriciler = shuffle_seed(celdiriciler, akim + '-tanim')[:4]
         id_ = f"akt_{len(cards):04d}"
+        temsilciler = AKIM_TEMSILCI.get(akim, [])[:4]
+        karsit = AKIM_KARSIT.get(akim, '')
+        karsit_ozellik = AKIM_OZELLIK.get(karsit, '')
+        anahtar = ozellik.split(',')[0] if ',' in ozellik else ozellik[:30]
+
+        aciklama = (
+            f"<strong>🎨 Akım:</strong> {akim}<br>"
+            f"<strong>📋 Temel özellikler:</strong> {ozellik}<br><br>"
+            + (f"<strong>👥 Temsilcileri:</strong> {', '.join(temsilciler)}<br><br>" if temsilciler else "")
+            + f"<strong>🔑 Anahtar kelime:</strong> {anahtar}"
+        )
+
+        tuzak = (
+            (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {akim} ve {karsit} sıkça karıştırılır. "
+             f"{akim} = {ozellik[:80]}; {karsit} = {karsit_ozellik[:80]}.<br><br>"
+             if karsit else "")
+            + f"<strong>🔍 Şıklardaki yakın akımlar:</strong> Realizm-Natüralizm, Romantizm-Sembolizm, Klasisizm-Parnasizm grupları sıkça karıştırılır. Her birinin tek farklı bir özelliği var (örn. Natüralizm = bilimsel determinizm; Realizm = sade gözlem).<br><br>"
+            + f"<strong>✓ Ayrım anahtarı:</strong> Akım sloganı/temel ilkesi → {ozellik[:60]} — bu cümleyi yakala."
+        )
+
+        osym_stratejisi = (
+            f"ÖSYM 'özellik → akım' sorusunda akımın FELSEFİ SLOGANINI test eder. "
+            f"Strateji: (1) Soruyu anlam-haritalı oku: hangi kavram (akıl/duygu/biçim/imge) öne çıkıyor. "
+            f"(2) Yakın akımları zıt çiftler halinde ezberle (Klasisizm↔Romantizm, Realizm↔Natüralizm). "
+            f"(3) Akımın 'reddediği' karşıtını sor — genelde önceki akımı reddeder."
+        )
+
+        dersini_ogren = f"{akim}: «{anahtar}»" + (f", karşıt {karsit}." if karsit else ".")
+
         c = card(
             id_=id_,
             konu='edebi_akimlar',
@@ -522,10 +806,12 @@ def gen_akim_tanim_cards():
             soru=f"\"{ozellik}\" özellikleri aşağıdaki akımlardan hangisine aittir?",
             dogru_text=akim,
             celdiriciler=celdiriciler,
-            aciklama=f"<strong>{akim}</strong> → bu özelliklerle tanımlanır. Temsilciler: {', '.join(AKIM_TEMSILCI.get(akim, [])[:3])}.",
-            tuzak=f"Bazı akımlar birbirine yakın (realizm-natüralizm; romantizm-sembolizm). Anahtar kelime: {ozellik.split(',')[0]}",
+            aciklama=aciklama,
+            tuzak=tuzak,
             mebi_sayfa='186-190',
             zorluk='orta',
+            osym_stratejisi=osym_stratejisi,
+            dersini_ogren=dersini_ogren,
         )
         cards.append(c)
     return cards
@@ -558,6 +844,39 @@ def gen_donem_yazar_cards():
         celdiriciler = shuffle_seed(celdiriciler, yazar + '-d')[:4]
         konu = DONEM_TOPIC.get(donem, 'cumhuriyet')
         id_ = f"dy_{len(cards):04d}"
+        auth_m = get_author_meta(yazar)
+        pozisyon = auth_m.get('pozisyon', '')
+        anekdot = (auth_m.get('anekdot') or '')[:250]
+        klasik_tuzak = auth_m.get('klasik_tuzak', '')
+        diger = auth_m.get('diger_eserler', '')
+        diger_top = ', '.join(e.strip() for e in diger.split(',')[:3] if e.strip())[:100]
+
+        aciklama = (
+            f"<strong>✍ Yazar:</strong> {yazar}"
+            + (f" — {pozisyon}" if pozisyon else "") + "<br>"
+            f"<strong>📅 Dönem:</strong> {dogru}<br><br>"
+            + (f"<strong>🎯 Bağlam:</strong> {anekdot}...<br><br>" if anekdot else "")
+            + (f"<strong>📚 Bilinen eserleri:</strong> {diger_top}" if diger_top else "")
+        )
+
+        tuzak = (
+            (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {klasik_tuzak}<br><br>" if klasik_tuzak else "")
+            + f"<strong>🔍 Dönem karışıklıkları:</strong> Sıkça karıştırılan dönemler: "
+              "(1) Tanzimat II ↔ Servet-i Fünun (1896 sınırı), "
+              "(2) Servet-i Fünun ↔ Fecr-i Âti ↔ Milli Edebiyat (1908-1911 geçişi), "
+              "(3) Milli Edebiyat ↔ Cumhuriyet (1923 sınırı, yazar geçişi).<br><br>"
+            + f"<strong>✓ Ayrım anahtarı:</strong> {yazar}'ın {dogru} olmasının nedeni — etkin olduğu yıl + dergi/grup üyeliği + tema."
+        )
+
+        osym_stratejisi = (
+            f"ÖSYM 'yazar → dönem' sorusunda yazarın AKTİF YILI + DERGİ/GRUP üyeliğini test eder. "
+            f"Strateji: (1) Yazarın doğum-ölüm yılları → ana dönem. "
+            f"(2) Bağlı olduğu dergi (Servet-i Fünun, Genç Kalemler, Yedi Meşale, Garip vb.). "
+            f"(3) İlk önemli eserin yayım yılı → dönem sınırı."
+        )
+
+        dersini_ogren = f"{yazar} → {dogru}" + (f" ({pozisyon})" if pozisyon else "") + "."
+
         c = card(
             id_=id_,
             konu=konu,
@@ -566,10 +885,12 @@ def gen_donem_yazar_cards():
             soru=f"<strong>{yazar}</strong> aşağıdaki edebi dönemlerden hangisine aittir?",
             dogru_text=dogru,
             celdiriciler=celdiriciler,
-            aciklama=f"<strong>{yazar}</strong> → <strong>{dogru}</strong> döneminin yazarlarındandır.",
-            tuzak=f"Bazı yazarlar dönem geçişinde kaldığı için karıştırılır (örn. Ahmet Haşim → Fecr-i Âti, ama Cumhuriyet bağımsızı kabul edilir).",
+            aciklama=aciklama,
+            tuzak=tuzak,
             mebi_sayfa=MEBI_AUTHOR.get(yazar, '') if MEBI_AUTHOR.get(yazar, '—') != '—' else '',
             zorluk='kolay',
+            osym_stratejisi=osym_stratejisi,
+            dersini_ogren=dersini_ogren,
         )
         cards.append(c)
     return cards
@@ -577,11 +898,44 @@ def gen_donem_yazar_cards():
 
 def gen_nazim_bicim_cards():
     cards = []
+    # Karıştırılan çift haritası
+    NAZIM_KARSIT = {
+        'Gazel': ('Kaside', 'İkisi de aa-ba-ca kafiye. GAZEL: 5-15 beyit, AŞK; KASİDE: 33-99 beyit, METHİYE/MERSİYE.'),
+        'Kaside': ('Gazel', 'İkisi de aa-ba-ca kafiye. KASİDE: uzun, methiye; GAZEL: kısa, aşk.'),
+        'Mesnevi': ('Kaside', 'MESNEVİ: her beyit kendi içinde kafiyeli (aa-bb-cc); KASİDE: tek kafiye (aa-ba-ca).'),
+        'Rubai': ('Tuyuğ', 'İkisi de 4 mısra. RUBAİ: aruz vezniyle, FELSEFİ; TUYUĞ: aruz, TÜRK-İSLAM aforizma.'),
+        'Tuyuğ': ('Rubai', 'TUYUĞ: Türklere özgü 4 mısra; RUBAİ: İran/Fars kökenli felsefi.'),
+        'Koşma': ('Semai', 'KOŞMA: 11 heceli; SEMAİ: 8 heceli. İkisi de halk şiiri 4 dörtlük.'),
+        'Mani': ('Türkü', 'MANİ: 7 heceli 4 mısra, aaxa; TÜRKÜ: değişken hece, ezgi öne çıkar.'),
+    }
     for bicim, tanim in NAZIM_BICIMI.items():
         celdiriciler = [b for b in NAZIM_BICIMI.keys() if b != bicim]
         celdiriciler = shuffle_seed(celdiriciler, bicim)[:4]
         konu = 'divan_edebiyati' if bicim in ('Gazel','Kaside','Mesnevi','Rubai','Tuyuğ','Şarkı','Terkib-i Bend','Terci-i Bend') else 'halk_edebiyati'
         id_ = f"nb_{len(cards):04d}"
+        karsit, karsit_aciklama = NAZIM_KARSIT.get(bicim, ('', ''))
+
+        aciklama = (
+            f"<strong>📝 Nazım biçimi:</strong> {bicim}<br>"
+            f"<strong>📋 Tanım:</strong> {tanim}<br><br>"
+            f"<strong>📚 Konum:</strong> {'Divan Edebiyatı klasik biçim' if konu == 'divan_edebiyati' else 'Halk şiiri geleneği'}."
+        )
+
+        tuzak = (
+            (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {bicim} ↔ {karsit}: {karsit_aciklama}<br><br>" if karsit else "")
+            + f"<strong>🔍 Çeldirici biçimlerin temel farkı:</strong> Her biçimin imzası: nazım birimi (beyit/dörtlük) + kafiye düzeni + konu sınıfı.<br><br>"
+            + f"<strong>✓ Ayrım anahtarı:</strong> {bicim}'in benzersiz özelliği — kafiye düzeni + birim sayısı."
+        )
+
+        osym_stratejisi = (
+            f"ÖSYM 'tanım → nazım biçimi' sorusunda KAFİYE DÜZENİ + NAZIM BİRİMİ + KONU üçlüsünü test eder. "
+            f"Strateji: (1) Kafiye düzenini ezberle (aa-ba-ca = gazel/kaside; aa-bb-cc = mesnevi; abab = koşma). "
+            f"(2) Birim sayısı: kaç beyit/dörtlük? "
+            f"(3) Konu: aşk → gazel; methiye → kaside; uzun anlatı → mesnevi."
+        )
+
+        dersini_ogren = f"{bicim}: {tanim[:50]}..." + (f" Karıştırma: {karsit}." if karsit else "")
+
         c = card(
             id_=id_,
             konu=konu,
@@ -590,10 +944,12 @@ def gen_nazim_bicim_cards():
             soru=f"\"{tanim}\" özellikleri aşağıdaki nazım biçimlerinden hangisine aittir?",
             dogru_text=bicim,
             celdiriciler=celdiriciler,
-            aciklama=f"<strong>{bicim}</strong> → {tanim}",
-            tuzak=f"Nazım biçimleri sürekli karıştırılır. En sık tuzak: gazel-kaside (ikisi de aa-ba-ca kafiye, fark uzunluk-konuda).",
+            aciklama=aciklama,
+            tuzak=tuzak,
             mebi_sayfa='47-52' if konu == 'divan_edebiyati' else '36-37',
             zorluk='orta',
+            osym_stratejisi=osym_stratejisi,
+            dersini_ogren=dersini_ogren,
         )
         cards.append(c)
     return cards
@@ -1307,6 +1663,16 @@ def main():
     print(f"  ilkler: {len([c for c in all_cards if c['tip']=='ilkler-eser'])}")
 
     print(f"TOPLAM: {len(all_cards)} kart")
+
+    # REV18b — Pedagojik default enrichment (osym_stratejisi + dersini_ogren tip bazlı)
+    enriched_count = 0
+    for c in all_cards:
+        before_osym = c.get('osym_stratejisi', '')
+        before_ders = c.get('dersini_ogren', '')
+        enrich_kart_default(c)
+        if c.get('osym_stratejisi') and not before_osym:
+            enriched_count += 1
+    print(f"  REV18b: {enriched_count} kart pedagojik default ile zenginleştirildi (tip-spesifik strateji)")
 
     # REV17 — Pattern skorlarını kartlara enjekte (konu bazlı)
     _pa_path = BASE / 'data' / 'pattern_analysis.json'
