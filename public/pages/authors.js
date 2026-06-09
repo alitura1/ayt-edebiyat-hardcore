@@ -115,6 +115,7 @@ export async function renderAuthorList() {
               <td class="text-center px-2 py-2" title="${LEVELS[lvl].label}">${LEVELS[lvl].emoji}</td>
               <td class="px-3 py-2 font-semibold">
                 <a href="#/yazarlar/${slugify(a.name)}" class="text-primary-700 dark:text-primary-100 hover:underline">${a.name}</a>
+                ${a.anma_yili_2026 ? '<span title="2026 Ziya Gökalp Anma Yılı" class="ml-1 text-amber-500">⭐</span>' : a.anma_yili_dalga ? '<span title="2026 Anma Yılı dalgası (Milli Edebiyat)" class="ml-1 text-amber-400/70">🌊</span>' : ''}
               </td>
               <td class="px-2 py-2"><span class="inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded ${th.bg} ${th.text}"><span class="w-1.5 h-1.5 rounded-full ${th.dot}"></span>${th.label}</span></td>
               <td class="text-center px-2 py-2 ${a.soru_sayisi >= 5 ? 'font-bold text-accent-500' : ''}">${a.soru_sayisi}</td>
@@ -195,6 +196,23 @@ export async function renderAuthorDetail(slug) {
         </div>
       </div>
     </div>
+
+    <!-- REV19 — 2026 ANMA YILI ROZETİ (Ziya Gökalp + Milli Ed. dalgası) -->
+    ${a.anma_yili_2026 ? `
+      <div class="mb-4 rounded-lg p-3 flex items-center gap-3 bg-gradient-to-r from-amber-400/20 to-yellow-300/10 border-2 border-amber-400/50">
+        <div class="text-2xl">⭐</div>
+        <div class="flex-1">
+          <div class="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">2026 Anma Yılı</div>
+          <div class="text-sm font-bold mt-0.5 text-amber-800 dark:text-amber-200">Resmî Ziya Gökalp Yılı (150. doğum yılı · TÜRKSOY)</div>
+          <div class="text-[11px] text-slate-600 dark:text-slate-400 mt-1">2026'da AYT Edebiyat'ta vurgu ihtimali yüksek — bu yazara öncelik ver.</div>
+        </div>
+      </div>
+    ` : a.anma_yili_dalga ? `
+      <div class="mb-4 rounded-lg p-2.5 flex items-center gap-2 bg-amber-400/10 border border-amber-400/30">
+        <div class="text-lg">🌊</div>
+        <div class="text-[11px] text-amber-700 dark:text-amber-300 font-semibold">2026 Ziya Gökalp Anma Yılı dalgası — Genç Kalemler / Milli Edebiyat çevresi öne çıkabilir.</div>
+      </div>
+    ` : ''}
 
     <!-- REV17 — 2026 PRIORITY BADGE -->
     ${a.priority_2026 && a.priority_2026 !== 'İHMAL' ? `

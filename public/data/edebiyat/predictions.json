@@ -313,7 +313,7 @@
    "freq": 5,
    "son_yil": 2024,
    "current_gap": 2,
-   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.5 yılda 1 · son 2024 · 2 yıl boş."
+   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.5 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 9 kez vurgulandı (+15)."
   },
   {
    "ad": "Nabi",
@@ -322,7 +322,7 @@
    "freq": 6,
    "son_yil": 2024,
    "current_gap": 2,
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.2 yılda 1 · son 2024 · 2 yıl boş."
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.2 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 9 kez vurgulandı (+15)."
   },
   {
    "ad": "Ahmet Hamdi Tanpınar",
@@ -331,160 +331,160 @@
    "freq": 3,
    "son_yil": 2021,
    "current_gap": 5,
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2021 · 5 yıl boş."
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2021 · 5 yıl boş. MEBİ denemede 5 kez vurgulandı (+10)."
   },
   {
    "ad": "Âşık Paşa",
-   "due_score": 83.6,
+   "due_score": 98.6,
    "priority": "ÇOK YÜKSEK",
    "freq": 4,
    "son_yil": 2024,
    "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş."
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 8 kez vurgulandı (+15)."
+  },
+  {
+   "ad": "Baki",
+   "due_score": 90.7,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 3,
+   "son_yil": 2023,
+   "current_gap": 3,
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 8 kez vurgulandı (+15)."
+  },
+  {
+   "ad": "Ahmedi",
+   "due_score": 90.3,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 4,
+   "son_yil": 2024,
+   "current_gap": 2,
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 7 kez vurgulandı (+14)."
+  },
+  {
+   "ad": "Mehmet Akif Ersoy",
+   "due_score": 89.4,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 3,
+   "son_yil": 2023,
+   "current_gap": 3,
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik. MEBİ denemede 5 kez vurgulandı (+10)."
+  },
+  {
+   "ad": "Nedim",
+   "due_score": 88.4,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 4,
+   "son_yil": 2024,
+   "current_gap": 2,
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 4 kez vurgulandı (+8)."
+  },
+  {
+   "ad": "Orhan Veli Kanık",
+   "due_score": 88.3,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 4,
+   "son_yil": 2024,
+   "current_gap": 2,
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 6 kez vurgulandı (+12)."
+  },
+  {
+   "ad": "Şeyh Galip",
+   "due_score": 87.7,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 4,
+   "son_yil": 2024,
+   "current_gap": 2,
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 9 kez vurgulandı (+15)."
+  },
+  {
+   "ad": "Şinasi",
+   "due_score": 87.4,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 3,
+   "son_yil": 2023,
+   "current_gap": 3,
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik. MEBİ denemede 4 kez vurgulandı (+8)."
   },
   {
    "ad": "Mithat Cemal Kuntay",
-   "due_score": 81.2,
+   "due_score": 85.2,
    "priority": "ÇOK YÜKSEK",
    "freq": 2,
    "son_yil": 2019,
    "current_gap": 7,
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2019 · 7 yıl boş."
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2019 · 7 yıl boş. MEBİ denemede 2 kez vurgulandı (+4)."
   },
   {
-   "ad": "Nedim",
-   "due_score": 80.4,
+   "ad": "Ziya Gökalp",
+   "due_score": 85.0,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 1,
+   "son_yil": 2020,
+   "current_gap": 6,
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş. MEBİ denemede 6 kez vurgulandı (+12). 2026 ZİYA GÖKALP ANMA YILI (150. doğum yılı, TÜRKSOY) — sınavda vurgu ihtimali yüksek."
+  },
+  {
+   "ad": "Yahya Kemal Beyatlı",
+   "due_score": 84.7,
    "priority": "ÇOK YÜKSEK",
    "freq": 4,
    "son_yil": 2024,
    "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş."
-  },
-  {
-   "ad": "Şinasi",
-   "due_score": 79.4,
-   "priority": "YÜKSEK",
-   "freq": 3,
-   "son_yil": 2023,
-   "current_gap": 3,
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik."
-  },
-  {
-   "ad": "Mehmet Akif Ersoy",
-   "due_score": 79.4,
-   "priority": "YÜKSEK",
-   "freq": 3,
-   "son_yil": 2023,
-   "current_gap": 3,
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik."
-  },
-  {
-   "ad": "Ahmedi",
-   "due_score": 76.3,
-   "priority": "YÜKSEK",
-   "freq": 4,
-   "son_yil": 2024,
-   "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş."
-  },
-  {
-   "ad": "Orhan Veli Kanık",
-   "due_score": 76.3,
-   "priority": "YÜKSEK",
-   "freq": 4,
-   "son_yil": 2024,
-   "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş."
-  },
-  {
-   "ad": "Köroğlu",
-   "due_score": 75.7,
-   "priority": "YÜKSEK",
-   "freq": 3,
-   "son_yil": 2023,
-   "current_gap": 3,
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş."
-  },
-  {
-   "ad": "Baki",
-   "due_score": 75.7,
-   "priority": "YÜKSEK",
-   "freq": 3,
-   "son_yil": 2023,
-   "current_gap": 3,
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş."
-  },
-  {
-   "ad": "Şeyhülislam Yahya",
-   "due_score": 72.9,
-   "priority": "YÜKSEK",
-   "freq": 2,
-   "son_yil": 2020,
-   "current_gap": 6,
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2020 · 6 yıl boş."
-  },
-  {
-   "ad": "Yahya Kemal Beyatlı",
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "freq": 4,
-   "son_yil": 2024,
-   "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım."
-  },
-  {
-   "ad": "Şeyh Galip",
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "freq": 4,
-   "son_yil": 2024,
-   "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım."
-  },
-  {
-   "ad": "Memduh Şevket Esendal",
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "freq": 4,
-   "son_yil": 2024,
-   "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım."
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 6 kez vurgulandı (+12)."
   },
   {
    "ad": "Faruk Nafiz Çamlıbel",
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
+   "due_score": 82.7,
+   "priority": "ÇOK YÜKSEK",
    "freq": 4,
    "son_yil": 2024,
    "current_gap": 2,
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım."
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 5 kez vurgulandı (+10)."
   },
   {
-   "ad": "Orhan Kemal",
-   "due_score": 68.4,
+   "ad": "Fuzuli",
+   "due_score": 82.0,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 6,
+   "son_yil": 2025,
+   "current_gap": 1,
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 9 kez vurgulandı (+15)."
+  },
+  {
+   "ad": "Memduh Şevket Esendal",
+   "due_score": 80.7,
+   "priority": "ÇOK YÜKSEK",
+   "freq": 4,
+   "son_yil": 2024,
+   "current_gap": 2,
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 4 kez vurgulandı (+8)."
+  },
+  {
+   "ad": "Köroğlu",
+   "due_score": 79.7,
    "priority": "YÜKSEK",
    "freq": 3,
    "son_yil": 2023,
    "current_gap": 3,
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzensiz dağılım."
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 2 kez vurgulandı (+4)."
   },
   {
-   "ad": "Fuzuli",
-   "due_score": 67.0,
+   "ad": "Nef'i",
+   "due_score": 79.0,
+   "priority": "YÜKSEK",
+   "freq": 3,
+   "son_yil": 2024,
+   "current_gap": 2,
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik. MEBİ denemede 9 kez vurgulandı (+15)."
+  },
+  {
+   "ad": "Namık Kemal",
+   "due_score": 78.9,
    "priority": "YÜKSEK",
    "freq": 6,
    "son_yil": 2025,
    "current_gap": 1,
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18."
-  },
-  {
-   "ad": "Sehi Bey",
-   "due_score": 64.1,
-   "priority": "YÜKSEK",
-   "freq": 2,
-   "son_yil": 2021,
-   "current_gap": 5,
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2021 · 5 yıl boş."
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 8 kez vurgulandı (+15)."
   }
  ],
  "pattern_konu_skorlari": [

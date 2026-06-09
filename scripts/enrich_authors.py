@@ -600,9 +600,16 @@ ENRICHMENT = {
     "Ziya Gökalp": {
         "donem": "milli_edebiyat",
         "pozisyon": "Çok yönlü",
-        "anekdot": "Milli Edebiyat'ın İDEOLOĞU/sosyoloğu. 'Türkçülüğün Esasları' fikir kitabı, 'Kızıl Elma' şiir destanı. Türk milliyetçiliğinin kuramsal mimarı. 'Türkleşmek, İslamlaşmak, Muasırlaşmak' formülü.",
-        "klasik_tuzak": "Mehmet Emin Yurdakul ile karıştırma — Yurdakul ŞAİR/şiirsel manifesto, Gökalp DÜŞÜNÜR/sosyolog + fikri sistematik.",
-        "rakipleri": ["Mehmet Emin Yurdakul", "Ömer Seyfettin", "Yusuf Akçura"]
+        "anekdot": "Milli Edebiyat'ın İDEOLOĞU/sosyoloğu, Türkçülüğün kuramsal mimarı. 'Türkçülüğün Esasları' (fikir), 'Kızılelma' + 'Yeni Hayat' + 'Altın Işık' (şiir/masal), 'Türkleşmek-İslamlaşmak-Muasırlaşmak' (3'lü formül). HARS (kültür/millî) ↔ MEDENİYET (teknik/milletlerarası) ayrımı onun imzasıdır. Malta'ya sürüldü, 'Malta Mektupları'nı orada yazdı. ⭐ 2026 RESMÎ ZİYA GÖKALP ANMA YILI (150. doğum yılı, TÜRKSOY ilanı) — bu yıl AYT'de vurgu ihtimali yüksek, mutlaka çalış.",
+        "klasik_tuzak": "Mehmet Emin Yurdakul ile karıştırma — Yurdakul ŞAİR/şiirsel manifesto (Türk Sazı, Cenge Giderken), Gökalp DÜŞÜNÜR/sosyolog + fikrî sistematik (Türkçülüğün Esasları). Şiir gelince Yurdakul, sosyoloji/teori gelince Gökalp. Ayrıca Genç Kalemler üçlüsü: Ömer Seyfettin (hikaye), Ali Canip (eleştiri/şiir), Ziya Gökalp (teori).",
+        "rakipleri": ["Mehmet Emin Yurdakul", "Ömer Seyfettin", "Ali Canip Yöntem"]
+    },
+    "Ali Canip Yöntem": {
+        "donem": "milli_edebiyat",
+        "pozisyon": "Çok yönlü",
+        "anekdot": "Genç Kalemler üçlüsünün üçüncü ismi (Ömer Seyfettin + Ziya Gökalp ile). 'Yeni Lisan' hareketinin savunucusu; Cenap Şahabettin ile 'Millî Edebiyat Meselesi' tartışmasını yürüttü — bu polemik dil sadeleşmesinin manifestosu oldu. Tek şiir kitabı 'Geçtiğim Yol'. Sonradan şiiri bırakıp edebiyat tarihçiliğine/öğretmenliğe yöneldi.",
+        "klasik_tuzak": "Ali Canip = ELEŞTİRİ/polemik + Genç Kalemler; Ziya Gökalp = TEORİ/sosyoloji; Ömer Seyfettin = HİKAYE. Üçü Genç Kalemler çekirdeği ama rolleri farklı. 'Millî Edebiyat Meselesi' tartışması = Ali Canip'in imzası.",
+        "rakipleri": ["Ziya Gökalp", "Ömer Seyfettin", "Cenap Şahabettin"]
     },
     "Ömer Seyfettin": {
         "donem": "milli_edebiyat",

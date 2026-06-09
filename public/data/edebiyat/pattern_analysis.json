@@ -1407,8 +1407,11 @@
    "trend_bonus": 0,
    "due_score": 100.0,
    "priority": "ÇOK YÜKSEK",
-   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.5 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Refik Halit"
+   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.5 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Refik Halit",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -1438,8 +1441,11 @@
    "trend_bonus": 0,
    "due_score": 100.0,
    "priority": "ÇOK YÜKSEK",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.2 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Nabi"
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.2 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Nabi",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 3,
@@ -1463,8 +1469,11 @@
    "trend_bonus": 0,
    "due_score": 100.0,
    "priority": "ÇOK YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2021 · 5 yıl boş.",
-   "name": "Ahmet Hamdi Tanpınar"
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2021 · 5 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Ahmet Hamdi Tanpınar",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -1488,10 +1497,275 @@
    "expected_period": 2.0,
    "period_regularity": 0.654,
    "trend_bonus": 0,
-   "due_score": 83.6,
+   "due_score": 98.6,
    "priority": "ÇOK YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Âşık Paşa"
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 8 kez vurgulandı (+15).",
+   "name": "Âşık Paşa",
+   "mebi_deneme_count": 8,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2020,
+    2022,
+    2023
+   ],
+   "gaps": [
+    2,
+    1
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 1.5,
+   "max_gap": 2,
+   "expected_period": 2.67,
+   "period_regularity": 0.529,
+   "trend_bonus": 0,
+   "due_score": 90.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 8 kez vurgulandı (+15).",
+   "name": "Baki",
+   "mebi_deneme_count": 8,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2022,
+    2023,
+    2024
+   ],
+   "gaps": [
+    3,
+    1,
+    1
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 1.67,
+   "max_gap": 3,
+   "expected_period": 2.0,
+   "period_regularity": 0.307,
+   "trend_bonus": 0,
+   "due_score": 90.3,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 7 kez vurgulandı (+14).",
+   "name": "Ahmedi",
+   "mebi_deneme_count": 7,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2020,
+    2023
+   ],
+   "gaps": [
+    2,
+    3
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 2.5,
+   "max_gap": 3,
+   "expected_period": 2.67,
+   "period_regularity": 0.717,
+   "trend_bonus": 0,
+   "due_score": 89.4,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Mehmet Akif",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2020,
+    2023
+   ],
+   "gaps": [
+    2,
+    3
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 2.5,
+   "max_gap": 3,
+   "expected_period": 2.67,
+   "period_regularity": 0.717,
+   "trend_bonus": 0,
+   "due_score": 89.4,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Mehmet Akif Ersoy",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2021,
+    2022,
+    2024
+   ],
+   "gaps": [
+    3,
+    1,
+    2
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2,
+   "max_gap": 3,
+   "expected_period": 2.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 88.4,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Nedim",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2020,
+    2021,
+    2024
+   ],
+   "gaps": [
+    1,
+    1,
+    3
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 1.67,
+   "max_gap": 3,
+   "expected_period": 2.0,
+   "period_regularity": 0.307,
+   "trend_bonus": 0,
+   "due_score": 88.3,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Orhan Veli",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2019,
+    2023,
+    2024
+   ],
+   "gaps": [
+    1,
+    4,
+    1
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2,
+   "max_gap": 4,
+   "expected_period": 2.0,
+   "period_regularity": 0.134,
+   "trend_bonus": 0,
+   "due_score": 87.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Refik Halit Karay",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2019,
+    2023,
+    2024
+   ],
+   "gaps": [
+    1,
+    4,
+    1
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2,
+   "max_gap": 4,
+   "expected_period": 2.0,
+   "period_regularity": 0.134,
+   "trend_bonus": 0,
+   "due_score": 87.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Şeyh Galip",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2021,
+    2023
+   ],
+   "gaps": [
+    3,
+    2
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 2.5,
+   "max_gap": 3,
+   "expected_period": 2.67,
+   "period_regularity": 0.717,
+   "trend_bonus": 0,
+   "due_score": 87.4,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Şinasi",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -1511,239 +1785,36 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 81.2,
+   "due_score": 85.2,
    "priority": "ÇOK YÜKSEK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2019 · 7 yıl boş.",
-   "name": "Mithat Cemal Kuntay"
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2019 · 7 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Mithat Cemal Kuntay",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
    "years_active": [
-    2018,
-    2021,
-    2022,
-    2024
-   ],
-   "gaps": [
-    3,
-    1,
-    2
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2,
-   "max_gap": 3,
-   "expected_period": 2.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 80.4,
-   "priority": "ÇOK YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Nedim"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2021,
-    2023
-   ],
-   "gaps": [
-    3,
-    2
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 2.5,
-   "max_gap": 3,
-   "expected_period": 2.67,
-   "period_regularity": 0.717,
-   "trend_bonus": 0,
-   "due_score": 79.4,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik.",
-   "name": "Şinasi"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2020,
-    2023
-   ],
-   "gaps": [
-    2,
-    3
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 2.5,
-   "max_gap": 3,
-   "expected_period": 2.67,
-   "period_regularity": 0.717,
-   "trend_bonus": 0,
-   "due_score": 79.4,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik.",
-   "name": "Mehmet Akif"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2020,
-    2023
-   ],
-   "gaps": [
-    2,
-    3
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 2.5,
-   "max_gap": 3,
-   "expected_period": 2.67,
-   "period_regularity": 0.717,
-   "trend_bonus": 0,
-   "due_score": 79.4,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzenli periyodik.",
-   "name": "Mehmet Akif Ersoy"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2022,
-    2023,
-    2024
-   ],
-   "gaps": [
-    3,
-    1,
-    1
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 1.67,
-   "max_gap": 3,
-   "expected_period": 2.0,
-   "period_regularity": 0.307,
-   "trend_bonus": 0,
-   "due_score": 76.3,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Ahmedi"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2020,
-    2021,
-    2024
-   ],
-   "gaps": [
-    1,
-    1,
-    3
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 1.67,
-   "max_gap": 3,
-   "expected_period": 2.0,
-   "period_regularity": 0.307,
-   "trend_bonus": 0,
-   "due_score": 76.3,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Orhan Veli"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2020,
-    2022,
-    2023
-   ],
-   "gaps": [
-    2,
-    1
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 1.5,
-   "max_gap": 2,
-   "expected_period": 2.67,
-   "period_regularity": 0.529,
-   "trend_bonus": 0,
-   "due_score": 75.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Köroğlu"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2020,
-    2022,
-    2023
-   ],
-   "gaps": [
-    2,
-    1
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 1.5,
-   "max_gap": 2,
-   "expected_period": 2.67,
-   "period_regularity": 0.529,
-   "trend_bonus": 0,
-   "due_score": 75.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Baki"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
     2020
    ],
-   "gaps": [
-    2
-   ],
+   "gaps": [],
    "last_year": 2020,
    "current_gap": 6,
-   "mean_gap": 2,
-   "max_gap": 2,
-   "expected_period": 4.0,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 72.9,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2020 · 6 yıl boş.",
-   "name": "Şeyhülislam Yahya"
+   "due_score": 85.0,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş. MEBİ denemede 6 kez vurgulandı (+12). 2026 ZİYA GÖKALP ANMA YILI (150. doğum yılı, TÜRKSOY) — sınavda vurgu ihtimali yüksek.",
+   "name": "Ziya Gökalp",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": true,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -1767,118 +1838,13 @@
    "expected_period": 2.0,
    "period_regularity": 0.134,
    "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Refik Halit Karay"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2019,
-    2023,
-    2024
-   ],
-   "gaps": [
-    1,
-    4,
-    1
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2,
-   "max_gap": 4,
-   "expected_period": 2.0,
-   "period_regularity": 0.134,
-   "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Yahya Kemal"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2019,
-    2023,
-    2024
-   ],
-   "gaps": [
-    1,
-    4,
-    1
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2,
-   "max_gap": 4,
-   "expected_period": 2.0,
-   "period_regularity": 0.134,
-   "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Şeyh Galip"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2019,
-    2023,
-    2024
-   ],
-   "gaps": [
-    1,
-    4,
-    1
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2,
-   "max_gap": 4,
-   "expected_period": 2.0,
-   "period_regularity": 0.134,
-   "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Memduh Şevket"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2019,
-    2023,
-    2024
-   ],
-   "gaps": [
-    1,
-    4,
-    1
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2,
-   "max_gap": 4,
-   "expected_period": 2.0,
-   "period_regularity": 0.134,
-   "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Memduh Şevket Esendal"
+   "due_score": 84.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Yahya Kemal",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -1902,10 +1868,13 @@
    "expected_period": 2.0,
    "period_regularity": 0.134,
    "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Faruk Nafiz Çamlıbel"
+   "due_score": 82.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Faruk Nafiz Çamlıbel",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -1929,35 +1898,13 @@
    "expected_period": 2.0,
    "period_regularity": 0.134,
    "trend_bonus": 0,
-   "due_score": 72.7,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım.",
-   "name": "Faruk Nafiz"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2019,
-    2023
-   ],
-   "gaps": [
-    1,
-    4
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 2.5,
-   "max_gap": 4,
-   "expected_period": 2.67,
-   "period_regularity": 0.151,
-   "trend_bonus": 0,
-   "due_score": 68.4,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzensiz dağılım.",
-   "name": "Orhan Kemal"
+   "due_score": 82.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Faruk Nafiz",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -1985,79 +1932,101 @@
    "expected_period": 1.33,
    "period_regularity": 0.609,
    "trend_bonus": 18,
-   "due_score": 67.0,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Fuzuli"
+   "due_score": 82.0,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Fuzuli",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
-   "freq_8yil": 2,
-   "raw_count": 2,
+   "freq_8yil": 4,
+   "raw_count": 4,
    "volume_tier": "ORTA",
    "years_active": [
+    2018,
     2019,
-    2021
+    2023,
+    2024
    ],
    "gaps": [
-    2
+    1,
+    4,
+    1
    ],
-   "last_year": 2021,
-   "current_gap": 5,
+   "last_year": 2024,
+   "current_gap": 2,
    "mean_gap": 2,
+   "max_gap": 4,
+   "expected_period": 2.0,
+   "period_regularity": 0.134,
+   "trend_bonus": 0,
+   "due_score": 80.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Memduh Şevket",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2019,
+    2023,
+    2024
+   ],
+   "gaps": [
+    1,
+    4,
+    1
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2,
+   "max_gap": 4,
+   "expected_period": 2.0,
+   "period_regularity": 0.134,
+   "trend_bonus": 0,
+   "due_score": 80.7,
+   "priority": "ÇOK YÜKSEK",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzensiz dağılım. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Memduh Şevket Esendal",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2020,
+    2022,
+    2023
+   ],
+   "gaps": [
+    2,
+    1
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 1.5,
    "max_gap": 2,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
+   "expected_period": 2.67,
+   "period_regularity": 0.529,
    "trend_bonus": 0,
-   "due_score": 64.1,
+   "due_score": 79.7,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2021 · 5 yıl boş.",
-   "name": "Sehi Bey"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2021
-   ],
-   "gaps": [
-    3
-   ],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": 3,
-   "max_gap": 3,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 64.1,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2021 · 5 yıl boş.",
-   "name": "Necip Fazıl Kısakürek"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2021
-   ],
-   "gaps": [
-    3
-   ],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": 3,
-   "max_gap": 3,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 64.1,
-   "priority": "YÜKSEK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2021 · 5 yıl boş.",
-   "name": "Necip Fazıl"
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Köroğlu",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 3,
@@ -2079,10 +2048,13 @@
    "expected_period": 2.67,
    "period_regularity": 1.0,
    "trend_bonus": 0,
-   "due_score": 64.0,
+   "due_score": 79.0,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik.",
-   "name": "Nef'i"
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Nef'i",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -2110,10 +2082,13 @@
    "expected_period": 1.33,
    "period_regularity": 0.361,
    "trend_bonus": 18,
-   "due_score": 63.9,
+   "due_score": 78.9,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Namık Kemal"
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 8 kez vurgulandı (+15).",
+   "name": "Namık Kemal",
+   "mebi_deneme_count": 8,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -2141,10 +2116,13 @@
    "expected_period": 1.33,
    "period_regularity": 0.361,
    "trend_bonus": 18,
-   "due_score": 63.9,
+   "due_score": 77.9,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Ahmet Haşim"
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 7 kez vurgulandı (+14).",
+   "name": "Ahmet Haşim",
+   "mebi_deneme_count": 7,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -2172,10 +2150,13 @@
    "expected_period": 1.33,
    "period_regularity": 0.361,
    "trend_bonus": 18,
-   "due_score": 63.9,
+   "due_score": 75.9,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Ahmet Mithat Efendi"
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Ahmet Mithat Efendi",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -2203,10 +2184,13 @@
    "expected_period": 1.33,
    "period_regularity": 0.361,
    "trend_bonus": 18,
-   "due_score": 63.9,
+   "due_score": 75.9,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Ahmet Mithat"
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Ahmet Mithat",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 5,
@@ -2232,10 +2216,13 @@
    "expected_period": 1.6,
    "period_regularity": 1.0,
    "trend_bonus": 18,
-   "due_score": 61.7,
+   "due_score": 75.7,
    "priority": "YÜKSEK",
-   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.0 yılda 1 · son 2025 · 1 yıl boş · düzenli periyodik · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Şeyhi"
+   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.0 yılda 1 · son 2025 · 1 yıl boş · düzenli periyodik · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 7 kez vurgulandı (+14).",
+   "name": "Şeyhi",
+   "mebi_deneme_count": 7,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 3,
@@ -2257,60 +2244,13 @@
    "expected_period": 2.67,
    "period_regularity": 0.717,
    "trend_bonus": 0,
-   "due_score": 59.8,
-   "priority": "ORTA",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik.",
-   "name": "Yakup Kadri"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2022,
-    2024
-   ],
-   "gaps": [
-    3,
-    2
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2.5,
-   "max_gap": 3,
-   "expected_period": 2.67,
-   "period_regularity": 0.717,
-   "trend_bonus": 0,
-   "due_score": 59.8,
-   "priority": "ORTA",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik.",
-   "name": "Halide Edip"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2022,
-    2024
-   ],
-   "gaps": [
-    3,
-    2
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2.5,
-   "max_gap": 3,
-   "expected_period": 2.67,
-   "period_regularity": 0.717,
-   "trend_bonus": 0,
-   "due_score": 59.8,
-   "priority": "ORTA",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik.",
-   "name": "Reşat Nuri"
+   "due_score": 74.8,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik. MEBİ denemede 8 kez vurgulandı (+15).",
+   "name": "Yakup Kadri",
+   "mebi_deneme_count": 8,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 7,
@@ -2340,81 +2280,13 @@
    "expected_period": 1.14,
    "period_regularity": 0.65,
    "trend_bonus": 0,
-   "due_score": 59.0,
-   "priority": "ORTA",
-   "rationale": "8 yılda 7 soru (7 farklı yıl) · ort. 1.2 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Recaizade"
-  },
-  {
-   "freq_8yil": 3,
-   "raw_count": 3,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2021,
-    2022,
-    2024
-   ],
-   "gaps": [
-    1,
-    2
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 1.5,
-   "max_gap": 2,
-   "expected_period": 2.67,
-   "period_regularity": 0.529,
-   "trend_bonus": 0,
-   "due_score": 57.0,
-   "priority": "ORTA",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Ahmet Kutsi Tecer"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2021,
-    2022
-   ],
-   "gaps": [
-    1
-   ],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": 1,
-   "max_gap": 1,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 54.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2022 · 4 yıl boş.",
-   "name": "Süleyman Çelebi"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2022
-   ],
-   "gaps": [
-    3
-   ],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": 3,
-   "max_gap": 3,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 54.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2022 · 4 yıl boş.",
-   "name": "Aka Gündüz"
+   "due_score": 74.0,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 7 soru (7 farklı yıl) · ort. 1.2 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Recaizade",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -2422,22 +2294,187 @@
    "volume_tier": "ORTA",
    "years_active": [
     2018,
-    2022
+    2020
    ],
    "gaps": [
-    4
+    2
    ],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": 4,
-   "max_gap": 4,
+   "last_year": 2020,
+   "current_gap": 6,
+   "mean_gap": 2,
+   "max_gap": 2,
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 54.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 4.0 yılda 1 · son 2022 · 4 yıl boş.",
-   "name": "Necati Cumalı"
+   "due_score": 72.9,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2020 · 6 yıl boş.",
+   "name": "Şeyhülislam Yahya",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2019,
+    2023
+   ],
+   "gaps": [
+    1,
+    4
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 2.5,
+   "max_gap": 4,
+   "expected_period": 2.67,
+   "period_regularity": 0.151,
+   "trend_bonus": 0,
+   "due_score": 72.4,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2023 · 3 yıl boş · düzensiz dağılım. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Orhan Kemal",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2021
+   ],
+   "gaps": [
+    3
+   ],
+   "last_year": 2021,
+   "current_gap": 5,
+   "mean_gap": 3,
+   "max_gap": 3,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 70.1,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2021 · 5 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Necip Fazıl Kısakürek",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2021
+   ],
+   "gaps": [
+    3
+   ],
+   "last_year": 2021,
+   "current_gap": 5,
+   "mean_gap": 3,
+   "max_gap": 3,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 70.1,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2021 · 5 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Necip Fazıl",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2022,
+    2024
+   ],
+   "gaps": [
+    3,
+    2
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2.5,
+   "max_gap": 3,
+   "expected_period": 2.67,
+   "period_regularity": 0.717,
+   "trend_bonus": 0,
+   "due_score": 69.8,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Halide Edip",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2022,
+    2024
+   ],
+   "gaps": [
+    3,
+    2
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2.5,
+   "max_gap": 3,
+   "expected_period": 2.67,
+   "period_regularity": 0.717,
+   "trend_bonus": 0,
+   "due_score": 67.8,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.5 yılda 1 · son 2024 · 2 yıl boş · düzenli periyodik. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Reşat Nuri",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2021
+   ],
+   "gaps": [
+    2
+   ],
+   "last_year": 2021,
+   "current_gap": 5,
+   "mean_gap": 2,
+   "max_gap": 2,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 66.1,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2021 · 5 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Sehi Bey",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 6,
@@ -2465,10 +2502,93 @@
    "expected_period": 1.33,
    "period_regularity": 0.609,
    "trend_bonus": 0,
-   "due_score": 49.0,
+   "due_score": 64.0,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Recaizade Mahmut Ekrem",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2021,
+    2022
+   ],
+   "gaps": [
+    1
+   ],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": 1,
+   "max_gap": 1,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 62.9,
+   "priority": "YÜKSEK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2022 · 4 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Süleyman Çelebi",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 3,
+   "raw_count": 3,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2021,
+    2022,
+    2024
+   ],
+   "gaps": [
+    1,
+    2
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 1.5,
+   "max_gap": 2,
+   "expected_period": 2.67,
+   "period_regularity": 0.529,
+   "trend_bonus": 0,
+   "due_score": 59.0,
    "priority": "ORTA",
-   "rationale": "8 yılda 6 soru (6 farklı yıl) · ort. 1.4 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Recaizade Mahmut Ekrem"
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 1.5 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Ahmet Kutsi Tecer",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2022
+   ],
+   "gaps": [
+    4
+   ],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": 4,
+   "max_gap": 4,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 58.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 4.0 yılda 1 · son 2022 · 4 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Necati Cumalı",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -2492,10 +2612,65 @@
    "expected_period": 2.0,
    "period_regularity": 0.307,
    "trend_bonus": 18,
-   "due_score": 46.2,
+   "due_score": 58.2,
    "priority": "ORTA",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Tevfik Fikret"
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2025 · 1 yıl boş · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Tevfik Fikret",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2022
+   ],
+   "gaps": [
+    3
+   ],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": 3,
+   "max_gap": 3,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 56.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2022 · 4 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Aka Gündüz",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2023
+   ],
+   "gaps": [
+    5
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 5,
+   "max_gap": 5,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 56.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Yahya Kemal Beyatlı",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -2519,56 +2694,13 @@
    "expected_period": 2.0,
    "period_regularity": 0.134,
    "trend_bonus": 18,
-   "due_score": 44.9,
+   "due_score": 54.9,
    "priority": "ORTA",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2025 · 1 yıl boş · düzensiz dağılım · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18.",
-   "name": "Cenap Şahabettin"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2023
-   ],
-   "gaps": [
-    5
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 5,
-   "max_gap": 5,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 44.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Haldun Taner"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2022,
-    2023
-   ],
-   "gaps": [
-    1
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 1,
-   "max_gap": 1,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 44.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Şemsettin Sami"
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.0 yılda 1 · son 2025 · 1 yıl boş · düzensiz dağılım · YÜKSELİŞ TRENDİ (son 3 yıl ardışık) +18. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Cenap Şahabettin",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -2588,102 +2720,13 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 44.9,
+   "due_score": 54.9,
    "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Hüseyin Cahit Yalçın"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2023
-   ],
-   "gaps": [
-    5
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 5,
-   "max_gap": 5,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 44.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Yahya Kemal Beyatlı"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2022,
-    2023
-   ],
-   "gaps": [
-    1
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 1,
-   "max_gap": 1,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 44.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Orhan Seyfi Orhon"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2022,
-    2023
-   ],
-   "gaps": [
-    1
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 1,
-   "max_gap": 1,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 44.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Yusuf Ziya Ortaç"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2022,
-    2023
-   ],
-   "gaps": [
-    1
-   ],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": 1,
-   "max_gap": 1,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 44.9,
-   "priority": "ORTA",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş.",
-   "name": "Halit Fahri Ozansoy"
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Hüseyin Cahit Yalçın",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 5,
@@ -2709,205 +2752,39 @@
    "expected_period": 1.6,
    "period_regularity": 0.453,
    "trend_bonus": 0,
-   "due_score": 38.2,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.8 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Necati"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2018
-   ],
-   "gaps": [],
-   "last_year": 2018,
-   "current_gap": 8,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 34.6,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş.",
-   "name": "Sami Paşazade Sezai"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2018
-   ],
-   "gaps": [],
-   "last_year": 2018,
-   "current_gap": 8,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 34.6,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş.",
-   "name": "Nabizade Nazım"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2018
-   ],
-   "gaps": [],
-   "last_year": 2018,
-   "current_gap": 8,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 34.6,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş.",
-   "name": "Peyami Safa"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2018
-   ],
-   "gaps": [],
-   "last_year": 2018,
-   "current_gap": 8,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 34.6,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş.",
-   "name": "Ahmet Hikmet Müftüoğlu"
+   "due_score": 52.2,
+   "priority": "ORTA",
+   "rationale": "8 yılda 5 soru (5 farklı yıl) · ort. 1.8 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 7 kez vurgulandı (+14).",
+   "name": "Necati",
+   "mebi_deneme_count": 7,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
    "raw_count": 2,
    "volume_tier": "ORTA",
    "years_active": [
-    2019,
-    2024
-   ],
-   "gaps": [
-    5
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 5,
-   "max_gap": 5,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 33.8,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Yakup Kadri Karaosmanoğlu"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2023,
-    2024
+    2022,
+    2023
    ],
    "gaps": [
     1
    ],
-   "last_year": 2024,
-   "current_gap": 2,
+   "last_year": 2023,
+   "current_gap": 3,
    "mean_gap": 1,
    "max_gap": 1,
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 33.8,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Yunus Emre"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2024
-   ],
-   "gaps": [
-    5
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 5,
-   "max_gap": 5,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 33.8,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Halide Edip Adıvar"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2024
-   ],
-   "gaps": [
-    5
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 5,
-   "max_gap": 5,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 33.8,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Reşat Nuri Güntekin"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2019,
-    2024
-   ],
-   "gaps": [
-    5
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 5,
-   "max_gap": 5,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 33.8,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Orhan Veli Kanık"
+   "due_score": 50.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Şemsettin Sami",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -2915,289 +2792,126 @@
    "volume_tier": "ORTA",
    "years_active": [
     2022,
-    2024
+    2023
    ],
    "gaps": [
-    2
-   ],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": 2,
-   "max_gap": 2,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 33.8,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş.",
-   "name": "Bedri Rahmi Eyüboğlu"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Zati"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Ahmet Vefik Paşa"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Direktör Ali Bey"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Molière"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Ömer Seyfettin"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Falih Rıfkı Atay"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Melih Cevdet Anday"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Oktay Rifat"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Melih Cevdet"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Sevgi Soysal"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Latife Tekin"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2019
-   ],
-   "gaps": [],
-   "last_year": 2019,
-   "current_gap": 7,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 31.5,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
-   "name": "Pınar Kür"
-  },
-  {
-   "freq_8yil": 4,
-   "raw_count": 4,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2020,
-    2022,
-    2024,
-    2025
-   ],
-   "gaps": [
-    2,
-    2,
     1
    ],
-   "last_year": 2025,
-   "current_gap": 1,
-   "mean_gap": 1.67,
-   "max_gap": 2,
-   "expected_period": 2.0,
-   "period_regularity": 0.654,
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 1,
+   "max_gap": 1,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 30.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Abdülhak Hamit"
+   "due_score": 48.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Orhan Seyfi Orhon",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2024
+   ],
+   "gaps": [
+    5
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 5,
+   "max_gap": 5,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 48.8,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 8 kez vurgulandı (+15).",
+   "name": "Yakup Kadri Karaosmanoğlu",
+   "mebi_deneme_count": 8,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 47.5,
+   "priority": "ORTA",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 3 kez vurgulandı (+6). Milli Edebiyat / Genç Kalemler dalgası (2026 anma yılı yan etkisi).",
+   "name": "Ömer Seyfettin",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": true
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2023
+   ],
+   "gaps": [
+    5
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 5,
+   "max_gap": 5,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 46.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Haldun Taner",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2022,
+    2023
+   ],
+   "gaps": [
+    1
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 1,
+   "max_gap": 1,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 46.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Halit Fahri Ozansoy",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -3221,10 +2935,242 @@
    "expected_period": 2.0,
    "period_regularity": 0.654,
    "trend_bonus": 0,
-   "due_score": 30.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Taşlıcalı Yahya"
+   "due_score": 45.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 9 kez vurgulandı (+15).",
+   "name": "Taşlıcalı Yahya",
+   "mebi_deneme_count": 9,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2024
+   ],
+   "gaps": [
+    5
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 5,
+   "max_gap": 5,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 45.8,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Orhan Veli Kanık",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2022,
+    2023
+   ],
+   "gaps": [
+    1
+   ],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": 1,
+   "max_gap": 1,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 44.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2023 · 3 yıl boş.",
+   "name": "Yusuf Ziya Ortaç",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2023,
+    2024
+   ],
+   "gaps": [
+    1
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 1,
+   "max_gap": 1,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 43.8,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Yunus Emre",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2024
+   ],
+   "gaps": [
+    5
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 5,
+   "max_gap": 5,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 43.8,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Halide Edip Adıvar",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 4,
+   "raw_count": 4,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2020,
+    2022,
+    2024,
+    2025
+   ],
+   "gaps": [
+    2,
+    2,
+    1
+   ],
+   "last_year": 2025,
+   "current_gap": 1,
+   "mean_gap": 1.67,
+   "max_gap": 2,
+   "expected_period": 2.0,
+   "period_regularity": 0.654,
+   "trend_bonus": 0,
+   "due_score": 42.9,
+   "priority": "ORTA",
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 1.7 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Abdülhak Hamit",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2020
+   ],
+   "gaps": [],
+   "last_year": 2020,
+   "current_gap": 6,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 42.3,
+   "priority": "ORTA",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş. MEBİ denemede 7 kez vurgulandı (+14).",
+   "name": "Neşati",
+   "mebi_deneme_count": 7,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2019,
+    2024
+   ],
+   "gaps": [
+    5
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 5,
+   "max_gap": 5,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 41.8,
+   "priority": "ORTA",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 5.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Reşat Nuri Güntekin",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2018
+   ],
+   "gaps": [],
+   "last_year": 2018,
+   "current_gap": 8,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 40.6,
+   "priority": "ORTA",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Peyami Safa",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2018
+   ],
+   "gaps": [],
+   "last_year": 2018,
+   "current_gap": 8,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 40.6,
+   "priority": "ORTA",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Ahmet Hikmet Müftüoğlu",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 4,
@@ -3248,10 +3194,59 @@
    "expected_period": 2.0,
    "period_regularity": 0.345,
    "trend_bonus": 0,
-   "due_score": 28.5,
+   "due_score": 38.5,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.3 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Sabahattin Ali"
+   "rationale": "8 yılda 4 soru (4 farklı yıl) · ort. 2.3 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Sabahattin Ali",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 37.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Melih Cevdet Anday",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 37.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Melih Cevdet",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3268,10 +3263,246 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 36.3,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Shakespeare"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Mehmet Emin Yurdakul",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2022,
+    2024
+   ],
+   "gaps": [
+    2
+   ],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": 2,
+   "max_gap": 2,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 35.8,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 2.0 yılda 1 · son 2024 · 2 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Bedri Rahmi Eyüboğlu",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 35.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Ahmet Vefik Paşa",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 35.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Oktay Rifat",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2021
+   ],
+   "gaps": [],
+   "last_year": 2021,
+   "current_gap": 5,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 34.9,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Halit Ziya",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2018
+   ],
+   "gaps": [],
+   "last_year": 2018,
+   "current_gap": 8,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 34.6,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş.",
+   "name": "Sami Paşazade Sezai",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2018
+   ],
+   "gaps": [],
+   "last_year": 2018,
+   "current_gap": 8,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 34.6,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2018 · 8 yıl boş.",
+   "name": "Nabizade Nazım",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 33.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Zati",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 33.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Molière",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2019
+   ],
+   "gaps": [],
+   "last_year": 2019,
+   "current_gap": 7,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 33.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Latife Tekin",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2021
+   ],
+   "gaps": [],
+   "last_year": 2021,
+   "current_gap": 5,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 32.9,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Halit Ziya Uşaklıgil",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3288,10 +3519,13 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 32.3,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Aristoteles"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Ahmet Yesevi",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3308,130 +3542,105 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 32.3,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Ahmet Yesevi"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Naili",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2020
+    2019
    ],
    "gaps": [],
-   "last_year": 2020,
-   "current_gap": 6,
+   "last_year": 2019,
+   "current_gap": 7,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 31.5,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Kaşgarlı Mahmut"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
+   "name": "Direktör Ali Bey",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2020
+    2019
    ],
    "gaps": [],
-   "last_year": 2020,
-   "current_gap": 6,
+   "last_year": 2019,
+   "current_gap": 7,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 31.5,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Neşati"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
+   "name": "Falih Rıfkı Atay",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2020
+    2019
    ],
    "gaps": [],
-   "last_year": 2020,
-   "current_gap": 6,
+   "last_year": 2019,
+   "current_gap": 7,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 31.5,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Naili"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
+   "name": "Sevgi Soysal",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2020
+    2019
    ],
    "gaps": [],
-   "last_year": 2020,
-   "current_gap": 6,
+   "last_year": 2019,
+   "current_gap": 7,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 28.3,
+   "due_score": 31.5,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Mehmet Emin Yurdakul"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2020
-   ],
-   "gaps": [],
-   "last_year": 2020,
-   "current_gap": 6,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 28.3,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
-   "name": "Ziya Gökalp"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2021
-   ],
-   "gaps": [],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 24.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Freud"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2019 · 7 yıl boş.",
+   "name": "Pınar Kür",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3448,10 +3657,13 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 24.9,
+   "due_score": 30.9,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Brancusi"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "İlhan Berk",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3468,190 +3680,13 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 24.9,
+   "due_score": 30.9,
    "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Halit Ziya"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2021
-   ],
-   "gaps": [],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 24.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Halit Ziya Uşaklıgil"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2021
-   ],
-   "gaps": [],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 24.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Cahit Külebi"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2021
-   ],
-   "gaps": [],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 24.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "İlhan Berk"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2021
-   ],
-   "gaps": [],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 24.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Nâzım Hikmet"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2021
-   ],
-   "gaps": [],
-   "last_year": 2021,
-   "current_gap": 5,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 24.9,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
-   "name": "Cevat Fehmi Başkut"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2022
-   ],
-   "gaps": [],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 21.3,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
-   "name": "Nikola Tesla"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2022
-   ],
-   "gaps": [],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 21.3,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
-   "name": "Tesla"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2022
-   ],
-   "gaps": [],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 21.3,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
-   "name": "Enis Behiç Koryürek"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2022
-   ],
-   "gaps": [],
-   "last_year": 2022,
-   "current_gap": 4,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 21.3,
-   "priority": "DÜŞÜK",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
-   "name": "Adalet Ağaoğlu"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Nâzım Hikmet",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 3,
@@ -3673,10 +3708,131 @@
    "expected_period": 2.67,
    "period_regularity": 0.293,
    "trend_bonus": 0,
-   "due_score": 19.8,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.0 yılda 1 · son 2025 · 1 yıl boş · düzensiz dağılım.",
-   "name": "Ahmet Paşa"
+   "due_score": 29.8,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 3 soru (3 farklı yıl) · ort. 2.0 yılda 1 · son 2025 · 1 yıl boş · düzensiz dağılım. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Ahmet Paşa",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2020
+   ],
+   "gaps": [],
+   "last_year": 2020,
+   "current_gap": 6,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 28.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
+   "name": "Shakespeare",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2020
+   ],
+   "gaps": [],
+   "last_year": 2020,
+   "current_gap": 6,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 28.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
+   "name": "Aristoteles",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2020
+   ],
+   "gaps": [],
+   "last_year": 2020,
+   "current_gap": 6,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 28.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2020 · 6 yıl boş.",
+   "name": "Kaşgarlı Mahmut",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2021
+   ],
+   "gaps": [],
+   "last_year": 2021,
+   "current_gap": 5,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 26.9,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Cevat Fehmi Başkut",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 2,
+   "raw_count": 2,
+   "volume_tier": "ORTA",
+   "years_active": [
+    2018,
+    2025
+   ],
+   "gaps": [
+    7
+   ],
+   "last_year": 2025,
+   "current_gap": 1,
+   "mean_gap": 7,
+   "max_gap": 7,
+   "expected_period": 4.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 26.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 7.0 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 7 kez vurgulandı (+14).",
+   "name": "Tarık Buğra",
+   "mebi_deneme_count": 7,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3693,10 +3849,13 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 17.4,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
-   "name": "Ziya Paşa"
+   "due_score": 25.4,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Ziya Paşa",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -3713,250 +3872,82 @@
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 17.4,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
-   "name": "Oğuz Atay"
+   "due_score": 25.4,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Hüseyin Rahmi Gürpınar",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2023
+    2021
    ],
    "gaps": [],
-   "last_year": 2023,
-   "current_gap": 3,
+   "last_year": 2021,
+   "current_gap": 5,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 17.4,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
-   "name": "Yusuf Has Hacip"
+   "due_score": 24.9,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
+   "name": "Freud",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2023
+    2021
    ],
    "gaps": [],
-   "last_year": 2023,
-   "current_gap": 3,
+   "last_year": 2021,
+   "current_gap": 5,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 17.4,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
-   "name": "Hayali Bey"
+   "due_score": 24.9,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
+   "name": "Brancusi",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
    "raw_count": 1,
    "volume_tier": "AZ",
    "years_active": [
-    2023
+    2021
    ],
    "gaps": [],
-   "last_year": 2023,
-   "current_gap": 3,
+   "last_year": 2021,
+   "current_gap": 5,
    "mean_gap": null,
    "max_gap": null,
    "expected_period": 8.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 17.4,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
-   "name": "Hüseyin Rahmi Gürpınar"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2023
-   ],
-   "gaps": [],
-   "last_year": 2023,
-   "current_gap": 3,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 17.4,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
-   "name": "Halikarnas Balıkçısı"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Mevlana"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Hacı Bayram Veli"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Samipaşazade Sezai"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Ece Ayhan"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "İsmet Özel"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Sezai Karakoç"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Arif Nihat Asya"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2024
-   ],
-   "gaps": [],
-   "last_year": 2024,
-   "current_gap": 2,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 13.1,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
-   "name": "Fazıl Hüsnü Dağlarca"
+   "due_score": 24.9,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2021 · 5 yıl boş.",
+   "name": "Cahit Külebi",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -3976,10 +3967,36 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 12.5,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Abdülhak Hamit Tarhan"
+   "due_score": 24.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 3.0 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 6 kez vurgulandı (+12).",
+   "name": "Abdülhak Hamit Tarhan",
+   "mebi_deneme_count": 6,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2022
+   ],
+   "gaps": [],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 23.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Adalet Ağaoğlu",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -3999,10 +4016,220 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 12.5,
+   "due_score": 22.5,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 5 kez vurgulandı (+10).",
+   "name": "Muallim Naci",
+   "mebi_deneme_count": 5,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2022
+   ],
+   "gaps": [],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 21.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
+   "name": "Nikola Tesla",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2022
+   ],
+   "gaps": [],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 21.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
+   "name": "Tesla",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2022
+   ],
+   "gaps": [],
+   "last_year": 2022,
+   "current_gap": 4,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 21.3,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
+   "name": "Enis Behiç Koryürek",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 21.1,
+   "priority": "DÜŞÜK",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 4 kez vurgulandı (+8).",
+   "name": "Mevlana",
+   "mebi_deneme_count": 4,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2023
+   ],
+   "gaps": [],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 19.4,
    "priority": "İHMAL",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 1.0 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Muallim Naci"
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Oğuz Atay",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2023
+   ],
+   "gaps": [],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 19.4,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Yusuf Has Hacip",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2023
+   ],
+   "gaps": [],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 19.4,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Halikarnas Balıkçısı",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 19.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Samipaşazade Sezai",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 19.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Arif Nihat Asya",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -4022,10 +4249,82 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 12.5,
+   "due_score": 18.5,
    "priority": "İHMAL",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 7.0 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Kemal Tahir"
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 7.0 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 3 kez vurgulandı (+6).",
+   "name": "Yaşar Kemal",
+   "mebi_deneme_count": 3,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2023
+   ],
+   "gaps": [],
+   "last_year": 2023,
+   "current_gap": 3,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 17.4,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2023 · 3 yıl boş.",
+   "name": "Hayali Bey",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 17.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Ece Ayhan",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 17.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Fazıl Hüsnü Dağlarca",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -4045,33 +4344,13 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 12.5,
+   "due_score": 16.5,
    "priority": "İHMAL",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 7.0 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Tarık Buğra"
-  },
-  {
-   "freq_8yil": 2,
-   "raw_count": 2,
-   "volume_tier": "ORTA",
-   "years_active": [
-    2018,
-    2025
-   ],
-   "gaps": [
-    7
-   ],
-   "last_year": 2025,
-   "current_gap": 1,
-   "mean_gap": 7,
-   "max_gap": 7,
-   "expected_period": 4.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 12.5,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 7.0 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Yaşar Kemal"
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 7.0 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Kemal Tahir",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 2,
@@ -4091,10 +4370,128 @@
    "expected_period": 4.0,
    "period_regularity": 0.5,
    "trend_bonus": 0,
-   "due_score": 12.5,
+   "due_score": 16.5,
    "priority": "İHMAL",
-   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 4.0 yılda 1 · son 2025 · 1 yıl boş.",
-   "name": "Attila İlhan"
+   "rationale": "8 yılda 2 soru (2 farklı yıl) · ort. 4.0 yılda 1 · son 2025 · 1 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Attila İlhan",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 15.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "İsmet Özel",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 15.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Sezai Karakoç",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2024
+   ],
+   "gaps": [],
+   "last_year": 2024,
+   "current_gap": 2,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 13.1,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2024 · 2 yıl boş.",
+   "name": "Hacı Bayram Veli",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2025
+   ],
+   "gaps": [],
+   "last_year": 2025,
+   "current_gap": 1,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 8.8,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2025 · 1 yıl boş. MEBİ denemede 2 kez vurgulandı (+4).",
+   "name": "Süleyman Nazif",
+   "mebi_deneme_count": 2,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
+  },
+  {
+   "freq_8yil": 1,
+   "raw_count": 1,
+   "volume_tier": "AZ",
+   "years_active": [
+    2025
+   ],
+   "gaps": [],
+   "last_year": 2025,
+   "current_gap": 1,
+   "mean_gap": null,
+   "max_gap": null,
+   "expected_period": 8.0,
+   "period_regularity": 0.5,
+   "trend_bonus": 0,
+   "due_score": 6.8,
+   "priority": "İHMAL",
+   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2025 · 1 yıl boş. MEBİ denemede 1 kez vurgulandı (+2).",
+   "name": "Hamdullah Hamdi",
+   "mebi_deneme_count": 1,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   },
   {
    "freq_8yil": 1,
@@ -4114,47 +4511,10 @@
    "due_score": 4.8,
    "priority": "İHMAL",
    "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2025 · 1 yıl boş.",
-   "name": "Mary Shelley"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2025
-   ],
-   "gaps": [],
-   "last_year": 2025,
-   "current_gap": 1,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 4.8,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2025 · 1 yıl boş.",
-   "name": "Hamdullah Hamdi"
-  },
-  {
-   "freq_8yil": 1,
-   "raw_count": 1,
-   "volume_tier": "AZ",
-   "years_active": [
-    2025
-   ],
-   "gaps": [],
-   "last_year": 2025,
-   "current_gap": 1,
-   "mean_gap": null,
-   "max_gap": null,
-   "expected_period": 8.0,
-   "period_regularity": 0.5,
-   "trend_bonus": 0,
-   "due_score": 4.8,
-   "priority": "İHMAL",
-   "rationale": "8 yılda 1 soru (1 farklı yıl) · son 2025 · 1 yıl boş.",
-   "name": "Süleyman Nazif"
+   "name": "Mary Shelley",
+   "mebi_deneme_count": 0,
+   "anma_yili_2026": false,
+   "anma_yili_dalga": false
   }
  ]
 }

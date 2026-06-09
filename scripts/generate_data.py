@@ -94,9 +94,10 @@ YAZAR_ESERLERI = {
     # Fecr-i Âti
     'Ahmet Haşim': ['Piyale', 'Göl Saatleri', 'Bize Göre', 'Frankfurt Seyahatnamesi'],
     # Milli Ed.
-    'Ömer Seyfettin': ['Bomba', 'Pembe İncili Kaftan', 'Falaka', 'Kaşağı', 'Diyet', 'Yüksek Ökçeler', 'Forsa', 'Başını Vermeyen Şehit'],
-    'Ziya Gökalp': ['Türkçülüğün Esasları', 'Kızılelma', 'Yeni Hayat', 'Altın Işık'],
-    'Mehmet Emin Yurdakul': ['Türk Sazı', 'Cenge Giderken'],
+    'Ömer Seyfettin': ['Bomba', 'Pembe İncili Kaftan', 'Falaka', 'Kaşağı', 'Diyet', 'Yüksek Ökçeler', 'Forsa', 'Başını Vermeyen Şehit', 'Yalnız Efe', 'Beyaz Lale', 'Kızıl Elma Neresi', 'Efruz Bey'],
+    'Ziya Gökalp': ['Türkçülüğün Esasları', 'Kızılelma', 'Yeni Hayat', 'Altın Işık', 'Türkleşmek İslamlaşmak Muasırlaşmak', 'Türk Medeniyeti Tarihi', 'Malta Mektupları'],
+    'Ali Canip Yöntem': ['Geçtiğim Yol', 'Milli Edebiyat Meselesi ve Cenab Bey\'le Münakaşalarım'],
+    'Mehmet Emin Yurdakul': ['Türk Sazı', 'Cenge Giderken', 'Ey Türk Uyan', 'Tan Sesleri', 'Ordunun Destanı'],
     'Yakup Kadri Karaosmanoğlu': ['Yaban', 'Kiralık Konak', 'Nur Baba', 'Hüküm Gecesi', 'Ankara', 'Sodom ve Gomore', 'Panorama', 'Bir Serencam'],
     'Halide Edip Adıvar': ['Sinekli Bakkal', 'Ateşten Gömlek', 'Vurun Kahpeye', 'Handan', "Mev'ud Hüküm"],
     'Reşat Nuri Güntekin': ['Çalıkuşu', 'Yaprak Dökümü', 'Yeşil Gece', 'Dudaktan Kalbe', 'Acımak', 'Damga', 'Anadolu Notları'],
@@ -227,7 +228,7 @@ YAZAR_DONEM = {
     # SF + Fecr-i Âti
     **{y: 'sf_fecr' for y in ['Halit Ziya Uşaklıgil','Tevfik Fikret','Cenap Şahabettin','Mehmet Rauf','Hüseyin Cahit Yalçın','Süleyman Nazif','Ahmet Haşim']},
     # Milli Ed.
-    **{y: 'milli' for y in ['Ömer Seyfettin','Ziya Gökalp','Mehmet Emin Yurdakul','Yakup Kadri Karaosmanoğlu','Halide Edip Adıvar','Reşat Nuri Güntekin','Refik Halit Karay','Memduh Şevket Esendal','Mithat Cemal Kuntay','Ahmet Hikmet Müftüoğlu','Faruk Nafiz Çamlıbel','Halit Fahri Ozansoy','Enis Behiç Koryürek','Yusuf Ziya Ortaç','Orhan Seyfi Orhon']},
+    **{y: 'milli' for y in ['Ömer Seyfettin','Ziya Gökalp','Ali Canip Yöntem','Mehmet Emin Yurdakul','Yakup Kadri Karaosmanoğlu','Halide Edip Adıvar','Reşat Nuri Güntekin','Refik Halit Karay','Memduh Şevket Esendal','Mithat Cemal Kuntay','Ahmet Hikmet Müftüoğlu','Faruk Nafiz Çamlıbel','Halit Fahri Ozansoy','Enis Behiç Koryürek','Yusuf Ziya Ortaç','Orhan Seyfi Orhon']},
     # Cumhuriyet
     **{y: 'cumhuriyet' for y in ['Cevdet Kudret','Ziya Osman Saba','Sabri Esat Siyavuşgil','Yaşar Nabi Nayır','Vasfi Mahir Kocatürk','Kenan Hulusi Koray','Yahya Kemal Beyatlı','Mehmet Akif Ersoy','Cahit Sıtkı Tarancı','Ahmet Hamdi Tanpınar','Ahmet Muhip Dıranas','Necip Fazıl Kısakürek','Asaf Halet Çelebi','Behçet Necatigil','Fazıl Hüsnü Dağlarca','Arif Nihat Asya','Ahmet Kutsi Tecer','Bedri Rahmi Eyüboğlu','Cahit Külebi','Orhan Veli Kanık','Oktay Rifat','Melih Cevdet Anday','Cemal Süreya','Edip Cansever','Turgut Uyar','İlhan Berk','Sezai Karakoç','Ece Ayhan','Nazım Hikmet','Rıfat Ilgaz','Ahmed Arif','Ataol Behramoğlu','Munis Faik Ozansoy','Mehmet Çınarlı','Attila İlhan','Sabahattin Ali','Yaşar Kemal','Orhan Kemal','Kemal Tahir','Fakir Baykurt','Talip Apaydın','Mahmut Makal','Peyami Safa','Tarık Buğra','Mustafa Kutlu','Samiha Ayverdi','Oğuz Atay','Yusuf Atılgan','Bilge Karasu','Orhan Pamuk','İhsan Oktay Anar','Latife Tekin','Hasan Ali Toptaş','Sait Faik Abasıyanık','Halikarnas Balıkçısı','Haldun Taner','Turgut Özakman','Necati Cumalı','Güngör Dilmen','Turan Oflazoğlu','Nurullah Ataç','Suut Kemal Yetkin','Falih Rıfkı Atay']},
     # Geçiş
@@ -1844,6 +1845,10 @@ def main():
             'son_yil': p.get('last_year'),
             'current_gap': p.get('current_gap'),
             'rationale_2026': p.get('rationale', ''),
+            # REV19 — MEBİ deneme sinyali + 2026 anma yılı
+            'mebi_deneme_count': p.get('mebi_deneme_count', 0),
+            'anma_yili_2026': p.get('anma_yili_2026', False),
+            'anma_yili_dalga': p.get('anma_yili_dalga', False),
         })
     authors_list.sort(key=lambda a: (-a['soru_sayisi'], a['name']))
     with open(SITE / 'authors.json', 'w', encoding='utf-8') as f:

@@ -750,6 +750,16 @@
     "cikmis": false
   },
   {
+    "title": "Ey Türk Uyan",
+    "slug": "ey-turk-uyan",
+    "yazar": "Mehmet Emin Yurdakul",
+    "yazarSlug": "mehmet-emin-yurdakul",
+    "donem": "milli_edebiyat",
+    "tur": "Şiir Kitabı",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Eşber",
     "slug": "esber",
     "yazar": "Abdülhak Hamit Tarhan",
@@ -1890,6 +1900,16 @@
     "cikmis": false
   },
   {
+    "title": "Ordunun Destanı",
+    "slug": "ordunun-destani",
+    "yazar": "Mehmet Emin Yurdakul",
+    "yazarSlug": "mehmet-emin-yurdakul",
+    "donem": "milli_edebiyat",
+    "tur": "Anı / Gezi / Mektup",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Ortadirek",
     "slug": "ortadirek",
     "yazar": "Yaşar Kemal",
@@ -2300,6 +2320,16 @@
     "cikmis": false
   },
   {
+    "title": "Tan Sesleri",
+    "slug": "tan-sesleri",
+    "yazar": "Mehmet Emin Yurdakul",
+    "yazarSlug": "mehmet-emin-yurdakul",
+    "donem": "milli_edebiyat",
+    "tur": "Şiir Kitabı",
+    "yil": null,
+    "cikmis": false
+  },
+  {
     "title": "Tante Rosa",
     "slug": "tante-rosa",
     "yazar": "Sevgi Soysal",
@@ -2456,6 +2486,16 @@
     "yazarSlug": "mehmet-emin-yurdakul",
     "donem": "milli_edebiyat",
     "tur": "Şiir Kitabı",
+    "yil": null,
+    "cikmis": false
+  },
+  {
+    "title": "Türkleşmek İslamlaşmak Muasırlaşmak",
+    "slug": "turklesmek-i-slamlasmak-muasirlasmak",
+    "yazar": "Ziya Gökalp",
+    "yazarSlug": "ziya-gokalp",
+    "donem": "milli_edebiyat",
+    "tur": "—",
     "yil": null,
     "cikmis": false
   },
