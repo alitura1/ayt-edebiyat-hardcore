@@ -762,6 +762,188 @@ ENRICHMENT = {
         "klasik_tuzak": "İkinci Yeni şairleri sıkça karıştırılır: Cemal Süreya, Edip Cansever, Turgut Uyar, İlhan Berk, Ece Ayhan, Sezai Karakoç. İlhan Berk DENEYSEL + GÖRSEL imge + uzun kariyer.",
         "rakipleri": ["Cemal Süreya", "Edip Cansever", "Turgut Uyar"]
     },
+
+    # ====== REV19e — MEBİ denemede sık, sitede olmayan yazarlar ======
+    "Mehmet Rauf": {
+        "donem": "servet_i_funun_fecr_i_ati", "pozisyon": "Romancı",
+        "anekdot": "Servet-i Fünun'un psikolojik roman ustası. 'Eylül' Türk edebiyatının ilk psikolojik aşk romanı — olay değil iç dünya. Halit Ziya'nın gölgesinde ama 'Eylül'le adını ölümsüzleştirdi.",
+        "klasik_tuzak": "Halit Ziya ile karıştırma — ikisi de SF romancısı. Eylül = MEHMET RAUF (ilk psikolojik roman); Aşk-ı Memnu = Halit Ziya. Eylül'ü Aşk-ı Memnu'yla karıştırma.",
+        "rakipleri": ["Halit Ziya Uşaklıgil", "Hüseyin Cahit Yalçın", "Cenap Şahabettin"]
+    },
+    "Sait Faik Abasıyanık": {
+        "donem": "cumhuriyet", "pozisyon": "Hikayeci",
+        "anekdot": "Türk öyküsünde 'durum hikayesi'nin (Çehov tarzı) zirvesi. Olay yok, küçük insan + İstanbul + Burgazada var. 'Semaver', 'Sarnıç', 'Lüzumsuz Adam' — sıradan hayatı şiirleştirdi. Adına Türkiye'nin en önemli öykü ödülü verilir.",
+        "klasik_tuzak": "Memduh Şevket Esendal ile karıştırma — ikisi de durum hikayesi (Çehov tarzı). Sait Faik İSTANBUL/ada/balıkçı evreni; Memduh Şevket MEMUR/bürokrat hayatı.",
+        "rakipleri": ["Memduh Şevket Esendal", "Sabahattin Ali", "Orhan Kemal"]
+    },
+    "Orhan Pamuk": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "Türkiye'nin tek Nobel Edebiyat ödüllü yazarı (2006). Postmodern roman ustası — 'Kara Kitap', 'Benim Adım Kırmızı', 'Masumiyet Müzesi'. Doğu-Batı, kimlik ve İstanbul onun büyük temaları.",
+        "klasik_tuzak": "İlk romanı 'Cevdet Bey ve Oğulları' (aile kroniği, gerçekçi) ile postmodern dönemini (Kara Kitap, Yeni Hayat) karıştırma. Nobel = Orhan Pamuk.",
+        "rakipleri": ["Oğuz Atay", "Bilge Karasu", "İhsan Oktay Anar"]
+    },
+    "Fakir Baykurt": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "Köy edebiyatının/köy enstitüsü kuşağının güçlü kalemi. 'Yılanların Öcü', 'Tırpan' — Anadolu köylüsünün toprak, ağa ve yoksullukla mücadelesi. Köy gerçekliğini içeriden anlatan öğretmen-yazar.",
+        "klasik_tuzak": "Köy romanı üçlüsü: Mahmut Makal (Bizim Köy-anı), Talip Apaydın, Fakir Baykurt (Yılanların Öcü-roman). Yaşar Kemal'den farkı: Baykurt daha didaktik/gerçekçi, Yaşar Kemal destansı.",
+        "rakipleri": ["Yaşar Kemal", "Talip Apaydın", "Mahmut Makal"]
+    },
+    "Yusuf Atılgan": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "Modern Türk romanının yalnız adamı. 'Aylak Adam' ve 'Anayurt Oteli' — bireyin yabancılaşması, iç sıkıntı, varoluşsal boşluk. Az yazdı ama her eseri kült.",
+        "klasik_tuzak": "Oğuz Atay (Tutunamayanlar) ile karıştırma — ikisi de bireyin topluma tutunamaması. Atılgan DAHA İÇE KAPANIK/yalnızlık; Atay İRONİ/oyunbazlık. Anayurt Oteli = Yusuf Atılgan.",
+        "rakipleri": ["Oğuz Atay", "Bilge Karasu", "Vüsat O. Bener"]
+    },
+    "Bilge Karasu": {
+        "donem": "cumhuriyet", "pozisyon": "Çok yönlü",
+        "anekdot": "Türkçenin 'bilge'si — dili bir kuyumcu gibi işleyen deneysel yazar. 'Gece', 'Uzun Sürmüş Bir Günün Akşamı' — şiirsel, soyut, alegorik anlatım. Çevirmen ve düşünür kimliği de var.",
+        "klasik_tuzak": "Postmodern/deneysel kuşak: Oğuz Atay, Yusuf Atılgan, Bilge Karasu. Karasu DİL/biçim deneyciliği + alegori ön planda.",
+        "rakipleri": ["Oğuz Atay", "Yusuf Atılgan", "Orhan Pamuk"]
+    },
+    "Cemal Süreya": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "İkinci Yeni'nin en sevilen sesi. 'Üvercinka', 'Sevda Sözleri' — aşkı, kadını ve İstanbul'u zarif, esprili, imgesel bir dille işledi. 'Şiir geldi kelimeye dayandı' onun sözü.",
+        "klasik_tuzak": "İkinci Yeni şairleri karıştırılır: Cemal Süreya (aşk/zariflik), Edip Cansever (dramatik monolog), Turgut Uyar (uzun şiir), Ece Ayhan (kapalı/sapkın), İlhan Berk (görsel).",
+        "rakipleri": ["Edip Cansever", "Turgut Uyar", "Ece Ayhan"]
+    },
+    "Turgut Uyar": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "İkinci Yeni'nin büyük şairi. 'Tütünler Islak', 'Dünyanın En Güzel Arabistanı' — kentleşme, yabancılaşma ve aşkı uzun, akışkan dizelerle işledi. 'Göğe Bakma Durağı' ünlü şiiri.",
+        "klasik_tuzak": "İkinci Yeni içinde Turgut Uyar UZUN/akışkan şiir + kent yabancılaşması. Cemal Süreya'nın kısa zarif şiirinden farkı budur.",
+        "rakipleri": ["Cemal Süreya", "Edip Cansever", "Ece Ayhan"]
+    },
+    "Edip Cansever": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "İkinci Yeni'nin 'dramatik monolog' ustası. 'Yerçekimli Karanfil', 'Tragedyalar' — şiire tiyatro sesi, karakter ve iç konuşma getirdi. 'Masa da Masaymış Ha' ünlü şiiri.",
+        "klasik_tuzak": "Edip Cansever = DRAMATİK MONOLOG + karakterli şiir. Cemal Süreya (aşk) ve Turgut Uyar (kent) ile karıştırma.",
+        "rakipleri": ["Cemal Süreya", "Turgut Uyar", "İlhan Berk"]
+    },
+    "Behçet Necatigil": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Orta sınıfın, evin ve gündelik hayatın şairi. 'Kapalı Çarşı', 'Evler' — 'ev-kadın-ölüm' üçgenini yoğun, kapalı bir dille işledi. Radyo oyunları da yazdı, edebiyat sözlükleri hazırladı.",
+        "klasik_tuzak": "Necatigil bağımsız bir ustadır; İkinci Yeni'ye yakın durur ama ev/gündelik hayat teması + kapalılık onun imzasıdır.",
+        "rakipleri": ["Cahit Külebi", "Asaf Halet Çelebi", "Behçet Kemal Çağlar"]
+    },
+    "Ahmet Muhip Dıranas": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Saf şiirin (öz şiir) güçlü temsilcisi. 'Fahriye Abla' ve 'Olvido' şiirleriyle tanınır — hece ölçüsüyle modern, müzikal bir lirizm. 'Gölgeler' adlı oyunu da var.",
+        "klasik_tuzak": "Saf şiir kuşağı: Ahmet Hamdi Tanpınar, Ahmet Muhip Dıranas, Cahit Sıtkı, Ziya Osman Saba. Dıranas = 'Fahriye Abla' + hece + müzikalite.",
+        "rakipleri": ["Cahit Sıtkı Tarancı", "Ziya Osman Saba", "Ahmet Hamdi Tanpınar"]
+    },
+    "Ziya Osman Saba": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Yedi Meşaleciler'in en kalıcı şairi. 'Sebil ve Güvercinler' — çocukluk, ev, küçük mutluluklar ve ölüm temalı yumuşak bir lirizm. Sait Faik'in yakın dostuydu.",
+        "klasik_tuzak": "Yedi Meşaleciler (Sabri Esat, Cevdet Kudret, Yaşar Nabi, Vasfi Mahir, Muammer Lütfi, Kenan Hulusi, Ziya Osman). Ziya Osman = en çok hatırlanan, 'küçük mutluluklar' şairi.",
+        "rakipleri": ["Cahit Sıtkı Tarancı", "Ahmet Muhip Dıranas", "Yaşar Nabi Nayır"]
+    },
+    "Asaf Halet Çelebi": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Türk şiirinin en sıra dışı sesi. 'He', 'Lâmelif', 'Om Mani Padme Hum' — Doğu mistisizmi, tasavvuf ve egzotik imgelerle deneysel şiir. Hiçbir akıma tam girmeyen biricik şair.",
+        "klasik_tuzak": "Asaf Halet'i bir akıma sokma — bağımsız/biricik. Doğu mistisizmi + soyut imge onun imzası.",
+        "rakipleri": ["Behçet Necatigil", "Fazıl Hüsnü Dağlarca", "Necip Fazıl Kısakürek"]
+    },
+    "Rıfat Ilgaz": {
+        "donem": "cumhuriyet", "pozisyon": "Çok yönlü",
+        "anekdot": "'Hababam Sınıfı'nın yaratıcısı. Mizah ustası ama toplumcu şair de — 'Sınıf' kitabı yüzünden yargılandı. Gülmecenin altında keskin toplumsal eleştiri.",
+        "klasik_tuzak": "Hababam Sınıfı (mizah/roman) ile toplumcu şiirini (Sınıf) karıştırma — ikisi de Rıfat Ilgaz. Aziz Nesin'le karıştırma: ikisi de mizah, ama Hababam = Rıfat Ilgaz.",
+        "rakipleri": ["Aziz Nesin", "Orhan Kemal", "Nazım Hikmet"]
+    },
+    "Mustafa Kutlu": {
+        "donem": "cumhuriyet", "pozisyon": "Hikayeci",
+        "anekdot": "Modern Türk öyküsünün gelenekçi/manevi sesi. 'Uzun Hikaye', 'Ya Tahammül Ya Sefer', 'Yoksulluk İçimizde' — sade dil, tasavvufi duyarlık, Anadolu insanı. Uzun öykü biçimini yeniledi.",
+        "klasik_tuzak": "Mustafa Kutlu = gelenekçi/tasavvufi öykü + sade dil. Modern bireysel öykücülerden (Atay, Atılgan) ayrılır.",
+        "rakipleri": ["Sait Faik Abasıyanık", "Rasim Özdenören", "Sevinç Çokum"]
+    },
+    "Füruzan": {
+        "donem": "cumhuriyet", "pozisyon": "Hikayeci",
+        "anekdot": "Toplumcu gerçekçi öykünün güçlü kadın sesi. 'Parasız Yatılı' (ilk kitabıyla ödül), 'Benim Sinemalarım' — yoksul kadınlar, çocuklar, göç ve kenar mahalle. Sinema ve tiyatroyla da uğraştı.",
+        "klasik_tuzak": "1970 kuşağı kadın öykücüleri: Füruzan, Sevgi Soysal, Tomris Uyar, Nezihe Meriç. Füruzan = yoksulluk + kadın/çocuk + 'Parasız Yatılı'.",
+        "rakipleri": ["Sevgi Soysal", "Tomris Uyar", "Nezihe Meriç"]
+    },
+    "Selim İleri": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "İstanbul'un, geçmişin ve nostaljinin yazarı. 'Her Gece Bodrum', 'Ölüm İlişkileri' — birey, hafıza ve eski İstanbul. Deneme ve edebiyat tarihi yazarlığı da güçlü.",
+        "klasik_tuzak": "Selim İleri = nostalji + İstanbul + birey. 1970 sonrası bireyci roman kuşağında yer alır.",
+        "rakipleri": ["Yusuf Atılgan", "Bilge Karasu", "Adalet Ağaoğlu"]
+    },
+    "Hilmi Yavuz": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Düşünür-şair. 'Bakış Kuşu', 'Doğu Şiirleri' — Doğu-Batı sentezi, gelenek ve modernliği felsefi bir dille birleştirdi. Deneme ve felsefe yazılarıyla da etkili.",
+        "klasik_tuzak": "Hilmi Yavuz = entelektüel/felsefi şiir + Doğu-Batı sentezi. Sezai Karakoç'un mistik çizgisinden farkı düşünsel/biçimsel ağırlığıdır.",
+        "rakipleri": ["Sezai Karakoç", "İsmet Özel", "Behçet Necatigil"]
+    },
+    "Turgut Özakman": {
+        "donem": "cumhuriyet", "pozisyon": "Tiyatrocu",
+        "anekdot": "Cumhuriyet tiyatrosunun ve tarihsel anlatının ustası. 'Ocak', 'Kanaviçe' oyunları; sonra 'Şu Çılgın Türkler' belgesel-romanıyla milyonlara ulaştı. Milli Mücadele'yi popülerleştirdi.",
+        "klasik_tuzak": "Özakman önce TİYATRO (Ocak, Kanaviçe), sonra TARİHSEL ROMAN (Şu Çılgın Türkler). Haldun Taner'le karıştırma — Taner epik/Keşanlı Ali.",
+        "rakipleri": ["Haldun Taner", "Cevat Fehmi Başkut", "Recep Bilginer"]
+    },
+    "Güngör Dilmen": {
+        "donem": "cumhuriyet", "pozisyon": "Tiyatrocu",
+        "anekdot": "Modern Türk tiyatrosuna mit ve efsane getiren yazar. 'Midas'ın Kulakları', 'Kurban' — antik mit ve Anadolu efsanelerini çağdaş sahneye taşıdı. Şiirsel, simgesel tiyatro.",
+        "klasik_tuzak": "Güngör Dilmen = MİT/efsane temelli tiyatro (Midas, Kurban). Turan Oflazoğlu'nun TARİHSEL (padişah) oyunlarından farklıdır.",
+        "rakipleri": ["Turan Oflazoğlu", "Orhan Asena", "Turgut Özakman"]
+    },
+    "Turan Oflazoğlu": {
+        "donem": "cumhuriyet", "pozisyon": "Tiyatrocu",
+        "anekdot": "Tarihsel trajedinin ustası. 'IV. Murat', 'Deli İbrahim', 'Kösem Sultan' — Osmanlı padişahlarını şiirsel, trajik bir dille sahneye taşıdı. Şair kimliği de güçlü.",
+        "klasik_tuzak": "Oflazoğlu = OSMANLI TARİHİ + trajedi (IV. Murat, Deli İbrahim). Güngör Dilmen'in mit temelli tiyatrosundan farkı budur.",
+        "rakipleri": ["Güngör Dilmen", "Orhan Asena", "Turgut Özakman"]
+    },
+    "Recep Bilginer": {
+        "donem": "cumhuriyet", "pozisyon": "Tiyatrocu",
+        "anekdot": "Toplumsal-politik tiyatronun kalemi. 'Sarı Naciye', 'İsyancılar', 'Gazeteciden Dost' — gündelik adaletsizlik, siyaset ve halkın sesi. Gazetecilik kökenli.",
+        "klasik_tuzak": "Cumhuriyet tiyatrocuları: Cevat Fehmi Başkut (toplumsal taşlama), Recep Bilginer (politik), Turgut Özakman, Haldun Taner.",
+        "rakipleri": ["Cevat Fehmi Başkut", "Turgut Özakman", "Haldun Taner"]
+    },
+    "Samiha Ayverdi": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "Tasavvuf ve eski İstanbul'un kadın yazarı. 'İbrahim Efendi Konağı', 'Batmayan Gün' — Osmanlı kültürü, tekke terbiyesi ve manevi değerler. Mütefekkir ve hatip kimliği de var.",
+        "klasik_tuzak": "Samiha Ayverdi = tasavvuf + eski İstanbul/konak kültürü. Halide Edip'in milli/toplumsal romanından farkı manevi/gelenekçi ekseni.",
+        "rakipleri": ["Halide Edip Adıvar", "Mustafa Kutlu", "Peyami Safa"]
+    },
+    "Pir Sultan Abdal": {
+        "donem": "halk_edebiyati", "pozisyon": "Şair",
+        "anekdot": "16. yüzyıl Alevi-Bektaşi halk şiirinin başkaldıran sesi. Nefesleri ve deyişleriyle hem tasavvufu hem toplumsal isyanı işledi; bu yüzden asıldığı söylenir. 'Gelin canlar bir olalım' onun.",
+        "klasik_tuzak": "Tekke/tasavvuf şairleri: Yunus Emre (sevgi/hoşgörü), Kaygusuz Abdal (şathiye/mizah), Pir Sultan Abdal (isyan/Alevi-Bektaşi nefes). Pir Sultan = başkaldırı + nefes.",
+        "rakipleri": ["Yunus Emre", "Kaygusuz Abdal", "Karacaoğlan"]
+    },
+    "Hacı Bektaş Veli": {
+        "donem": "halk_edebiyati", "pozisyon": "Çok yönlü",
+        "anekdot": "Anadolu tasavvufunun ve Bektaşiliğin piri (13. yy). 'Makalat' (Arapça, ahlak/tasavvuf) ve menkıbelerini içeren 'Vilayetname' ile tanınır. 'Eline diline beline sahip ol' öğüdü ona mal edilir.",
+        "klasik_tuzak": "Geçiş/tasavvuf büyükleri: Ahmet Yesevi (Divan-ı Hikmet, pir), Hacı Bektaş Veli (Makalat, Bektaşilik), Yunus Emre. Makalat = Hacı Bektaş Veli.",
+        "rakipleri": ["Ahmet Yesevi", "Yunus Emre", "Mevlana"]
+    },
+    "Edip Ahmet Yükneki": {
+        "donem": "islamiyet_oncesi_gecis", "pozisyon": "Şair",
+        "anekdot": "Geçiş döneminin ahlak şairi (12. yy). Tek eseri 'Atabetü'l-Hakayık' (Hakikatlerin Eşiği) — manzum bir ahlak/öğüt kitabı; ilim, cömertlik, alçakgönüllülük temalı. Doğuştan görme engelliydi.",
+        "klasik_tuzak": "Geçiş dönemi eserleri: Kutadgu Bilig (Yusuf Has Hacip-siyasetname), Atabetü'l-Hakayık (Edip Ahmet-ahlak), Divan-ı Hikmet (Yesevi-tasavvuf), DLT (Kaşgarlı-sözlük). Atabetü'l-Hakayık = Edip Ahmet.",
+        "rakipleri": ["Yusuf Has Hacip", "Ahmet Yesevi", "Kaşgarlı Mahmut"]
+    },
+    "Hoca Dehhani": {
+        "donem": "divan_edebiyati", "pozisyon": "Şair",
+        "anekdot": "Anadolu sahasının ilk din dışı (laik) divan şairi sayılır (13. yy). Selçuklu sarayı çevresinde dünyevi konularda gazel/kaside yazdı; bir Selçuklu Şehnamesi de ona atfedilir.",
+        "klasik_tuzak": "Hoca Dehhani = Anadolu'da din dışı divan şiirinin ÖNCÜSÜ. Tasavvufi Yunus Emre / Âşık Paşa çizgisinden ayrılır.",
+        "rakipleri": ["Âşık Paşa", "Ahmedi", "Şeyhi"]
+    },
+    "Bağdatlı Ruhi": {
+        "donem": "divan_edebiyati", "pozisyon": "Şair",
+        "anekdot": "16. yüzyılın toplumsal eleştiri yapan divan şairi. Ünlü 'Terkib-i Bend'inde devrin aksaklıklarını, riyakârlığı ve sosyal adaletsizliği eleştirdi — Ziya Paşa ona nazire yazdı.",
+        "klasik_tuzak": "Bağdatlı Ruhi'nin Terkib-i Bendi'ne Ziya Paşa (Tanzimat) nazire yazmıştır — ikisini karıştırma. Toplumsal eleştiri/terkib-i bend = Bağdatlı Ruhi'nin imzası.",
+        "rakipleri": ["Ziya Paşa", "Fuzuli", "Nabi"]
+    },
+    "Dertli": {
+        "donem": "halk_edebiyati", "pozisyon": "Şair",
+        "anekdot": "19. yüzyıl saz şairi. Hem divan hem âşık tarzında yazdı; tasavvufi ve toplumsal temalı koşma/divanlarıyla tanınır. 'Telli sazdır bunun adı' ünlü şiiri ona aittir.",
+        "klasik_tuzak": "19. yy âşıkları: Dertli, Erzurumlu Emrah, Bayburtlu Zihni, Seyrani, Gevheri. Dertli = hem divan hem âşık tarzı + tasavvuf.",
+        "rakipleri": ["Erzurumlu Emrah", "Seyrani", "Bayburtlu Zihni"]
+    },
+    "Süleyman Çelebi": {
+        "donem": "divan_edebiyati", "pozisyon": "Şair",
+        "anekdot": "Türk edebiyatının en ünlü mevlid yazarı (15. yy). 'Vesîletü'n-Necât' (Mevlid) — Hz. Muhammed'in doğumunu ve hayatını anlatan, yüzyıllarca dini törenlerde okunan manzume. Bursa'da yaşadı.",
+        "klasik_tuzak": "Mevlid = Süleyman Çelebi (Vesîletü'n-Necât). Diğer dini mesnevilerle (Yunus'un Risaletü'n-Nushiyesi, Fuzuli'nin Hadikatü's-Süeda'sı) karıştırma.",
+        "rakipleri": ["Yunus Emre", "Şeyhi", "Ahmedi"]
+    },
 }
 
 

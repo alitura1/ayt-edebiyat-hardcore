@@ -15,6 +15,7 @@
       "siir_bilgisi",
       "soz_sanatlari"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57",
     "diger_eserler": "Leyla vü Mecnun, Su Kasidesi, Şikayetname, Beng ü Bâde, Hadîkatü's-Suedâ",
     "occurrences": [
@@ -67,7 +68,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "Türk şiirinin acı sultanı. 'Aşk derdiyle hoşem' diyen, sevdiğine kavuşamayan Leyla vü Mecnun'un en güzel Türkçe versiyonunu yazan 16. yy şairi. Su Kasidesi'ni okumadan tasavvufu anlayamazsın — Hz. Muhammed'e methiye + sevgi + acı bir bütün.",
     "klasik_tuzak": "Baki ile karıştırma. İkisi de 16. yy + gazel ustası. Ama Fuzuli ACILI/tasavvufi/içsel; Baki ZARİF/dünyevi/saray şairi. 'Aşk derdi' Fuzuli; 'Kanunî Mersiyesi' Baki.",
@@ -94,6 +94,7 @@
       "servet_i_funun_fecr_i_ati",
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "63-64, 128",
     "diger_eserler": "Araba Sevdası, Talim-i Edebiyat, Zemzeme, Pejmurde",
     "occurrences": [
@@ -146,7 +147,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Tanzimat II. dönem'in 'üstad'ı. Muallim Naci ile 'eski-yeni' kavgasının yeni cephesini temsil etti. Araba Sevdası ilk realist Türk romanlarından — alafranga züppe Bihruz Bey'in trajikomik aşkı. 'Zemzeme' kitabıyla yeni şiir anlayışını ilan etti.",
     "klasik_tuzak": "Muallim Naci ile karıştırma — ikisi tam zıt kutuplar: Recaizade YENİ/Batı/realist, Muallim Naci ESKİ/Doğu/divan tarzı. 'Zemzeme' Recaizade; 'Demdeme' Muallim Naci'nin cevabı.",
@@ -172,6 +172,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "servet_i_funun_fecr_i_ati",
     "mebi_sayfa": "68-69",
     "diger_eserler": "Piyale, Göl Saatleri, Bize Göre, Frankfurt Seyahatnamesi",
     "occurrences": [
@@ -219,7 +220,6 @@
     "mebi_deneme_count": 7,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "servet_i_funun_fecr_i_ati",
     "pozisyon": "Şair",
     "anekdot": "Saf şiirin Türkçedeki manifestosu Piyale'yi yazan adam. 'Şiir nesre çevrilemeyen nazımdır' diye Fecr-i Âti'nin sanat ilkesini cebine koydu. Akşam'ı 'O Belde'yi 'Merdiven'i okuyanlar imgenin ne olduğunu öğrenir — ezberlemeden tanırsın.",
     "klasik_tuzak": "Cenap Şahabettin ile karıştırma. İkisi de saf şiir + sembolizm yakını. Ama Haşim FECR-İ ÂTİ + sonrası bağımsız; Cenap saf SERVET-İ FÜNUN. 'Piyale, Göl Saatleri' Haşim; 'Elhân-ı Şitâ' Cenap.",
@@ -244,6 +244,7 @@
       "divan_edebiyati",
       "tanzimat"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "58",
     "diger_eserler": "Hayriye, Hayrabad, Sur-Name, Tuhfetü'l-Haremeyn",
     "occurrences": [
@@ -291,7 +292,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "17. yy hikemî (didaktik) şiirin lideri. 'Hayriyye' adlı eserini oğluna nasihat olarak yazdı — divan şiirinde dünyevi öğüt çok rastlanmaz. Onun şiirinde aşk yerine 'akıl, ahlak, hayat dersi' var. Sebk-i hindi akımının Türkçedeki büyük ismi.",
     "klasik_tuzak": "Sebk-i hindi denince Nef'i veya Şeyh Galip akla gelir, ama hikemî tarz NABİ'nin işi. Nef'i HİCİV, Şeyh Galip ALİSEL TASAVVUF, Nabi NASİHAT/DÜŞÜNCE.",
@@ -315,6 +315,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "62, 154",
     "diger_eserler": "İntibah, Cezmi, Vatan yahut Silistre, Gülnihal, Akif Bey",
     "occurrences": [
@@ -362,7 +363,6 @@
     "mebi_deneme_count": 8,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Tanzimat'ın isyan eden adamı. 'Vatan yahut Silistre' oyunu sahnelenince halk sokağa döküldü, sürgün edildi. İlk edebi roman İntibah, ilk tarihi roman Cezmi. Şinasi'nin başlattığı Batılılaşmaya 'hürriyet ve vatan' temasını ekleyen kişi.",
     "klasik_tuzak": "Şinasi ile karıştırma. Şinasi İLK'lerin BABASI (ilk şiir çevirisi, ilk tiyatro, ilk gazete), Namık Kemal SİYASAL/HEYECANLI içeriği getiren. 'Vatan' Namık Kemal'in markası.",
@@ -387,6 +387,7 @@
       "divan_edebiyati",
       "soz_sanatlari"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "55 (Divan Şiiri 3)",
     "diger_eserler": "Divan",
     "occurrences": [
@@ -434,7 +435,6 @@
     "mebi_deneme_count": 7,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "15. yy'ın 'Türki-i Basit' (sade Türkçe) öncüsü. Atasözleri ve halk deyimlerini divan şiirinin estetiğine çevirdi — bu çok cesur bir hareketti. 'Necati' lakaplı şair çoktur, ama 'Necati Bey' denince DİVAN'da bu adam akla gelmeli.",
     "klasik_tuzak": "Necati Cumalı (Cumhuriyet dönemi şair/oyun) ile karıştırma. Necati BEY 15. yy DİVAN; Necati CUMALI 20. yy CUMHURİYET. Aynı isim, 500 yıl arası.",
@@ -459,6 +459,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "136",
     "diger_eserler": "Memleket Hikayeleri, Gurbet Hikayeleri, Sürgün, Yezidin Kızı, Bugünün Saraylısı",
     "occurrences": [
@@ -506,7 +507,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Hikayeci",
     "anekdot": "Anadolu insanını GERÇEK haliyle hikayeleyen ilk yazar. 'Memleket Hikayeleri' ve sürgündeyken yazdığı 'Gurbet Hikayeleri' Türk hikayeciliğinin iki ayağı. Sürgünlerden dolayı 'memleket' kelimesi onun için ayrı bir tat.",
     "klasik_tuzak": "Ömer Seyfettin ile karıştırma — ikisi de Milli Edebiyat hikayeciliği zirvesi. Ömer Seyfettin DİL SADELEŞMESİ + tarih/mizah, Refik Halit MEMLEKET GERÇEKÇİLİĞİ + sürgün. 'Falaka' Ömer Seyfettin; 'Memleket Hikayeleri' Refik Halit.",
@@ -531,6 +531,7 @@
       "servet_i_funun_fecr_i_ati",
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "129",
     "diger_eserler": "Felâtun Bey ile Râkım Efendi, Letaif-i Rivayet, Hasan Mellah",
     "occurrences": [
@@ -573,7 +574,6 @@
     "mebi_deneme_count": 6,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Tanzimat'ın 'yazı makinesi'. 200'den fazla eser yazdı, kendi matbaası vardı, halkı OKUR yapmayı dert edindi. 'Felatun Bey ile Rakım Efendi' Doğu-Batı çatışmasının ilk tipik temsili. Edebiyat değil, halk için yazdı — bu yüzden 'halk yazarı' lakabı.",
     "klasik_tuzak": "Şemsettin Sami ile karıştırma. İkisi de Tanzimat I. dönem popüler nesir. Ama Ahmet Mithat ROMAN + halk eğitimi, Şemsettin Sami SÖZLÜK (Kamus-ı Türki) + ansiklopedi (Kamusu'l-Alam). 'Taaşşuk-ı Talat ve Fitnat' Şemsettin Sami'nin ilk romanı.",
@@ -596,6 +596,7 @@
       "servet_i_funun_fecr_i_ati",
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "64, 155",
     "diger_eserler": "Makber, Sahra, Belde, Tarık, Eşber",
     "occurrences": [
@@ -633,7 +634,6 @@
     "mebi_deneme_count": 6,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Türk şiirinin BATI'ya AÇILAN kapısı, 'Şair-i Azam'. Karısı Fatma Hanım ölünce yazdığı 'Makber' Türk şiirinde ilk büyük romantik feryat. Eserlerinin çoğu okunamayacak kadar uzun ya da sahnelenemez (Eşber, Tezer, Sardanapal) ama EDEBİYAT TARİHİ için anıttır.",
     "klasik_tuzak": "Tanzimat II. dönem'de iki büyük şair var: Hamit ve Recaizade. Hamit ROMANTİZM + ÖLÜM/AŞK, Recaizade ELEŞTİRİ + 'üstad'lık. 'Makber' Hamit, 'Pejmürde' Recaizade.",
@@ -656,6 +656,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "54-55",
     "diger_eserler": "Harname, Hüsrev ü Şirin",
     "occurrences": [
@@ -693,7 +694,6 @@
     "mebi_deneme_count": 7,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "15. yy'ın Hüsrev ü Şirin ve Harname'siyle nam yapmış şairi. Harname'de bir eşeğin başına gelenleri mizahi alegori ile anlatır — divan şiirinde MİZAH bulmak nadirdir, Şeyhi bu yüzden hatırlanır. Hekim aynı zamandaydı.",
     "klasik_tuzak": "Şeyh GALİP (18. yy, Hüsn ü Aşk) ile karıştırma. İsim benzer ama Şeyhi 15. yy + alegorik mizah, Şeyh Galip 18. yy + tasavvufi sembolizm. Harname Şeyhi, Hüsn ü Aşk Şeyh Galip.",
@@ -715,6 +715,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "53-54 (Divan Şiiri 3)",
     "diger_eserler": "İskendername, Cemşid ü Hurşid",
     "occurrences": [
@@ -747,7 +748,6 @@
     "mebi_deneme_count": 7,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "14. yy'ın divan şiiri kurucularından. 'İskendername' adlı 8000+ beyitlik mesnevisi tarih + macera + bilgi karışımı bir ansiklopedi. 'Cemşid ü Hurşid' de mesnevi. Anadolu'da Türkçe divan şiirinin ilk gerçek eseri sayılır.",
     "klasik_tuzak": "Şeyhi (Harname, 15. yy) ile karıştırma. İkisi de erken divan + mesnevi. Ahmedi 14. yy + İskendername (tarih), Şeyhi 15. yy + Harname (mizah).",
@@ -769,6 +769,7 @@
     "konular": [
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "servet_i_funun_fecr_i_ati",
     "mebi_sayfa": "67",
     "diger_eserler": "Elhan-ı Şita, Tâmâtî, Hac Yolunda",
     "occurrences": [
@@ -801,7 +802,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "servet_i_funun_fecr_i_ati",
     "pozisyon": "Şair",
     "anekdot": "Servet-i Fünun'un en lirik şairi. 'Elhân-ı Şitâ' (Kış İlahileri) onun marka şiiridir — kar'ı şiirde böyle anlatan başka biri yok. Tıp doktoruydu, şiirini bir bilim adamının hassasiyetiyle örerdi. Sembolizmin Türkçedeki ilk büyük örnekleri.",
     "klasik_tuzak": "Ahmet Haşim ile karıştırma. İkisi de saf şiir yakını. Cenap SERVET-İ FÜNUN dönemi (Tevfik Fikret arkadaşı), Haşim sonraki FECR-İ ÂTİ. 'Elhân-ı Şitâ' Cenap; 'O Belde' Haşim.",
@@ -823,6 +823,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "72-73",
     "diger_eserler": "Han Duvarları, Çoban Çeşmesi, Sanat",
     "occurrences": [
@@ -855,7 +856,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Beş Hececiler'in en ünlüsü. 'Han Duvarları' Anadolu'yu bir şiirde özetleyen anıt eser. 'Sanat' şiirinde 'Yeniden vatan duygusunu uyandıralım' der — memleket edebiyatının manifestosu. Heceyi serbest şiire alternatif olarak savundu.",
     "klasik_tuzak": "Beş Hececiler beşlisi sıkça karıştırılır: Faruk Nafiz, Yusuf Ziya Ortaç, Orhan Seyfi Orhon, Enis Behiç Koryürek, Halit Fahri Ozansoy. 'Han Duvarları' = Faruk Nafiz; diğer adlar başka şiirler için.",
@@ -878,6 +878,7 @@
       "cumhuriyet",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "113, 115",
     "diger_eserler": "Çakıcının İlk Kurşunu, Otlakçı, Mendil Altında, Ayaşlı ve Kiracıları",
     "occurrences": [
@@ -910,7 +911,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Hikayeci",
     "anekdot": "Türk hikayesine 'olay değil durum' anlayışını sokan adam. Çehov tarzı — büyük olay yoktur, küçük insan/küçük an vardır. 'Ayaşlı ile Kiracıları' romanı pansiyon hayatından kesitlerle Cumhuriyet'in ilk dönem İstanbul'unu çizer. Diplomat ve siyasetçi kimliği de var.",
     "klasik_tuzak": "Sait Faik ile karıştırma — ikisi de 'durum hikayesi' (Çehov tarzı) ustası. Memduh Şevket büyük ölçekte BÜROKRAT/MEMUR hayatı, Sait Faik İSTANBUL/AYDOĞDU/balıkçı evreni.",
@@ -933,6 +933,7 @@
       "divan_edebiyati",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "58-59",
     "diger_eserler": "Divan-ı Nedim, Şarkıları",
     "occurrences": [
@@ -965,7 +966,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "18. yy Lale Devri'nin şairi. Şiire İstanbul'u, Sadabad eğlencelerini, dünyevi zevki soktu — divan şiirinde böylesi 'yaşam sevinci' nadirdir. 'Mahallileşme' akımının zirvesi: şiirde halk sözcükleri, deyimler.",
     "klasik_tuzak": "Mahallileşme = Nedim. Sebk-i hindi = Nabi/Şeyh Galip. Karıştırma. 'Sadabad' Nedim'in markası.",
@@ -987,6 +987,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "79-80",
     "diger_eserler": "Garip, Yenisi, Vazgeçemediğim, Karşı",
     "occurrences": [
@@ -1019,7 +1020,6 @@
     "mebi_deneme_count": 6,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Garip akımının kurucusu — şiirden vezin, kafiye, mecaz, yüksek üslup ATILDI. 'Anlatamıyorum' ve 'Bedava' gibi şiirleri gündelik dilin şiirleşmesi. 36 yaşında öldü ama Türk şiirini ikiye böldü: ondan önce/sonra.",
     "klasik_tuzak": "Garip ÜÇLÜSÜ: Orhan Veli + Oktay Rifat + Melih Cevdet Anday. Orhan Veli lider. 'İstanbul'u Dinliyorum' Orhan Veli; 'Karga ile Tilki' Melih Cevdet'in çevirileri.",
@@ -1041,6 +1041,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "114, 116",
     "diger_eserler": "Kuyucaklı Yusuf, Kürk Mantolu Madonna, İçimizdeki Şeytan, Değirmen, Kağnı",
     "occurrences": [
@@ -1073,7 +1074,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Türk edebiyatının HAYALET roman olan 'Kürk Mantolu Madonna'sını yazan adam. 1948'de Bulgar sınırında öldürüldü — toplumcu yazar olduğu için. 'Kuyucaklı Yusuf' köy gerçeğini, 'İçimizdeki Şeytan' Cumhuriyet aydınını anlatır. Genç olarak ölmesi onu efsane yaptı.",
     "klasik_tuzak": "Orhan Kemal ile karıştırma — ikisi de toplumcu/halkçı. Sabahattin Ali ROMANTİK/MELANKOLİ + 'Madonna', Orhan Kemal İŞÇİ/EKMEK + Çukurova. 'Kürk Mantolu Madonna' Sabahattin Ali markası.",
@@ -1095,6 +1095,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57 (Divan Şiiri 3 — 16. yy)",
     "diger_eserler": "Şah u Geda, Gencîne-i Râz, Gülşen-i Envâr, Yusuf u Züleyha, Kitab-ı Usul",
     "occurrences": [
@@ -1127,7 +1128,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "Divan edebiyatında 'hamse sahibi' (5 mesnevi yazan) büyük şairlerden. En çarpıcı eseri: Kanuni'nin oğlu Şehzade Mustafa'nın idamına yazdığı 'Şehzade Mustafa Mersiyesi' (terkibibent). Padişahı ve veziri Rüstem Paşa'yı usta bir dille hicvetti — bu mersiye Divan'ın en cesur siyasi metni. Son 4 sınavda 4 kez (2020-2025) şıklarda geçti, sitede yoktu.",
     "klasik_tuzak": "Şeyhülislam Yahya ile karıştırma — ikisi de '16-17. yy Divan + Yahya'. Taşlıcalı MESNEVİCİ + hamse + Şehzade Mustafa Mersiyesi; Şeyhülislam GAZEL ustası + IV. Murat dönemi şeyhülislamı. Şehzade Mustafa Mersiyesi = Taşlıcalı'nın anahtar eseri.",
@@ -1150,6 +1150,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "servet_i_funun_fecr_i_ati",
     "mebi_sayfa": "66",
     "diger_eserler": "Rübab-ı Şikeste, Halûk'un Defteri, Sis, Tarih-i Kadim, Şermin",
     "occurrences": [
@@ -1182,7 +1183,6 @@
     "mebi_deneme_count": 6,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "servet_i_funun_fecr_i_ati",
     "pozisyon": "Şair",
     "anekdot": "Servet-i Fünun'un BAŞ ŞAİRİ ama oğlu Haluk'a 'Müslüman olma, oku, ışık ol' diye vasiyet etti — Türk şiirinde böyle keskin bir laik manifest yok. 'Sis' İstanbul'a yazılmış en güçlü hicviye. 'Tarih-i Kadim' Türk şiirinde dinle hesaplaşmanın zirvesi.",
     "klasik_tuzak": "Cenap Şahabettin ile karıştırma. İkisi de SF, ama Fikret TOPLUMCU/ÖFKELİ/laik, Cenap LİRİK/sembolist/lirizm. 'Sis' Fikret; 'Elhân-ı Şitâ' Cenap.",
@@ -1206,6 +1206,7 @@
       "paragrafta_anlam",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "77",
     "diger_eserler": "Kendi Gök Kubbemiz, Eski Şiirin Rüzgârıyle, Aziz İstanbul",
     "occurrences": [
@@ -1238,7 +1239,6 @@
     "mebi_deneme_count": 6,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Şiirini hayatta yayımlamadı — ölümünden sonra 'Kendi Gök Kubbemiz' çıktı. 'Sessiz Gemi' bilinen en güzel Türk şiirlerinden. Osmanlı'nın estetik mirasını Cumhuriyet'e taşıyan adam: 'Eski şiirin rüzgarıyla / Yeni şiir' formülü.",
     "klasik_tuzak": "Ahmet Haşim ile karıştırma. İkisi de saf şiir, ikisi de o devrin büyük isimleri. Haşim FECR-İ ÂTİ + sembolizm + akşam imgesi; Yahya Kemal CUMHURİYET + neo-klasik + İstanbul/tarih.",
@@ -1261,6 +1261,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "134-135",
     "diger_eserler": "Yaban, Kiralık Konak, Nur Baba, Hüküm Gecesi, Ankara",
     "occurrences": [
@@ -1293,7 +1294,6 @@
     "mebi_deneme_count": 8,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Romancı",
     "anekdot": "Türk romanının panoramik kalemi. 'Yaban' Kurtuluş Savaşı'nda Anadolu köylüsünü aydının gözünden, 'Kiralık Konak' kuşak çatışmasını, 'Kadro' onun dergisi. Cumhuriyet'in temel romanlarını yazan beşli içinde belki en derini.",
     "klasik_tuzak": "Yakup Kadri'nin her romanı FARKLI bir devri/temayı anlatır. 'Yaban' = Kurtuluş, 'Kiralık Konak' = kuşak çatışması, 'Sodom ve Gomore' = mütareke, 'Nur Baba' = Bektaşi tekke. Karıştırılmamalı.",
@@ -1315,6 +1315,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "",
     "diger_eserler": "",
     "occurrences": [
@@ -1347,7 +1348,6 @@
     "mebi_deneme_count": 8,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "13-14. yy Anadolu Türkçesini yücelten şair. 'Garibname' adlı 12000 beyitlik mesnevisi tamamı Türkçe — o dönemde Farsça hâkimken cesur bir hareket. 'Türk diline kimseler bakmaz idi / Türklere hergiz gönül akmaz idi' diyerek Türkçenin değerini ilan etti.",
     "klasik_tuzak": "Aşık VEYSEL veya halk şairi sanma. Âşık PAŞA = 13-14. yy Divan/tasavvuf (Garibname); Aşık VEYSEL = 20. yy HALK şairi. Mesnevi + Anadolu Türkçesi = Âşık Paşa.",
@@ -1369,6 +1369,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "58-59",
     "diger_eserler": "Hüsn ü Aşk, Şerh-i Cezîre-i Mesnevî",
     "occurrences": [
@@ -1401,7 +1402,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "18. yy'ın son büyük divan şairi. 26 yaşında 'Hüsn ü Aşk' alegorik mesnevisini yazdı — tasavvufun şiir biçiminde özeti. Mevlevi şeyhiydi, Mevlana'nın torunlarından. Sebk-i hindi'nin Türkçedeki zirvesi.",
     "klasik_tuzak": "Şeyhi (15. yy, Harname) ile karıştırma. İsim benzer ama 300 yıl arası. Şeyh GALİP tasavvufi alegori, Şeyhi mizahi mesnevi.",
@@ -1422,6 +1422,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "78, 137-139",
     "diger_eserler": "Huzur, Saatleri Ayarlama Enstitüsü, Beş Şehir, Mahur Beste, Sahnenin Dışındakiler",
     "occurrences": [
@@ -1449,7 +1450,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Yahya Kemal'in öğrencisi, Türk edebiyatı tarihçisi + romancı + şair + denemeci. 'Huzur' Türk modernist romanının başyapıtı, 'Saatleri Ayarlama Enstitüsü' Cumhuriyet bürokrasisinin tek satırlık özeti. 'Beş Şehir' deneme türünün anıtı.",
     "klasik_tuzak": "Oğuz Atay ile karıştırma — ikisi de Türk modernist roman. Tanpınar İRONİK + TARİHSEL FELSEFE + estetik, Atay MİZAH + KARA KOMEDİ + Tutunamayanlar. 'Huzur' Tanpınar, 'Tutunamayanlar' Atay.",
@@ -1470,6 +1470,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "84",
     "diger_eserler": "Şehnaz Faslı, Köşebaşı",
     "occurrences": [
@@ -1497,7 +1498,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Memleket edebiyatının manifestosunu yazan adam. Halk şiirini Cumhuriyet aydını arasında 'aşk' haline getirdi. Aşık Veysel'i ilk keşfedip İstanbul'a getiren odur. 'Köşebaşı' oyunu Türk modern tiyatrosunun erken örneği. 'Orda Bir Köy Var Uzakta' onun mısraıdır.",
     "klasik_tuzak": "Faruk Nafiz Çamlıbel ile karıştırma — ikisi de memleket edebiyatı. Faruk Nafiz BEŞ HECECİLER + 'Han Duvarları', Tecer HALK ŞİİRİ ARAŞTIRMACILIĞI + Aşık Veysel.",
@@ -1518,6 +1518,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "56 (Divan Şiiri 3 — 15. yy, Fatih dönemi)",
     "diger_eserler": "Divan, Kerem Kasidesi",
     "occurrences": [
@@ -1545,7 +1546,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "15. yy'ın 'Şairler Sultanı'. Fatih Sultan Mehmet'in sohbet arkadaşı + veziri + hocası. Fatih'le bir kez arası açıldığında 'Kerem' redifli kasidesini sundu — bu kaside onu idamdan kurtardı. Tarih düşürmeyi (ebced) sanat haline getirdi, türeyen şairlere etkili nazireler yazdırdı. Tek eseri Divan'ıdır.",
     "klasik_tuzak": "Baki ile karıştırma — 'Şairler Sultanı' lakabı 16. yy'da Baki için de kullanılır. AMA Ahmet PAŞA 15. yy + Fatih dönemi + 'Kerem' redifli kaside + idamdan kurtuluş; Baki 16. yy + Kanuni dönemi + 'Kanuni Mersiyesi'. 'Şehzade Mustafa Mersiyesi' = Taşlıcalı, 'Kanuni Mersiyesi' = Baki.",
@@ -1566,6 +1566,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "56-57",
     "diger_eserler": "Kanuni Mersiyesi, Mealimü'l-Yakin",
     "occurrences": [
@@ -1593,7 +1594,6 @@
     "mebi_deneme_count": 8,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "16. yy'ın 'Sultanü'ş-Şuara'sı (şairlerin sultanı). Kanunî'nin gözdesi. 'Kanunî Mersiyesi' Türk şiirinin en görkemli ağıtlarından. Aşk yerine 'rint/zarif' dünyevi yaşam, lirik betimlemeler. Fuzuli'nin tam karşıt kutbu.",
     "klasik_tuzak": "Fuzuli (içsel acı) vs Baki (dünyevi zarafet) — 16. yy'ın iki kutbu. 'Kanunî Mersiyesi' Baki imzası; 'Su Kasidesi' Fuzuli.",
@@ -1613,6 +1613,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "162",
     "diger_eserler": "Keşanlı Ali Destanı, Sersem Kocanın Kurnaz Karısı, Eşeğin Gölgesi, Gözlerimi Kaparım Vazifemi Yaparım, On İkiye Bir Var",
     "occurrences": [
@@ -1640,7 +1641,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Tiyatrocu",
     "anekdot": "Türk tiyatrosunda Brechtyen EPİK tiyatronun kurucusu. 'Keşanlı Ali Destanı' destan-tiyatro karışımı, Türk halk tiyatrosu + Batı modernist tekniği birleşimi. Hikayeleri de var ama tiyatrosuyla anılır.",
     "klasik_tuzak": "Turgut Özakman ile karıştırma — ikisi de Cumhuriyet tiyatrosunun büyük adları. Haldun Taner BRECHT/EPİK + 'Keşanlı Ali Destanı', Özakman MİLLİ TEMA + 'Şu Çılgın Türkler'.",
@@ -1663,6 +1663,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "135-136",
     "diger_eserler": "Sinekli Bakkal, Ateşten Gömlek, Vurun Kahpeye, Handan, Mev'ud Hüküm",
     "occurrences": [
@@ -1690,7 +1691,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Romancı",
     "anekdot": "Sultanahmet Meydanı'ndaki Kurtuluş Savaşı mitingini ateşli konuşmasıyla yöneten adam aslında kadındır — 'Halide Onbaşı' lakabı oradan. 'Sinekli Bakkal' Türk romanının halk + İstanbul + Doğu-Batı bireşimi. 'Vurun Kahpeye' Anadolu öğretmenini efsane yaptı.",
     "klasik_tuzak": "Reşat Nuri Güntekin ile karıştırma — ikisi de Anadolu öğretmen romanı. Halide Edip MİLLİ MÜCADELE + güçlü kadın + İstanbul-Anadolu köprüsü, Reşat Nuri ÇALIKUŞU/Feride + romantik.",
@@ -1711,6 +1711,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "56",
     "diger_eserler": "Divan",
     "occurrences": [
@@ -1738,7 +1739,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "16. yy'ın özgün lirik şairi. Aşk şiirinde Fuzuli/Baki'den farklı bir hayal dünyası kurar — 'hayali' lakabı bundandır. Kanunî döneminde itibarı yüksek, ama Baki'nin gölgesinde kalmış.",
     "klasik_tuzak": "Baki ile aynı dönem + aynı saray çevresi → karıştırma riski. Baki SULTANÜ'Ş-ŞUARA, Hayali İKİNCİ SIRADA + lirik özgünlük.",
@@ -1761,6 +1761,7 @@
       "masal_fabl_destan",
       "siir_bilgisi"
     ],
+    "donem": "halk_edebiyati",
     "mebi_sayfa": "36",
     "diger_eserler": "Şiirleri (koçaklama), Halk Hikayesi",
     "occurrences": [
@@ -1788,7 +1789,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "halk_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "Halk hikayesi + saz şairi kimliği iç içe. Babasının gözlerini çıkartan beye karşı isyan edip dağa çıkan ve halkın iyiliği için çalışan haydut/şair. 'Benden selam olsun Bolu Beyi'ne' onun marka mısraı. Aşık edebiyatının en mitolojik figürü.",
     "klasik_tuzak": "Köroğlu HEM bir HALK HİKAYESİ kahramanı HEM bir ŞAİR. Halk hikayesini başkaları anlattı, şiirleri ona ait. Karacaoğlan veya Dadaloğlu gibi kıyaslanır ama Köroğlu 16-17. yy efsaneleşmiş figür.",
@@ -1811,6 +1811,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "74",
     "diger_eserler": "Safahat, Süleymaniye Kürsüsünde",
     "occurrences": [
@@ -1838,7 +1839,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Şair",
     "anekdot": "İstiklal Marşı'nın şairi. 'Safahat' 7 kitaplık devasa şiir külliyatı — toplumun her kesimini sokak diliyle anlatır. Veteriner hekim, milletvekili, sürgün. Türkçe'nin yaşayan halini şiirde gösteren adam.",
     "klasik_tuzak": "Tevfik Fikret ile karıştırma — ikisi tam karşıt kutuplar. Fikret LAİK/öfkeli/'Müslüman olma', Akif İSLAMCI/uyandırıcı/'İstiklal Marşı'. İkisi de SF dönemini geçirdi, Akif sonra Milli Edebiyat'a evrildi.",
@@ -1859,6 +1859,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57-58",
     "diger_eserler": "Siham-ı Kaza, Tuhfetü'l-Uşşak",
     "occurrences": [
@@ -1886,7 +1887,6 @@
     "mebi_deneme_count": 9,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "17. yy'ın HİCİV şairi. Padişaha bile kafa tuttu, sonunda boğdurulup denize atıldı. 'Siham-ı Kaza' hicivlerinin kitabı. Methiye/kaside ustası ama hiciviyle hatırlanır.",
     "klasik_tuzak": "Hiciv = Nef'i. 'Tahir Efendi bana kelp demiş' beyiti onun. Diğer 17. yy divan şairi Nabi DİDAKTİK, Nef'i KEÇİBOYNUZU.",
@@ -1907,6 +1907,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "116, 140-141",
     "diger_eserler": "Bereketli Topraklar Üzerinde, Murtaza, Eskici ve Oğulları, Cemile, Hanımın Çiftliği",
     "occurrences": [
@@ -1934,7 +1935,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Çukurova işçilerinin ve göçmenlerinin yazarı. Nazım Hikmet'in hapishane öğrencisi — orada yazmayı öğrendi. 'Bereketli Topraklar Üzerinde', 'Cemile', 'Murtaza' toplumcu gerçekçiliğin Türkçedeki adresi. Yoksulluğu romantize etmeden anlatan az yazardandır.",
     "klasik_tuzak": "Yaşar Kemal ile karıştırma — ikisi de Çukurova ve toplumcu gerçekçi. Orhan Kemal İŞÇİ/FABRİKA/şehir kenarı, Yaşar Kemal KÖY/AĞA/dağ + epik üslup. 'İnce Memed' Yaşar Kemal markası.",
@@ -1957,6 +1957,7 @@
       "milli_edebiyat",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "135",
     "diger_eserler": "Çalıkuşu, Yaprak Dökümü, Yeşil Gece, Dudaktan Kalbe, Acımak",
     "occurrences": [
@@ -1984,7 +1985,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Romancı",
     "anekdot": "'Çalıkuşu' Feride'yi yazarak Türk romanına en sevilen kadın kahramanı kazandırdı. Anadolu öğretmeninin destanı bu kitap. 'Yaprak Dökümü', 'Yeşil Gece', 'Acımak' — hepsi Anadolu insanını sevecen bir gözle anlatır.",
     "klasik_tuzak": "Halide Edip ile karıştırma. Reşat Nuri ROMANTİK/DUYGUSAL + halkın gönlünde Feride, Halide Edip POLİTİK/Kurtuluş Savaşı + güçlü tipler. 'Çalıkuşu' Reşat Nuri; 'Sinekli Bakkal' Halide Edip.",
@@ -2006,6 +2006,7 @@
       "cumhuriyet",
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "61",
     "diger_eserler": "Şair Evlenmesi, Müntehabat-ı Eş'ar, Durub-ı Emsal-i Osmaniye, Tercüman-ı Ahvâl Mukaddimesi",
     "occurrences": [
@@ -2033,7 +2034,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Türk edebiyatının 'İLK'lerinin BABASI. İlk Batı tarzı şiir çevirisi (Tercüman-ı Manzume), ilk Batı tarzı tiyatro (Şair Evlenmesi), ilk özel gazete (Tasvir-i Efkar), ilk noktalama işareti kullanımı. Tanzimat'ın yenilik kapısı.",
     "klasik_tuzak": "Namık Kemal ile karıştırma — Şinasi YENİLİKLERİN KURUCUSU/sade üslup, Namık Kemal HEYECANLI/vatan/hürriyet temaları + tiyatro/roman. 'Tercüman-ı Ahval' (gazete) Şinasi.",
@@ -2054,6 +2054,7 @@
       "cumhuriyet",
       "milli_edebiyat"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "70 (Milli Edebiyat — bağlam)",
     "diger_eserler": "Dikmen Yıldızı, İki Süngü Arasında, Bir Şoförün Gizli Defteri",
     "occurrences": [
@@ -2076,7 +2077,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Milli Edebiyat'ın popüler romancı/hikayecisi. 'Dikmen Yıldızı' Ankara'yı romanlaştıran ilk eserlerden. Genellikle ikinci sıra anılır ama 'milli tema' işleyen önemli isimlerden.",
     "klasik_tuzak": "Mehmet Emin Yurdakul, Ömer Seyfettin gibi 'milli' isimlerle karıştırılabilir. Aka Gündüz daha çok POPÜLER ROMAN + Ankara odaklı, diğerleri ideolojik/dil sadeleşmesi öncüsü.",
@@ -2096,6 +2096,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "81",
     "diger_eserler": "Ben Sana Mecburum, Duvar, Sisler Bulvarı, Yağmur Kaçağı, Bela Çiçeği",
     "occurrences": [
@@ -2118,7 +2119,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Cumhuriyet'in MAVİ akımının kurucusu — Garip'e ve İkinci Yeni'ye karşı 'sosyal realizm + estetik' duruşu. 'Ben Sana Mecburum', 'Sisler Bulvarı', 'Yağmur Kaçağı' şiirleri; 'Sırtlan Payı', 'Kurtlar Sofrası' romanları. Gazeteci + düşünür de.",
     "klasik_tuzak": "Mavi akımı Garip ile karıştırılır — Garip BİÇİMSEL özgürlük (Orhan Veli), Mavi YENİ TOPLUMCU + estetik (Attila İlhan). 'Ben Sana Mecburum' = Attila İlhan'ın marka şiiri.",
@@ -2138,6 +2138,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "87",
     "diger_eserler": "Karadut",
     "occurrences": [
@@ -2160,7 +2161,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Hem ressam hem şair. 'Karadut' onun marka şiiri. Halk şiirini modern üslupla buluşturdu — folklor unsurlarını şiirine taşıdı.",
     "klasik_tuzak": "Bedri Rahmi RESSAM-ŞAİR kombinasyonu özel; folklor temalı diğer şairlerle (Cahit Külebi, Ahmet Kutsi Tecer) karıştırılabilir.",
@@ -2180,6 +2180,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "85",
     "diger_eserler": "Cenk Duyguları, Baykuş, Sulara Doğru",
     "occurrences": [
@@ -2202,7 +2203,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Beş Hececiler'in beşinden biri. Yusuf Ziya'nın çıkardığı Akbaba mizah dergisinde de yazdı. 'Cenk Duyguları' şiir kitabı. Tiyatro oyunları da yazdı (Baykuş, On Yılın Destanı).",
     "klasik_tuzak": "Beş Hececiler arasında en az hatırlananı. Diğer dördü: Faruk Nafiz, Yusuf Ziya, Orhan Seyfi, Enis Behiç. Hepsi HECE VEZNİ + MİLLİ TEMA.",
@@ -2223,6 +2223,7 @@
       "cumhuriyet",
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "servet_i_funun_fecr_i_ati",
     "mebi_sayfa": "109-110",
     "diger_eserler": "Edebî Hatıralarım",
     "occurrences": [
@@ -2245,7 +2246,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "servet_i_funun_fecr_i_ati",
     "pozisyon": "Çok yönlü",
     "anekdot": "Servet-i Fünun'un romancı + eleştirmen + gazetecisi. 'Edebiyat ve Hukuk' makalesi Servet-i Fünun'un dağılma sebebi sayılır (II. Abdülhamit kapattı). 'Hayal İçinde' romanı + 'Kavgalarım' eleştiri.",
     "klasik_tuzak": "Halit Ziya Uşaklıgil ile karıştırma — ikisi de SF roman. Halit Ziya BÜYÜK ROMAN + Aşk-ı Memnu, Hüseyin Cahit ROMANTİK + ELEŞTİRMEN-GAZETECİ kimliği baskın.",
@@ -2265,6 +2265,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "140",
     "diger_eserler": "Devlet Ana, Esir Şehrin İnsanları, Yorgun Savaşçı, Köyün Kamburu",
     "occurrences": [
@@ -2287,7 +2288,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Toplumcu gerçekçilik içinde tezli/düşünceli romancı. 'Devlet Ana' Osmanlı'nın kuruluşunu, 'Esir Şehrin İnsanları' Mütareke İstanbul'unu, 'Yorgun Savaşçı' Kurtuluş Savaşı'nı anlatır. Nazım Hikmet ile hapis arkadaşı.",
     "klasik_tuzak": "Orhan Kemal, Yaşar Kemal ile karıştırma — üç 'Kemal' soyadlı toplumcu yazar. Kemal Tahir TARİHSEL TEZ + Anadolu/Osmanlı düşünsel, Orhan Kemal İŞÇİ, Yaşar Kemal KÖY EPİĞİ.",
@@ -2307,6 +2307,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "134-136 (Milli Edebiyat Romanı — bağlam)",
     "diger_eserler": "Üç İstanbul",
     "occurrences": [
@@ -2329,7 +2330,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "'Üç İstanbul' romanı: II. Abdülhamit, II. Meşrutiyet, Mütareke dönemlerini bir İstanbul üzerinden anlatır. Aslında şair ve hukukçu, ama bu tek romanı ile edebiyat tarihine girer.",
     "klasik_tuzak": "Bu yazar tek roman ile tanınır: ÜÇ İSTANBUL. Karıştırılma riski düşük ama 'kim?' diye sorulduğunda 'Üç İstanbul' = Mithat Cemal.",
@@ -2350,6 +2350,7 @@
       "servet_i_funun_fecr_i_ati",
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "60",
     "diger_eserler": "Demdeme, Lugat-i Naci",
     "occurrences": [
@@ -2372,7 +2373,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Şair",
     "anekdot": "Tanzimat II. dönem'in ESKİ ŞİİR savunucusu. Recaizade'nin yeni şiir manifestosu 'Zemzeme'ye cevap olarak 'Demdeme' yazdı — Türk edebiyatının en ünlü polemiklerinden. Aruzun ustası, Batılılaşmaya direnen kanat.",
     "klasik_tuzak": "Recaizade Mahmut Ekrem ile karıştırma (TAM ZIT). Recaizade YENİ, Naci ESKİ. 'Zemzeme' Recaizade; 'Demdeme' Naci.",
@@ -2392,6 +2392,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "160, 162",
     "diger_eserler": "Susuz Yaz, Mine",
     "occurrences": [
@@ -2414,7 +2415,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Şair + hikayeci + oyun yazarı. 'Susuz Yaz' oyunu Karlovy Vary'de ödül aldı, Türk tiyatrosunu dünyaya açtı. Egeli, Aydınlı; köy hayatını ve insanını duygulu bir dille yazdı.",
     "klasik_tuzak": "Necati BEY (15. yy divan şairi) ile karıştırma. 'Cumalı' = 20. yy Cumhuriyet, 'Bey' = 15. yy Divan.",
@@ -2434,6 +2434,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "78",
     "diger_eserler": "Çile, Kaldırımlar, Sakarya Türküsü, Bir Adam Yaratmak",
     "occurrences": [
@@ -2456,7 +2457,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Türk şiirine mistik/dini boyutu modern üslupla getiren adam. 'Çile' şiir kitabı, 'Bir Adam Yaratmak' oyunu, 'Büyük Doğu' dergisi. Bohem hayatla mistik arayışın çelişkili dehası.",
     "klasik_tuzak": "Sezai Karakoç ile karıştırma — ikisi de mistik şiir. Necip Fazıl ÖNCÜ + dramatik üslup, Sezai Karakoç DİRİLİŞ ekolü + sembolist.",
@@ -2476,6 +2476,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "72",
     "diger_eserler": "Fırtına ve Kar, Peri Kızı ile Çoban Hikayesi",
     "occurrences": [
@@ -2498,7 +2499,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Beş Hececiler'den. 'Anadolu Toprağı' Anadolu sevdasını işleyen şiir. Akbaba mizah dergisinde Yusuf Ziya ile çalıştı. Aşk-millet-vatan üçlemesinde gezindi.",
     "klasik_tuzak": "Yusuf Ziya Ortaç ile sıkça karıştırılır — ikisi de Beş Hececiler + Akbaba. Şiir isimleri farklı; 'Anadolu Toprağı' = Orhan Seyfi.",
@@ -2518,6 +2518,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "128, 130",
     "diger_eserler": "Sergüzeşt, Küçük Şeyler",
     "occurrences": [
@@ -2540,7 +2541,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Romancı",
     "anekdot": "Tanzimat II. dönem'in realist romanının ilk gerçek temsilcisi. 'Sergüzeşt' romanı bir cariyenin hayatını ve özgürlük arayışını anlatır — Türk romanında 'fakir kız' arketipinin başlangıcı.",
     "klasik_tuzak": "Nabizade Nazım (Karabibik) ile karıştırma — ikisi de Tanzimat II. dönem realist roman öncüsü. 'Sergüzeşt' Sezai; 'Karabibik' (ilk köy romanı) Nabizade.",
@@ -2561,6 +2561,7 @@
       "divan_edebiyati",
       "nesir_bilgisi"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57-58 (Divan Şiiri 3 — ilk tezkire yazarı)",
     "diger_eserler": "Heşt Bihişt",
     "occurrences": [
@@ -2583,7 +2584,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Tezkire yazarı",
     "anekdot": "Türk edebiyatının İLK TEZKİRE yazarı — 'Heşt Bihişt' (Sekiz Cennet, 1538) divan şairlerinin biyografi geleneğini başlattı. Her tezkire: şair başına bölüm + örnek beyit yapısı. Sehi Bey'siz Divan edebiyatı tarihi yazılamaz.",
     "klasik_tuzak": "Latifi (sonraki tezkire yazarı) ve Aşık Çelebi ile karıştırma. İLK TEZKİRE = Sehi Bey + Heşt Bihişt (1538); sonra Latifi (1546), Aşık Çelebi (1568) ve diğerleri. 'İlk Türk edebiyat tarihi yazarı' sorulursa cevap Sehi Bey.",
@@ -2604,6 +2604,7 @@
       "cumhuriyet",
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "54",
     "diger_eserler": "Vesîletü'n-Necât (Mevlid)",
     "occurrences": [
@@ -2626,14 +2627,13 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
-    "anekdot": "15. yy'ın 'Mevlid' (Vesiletü'n-Necat) yazarı. Hz. Muhammed'in doğumunu/yaşamını Türkçe mesnevi olarak anlattı, halkın camide okuduğu eser. Türk-İslam edebiyatının en yaygın metinlerinden.",
-    "klasik_tuzak": "Mevlana ile karıştırma. Mevlana 13. yy + Farsça Mesnevi; Süleyman Çelebi 15. yy + Türkçe Mevlid. İkisi de mesnevi yazdı ama dil/dönem farkı.",
+    "anekdot": "Türk edebiyatının en ünlü mevlid yazarı (15. yy). 'Vesîletü'n-Necât' (Mevlid) — Hz. Muhammed'in doğumunu ve hayatını anlatan, yüzyıllarca dini törenlerde okunan manzume. Bursa'da yaşadı.",
+    "klasik_tuzak": "Mevlid = Süleyman Çelebi (Vesîletü'n-Necât). Diğer dini mesnevilerle (Yunus'un Risaletü'n-Nushiyesi, Fuzuli'nin Hadikatü's-Süeda'sı) karıştırma.",
     "rakipleri": [
-      "Mevlana",
-      "Ahmet Yesevi",
-      "Hacı Bayram Veli"
+      "Yunus Emre",
+      "Şeyhi",
+      "Ahmedi"
     ]
   },
   {
@@ -2646,6 +2646,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "138",
     "diger_eserler": "Küçük Ağa, Osmancık, Dönemeçte, Yağmur Beklerken, Firavun İmanı",
     "occurrences": [
@@ -2668,7 +2669,6 @@
     "mebi_deneme_count": 7,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Cumhuriyet'in ikinci kuşak büyük romancılarından. 'Küçük Ağa' Kurtuluş Savaşı'nın Anadolu'daki sosyal/dini boyutunu, 'Osmancık' Osmanlı'nın kuruluşunu anlatır. Tarihi roman + psikolojik derinlik.",
     "klasik_tuzak": "Kemal Tahir 'Devlet Ana' ile yine Osmanlı kuruluşunu işledi. Tarık Buğra 'Osmancık' farklı bir okumayla. İkisini karıştırmamak için: Devlet Ana = Kemal Tahir, Osmancık = Tarık Buğra.",
@@ -2688,6 +2688,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "140",
     "diger_eserler": "İnce Memed, Yer Demir Gök Bakır, Ortadirek, Demirciler Çarşısı Cinayeti",
     "occurrences": [
@@ -2710,7 +2711,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Türk romanının Nobel adayı. 'İnce Memed' Çukurova'nın eşkıya destanı — 4 ciltlik dağ romanı. Toplumcu gerçekçi ama anlatımı epik/destansı. Halk kültürünü modern romana taşımanın en başarılı örneği.",
     "klasik_tuzak": "Orhan Kemal, Kemal Tahir 'Kemal'leri ile karıştırma. Yaşar Kemal EPİK + Çukurova + İnce Memed.",
@@ -2731,6 +2731,7 @@
       "divan_edebiyati",
       "islamiyet_oncesi_gecis"
     ],
+    "donem": "halk_edebiyati",
     "mebi_sayfa": "34, 42",
     "diger_eserler": "Divan, Risaletü'n-Nushiyye",
     "occurrences": [
@@ -2753,7 +2754,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "halk_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "13-14. yy geçiş dönemi tasavvuf şairi. Türkçeyi gerçek bir SANAT dili haline getiren adam — Arapça/Farsça yerine sade Türkçeyle ilahi yazdı. 'Mevlana, Yunus'tan önce Türkçeyi şiir dili olarak kullanmamıştır' diyenler var.",
     "klasik_tuzak": "Mevlana ile karıştırma — ikisi de tasavvuf, ikisi de 13. yy. Mevlana FARSÇA + saray çevresi, Yunus TÜRKÇE + halk dili. Yunus dili 'sade', Mevlana 'gösterişli'.",
@@ -2773,6 +2773,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "72",
     "diger_eserler": "Akından Akına",
     "occurrences": [
@@ -2795,7 +2796,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Beş Hececiler'den. Akbaba mizah dergisinin sahibi — Türk mizah basını tarihinde anıt isim. Şiirleri kadar siyasi hicivleri ve nükteleri bilinir.",
     "klasik_tuzak": "Orhan Seyfi Orhon ile karıştırma — ikisi de Beş Hececiler + Akbaba. Yusuf Ziya AKBABA SAHİBİ, Orhan Seyfi yazar/şair.",
@@ -2815,6 +2815,7 @@
       "servet_i_funun_fecr_i_ati",
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "62",
     "diger_eserler": "Harabat, Şiir ve İnşa, Terkib-i Bend, Terci-i Bend",
     "occurrences": [
@@ -2837,7 +2838,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Şair",
     "anekdot": "Tanzimat I. dönem'in 'Terkib-i Bend' ve 'Terci-i Bend' şairi. 'Bu cihan dârül-hicrana benzer, kim ki anladıysa zindana' onun. Geleneksel divan kalıbıyla yenilikçi içerik yazdı — geçiş döneminin tipik figürü.",
     "klasik_tuzak": "Namık Kemal ile karıştırma — ikisi de Tanzimat I. dönem. Ziya Paşa GELENEKSEL KALIPLA YENİ İÇERİK + 'Şiir ve İnşa' makalesi; Namık Kemal TİYATRO/ROMAN + heyecanlı üslup.",
@@ -2857,6 +2857,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "129",
     "diger_eserler": "Taaşşuk-ı Talat ve Fitnat, Kamus-ı Türki, Kamus-ı Alâm",
     "occurrences": [
@@ -2879,7 +2880,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Türk SÖZLÜK biliminin babası. 'Kamus-ı Türki' (Türk Sözlüğü) ve 'Kamusu'l-Alam' (Ansiklopedi). 'Taaşşuk-ı Talat ve Fitnat' Türk edebiyatının İLK ROMAN'ı kabul edilir.",
     "klasik_tuzak": "Ahmet Mithat ile karıştırma — ikisi de Tanzimat I. dönem popüler. Şemsettin Sami SÖZLÜK + İLK ROMAN, Ahmet Mithat ÇOK ROMAN + halk eğitimi.",
@@ -2899,6 +2899,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57 (Divan Şiiri 3 — 17. yy gazel)",
     "diger_eserler": "Divan",
     "occurrences": [
@@ -2921,7 +2922,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "17. yy'ın gazel ustası, IV. Murat döneminin şeyhülislamı. 'Aşk-ı Hakiki' yerine zarif/dünyevi aşk gazelleri yazdı — şeyhülislam olduğu halde 'Subh-i mübarekde mey iç' diyebilen bir lirizm. Sade Türkçeyi divan estetiğinde işleyen ender sanatçılardan.",
     "klasik_tuzak": "Taşlıcalı Yahya ile karıştırma — aynı isim, farklı yüzyıllar (16 vs 17). Taşlıcalı MESNEVİ + Şehzade Mustafa Mersiyesi; Şeyhülislam GAZEL + zarif aşk + IV. Murat dönemi şeyhülislamı. Devlet adamı + gazel = Şeyhülislam Yahya.",
@@ -2940,6 +2940,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2 — bağlam)",
     "diger_eserler": "Ölmeye Yatmak, Bir Düğün Gecesi, Üç Beş Kişi, Fikrimin İnce Gülü",
     "occurrences": [
@@ -2957,7 +2958,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Cumhuriyet kuşağının kadın yazarlarından. 'Ölmeye Yatmak' kuşak/kimlik romanı, 'Bir Düğün Gecesi' politik dönüşüm anı. Bilinç akışı tekniğini Türkçeye sokanlardan.",
     "klasik_tuzak": "Latife Tekin, Pınar Kür gibi diğer Cumhuriyet kadın yazarları ile karıştırma. Adalet Ağaoğlu BİLİNÇ AKIŞI + politik kuşak romanı.",
@@ -2976,6 +2976,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "70",
     "diger_eserler": "Çağlayanlar, Gönül Hanım",
     "occurrences": [
@@ -2993,7 +2994,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Hikayeci",
     "anekdot": "Milli Edebiyat'ın 'Çağlayanlar' adlı hikaye kitabıyla bilinen yazarı. Turancı çizgide, Türk mitolojisi ve folkloru hikayelere taşıdı.",
     "klasik_tuzak": "Ömer Seyfettin ile karıştırma — ikisi de Milli Edebiyat hikayeciliği. Ahmet Hikmet TURANCI + mitolojik, Ömer Seyfettin SADE DİL + sosyal mesaj/mizah.",
@@ -3012,6 +3012,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "154-155",
     "diger_eserler": "Cimri (çeviri), Zoraki Tabip (çeviri), Lehçe-i Osmani",
     "occurrences": [
@@ -3029,7 +3030,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Türk tiyatrosuna Molière çevirileriyle yön veren adam. Bursa valisi iken yerel tiyatroyu destekledi. 'Lehçe-i Osmani' sözlüğü ve 'Şecere-i Türki' çevirisi de var.",
     "klasik_tuzak": "Molière çevirmeni = Ahmet Vefik Paşa. Tiyatroyla anılır ama VALİ + ÇEVİRMEN profili daha belirgin.",
@@ -3048,6 +3048,7 @@
     "konular": [
       "islamiyet_oncesi_gecis"
     ],
+    "donem": "islamiyet_oncesi_gecis",
     "mebi_sayfa": "29",
     "diger_eserler": "Divan-ı Hikmet",
     "occurrences": [
@@ -3065,7 +3066,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "islamiyet_oncesi_gecis",
     "pozisyon": "Şair",
     "anekdot": "Geçiş Dönemi'nin (12. yy) tasavvuf şairi. 'Divan-ı Hikmet' Türklerin İslamiyet'i kabulünden sonraki ilk büyük tasavvufi eserdir. Yunus Emre'nin atası sayılır.",
     "klasik_tuzak": "Yunus Emre ile karıştırma. Yesevi 12. yy ORTA ASYA + Divan-ı Hikmet, Yunus 13-14. yy ANADOLU + sade Türkçe. Yesevi öncül, Yunus zirve.",
@@ -3084,6 +3084,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "87",
     "diger_eserler": "Bayrak, Heykeltıraş",
     "occurrences": [
@@ -3101,7 +3102,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "'Bayrak Şairi'. 'Ey mavi göklerin beyaz ve kızıl süsü' onun mısraı. Milli ve manevi temaları işledi. 'Naat' eseri Hz. Muhammed'e methiye geleneğini Cumhuriyet'e taşıdı.",
     "klasik_tuzak": "Necip Fazıl ile karıştırma — ikisi de manevi/milli şiir. Arif Nihat BAYRAK + naat + sade, Necip Fazıl ÇİLE + mistik dramatik.",
@@ -3120,6 +3120,7 @@
     "konular": [
       "paragrafta_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "187 (Edebi Akımlar — Klasisizm kuramsal kökeni)",
     "diger_eserler": "Poetika, Retorik, Nikomakhos'a Etik",
     "occurrences": [
@@ -3137,7 +3138,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Filozof/Eleştirmen",
     "anekdot": "Antik Yunan filozofu — 'Poetika' adlı eseri Batı edebiyat eleştirisinin TEMELİ. Trajedi tanımı, katarsis (arınma) kavramı, klasik birlik kuralları (zaman/mekan/olay) ondan. Klasisizm akımının kuramsal kökeni.",
     "klasik_tuzak": "Klasisizmin felsefi temeli = Aristoteles; 17. yy manifestosu = Boileau (L'Art Poétique). 'Klasisizmin kuramsal kökeni' diye sorulursa cevap Aristoteles.",
@@ -3156,6 +3156,7 @@
     "konular": [
       "paragrafta_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "— (paragraf konusu, edebi profili yok)",
     "diger_eserler": "Romen heykeltıraş (modernist sanat, paragraf konusu)",
     "occurrences": [
@@ -3173,7 +3174,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Çok yönlü",
     "anekdot": "Romanyalı modern heykeltıraş — Türk edebiyatı yazarı değil. AYT'de paragraf sorularında 'sanat' örneği olarak geçer. 'Bilim insanı veya sanatçı' tarzı paragraflarda dikkat.",
     "klasik_tuzak": "Bu bir edebiyat sorusu değil, paragraf wisdom. Cevap kişisi olarak değil, paragraftaki bilgiyle anlam çıkarma.",
@@ -3188,6 +3188,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "85",
     "diger_eserler": "Adamın Biri, Yangın",
     "occurrences": [
@@ -3205,7 +3206,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Memleket şiirinin ikinci kuşak temsilcisi. Sivaslı, Anadolu'yu sıcak, gündelik bir dille şiirleştirdi. 'Hikaye' ve 'Sivas Yollarında' bilinen şiirleri.",
     "klasik_tuzak": "Ahmet Kutsi Tecer ile karıştırma — ikisi de memleket şiiri. Tecer halk şiir araştırması + 'Orda Bir Köy Var Uzakta', Külebi LİRİK + Sivas/Anadolu sıcaklığı.",
@@ -3224,6 +3224,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "158-164 (Cumhuriyet Tiyatrosu)",
     "diger_eserler": "Buzlar Çözülmeden, Paydos, Küçük Şehir, Hacı Kaptan, Sana Rey Veriyorum",
     "occurrences": [
@@ -3241,7 +3242,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Tiyatrocu",
     "anekdot": "Cumhuriyet dönemi tiyatro yazarı — 'Buzlar Çözülmeden' onun en bilinen oyunu (sosyal eleştiri). 'Paydos', 'Küçük Şehir' diğer önemli oyunları. Türk tiyatrosunda eleştirel realizm + halk tipleri.",
     "klasik_tuzak": "Haldun Taner, Turgut Özakman ile karıştırma — hepsi Cumhuriyet tiyatrosu. 'Buzlar Çözülmeden' = Cevat Fehmi; 'Keşanlı Ali Destanı' = Haldun Taner; 'Resimli Osmanlı Tarihi' = Turgut Özakman.",
@@ -3260,6 +3260,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "60-64 (Tanzimat — bağlam)",
     "diger_eserler": "Letaif-i Aşıkan, Komedyalar, Lehçe-i Osmani",
     "occurrences": [
@@ -3277,7 +3278,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Tiyatrocu",
     "anekdot": "Tanzimat tiyatrosunun erken figürü. 'Kokona Yatıyor', 'Geveze Berber' kısa komedileri ile bilinir. Tiyatroyu Osmanlı sosyetesine sevdiren isimlerden.",
     "klasik_tuzak": "Şinasi'nin 'Şair Evlenmesi' (ilk Batı tarzı oyun) sonrası Türk komedisini devam ettiren isim Direktör Ali Bey. Karıştırılma şansı düşük ama unutulmasın.",
@@ -3296,6 +3296,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "90",
     "diger_eserler": "Bakışsız Bir Kedi Kara",
     "occurrences": [
@@ -3313,7 +3314,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "İkinci Yeni'nin en SIRADIŞI şairi. 'Bakışsız Bir Kedi Kara' şiirinde anlam katmanlarını alt üst etti. 'Sivil şiir' anlayışı — sıradan/marjinal kahramanlar.",
     "klasik_tuzak": "İkinci Yeni'nin dörtlüsü: Turgut Uyar, Edip Cansever, Cemal Süreya, Ece Ayhan. Ece Ayhan EN UÇTAKİ + sivil şiir; Cemal Süreya AŞK; Cansever EŞYA; Uyar ARABESK MUTLULUK.",
@@ -3332,6 +3332,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "72",
     "diger_eserler": "Miras",
     "occurrences": [
@@ -3349,7 +3350,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Beş Hececiler'den. 'Gemiciler' şiiri ile denizci/uzak yolculuk temaları getirdi — milli edebiyat şiirinde sıra dışı bir kanal. Sonradan tasavvufi şiire yöneldi.",
     "klasik_tuzak": "Beş Hececiler içinde DENİZ teması = Enis Behiç. Diğerleri Anadolu odaklı.",
@@ -3368,6 +3368,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "175",
     "diger_eserler": "Çankaya, Zeytindağı, Atatürk'ün Bana Anlattıkları",
     "occurrences": [
@@ -3385,7 +3386,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Çok yönlü",
     "anekdot": "Cumhuriyet'in gezi yazarı ve gazetecisi. 'Zeytindağı' Birinci Dünya Savaşı Filistin cephesi anısı, 'Çankaya' Atatürk'ün biyografik portresi. Cumhuriyet'in ilk kuşak fikir adamlarından.",
     "klasik_tuzak": "Reşat Nuri'nin 'Anadolu Notları' gezisiyle karıştırılabilir. Falih Rıfkı SAVAŞ-DÖNEM ANI + Atatürk biyografisi.",
@@ -3404,6 +3404,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "85",
     "diger_eserler": "Toprak Ana, Çakır'ın Destanı, Üç Şehitler Destanı, Havaya Çizilen Dünya",
     "occurrences": [
@@ -3421,7 +3422,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Cumhuriyet'in en üretken şairi — 80+ kitap. 'Çocuk ve Allah', 'Üç Şehitler Destanı' biliniyor. Her tür temayı işledi: çocuk, savaş, milli, mistik.",
     "klasik_tuzak": "Belli bir akıma sokmak zor; Garip/İkinci Yeni dışı bağımsız büyük şair. Necip Fazıl, Yahya Kemal düzeyinde 'bağımsız' grubunda.",
@@ -3440,6 +3440,7 @@
     "konular": [
       "sozcukte_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "190 (Edebi Akımlar — Sürrealizm kuramsal arka plan)",
     "diger_eserler": "Psikanaliz kurucusu (sürrealizm akımının kuramsal temeli)",
     "occurrences": [
@@ -3457,7 +3458,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Çok yönlü",
     "anekdot": "Avusturyalı psikanalist, edebiyat değil bilim. AYT'de paragraf-anlam veya akım sorusunda 'bilinçaltı/psikanaliz' bağlamında geçer. Sürrealizm akımının kuramsal arka planı.",
     "klasik_tuzak": "Türk yazarı değil, paragraf wisdom için kullanılır. Sürrealizm akımıyla ilişkilendirildiğinde anlam kazanır.",
@@ -3472,6 +3472,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "41-43 (Halk Şiiri 3 — tasavvufi)",
     "diger_eserler": "Bayramiyye tarikatı kurucusu, ilahi-nefes türü şiirler",
     "occurrences": [
@@ -3489,7 +3490,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "14-15. yy tekke şairi. Bayramiye tarikatının kurucusu. Az şiir yazdı ama Türk-İslam tasavvufunda derin iz bıraktı. Türkçe ilahileri Anadolu halk söyleyişinin temelinde.",
     "klasik_tuzak": "Yunus Emre, Yesevi, Mevlana, Süleyman Çelebi gibi diğer tasavvuf şairleriyle karıştırma. Hacı Bayram BAYRAMİYE TARİKATI kurucusu = ayırt edici.",
@@ -3508,6 +3508,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "116",
     "diger_eserler": "Aganta Burina Burinata, Mavi Sürgün, Anadolu'nun Sesi",
     "occurrences": [
@@ -3525,7 +3526,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Asıl adı Cevat Şakir Kabaağaçlı. Bodrum'a sürgün, oradan deniz/Ege yazarı doğdu. 'Aganta Burina Burinata', 'Mavi Sürgün' deniz edebiyatının zirvesi. 'Mavi Anadoluculuk' fikir akımının baş ismi.",
     "klasik_tuzak": "İsim aldatıcı — 'Halikarnas Balıkçısı' bir mahlas, gerçek adı Cevat Şakir. Aynı yazar.",
@@ -3544,6 +3544,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "servet_i_funun_fecr_i_ati",
     "mebi_sayfa": "131",
     "diger_eserler": "Mai ve Siyah, Aşk-ı Memnu, Kırık Hayatlar, Sefile, Nemide",
     "occurrences": [
@@ -3561,7 +3562,6 @@
     "mebi_deneme_count": 5,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "servet_i_funun_fecr_i_ati",
     "pozisyon": "Romancı",
     "anekdot": "Türk romanına Batılı tekniği getiren ilk büyük yazar. 'Aşk-ı Memnu' (1900) Türkçedeki ilk gerçek psikolojik roman/yasak aşk anlatımı. Servet-i Fünun'un romancı zirvesi.",
     "klasik_tuzak": "Mehmet Rauf'un 'Eylül'üyle karıştırılır — ikisi de SF + ilk psikolojik roman tartışmasında. AŞK-I MEMNU = HALİT ZİYA; EYLÜL = MEHMET RAUF.",
@@ -3580,6 +3580,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "54 (Divan Şiiri 3 — 15. yy mesneviciler)",
     "diger_eserler": "Yusuf u Züleyha, Leyla vü Mecnun, Tuhfetü'l-Uşşak, Kıyafetname, Ahmediyye",
     "occurrences": [
@@ -3597,7 +3598,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "15. yy mesnevi şairi — Akşemseddin'in oğlu. 'Yusuf u Züleyha' Türkçedeki ilk büyük örneklerinden. Tasavvufi sembolizm + Kur'an'daki Yusuf kıssasının Türkçeye uyarlanması onun imzasıdır.",
     "klasik_tuzak": "Şeyyad Hamza ile karıştırma — her ikisi de Türkçe Yusuf u Züleyha yazmış. Hamdullah HAMDİ 15. yy + Akşemseddin oğlu; Şeyyad HAMZA 13-14. yy daha eski. 'Akşemseddin'in oğlu' = Hamdullah.",
@@ -3616,6 +3616,7 @@
     "konular": [
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "128-129 (Tanzimat Romanı — bağlam)",
     "diger_eserler": "Mürebbiye, Şıpsevdi, Şık, Kuyruklu Yıldız Altında Bir İzdivaç, Gulyabani",
     "occurrences": [
@@ -3633,7 +3634,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Romancı",
     "anekdot": "Tanzimat-Milli Edebiyat geçişinin halkçı romancısı. 'Mürebbiye', 'Şıpsevdi', 'Şık' romanlarında İstanbul halk yaşamını + alaturka-alafranga çatışmasını mizahi dille anlatır. Ahmet Mithat geleneğinin devamı.",
     "klasik_tuzak": "Ahmet Mithat Efendi ile karıştırma — ikisi de halkçı/popüler. Ahmet Mithat TANZİMAT I., Hüseyin Rahmi sonraki kuşak. 'Mürebbiye' Hüseyin Rahmi; 'Felatun Bey ile Rakım Efendi' Ahmet Mithat.",
@@ -3652,6 +3652,7 @@
     "konular": [
       "islamiyet_oncesi_gecis"
     ],
+    "donem": "islamiyet_oncesi_gecis",
     "mebi_sayfa": "29",
     "diger_eserler": "Divânü Lügâti't-Türk",
     "occurrences": [
@@ -3669,7 +3670,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "islamiyet_oncesi_gecis",
     "pozisyon": "Sözlük yazarı",
     "anekdot": "11. yy 'Divânü Lügâti't-Türk' (Türk Dilleri Sözlüğü) yazarı. Bağdat halifesine Türkçenin Arapça'ya üstünlüğünü kanıtlamak için yazıldı. Türk dünyası hakkında ilk ansiklopedik kaynak — atasözleri, ağıtlar, harita.",
     "klasik_tuzak": "Kutadgu Bilig (Yusuf Has Hacip) ile karıştırma. Kutadgu Bilig MESNEVİ/şiir; Divânü Lügat SÖZLÜK/nesir. İkisi de 11. yy Karahanlı.",
@@ -3688,6 +3688,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "120",
     "diger_eserler": "Sevgili Arsız Ölüm, Berci Kristin Çöp Masalları",
     "occurrences": [
@@ -3705,7 +3706,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "1980 sonrası kuşağın belki en özgün ismi. 'Sevgili Arsız Ölüm' büyülü gerçekçilik + köy göçü, 'Berci Kristin Çöp Masalları' kenar mahalle insanını mitolojik dille anlattı.",
     "klasik_tuzak": "Adalet Ağaoğlu, Pınar Kür ile karıştırma — Cumhuriyet kadın yazarları. Latife Tekin BÜYÜLÜ GERÇEKÇİLİK + kenar mahalle.",
@@ -3724,6 +3724,7 @@
     "konular": [
       "paragrafta_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "125 (Roman türleri — gotik)",
     "diger_eserler": "Frankenstein (gotik roman, İngiliz 19. yy)",
     "occurrences": [
@@ -3741,7 +3742,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Romancı",
     "anekdot": "İngiliz yazar, 'Frankenstein' (1818) romanının yaratıcısı. AYT'de Romantizm + Gotik roman + bilim-kurgu başlangıcı bağlamında geçer.",
     "klasik_tuzak": "Türk yazarı değil. Romantizm/Gotik akımlar sorulduğunda referans isim.",
@@ -3756,6 +3756,7 @@
     "konular": [
       "milli_edebiyat"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "71",
     "diger_eserler": "Türk Sazı, Cenge Giderken, Ey Türk Uyan, Tan Sesleri, Ordunun Destanı",
     "occurrences": [
@@ -3773,7 +3774,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Şair",
     "anekdot": "Milli Edebiyat şiirinin öncüsü. 'Cenge Giderken' / 'Ben bir Türk'üm, dinim cinsim uludur' Türk milliyetçi şiirinin manifestosu. Hece + sade Türkçe + millet teması üçgenini kuran şair.",
     "klasik_tuzak": "Beş Hececiler ile karıştırma — onlar daha sonraki kuşak. Mehmet Emin ÖNCÜ + 'Cenge Giderken'; Beş Hececiler ardıllar.",
@@ -3792,6 +3792,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "79-80",
     "diger_eserler": "Garip, Rahatı Kaçan Ağaç",
     "occurrences": [
@@ -3809,7 +3810,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Garip Üçlüsü'nün üçüncüsü. Orhan Veli + Oktay Rifat ile birlikte vezin-kafiyeyi şiirden attılar. Sonrasında özgün bir bilgelik şiirine yöneldi.",
     "klasik_tuzak": "Garip Üçlüsü: Orhan Veli (lider) + Melih Cevdet + Oktay Rifat. Üçü birlikte 'Garip' antolojisini çıkardılar (1941).",
@@ -3828,6 +3828,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "42",
     "diger_eserler": "Mesnevî, Divan-ı Kebir, Fihi Mâ Fih, Mecâlis-i Seb'a",
     "occurrences": [
@@ -3845,7 +3846,6 @@
     "mebi_deneme_count": 4,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "13. yy'ın evrensel sufisi. 'Mesnevi' 25 bin beyitlik tasavvuf ansiklopedisi. FARSÇA yazdı — bu yüzden 'Türk edebiyatı şairi' demek tartışmalı, ama Anadolu kültürünün taşıyıcısı kabul edilir.",
     "klasik_tuzak": "Yunus Emre ile karıştırma. Mevlana FARSÇA + saray çevresi + Mesnevi, Yunus TÜRKÇE + halk + sade ilahi. Aynı yüzyıl ama dil/seyirci farkı.",
@@ -3864,6 +3864,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "187 (Edebi Akımlar — Klasisizm)",
     "diger_eserler": "Komedi ustası (Klasisizm), Ahmet Vefik Paşa çevirdi: Cimri, Zoraki Tabip, Tartüf",
     "occurrences": [
@@ -3881,7 +3882,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Tiyatrocu",
     "anekdot": "17. yy Fransız komedi yazarı, KLASİSİZM akımının büyük adı. AYT'de tek başına az sorulur ama 'Ahmet Vefik Paşa'nın çevirdiği Molière' bağlantısı önemli.",
     "klasik_tuzak": "Türk yazarı değil ama Tanzimat tiyatrosuna direkt etki etti (Ahmet Vefik Paşa çevirileri). 'Cimri', 'Tartuffe' karakterleri Türk komedisinin atası.",
@@ -3900,6 +3900,7 @@
     "konular": [
       "tanzimat"
     ],
+    "donem": "tanzimat",
     "mebi_sayfa": "128, 130",
     "diger_eserler": "Karabibik, Zehra",
     "occurrences": [
@@ -3917,7 +3918,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "tanzimat",
     "pozisyon": "Romancı",
     "anekdot": "Türk edebiyatının ilk KÖY romanı 'Karabibik'in yazarı. Tanzimat II. dönem realizmin/natüralizmin Türkçedeki ilk denemesi. 'Zehra' psikolojik roman denemesi.",
     "klasik_tuzak": "Samipaşazade Sezai (Sergüzeşt) ile karıştırma — ikisi de Tanzimat II. dönem realist roman öncüsü. 'Karabibik' = Nabizade Nazım; 'Sergüzeşt' = Samipaşazade Sezai.",
@@ -3936,6 +3936,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57 (Divan Şiiri 3 — Sebk-i Hindi)",
     "diger_eserler": "Divan (Sebk-i Hindi üslubu temsilcisi, 17. yy)",
     "occurrences": [
@@ -3953,7 +3954,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "17. yy SEBK-İ HİNDİ akımının Türkçedeki ilk büyük temsilcisi. İnce, sembolik, hayal yüklü gazelleri ile bilinir. Çağdaşı Nef'i'nin hicvi kadar gürültülü değildi.",
     "klasik_tuzak": "Sebk-i hindi denince ilk akla Şeyh Galip gelir ama o 18. yy. 17. yy'da SEBK-İ HİNDİ = NAİLİ. Nef'i (hiciv) ve Nabi (didaktik) çağdaşı.",
@@ -3972,6 +3972,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "79, 82",
     "diger_eserler": "Memleketimden İnsan Manzaraları, Kuvâyi Milliye Destanı, Şeyh Bedrettin Destanı",
     "occurrences": [
@@ -3989,7 +3990,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Türk şiirinin TOPLUMCU GERÇEKÇİ devrimcisi. Hapiste yatarken yazdığı 'Memleketimden İnsan Manzaraları' Türk şiirinin destansı eseri. Serbest nazmı + Marksist içeriği birleştirdi. Sürgünde Moskova'da öldü.",
     "klasik_tuzak": "Serbest nazım = Nazım Hikmet (Garip değil). Garip de vezni attı ama 'gündelik dil' odaklı; Nazım 'destansı serbest nazım' + politik tema.",
@@ -4008,6 +4008,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "57-58 (Divan Şiiri 3 — Sebk-i Hindi)",
     "diger_eserler": "Divan, Şitaiyye",
     "occurrences": [
@@ -4025,7 +4026,6 @@
     "mebi_deneme_count": 7,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "17. yy Sebk-i Hindi (Hint Tarzı) akımının Türkçedeki temsilcilerinden. Edirneli, derviş. 'Şitaiyye' (kış kasidesi) ünlüdür — Sebk-i Hindi'nin kapalı/derin/imgesel estetiğinin örneği.",
     "klasik_tuzak": "Naili ile karıştırma — ikisi de Sebk-i Hindi. Naili daha ünlü/sembol şair; Neşati Edirneli derviş + Şitaiyye. Şeyh Galip 18. yy + tasavvufi sembolizm, ondan farklı.",
@@ -4044,6 +4044,7 @@
     "konular": [
       "cumlede_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "",
     "diger_eserler": "",
     "occurrences": [
@@ -4061,7 +4062,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Bilim insanı",
     "anekdot": "Sırp-Amerikalı mühendis (1856-1943). Edebi profili yok ama AYT'de paragraf okuma sorularının konusu olarak geçer — bilim insanı kişiliği, alternatif akım keşfi vb. Edebiyat sınavında çeldirici/yan bağlam.",
     "klasik_tuzak": "Edebi bir kimlik aranmaz — paragraf konusu olarak geçer. Akım/yazar sorularında çeldirici olarak görmek için.",
@@ -4079,6 +4079,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "79-80",
     "diger_eserler": "Garip, Yaşayıp Ölmek Aşk ve Avarelik Üstüne Şiirler",
     "occurrences": [
@@ -4096,7 +4097,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "Garip akımının üç kurucu üyesinden biri (Orhan Veli, Melih Cevdet, Oktay Rifat). 1941'de 'Garip' kitabıyla Türk şiirinde geleneksel hece + aruz + duygusallığı reddedip günlük dilin şiirini başlattılar. Sonraki dönemde II. Yeni'ye yakın çizgilere de uzandı.",
     "klasik_tuzak": "Garip üçlüsü karıştırılır: Orhan Veli (lider, 'Yaprak' dergisi), Melih Cevdet (sonradan tiyatro/roman), Oktay Rifat (uzun şiir + sonraki dönüşüm). 'Garip' = ortak kitap.",
@@ -4115,6 +4115,7 @@
     "konular": [
       "paragrafta_anlam"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "120, 142",
     "diger_eserler": "Tutunamayanlar, Tehlikeli Oyunlar, Korkuyu Beklerken, Bir Bilim Adamının Romanı",
     "occurrences": [
@@ -4132,7 +4133,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "'Tutunamayanlar' (1971-72) Türk modernist romanının zirvesi. Joyce'tan etkilenmiş, bilinç akışı + ironi + parodi. Hayattayken anlaşılmadı, sonradan kült oldu. 'Tehlikeli Oyunlar' diğer büyük romanı.",
     "klasik_tuzak": "Ahmet Hamdi Tanpınar ile karıştırma — ikisi de Türk modernist. Tanpınar TARİHSEL DERİN + 'Huzur'; Atay İRONİK PARODİ + 'Tutunamayanlar'.",
@@ -4151,6 +4151,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "137-139",
     "diger_eserler": "9. Hariciye Koğuşu, Fatih Harbiye, Matmazel Noraliya'nın Koltuğu, Yalnızız",
     "occurrences": [
@@ -4168,7 +4169,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "Türk PSİKOLOJİK romanının büyük adı. 'Dokuzuncu Hariciye Koğuşu' bir hasta çocuğun bilinciyle hastane romanı, 'Matmazel Noraliya'nın Koltuğu' mistik psikoloji. 'Server Bedi' takma adıyla popüler roman da yazdı.",
     "klasik_tuzak": "Mehmet Rauf 'Eylül' ile ilk psikolojik roman; Peyami Safa Cumhuriyet'in psikolojik roman zirvesi. Farklı dönemler, aynı tür.",
@@ -4187,6 +4187,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2 — bağlam)",
     "diger_eserler": "Yarın Yarın, Asılacak Kadın, Bir Cinayet Romanı",
     "occurrences": [
@@ -4204,7 +4205,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Romancı",
     "anekdot": "'Asılacak Kadın' romanı kadın bakış açısı + ölüm cezası teması. 1970'ler sonrası kuşağın güçlü kalemlerinden. Polisiye-toplumsal roman karışımı.",
     "klasik_tuzak": "Adalet Ağaoğlu, Latife Tekin, Sevgi Soysal ile karıştırma. Pınar Kür POLİSİYE + KADIN BAKIŞI.",
@@ -4223,6 +4223,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2)",
     "diger_eserler": "Yenişehir'de Bir Öğle Vakti, Tante Rosa, Tutkulu Perçem, Yürümek, Şafak",
     "occurrences": [
@@ -4240,7 +4241,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Hikayeci",
     "anekdot": "1970'lerin kadın yazarı — 'Tante Rosa', 'Tutkulu Perçem', 'Yenişehir'de Bir Öğle Vakti' modern hikayeleriyle bilinir. 12 Mart döneminin tanığı, hapis yatmış ve genç yaşta vefat etmiş bir entelektüel.",
     "klasik_tuzak": "Aynı kuşak kadın yazarlarla karıştırılır: Adalet Ağaoğlu, Pınar Kür, Tomris Uyar. Sevgi Soysal MODERN HİKAYE + 12 Mart tanığı + 'Yenişehir'de Bir Öğle Vakti'.",
@@ -4259,6 +4259,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "90, 93",
     "diger_eserler": "Mona Roza, Hızırla Kırk Saat",
     "occurrences": [
@@ -4276,7 +4277,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "DİRİLİŞ ekolünün kurucusu, mistik şiirin Cumhuriyet'teki büyük adlarından. 'Mona Roza', 'Sürgün Ülkeden Başkentler Başkentine' marka şiirleri. İslamcı düşünür kimliği de var.",
     "klasik_tuzak": "Necip Fazıl ile karıştırma — ikisi de mistik şiir. Necip Fazıl ÇİLE + Büyük Doğu; Sezai Karakoç DİRİLİŞ + Mona Roza.",
@@ -4295,6 +4295,7 @@
     "konular": [
       "cumlede_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "188 (Edebi Akımlar — Romantizm bağlam)",
     "diger_eserler": "İngiliz tiyatrosunun zirvesi: Hamlet, Macbeth, Othello, Romeo ve Juliet",
     "occurrences": [
@@ -4312,7 +4313,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Tiyatrocu",
     "anekdot": "İngiliz tiyatrosunun zirvesi. AYT'de paragraf-anlam veya akım sorusunda evrensel insan teması bağlamında geçer. Rönesans dönemi.",
     "klasik_tuzak": "Türk yazarı değil. Hamlet/Macbeth gibi karakterler 'evrensel insan' örneği olarak paragraflarda geçer.",
@@ -4327,6 +4327,7 @@
     "konular": [
       "servet_i_funun_fecr_i_ati"
     ],
+    "donem": "servet_i_funun_fecr_i_ati",
     "mebi_sayfa": "67",
     "diger_eserler": "Çal Çoban Çal",
     "occurrences": [
@@ -4344,7 +4345,6 @@
     "mebi_deneme_count": 2,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "servet_i_funun_fecr_i_ati",
     "pozisyon": "Çok yönlü",
     "anekdot": "Servet-i Fünun'un gazetecisi/şairi. 'Firak-ı Irak' Bağdat'ın İngilizlerce işgali üzerine yazılmış ünlü makale. Kardeşi Faik Ali de şair.",
     "klasik_tuzak": "Cenap Şahabettin, Tevfik Fikret çevresinde anılır. SF içinde şiirden çok GAZETECİLİK + MAKALE alanında öne çıkar.",
@@ -4363,6 +4363,7 @@
     "konular": [
       "cumlede_anlam"
     ],
+    "donem": "edebi_akimlar",
     "mebi_sayfa": "— (paragraf konusu, edebi profili yok)",
     "diger_eserler": "Mucit/bilim adamı (paragraf konusu olarak geçti)",
     "occurrences": [
@@ -4380,7 +4381,6 @@
     "mebi_deneme_count": 0,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "edebi_akimlar",
     "pozisyon": "Çok yönlü",
     "anekdot": "Sırp-Amerikan mucit-mühendis. Türk edebiyatı yazarı DEĞİL. AYT'de paragraf-anlam sorularında 'bilim insanı/yenilik' örneği olarak geçer.",
     "klasik_tuzak": "Bu paragraf wisdom için. Cevap kişiye değil, paragraftaki bilgiye odaklan.",
@@ -4395,6 +4395,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "islamiyet_oncesi_gecis",
     "mebi_sayfa": "28-29",
     "diger_eserler": "Kutadgu Bilig",
     "occurrences": [
@@ -4412,7 +4413,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "islamiyet_oncesi_gecis",
     "pozisyon": "Şair",
     "anekdot": "Karahanlılar dönemi (11. yy) — 'Kutadgu Bilig' (Mutluluk Veren Bilgi) yazarı. Aruz vezniyle yazılmış didaktik mesnevi: devlet yönetimi + ahlak öğüdü. 4 sembolik kişi (Kün-Toğdı/adalet, Ay-Toldı/saadet vs.) üzerinden alegorik anlatım. Türk edebiyatının ilk büyük eseri.",
     "klasik_tuzak": "Geçiş Dönemi 4 büyük eser hep karıştırılır: Kutadgu Bilig (Yusuf Has Hacip), Divânü Lügâti't-Türk (Kaşgarlı Mahmut), Atabetü'l-Hakayık (Edip Ahmet Yükneki), Divan-ı Hikmet (Ahmet Yesevi). 'Kutadgu Bilig' = Yusuf Has Hacip.",
@@ -4431,6 +4431,7 @@
     "konular": [
       "divan_edebiyati"
     ],
+    "donem": "divan_edebiyati",
     "mebi_sayfa": "56 (Divan Şiiri 3 — 16. yy)",
     "diger_eserler": "Şem ü Pervane, Divan, Edirne Şehrengizi",
     "occurrences": [
@@ -4448,7 +4449,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "divan_edebiyati",
     "pozisyon": "Şair",
     "anekdot": "16. yy Divan şairi — Edirneli, hayatı boyunca yoksul yaşadı. Padişaha kasideler sunarak geçimini sağlardı. 'Şem ü Pervane' mesnevisi + gazelleri var. Bağdatlı Ruhi'nin hocası kabul edilir.",
     "klasik_tuzak": "Bağdatlı Ruhi, Hayali Bey ile karıştırma — hepsi 16. yy. Zati YOKSUL/kaside; Hayali ZARİF gazel; Ruhi TASAVVUFİ terkibibent (öğrencisi).",
@@ -4467,6 +4467,7 @@
     "konular": [
       "milli_edebiyat"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "71",
     "diger_eserler": "Türkçülüğün Esasları, Kızılelma, Yeni Hayat, Altın Işık, Türkleşmek İslamlaşmak Muasırlaşmak",
     "occurrences": [
@@ -4484,7 +4485,6 @@
     "mebi_deneme_count": 6,
     "anma_yili_2026": true,
     "anma_yili_dalga": false,
-    "donem": "milli_edebiyat",
     "pozisyon": "Çok yönlü",
     "anekdot": "Milli Edebiyat'ın İDEOLOĞU/sosyoloğu, Türkçülüğün kuramsal mimarı. 'Türkçülüğün Esasları' (fikir), 'Kızılelma' + 'Yeni Hayat' + 'Altın Işık' (şiir/masal), 'Türkleşmek-İslamlaşmak-Muasırlaşmak' (3'lü formül). HARS (kültür/millî) ↔ MEDENİYET (teknik/milletlerarası) ayrımı onun imzasıdır. Malta'ya sürüldü, 'Malta Mektupları'nı orada yazdı. ⭐ 2026 RESMÎ ZİYA GÖKALP ANMA YILI (150. doğum yılı, TÜRKSOY ilanı) — bu yıl AYT'de vurgu ihtimali yüksek, mutlaka çalış.",
     "klasik_tuzak": "Mehmet Emin Yurdakul ile karıştırma — Yurdakul ŞAİR/şiirsel manifesto (Türk Sazı, Cenge Giderken), Gökalp DÜŞÜNÜR/sosyolog + fikrî sistematik (Türkçülüğün Esasları). Şiir gelince Yurdakul, sosyoloji/teori gelince Gökalp. Ayrıca Genç Kalemler üçlüsü: Ömer Seyfettin (hikaye), Ali Canip (eleştiri/şiir), Ziya Gökalp (teori).",
@@ -4503,6 +4503,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "milli_edebiyat",
     "mebi_sayfa": "113",
     "diger_eserler": "Bomba, Pembe İncili Kaftan, Falaka, Kaşağı, Diyet",
     "occurrences": [
@@ -4520,7 +4521,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": true,
-    "donem": "milli_edebiyat",
     "pozisyon": "Hikayeci",
     "anekdot": "Türk hikayeciliğinin BABASI. 'Genç Kalemler' dergisinde dil sadeleşmesinin manifestosunu yazdı. 'Bomba', 'Pembe İncili Kaftan', 'Falaka', 'Kaşağı' — okumayan kalmadı bu hikayeleri. 36'da hapishanede öldü.",
     "klasik_tuzak": "Refik Halit ile karıştırma — ikisi de Milli Edebiyat hikayeciliği. Ömer Seyfettin DİL SADELEŞMESİ + tarih/mizah + 'Genç Kalemler', Refik Halit MEMLEKET GERÇEKÇİLİĞİ.",
@@ -4539,6 +4539,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "90",
     "diger_eserler": "Galile Denizi",
     "occurrences": [
@@ -4556,7 +4557,6 @@
     "mebi_deneme_count": 3,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "İkinci Yeni akımının en görsel/deneysel şairi. 'Galile Denizi', 'Aşıkane' kitaplarında dilin sınırlarını zorladı — anlam yerine SES + GÖRSEL imge. 80 yaşında şiir yazmaya devam etti.",
     "klasik_tuzak": "İkinci Yeni şairleri sıkça karıştırılır: Cemal Süreya, Edip Cansever, Turgut Uyar, İlhan Berk, Ece Ayhan, Sezai Karakoç. İlhan Berk DENEYSEL + GÖRSEL imge + uzun kariyer.",
@@ -4575,6 +4575,7 @@
     "konular": [
       "cumhuriyet"
     ],
+    "donem": "cumhuriyet",
     "mebi_sayfa": "92-93 (Cumhuriyet Şiiri)",
     "diger_eserler": "Erbain, Of Not Being a Jew, Şair Erbain, Bir Yusuf Masalı",
     "occurrences": [
@@ -4592,7 +4593,6 @@
     "mebi_deneme_count": 1,
     "anma_yili_2026": false,
     "anma_yili_dalga": false,
-    "donem": "cumhuriyet",
     "pozisyon": "Şair",
     "anekdot": "1970-1980'lerin İslamcı şairi. 'Erbain' (40 yaşında yazdığı şiirler) en bilinen kitabı. Marksist olarak başlayıp İslamcı düşünceye geçti. Diriliş Dergisi çevresinin şairlerinden, bağımsız bir entelektüel.",
     "klasik_tuzak": "Sezai Karakoç ile karıştırma — ikisi de İslamcı şair. Sezai Karakoç DİRİLİŞ kurucusu + 'Mona Roza' + 'Hızırla Kırk Saat'; İsmet Özel sonradan KATILMIŞ + 'Erbain'.",
@@ -4600,6 +4600,760 @@
       "Sezai Karakoç",
       "Cahit Zarifoğlu",
       "Erdem Bayazıt"
+    ]
+  },
+  {
+    "name": "Ahmet Muhip Dıranas",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "77-78",
+    "diger_eserler": "Şiirler",
+    "occurrences": [],
+    "due_score_2026": 52,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 3 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 3,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Saf şiirin (öz şiir) güçlü temsilcisi. 'Fahriye Abla' ve 'Olvido' şiirleriyle tanınır — hece ölçüsüyle modern, müzikal bir lirizm. 'Gölgeler' adlı oyunu da var.",
+    "klasik_tuzak": "Saf şiir kuşağı: Ahmet Hamdi Tanpınar, Ahmet Muhip Dıranas, Cahit Sıtkı, Ziya Osman Saba. Dıranas = 'Fahriye Abla' + hece + müzikalite.",
+    "rakipleri": [
+      "Cahit Sıtkı Tarancı",
+      "Ziya Osman Saba",
+      "Ahmet Hamdi Tanpınar"
+    ]
+  },
+  {
+    "name": "Asaf Halet Çelebi",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "78",
+    "diger_eserler": "Lamelif, He",
+    "occurrences": [],
+    "due_score_2026": 44,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 2 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 2,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Türk şiirinin en sıra dışı sesi. 'He', 'Lâmelif', 'Om Mani Padme Hum' — Doğu mistisizmi, tasavvuf ve egzotik imgelerle deneysel şiir. Hiçbir akıma tam girmeyen biricik şair.",
+    "klasik_tuzak": "Asaf Halet'i bir akıma sokma — bağımsız/biricik. Doğu mistisizmi + soyut imge onun imzası.",
+    "rakipleri": [
+      "Behçet Necatigil",
+      "Fazıl Hüsnü Dağlarca",
+      "Necip Fazıl Kısakürek"
+    ]
+  },
+  {
+    "name": "Bağdatlı Ruhi",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "divan_edebiyati",
+    "mebi_sayfa": "56",
+    "diger_eserler": "Terkib-i Bend, Divan",
+    "occurrences": [],
+    "due_score_2026": 52,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 3 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 3,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "16. yüzyılın toplumsal eleştiri yapan divan şairi. Ünlü 'Terkib-i Bend'inde devrin aksaklıklarını, riyakârlığı ve sosyal adaletsizliği eleştirdi — Ziya Paşa ona nazire yazdı.",
+    "klasik_tuzak": "Bağdatlı Ruhi'nin Terkib-i Bendi'ne Ziya Paşa (Tanzimat) nazire yazmıştır — ikisini karıştırma. Toplumsal eleştiri/terkib-i bend = Bağdatlı Ruhi'nin imzası.",
+    "rakipleri": [
+      "Ziya Paşa",
+      "Fuzuli",
+      "Nabi"
+    ]
+  },
+  {
+    "name": "Behçet Necatigil",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "78",
+    "diger_eserler": "Eski Toprak, Divançe",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Orta sınıfın, evin ve gündelik hayatın şairi. 'Kapalı Çarşı', 'Evler' — 'ev-kadın-ölüm' üçgenini yoğun, kapalı bir dille işledi. Radyo oyunları da yazdı, edebiyat sözlükleri hazırladı.",
+    "klasik_tuzak": "Necatigil bağımsız bir ustadır; İkinci Yeni'ye yakın durur ama ev/gündelik hayat teması + kapalılık onun imzasıdır.",
+    "rakipleri": [
+      "Cahit Külebi",
+      "Asaf Halet Çelebi",
+      "Behçet Kemal Çağlar"
+    ]
+  },
+  {
+    "name": "Bilge Karasu",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "120",
+    "diger_eserler": "Uzun Sürmüş Bir Günün Akşamı, Göçmüş Kediler Bahçesi, Gece",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Çok yönlü",
+    "anekdot": "Türkçenin 'bilge'si — dili bir kuyumcu gibi işleyen deneysel yazar. 'Gece', 'Uzun Sürmüş Bir Günün Akşamı' — şiirsel, soyut, alegorik anlatım. Çevirmen ve düşünür kimliği de var.",
+    "klasik_tuzak": "Postmodern/deneysel kuşak: Oğuz Atay, Yusuf Atılgan, Bilge Karasu. Karasu DİL/biçim deneyciliği + alegori ön planda.",
+    "rakipleri": [
+      "Oğuz Atay",
+      "Yusuf Atılgan",
+      "Orhan Pamuk"
+    ]
+  },
+  {
+    "name": "Cemal Süreya",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "90",
+    "diger_eserler": "Üvercinka, Göçebe, Beni Öp Sonra Doğur Beni",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "İkinci Yeni'nin en sevilen sesi. 'Üvercinka', 'Sevda Sözleri' — aşkı, kadını ve İstanbul'u zarif, esprili, imgesel bir dille işledi. 'Şiir geldi kelimeye dayandı' onun sözü.",
+    "klasik_tuzak": "İkinci Yeni şairleri karıştırılır: Cemal Süreya (aşk/zariflik), Edip Cansever (dramatik monolog), Turgut Uyar (uzun şiir), Ece Ayhan (kapalı/sapkın), İlhan Berk (görsel).",
+    "rakipleri": [
+      "Edip Cansever",
+      "Turgut Uyar",
+      "Ece Ayhan"
+    ]
+  },
+  {
+    "name": "Dertli",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "halk_edebiyati",
+    "mebi_sayfa": "",
+    "diger_eserler": "Divan, Şiirleri",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "19. yüzyıl saz şairi. Hem divan hem âşık tarzında yazdı; tasavvufi ve toplumsal temalı koşma/divanlarıyla tanınır. 'Telli sazdır bunun adı' ünlü şiiri ona aittir.",
+    "klasik_tuzak": "19. yy âşıkları: Dertli, Erzurumlu Emrah, Bayburtlu Zihni, Seyrani, Gevheri. Dertli = hem divan hem âşık tarzı + tasavvuf.",
+    "rakipleri": [
+      "Erzurumlu Emrah",
+      "Seyrani",
+      "Bayburtlu Zihni"
+    ]
+  },
+  {
+    "name": "Edip Ahmet Yükneki",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "islamiyet_oncesi_gecis",
+    "mebi_sayfa": "29",
+    "diger_eserler": "Atabetü'l Hakayık",
+    "occurrences": [],
+    "due_score_2026": 44,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 2 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 2,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Geçiş döneminin ahlak şairi (12. yy). Tek eseri 'Atabetü'l-Hakayık' (Hakikatlerin Eşiği) — manzum bir ahlak/öğüt kitabı; ilim, cömertlik, alçakgönüllülük temalı. Doğuştan görme engelliydi.",
+    "klasik_tuzak": "Geçiş dönemi eserleri: Kutadgu Bilig (Yusuf Has Hacip-siyasetname), Atabetü'l-Hakayık (Edip Ahmet-ahlak), Divan-ı Hikmet (Yesevi-tasavvuf), DLT (Kaşgarlı-sözlük). Atabetü'l-Hakayık = Edip Ahmet.",
+    "rakipleri": [
+      "Yusuf Has Hacip",
+      "Ahmet Yesevi",
+      "Kaşgarlı Mahmut"
+    ]
+  },
+  {
+    "name": "Edip Cansever",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "90",
+    "diger_eserler": "Yerçekimli Karanfil, Tragedyalar",
+    "occurrences": [],
+    "due_score_2026": 52,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 3 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 3,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "İkinci Yeni'nin 'dramatik monolog' ustası. 'Yerçekimli Karanfil', 'Tragedyalar' — şiire tiyatro sesi, karakter ve iç konuşma getirdi. 'Masa da Masaymış Ha' ünlü şiiri.",
+    "klasik_tuzak": "Edip Cansever = DRAMATİK MONOLOG + karakterli şiir. Cemal Süreya (aşk) ve Turgut Uyar (kent) ile karıştırma.",
+    "rakipleri": [
+      "Cemal Süreya",
+      "Turgut Uyar",
+      "İlhan Berk"
+    ]
+  },
+  {
+    "name": "Fakir Baykurt",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "141",
+    "diger_eserler": "Yılanların Öcü",
+    "occurrences": [],
+    "due_score_2026": 68,
+    "priority_2026": "YÜKSEK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 5 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 5,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Romancı",
+    "anekdot": "Köy edebiyatının/köy enstitüsü kuşağının güçlü kalemi. 'Yılanların Öcü', 'Tırpan' — Anadolu köylüsünün toprak, ağa ve yoksullukla mücadelesi. Köy gerçekliğini içeriden anlatan öğretmen-yazar.",
+    "klasik_tuzak": "Köy romanı üçlüsü: Mahmut Makal (Bizim Köy-anı), Talip Apaydın, Fakir Baykurt (Yılanların Öcü-roman). Yaşar Kemal'den farkı: Baykurt daha didaktik/gerçekçi, Yaşar Kemal destansı.",
+    "rakipleri": [
+      "Yaşar Kemal",
+      "Talip Apaydın",
+      "Mahmut Makal"
+    ]
+  },
+  {
+    "name": "Füruzan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "",
+    "diger_eserler": "Parasız Yatılı, Kuşatma, Benim Sinemalarım, Gül Mevsimidir, Gecenin Öteki Yüzü",
+    "occurrences": [],
+    "due_score_2026": 44,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 2 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 2,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Hikayeci",
+    "anekdot": "Toplumcu gerçekçi öykünün güçlü kadın sesi. 'Parasız Yatılı' (ilk kitabıyla ödül), 'Benim Sinemalarım' — yoksul kadınlar, çocuklar, göç ve kenar mahalle. Sinema ve tiyatroyla da uğraştı.",
+    "klasik_tuzak": "1970 kuşağı kadın öykücüleri: Füruzan, Sevgi Soysal, Tomris Uyar, Nezihe Meriç. Füruzan = yoksulluk + kadın/çocuk + 'Parasız Yatılı'.",
+    "rakipleri": [
+      "Sevgi Soysal",
+      "Tomris Uyar",
+      "Nezihe Meriç"
+    ]
+  },
+  {
+    "name": "Güngör Dilmen",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "162",
+    "diger_eserler": "Midas'ın Kulakları, Canlı Maymun Lokantası",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Tiyatrocu",
+    "anekdot": "Modern Türk tiyatrosuna mit ve efsane getiren yazar. 'Midas'ın Kulakları', 'Kurban' — antik mit ve Anadolu efsanelerini çağdaş sahneye taşıdı. Şiirsel, simgesel tiyatro.",
+    "klasik_tuzak": "Güngör Dilmen = MİT/efsane temelli tiyatro (Midas, Kurban). Turan Oflazoğlu'nun TARİHSEL (padişah) oyunlarından farklıdır.",
+    "rakipleri": [
+      "Turan Oflazoğlu",
+      "Orhan Asena",
+      "Turgut Özakman"
+    ]
+  },
+  {
+    "name": "Hacı Bektaş Veli",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "halk_edebiyati",
+    "mebi_sayfa": "",
+    "diger_eserler": "Makalat, Vilayetname, Şathiyye",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Çok yönlü",
+    "anekdot": "Anadolu tasavvufunun ve Bektaşiliğin piri (13. yy). 'Makalat' (Arapça, ahlak/tasavvuf) ve menkıbelerini içeren 'Vilayetname' ile tanınır. 'Eline diline beline sahip ol' öğüdü ona mal edilir.",
+    "klasik_tuzak": "Geçiş/tasavvuf büyükleri: Ahmet Yesevi (Divan-ı Hikmet, pir), Hacı Bektaş Veli (Makalat, Bektaşilik), Yunus Emre. Makalat = Hacı Bektaş Veli.",
+    "rakipleri": [
+      "Ahmet Yesevi",
+      "Yunus Emre",
+      "Mevlana"
+    ]
+  },
+  {
+    "name": "Hilmi Yavuz",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "",
+    "diger_eserler": "Bakış Kuşu, Doğu Şiirleri, Gizemli Şiirler, Yara Şiirleri, Çöl Şiirleri",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Düşünür-şair. 'Bakış Kuşu', 'Doğu Şiirleri' — Doğu-Batı sentezi, gelenek ve modernliği felsefi bir dille birleştirdi. Deneme ve felsefe yazılarıyla da etkili.",
+    "klasik_tuzak": "Hilmi Yavuz = entelektüel/felsefi şiir + Doğu-Batı sentezi. Sezai Karakoç'un mistik çizgisinden farkı düşünsel/biçimsel ağırlığıdır.",
+    "rakipleri": [
+      "Sezai Karakoç",
+      "İsmet Özel",
+      "Behçet Necatigil"
+    ]
+  },
+  {
+    "name": "Hoca Dehhani",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "divan_edebiyati",
+    "mebi_sayfa": "53",
+    "diger_eserler": "Divan",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Anadolu sahasının ilk din dışı (laik) divan şairi sayılır (13. yy). Selçuklu sarayı çevresinde dünyevi konularda gazel/kaside yazdı; bir Selçuklu Şehnamesi de ona atfedilir.",
+    "klasik_tuzak": "Hoca Dehhani = Anadolu'da din dışı divan şiirinin ÖNCÜSÜ. Tasavvufi Yunus Emre / Âşık Paşa çizgisinden ayrılır.",
+    "rakipleri": [
+      "Âşık Paşa",
+      "Ahmedi",
+      "Şeyhi"
+    ]
+  },
+  {
+    "name": "Mehmet Rauf",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "servet_i_funun_fecr_i_ati",
+    "mebi_sayfa": "132",
+    "diger_eserler": "Eylül",
+    "occurrences": [],
+    "due_score_2026": 68,
+    "priority_2026": "YÜKSEK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 5 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 5,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Romancı",
+    "anekdot": "Servet-i Fünun'un psikolojik roman ustası. 'Eylül' Türk edebiyatının ilk psikolojik aşk romanı — olay değil iç dünya. Halit Ziya'nın gölgesinde ama 'Eylül'le adını ölümsüzleştirdi.",
+    "klasik_tuzak": "Halit Ziya ile karıştırma — ikisi de SF romancısı. Eylül = MEHMET RAUF (ilk psikolojik roman); Aşk-ı Memnu = Halit Ziya. Eylül'ü Aşk-ı Memnu'yla karıştırma.",
+    "rakipleri": [
+      "Halit Ziya Uşaklıgil",
+      "Hüseyin Cahit Yalçın",
+      "Cenap Şahabettin"
+    ]
+  },
+  {
+    "name": "Mustafa Kutlu",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "139",
+    "diger_eserler": "Sır, Yokuşa Akan Sular, Beyhude Ömrüm, Kapıları Açmak",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Hikayeci",
+    "anekdot": "Modern Türk öyküsünün gelenekçi/manevi sesi. 'Uzun Hikaye', 'Ya Tahammül Ya Sefer', 'Yoksulluk İçimizde' — sade dil, tasavvufi duyarlık, Anadolu insanı. Uzun öykü biçimini yeniledi.",
+    "klasik_tuzak": "Mustafa Kutlu = gelenekçi/tasavvufi öykü + sade dil. Modern bireysel öykücülerden (Atay, Atılgan) ayrılır.",
+    "rakipleri": [
+      "Sait Faik Abasıyanık",
+      "Rasim Özdenören",
+      "Sevinç Çokum"
+    ]
+  },
+  {
+    "name": "Orhan Pamuk",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "142",
+    "diger_eserler": "Beyaz Kale, Kara Kitap, Benim Adım Kırmızı, Kar, Masumiyet Müzesi",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Romancı",
+    "anekdot": "Türkiye'nin tek Nobel Edebiyat ödüllü yazarı (2006). Postmodern roman ustası — 'Kara Kitap', 'Benim Adım Kırmızı', 'Masumiyet Müzesi'. Doğu-Batı, kimlik ve İstanbul onun büyük temaları.",
+    "klasik_tuzak": "İlk romanı 'Cevdet Bey ve Oğulları' (aile kroniği, gerçekçi) ile postmodern dönemini (Kara Kitap, Yeni Hayat) karıştırma. Nobel = Orhan Pamuk.",
+    "rakipleri": [
+      "Oğuz Atay",
+      "Bilge Karasu",
+      "İhsan Oktay Anar"
+    ]
+  },
+  {
+    "name": "Pir Sultan Abdal",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "halk_edebiyati",
+    "mebi_sayfa": "34",
+    "diger_eserler": "Nefesler",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "16. yüzyıl Alevi-Bektaşi halk şiirinin başkaldıran sesi. Nefesleri ve deyişleriyle hem tasavvufu hem toplumsal isyanı işledi; bu yüzden asıldığı söylenir. 'Gelin canlar bir olalım' onun.",
+    "klasik_tuzak": "Tekke/tasavvuf şairleri: Yunus Emre (sevgi/hoşgörü), Kaygusuz Abdal (şathiye/mizah), Pir Sultan Abdal (isyan/Alevi-Bektaşi nefes). Pir Sultan = başkaldırı + nefes.",
+    "rakipleri": [
+      "Yunus Emre",
+      "Kaygusuz Abdal",
+      "Karacaoğlan"
+    ]
+  },
+  {
+    "name": "Recep Bilginer",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "162",
+    "diger_eserler": "Sarı Naciye, İsyancılar, Gazeteciden Dost, Ben Devletim, Karaağaç",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Tiyatrocu",
+    "anekdot": "Toplumsal-politik tiyatronun kalemi. 'Sarı Naciye', 'İsyancılar', 'Gazeteciden Dost' — gündelik adaletsizlik, siyaset ve halkın sesi. Gazetecilik kökenli.",
+    "klasik_tuzak": "Cumhuriyet tiyatrocuları: Cevat Fehmi Başkut (toplumsal taşlama), Recep Bilginer (politik), Turgut Özakman, Haldun Taner.",
+    "rakipleri": [
+      "Cevat Fehmi Başkut",
+      "Turgut Özakman",
+      "Haldun Taner"
+    ]
+  },
+  {
+    "name": "Rıfat Ilgaz",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "95",
+    "diger_eserler": "Hababam Sınıfı",
+    "occurrences": [],
+    "due_score_2026": 44,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 2 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 2,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Çok yönlü",
+    "anekdot": "'Hababam Sınıfı'nın yaratıcısı. Mizah ustası ama toplumcu şair de — 'Sınıf' kitabı yüzünden yargılandı. Gülmecenin altında keskin toplumsal eleştiri.",
+    "klasik_tuzak": "Hababam Sınıfı (mizah/roman) ile toplumcu şiirini (Sınıf) karıştırma — ikisi de Rıfat Ilgaz. Aziz Nesin'le karıştırma: ikisi de mizah, ama Hababam = Rıfat Ilgaz.",
+    "rakipleri": [
+      "Aziz Nesin",
+      "Orhan Kemal",
+      "Nazım Hikmet"
+    ]
+  },
+  {
+    "name": "Sait Faik Abasıyanık",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "115",
+    "diger_eserler": "Semaver, Sarnıç, Şahmerdan, Lüzumsuz Adam, Mahalle Kahvesi",
+    "occurrences": [],
+    "due_score_2026": 44,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 2 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 2,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Hikayeci",
+    "anekdot": "Türk öyküsünde 'durum hikayesi'nin (Çehov tarzı) zirvesi. Olay yok, küçük insan + İstanbul + Burgazada var. 'Semaver', 'Sarnıç', 'Lüzumsuz Adam' — sıradan hayatı şiirleştirdi. Adına Türkiye'nin en önemli öykü ödülü verilir.",
+    "klasik_tuzak": "Memduh Şevket Esendal ile karıştırma — ikisi de durum hikayesi (Çehov tarzı). Sait Faik İSTANBUL/ada/balıkçı evreni; Memduh Şevket MEMUR/bürokrat hayatı.",
+    "rakipleri": [
+      "Memduh Şevket Esendal",
+      "Sabahattin Ali",
+      "Orhan Kemal"
+    ]
+  },
+  {
+    "name": "Samiha Ayverdi",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "138",
+    "diger_eserler": "İbrahim Efendi Konağı, Mesihpaşa İmamı",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Romancı",
+    "anekdot": "Tasavvuf ve eski İstanbul'un kadın yazarı. 'İbrahim Efendi Konağı', 'Batmayan Gün' — Osmanlı kültürü, tekke terbiyesi ve manevi değerler. Mütefekkir ve hatip kimliği de var.",
+    "klasik_tuzak": "Samiha Ayverdi = tasavvuf + eski İstanbul/konak kültürü. Halide Edip'in milli/toplumsal romanından farkı manevi/gelenekçi ekseni.",
+    "rakipleri": [
+      "Halide Edip Adıvar",
+      "Mustafa Kutlu",
+      "Peyami Safa"
+    ]
+  },
+  {
+    "name": "Selim İleri",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "",
+    "diger_eserler": "Her Gece Bodrum, Cehennem Kraliçesi, Ölüm İlişkileri, Mavi Kanatlarınla Yalnız Benim Olsaydın, Yarın Yapayalnız",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Romancı",
+    "anekdot": "İstanbul'un, geçmişin ve nostaljinin yazarı. 'Her Gece Bodrum', 'Ölüm İlişkileri' — birey, hafıza ve eski İstanbul. Deneme ve edebiyat tarihi yazarlığı da güçlü.",
+    "klasik_tuzak": "Selim İleri = nostalji + İstanbul + birey. 1970 sonrası bireyci roman kuşağında yer alır.",
+    "rakipleri": [
+      "Yusuf Atılgan",
+      "Bilge Karasu",
+      "Adalet Ağaoğlu"
+    ]
+  },
+  {
+    "name": "Turan Oflazoğlu",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "164",
+    "diger_eserler": "IV. Murat, Genç Osman",
+    "occurrences": [],
+    "due_score_2026": 44,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 2 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 2,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Tiyatrocu",
+    "anekdot": "Tarihsel trajedinin ustası. 'IV. Murat', 'Deli İbrahim', 'Kösem Sultan' — Osmanlı padişahlarını şiirsel, trajik bir dille sahneye taşıdı. Şair kimliği de güçlü.",
+    "klasik_tuzak": "Oflazoğlu = OSMANLI TARİHİ + trajedi (IV. Murat, Deli İbrahim). Güngör Dilmen'in mit temelli tiyatrosundan farkı budur.",
+    "rakipleri": [
+      "Güngör Dilmen",
+      "Orhan Asena",
+      "Turgut Özakman"
+    ]
+  },
+  {
+    "name": "Turgut Uyar",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "91",
+    "diger_eserler": "Tütünler Islak, Divan",
+    "occurrences": [],
+    "due_score_2026": 52,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 3 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 3,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "İkinci Yeni'nin büyük şairi. 'Tütünler Islak', 'Dünyanın En Güzel Arabistanı' — kentleşme, yabancılaşma ve aşkı uzun, akışkan dizelerle işledi. 'Göğe Bakma Durağı' ünlü şiiri.",
+    "klasik_tuzak": "İkinci Yeni içinde Turgut Uyar UZUN/akışkan şiir + kent yabancılaşması. Cemal Süreya'nın kısa zarif şiirinden farkı budur.",
+    "rakipleri": [
+      "Cemal Süreya",
+      "Edip Cansever",
+      "Ece Ayhan"
+    ]
+  },
+  {
+    "name": "Turgut Özakman",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "164",
+    "diger_eserler": "Şu Çılgın Türkler, Ocak, Üç Destan",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Tiyatrocu",
+    "anekdot": "Cumhuriyet tiyatrosunun ve tarihsel anlatının ustası. 'Ocak', 'Kanaviçe' oyunları; sonra 'Şu Çılgın Türkler' belgesel-romanıyla milyonlara ulaştı. Milli Mücadele'yi popülerleştirdi.",
+    "klasik_tuzak": "Özakman önce TİYATRO (Ocak, Kanaviçe), sonra TARİHSEL ROMAN (Şu Çılgın Türkler). Haldun Taner'le karıştırma — Taner epik/Keşanlı Ali.",
+    "rakipleri": [
+      "Haldun Taner",
+      "Cevat Fehmi Başkut",
+      "Recep Bilginer"
+    ]
+  },
+  {
+    "name": "Yusuf Atılgan",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "117, 142",
+    "diger_eserler": "Aylak Adam, Anayurt Oteli",
+    "occurrences": [],
+    "due_score_2026": 36,
+    "priority_2026": "DÜŞÜK",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 1 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 1,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Romancı",
+    "anekdot": "Modern Türk romanının yalnız adamı. 'Aylak Adam' ve 'Anayurt Oteli' — bireyin yabancılaşması, iç sıkıntı, varoluşsal boşluk. Az yazdı ama her eseri kült.",
+    "klasik_tuzak": "Oğuz Atay (Tutunamayanlar) ile karıştırma — ikisi de bireyin topluma tutunamaması. Atılgan DAHA İÇE KAPANIK/yalnızlık; Atay İRONİ/oyunbazlık. Anayurt Oteli = Yusuf Atılgan.",
+    "rakipleri": [
+      "Oğuz Atay",
+      "Bilge Karasu",
+      "Vüsat O. Bener"
+    ]
+  },
+  {
+    "name": "Ziya Osman Saba",
+    "soru_sayisi": 0,
+    "yillar": [],
+    "konular": [],
+    "donem": "cumhuriyet",
+    "mebi_sayfa": "",
+    "diger_eserler": "Sebil ve Güvercinler, Geçen Zaman",
+    "occurrences": [],
+    "due_score_2026": 52,
+    "priority_2026": "ORTA",
+    "son_yil": null,
+    "current_gap": 9,
+    "rationale_2026": "Çıkmış sınavlarda (2018-2025) yok; MEBİ 2026 denemelerinde 3 kez vurgulandı — MEBİ-only sinyal.",
+    "mebi_deneme_count": 3,
+    "anma_yili_2026": false,
+    "anma_yili_dalga": false,
+    "pozisyon": "Şair",
+    "anekdot": "Yedi Meşaleciler'in en kalıcı şairi. 'Sebil ve Güvercinler' — çocukluk, ev, küçük mutluluklar ve ölüm temalı yumuşak bir lirizm. Sait Faik'in yakın dostuydu.",
+    "klasik_tuzak": "Yedi Meşaleciler (Sabri Esat, Cevdet Kudret, Yaşar Nabi, Vasfi Mahir, Muammer Lütfi, Kenan Hulusi, Ziya Osman). Ziya Osman = en çok hatırlanan, 'küçük mutluluklar' şairi.",
+    "rakipleri": [
+      "Cahit Sıtkı Tarancı",
+      "Ahmet Muhip Dıranas",
+      "Yaşar Nabi Nayır"
     ]
   }
 ]

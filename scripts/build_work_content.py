@@ -196,6 +196,22 @@ WORK_CONTENT = [
     # ---- Halk edebiyatı ----
     ("Köroğlu Destanı", "Köroğlu", "halk_edebiyati",
      "Babasının gözlerine kıyılan bir yiğidin, bir beyden öç almak için dağa çıkıp halkın kahramanı oluşunu anlatan; coşkun koçaklamalarıyla ünlü halk hikâyesi/destanı."),
+
+    # REV19e — MEBİ-only yüksek değerli yazarlar (zengin tip için)
+    ("Semaver", "Sait Faik Abasıyanık", "cumhuriyet",
+     "Büyük olaylar yerine sıradan insanların küçük anlarını, İstanbul'u ve emekçileri şiirsel bir dille anlatan; 'durum hikâyesi'nin örneği öykü kitabı."),
+    ("Benim Adım Kırmızı", "Orhan Pamuk", "cumhuriyet",
+     "Bir nakkaşın öldürülmesi etrafında, Doğu-Batı resim anlayışını ve kimliği farklı anlatıcıların ağzından kuran postmodern tarihî roman."),
+    ("Anayurt Oteli", "Yusuf Atılgan", "cumhuriyet",
+     "Taşra bir otelin kâtibinin, bir kadını bekleyişi etrafında giderek içine kapanışını ve yalnızlığını işleyen psikolojik roman."),
+    ("Yılanların Öcü", "Fakir Baykurt", "cumhuriyet",
+     "Bir Anadolu köyünde toprak, muhtar ve haksızlıkla mücadele eden köylülerin direnişini gerçekçi biçimde anlatan köy romanı."),
+    ("Parasız Yatılı", "Füruzan", "cumhuriyet",
+     "Yoksul kadınların, çocukların ve kenar mahalle insanlarının hayatından kesitleri duyarlı bir dille anlatan, ödüllü öykü kitabı."),
+    ("Uzun Hikaye", "Mustafa Kutlu", "cumhuriyet",
+     "Bir baba-oğulun kasaba kasaba dolaşan hayatını, sade ve tasavvufi bir duyarlıkla anlatan uzun öykü."),
+    ("Aylak Adam", "Yusuf Atılgan", "cumhuriyet",
+     "Topluma ve düzene yabancılaşmış, gerçek aşkı arayan başıboş bir adamın iç dünyasını izleyen modern roman."),
 ]
 
 

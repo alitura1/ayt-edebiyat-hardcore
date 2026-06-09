@@ -209,6 +209,14 @@ YAZAR_ESERLERI = {
     'Cevat Fehmi Başkut': ['Buzlar Çözülmeden', 'Paydos', 'Küçük Şehir', 'Hacı Kaptan', 'Sana Rey Veriyorum'],
     # Edebi akımlar (kuramsal/yabancı)
     'Aristoteles': ['Poetika', 'Retorik', "Nikomakhos'a Etik"],
+    # REV19e — MEBİ denemede sık geçen, eseri eksik yazarlar
+    'Bağdatlı Ruhi': ['Terkib-i Bend', 'Divan'],
+    'Füruzan': ['Parasız Yatılı', 'Kuşatma', 'Benim Sinemalarım', 'Gül Mevsimidir', 'Gecenin Öteki Yüzü'],
+    'Hilmi Yavuz': ['Bakış Kuşu', 'Doğu Şiirleri', 'Gizemli Şiirler', 'Yara Şiirleri', 'Çöl Şiirleri'],
+    'Recep Bilginer': ['Sarı Naciye', 'İsyancılar', 'Gazeteciden Dost', 'Ben Devletim', 'Karaağaç'],
+    'Selim İleri': ['Her Gece Bodrum', 'Cehennem Kraliçesi', 'Ölüm İlişkileri', 'Mavi Kanatlarınla Yalnız Benim Olsaydın', 'Yarın Yapayalnız'],
+    'Hacı Bektaş Veli': ['Makalat', 'Vilayetname', 'Şathiyye'],
+    'Dertli': ['Divan', 'Şiirleri'],
 }
 
 # Eser → Yazar reverse map
@@ -238,6 +246,10 @@ YAZAR_DONEM = {
     **{y: 'tanzimat' for y in ['Hüseyin Rahmi Gürpınar']},  # Tanzimat-Milli geçişi
     **{y: 'cumhuriyet' for y in ['Sevgi Soysal','İsmet Özel','Cevat Fehmi Başkut']},
     **{y: 'edebi_akim' for y in ['Aristoteles']},  # yabancı akım teorisyeni
+    # REV19e — MEBİ-only yazarların dönemleri (eseri yeni eklenenler)
+    **{y: 'divan' for y in ['Bağdatlı Ruhi']},
+    **{y: 'halk' for y in ['Dertli', 'Hacı Bektaş Veli']},
+    **{y: 'cumhuriyet' for y in ['Füruzan', 'Hilmi Yavuz', 'Recep Bilginer', 'Selim İleri']},
 }
 
 # Dönem → topic kodu mapping
@@ -2084,6 +2096,25 @@ def main():
         except Exception as e:
             print(f"⚠ all_authors_in_questions.json okunamadı: {e}")
 
+    # REV19e — MEBİ denemede geçen ama çıkmışta olmayan yazarları enjekte et
+    # (kullanıcı: "onları da ekle"). soru_sayisi=0 (çıkmışta yok), profil + kart alırlar.
+    mebi_cov_path = BASE / 'data' / 'mebi_deneme_coverage.json'
+    if mebi_cov_path.exists():
+        try:
+            cov = json.loads(mebi_cov_path.read_text(encoding='utf-8'))
+            injected = 0
+            for name in cov:
+                canonical = ALIAS.get(name, name)
+                # Sadece YAZAR_DONEM'de tanımlı olanları ekle (eser/kart üretilebilir)
+                if canonical not in YAZAR_DONEM:
+                    continue
+                if canonical not in merged:
+                    merged[canonical] = {'count': 0, 'years': set(), 'occurrences': []}
+                    injected += 1
+            print(f"  REV19e: +{injected} MEBİ-only yazar enjekte edildi (çıkmışta yok)")
+        except Exception as e:
+            print(f"⚠ mebi_deneme_coverage.json okunamadı: {e}")
+
     # REV17 — pattern_analysis.json'dan yazar bazlı due_score yükle
     pattern_yazar_map = {}
     pattern_konu_map = {}
@@ -2117,6 +2148,8 @@ def main():
             'soru_sayisi': info['count'],
             'yillar': sorted([y for y in info['years'] if y]),
             'konular': konular,
+            # REV19e — dönem (YAZAR_DONEM'den; enjekte yazarların konular'ı boş olduğu için)
+            'donem': DONEM_TOPIC.get(YAZAR_DONEM.get(name, ''), ''),
             'mebi_sayfa': MEBI_AUTHOR.get(name, ''),
             'diger_eserler': diger_eserler,
             'occurrences': info['occurrences'],
