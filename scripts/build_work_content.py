@@ -147,6 +147,55 @@ WORK_CONTENT = [
      "Halk masalları ve efsanelerinden yararlanılarak çocuklara milli değerleri aktarmayı amaçlayan eser."),
     ("Türkçülüğün Esasları", "Ziya Gökalp", "milli_edebiyat",
      "Türkçülük düşüncesini; hars-medeniyet ayrımı, dilde sadeleşme ve milli kültür ekseninde sistemleştiren fikir kitabı."),
+
+    # ===================================================================
+    # REV19c-2 — Yüksek öncelikli (ÇOK YÜKSEK / YÜKSEK) ama içeriksiz yazarlar
+    # Kullanıcı: "sadece Ziya Gökalp değil, sürekli sorulan yüksek önemli
+    # yazarlara da aynısını yap". Üslup/içerik temelli, spoiler-free.
+    # ===================================================================
+    # ---- Divan ----
+    ("Garibname", "Âşık Paşa", "divan_edebiyati",
+     "Farsçanın itibarlı olduğu bir çağda tamamı Türkçe kaleme alınan, on iki bini aşkın beyitten oluşan; Anadolu Türkçesine sahip çıkmayı savunan didaktik mesnevi."),
+    ("Kanuni Mersiyesi", "Baki", "divan_edebiyati",
+     "On altıncı yüzyılda, görkemli dönemin zarafetini ve dünyevi güzelliği kusursuz bir ahenkle işleyen; 'şairler sultanı' sayılan bir gazel ustasının üslubu."),
+    ("İskendername", "Ahmedi", "divan_edebiyati",
+     "Büyük İskender'in efsaneleşmiş seferlerini, dönemin tıp ve astronomi bilgileriyle birlikte anlatan; on dördüncü yüzyılın en hacimli Türkçe mesnevilerinden."),
+    ("Divan-ı Nedim", "Nedim", "divan_edebiyati",
+     "Bir eğlence çağının neşesini, şehrin gündelik hayatını ve aşkı zarif, içten ve yerli bir söyleyişle işleyen; divan şiirine canlılık getiren on sekizinci yüzyıl şairinin tarzı."),
+    ("Siham-ı Kaza", "Nef'i", "divan_edebiyati",
+     "Keskin diliyle devrin ileri gelenlerini yeren hicivlerin toplandığı; bu cesareti sonunda şairin canına mal olan on yedinci yüzyıl eseri."),
+    ("Şeyhülislam Divanı", "Şeyhülislam Yahya", "divan_edebiyati",
+     "On yedinci yüzyılda yüksek bir ilmiye makamı taşırken gazelleriyle de tanınan; rahat, zarif ve içten söyleyişli bir divan şairinin tarzı."),
+    ("Heşt Bihişt", "Sehi Bey", "divan_edebiyati",
+     "Anadolu sahasının ilk şair biyografileri derlemesi olan; dönemin şairlerini sekiz bölüm hâlinde tanıtan eser."),
+    ("Vesîletü'n-Necât", "Süleyman Çelebi", "divan_edebiyati",
+     "Hz. Muhammed'in doğumunu, hayatını ve faziletlerini anlatan; yüzyıllarca dinî törenlerde okunagelen ünlü manzum eser."),
+
+    # ---- Servet-i Fünun / Fecr-i Âti ----
+    ("Piyale", "Ahmet Haşim", "servet_i_funun_fecr_i_ati",
+     "Akşamı, gurbeti ve hayalî bir 'belde'yi; anlamdan çok müziğe ve imgeye dayanan saf şiir anlayışıyla işleyen Fecr-i Âti şairinin kitabı."),
+
+    # ---- Cumhuriyet şiir ----
+    ("Kendi Gök Kubbemiz", "Yahya Kemal Beyatlı", "cumhuriyet",
+     "Eski İstanbul'u, Osmanlı medeniyetini ve musikiyi; geçmiş şiirin sesini modern bir duyarlıkla birleştirerek işleyen büyük şairin kitabı."),
+    ("Han Duvarları", "Faruk Nafiz Çamlıbel", "cumhuriyet",
+     "Heceyle yazılan şiirlerde Anadolu'yu, memleket sevgisini ve halkı işleyen; Beş Hececiler'in en tanınmış isminin imzası."),
+    ("Garip", "Orhan Veli Kanık", "cumhuriyet",
+     "Şiirden ölçü, kafiye ve süslü söyleyişi atıp gündelik hayatı ve sıradan insanı yalın bir dille anlatan; bir akımın öncüsü olan şairin kitabı."),
+    ("Çile", "Necip Fazıl Kısakürek", "cumhuriyet",
+     "Korku, ürperti ve metafizik arayışı yoğun bir iç sesle işleyen; inanç-merkezli bir çizgide şiir ve tiyatro veren sanatçının kitabı."),
+    ("Safahat", "Mehmet Akif Ersoy", "milli_edebiyat",
+     "Toplumun dertlerini, yoksulluğu ve inanç değerlerini gerçekçi sokak tablolarıyla; manzum hikâyeler biçiminde anlatan büyük şiir kitabı."),
+
+    # ---- Cumhuriyet roman/hikaye ----
+    ("Üç İstanbul", "Mithat Cemal Kuntay", "cumhuriyet",
+     "Abdülhamit, Meşrutiyet ve Mütareke dönemlerinin İstanbul'unu; çıkarcı bir neslin yükseliş ve çöküşü üzerinden anlatan büyük tarihî-toplumsal roman."),
+    ("Ayaşlı ve Kiracıları", "Memduh Şevket Esendal", "cumhuriyet",
+     "Bir Ankara apartmanındaki kiracıların hayatından kesitlerle erken Cumhuriyet toplumunu; olaydan çok 'durum'a odaklanan dingin bir anlatımla veren roman."),
+
+    # ---- Halk edebiyatı ----
+    ("Köroğlu Destanı", "Köroğlu", "halk_edebiyati",
+     "Babasının gözlerine kıyılan bir yiğidin, bir beyden öç almak için dağa çıkıp halkın kahramanı oluşunu anlatan; coşkun koçaklamalarıyla ünlü halk hikâyesi/destanı."),
 ]
 
 
