@@ -216,8 +216,27 @@ YAZAR_ESERLERI = {
     'Recep Bilginer': ['Sarı Naciye', 'İsyancılar', 'Gazeteciden Dost', 'Ben Devletim', 'Karaağaç'],
     'Selim İleri': ['Her Gece Bodrum', 'Cehennem Kraliçesi', 'Ölüm İlişkileri', 'Mavi Kanatlarınla Yalnız Benim Olsaydın', 'Yarın Yapayalnız'],
     'Hacı Bektaş Veli': ['Makalat', 'Vilayetname', 'Şathiyye'],
-    'Dertli': ['Divan', 'Şiirleri'],
+    'Dertli': ['Dertli Divanı', 'Şiirleri'],
     'İlhan Geçer': ['Belki', 'Vurgun', 'Bir Bulut Geçti', 'Yıllar ve İzler'],
+    # REV19g — 0 kartlı yazarlara spesifik eser (sadece generic/eser-yok olanlar)
+    'Necati Bey': ['Necati Divanı', 'Gül-i Sad-berg'],
+    'Hayali Bey': ['Hayali Divanı'],
+    'Naili': ['Naili Divanı'],
+    'Hoca Dehhani': ['Selçuklu Şehnamesi'],
+    'Hacı Bayram Veli': ['Hacı Bayram Veli Nutukları'],
+    'Pir Sultan Abdal': ['Pir Sultan Abdal Deyişleri'],
+    'Direktör Ali Bey': ['Kokona Yatıyor', 'Misafiri İstiskal', "Lehçetü'l-Hakayık", 'Seyahat Jurnali'],
+    'Aka Gündüz': ['Dikmen Yıldızı', 'Bir Şoförün Gizli Defteri', 'Çapkın Kız', 'Onların Romanı'],
+    'Adalet Ağaoğlu': ['Ölmeye Yatmak', 'Bir Düğün Gecesi', 'Fikrimin İnce Gülü', 'Yüksek Gerilim', 'Dar Zamanlar'],
+    'Pınar Kür': ['Yarın Yarın', 'Asılacak Kadın', 'Bir Cinayet Romanı', 'Küçük Oyuncu'],
+    'Ahmet Muhip Dıranas': ['Gölgeler', 'Fahriye Abla', 'Olvido', 'Şiirler'],
+    # Yabancı (edebi akım / paragraf bağlamı)
+    'Shakespeare': ['Hamlet', 'Othello', 'Romeo ve Juliet', 'Macbeth', 'Kral Lear'],
+    'Molière': ['Cimri', 'Tartuffe', 'Kibarlık Budalası', 'Hastalık Hastası'],
+    'Mary Shelley': ['Frankenstein'],
+    'Freud': ['Rüyaların Yorumu', 'Psikanalize Giriş', 'Totem ve Tabu'],
+    'Brancusi': ['Öpüşme', 'Sonsuz Sütun', 'Uçan Kuş'],
+    'Tesla': ["Buluşlarım", "Tesla'nın Otobiyografisi"],
 }
 
 # Eser → Yazar reverse map
@@ -248,9 +267,12 @@ YAZAR_DONEM = {
     **{y: 'cumhuriyet' for y in ['Sevgi Soysal','İsmet Özel','Cevat Fehmi Başkut']},
     **{y: 'edebi_akim' for y in ['Aristoteles']},  # yabancı akım teorisyeni
     # REV19e — MEBİ-only yazarların dönemleri (eseri yeni eklenenler)
-    **{y: 'divan' for y in ['Bağdatlı Ruhi']},
-    **{y: 'halk' for y in ['Dertli', 'Hacı Bektaş Veli']},
-    **{y: 'cumhuriyet' for y in ['Füruzan', 'Hilmi Yavuz', 'Recep Bilginer', 'Selim İleri', 'İlhan Geçer']},
+    **{y: 'divan' for y in ['Bağdatlı Ruhi', 'Naili']},
+    **{y: 'halk' for y in ['Dertli', 'Hacı Bektaş Veli', 'Hacı Bayram Veli']},
+    **{y: 'cumhuriyet' for y in ['Füruzan', 'Hilmi Yavuz', 'Recep Bilginer', 'Selim İleri', 'İlhan Geçer', 'Aka Gündüz', 'Adalet Ağaoğlu', 'Pınar Kür']},
+    **{y: 'tanzimat' for y in ['Direktör Ali Bey']},
+    # Yabancı (edebi akım / paragraf bağlamı) — konu: edebi_akimlar
+    **{y: 'edebi_akim' for y in ['Shakespeare', 'Molière', 'Mary Shelley', 'Freud', 'Brancusi', 'Tesla']},
 }
 
 # Dönem → topic kodu mapping
@@ -262,6 +284,7 @@ DONEM_TOPIC = {
     'milli': 'milli_edebiyat',
     'cumhuriyet': 'cumhuriyet',
     'gecis': 'islamiyet_oncesi_gecis',
+    'edebi_akim': 'edebi_akimlar',
 }
 
 # Akım → temsilciler
@@ -2055,6 +2078,7 @@ def main():
         'Şeyh Gâlip': 'Şeyh Galip',
         'Nef’i': "Nef'i",
         'Necati': 'Necati Bey',
+        'Nikola Tesla': 'Tesla',
     }
 
     # Önce alias'ları birleştir

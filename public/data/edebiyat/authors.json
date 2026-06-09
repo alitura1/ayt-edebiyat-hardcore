@@ -389,7 +389,7 @@
     ],
     "donem": "divan_edebiyati",
     "mebi_sayfa": "55 (Divan Şiiri 3)",
-    "diger_eserler": "Divan",
+    "diger_eserler": "Necati Divanı, Gül-i Sad-berg",
     "occurrences": [
       {
         "year": 2022,
@@ -1713,7 +1713,7 @@
     ],
     "donem": "divan_edebiyati",
     "mebi_sayfa": "56",
-    "diger_eserler": "Divan",
+    "diger_eserler": "Hayali Divanı",
     "occurrences": [
       {
         "year": 2018,
@@ -2056,7 +2056,7 @@
     ],
     "donem": "milli_edebiyat",
     "mebi_sayfa": "70 (Milli Edebiyat — bağlam)",
-    "diger_eserler": "Dikmen Yıldızı, İki Süngü Arasında, Bir Şoförün Gizli Defteri",
+    "diger_eserler": "Dikmen Yıldızı, Bir Şoförün Gizli Defteri, Çapkın Kız, Onların Romanı",
     "occurrences": [
       {
         "year": 2022,
@@ -2942,7 +2942,7 @@
     ],
     "donem": "cumhuriyet",
     "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2 — bağlam)",
-    "diger_eserler": "Ölmeye Yatmak, Bir Düğün Gecesi, Üç Beş Kişi, Fikrimin İnce Gülü",
+    "diger_eserler": "Ölmeye Yatmak, Bir Düğün Gecesi, Fikrimin İnce Gülü, Yüksek Gerilim, Dar Zamanlar",
     "occurrences": [
       {
         "year": 2022,
@@ -3158,7 +3158,7 @@
     ],
     "donem": "edebi_akimlar",
     "mebi_sayfa": "— (paragraf konusu, edebi profili yok)",
-    "diger_eserler": "Romen heykeltıraş (modernist sanat, paragraf konusu)",
+    "diger_eserler": "Öpüşme, Sonsuz Sütun, Uçan Kuş",
     "occurrences": [
       {
         "year": 2021,
@@ -3262,7 +3262,7 @@
     ],
     "donem": "tanzimat",
     "mebi_sayfa": "60-64 (Tanzimat — bağlam)",
-    "diger_eserler": "Letaif-i Aşıkan, Komedyalar, Lehçe-i Osmani",
+    "diger_eserler": "Kokona Yatıyor, Misafiri İstiskal, Lehçetü'l-Hakayık, Seyahat Jurnali",
     "occurrences": [
       {
         "year": 2019,
@@ -3442,7 +3442,7 @@
     ],
     "donem": "edebi_akimlar",
     "mebi_sayfa": "190 (Edebi Akımlar — Sürrealizm kuramsal arka plan)",
-    "diger_eserler": "Psikanaliz kurucusu (sürrealizm akımının kuramsal temeli)",
+    "diger_eserler": "Rüyaların Yorumu, Psikanalize Giriş, Totem ve Tabu",
     "occurrences": [
       {
         "year": 2021,
@@ -3474,7 +3474,7 @@
     ],
     "donem": "divan_edebiyati",
     "mebi_sayfa": "41-43 (Halk Şiiri 3 — tasavvufi)",
-    "diger_eserler": "Bayramiyye tarikatı kurucusu, ilahi-nefes türü şiirler",
+    "diger_eserler": "Hacı Bayram Veli Nutukları",
     "occurrences": [
       {
         "year": 2024,
@@ -3726,7 +3726,7 @@
     ],
     "donem": "edebi_akimlar",
     "mebi_sayfa": "125 (Roman türleri — gotik)",
-    "diger_eserler": "Frankenstein (gotik roman, İngiliz 19. yy)",
+    "diger_eserler": "Frankenstein",
     "occurrences": [
       {
         "year": 2025,
@@ -3866,7 +3866,7 @@
     ],
     "donem": "edebi_akimlar",
     "mebi_sayfa": "187 (Edebi Akımlar — Klasisizm)",
-    "diger_eserler": "Komedi ustası (Klasisizm), Ahmet Vefik Paşa çevirdi: Cimri, Zoraki Tabip, Tartüf",
+    "diger_eserler": "Cimri, Tartuffe, Kibarlık Budalası, Hastalık Hastası",
     "occurrences": [
       {
         "year": 2019,
@@ -3938,7 +3938,7 @@
     ],
     "donem": "divan_edebiyati",
     "mebi_sayfa": "57 (Divan Şiiri 3 — Sebk-i Hindi)",
-    "diger_eserler": "Divan (Sebk-i Hindi üslubu temsilcisi, 17. yy)",
+    "diger_eserler": "Naili Divanı",
     "occurrences": [
       {
         "year": 2020,
@@ -4033,41 +4033,6 @@
       "Naili",
       "Fehim",
       "Şeyh Galip"
-    ]
-  },
-  {
-    "name": "Nikola Tesla",
-    "soru_sayisi": 1,
-    "yillar": [
-      2022
-    ],
-    "konular": [
-      "cumlede_anlam"
-    ],
-    "donem": "edebi_akimlar",
-    "mebi_sayfa": "",
-    "diger_eserler": "",
-    "occurrences": [
-      {
-        "year": 2022,
-        "qno": 13,
-        "topic": "cumlede_anlam"
-      }
-    ],
-    "due_score_2026": 21.3,
-    "priority_2026": "DÜŞÜK",
-    "son_yil": 2022,
-    "current_gap": 4,
-    "rationale_2026": "8 yılda 1 soru (1 farklı yıl) · son 2022 · 4 yıl boş.",
-    "mebi_deneme_count": 0,
-    "anma_yili_2026": false,
-    "anma_yili_dalga": false,
-    "pozisyon": "Bilim insanı",
-    "anekdot": "Sırp-Amerikalı mühendis (1856-1943). Edebi profili yok ama AYT'de paragraf okuma sorularının konusu olarak geçer — bilim insanı kişiliği, alternatif akım keşfi vb. Edebiyat sınavında çeldirici/yan bağlam.",
-    "klasik_tuzak": "Edebi bir kimlik aranmaz — paragraf konusu olarak geçer. Akım/yazar sorularında çeldirici olarak görmek için.",
-    "rakipleri": [
-      "Brancusi",
-      "Freud"
     ]
   },
   {
@@ -4189,7 +4154,7 @@
     ],
     "donem": "cumhuriyet",
     "mebi_sayfa": "119-120 (Cumhuriyet Hikayesi 2 — bağlam)",
-    "diger_eserler": "Yarın Yarın, Asılacak Kadın, Bir Cinayet Romanı",
+    "diger_eserler": "Yarın Yarın, Asılacak Kadın, Bir Cinayet Romanı, Küçük Oyuncu",
     "occurrences": [
       {
         "year": 2019,
@@ -4297,7 +4262,7 @@
     ],
     "donem": "edebi_akimlar",
     "mebi_sayfa": "188 (Edebi Akımlar — Romantizm bağlam)",
-    "diger_eserler": "İngiliz tiyatrosunun zirvesi: Hamlet, Macbeth, Othello, Romeo ve Juliet",
+    "diger_eserler": "Hamlet, Othello, Romeo ve Juliet, Macbeth, Kral Lear",
     "occurrences": [
       {
         "year": 2020,
@@ -4365,7 +4330,7 @@
     ],
     "donem": "edebi_akimlar",
     "mebi_sayfa": "— (paragraf konusu, edebi profili yok)",
-    "diger_eserler": "Mucit/bilim adamı (paragraf konusu olarak geçti)",
+    "diger_eserler": "Buluşlarım, Tesla'nın Otobiyografisi",
     "occurrences": [
       {
         "year": 2022,
@@ -4635,7 +4600,7 @@
     "konular": [],
     "donem": "cumhuriyet",
     "mebi_sayfa": "77-78",
-    "diger_eserler": "Şiirler",
+    "diger_eserler": "Gölgeler, Fahriye Abla, Olvido, Şiirler",
     "occurrences": [],
     "due_score_2026": 52,
     "priority_2026": "ORTA",
@@ -4843,7 +4808,7 @@
     "konular": [],
     "donem": "halk_edebiyati",
     "mebi_sayfa": "",
-    "diger_eserler": "Divan, Şiirleri",
+    "diger_eserler": "Dertli Divanı, Şiirleri",
     "occurrences": [],
     "due_score_2026": 36,
     "priority_2026": "DÜŞÜK",
@@ -5077,7 +5042,7 @@
     "konular": [],
     "donem": "divan_edebiyati",
     "mebi_sayfa": "53",
-    "diger_eserler": "Divan",
+    "diger_eserler": "Selçuklu Şehnamesi",
     "occurrences": [],
     "due_score_2026": 36,
     "priority_2026": "DÜŞÜK",
@@ -5337,7 +5302,7 @@
     "konular": [],
     "donem": "halk_edebiyati",
     "mebi_sayfa": "34",
-    "diger_eserler": "Nefesler",
+    "diger_eserler": "Pir Sultan Abdal Deyişleri",
     "occurrences": [],
     "due_score_2026": 36,
     "priority_2026": "DÜŞÜK",

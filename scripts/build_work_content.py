@@ -224,6 +224,20 @@ WORK_CONTENT = [
      "Eski İstanbul'u fantastik, oyunbaz ve felsefi bir kurguyla yeniden yaratan; masal ile tarihi birleştiren postmodern roman."),
     ("Günce", "Nurullah Ataç", "cumhuriyet",
      "Devrik cümle ve öz Türkçeyle yazılmış; edebiyat, dil ve sanat üzerine öznel, kışkırtıcı düşünceler içeren deneme/günlük."),
+
+    # REV19g — 0 kartlı yazarlara üslup temelli içerik (zengin tip)
+    ("Necati Divanı", "Necati Bey", "divan_edebiyati",
+     "On beşinci yüzyılda atasözlerini ve halk deyimlerini divan şiirine ustaca yerleştiren; sade, akıcı Türkçesiyle yerli söyleyişin öncülerinden sayılan şairin tarzı."),
+    ("Naili Divanı", "Naili", "divan_edebiyati",
+     "On yedinci yüzyılda Sebk-i Hindî üslubunun inceliğini, derin hayalleri ve kapalı, yoğun söyleyişi divan şiirine taşıyan şairin tarzı."),
+    ("Pir Sultan Abdal Deyişleri", "Pir Sultan Abdal", "halk_edebiyati",
+     "On altıncı yüzyılda Alevi-Bektaşi geleneğinde, hem tasavvufi aşkı hem toplumsal başkaldırıyı nefes ve deyişlerle dile getiren halk şairinin söyleyişi."),
+    ("Ölmeye Yatmak", "Adalet Ağaoğlu", "cumhuriyet",
+     "Cumhuriyet'le büyüyen bir kadın aydının, bir otel odasında geçmişiyle hesaplaşmasını modernist bilinç akışıyla anlatan roman."),
+    ("Fahriye Abla", "Ahmet Muhip Dıranas", "cumhuriyet",
+     "Hece ölçüsüyle yazılmış; çocukluğu, mahalleyi ve özlemi müzikal, içten bir lirizmle anlatan saf şiir."),
+    ("Asılacak Kadın", "Pınar Kür", "cumhuriyet",
+     "Bir kadının cinayetle suçlanışı üzerinden toplumsal cinsiyet, adalet ve baskıyı sorgulayan psikolojik gerilim romanı."),
 ]
 
 
