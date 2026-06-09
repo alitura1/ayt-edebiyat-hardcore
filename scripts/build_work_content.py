@@ -212,6 +212,18 @@ WORK_CONTENT = [
      "Bir baba-oğulun kasaba kasaba dolaşan hayatını, sade ve tasavvufi bir duyarlıkla anlatan uzun öykü."),
     ("Aylak Adam", "Yusuf Atılgan", "cumhuriyet",
      "Topluma ve düzene yabancılaşmış, gerçek aşkı arayan başıboş bir adamın iç dünyasını izleyen modern roman."),
+
+    # REV19f — müfredat klasikleri (zengin tip için)
+    ("Karacaoğlan Şiirleri", "Karacaoğlan", "halk_edebiyati",
+     "Toroslar'ı, sevgiliyi, doğayı ve gurbeti sade Türkçeyle, coşkulu bir lirizmle işleyen; güzellemenin en güzel örneklerini veren 17. yüzyıl saz şairinin söyleyişi."),
+    ("Otuz Beş Yaş", "Cahit Sıtkı Tarancı", "cumhuriyet",
+     "Ömrün ortasına gelmenin verdiği ölüm korkusunu ve geçen zamanın hüznünü işleyen, ezberlenen ünlü şiir."),
+    ("Hasretinden Prangalar Eskittim", "Ahmed Arif", "cumhuriyet",
+     "Doğu'yu, hapisliği, direnişi ve sevdayı sıcak, yoğun bir dille birleştiren; tek kitabıyla efsaneleşen şairin eseri."),
+    ("Puslu Kıtalar Atlası", "İhsan Oktay Anar", "cumhuriyet",
+     "Eski İstanbul'u fantastik, oyunbaz ve felsefi bir kurguyla yeniden yaratan; masal ile tarihi birleştiren postmodern roman."),
+    ("Günce", "Nurullah Ataç", "cumhuriyet",
+     "Devrik cümle ve öz Türkçeyle yazılmış; edebiyat, dil ve sanat üzerine öznel, kışkırtıcı düşünceler içeren deneme/günlük."),
 ]
 
 

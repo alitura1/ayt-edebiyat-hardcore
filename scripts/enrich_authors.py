@@ -944,6 +944,92 @@ ENRICHMENT = {
         "klasik_tuzak": "Mevlid = Süleyman Çelebi (Vesîletü'n-Necât). Diğer dini mesnevilerle (Yunus'un Risaletü'n-Nushiyesi, Fuzuli'nin Hadikatü's-Süeda'sı) karıştırma.",
         "rakipleri": ["Yunus Emre", "Şeyhi", "Ahmedi"]
     },
+
+    # ====== REV19f — Müfredat klasikleri (MEBİ özette var, çıkmış/denemede adıyla yok) ======
+    "Karacaoğlan": {
+        "donem": "halk_edebiyati", "pozisyon": "Şair",
+        "anekdot": "Halk şiirinin en büyük aşk ve doğa şairi (17. yy). Sade Türkçesi, koşma ve güzellemeleriyle Toroslar'ı, sevgiliyi ve gurbeti işledi. Âşık edebiyatının zirvesi — 'güzelleme' denince akla ilk o gelir.",
+        "klasik_tuzak": "Koşma türleri aşıklarla eşleşir: Karacaoğlan=GÜZELLEME (aşk/doğa), Köroğlu/Dadaloğlu=KOÇAKLAMA (kahramanlık), Seyrani=TAŞLAMA (yergi). Aşk + doğa + güzelleme = Karacaoğlan.",
+        "rakipleri": ["Köroğlu", "Dadaloğlu", "Aşık Veysel Şatıroğlu"]
+    },
+    "Kaygusuz Abdal": {
+        "donem": "halk_edebiyati", "pozisyon": "Şair",
+        "anekdot": "Tekke-tasavvuf edebiyatının mizahçı/şathiye ustası (14-15. yy). Alaycı, halkça anlaşılmaz görünen ama derin tasavvufi anlam taşıyan 'şathiye'leriyle tanınır. Bektaşi geleneğinin önemli ismi.",
+        "klasik_tuzak": "Tekke şairleri: Yunus Emre (sevgi/ilahi), Kaygusuz Abdal (ŞATHİYE/mizah), Pir Sultan Abdal (isyan/nefes). Şathiye = Kaygusuz Abdal.",
+        "rakipleri": ["Yunus Emre", "Pir Sultan Abdal", "Hacı Bektaş Veli"]
+    },
+    "Cahit Sıtkı Tarancı": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Saf şiirin ölüm temalı sesi. 'Otuz Beş Yaş' şiiri — 'Yaş otuz beş! Yolun yarısı eder' — ömrün ortası ve ölüm korkusunu işleyen, ezberlenen şiir. 'Memleket İsterim', 'Gün Eksilmesin Penceremden' onun.",
+        "klasik_tuzak": "Saf şiir kuşağı: Tanpınar, Ahmet Muhip Dıranas, Cahit Sıtkı, Ziya Osman Saba. Cahit Sıtkı = ÖLÜM korkusu + 'Otuz Beş Yaş'.",
+        "rakipleri": ["Ahmet Muhip Dıranas", "Ziya Osman Saba", "Ahmet Hamdi Tanpınar"]
+    },
+    "Ahmed Arif": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Tek kitapla efsane olan şair: 'Hasretinden Prangalar Eskittim'. Doğu/Anadolu, hapis, direniş ve sevdayı yoğun, sıcak bir dille birleştirdi. Toplumcu ama ezbere okunan lirizmiyle benzersiz.",
+        "klasik_tuzak": "Toplumcu şairler: Nazım Hikmet, Ahmed Arif, Hasan Hüseyin, Ataol Behramoğlu. Ahmed Arif = TEK KİTAP (Hasretinden Prangalar Eskittim) + Anadolu/sevda.",
+        "rakipleri": ["Nazım Hikmet", "Ataol Behramoğlu", "Hasan Hüseyin"]
+    },
+    "Ataol Behramoğlu": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "1970 kuşağı toplumcu şiirin önde gelen sesi. 'Bir Gün Mutlaka', 'Yaşadıklarımdan Öğrendiğim Bir Şey Var' — umut, dayanışma ve sevgi temalı. Rus edebiyatından çeviriler de yaptı.",
+        "klasik_tuzak": "1970 toplumcu kuşak: Ataol Behramoğlu, İsmet Özel (sonra değişti), Süreyya Berfe. Ataol = umut/dayanışma + sade lirizm.",
+        "rakipleri": ["İsmet Özel", "Ahmed Arif", "Nazım Hikmet"]
+    },
+    "İhsan Oktay Anar": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "Çağdaş Türk romanının masalcı-filozofu. 'Puslu Kıtalar Atlası', 'Kitabü'l-Hiyel' — Osmanlı dünyasını fantastik, oyunbaz ve felsefi bir dille kuran postmodern anlatılar. Kendine özgü bir evren.",
+        "klasik_tuzak": "Postmodern roman: Orhan Pamuk, Oğuz Atay, İhsan Oktay Anar, Hasan Ali Toptaş. Anar = FANTASTİK Osmanlı evreni + masalsı dil.",
+        "rakipleri": ["Orhan Pamuk", "Hasan Ali Toptaş", "Bilge Karasu"]
+    },
+    "Hasan Ali Toptaş": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "'Türk Kafka'sı denen postmodern yazar. 'Gölgesizler', 'Bin Hüzünlü Haz' — köy ile kentin, gerçek ile düşün iç içe geçtiği büyülü, şiirsel anlatım. Kayboluş ve bellek temaları.",
+        "klasik_tuzak": "Postmodern/büyülü gerçekçi: İhsan Oktay Anar, Hasan Ali Toptaş, Latife Tekin. Toptaş = köy-kent + düş/gerçek belirsizliği + şiirsel dil.",
+        "rakipleri": ["İhsan Oktay Anar", "Latife Tekin", "Bilge Karasu"]
+    },
+    "Mahmut Makal": {
+        "donem": "cumhuriyet", "pozisyon": "Çok yönlü",
+        "anekdot": "Köy edebiyatını BAŞLATAN kitabın yazarı: 'Bizim Köy' (1950). Köy Enstitüsü çıkışlı bir öğretmen olarak Anadolu köyünün gerçeğini ilk elden, tanıklık biçiminde yazdı — büyük yankı uyandırdı.",
+        "klasik_tuzak": "Köy edebiyatı: Mahmut Makal (Bizim Köy-ANI/tanıklık, başlatıcı), Fakir Baykurt (roman), Talip Apaydın (roman), Yaşar Kemal (destansı). 'Bizim Köy' = Makal.",
+        "rakipleri": ["Fakir Baykurt", "Talip Apaydın", "Yaşar Kemal"]
+    },
+    "Talip Apaydın": {
+        "donem": "cumhuriyet", "pozisyon": "Romancı",
+        "anekdot": "Köy Enstitüsü kuşağının romancısı. 'Sarı Traktör', 'Yarbükü', 'Tütün Yorgunu' — Anadolu köylüsünün toprak, makineleşme ve geçim mücadelesini gerçekçi biçimde anlattı.",
+        "klasik_tuzak": "Köy romancıları: Fakir Baykurt, Talip Apaydın, Mahmut Makal. Apaydın = köyde makineleşme/geçim + 'Sarı Traktör'.",
+        "rakipleri": ["Fakir Baykurt", "Mahmut Makal", "Orhan Kemal"]
+    },
+    "Nurullah Ataç": {
+        "donem": "cumhuriyet", "pozisyon": "Çok yönlü",
+        "anekdot": "Modern Türk denemesinin ve eleştirisinin babası. Devrik cümleyi ve öz Türkçeyi savundu, edebiyat gündemini onlarca yıl belirledi. 'Günce', 'Karalama Defteri' — öznel, kışkırtıcı deneme üslubu.",
+        "klasik_tuzak": "Deneme/eleştiri ustaları: Nurullah Ataç (devrik cümle + öz Türkçe + eleştiri), Suut Kemal Yetkin (estetik/deneme), Sabahattin Eyuboğlu. Ataç = devrik cümle + dil devrimi savunucusu.",
+        "rakipleri": ["Suut Kemal Yetkin", "Sabahattin Eyuboğlu", "Cemil Meriç"]
+    },
+    "Suut Kemal Yetkin": {
+        "donem": "cumhuriyet", "pozisyon": "Çok yönlü",
+        "anekdot": "Estetik ve sanat üzerine yazan deneme/eleştiri ustası. 'Edebiyat Üzerine', 'Estetik' — sanat felsefesini ve edebiyatı dingin, düşünsel bir dille ele aldı. Akademisyen kimliği güçlü.",
+        "klasik_tuzak": "Deneme: Nurullah Ataç (öznel/kışkırtıcı), Suut Kemal Yetkin (ESTETİK/dingin/akademik). İkisini karıştırma.",
+        "rakipleri": ["Nurullah Ataç", "Sabahattin Eyuboğlu", "Cemil Meriç"]
+    },
+    "Mehmet Çınarlı": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Hisar dergisi ve Hisarcılar hareketinin kurucu ismi. Garip ve İkinci Yeni'ye karşı geleneğe, hece ve aruzun mirasına, anlaşılır şiire bağlı kaldı. Şiirde süreklilik ve milli değerleri savundu.",
+        "klasik_tuzak": "Hisarcılar (geleneğe bağlı, Garip/İkinci Yeni karşıtı): Mehmet Çınarlı, Munis Faik Ozansoy, İlhan Geçer, Gültekin Samanoğlu, Nüzhet Erman. Hisar = gelenek + öze bağlılık.",
+        "rakipleri": ["Munis Faik Ozansoy", "İlhan Geçer", "Gültekin Samanoğlu"]
+    },
+    "Munis Faik Ozansoy": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Hisarcıların önemli şairi. Geleneğe bağlı, ölçülü ve anlaşılır şiir anlayışını savundu. Şair Faik Ali Ozansoy'un oğlu — şiir bir aile mirasıydı.",
+        "klasik_tuzak": "Hisarcılar grubu içinde Munis Faik Ozansoy. Garip/İkinci Yeni'nin biçim kırıcılığına karşı gelenekçi çizgi.",
+        "rakipleri": ["Mehmet Çınarlı", "İlhan Geçer", "Gültekin Samanoğlu"]
+    },
+    "İlhan Geçer": {
+        "donem": "cumhuriyet", "pozisyon": "Şair",
+        "anekdot": "Hisarcıların lirik sesi. Geleneğe bağlı, içten ve duygusal şiirleriyle tanınır; 'Bir Bulut Geçti', 'Vurgun' kitaplarında aşk, hüzün ve memleket temaları. Hisar dergisinin sürekli kalemlerinden.",
+        "klasik_tuzak": "Hisarcılar: Mehmet Çınarlı, Munis Faik Ozansoy, İlhan Geçer, Gültekin Samanoğlu, Nüzhet Erman. Hepsi gelenekçi/öze bağlı; Beş Hececiler veya Yedi Meşaleciler'le karıştırma.",
+        "rakipleri": ["Mehmet Çınarlı", "Munis Faik Ozansoy", "Gültekin Samanoğlu"]
+    },
 }
 
 

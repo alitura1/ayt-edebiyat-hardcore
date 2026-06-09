@@ -217,6 +217,7 @@ YAZAR_ESERLERI = {
     'Selim İleri': ['Her Gece Bodrum', 'Cehennem Kraliçesi', 'Ölüm İlişkileri', 'Mavi Kanatlarınla Yalnız Benim Olsaydın', 'Yarın Yapayalnız'],
     'Hacı Bektaş Veli': ['Makalat', 'Vilayetname', 'Şathiyye'],
     'Dertli': ['Divan', 'Şiirleri'],
+    'İlhan Geçer': ['Belki', 'Vurgun', 'Bir Bulut Geçti', 'Yıllar ve İzler'],
 }
 
 # Eser → Yazar reverse map
@@ -249,7 +250,7 @@ YAZAR_DONEM = {
     # REV19e — MEBİ-only yazarların dönemleri (eseri yeni eklenenler)
     **{y: 'divan' for y in ['Bağdatlı Ruhi']},
     **{y: 'halk' for y in ['Dertli', 'Hacı Bektaş Veli']},
-    **{y: 'cumhuriyet' for y in ['Füruzan', 'Hilmi Yavuz', 'Recep Bilginer', 'Selim İleri']},
+    **{y: 'cumhuriyet' for y in ['Füruzan', 'Hilmi Yavuz', 'Recep Bilginer', 'Selim İleri', 'İlhan Geçer']},
 }
 
 # Dönem → topic kodu mapping
@@ -2096,25 +2097,6 @@ def main():
         except Exception as e:
             print(f"⚠ all_authors_in_questions.json okunamadı: {e}")
 
-    # REV19e — MEBİ denemede geçen ama çıkmışta olmayan yazarları enjekte et
-    # (kullanıcı: "onları da ekle"). soru_sayisi=0 (çıkmışta yok), profil + kart alırlar.
-    mebi_cov_path = BASE / 'data' / 'mebi_deneme_coverage.json'
-    if mebi_cov_path.exists():
-        try:
-            cov = json.loads(mebi_cov_path.read_text(encoding='utf-8'))
-            injected = 0
-            for name in cov:
-                canonical = ALIAS.get(name, name)
-                # Sadece YAZAR_DONEM'de tanımlı olanları ekle (eser/kart üretilebilir)
-                if canonical not in YAZAR_DONEM:
-                    continue
-                if canonical not in merged:
-                    merged[canonical] = {'count': 0, 'years': set(), 'occurrences': []}
-                    injected += 1
-            print(f"  REV19e: +{injected} MEBİ-only yazar enjekte edildi (çıkmışta yok)")
-        except Exception as e:
-            print(f"⚠ mebi_deneme_coverage.json okunamadı: {e}")
-
     # REV17 — pattern_analysis.json'dan yazar bazlı due_score yükle
     pattern_yazar_map = {}
     pattern_konu_map = {}
@@ -2132,6 +2114,19 @@ def main():
             print(f"  REV17: pattern_analysis yüklendi ({len(pattern_yazar_map)} yazar, {len(pattern_konu_map)} konu)")
         except Exception as e:
             print(f"⚠ pattern_analysis okunamadı: {e}")
+
+    # REV19e/f — pattern'daki (çıkmış + MEBİ-only + müfredat klasiği) tüm yazarları
+    # profile dönüştür: çıkmışta yok ama veri olan yazarlar da sayfa + kart alsın.
+    inj = 0
+    for pname in pattern_yazar_map:
+        canonical = ALIAS.get(pname, pname)
+        if canonical in merged:
+            continue
+        if canonical not in YAZAR_DONEM:   # kart üretilebilir olmalı (dönem + eser)
+            continue
+        merged[canonical] = {'count': 0, 'years': set(), 'occurrences': []}
+        inj += 1
+    print(f"  REV19e/f: +{inj} yazar enjekte (MEBİ-only + müfredat klasikleri)")
 
     authors_list = []
     for name, info in merged.items():
