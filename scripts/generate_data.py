@@ -678,6 +678,237 @@ def gen_yazar_eser_cards():
     return cards
 
 
+# =====================================================
+# REV19 — Yazar odaklı YENİ soru tipleri (içerik→başka eser, çağdaş)
+# Kullanıcının istediği: a) yazar→eser b) eser→yazar (mevcut)
+#   c) içeriği ver, BAŞKA eserini sor  d) çağdaşının eseri/çağdaşı kim
+# =====================================================
+
+_WORK_CONTENT_CACHE = None
+def get_work_content():
+    """data/work_content.json — eser → {yazar, donem, icerik (ad geçmez)}."""
+    global _WORK_CONTENT_CACHE
+    if _WORK_CONTENT_CACHE is None:
+        try:
+            wp = BASE / 'data' / 'work_content.json'
+            _WORK_CONTENT_CACHE = json.loads(wp.read_text(encoding='utf-8')) if wp.exists() else {}
+        except Exception:
+            _WORK_CONTENT_CACHE = {}
+    return _WORK_CONTENT_CACHE
+
+
+_GENERIC_ESER = {'Divan', 'Şiirleri', 'Şiirler', 'Şarkıları', 'Nefesler'}
+def _first_specific_work(yazar):
+    for e in YAZAR_ESERLERI.get(yazar, []):
+        if e.split(' (')[0].strip() not in _GENERIC_ESER:
+            return e
+    return None
+
+
+def _baska_eser_for(yazar, haric_eser):
+    """Yazarın haric_eser dışındaki spesifik bir eseri (varsa)."""
+    for e in YAZAR_ESERLERI.get(yazar, []):
+        if e.split(' (')[0].strip() in _GENERIC_ESER:
+            continue
+        if e != haric_eser:
+            return e
+    return None
+
+
+def gen_icerik_baska_eser_cards():
+    """Tip c: İçerik verilir (yazar/eser adı YOK) → aynı yazarın BAŞKA eseri sorulur."""
+    cards = []
+    wc = get_work_content()
+    for eser, info in wc.items():
+        yazar = info['yazar']
+        baska = _baska_eser_for(yazar, eser)
+        if not baska:
+            continue
+        celd = celdirici_eser_ayni_yazar_donem(baska, 6)
+        celd = [c for c in celd if c not in (eser, baska)][:4]
+        if len(celd) < 3:
+            continue
+        konu = info['donem']
+        mebi = MEBI_AUTHOR.get(yazar, '—')
+        auth_m = get_author_meta(yazar)
+        pozisyon = auth_m.get('pozisyon', '')
+        diger = auth_m.get('diger_eserler', '')
+        diger_top = ', '.join([e.strip() for e in diger.split(',')[:5]
+                               if e.strip() and e.strip() not in (eser, baska)][:4])
+        id_ = f"ibe_{len(cards):04d}"
+        aciklama = (
+            f"<strong>📖 İçeriği verilen eser:</strong> «{eser}» — {yazar}.<br>"
+            f"<strong>✓ Doğru cevap:</strong> «{baska}» de aynı yazarın eseridir.<br><br>"
+            + (f"<strong>📚 Yazarın diğer eserleri:</strong> {diger_top}" if diger_top else "")
+        )
+        tuzak = (
+            "<strong>⚠ TUZAK:</strong> İçerikteki eserle KARIŞTIRMA — soru o eseri değil, "
+            f"aynı yazarın BAŞKA eserini istiyor. Şıklardaki diğer eserler aynı dönemden ama farklı yazarlardan.<br><br>"
+            f"<strong>✓ Ayrım anahtarı:</strong> Önce içerikten yazarı bul ({yazar}), sonra o yazarın repertuarındaki başka eseri seç."
+        )
+        osym_str = (
+            "ÖSYM 'içerik → başka eser' kalıbında YAZAR REPERTUARINI dolaylı test eder: "
+            "eserin temasından yazarı tanı, sonra o yazarın diğer eserini hatırla. "
+            "İki katmanlı: tema→yazar→başka eser."
+        )
+        ders = f"İçerikteki eser {yazar}'a ait; aynı yazarın başka eseri «{baska}»."
+        c = card(
+            id_=id_, konu=konu, alt=yazar.lower().replace(' ', '_'),
+            tip='icerik-baska-eser',
+            soru=("Aşağıda <strong>içeriği</strong> verilen eserle <strong>aynı yazara ait BAŞKA</strong> "
+                  f"bir eser hangisidir?<br><br><em>«{info['icerik']}»</em>"),
+            dogru_text=baska, celdiriciler=celd, aciklama=aciklama, tuzak=tuzak,
+            mebi_sayfa=mebi if mebi != '—' else '', zorluk='zor',
+            osym_stratejisi=osym_str, dersini_ogren=ders,
+        )
+        cards.append(c)
+    return cards
+
+
+def gen_icerik_yazar_cards():
+    """Tip c2: İçerik verilir (ad YOK) → eserin YAZARI sorulur."""
+    cards = []
+    wc = get_work_content()
+    for eser, info in wc.items():
+        yazar = info['yazar']
+        celd = celdirici_yazar_ayni_donem(yazar, 5)
+        celd = [c for c in celd if c != yazar][:4]
+        if len(celd) < 3:
+            continue
+        konu = info['donem']
+        mebi = MEBI_AUTHOR.get(yazar, '—')
+        auth_m = get_author_meta(yazar)
+        pozisyon = auth_m.get('pozisyon', '')
+        klasik_tuzak = auth_m.get('klasik_tuzak', '')
+        id_ = f"iy_{len(cards):04d}"
+        aciklama = (
+            f"<strong>📖 Eser:</strong> «{eser}»<br>"
+            f"<strong>✍ Yazar:</strong> {yazar}"
+            + (f" — {pozisyon}" if pozisyon else "") + "<br><br>"
+            f"<strong>🎯 İçerikten yazara:</strong> Verilen tema/konu doğrudan {yazar}'ın imzasıdır."
+        )
+        tuzak = (
+            (f"<strong>⚠ KLASİK ÖSYM TUZAĞI:</strong> {klasik_tuzak}<br><br>" if klasik_tuzak else "")
+            + "<strong>✓ Ayrım anahtarı:</strong> İçerikteki anahtar motifleri (dönem + tema + kahraman) yakala; "
+              "şıklardaki diğer adlar aynı dönemden çeldiricilerdir."
+        )
+        osym_str = (
+            "ÖSYM 'içerik/paragraf → yazar' kalıbında eserin temasından yazarı tanımayı test eder. "
+            "Strateji: dönem + tema + tip/kahraman üçlüsünü anahtar kabul et; ezbere değil bağlamdan çıkar."
+        )
+        ders = f"Bu içerik/tema = {yazar}'ın «{eser}» eseri."
+        c = card(
+            id_=id_, konu=konu, alt=yazar.lower().replace(' ', '_'),
+            tip='icerik-yazar',
+            soru=("Aşağıda <strong>içeriği</strong> verilen eser hangi yazara aittir?"
+                  f"<br><br><em>«{info['icerik']}»</em>"),
+            dogru_text=yazar, celdiriciler=celd, aciklama=aciklama, tuzak=tuzak,
+            mebi_sayfa=mebi if mebi != '—' else '', zorluk='orta',
+            osym_stratejisi=osym_str, dersini_ogren=ders,
+        )
+        cards.append(c)
+    return cards
+
+
+def gen_cagdas_eser_cards():
+    """Tip d: 'X ile aynı dönemde (çağdaşı) yaşamış bir sanatçının eseri?'"""
+    cards = []
+    focus = sorted(set(info['yazar'] for info in get_work_content().values()))
+    for yazar in focus:
+        sd = YAZAR_DONEM.get(yazar)
+        if not sd:
+            continue
+        cagdaslar = [y for y in get_donem_yazarlar(sd) if y != yazar and _first_specific_work(y)]
+        if not cagdaslar:
+            continue
+        cagdas = shuffle_seed(cagdaslar, yazar + '-cagdas')[0]
+        dogru = _first_specific_work(cagdas)
+        # Çeldirici: BAŞKA dönemlerden eserler
+        diger = []
+        for y, eserler in YAZAR_ESERLERI.items():
+            yd = YAZAR_DONEM.get(y)
+            if yd and yd != sd:
+                w = _first_specific_work(y)
+                if w:
+                    diger.append(w)
+        celd = shuffle_seed(list(dict.fromkeys(diger)), dogru + '-celd')[:4]
+        if len(celd) < 3:
+            continue
+        konu = DONEM_TOPIC.get(sd, 'cumhuriyet')
+        id_ = f"cge_{len(cards):04d}"
+        donem_lbl = TOPIC_LABEL.get(konu, sd)
+        aciklama = (
+            f"<strong>✓ Doğru cevap:</strong> «{dogru}» → {cagdas}, {yazar} ile aynı dönemde ({donem_lbl}).<br><br>"
+            f"<strong>🎯 Dönem ağı:</strong> {yazar} = {donem_lbl}. Bu dönemin diğer sanatçılarını birlikte öğren."
+        )
+        tuzak = (
+            "<strong>⚠ TUZAK:</strong> Şıklardaki diğer eserler BAŞKA dönemlerden — kulağa tanıdık gelse de "
+            f"{yazar}'ın çağdaşı değiller.<br><br>"
+            "<strong>✓ Ayrım anahtarı:</strong> Her eseri yazarının dönemine yerleştir; sadece aynı dönemdeki doğrudur."
+        )
+        osym_str = (
+            "ÖSYM 'çağdaş/dönemdeş' kalıbında sanatçıları DÖNEME yerleştirmeyi test eder. "
+            "Strateji: her şıkkı yazar→dönem olarak etiketle; sorulan yazarla aynı dönemi seç."
+        )
+        ders = f"{yazar} ile {cagdas} aynı dönemde ({donem_lbl}); «{dogru}» o döneme ait."
+        c = card(
+            id_=id_, konu=konu, alt=yazar.lower().replace(' ', '_'),
+            tip='cagdas-eser',
+            soru=(f"<strong>{yazar}</strong> ile aynı dönemde (çağdaşı) yaşamış bir sanatçının eseri "
+                  "aşağıdakilerden hangisidir?"),
+            dogru_text=dogru, celdiriciler=celd, aciklama=aciklama, tuzak=tuzak,
+            mebi_sayfa='', zorluk='zor',
+            osym_stratejisi=osym_str, dersini_ogren=ders,
+        )
+        cards.append(c)
+    return cards
+
+
+def gen_cagdas_yazar_cards():
+    """Tip d2: 'Aşağıdakilerden hangisi X ile aynı dönemdedir (çağdaşı)?'"""
+    cards = []
+    focus = sorted(set(info['yazar'] for info in get_work_content().values()))
+    for yazar in focus:
+        sd = YAZAR_DONEM.get(yazar)
+        if not sd:
+            continue
+        cagdaslar = [y for y in get_donem_yazarlar(sd) if y != yazar]
+        if not cagdaslar:
+            continue
+        dogru = shuffle_seed(cagdaslar, yazar + '-cagdasy')[0]
+        diger_donem = [y for y in YAZAR_DONEM if YAZAR_DONEM.get(y) != sd and y != yazar]
+        celd = shuffle_seed(list(dict.fromkeys(diger_donem)), yazar + '-celdy')[:4]
+        if len(celd) < 3:
+            continue
+        konu = DONEM_TOPIC.get(sd, 'cumhuriyet')
+        id_ = f"cgy_{len(cards):04d}"
+        donem_lbl = TOPIC_LABEL.get(konu, sd)
+        aciklama = (
+            f"<strong>✓ Doğru cevap:</strong> {dogru} → {yazar} ile aynı dönem ({donem_lbl}).<br><br>"
+            f"<strong>🎯 Dönem ağı:</strong> {donem_lbl} sanatçılarını bir grup olarak ezberle."
+        )
+        tuzak = (
+            "<strong>⚠ TUZAK:</strong> Diğer şıklar başka dönem sanatçıları — tanıdık adlar olabilir "
+            "ama dönemleri farklı.<br><br>"
+            "<strong>✓ Ayrım anahtarı:</strong> Her adı dönemine yaz; sorulan yazarla eşleşeni seç."
+        )
+        osym_str = (
+            "ÖSYM 'dönemdeş yazar' kalıbında sanatçı-dönem eşleştirmesini test eder. "
+            "Strateji: dönem listelerini (Tanzimat, SF, Milli, Cumhuriyet...) gruplar hâlinde ezberle."
+        )
+        ders = f"{yazar} ile {dogru} aynı dönemde ({donem_lbl})."
+        c = card(
+            id_=id_, konu=konu, alt=yazar.lower().replace(' ', '_'),
+            tip='cagdas-yazar',
+            soru=f"Aşağıdaki sanatçılardan hangisi <strong>{yazar}</strong> ile aynı dönemde (çağdaşı) yer alır?",
+            dogru_text=dogru, celdiriciler=celd, aciklama=aciklama, tuzak=tuzak,
+            mebi_sayfa='', zorluk='orta',
+            osym_stratejisi=osym_str, dersini_ogren=ders,
+        )
+        cards.append(c)
+    return cards
+
+
 def gen_akim_temsilci_cards():
     cards = []
     # Çeldirici akımı belirle (her doğru akım için karşıt çeldirici)
@@ -1634,6 +1865,15 @@ def main():
     print(f"  eser-yazar: {len([c for c in all_cards if c['tip']=='eser-yazar'])}")
     all_cards += gen_yazar_eser_cards()
     print(f"  yazar-eser: {len([c for c in all_cards if c['tip']=='yazar-eser'])}")
+    # REV19 — yeni yazar-odaklı tipler (içerik→başka eser, içerik→yazar, çağdaş eser/yazar)
+    all_cards += gen_icerik_baska_eser_cards()
+    print(f"  icerik-baska-eser: {len([c for c in all_cards if c['tip']=='icerik-baska-eser'])}")
+    all_cards += gen_icerik_yazar_cards()
+    print(f"  icerik-yazar: {len([c for c in all_cards if c['tip']=='icerik-yazar'])}")
+    all_cards += gen_cagdas_eser_cards()
+    print(f"  cagdas-eser: {len([c for c in all_cards if c['tip']=='cagdas-eser'])}")
+    all_cards += gen_cagdas_yazar_cards()
+    print(f"  cagdas-yazar: {len([c for c in all_cards if c['tip']=='cagdas-yazar'])}")
     all_cards += gen_akim_temsilci_cards()
     print(f"  akim-temsilci: {len([c for c in all_cards if c['tip']=='akim-temsilci'])}")
     all_cards += gen_akim_tanim_cards()
