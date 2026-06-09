@@ -121,6 +121,26 @@ export async function renderPattern() {
       <p class="text-slate-600 dark:text-slate-400 text-sm">8 yıllık veriden (2018-2025) konu × alt-konu × yazar bazlı periyodicity + gap analizi. <strong>Skor 80+ = vadesi geçti, 2026'da telafi olası</strong>.</p>
     </header>
 
+    <!-- REV19c — 2026 Ziya Gökalp Anma Yılı callout -->
+    <section class="mb-8 rounded-xl p-4 bg-gradient-to-r from-amber-400/20 to-yellow-300/10 border-2 border-amber-400/50">
+      <div class="flex items-start gap-3">
+        <div class="text-3xl">⭐</div>
+        <div class="flex-1">
+          <h2 class="text-lg font-bold text-amber-800 dark:text-amber-200">2026 Resmî Ziya Gökalp Anma Yılı</h2>
+          <p class="text-sm text-slate-700 dark:text-slate-300 mt-1">
+            TÜRKSOY, 2026'yı Ziya Gökalp'in <strong>150. doğum yılı</strong> dolayısıyla "Ziya Gökalp Anma Yılı" ilan etti (UNESCO başvurusu yapıldı).
+            Pattern engine bunu manuel sinyalle birleştirdi: <strong>Ziya Gökalp → ÇOK YÜKSEK (85/100)</strong>.
+            Anma yıllarında ilgili sanatçının sınavda öne çıkma ihtimali artar — <strong>Milli Edebiyat / Genç Kalemler</strong> çevresine (Ömer Seyfettin, Ali Canip) de göz at.
+          </p>
+          <div class="mt-2 flex flex-wrap gap-2 text-xs">
+            <a href="#/yazarlar/ziya-gokalp" class="px-3 py-1 rounded-full bg-amber-500 text-white font-semibold hover:bg-amber-600">Ziya Gökalp profili →</a>
+            <a href="#/quiz?yazar=ziya-gokalp&sayi=10" class="px-3 py-1 rounded-full border border-amber-500 text-amber-700 dark:text-amber-300 font-semibold hover:bg-amber-400/10">Ziya Gökalp'ten 10 soru çöz</a>
+          </div>
+        </div>
+      </div>
+      <p class="text-[11px] text-slate-500 mt-2 italic">Not: Anma yılı → ÖSYM'de soru garantisi değildir; istatistiksel bir ihtimal sinyalidir.</p>
+    </section>
+
     <section class="mb-8">
       <h2 class="text-xl font-bold mb-3">📊 Konu × Yıl Heatmap</h2>
       <p class="text-sm text-slate-500 mb-3">Hangi konu hangi yıl gelmiş — periyodik desen göz yordamı.</p>

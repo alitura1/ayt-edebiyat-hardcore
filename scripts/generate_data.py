@@ -476,27 +476,68 @@ def get_donem_yazarlar(donem):
     return [y for y, d in YAZAR_DONEM.items() if d == donem]
 
 
+# REV19c — Gerçek ÖSYM çeldiri birliktelikleri (çıkmış sorulardan)
+_REAL_DISTRACTORS_CACHE = None
+def get_real_distractors():
+    global _REAL_DISTRACTORS_CACHE
+    if _REAL_DISTRACTORS_CACHE is None:
+        try:
+            rp = BASE / 'data' / 'real_distractors.json'
+            _REAL_DISTRACTORS_CACHE = json.loads(rp.read_text(encoding='utf-8')) if rp.exists() else {}
+        except Exception:
+            _REAL_DISTRACTORS_CACHE = {}
+    return _REAL_DISTRACTORS_CACHE
+
+
 def celdirici_yazar_ayni_donem(dogru_yazar, n=3):
+    """REV19c: önce ÖSYM'nin GERÇEKTE birlikte sorduğu yazarlar (otantik tuzak),
+    sonra aynı dönem yazarlarıyla doldur."""
     donem = YAZAR_DONEM.get(dogru_yazar, 'cumhuriyet')
-    candidates = [y for y in get_donem_yazarlar(donem) if y != dogru_yazar]
-    return shuffle_seed(candidates, dogru_yazar + '-celdirici')[:n]
+    same_period = shuffle_seed(
+        [y for y in get_donem_yazarlar(donem) if y != dogru_yazar],
+        dogru_yazar + '-celdirici')
+    real = [y for y in get_real_distractors().get(dogru_yazar, [])
+            if y in YAZAR_DONEM and y != dogru_yazar]
+    ordered = []
+    for y in real + same_period:
+        if y not in ordered:
+            ordered.append(y)
+    return ordered[:n]
 
 
-def celdirici_eser_ayni_yazar_donem(dogru_eser, n=3):
-    """Eser çeldiricisi: doğru eserin yazarının dönemindeki başka eserler."""
-    dogru_yazar = ESER_YAZAR.get(dogru_eser, '')
+def celdirici_eser_ayni_yazar_donem(dogru_eser, n=3, exclude_yazar=None):
+    """Eser çeldiricisi: REV19c — önce ÖSYM'nin gerçek çeldiri-yazarlarının eserleri,
+    sonra doğru eserin yazarının dönemindeki başka eserler.
+    exclude_yazar verilirse o yazarın TÜM eserleri çeldiriden kesin çıkar (çift-doğru önleme)."""
+    dogru_yazar = exclude_yazar or ESER_YAZAR.get(dogru_eser, '')
     donem = YAZAR_DONEM.get(dogru_yazar, 'cumhuriyet')
-    pool = []
+    _own_works = set(YAZAR_ESERLERI.get(dogru_yazar, []))
+    # REV19c — gerçek çeldiri-yazarların ilk eseri (otantik)
+    real_pool = []
+    for y in get_real_distractors().get(dogru_yazar, []):
+        if y == dogru_yazar:
+            continue
+        for e in YAZAR_ESERLERI.get(y, [])[:2]:
+            if e != dogru_eser:
+                real_pool.append(e)
+    # Aynı dönem eserleri (fallback/doldurma)
+    period_pool = []
     for y, eserler in YAZAR_ESERLERI.items():
         if YAZAR_DONEM.get(y) == donem and y != dogru_yazar:
-            pool.extend(eserler)
-    if len(pool) < n:
-        # Genişlet → yakın dönem
+            period_pool.extend(eserler)
+    if len(real_pool) + len(period_pool) < n:
         for y, eserler in YAZAR_ESERLERI.items():
             if y != dogru_yazar and eserler:
-                pool.append(eserler[0])
-    pool = list(dict.fromkeys(pool))  # dedupe
-    return shuffle_seed(pool, dogru_eser + '-celdirici')[:n]
+                period_pool.append(eserler[0])
+    period_pool = shuffle_seed(period_pool, dogru_eser + '-celdirici')
+    ordered = []
+    for e in real_pool + period_pool:
+        # Çift-doğru önleme: doğru yazarın hiçbir eseri çeldiri olamaz
+        if e == dogru_eser or e in _own_works or ESER_YAZAR.get(e) == dogru_yazar:
+            continue
+        if e not in ordered:
+            ordered.append(e)
+    return ordered[:n]
 
 
 # =====================================================
@@ -604,7 +645,7 @@ def gen_yazar_eser_cards():
         dogru_eser = spesifik[0]
         if dogru_eser in seen: continue
         seen.add(dogru_eser)
-        celdiriciler = celdirici_eser_ayni_yazar_donem(dogru_eser, 4)
+        celdiriciler = celdirici_eser_ayni_yazar_donem(dogru_eser, 4, exclude_yazar=yazar)
         if len(celdiriciler) < 3: continue
         mebi = MEBI_AUTHOR.get(yazar, '—')
         id_ = f"ye_{len(cards):04d}"
@@ -724,7 +765,7 @@ def gen_icerik_baska_eser_cards():
         baska = _baska_eser_for(yazar, eser)
         if not baska:
             continue
-        celd = celdirici_eser_ayni_yazar_donem(baska, 6)
+        celd = celdirici_eser_ayni_yazar_donem(baska, 6, exclude_yazar=yazar)
         celd = [c for c in celd if c not in (eser, baska)][:4]
         if len(celd) < 3:
             continue
