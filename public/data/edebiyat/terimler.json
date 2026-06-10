@@ -554,6 +554,568 @@
           ]
         }
       ]
+    },
+    {
+      "donem": "Tanzimat",
+      "kategoriler": [
+        {
+          "kategori": "tanzimat_kavram",
+          "kategori_label": "Tanzimat Kavramları",
+          "terimler": [
+            {
+              "terim": "Toplum İçin Sanat",
+              "tanim": "Sanatın; halkı eğitmek ve aydınlatmak için bir araç sayıldığı anlayış (Tanzimat I. dönem).",
+              "ornek": "",
+              "ayirt_edici": "'Sanat şahsî ve muhteremdir' bireysel/özgürdür; bu, sanatı halka araç sayar."
+            },
+            {
+              "terim": "Alafrangalık (Yanlış Batılılaşma)",
+              "tanim": "Batı'yı yalnızca dış görünüş ve gösterişte taklit eden; züppe tipiyle eleştirilen yanlış yönelim.",
+              "ornek": "Bihruz Bey, Felatun Bey.",
+              "ayirt_edici": "Gerçek Batılılaşma öz/değer alır; bu yüzeysel taklit/gösteriştir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Servet-i Fünun / Fecr-i Âti",
+      "kategoriler": [
+        {
+          "kategori": "sf_kavram",
+          "kategori_label": "Servet-i Fünun / Fecr-i Âti Kavramları",
+          "terimler": [
+            {
+              "terim": "Mensur Şiir",
+              "tanim": "Ölçü ve uyak bulunmayan; ama şiirsel bir dil, ahenk ve duygu yoğunluğu taşıyan düzyazı.",
+              "ornek": "Halit Ziya, Mehmet Rauf.",
+              "ayirt_edici": "Serbest nazım dizelidir; bu düzyazı biçiminde ama şiirseldir."
+            },
+            {
+              "terim": "Sanat Şahsî ve Muhteremdir",
+              "tanim": "Estetiğin bireysel, özgür ve her türlü toplumsal kısıtlamadan uzak olması gerektiğini savunan ilke (Fecr-i Âti).",
+              "ornek": "",
+              "ayirt_edici": "'Toplum için sanat'ın karşıtıdır; bu, estetiği bireysel/özgür sayar."
+            },
+            {
+              "terim": "Sone",
+              "tanim": "İki dörtlük ve iki üçlükten oluşan; Batı kaynaklı, Servet-i Fünun'da kullanılan nazım biçimi.",
+              "ornek": "",
+              "ayirt_edici": "Türk biçimleri farklıdır; bu Batı kaynaklı 14 dizeli biçimdir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Milli Edebiyat",
+      "kategoriler": [
+        {
+          "kategori": "milli_kavram",
+          "kategori_label": "Milli Edebiyat Kavramları",
+          "terimler": [
+            {
+              "terim": "Yeni Lisan",
+              "tanim": "Dilde sadeleşmeyi; konuşma diliyle yazı dilini birleştirmeyi savunan hareket (Genç Kalemler).",
+              "ornek": "Ömer Seyfettin, Ziya Gökalp.",
+              "ayirt_edici": "Servet-i Fünun ağır dillidir; bu sade dili savunur."
+            },
+            {
+              "terim": "Memleket Edebiyatı",
+              "tanim": "Anadolu'yu, halkı ve yurdun gerçeklerini konu edinen edebiyat anlayışı.",
+              "ornek": "",
+              "ayirt_edici": "Servet-i Fünun bireysel/İstanbul odaklıdır; bu Anadolu/halk odaklıdır."
+            },
+            {
+              "terim": "Milli Vezin (Hece)",
+              "tanim": "Aruz yerine; Türklere özgü hece ölçüsünün benimsenmesi.",
+              "ornek": "",
+              "ayirt_edici": "Aruz Arap-Fars kaynaklıdır; bu milli/hece ölçüsüdür."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Cumhuriyet",
+      "kategoriler": [
+        {
+          "kategori": "cumhuriyet_topluluk",
+          "kategori_label": "Cumhuriyet Şiir Toplulukları",
+          "terimler": [
+            {
+              "terim": "Yedi Meşaleciler",
+              "tanim": "1928'de canlılık-içtenlik-yenilik ve 'sanat sanat içindir' ilkesiyle çıkan; en kalıcı ismi Ziya Osman Saba olan topluluk.",
+              "ornek": "",
+              "ayirt_edici": "Garip gündelik/yalındır; bu yenilik iddialı ama klasik kalmış bir topluluktur."
+            },
+            {
+              "terim": "Garip (Birinci Yeni)",
+              "tanim": "Ölçü, uyak ve şairaneliği reddedip; gündelik dili ve sıradan insanı şiire sokan akım (Orhan Veli öncülüğünde).",
+              "ornek": "Orhan Veli, Oktay Rifat, Melih Cevdet.",
+              "ayirt_edici": "İkinci Yeni kapalı/imgelidir; bu yalın/açık ve gündeliktir."
+            },
+            {
+              "terim": "İkinci Yeni",
+              "tanim": "Garip'in yalınlığına tepki olarak; kapalı, imgeli, soyut ve bireysel bir şiir kuran akım.",
+              "ornek": "Cemal Süreya, Turgut Uyar, Edip Cansever.",
+              "ayirt_edici": "Garip yalın/açıktır; bu kapalı/imgeli ve soyuttur."
+            },
+            {
+              "terim": "Hisarcılar",
+              "tanim": "Garip ve İkinci Yeni'ye karşı; geleneğe, milli değerlere ve anlaşılır şiire bağlı kalan topluluk.",
+              "ornek": "Mehmet Çınarlı, İlhan Geçer.",
+              "ayirt_edici": "Garip/İkinci Yeni yenilikçidir; bu gelenekçi ve anlaşılırdır."
+            },
+            {
+              "terim": "Maviciler",
+              "tanim": "Garip'e tepki gösteren; daha derin, sanatlı ve zengin bir şiiri savunan topluluk (Attila İlhan öncülüğünde).",
+              "ornek": "Attila İlhan.",
+              "ayirt_edici": "Garip yalındır; bu derin/sanatlı şiiri savunur."
+            },
+            {
+              "terim": "Toplumcu Gerçekçiler",
+              "tanim": "Toplumsal sorunları, emekçiyi ve sınıf çatışmasını Marksist bir bakışla işleyen anlayış.",
+              "ornek": "Nazım Hikmet.",
+              "ayirt_edici": "Saf şiir ideolojiden uzaktır; bu toplumsal/ideolojiktir."
+            },
+            {
+              "terim": "Saf (Öz) Şiir",
+              "tanim": "Şiiri her türlü ideolojiden arındırıp; biçim kusursuzluğu, müzik ve imgeyi öne çıkaran anlayış.",
+              "ornek": "Ahmet Haşim, Yahya Kemal.",
+              "ayirt_edici": "Toplumcu gerçekçilik ideolojiktir; bu ideolojiden uzak/biçimcidir."
+            }
+          ]
+        },
+        {
+          "kategori": "cumhuriyet_kavram",
+          "kategori_label": "Roman / Anlatım Kavramları",
+          "terimler": [
+            {
+              "terim": "Serbest Nazım",
+              "tanim": "Ölçü ve uyak zorunluluğu olmadan; dizelerin özgürce düzenlendiği şiir biçimi.",
+              "ornek": "Nazım Hikmet.",
+              "ayirt_edici": "Mensur şiir düzyazı biçimindedir; bu dizeli ama ölçüsüzdür."
+            },
+            {
+              "terim": "Bilinç Akışı",
+              "tanim": "Roman kişisinin zihninden geçenlerin; mantık sırası gözetilmeden, çağrışımlarla ve aracısız aktarıldığı anlatım tekniği.",
+              "ornek": "",
+              "ayirt_edici": "İç monolog düzenli ve yazar denetimlidir; bu düzensiz/aracısızdır."
+            },
+            {
+              "terim": "İç Monolog",
+              "tanim": "Roman kişisinin iç sesinin; düzenli biçimde ve yazarın denetiminde aktarıldığı teknik.",
+              "ornek": "",
+              "ayirt_edici": "Bilinç akışı düzensiz/aracısızdır; bu düzenli ve kontrollüdür."
+            },
+            {
+              "terim": "Postmodern Roman",
+              "tanim": "Kurmaca olduğunu açıkça hissettiren; üst-kurmaca, metinlerarasılık ve oyunbazlıkla örülü roman anlayışı.",
+              "ornek": "Orhan Pamuk, Oğuz Atay.",
+              "ayirt_edici": "Klasik roman gerçeklik yanılsaması kurar; bu kurmacayı açıkça gösterir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Genel / Şiir Bilgisi",
+      "kategoriler": [
+        {
+          "kategori": "siir_birim",
+          "kategori_label": "Nazım Birimi · Ölçü · Kafiye",
+          "terimler": [
+            {
+              "terim": "Mısra (Dize)",
+              "tanim": "Şiirin bir satırlık en küçük birimi; tek başına da anlam taşıyabilir.",
+              "ornek": "",
+              "ayirt_edici": "Beyit iki dizedir; bu tek satırlık en küçük birimdir."
+            },
+            {
+              "terim": "Beyit",
+              "tanim": "İki dizeden oluşan; Divan şiirinin temel nazım birimi.",
+              "ornek": "",
+              "ayirt_edici": "Dörtlük dört dizedir; bu iki dizeden oluşur."
+            },
+            {
+              "terim": "Dörtlük (Kıta)",
+              "tanim": "Dört dizeden oluşan; halk şiirinin temel nazım birimi.",
+              "ornek": "",
+              "ayirt_edici": "Beyit iki dizedir; bu dört dizeden oluşur."
+            },
+            {
+              "terim": "Bent",
+              "tanim": "İkiden çok dizenin oluşturduğu nazım birimi (beşli, altılı...).",
+              "ornek": "",
+              "ayirt_edici": "Beyit/dörtlük sabit sayıdadır; bu çok dizeli gruptur."
+            },
+            {
+              "terim": "Hece Ölçüsü",
+              "tanim": "Dizelerin eş sayıda birimden oluşmasına ve duraklara dayanan; Türklere özgü milli ölçü.",
+              "ornek": "",
+              "ayirt_edici": "Aruz, birimlerin uzun-kısalığına; bu ise SAYI eşitliğine dayanır."
+            },
+            {
+              "terim": "Aruz Ölçüsü",
+              "tanim": "Hecelerin uzunluk-kısalık (açık-kapalı) sırasına dayanan; Arap-Fars kaynaklı ölçü.",
+              "ornek": "",
+              "ayirt_edici": "Hece ölçüsü sayıya dayanır; bu hecelerin uzun-kısalığına dayanır."
+            },
+            {
+              "terim": "Serbest Ölçü",
+              "tanim": "Hece ya da aruz kalıbına bağlı olmayan; ölçü ve uyak zorunluluğu taşımayan söyleyiş.",
+              "ornek": "",
+              "ayirt_edici": "Hece/aruz kalıplıdır; bu kalıpsız ve özgürdür."
+            },
+            {
+              "terim": "Yarım Kafiye",
+              "tanim": "Tek ses benzerliğine dayanan en zayıf uyak.",
+              "ornek": "",
+              "ayirt_edici": "Tam iki, zengin üç+ ses; bu tek ses benzerliğidir."
+            },
+            {
+              "terim": "Tam Kafiye",
+              "tanim": "İki ses benzerliğine dayanan uyak.",
+              "ornek": "",
+              "ayirt_edici": "Yarım tek, zengin üç+ ses; bu iki ses benzerliğidir."
+            },
+            {
+              "terim": "Zengin Kafiye",
+              "tanim": "İkiden çok ses benzerliğine dayanan uyak.",
+              "ornek": "",
+              "ayirt_edici": "Yarım tek, tam iki ses; bu üç ve daha çok ses benzerliğidir."
+            },
+            {
+              "terim": "Redif",
+              "tanim": "Uyaktan sonra gelen; görevi ve anlamı aynı olan, yinelenmiş ek ya da sözcük.",
+              "ornek": "",
+              "ayirt_edici": "Kafiye SES benzerliğidir; bu AYNI ek/sözcüğün tekrarıdır."
+            },
+            {
+              "terim": "Nakarat",
+              "tanim": "Şarkı, türkü gibi şiirlerde her bendin sonunda yinelenen dize ya da dizeler.",
+              "ornek": "",
+              "ayirt_edici": "Redif uyaktan sonraki ektir; bu yinelenen tam dizedir."
+            }
+          ]
+        },
+        {
+          "kategori": "siir_turu",
+          "kategori_label": "Şiir Türleri",
+          "terimler": [
+            {
+              "terim": "Lirik Şiir",
+              "tanim": "Aşk, özlem, ayrılık gibi bireysel duyguları coşkulu biçimde işleyen şiir türü.",
+              "ornek": "",
+              "ayirt_edici": "Epik kahramanlık; bu bireysel duygu/coşkudur."
+            },
+            {
+              "terim": "Epik Şiir",
+              "tanim": "Savaş, kahramanlık ve yiğitlik konularını işleyen; destansı şiir türü.",
+              "ornek": "",
+              "ayirt_edici": "Lirik bireysel duygu; bu kahramanlık/destandır."
+            },
+            {
+              "terim": "Didaktik Şiir",
+              "tanim": "Bir bilgi, öğüt ya da ders vermeyi amaçlayan; öğretici şiir türü.",
+              "ornek": "",
+              "ayirt_edici": "Lirik duygu; bu öğreti/bilgi amaçlıdır."
+            },
+            {
+              "terim": "Pastoral Şiir",
+              "tanim": "Doğa güzelliklerini, kır ve çoban yaşamını anlatan şiir türü.",
+              "ornek": "",
+              "ayirt_edici": "Epik kahramanlık; bu doğa/kır yaşamıdır."
+            },
+            {
+              "terim": "Dramatik Şiir",
+              "tanim": "Acıklı ya da heyecanlı bir olayı; harekete ve sahneye dayalı biçimde işleyen şiir türü.",
+              "ornek": "",
+              "ayirt_edici": "Lirik durağan duygu; bu olay/hareket içerir."
+            },
+            {
+              "terim": "Satirik Şiir",
+              "tanim": "Bir kişiyi ya da toplumsal aksaklığı eleştiren, yeren şiir türü.",
+              "ornek": "",
+              "ayirt_edici": "Divan'da hicviye, halkta taşlama karşılığıdır."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Söz Sanatları",
+      "kategoriler": [
+        {
+          "kategori": "soz_sanati",
+          "kategori_label": "Söz (Edebî) Sanatları",
+          "terimler": [
+            {
+              "terim": "Teşbih (Benzetme)",
+              "tanim": "Aralarında ilgi bulunan iki şeyden nitelikçe zayıf olanı güçlü olana benzetme sanatı.",
+              "ornek": "Aslan gibi cesur.",
+              "ayirt_edici": "İstiarede tek öge bulunur; bu dört ögeyle (benzeyen-benzetilen) yapılır."
+            },
+            {
+              "terim": "İstiare",
+              "tanim": "Benzetmenin temel ögelerinden yalnızca biriyle (benzeyen ya da benzetilen) yapılan; kapalı benzetme.",
+              "ornek": "",
+              "ayirt_edici": "Teşbihte iki öge vardır; bu tek ögeyle yapılan kapalı benzetmedir."
+            },
+            {
+              "terim": "Mecaz-ı Mürsel (Ad Aktarması)",
+              "tanim": "Bir sözcüğün benzetme amacı gütmeden; parça-bütün, iç-dış, neden-sonuç gibi ilgilerle başka anlamda kullanılması.",
+              "ornek": "Sobayı yaktım (kömürü).",
+              "ayirt_edici": "İstiarede benzetme vardır; bunda benzetme YOKTUR."
+            },
+            {
+              "terim": "Kinaye",
+              "tanim": "Bir sözü hem gerçek hem mecaz anlama gelecek biçimde; mecazı kastederek kullanma sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Tariz alaylı/tersinedir; bu gerçek+mecaz, mecaz kastedilir."
+            },
+            {
+              "terim": "Teşhis (Kişileştirme)",
+              "tanim": "İnsan dışı varlıklara insana özgü özellikler verme sanatı.",
+              "ornek": "Ağaçlar el sallıyor.",
+              "ayirt_edici": "İntak konuşturur; bu insan özelliği verir."
+            },
+            {
+              "terim": "İntak (Konuşturma)",
+              "tanim": "İnsan dışı varlıkları konuşturma sanatı; teşhisle birlikte bulunur.",
+              "ornek": "",
+              "ayirt_edici": "Teşhis özellik verir; bu konuşturur."
+            },
+            {
+              "terim": "Tezat (Karşıtlık)",
+              "tanim": "Aralarında karşıtlık bulunan kavramları bir arada kullanma sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Tenasüp ilgili/uyumlu sözcüklerdir; bu zıt kavramlardır."
+            },
+            {
+              "terim": "Tenasüp",
+              "tanim": "Anlamca birbiriyle ilgili sözcükleri bir arada kullanma sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Tezat zıt kavramlardır; bu ilgili/uyumlu sözcüklerdir."
+            },
+            {
+              "terim": "Telmih",
+              "tanim": "Bilinen bir olaya, kişiye ya da inanışa göndermede bulunma sanatı.",
+              "ornek": "Mecnun gibi çöllere düştüm.",
+              "ayirt_edici": "Tenasüp uyumdur; bu bilinen olaya göndermedir."
+            },
+            {
+              "terim": "Tariz (İğneleme)",
+              "tanim": "Sözü tersine, alaylı bir biçimde kullanarak iğneleme sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Kinaye mecaz kasteder; bu tersini söyleyip iğneler."
+            },
+            {
+              "terim": "Tevriye",
+              "tanim": "İki anlamı olan bir sözcüğü; yakın anlamı sezdirip uzak anlamı kastederek kullanma sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Cinas ses benzerliğidir; bu tek sözcüğün iki anlamıdır."
+            },
+            {
+              "terim": "Cinas",
+              "tanim": "Yazılışı/söylenişi aynı, anlamı farklı sözcükleri bir arada kullanma sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Tevriye tek sözcüğün iki anlamıdır; bu iki ayrı sözcüktür (ses aynı)."
+            },
+            {
+              "terim": "Hüsn-i Talil",
+              "tanim": "Bir olayı, gerçekte öyle olmadığı hâlde güzel/hayalî bir nedene bağlama sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Mübalağa abartır; bu güzel nedene bağlar."
+            },
+            {
+              "terim": "Mübalağa (Abartma)",
+              "tanim": "Bir şeyi olduğundan çok büyük ya da çok küçük gösterme sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Hüsn-i talil nedene bağlar; bu abartır."
+            },
+            {
+              "terim": "Tecahül-i Ârif",
+              "tanim": "Bilinen bir şeyi, bir nükte ya da anlam inceliği amacıyla bilmezlikten gelme sanatı.",
+              "ornek": "",
+              "ayirt_edici": "Tariz iğnelemedir; bu bilmezden gelmedir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Genel / Nesir Türleri",
+      "kategoriler": [
+        {
+          "kategori": "nesir_tur",
+          "kategori_label": "Düzyazı (Nesir) Türleri",
+          "terimler": [
+            {
+              "terim": "Roman",
+              "tanim": "Olmuş ya da olabilecek olayları geniş bir çevrede, ayrıntılı biçimde anlatan uzun kurmaca tür.",
+              "ornek": "",
+              "ayirt_edici": "Hikâye kısa ve tek olaylıdır; bu uzun ve çok olaylıdır."
+            },
+            {
+              "terim": "Olay (Klasik) Hikâyesi",
+              "tanim": "Belirgin bir vakanın çatışma ve serim-düğüm-çözüm kurgusuyla, sonuca bağlanarak anlatıldığı öykü türü.",
+              "ornek": "Ömer Seyfettin, Maupassant tarzı.",
+              "ayirt_edici": "Durum öyküsünde belirgin vaka/sonuç yoktur; bu vaka/çatışma üzerinedir."
+            },
+            {
+              "terim": "Durum (Kesit) Hikâyesi",
+              "tanim": "Belirgin bir vakadan çok; günlük yaşamdan bir kesiti, belirgin sonucu olmadan işleyen öykü türü.",
+              "ornek": "Sait Faik, Çehov tarzı.",
+              "ayirt_edici": "Olay öyküsünde dramatik vaka/sonuç vardır; bu yaşamdan kesit üzerinedir."
+            },
+            {
+              "terim": "Deneme",
+              "tanim": "Yazarın bir konuda kesin yargılara varmadan, kanıtlama kaygısı gütmeden samimi düşüncelerini 'ben'li bir dille anlattığı tür.",
+              "ornek": "Montaigne, Nurullah Ataç.",
+              "ayirt_edici": "Makale nesnel ve kanıtlıdır; bu öznel ve serbesttir."
+            },
+            {
+              "terim": "Makale",
+              "tanim": "Bir düşünceyi ya da bilgiyi kanıtlara dayanarak savunan; nesnel ve öğretici tür.",
+              "ornek": "",
+              "ayirt_edici": "Deneme özneldir; bu nesnel ve kanıtlıdır."
+            },
+            {
+              "terim": "Fıkra (Gazete)",
+              "tanim": "Güncel bir konuyu, yazarın kişisel görüşüyle ve kanıtlama kaygısı gütmeden kısaca işlediği gazete yazısı.",
+              "ornek": "",
+              "ayirt_edici": "Makale kanıtlar; halk fıkrası sözlü/güldürüdür. Bu güncel + kişisel görüştür."
+            },
+            {
+              "terim": "Sohbet (Söyleşi)",
+              "tanim": "Yazarın bir konuyu, okuyucuyla konuşuyormuş gibi samimi bir dille işlediği tür.",
+              "ornek": "",
+              "ayirt_edici": "Deneme 'ben' merkezlidir; bu okuyucuyla 'konuşma' havasındadır."
+            },
+            {
+              "terim": "Eleştiri (Tenkit)",
+              "tanim": "Bir eseri ya da sanatçıyı çeşitli yönlerden inceleyip değerlendiren; iyi-kötü yönlerini ortaya koyan tür.",
+              "ornek": "",
+              "ayirt_edici": "Makale genel düşünce savunur; bu bir eseri değerlendirir."
+            },
+            {
+              "terim": "Anı (Hatıra)",
+              "tanim": "Yazarın yaşadığı ya da şahit olduğu olayları, aradan zaman geçtikten sonra anlattığı tür.",
+              "ornek": "",
+              "ayirt_edici": "Günlük o gün yazılır; bu olaylar sonradan kaleme alınır."
+            },
+            {
+              "terim": "Günlük",
+              "tanim": "Yazarın gün gün yaşadıklarını ve izlenimlerini, tarih atarak o gün yazdığı tür.",
+              "ornek": "",
+              "ayirt_edici": "Anı sonradan yazılır; bu o gün ve tarihlidir."
+            },
+            {
+              "terim": "Biyografi",
+              "tanim": "Bir kişinin hayatını, başkası tarafından nesnel biçimde anlatan tür.",
+              "ornek": "",
+              "ayirt_edici": "Otobiyografide kişi kendi hayatını anlatır; bunda başkası anlatır."
+            },
+            {
+              "terim": "Otobiyografi",
+              "tanim": "Bir kişinin kendi hayatını kendisinin anlattığı tür.",
+              "ornek": "",
+              "ayirt_edici": "Biyografide başkası anlatır; bunda kişi kendisini anlatır."
+            },
+            {
+              "terim": "Röportaj",
+              "tanim": "Bir yer, kişi ya da olayın; gözlem, görüşme ve araştırmayla ayrıntılı tanıtıldığı gazetecilik türü.",
+              "ornek": "",
+              "ayirt_edici": "Anı kişiseldir; bu gözlem+görüşme+araştırmaya dayanır."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Batı Edebiyatı Akımları",
+      "kategoriler": [
+        {
+          "kategori": "akim",
+          "kategori_label": "Batı Edebiyatı Akımları",
+          "terimler": [
+            {
+              "terim": "Klasisizm",
+              "tanim": "Akıl, kurallar ve eski Yunan-Latin örneklerine bağlılığı; soylu konuları ve genel insan tipini öne çıkaran akım.",
+              "ornek": "Molière, Racine, La Fontaine.",
+              "ayirt_edici": "Romantizm duygu/bireydir; bu akıl/kural ve genel tiptir."
+            },
+            {
+              "terim": "Romantizm",
+              "tanim": "Klasisizme tepki olarak; duyguyu, hayali ve bireyi öne çıkaran, doğaya yönelen akım.",
+              "ornek": "Victor Hugo, Lamartine.",
+              "ayirt_edici": "Klasisizm akıldır; bu duygu/hayal ve bireydir."
+            },
+            {
+              "terim": "Realizm",
+              "tanim": "Gözlem ve gerçeğe bağlılıkla; toplumu ve insanı olduğu gibi, abartısız anlatan akım.",
+              "ornek": "Stendhal, Balzac, Flaubert.",
+              "ayirt_edici": "Romantizm hayaldir; bu gözlem/gerçek ve abartısızdır."
+            },
+            {
+              "terim": "Natüralizm",
+              "tanim": "Realizmi ileri götürüp; insanı kalıtım ve çevrenin ürünü sayan, bilimsel/deneysel bakışlı akım.",
+              "ornek": "Émile Zola.",
+              "ayirt_edici": "Realizm gözlemdir; bu + kalıtım/çevre ve deneydir."
+            },
+            {
+              "terim": "Parnasizm",
+              "tanim": "Şiirde 'sanat sanat içindir' ilkesiyle; biçim kusursuzluğunu ve nesnelliği öne çıkaran akım.",
+              "ornek": "",
+              "ayirt_edici": "Sembolizm sezgi/müziktir; bu biçim kusursuzluğu ve nesnelliktir."
+            },
+            {
+              "terim": "Sembolizm",
+              "tanim": "Anlamı açıkça söylemeyip; sembol, müzik ve sezgiyle dolaylı duygu uyandırmayı amaçlayan akım.",
+              "ornek": "Baudelaire, Verlaine, Mallarmé.",
+              "ayirt_edici": "Parnasizm nesnel/biçimcidir; bu sembol/sezgi ve kapalıdır."
+            },
+            {
+              "terim": "Empresyonizm (İzlenimcilik)",
+              "tanim": "Varlıkların kendisini değil; sanatçıda bıraktığı anlık izlenimi yansıtan akım.",
+              "ornek": "",
+              "ayirt_edici": "Ekspresyonizm iç dünyayı dışa vurur; bu dış varlığın anlık izlenimidir."
+            },
+            {
+              "terim": "Ekspresyonizm (Dışavurumculuk)",
+              "tanim": "Sanatçının iç dünyasını ve ruhsal çalkantılarını; abartılı, çarpıtılmış biçimde dışa vuran akım.",
+              "ornek": "",
+              "ayirt_edici": "Empresyonizm dış izlenimdir; bu iç dünyanın çarpıtılmış dışavurumudur."
+            },
+            {
+              "terim": "Fütürizm (Gelecekçilik)",
+              "tanim": "Geçmişi reddedip; hız, makine, teknoloji ve dinamizmi yücelten akım.",
+              "ornek": "Marinetti, Mayakovski.",
+              "ayirt_edici": "Dadaizm anlamsızlık/başkaldırıdır; bu hız/makine yüceltimidir."
+            },
+            {
+              "terim": "Dadaizm",
+              "tanim": "Her türlü kural, anlam ve geleneği reddeden; başkaldırı ve anlamsızlığı öne çıkaran akım.",
+              "ornek": "Tristan Tzara.",
+              "ayirt_edici": "Sürrealizm bilinçaltı/rüyadır; bu kural/anlam reddi ve başkaldırıdır."
+            },
+            {
+              "terim": "Sürrealizm (Gerçeküstücülük)",
+              "tanim": "Bilinçaltını, rüyaları ve otomatik yazıyı temel alan; Freud etkili akım.",
+              "ornek": "André Breton.",
+              "ayirt_edici": "Dadaizm yıkıcılıktır; bu bilinçaltı/rüya temellidir."
+            },
+            {
+              "terim": "Egzistansiyalizm (Varoluşçuluk)",
+              "tanim": "İnsanın özgürlüğünü, seçimlerini ve varoluşunu öne çıkaran felsefi-edebî akım.",
+              "ornek": "Sartre, Camus.",
+              "ayirt_edici": "Diğer akımlar biçim/duygu odaklıdır; bu varoluş/özgürlük felsefesidir."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
