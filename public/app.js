@@ -7,6 +7,7 @@ import { renderPredictions } from './pages/predictions.js';
 import { renderPattern } from './pages/pattern.js';
 import { renderProgram } from './pages/program.js';
 import { renderGlossary } from './pages/glossary.js';
+import { renderTerms } from './pages/terms.js';
 import { renderQuizSetup, renderQuizSession, renderQuizResult } from './pages/quiz.js';
 import { renderCardList, renderCardNew } from './pages/cards.js';
 import { renderStats } from './pages/stats.js';
@@ -152,6 +153,8 @@ async function render() {
       html = await renderProgram();
     } else if (parts[0] === 'sozluk') {
       html = await renderGlossary();
+    } else if (parts[0] === 'terimler') {
+      html = await renderTerms();
     } else if (parts[0] === 'quiz' && parts[1] === 'setup') {
       html = await renderQuizSetup();
     } else if (parts[0] === 'quiz' && parts[1] === 'sonuc') {

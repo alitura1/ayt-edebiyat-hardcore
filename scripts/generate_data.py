@@ -1932,6 +1932,120 @@ def gen_ilkler_cards():
 
 
 # =====================================================
+# REV20 — Edebî terimler/kavramlar kartları
+# =====================================================
+
+_TERIMLER_CACHE = None
+def get_terimler():
+    global _TERIMLER_CACHE
+    if _TERIMLER_CACHE is None:
+        try:
+            tp = BASE / 'data' / 'terimler_kaynak.json'
+            _TERIMLER_CACHE = json.loads(tp.read_text(encoding='utf-8')).get('terimler', []) if tp.exists() else []
+        except Exception:
+            _TERIMLER_CACHE = []
+    return _TERIMLER_CACHE
+
+
+def gen_terim_cards():
+    """Terim taksonomisinden 4 tip kart: tanım→terim, terim→özellik, negatif eleme, hangi kategori."""
+    cards = []
+    terimler = get_terimler()
+    if not terimler:
+        return cards
+    by_kat = {}
+    for t in terimler:
+        by_kat.setdefault(t['kategori'], []).append(t)
+    all_kat_labels = sorted(set(t['kategori_label'] for t in terimler))
+
+    def _tag(c, kat):
+        c['terim_kategori'] = kat
+        c['kaynak'] = 'terim'
+        return c
+
+    for t in terimler:
+        terim = t['terim']; kat = t['kategori']; konu = t['konu']
+        kat_label = t['kategori_label']; donem = t['donem']
+        tanim = t['tanim']; ornek = t.get('ornek', ''); ayirt = t.get('ayirt_edici', '')
+        ozell = t.get('ozellikler', [])
+        komsu = [x for x in by_kat.get(kat, []) if x['terim'] != terim]
+        komsu_terimler = [x['terim'] for x in komsu]
+        if len(komsu_terimler) < 4:
+            komsu_terimler += [x['terim'] for x in terimler
+                               if x['terim'] != terim and x['terim'] not in komsu_terimler]
+
+        # 1) TANIM → TERİM
+        cel = shuffle_seed(komsu_terimler, terim + '-tt')[:4]
+        if len(cel) >= 3:
+            c = card(
+                id_=f"trt_{len(cards):04d}", konu=konu, alt=kat, tip='terim-tanim',
+                soru=f"Aşağıda özellikleri verilen <strong>{kat_label.lower()}</strong> aşağıdakilerden hangisidir?<br><br><em>«{tanim}»</em>",
+                dogru_text=terim, celdiriciler=cel,
+                aciklama=(f"<strong>✓ {terim}:</strong> {tanim}" + (f"<br><strong>📖 Örnek:</strong> {ornek}" if ornek else "")),
+                tuzak=(f"<strong>⚠ Ayrım anahtarı:</strong> {ayirt}" if ayirt else
+                       f"<strong>⚠ TUZAK:</strong> Aynı kategorideki diğer terimlerle ({', '.join(cel[:3])}) karıştırma."),
+                zorluk='orta',
+                osym_stratejisi=f"ÖSYM terim sorularında AYIRT EDİCİ özelliği test eder. Strateji: tanımdaki anahtar ({ozell[0] if ozell else 'tema'}) → terim.",
+                dersini_ogren=f"{terim} = {tanim[:90]}",
+            )
+            cards.append(_tag(c, kat))
+
+        # 2) TERİM → ÖZELLİK (hangisi DOĞRUDUR)
+        if len(ozell) >= 1 and komsu:
+            yabanci_oz = [oz for k in komsu for oz in k.get('ozellikler', []) if oz not in ozell]
+            yabanci_oz = list(dict.fromkeys(yabanci_oz))
+            dogru_oz = shuffle_seed(ozell, terim + '-oz')[0]
+            cel_oz = shuffle_seed(yabanci_oz, terim + '-ozc')[:4]
+            if len(cel_oz) >= 4:
+                c = card(
+                    id_=f"tro_{len(cards):04d}", konu=konu, alt=kat, tip='terim-ozellik',
+                    soru=f"<strong>{terim}</strong> için aşağıdakilerden hangisi <strong>söylenebilir</strong>?",
+                    dogru_text=dogru_oz, celdiriciler=cel_oz,
+                    aciklama=f"<strong>{terim}</strong> özellikleri: {', '.join(ozell)}. Doğru: «{dogru_oz}». {tanim[:70]}",
+                    tuzak=(f"<strong>⚠ Ayrım:</strong> {ayirt}" if ayirt else "Diğer şıklar başka terimlerin özellikleridir."),
+                    zorluk='orta',
+                    osym_stratejisi="Terimin gerçek özelliğini tanımayı test eder. Strateji: terimi tanımına bağla, yabancı özelliği ele.",
+                    dersini_ogren=f"{terim} → {dogru_oz}.",
+                )
+                cards.append(_tag(c, kat))
+
+        # 3) NEGATİF ELEME (söylenemez) — 4 gerçek özellik + 1 yabancı = 5 şık
+        if len(ozell) >= 4 and komsu:
+            yabanci = next((oz for k in komsu for oz in k.get('ozellikler', []) if oz not in ozell), None)
+            if yabanci:
+                cel_n = shuffle_seed(ozell, terim + '-ng')[:4]
+                if len(cel_n) >= 4:
+                    c = card(
+                        id_=f"trn_{len(cards):04d}", konu=konu, alt=kat, tip='terim-negatif',
+                        soru=f"<strong>{terim}</strong> ile ilgili aşağıdakilerden hangisi <strong>SÖYLENEMEZ</strong>?",
+                        dogru_text=yabanci, celdiriciler=cel_n,
+                        aciklama=f"«{yabanci}» {terim} için geçerli DEĞİLDİR (başka bir terimin özelliği). {terim}: {tanim[:70]}",
+                        tuzak="<strong>⚠ Negatif eleme:</strong> 4 doğru özellik + 1 yabancı. Yabancı olanı (başka terime ait) seç.",
+                        zorluk='zor',
+                        osym_stratejisi="ÖSYM'nin en sık kalıbı. Strateji: terimin gerçek özelliklerini ele; kalan = cevap.",
+                        dersini_ogren=f"{terim} özellikleri: {', '.join(ozell[:3])}.",
+                    )
+                    cards.append(_tag(c, kat))
+
+        # 4) HANGİ KATEGORİ (yeterli kategori varsa aktifleşir)
+        if len(all_kat_labels) >= 4:
+            cel_d = [k for k in shuffle_seed(all_kat_labels, terim + '-dn') if k != kat_label][:4]
+            if len(cel_d) >= 3:
+                c = card(
+                    id_=f"trk_{len(cards):04d}", konu=konu, alt=kat, tip='terim-kategori',
+                    soru=f"<strong>{terim}</strong> aşağıdaki tür/kategorilerden hangisine girer?",
+                    dogru_text=kat_label, celdiriciler=cel_d,
+                    aciklama=f"<strong>{terim}</strong> → {kat_label} ({donem}). {tanim[:80]}",
+                    tuzak=(f"<strong>⚠ Ayrım:</strong> {ayirt}" if ayirt else ""),
+                    zorluk='kolay',
+                    osym_stratejisi="Terimi tür/dönem ile eşleştirmeyi test eder.",
+                    dersini_ogren=f"{terim} = {kat_label} ({donem}).",
+                )
+                cards.append(_tag(c, kat))
+    return cards
+
+
+# =====================================================
 # Ana üretim
 # =====================================================
 
@@ -1977,6 +2091,8 @@ def main():
     print(f"  paragraf-tani: {len([c for c in all_cards if c.get('tip')=='paragraf-yazar-tani'])}")
     all_cards += gen_dortluk_analiz_cards()
     print(f"  dortluk-analiz: {len([c for c in all_cards if c.get('alt_konu')=='dortluk_analiz'])}")
+    all_cards += gen_terim_cards()
+    print(f"  terim (4 tip): {len([c for c in all_cards if c.get('terim_kategori')])}")
     all_cards += gen_ilkler_cards()
     print(f"  ilkler: {len([c for c in all_cards if c['tip']=='ilkler-eser'])}")
 

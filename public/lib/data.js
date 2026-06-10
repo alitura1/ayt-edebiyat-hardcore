@@ -78,6 +78,7 @@ export const Data = {
   predictions: () => loadJSONOptional(dataPath('predictions.json')),
   program: () => loadJSONOptional(dataPath('program.json')),
   glossary: () => loadJSONOptional(dataPath('glossary.json')),
+  terms: () => loadJSONOptional(dataPath('terimler.json')),
   cikmis: () => loadJSONOptional(dataPath('cikmis-sorular.json')),
   groups: () => loadJSONOptional(dataPath('groups.json')),
 

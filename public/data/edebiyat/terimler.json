@@ -1,0 +1,164 @@
+{
+  "donemler": [
+    {
+      "donem": "İslamiyet Öncesi / Sözlü Dönem",
+      "kategoriler": [
+        {
+          "kategori": "isl_oncesi",
+          "kategori_label": "İslamiyet Öncesi Türleri",
+          "terimler": [
+            {
+              "terim": "Koşuk",
+              "tanim": "Sığır ve şölen gibi törenlerde kopuz eşliğinde söylenen; aşk, doğa, yiğitlik konularını işleyen lirik şiir.",
+              "ornek": "Halk edebiyatındaki koşmanın atası sayılır.",
+              "ayirt_edici": "Sagu ÖLÜM/yas içindir; bu tür aşk-doğa-coşku içindir."
+            },
+            {
+              "terim": "Sagu",
+              "tanim": "Ölen bir kişinin ardından yuğ töreninde söylenen, yas ve övgü içeren ağıt niteliğindeki şiir.",
+              "ornek": "Alp Er Tunga Sagusu.",
+              "ayirt_edici": "Halk edebiyatında 'ağıt', Divan'da 'mersiye' karşılığıdır."
+            },
+            {
+              "terim": "Sav",
+              "tanim": "Geçmiş deneyimlerden doğan, kısa ve özlü söz; günümüz atasözünün karşılığı.",
+              "ornek": "Divânü Lugâti't-Türk'te birçok örneği geçer.",
+              "ayirt_edici": "Atasözünün İslamiyet öncesi adıdır; bir şiir türü değil özlü sözdür."
+            },
+            {
+              "terim": "Destan (Sözlü Dönem)",
+              "tanim": "Bir milletin hafızasında yer etmiş olağanüstü olayları, kahramanlıkları anlatan uzun manzum anlatı.",
+              "ornek": "Oğuz Kağan, Bozkurt, Ergenekon.",
+              "ayirt_edici": "Yapma destandan farkı: anonim ve sözlü gelenekten doğmasıdır."
+            },
+            {
+              "terim": "Sığır",
+              "tanim": "İslamiyet öncesi Türklerde yapılan sürek avı niteliğindeki tören; bu törenlerde şiirler söylenirdi.",
+              "ornek": "",
+              "ayirt_edici": "Şölen ziyafet/kurban töreni; bu ise AV törenidir."
+            },
+            {
+              "terim": "Şölen (Toy)",
+              "tanim": "İslamiyet öncesi Türklerde kurban sunulan dini ziyafet ve toplanma töreni.",
+              "ornek": "",
+              "ayirt_edici": "Yuğ yas, sığır av; bu ise ziyafet/kurban törenidir."
+            },
+            {
+              "terim": "Yuğ",
+              "tanim": "Ölen kişinin ardından düzenlenen yas ve cenaze töreni; bu törende sagular söylenirdi.",
+              "ornek": "",
+              "ayirt_edici": "Sığır av, şölen ziyafet; bu ise YAS törenidir, sagu burada söylenir."
+            },
+            {
+              "terim": "Ozan",
+              "tanim": "Kopuz eşliğinde şiir söyleyen, destan anlatan sözlü dönem sanatçısı; halk edebiyatında 'âşık'ın karşılığı.",
+              "ornek": "",
+              "ayirt_edici": "Kam/baksı şair+hekim+büyücü; ozan ise daha çok şiir/destan söyleyendir."
+            },
+            {
+              "terim": "Kam (Baksı / Şaman)",
+              "tanim": "İslamiyet öncesi Türklerde hem şair hem hekim hem büyücü olan; dini törenleri yöneten sanatçı-din adamı.",
+              "ornek": "",
+              "ayirt_edici": "Ozan sadece şiir/destan söyler; bu kişi ayrıca hekimlik+büyü+din görevi taşır."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "donem": "Divan Edebiyatı",
+      "kategoriler": [
+        {
+          "kategori": "divan_nesir",
+          "kategori_label": "Divan Nesir Türleri",
+          "terimler": [
+            {
+              "terim": "Tezkire",
+              "tanim": "Şairlerin hayatlarını, eserlerini ve sanatlarını tanıtan; günümüz biyografi/antoloji karşılığı eser.",
+              "ornek": "Sehî Bey'in Heşt Behişt'i (Anadolu'da ilk örnek).",
+              "ayirt_edici": "Menakıbname VELİ kerameti anlatır; bu ŞAİR biyografisidir."
+            },
+            {
+              "terim": "Münşeat",
+              "tanim": "Resmi ve özel mektup ile çeşitli düzyazı örneklerinin bir araya getirildiği derleme.",
+              "ornek": "",
+              "ayirt_edici": "Tezkire şair biyografisi; bu MEKTUP/yazı örnekleri derlemesidir."
+            },
+            {
+              "terim": "Fütüvvetname",
+              "tanim": "Ahilik/fütüvvet teşkilatının görgü, ahlak ve âdâb kurallarını anlatan öğretici düzyazı.",
+              "ornek": "",
+              "ayirt_edici": "Menakıbname keramet, siyasetname devlet yönetimi; bu AHİ/meslek ahlakı kurallarıdır."
+            },
+            {
+              "terim": "Gazavatname",
+              "tanim": "Orduların akınlarını, savaşlarını ve zaferlerini manzum ya da mensur anlatan; tarihe kaynaklık eden eser.",
+              "ornek": "",
+              "ayirt_edici": "Sefaretname elçilik, seyahatname gezi; bu SAVAŞ/zafer anlatısıdır."
+            },
+            {
+              "terim": "Sefaretname",
+              "tanim": "Yabancı ülkeye gönderilen elçinin gözlem ve izlenimlerini aktardığı rapor/anı niteliğindeki eser.",
+              "ornek": "Yirmisekiz Mehmed Çelebi'nin Paris Sefaretnamesi.",
+              "ayirt_edici": "Seyahatname genel gezi; bu ELÇİLİK görevi raporudur."
+            },
+            {
+              "terim": "Sûrnâme",
+              "tanim": "Şehzadelerin sünnet, doğum ya da evlenme şenliklerini ayrıntılı biçimde anlatan eser.",
+              "ornek": "",
+              "ayirt_edici": "Gazavatname savaş; bu DÜĞÜN/şenlik anlatısıdır."
+            },
+            {
+              "terim": "Siyasetname",
+              "tanim": "Devlet yönetimi, hükümdarlık ve adalet üzerine öğütler veren öğretici eser.",
+              "ornek": "Nizamülmülk'ün Siyasetnamesi.",
+              "ayirt_edici": "Pendname genel ahlak öğüdü; bu DEVLET YÖNETİMİ öğütleridir."
+            },
+            {
+              "terim": "Pendname (Nasihatname)",
+              "tanim": "Ahlak, erdem ve doğru yaşam üzerine genel öğütler içeren öğretici eser.",
+              "ornek": "Güvâhî'nin Pend-nâmesi.",
+              "ayirt_edici": "Siyasetname devlet yönetimi; bu GENEL ahlak/erdem öğütleridir."
+            },
+            {
+              "terim": "Kıyafetname",
+              "tanim": "İnsanın dış görünüşünden (yüz, beden) karakter ve huy çıkarımı yapan eser; fizyonomi.",
+              "ornek": "",
+              "ayirt_edici": "Tezkire biyografi; bu dış görünüş→KARAKTER okumasıdır (fizyonomi)."
+            },
+            {
+              "terim": "Seyahatname",
+              "tanim": "Gezilip görülen yerleri; halkları, gelenekleri ve coğrafyayı ayrıntılı gözlemle anlatan eser.",
+              "ornek": "Evliya Çelebi'nin Seyahatnamesi.",
+              "ayirt_edici": "Sefaretname elçilik raporu; bu GENEL gezi gözlemidir."
+            },
+            {
+              "terim": "Menakıbname (Velayetname)",
+              "tanim": "Bir din büyüğünün, velinin olağanüstü hâllerini ve kerametlerini anlatan eser.",
+              "ornek": "Hacı Bektaş Veli Velâyetnâmesi.",
+              "ayirt_edici": "Tezkire şair biyografisi; bu VELİ kerameti anlatısıdır."
+            },
+            {
+              "terim": "Siyer",
+              "tanim": "Hz. Muhammed'in hayatını, kişiliğini ve savaşlarını anlatan eser.",
+              "ornek": "",
+              "ayirt_edici": "Menakıbname veli kerameti; bu HZ. MUHAMMED'in hayatıdır."
+            },
+            {
+              "terim": "Münazara",
+              "tanim": "İki kavramın, varlığın ya da kişinin karşılıklı üstünlük tartışmasını konu alan eser.",
+              "ornek": "",
+              "ayirt_edici": "Bir tartışma/karşılaştırma metnidir; öğüt veya biyografi değildir."
+            },
+            {
+              "terim": "Lugat (Sözlük)",
+              "tanim": "Sözcüklerin anlamlarını veren; iki dil arasında karşılık sunabilen başvuru eseri.",
+              "ornek": "Divânü Lugâti't-Türk, Muhakemetü'l-Lugateyn.",
+              "ayirt_edici": "Tezkire biyografi; bu SÖZCÜK/anlam başvuru eseridir."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -186,6 +186,10 @@ export async function renderQuizSession() {
   if (q.yazar) {
     pool = pool.filter(c => altKonuToAuthorSlug(c.alt_konu) === q.yazar);
   }
+  // REV20 — Terim filtresi (sadece edebî terim kartları; kategori veya hepsi)
+  if (q.terim) {
+    pool = pool.filter(c => c.terim_kategori && (q.terim === 'hepsi' || c.terim_kategori === q.terim));
+  }
   // REV17 — 2026 öncelik filtresi (due_score_2026 alanına göre)
   if (q.oncelik_2026 && q.oncelik_2026 !== 'hepsi') {
     const thresholds = { 'cok_yuksek': 80, 'yuksek': 60, 'orta': 40 };
