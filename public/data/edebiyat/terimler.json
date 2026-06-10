@@ -66,8 +66,403 @@
       ]
     },
     {
+      "donem": "Halk Edebiyatı",
+      "kategoriler": [
+        {
+          "kategori": "halk_anonim",
+          "kategori_label": "Anonim Halk Şiiri",
+          "terimler": [
+            {
+              "terim": "Mâni",
+              "tanim": "Çoğunlukla yedi heceli, dört dizeli (aaxa); ilk iki dizesi doldurma olan, asıl anlamın son iki dizede verildiği anonim ürün.",
+              "ornek": "Düz, kesik (cinaslı), yedekli türleri vardır.",
+              "ayirt_edici": "Koşma on bir heceli ve âşık ürünüdür; bu yedi heceli ve anonimdir."
+            },
+            {
+              "terim": "Türkü",
+              "tanim": "Bir ezgiyle söylenen; bentlerden ve her bendin sonunda yinelenen kavuştaktan (nakarat) oluşan anonim ürün.",
+              "ornek": "",
+              "ayirt_edici": "Mâni tek dörtlüktür; bu bent + kavuştak yapısındadır."
+            },
+            {
+              "terim": "Ninni",
+              "tanim": "Çocuğu uyutmak amacıyla ezgiyle söylenen; annenin duygularını yansıtan anonim ürün.",
+              "ornek": "",
+              "ayirt_edici": "Ağıt ölüm acısı içindir; bu uyutma/sevgi amaçlıdır."
+            },
+            {
+              "terim": "Ağıt (Anonim)",
+              "tanim": "Ölüm, hastalık, doğal afet gibi acı olaylar karşısında duyulan üzüntüyü dile getiren anonim söyleyiş.",
+              "ornek": "",
+              "ayirt_edici": "İslamiyet öncesi karşılığı sagu, Divan'da mersiyedir."
+            },
+            {
+              "terim": "Bilmece",
+              "tanim": "Bir nesne ya da kavramı kapalı biçimde tanımlayıp buldurmayı amaçlayan, kalıplaşmış anonim söz.",
+              "ornek": "",
+              "ayirt_edici": "Tekerleme ses oyunudur; bu buldurma amaçlıdır."
+            },
+            {
+              "terim": "Tekerleme",
+              "tanim": "Ses ve sözcük benzerliğine dayanan, çoğu zaman mantık dışı, oyun ve masal başlarında söylenen ritmik söz.",
+              "ornek": "Masal döşemesi (bir varmış bir yokmuş...).",
+              "ayirt_edici": "Bilmece buldurur; bu ritim/ses oyunu içindir."
+            }
+          ]
+        },
+        {
+          "kategori": "halk_asik_bicim",
+          "kategori_label": "Âşık Edebiyatı Nazım Biçimleri",
+          "terimler": [
+            {
+              "terim": "Koşma",
+              "tanim": "On birli hece ölçüsüyle, dört dizeli bentlerden oluşan; aşk, doğa ve özlem konularını işleyen âşık şiiri biçimi.",
+              "ornek": "Karacaoğlan'ın koşmaları.",
+              "ayirt_edici": "Mâni yedi heceli ve anonimdir; bu on bir heceli ve âşık ürünüdür."
+            },
+            {
+              "terim": "Semai (Âşık)",
+              "tanim": "Sekizli hece ölçüsüyle, kendine özgü bir ezgiyle söylenen; koşmaya benzeyen lirik âşık şiiri biçimi.",
+              "ornek": "",
+              "ayirt_edici": "Koşma on bir, bu sekiz hecelidir; varsağıdan farkı yiğitçe eda taşımamasıdır."
+            },
+            {
+              "terim": "Varsağı",
+              "tanim": "Sekizli hece ölçüsüyle, yiğitçe ve mertçe bir edayla; 'bre, behey' gibi seslenişlerle söylenen âşık şiiri biçimi.",
+              "ornek": "Dadaloğlu, Karacaoğlan.",
+              "ayirt_edici": "Semai lirik/yumuşak; bu yiğitçe/mertçe edalıdır."
+            },
+            {
+              "terim": "Destan (Âşık)",
+              "tanim": "Aşıkların savaş, kahramanlık, salgın ya da mizah gibi konuları uzun uzun anlattığı; en uzun âşık şiiri biçimi.",
+              "ornek": "",
+              "ayirt_edici": "Koşma kısadır; bu en uzun biçimdir ve olay anlatır."
+            }
+          ]
+        },
+        {
+          "kategori": "halk_asik_tur",
+          "kategori_label": "Âşık Edebiyatı Nazım Türleri (Koşma Konuları)",
+          "terimler": [
+            {
+              "terim": "Güzelleme",
+              "tanim": "Bir kişiyi, doğayı ya da sevgiliyi övmek; güzelliği yüceltmek amacıyla söylenen koşma konusu.",
+              "ornek": "Karacaoğlan.",
+              "ayirt_edici": "Koçaklama kahramanlık; bu güzellik/övgü içindir."
+            },
+            {
+              "terim": "Koçaklama",
+              "tanim": "Savaş, kahramanlık ve yiğitlik konularını coşkulu bir dille işleyen koşma konusu.",
+              "ornek": "Köroğlu, Dadaloğlu.",
+              "ayirt_edici": "Güzelleme aşk/övgü; bu kahramanlık/coşkudur."
+            },
+            {
+              "terim": "Taşlama",
+              "tanim": "Bir kişiyi ya da toplumsal düzeni eleştirmek, yermek amacıyla söylenen koşma konusu.",
+              "ornek": "Seyrani.",
+              "ayirt_edici": "Divan'daki hicviyenin karşılığıdır."
+            }
+          ]
+        },
+        {
+          "kategori": "halk_tekke",
+          "kategori_label": "Tekke / Tasavvuf Nazım Türleri",
+          "terimler": [
+            {
+              "terim": "İlahi",
+              "tanim": "Allah aşkını, dini ve tasavvufi düşünceyi; tarikat ayrımı gözetmeden ezgiyle dile getiren tekke şiiri.",
+              "ornek": "Yunus Emre.",
+              "ayirt_edici": "Nefes Bektaşilere özgüdür; bu tarikat ayrımı gözetmez."
+            },
+            {
+              "terim": "Nefes",
+              "tanim": "Bektaşi şairlerinin söylediği; varlık birliğini ve tasavvufi neşeyi kimi zaman iğneli bir dille işleyen tekke şiiri.",
+              "ornek": "Pir Sultan Abdal.",
+              "ayirt_edici": "İlahi genel tasavvuf; bu özellikle Bektaşi geleneğindendir."
+            },
+            {
+              "terim": "Nutuk",
+              "tanim": "Tarikata yeni girenlere yol ve âdâbı öğretmek için söylenen öğretici tekke şiiri.",
+              "ornek": "",
+              "ayirt_edici": "Devriye 'devir' felsefesini anlatır; bu öğüt/öğreti içindir."
+            },
+            {
+              "terim": "Devriye",
+              "tanim": "Varlığın Hak'tan çıkıp tekrar Hakk'a dönüşü (devir) inancını anlatan tekke şiiri.",
+              "ornek": "",
+              "ayirt_edici": "Nutuk öğüt verir; bu 'devir' felsefesini işler."
+            },
+            {
+              "terim": "Şathiye",
+              "tanim": "Dini konuları, ilk bakışta aykırı/saçma görünen ama derinde tasavvufi anlam taşıyan iğneli ve mizahi bir dille işleyen tekke şiiri.",
+              "ornek": "Kaygusuz Abdal.",
+              "ayirt_edici": "İlahi ciddi/lirik; bu mizahi ve görünüşte aykırıdır."
+            }
+          ]
+        },
+        {
+          "kategori": "halk_nesir",
+          "kategori_label": "Halk Nesri / Anonim Türler",
+          "terimler": [
+            {
+              "terim": "Halk Hikâyesi",
+              "tanim": "Genellikle aşk ya da kahramanlık konulu; nazım-nesir karışık, âşıklarca anlatılan, destandan romana geçiş sayılan tür.",
+              "ornek": "Kerem ile Aslı, Köroğlu.",
+              "ayirt_edici": "Destan tümüyle manzumdur; bu nazım-nesir karışıktır."
+            },
+            {
+              "terim": "Masal",
+              "tanim": "Olağanüstü olay ve kişilerin yer aldığı; belirli bir zaman-mekâna bağlı olmayan, tekerlemeli anonim anlatı.",
+              "ornek": "",
+              "ayirt_edici": "Efsane gerçeklik iddialıdır; bu tümüyle hayalîdir."
+            },
+            {
+              "terim": "Efsane",
+              "tanim": "Bir varlığın, yerin ya da olayın oluşumunu; inanış ögesiyle ve gerçek olduğu iddiasıyla açıklayan anlatı.",
+              "ornek": "",
+              "ayirt_edici": "Masal hayalîdir; bu gerçeklik iddiası taşır. Menkıbe veli kerameti içindir."
+            },
+            {
+              "terim": "Menkıbe",
+              "tanim": "Bir din büyüğünün ya da velinin kerametlerini anlatan, inanca dayalı anlatı.",
+              "ornek": "",
+              "ayirt_edici": "Efsane genel oluşum; bu veli kerameti anlatır."
+            },
+            {
+              "terim": "Fıkra (Halk)",
+              "tanim": "Toplumsal bir gerçeği güldürü ve nükteyle, kısa bir olay çevresinde anlatan anonim/sözlü tür.",
+              "ornek": "Nasreddin Hoca, Bektaşi fıkraları.",
+              "ayirt_edici": "Gazete fıkrası yazılı ve imzalıdır; bu sözlü ve anonimdir."
+            }
+          ]
+        },
+        {
+          "kategori": "halk_seyirlik",
+          "kategori_label": "Geleneksel Türk Tiyatrosu",
+          "terimler": [
+            {
+              "terim": "Karagöz",
+              "tanim": "Deriden yapılmış tasvirlerin perde arkasından ışıkla yansıtıldığı gölge oyunu; giriş-muhavere-fasıl-bitiş bölümlerinden oluşur.",
+              "ornek": "",
+              "ayirt_edici": "Orta oyununda canlı oyuncu vardır; bu gölge/tasvir oyunudur."
+            },
+            {
+              "terim": "Orta Oyunu",
+              "tanim": "Çevresi seyircilerle çevrili açık alanda (palanga), canlı oyuncularla doğaçlama oynanan geleneksel oyun.",
+              "ornek": "",
+              "ayirt_edici": "Karagöz gölge oyunudur; bu canlı oyuncularla oynanır."
+            },
+            {
+              "terim": "Meddah",
+              "tanim": "Tek kişilik anlatıcının; mendil ve sopa kullanarak taklitlerle bir hikâye anlattığı seyirlik tür.",
+              "ornek": "",
+              "ayirt_edici": "Karagöz/orta oyunu çok kişilik; bu tek kişiliktir."
+            },
+            {
+              "terim": "Köy Seyirlik Oyunu",
+              "tanim": "Tarım toplumunda düğün, bayram ve mevsim geçişlerinde; bolluk-bereket dileğiyle amatörce oynanan törensel/ritüel oyunlar.",
+              "ornek": "",
+              "ayirt_edici": "Karagöz/meddah profesyonelce şehirde oynanır; bu kırsalda amatör ve ritüeldir."
+            }
+          ]
+        },
+        {
+          "kategori": "tasavvuf_kavram",
+          "kategori_label": "Tasavvuf Kavramları",
+          "terimler": [
+            {
+              "terim": "Vahdet-i Vücud",
+              "tanim": "Varlığın tek olduğu; var olan her şeyin Hakk'ın bir görünümü/yansıması sayıldığı tasavvuf anlayışı.",
+              "ornek": "İbnü'l-Arabî.",
+              "ayirt_edici": "Fenafillah bireyin yok oluşu hâlidir; bu bir varlık öğretisidir."
+            },
+            {
+              "terim": "Fenafillah",
+              "tanim": "Kişinin kendi benliğinden geçip varlığını Allah'ta yok etmesi/eritmesi hâli.",
+              "ornek": "",
+              "ayirt_edici": "Vahdet-i vücud bir öğretidir; bu bireysel bir manevi hâldir."
+            },
+            {
+              "terim": "Tecelli",
+              "tanim": "İlahi varlığın evrendeki nesne ve olaylarda görünür/belirir hâle gelmesi.",
+              "ornek": "",
+              "ayirt_edici": "Fenafillah yok oluş; bu görünür olma/belirmedir."
+            },
+            {
+              "terim": "İnsan-ı Kâmil",
+              "tanim": "Tasavvufta olgunluğun zirvesine ulaşmış; Hakk'ı kendinde yansıtan ideal, olgun insan.",
+              "ornek": "",
+              "ayirt_edici": "Bir kavram/insandır, hâl değildir."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "donem": "Divan Edebiyatı",
       "kategoriler": [
+        {
+          "kategori": "divan_nazim_bicim",
+          "kategori_label": "Divan Nazım Biçimleri",
+          "terimler": [
+            {
+              "terim": "Gazel",
+              "tanim": "Beyitlerle yazılan; ilk beyti kendi arasında, sonraki beyitleri 'aa-ba-ca' düzeninde uyaklı; çoğunlukla aşk-şarap-güzellik konulu biçim.",
+              "ornek": "",
+              "ayirt_edici": "Kaside uzun ve övgü amaçlıdır; bu kısa ve aşk konuludur."
+            },
+            {
+              "terim": "Kaside",
+              "tanim": "Genellikle bir büyüğü övmek için yazılan; gazelle aynı uyak düzeninde ama daha uzun (otuz üç-doksan dokuz beyit) biçim.",
+              "ornek": "",
+              "ayirt_edici": "Gazel kısa ve aşk konuludur; bu uzun ve övgü amaçlıdır."
+            },
+            {
+              "terim": "Mesnevi",
+              "tanim": "Her beyti kendi içinde uyaklı (aa-bb-cc) olan; uzun aşk, kahramanlık ya da öğretici konuların işlendiği biçim.",
+              "ornek": "Leyla vü Mecnun, Hüsn ü Aşk.",
+              "ayirt_edici": "Gazel/kasidede tek uyak sürer; bu her beyitte ayrı uyaktır."
+            },
+            {
+              "terim": "Rubai",
+              "tanim": "Tek dörtlükten oluşan; kendine özgü aruz kalıplarıyla yazılan, felsefi-tasavvufi düşünceyi yoğun anlatan biçim.",
+              "ornek": "Mevlana, Ömer Hayyam.",
+              "ayirt_edici": "Tuyuğ Türklere özgü ve cinaslıdır; bu İran kökenlidir."
+            },
+            {
+              "terim": "Tuyuğ",
+              "tanim": "Türklerin Divan edebiyatına kazandırdığı; tek dörtlükten oluşan, cinaslı uyak kullanılan, mâni etkili biçim.",
+              "ornek": "Kadı Burhanettin, Nesimî.",
+              "ayirt_edici": "Rubai İran kökenlidir; bu Türklere özgü ve cinaslıdır."
+            },
+            {
+              "terim": "Şarkı",
+              "tanim": "Bestelenmek üzere yazılan; dörtlük bentli, nakaratlı (her bendin belli dizesi yinelenen) biçim.",
+              "ornek": "Nedim.",
+              "ayirt_edici": "Murabba bestelenmek için değildir; bu bestelenir ve nakaratlıdır."
+            },
+            {
+              "terim": "Müstezat",
+              "tanim": "Bir gazelin her dizesine kısa bir dize (ziyade) eklenerek oluşturulan biçim.",
+              "ornek": "",
+              "ayirt_edici": "Gazelden farkı her dizeye eklenen kısa ziyade dizelerdir."
+            },
+            {
+              "terim": "Terkib-i Bend",
+              "tanim": "Bentlerden oluşan; her bendin sonunda farklı bir vasıta beyti bulunan; çoğunlukla mersiye/toplumsal eleştiri konulu biçim.",
+              "ornek": "Bağdatlı Ruhi, Ziya Paşa.",
+              "ayirt_edici": "Terci-i bendde vasıta beyti aynıdır; burada her bentte farklıdır."
+            },
+            {
+              "terim": "Terci-i Bend",
+              "tanim": "Bentlerden oluşan; her bendin sonunda aynı vasıta beyti yinelenen biçim.",
+              "ornek": "Ziya Paşa.",
+              "ayirt_edici": "Terkib-i bendde vasıta beyti değişir; burada aynı beyit tekrarlanır."
+            }
+          ]
+        },
+        {
+          "kategori": "divan_nazim_tur",
+          "kategori_label": "Divan Nazım Türleri (Konuya Göre)",
+          "terimler": [
+            {
+              "terim": "Tevhid",
+              "tanim": "Allah'ın birliğini ve yüceliğini anlatan Divan şiiri konusu.",
+              "ornek": "",
+              "ayirt_edici": "Münacat yakarış/duadır; bu Allah'ın birliğini anlatır."
+            },
+            {
+              "terim": "Münacat",
+              "tanim": "Allah'a yakarış, dua ve yalvarışı içeren Divan şiiri konusu.",
+              "ornek": "",
+              "ayirt_edici": "Tevhid birliği anlatır; bu yakarış/duadır."
+            },
+            {
+              "terim": "Naat",
+              "tanim": "Hz. Muhammed'i övmek için yazılan Divan şiiri konusu.",
+              "ornek": "Fuzuli, Su Kasidesi.",
+              "ayirt_edici": "Methiye devlet büyüğünü över; bu peygamberi över."
+            },
+            {
+              "terim": "Methiye",
+              "tanim": "Bir devlet büyüğünü ya da ileri geleni övmek için yazılan; kasidenin de bir bölümü olan tür.",
+              "ornek": "",
+              "ayirt_edici": "Naat peygamberi över; bu devlet büyüğünü över."
+            },
+            {
+              "terim": "Mersiye",
+              "tanim": "Bir kişinin ölümünden duyulan üzüntüyü anlatan; ölenin meziyetlerini öven tür.",
+              "ornek": "Baki, Kanuni Mersiyesi.",
+              "ayirt_edici": "Halk şiirinde ağıt, İslam öncesinde sagu karşılığıdır."
+            },
+            {
+              "terim": "Hicviye",
+              "tanim": "Bir kişiyi ya da durumu yermek, eleştirmek amacıyla yazılan tür.",
+              "ornek": "Nef'i, Siham-ı Kaza.",
+              "ayirt_edici": "Halk şiirindeki taşlamanın karşılığıdır."
+            },
+            {
+              "terim": "Fahriye",
+              "tanim": "Şairin kendini ve sanatını övdüğü bölüm/tür.",
+              "ornek": "",
+              "ayirt_edici": "Methiye başkasını över; bu şairin kendini övmesidir."
+            }
+          ]
+        },
+        {
+          "kategori": "divan_gazel_terim",
+          "kategori_label": "Gazel/Kaside Terimleri",
+          "terimler": [
+            {
+              "terim": "Matla",
+              "tanim": "Gazel ya da kasidenin, iki dizesi de birbiriyle uyaklı olan ilk beyti.",
+              "ornek": "",
+              "ayirt_edici": "Makta son beyittir; bu ilk beyittir."
+            },
+            {
+              "terim": "Makta",
+              "tanim": "Gazelin, şairin takma adının (mahlas) geçtiği son beyti.",
+              "ornek": "",
+              "ayirt_edici": "Matla ilk beyittir; bu son beyittir, şair adı burada geçer."
+            },
+            {
+              "terim": "Mahlas",
+              "tanim": "Divan şairinin şiirlerinde kullandığı takma ad; çoğunlukla son beyitte geçer.",
+              "ornek": "",
+              "ayirt_edici": "Bir beyit değil, şairin takma adıdır."
+            },
+            {
+              "terim": "Beytü'l-gazel (Şah Beyit)",
+              "tanim": "Bir gazelin en güzel, en başarılı sayılan beyti.",
+              "ornek": "",
+              "ayirt_edici": "Yeri sabit değildir; en güzel beyittir."
+            }
+          ]
+        },
+        {
+          "kategori": "divan_uslup",
+          "kategori_label": "Divan Üslupları",
+          "terimler": [
+            {
+              "terim": "Sebk-i Hindi",
+              "tanim": "On yedinci yüzyılda yaygınlaşan; derin hayaller, ince/karmaşık mazmunlar ve kapalı söyleyişe dayanan üslup.",
+              "ornek": "Naili, Şeyh Galip.",
+              "ayirt_edici": "Mahallileşme yerlilik/sadelik; bu kapalılık/derin hayaldir."
+            },
+            {
+              "terim": "Mahallileşme",
+              "tanim": "Divan şiirine günlük yaşamdan, halk söyleyişinden ve yerli unsurlardan ögeler katma eğilimi.",
+              "ornek": "Nedim.",
+              "ayirt_edici": "Sebk-i Hindi kapalı/derindir; bu yerli/sade/günlüktür."
+            },
+            {
+              "terim": "Türkî-i Basit",
+              "tanim": "Divan şiirinde Arapça-Farsça tamlamalardan kaçınıp sade Türkçeyle yazma akımı.",
+              "ornek": "Aydınlı Visali, Tatavlalı Mahremi.",
+              "ayirt_edici": "Mahallileşme yerli ögelerdir; bu özellikle sade Türkçe/terkipsizliktir."
+            }
+          ]
+        },
         {
           "kategori": "divan_nesir",
           "kategori_label": "Divan Nesir Türleri",
