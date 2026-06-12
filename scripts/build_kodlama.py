@@ -440,7 +440,10 @@ def main():
     # (REV21c gibi toplu üretimler ayrı JSON'dan gelir).
     merged = dict(KODLAMA)
     extra_n = 0
-    for ef in sorted((DATA_ROOT / 'data').glob('kodlama_extra_*.json')):
+    # Repo içi (scripts/) + repo dışı (data/) extra dosyalarını birleştir; isim dedupe.
+    extra_files = sorted((Path(__file__).parent).glob('kodlama_extra_*.json')) \
+                + sorted((DATA_ROOT / 'data').glob('kodlama_extra_*.json'))
+    for ef in extra_files:
         try:
             ed = json.loads(ef.read_text(encoding='utf-8'))
             for name, k in ed.items():
