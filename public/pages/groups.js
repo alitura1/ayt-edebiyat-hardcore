@@ -78,6 +78,14 @@ export async function renderGroupDetail(slug) {
       </div>
     </div>
 
+    <!-- REV21 — GRUP HAFIZA KODLAMASI (üyelik ipucu) -->
+    ${g.grup_kodlama ? `
+      <div class="mb-5 rounded-xl p-4 bg-gradient-to-br from-purple-500/10 via-fuchsia-500/10 to-violet-500/10 border-2 border-purple-400/40 dark:border-purple-400/30">
+        <div class="text-xs font-bold uppercase tracking-wider text-purple-700 dark:text-purple-300 mb-1.5">🧠 Hafıza Kodlaması (üyeler)</div>
+        <p class="text-sm leading-relaxed text-slate-800 dark:text-slate-100">${g.grup_kodlama}</p>
+      </div>
+    ` : ''}
+
     <!-- ÜYELER -->
     <div class="mb-5">
       <h2 class="text-lg font-bold mb-3">👥 Üyeler (${uyeProfiller.length})</h2>

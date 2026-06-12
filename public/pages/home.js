@@ -748,6 +748,7 @@ async function renderEdebiyatHome() {
       ${shortcut('program', '📅', 'Program', '4 haftalık', 'accent')}
       ${shortcut('sozluk', '📓', 'Sözlük', 'Akım/eser', 'primary')}
       ${shortcut('terimler', '📚', 'Terimler', 'Fütüvvetname, sagu...', 'accent')}
+      ${shortcut('kodlama', '🧠', 'Kodlama', 'Yazar hafıza tekniği', 'accent')}
       ${shortcut('kartlar', '🃏', 'Kartlar', `${allCards.length} kart`, 'primary')}
       ${shortcut('istatistik', '📊', 'İstatistik', 'İlerleme grafiği', 'primary')}
       ${shortcut('ayarlar', '⚙️', 'Ayarlar', 'Tema, sıfırla', 'primary')}

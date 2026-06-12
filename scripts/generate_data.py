@@ -2045,6 +2045,85 @@ def gen_terim_cards():
     return cards
 
 
+# REV21 — Hafıza kodlaması kaynağı (build_kodlama.py çıktısı)
+_KODLAMA_CACHE = None
+def get_kodlama():
+    global _KODLAMA_CACHE
+    if _KODLAMA_CACHE is None:
+        try:
+            kp = BASE / 'data' / 'kodlama_kaynak.json'
+            _KODLAMA_CACHE = json.loads(kp.read_text(encoding='utf-8')) if kp.exists() else {}
+        except Exception:
+            _KODLAMA_CACHE = {}
+    return _KODLAMA_CACHE
+
+
+def gen_kodlama_cards():
+    """REV21 — Hafıza kodlaması kartları: sahne→yazar + sahne→eser.
+    sahne quiz prompt'u olur; yazar/eser adını DÜZ METİN içermez (spoiler-safe)."""
+    cards = []
+    kodlama = get_kodlama()
+    if not kodlama:
+        return cards
+    GENERIC = {'Divan', 'Şiirleri', 'Şiirler', 'Şarkıları', 'Nefesler', 'Halk Hikayesi'}
+    for yazar, k in kodlama.items():
+        sahne = k.get('sahne', ''); cozum = k.get('cozum', '')
+        ad_c = k.get('ad_cagrisimi', ''); emoji = k.get('emoji', '🧠')
+        if not sahne:
+            continue
+        meta = get_author_meta(yazar)
+        donem_topic = meta.get('donem', '') or DONEM_TOPIC.get(YAZAR_DONEM.get(yazar, ''), 'cumhuriyet')
+        konu = donem_topic
+        alt = yazar.lower().replace(' ', '_')
+        sahne_low = sahne.lower()
+
+        # 1) SAHNE → YAZAR
+        cel_y = celdirici_yazar_ayni_donem(yazar, 4)
+        if len(cel_y) < 4:  # niş dönemlerde diğer kodlama yazarlarıyla doldur
+            pad = shuffle_seed([n for n in kodlama if n != yazar and n not in cel_y], yazar + '-kpad')
+            for n in pad:
+                if len(cel_y) >= 4:
+                    break
+                cel_y.append(n)
+        if len(cel_y) >= 3:
+            c = card(
+                id_=f"kdy_{len(cards):04d}", konu=konu, alt=alt, tip='kodlama-yazar',
+                soru=f"{emoji} <strong>Hafıza sahnesi:</strong><br><em>{sahne}</em><br><br>Bu sahne hangi yazarı kodluyor?",
+                dogru_text=yazar, celdiriciler=cel_y,
+                aciklama=f"<strong>🔑 {ad_c}</strong><br>{cozum}",
+                tuzak="<strong>⚠ Sahneyi çöz:</strong> her sembol bir esere/temaya işaret eder; çeldiriciler aynı dönemden yazarlardır.",
+                zorluk='orta',
+                osym_stratejisi="Hafıza kodlaması: sahnedeki sesçil kanca + sembolleri yazara bağla. Çeldiriciler aynı dönem olduğu için tek başına dönem yetmez — eser/temaya bak.",
+                dersini_ogren=f"{ad_c} → {yazar}.",
+            )
+            c['kaynak'] = 'kodlama'; c['kodlama'] = 'hepsi'; c['kodlama_donem'] = donem_topic
+            cards.append(c)
+
+        # 2) SAHNE → ESER (ilk spesifik eser; sahne o eseri içermiyorsa = spoiler guard)
+        diger = (meta.get('diger_eserler') or '')
+        works = [w.strip() for w in diger.split(',') if w.strip()]
+        spesifik = [w for w in works if w.split(' (')[0].strip() not in GENERIC]
+        if spesifik:
+            dogru_eser = spesifik[0]
+            core = dogru_eser.split(' (')[0].strip().lower()
+            if core and core not in sahne_low:
+                cel_e = celdirici_eser_ayni_yazar_donem(dogru_eser, 4, exclude_yazar=yazar)
+                if len(cel_e) >= 3:
+                    c = card(
+                        id_=f"kde_{len(cards):04d}", konu=konu, alt=alt, tip='kodlama-eser',
+                        soru=f"{emoji} <strong>Hafıza sahnesi:</strong><br><em>{sahne}</em><br><br>Bu sahnenin kodladığı yazarın eseri aşağıdakilerden hangisidir?",
+                        dogru_text=dogru_eser, celdiriciler=cel_e,
+                        aciklama=f"<strong>🔑 {ad_c}</strong><br>{cozum}",
+                        tuzak="<strong>⚠ Çeldiriciler</strong> aynı dönemden başka yazarların eserleridir.",
+                        zorluk='zor',
+                        osym_stratejisi="Sahne → yazar → eser zinciri. Önce sahneyi yazara çöz, sonra o yazarın imza eserini seç.",
+                        dersini_ogren=f"{yazar} → {dogru_eser}.",
+                    )
+                    c['kaynak'] = 'kodlama'; c['kodlama'] = 'hepsi'; c['kodlama_donem'] = donem_topic
+                    cards.append(c)
+    return cards
+
+
 # =====================================================
 # Ana üretim
 # =====================================================
@@ -2095,6 +2174,8 @@ def main():
     print(f"  terim (4 tip): {len([c for c in all_cards if c.get('terim_kategori')])}")
     all_cards += gen_ilkler_cards()
     print(f"  ilkler: {len([c for c in all_cards if c['tip']=='ilkler-eser'])}")
+    all_cards += gen_kodlama_cards()
+    print(f"  kodlama (sahne→yazar/eser): {len([c for c in all_cards if c.get('kaynak')=='kodlama'])}")
 
     print(f"TOPLAM: {len(all_cards)} kart")
 

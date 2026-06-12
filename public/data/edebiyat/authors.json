@@ -75,7 +75,14 @@
       "Baki",
       "Şeyh Galip",
       "Nedim"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Fuzuli → 'fasulye sulu' / 'fuzulî = boşuna seven'",
+      "sahne": "Çölde aklını yitirmiş bir âşık, kavuşamadığı sevgili için yanar; susuzluktan suya yalvararak peygambere methiye düzer; bir de devlet kapısına 'bahşişimi vermediler' diye sitem mektubu yazar.",
+      "cozum": "Çölde âşık (Mecnun) + sevgili (Leyla) → Leyla vü Mecnun · suya methiye / peygamber sevgisi → Su Kasidesi · maaş sitemi mektubu → Şikayetname · Kerbela mersiyesi → Hadîkatü's-Suedâ · afyon-şarap münazarası → Beng ü Bâde. ACILI/tasavvufi (16. yy). Tuzak: Baki zarif/dünyevi.",
+      "tip": "hikaye",
+      "emoji": "💧"
+    }
   },
   {
     "name": "Recaizade Mahmut Ekrem",
@@ -154,7 +161,14 @@
       "Muallim Naci",
       "Abdülhak Hamit Tarhan",
       "Samipaşazade Sezai"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Recaizade → 'üstad', fayton züppesi Bihruz · Muallim Naci kavgası",
+      "sahne": "Tanzimat II. dönemin 'üstadı'; faytonuyla hava atan, Fransızca özentisi alafranga bir züppenin trajikomik aşkını yazar; 'her güzel şey şiirdir' diyerek eski kafalı bir hocayla kıyasıya tartışır ('Zemzeme'-'Demdeme' atışması).",
+      "cozum": "Fayton meraklısı züppe (Bihruz) → Araba Sevdası (ilk realist romanlardan) · yeni şiir bildirisi → Zemzeme (Muallim Naci'nin Demdeme'sine karşı) · edebiyat ders kitabı → Talim-i Edebiyat. Tuzak: Recaizade YENİ/Batı ↔ Muallim Naci ESKİ/Doğu.",
+      "tip": "hikaye",
+      "emoji": "🛞"
+    }
   },
   {
     "name": "Ahmet Haşim",
@@ -227,7 +241,14 @@
       "Cenap Şahabettin",
       "Yahya Kemal Beyatlı",
       "Tevfik Fikret"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Ahmet Haşim → 'haşmetli akşam', saf şiir/imge",
+      "sahne": "Akşamı, kızıl gurubu, durgun gölleri saplantı gibi yazan şair; 'şiir anlaşılmak için değil, hissedilmek içindir' der; bir içki kadehinden gün batımı seyreder; gündelik denemeler ve bir de Almanya gezi notları bırakır.",
+      "cozum": "İçki kadehi (gün batımı) → Piyale (içinde 'Merdiven', 'O Belde') · durgun göller/akşam → Göl Saatleri · denemeler → Bize Göre · gezi → Frankfurt Seyahatnamesi. Saf şiir + imge, Fecr-i Âti. Tuzak: Cenap Şahabettin (Servet-i Fünun) ile karıştırma.",
+      "tip": "hikaye",
+      "emoji": "🌅"
+    }
   },
   {
     "name": "Nabi",
@@ -299,7 +320,14 @@
       "Nef'i",
       "Şeyh Galip",
       "Naili"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Nabi → 'na-bi' = öğüt veren bilge",
+      "sahne": "Bilge bir baba oğlunun kulağını çeker, sayfalarca öğüt verir; sonra deveye binip iki kutsal beldeyi hac niyetine gezer, dönüşte gördüğü bir düğün alayının şenliğini satır satır anlatır.",
+      "cozum": "Oğula öğüt (hikemî/didaktik) → Hayriye · iki kutsal belde hac → Tuhfetü'l-Haremeyn · düğün şenliği → Surname · aşk mesnevisi → Hayrabad. Nabi = ÖĞÜT/hikmet şiirinin öncüsü (17. yy).",
+      "tip": "hikaye",
+      "emoji": "📿"
+    }
   },
   {
     "name": "Namık Kemal",
@@ -370,7 +398,14 @@
       "Şinasi",
       "Ziya Paşa",
       "Ahmet Mithat Efendi"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Namık Kemal → 'vatan + hürriyet şairi', Tanzimat I. dönem",
+      "sahne": "'Vatan, hürriyet, millet' diye gürleyen heyecanlı bir Tanzimatçı; bir vatan müdafaası oyunu sahnelenince halk sokağa dökülür (sürgüne yollanır); ilk edebî romanda baştan çıkan bir gencin uyanışını, ilk tarihî romanda kahraman bir Türk'ü yazar.",
+      "cozum": "Vatan savunması oyunu → Vatan yahut Silistre (halkı coşturdu, sürgün sebebi) · ilk edebî roman (uyanış) → İntibah · ilk tarihî roman → Cezmi · oyunlar → Gülnihal, Akif Bey. Tanzimat I. dönem (toplum için sanat, vatan-hürriyet).",
+      "tip": "hikaye",
+      "emoji": "🇹🇷"
+    }
   },
   {
     "name": "Necati Bey",
@@ -442,7 +477,8 @@
       "Necati Cumalı",
       "Şeyhi",
       "Ahmedi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Refik Halit Karay",
@@ -514,7 +550,14 @@
       "Ömer Seyfettin",
       "Reşat Nuri Güntekin",
       "Yakup Kadri Karaosmanoğlu"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Refik → 'refakat/uzak yoldaş', Karay → kara yollar",
+      "sahne": "Muhalif kalemi yüzünden iki kez yurdundan kovulan bir yazar; bir deftere doğduğu kasabanın insanlarını, öbür deftere uzak diyarlardaki özlemi yazar. Eski bir konak beyi yeni düzene ayak uydurmaya çalışır.",
+      "cozum": "Yurttan kovulma → Sürgün · doğduğu kasaba insanları → Memleket Hikayeleri · uzak diyar/özlem → Gurbet Hikayeleri · yeni düzene uyan eski bey → Bugünün Saraylısı · doğu/inanç → Yezidin Kızı. İki kez sürgün → gurbet/memleket teması.",
+      "tip": "hikaye",
+      "emoji": "🧳"
+    }
   },
   {
     "name": "Ahmet Mithat Efendi",
@@ -581,7 +624,14 @@
       "Şemsettin Sami",
       "Namık Kemal",
       "Şinasi"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Ahmet Mithat → 'hâce-i evvel (ilk hoca)', yazı makinesi · halk için",
+      "sahne": "Halkı eğitmek için durmadan yazan 'ilk hoca'; alafranga bir züppe ile çalışkan yerli genci karşılaştırır (Doğu-Batı dersi); macera-deniz romanları ve sayısız küçük hikâye anlatır; 'okur kaçmasın' diye araya girip açıklar.",
+      "cozum": "Alafranga züppe (Felatun) ↔ çalışkan yerli (Rakım) → Felâtun Bey ile Râkım Efendi (yanlış Batılılaşma) · hikâye dizisi → Letaif-i Rivayet · deniz/macera → Hasan Mellah. Tanzimat, halkçı/didaktik. Tuzak: züppe tipi sonra Bihruz (Recaizade).",
+      "tip": "hikaye",
+      "emoji": "👨‍🏫"
+    }
   },
   {
     "name": "Abdülhak Hamit Tarhan",
@@ -641,7 +691,8 @@
       "Recaizade Mahmut Ekrem",
       "Tevfik Fikret",
       "Muallim Naci"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Şeyhi",
@@ -701,7 +752,14 @@
       "Şeyh Galip",
       "Ahmedi",
       "Necati Bey"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Şeyhi → 'şifacı hekim', eşek hikâyesi",
+      "sahne": "Hem hekim hem şair; padişahtan aldığı köyü zorbalar elinden alınca, semiz öküzlere özenip boynuz isterken kulakları kesilen zavallı bir eşeğin hikâyesiyle mizahî/alegorik sitem yazar; bir de hükümdar-güzel aşkını anlatır.",
+      "cozum": "Boynuz isterken kulağından olan eşek (mizahî hiciv) → Harname · hükümdar Hüsrev + güzel Şirin aşkı → Hüsrev ü Şirin. 15. yy, ilk büyük mizah/fabl-mesnevi. Tuzak: Harname = Şeyhi (hekim-şair).",
+      "tip": "hikaye",
+      "emoji": "🫏"
+    }
   },
   {
     "name": "Ahmedi",
@@ -755,7 +813,14 @@
       "Şeyhi",
       "Süleyman Çelebi",
       "Hacı Bayram Veli"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Ahmedi → büyük cihangirin destancısı (14. yy)",
+      "sahne": "14. yüzyıl şairi; dünyayı fetheden efsanevi bir cihangirin maceralarını ve çağın bütün ilmini koca bir mesneviye sığdırır; ayrıca güneş ile yıldız adlı iki sevgilinin aşkını yazar.",
+      "cozum": "Dünya fatihi cihangir (İskender) destanı → İskendername (ilk büyük Türkçe İskender mesnevisi, ansiklopedik) · güneş+yıldız aşkı → Cemşid ü Hurşid. Ahmedi = 14. yy mesnevi.",
+      "tip": "hikaye",
+      "emoji": "⚔️"
+    }
   },
   {
     "name": "Cenap Şahabettin",
@@ -809,7 +874,8 @@
       "Ahmet Haşim",
       "Tevfik Fikret",
       "Süleyman Nazif"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Faruk Nafiz Çamlıbel",
@@ -863,7 +929,14 @@
       "Yusuf Ziya Ortaç",
       "Orhan Seyfi Orhon",
       "Ahmet Kutsi Tecer"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Faruk Nafiz → 'far/yol lambası', Anadolu yolcusu · Beş Hececiler",
+      "sahne": "İstanbullu bir öğretmen at arabasıyla Anadolu'ya gider; bir kervansarayın duvarlarına kazınmış dizeleri okur; memleket sevgisini, çobanı, pınarı hece vezniyle yazar; 'yabancı ilham değil, kendi toprağımız' der.",
+      "cozum": "Kervansaray/han duvarındaki dizeler → Han Duvarları (Anadolu'ya açılan memleketçi şiir) · çoban + pınar → Çoban Çeşmesi · yerli sanat manifestosu → Sanat ('Başka sanat bilmeyiz...'). Beş Hececiler, memleket edebiyatı.",
+      "tip": "hikaye",
+      "emoji": "🐎"
+    }
   },
   {
     "name": "Memduh Şevket Esendal",
@@ -918,7 +991,14 @@
       "Sabahattin Ali",
       "Orhan Kemal",
       "Refik Halit Karay"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Memduh Şevket → 'mendil', durum (Çehov tarzı) hikâyesi",
+      "sahne": "Olaysız, sıradan günleri 'hiçbir şey olmadan' anlatan hikâyeci; bir apartmanda başkente yeni gelen kiracıların küçük dünyasını çizer; bedavacı bir tipi, bir el oyununu konu eder.",
+      "cozum": "Apartman + Ankaralı kiracılar → Ayaşlı ve Kiracıları (tek romanı) · bedavacı tip → Otlakçı · gizli el → Mendil Altında · eşkıya → Çakıcının İlk Kurşunu. Maupassant/Çehov tarzı DURUM (kesit) hikâyesi. Tuzak: Ömer Seyfettin OLAY ≠ Esendal DURUM.",
+      "tip": "hikaye",
+      "emoji": "🧣"
+    }
   },
   {
     "name": "Nedim",
@@ -973,7 +1053,14 @@
       "Şeyh Galip",
       "Nabi",
       "Nef'i"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Nedim → 'nedime/eğlence dostu', Lale Devri zevki",
+      "sahne": "Lale Devri'nin neşeli şairi; İstanbul'un mesire yerlerini, içkiyi, güzelleri ezgi ezgi anlatır; ağır tasavvufu bırakıp 'mahalleye iner', günlük zevki över.",
+      "cozum": "Şarkı nazım biçimini zirveye taşıdı → Şarkıları · toplu şiirleri → Divan-ı Nedim. Mahallileşme + Lale Devri + dünyevi zevk (18. yy). Tuzak: tasavvuf değil, hayatın neşesi.",
+      "tip": "hikaye",
+      "emoji": "🌷"
+    }
   },
   {
     "name": "Orhan Veli Kanık",
@@ -1027,7 +1114,14 @@
       "Melih Cevdet Anday",
       "Cahit Külebi",
       "Ece Ayhan"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Orhan Veli → 'garip veli', ölçü-kafiyeyi çöpe atan üçlünün başı",
+      "sahne": "Üç arkadaş ölçüyü, kafiyeyi, süslü mecazı çöpe atar; sokaktaki sıradan insanı, bedava yaşamayı, küçük şeyleri esprili bir dille yazar; 'şiir herkesin' derler.",
+      "cozum": "Akımın adı + ilk kitap → Garip (1941; Melih Cevdet + Oktay Rifat ile). Diğerleri: Vazgeçemediğim, Yenisi, Karşı. Ölçüsüz-kafiyesiz serbest, gündelik hayat. Tuzak: I. Yeni = Garip.",
+      "tip": "hikaye",
+      "emoji": "🗑️"
+    }
   },
   {
     "name": "Sabahattin Ali",
@@ -1081,7 +1175,8 @@
       "Orhan Kemal",
       "Yaşar Kemal",
       "Kemal Tahir"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Taşlıcalı Yahya",
@@ -1135,7 +1230,8 @@
       "Şeyhülislam Yahya",
       "Baki",
       "Hayali Bey"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Tevfik Fikret",
@@ -1190,7 +1286,8 @@
       "Cenap Şahabettin",
       "Mehmet Akif Ersoy",
       "Yahya Kemal Beyatlı"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Yahya Kemal Beyatlı",
@@ -1246,7 +1343,14 @@
       "Ahmet Haşim",
       "Ahmet Hamdi Tanpınar",
       "Necip Fazıl Kısakürek"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Yahya Kemal → 'kemal/olgun İstanbul aşığı', sağlığında kitap bastırmadı",
+      "sahne": "Eski Osmanlı zarafetine ve İstanbul'a vurgun şair; aruzu modern Türkçeyle diriltir; 'ölüm bile güzeldir bu şehirde' der; sağlığında tek şiir kitabı bile bastırmaz.",
+      "cozum": "Bizim semamız/kültürümüz → Kendi Gök Kubbemiz · eski şiiri diriltmek → Eski Şiirin Rüzgârıyle · İstanbul denemeleri → Aziz İstanbul. Neoklasik, aruz + saf Türkçe. Tuzak: Ahmet Haşim (imge) ≠ Yahya Kemal (musiki + İstanbul).",
+      "tip": "hikaye",
+      "emoji": "🌉"
+    }
   },
   {
     "name": "Yakup Kadri Karaosmanoğlu",
@@ -1301,7 +1405,14 @@
       "Reşat Nuri Güntekin",
       "Halide Edip Adıvar",
       "Refik Halit Karay"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Yakup Kadri → 'yaban/yabancı aydın', Kadro dergisi · dönem romancısı",
+      "sahne": "Her romanında bir devri kesen yazar; köye giden aydının köylüyle uçurumunu, bir konağın üç kuşakta çöküşünü, bir tekkenin yozlaşmasını, Meşrutiyet'in kanlı gecesini, yeni başkentin kuruluş heyecanını anlatır.",
+      "cozum": "Köy-aydın uçurumu → Yaban · üç kuşakta çöken konak → Kiralık Konak · yozlaşan Bektaşi tekkesi → Nur Baba · Meşrutiyet/İttihat çatışması → Hüküm Gecesi · yeni başkent → Ankara. Milli Edebiyat → Kadro, 'dönem panoraması' romancısı.",
+      "tip": "hikaye",
+      "emoji": "🌾"
+    }
   },
   {
     "name": "Âşık Paşa",
@@ -1355,7 +1466,14 @@
       "Yunus Emre",
       "Sultan Veled",
       "Mevlana"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Âşık Paşa → Anadolu'da garip bir derviş, öğüt + Türkçe sevdası",
+      "sahne": "Anadolu'da garip bir derviş; halk Arapça-Farsça okurken 'kendi dilimiz hor görülmesin' diye on binlerce beyitlik bir öğüt kitabı yazar; gurbeti, ölümü, dünyanın geçiciliğini anlatır.",
+      "cozum": "Garip derviş + Türkçe savunusu + öğüt → Garib-name (Garipname; 14. yy, Türkçenin değerini savunan didaktik mesnevi). Âşık Paşa = Anadolu'da Türkçe bilincinin erken sesi.",
+      "tip": "hikaye",
+      "emoji": "🧎"
+    }
   },
   {
     "name": "Şeyh Galip",
@@ -1409,7 +1527,14 @@
       "Nedim",
       "Nef'i",
       "Naili"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Şeyh Galip → 'galip gelen aşk', Mevlevi + Hint tarzı (sebk-i hindi)",
+      "sahne": "Mevlevi tekkesinin son büyük şairi; 'Güzellik' ile 'Sevgi' adlı iki kahramanın diyar diyar geçtikleri imtihanlarla buluştuğu alegorik bir mesnevi yazar; dili girift, hayalleri uçuk.",
+      "cozum": "Güzellik (Hüsn) + Sevgi (Aşk) alegorisi → Hüsn ü Aşk (son büyük mesnevi, sebk-i hindi) · mesnevi şerhi → Şerh-i Cezîre-i Mesnevî. 18. yy Mevlevi. Tuzak: Fuzuli'nin Leyla vü Mecnun'u ile karıştırma.",
+      "tip": "hikaye",
+      "emoji": "🌹"
+    }
   },
   {
     "name": "Ahmet Hamdi Tanpınar",
@@ -1457,7 +1582,14 @@
       "Oğuz Atay",
       "Peyami Safa",
       "Yahya Kemal Beyatlı"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Tanpınar → 'tam-ayar pınarı', saat/zaman takıntısı",
+      "sahne": "Bütün ülkenin kol saatlerini tek bir dakikaya çekmek için koca bir resmî kurum kuran adam; iç dünyası dinginleşsin ister, yurdun dört bir yanından beş durağı dolaşır, kulağında küflü bir Osmanlı makamı, ama hep perdenin gerisinde kalır.",
+      "cozum": "Saatleri tek dakikaya çeken kurum → Saatleri Ayarlama Enstitüsü · iç dinginlik → Huzur · beş durak/şehir → Beş Şehir · eski Osmanlı makamı → Mahur Beste · perde gerisi → Sahnenin Dışındakiler. Zaman + Doğu-Batı medeniyeti teması.",
+      "tip": "hikaye",
+      "emoji": "⏰"
+    }
   },
   {
     "name": "Ahmet Kutsi Tecer",
@@ -1505,7 +1637,8 @@
       "Faruk Nafiz Çamlıbel",
       "Cahit Külebi",
       "Bedri Rahmi Eyüboğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ahmet Paşa",
@@ -1553,7 +1686,8 @@
       "Baki",
       "Necati Bey",
       "Şeyhi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Baki",
@@ -1601,7 +1735,14 @@
       "Fuzuli",
       "Nedim",
       "Nef'i"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Baki → 'baki/ölümsüz', Sultanü'ş-Şuara (şairler sultanı)",
+      "sahne": "Saray çevresinde zarif, dünyevi bir şair; koca bir padişah ölünce arkasından görkemli bir ağıt düzer, 'her şey gelip geçer' der ama şöhreti kalıcı olur.",
+      "cozum": "Padişah (Kanuni) ölümüne görkemli ağıt → Kanuni Mersiyesi · dinî eser → Mealimü'l-Yakin. Zarif/dünyevi gazel, 'şairler sultanı' (16. yy). Tuzak: Fuzuli ACILI/tasavvufi ↔ Baki ZARİF/dünyevi.",
+      "tip": "hikaye",
+      "emoji": "👑"
+    }
   },
   {
     "name": "Haldun Taner",
@@ -1648,7 +1789,8 @@
       "Necip Fazıl Kısakürek",
       "Cevat Fehmi Başkut",
       "Aziz Nesin"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Halide Edip Adıvar",
@@ -1698,7 +1840,14 @@
       "Reşat Nuri Güntekin",
       "Yakup Kadri Karaosmanoğlu",
       "Refik Halit Karay"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Halide Edip → Kurtuluş Savaşı'nın kadın sesi · güçlü kadın kahramanlar",
+      "sahne": "Milli Mücadele'de kürsüden halkı coşturan, cepheye koşan bir kadın yazar; İstanbul'un dar bir mahallesinde Doğu-Batı sentezini, işgale karşı yanan bir gömleği, bir öğretmen kıza atılan iftirayı anlatır; güçlü kadın kahramanlar kurar.",
+      "cozum": "İstanbul'un dar mahallesi (Doğu-Batı sentezi) → Sinekli Bakkal (en ünlü) · işgal/Milli Mücadele ateşi → Ateşten Gömlek · öğretmene iftira → Vurun Kahpeye · güçlü kadın → Handan. Milli Edebiyat, kadın kahraman + Kurtuluş Savaşı. Tuzak: Reşat Nuri (Çalıkuşu) ile karıştırma.",
+      "tip": "hikaye",
+      "emoji": "🔥"
+    }
   },
   {
     "name": "Hayali Bey",
@@ -1746,7 +1895,8 @@
       "Baki",
       "Fuzuli",
       "Nedim"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Köroğlu",
@@ -1796,7 +1946,14 @@
       "Karacaoğlan",
       "Dadaloğlu",
       "Aşık Veysel"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Köroğlu → 'kör baba + at Kırat', dağdaki yiğit",
+      "sahne": "Babasının gözüne mil çekilince dağa çıkan yiğit; atına atlayıp zalim beye kafa tutar; mertlik, savaş, kahramanlık coşkusuyla türküler söyler ('Benden selam olsun Bolu Beyi'ne').",
+      "cozum": "Kahramanlık/savaş coşkusu türküleri → koçaklamaları · etrafında oluşan destansı anlatı → Köroğlu Halk Hikâyesi. 16. yy âşık. Tuzak: aşk=güzelleme (Karacaoğlan), kahramanlık=koçaklama (Köroğlu/Dadaloğlu).",
+      "tip": "hikaye",
+      "emoji": "🐎"
+    }
   },
   {
     "name": "Mehmet Akif Ersoy",
@@ -1846,7 +2003,14 @@
       "Tevfik Fikret",
       "Yahya Kemal Beyatlı",
       "Necip Fazıl Kısakürek"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Mehmet Akif → 'âkif/sebatkâr', İstiklal Marşı şairi",
+      "sahne": "Halkın içinden, manzum hikâyelerle yoksul mahalleleri anlatan dindar bir şair; bir caminin kürsüsünden vaaz verir, milletin istiklalini haykırır; bütün şiirlerini tek bir 'safhalar/aşamalar' kitabında toplar.",
+      "cozum": "Safhalar/aşamalar (hayat sahneleri) → Safahat (7 kitap, manzum gerçekçilik) · cami kürsüsünden vaaz → Süleymaniye Kürsüsünde. İstiklal Marşı şairi (Safahat'a koymadı). Milli Edebiyat + İslamcı çizgi.",
+      "tip": "hikaye",
+      "emoji": "🕌"
+    }
   },
   {
     "name": "Nef'i",
@@ -1894,7 +2058,14 @@
       "Nabi",
       "Naili",
       "Şeyhülislam Yahya"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Nef'i → 'nefret okları', övgüde ve sövgüde zirve",
+      "sahne": "Keskin dilli şair; kasidede göklere çıkarır (abartılı övgü), hicivde yerin dibine sokar; 'kaza okları' adlı zehirli yergilerinden sonra bu dili yüzünden boğdurulur.",
+      "cozum": "Zehirli hiciv okları → Siham-ı Kaza ('kaza okları' — bu yüzden idam edildi) · aşk/övgü → Tuhfetü'l-Uşşak. 17. yy: abartılı kaside (fahriye) + hiciv ustası. Tuzak: methiye+fahriye Nef'i; hikemî Nabi.",
+      "tip": "hikaye",
+      "emoji": "🏹"
+    }
   },
   {
     "name": "Orhan Kemal",
@@ -1942,7 +2113,14 @@
       "Yaşar Kemal",
       "Kemal Tahir",
       "Sabahattin Ali"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Orhan Kemal → 'orhan + emek', Çukurova işçisi · toplumcu gerçekçi",
+      "sahne": "Çukurova'ya iş için göçen üç köylünün fabrikada ve tarlada ezilişini yazar; görev sarhoşu bir bekçiyi, çiftlikte ağa düzenini, yoksul mahalle insanlarını anlatır; emeği ve sınıfı konu eder.",
+      "cozum": "Çukurova'ya göçen üç işçi → Bereketli Topraklar Üzerinde · görev delisi bekçi → Murtaza · ağa/çiftlik → Hanımın Çiftliği · eskici aile → Eskici ve Oğulları · genç kız → Cemile. Toplumcu gerçekçi (işçi/köylü).",
+      "tip": "hikaye",
+      "emoji": "🏭"
+    }
   },
   {
     "name": "Reşat Nuri Güntekin",
@@ -1992,7 +2170,14 @@
       "Halide Edip Adıvar",
       "Yakup Kadri Karaosmanoğlu",
       "Refik Halit Karay"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Reşat Nuri → 'reçel nur', Anadolu öğretmeni Feride",
+      "sahne": "İstanbul'dan Anadolu'ya öğretmen olarak giden cıvıl cıvıl, kuş gibi genç bir kadın; bir ailenin yaprak yaprak dökülüp dağılışını, taassuba karşı bir öğretmenin mücadelesini, dudakta başlayıp kalbe inen bir aşkı anlatır.",
+      "cozum": "Anadolu'ya giden cıvıl cıvıl öğretmen (kuş) → Çalıkuşu (Feride) · dağılan aile → Yaprak Dökümü · taassuba karşı öğretmen → Yeşil Gece · dudakta başlayan aşk → Dudaktan Kalbe · sertlik/merhamet → Acımak. Anadolu + öğretmen teması. Tuzak: Halide Edib ile karıştırma.",
+      "tip": "hikaye",
+      "emoji": "🐦"
+    }
   },
   {
     "name": "Şinasi",
@@ -2041,7 +2226,14 @@
       "Namık Kemal",
       "Ziya Paşa",
       "Ahmet Mithat Efendi"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Şinasi → 'ışın/öncü', Tanzimat'ın ilkçisi",
+      "sahne": "Batı'yı ilk tanıtan öncü; görücü usulü evliliği eleştiren ilk yerli sahne oyununu yazar; ilk özel gazeteyi çıkarıp önsözünde 'halk için' der; bir de atasözlerini derler.",
+      "cozum": "İlk yerli tiyatro (görücü usulü eleştirisi) → Şair Evlenmesi · ilk özel gazete önsözü → Tercüman-ı Ahvâl Mukaddimesi · atasözü derlemesi → Durub-ı Emsal-i Osmaniye · şiir seçkisi → Müntehabat-ı Eş'ar. Tanzimat 'ilk'lerinin adamı.",
+      "tip": "hikaye",
+      "emoji": "📰"
+    }
   },
   {
     "name": "Aka Gündüz",
@@ -2084,7 +2276,8 @@
       "Mehmet Emin Yurdakul",
       "Ahmet Hikmet Müftüoğlu",
       "Ömer Seyfettin"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Attila İlhan",
@@ -2126,7 +2319,8 @@
       "Orhan Veli Kanık",
       "Cemal Süreya",
       "Edip Cansever"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Bedri Rahmi Eyüboğlu",
@@ -2168,7 +2362,8 @@
       "Cahit Külebi",
       "Ahmet Kutsi Tecer",
       "Fazıl Hüsnü Dağlarca"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Halit Fahri Ozansoy",
@@ -2210,7 +2405,8 @@
       "Faruk Nafiz Çamlıbel",
       "Yusuf Ziya Ortaç",
       "Orhan Seyfi Orhon"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hüseyin Cahit Yalçın",
@@ -2253,7 +2449,8 @@
       "Halit Ziya Uşaklıgil",
       "Tevfik Fikret",
       "Mehmet Rauf"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Kemal Tahir",
@@ -2295,7 +2492,8 @@
       "Orhan Kemal",
       "Yaşar Kemal",
       "Sabahattin Ali"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Mithat Cemal Kuntay",
@@ -2337,7 +2535,14 @@
       "Yakup Kadri Karaosmanoğlu",
       "Ahmet Hamdi Tanpınar",
       "Peyami Safa"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Mithat Cemal → üç devir, tek roman",
+      "sahne": "Tek büyük romanıyla anılan yazar; Abdülhamit, Meşrutiyet ve Mütareke olmak üzere üç ayrı çağın başkentini, çürüyen bir nesil üzerinden anlatır.",
+      "cozum": "Üç çağın İstanbul'u (Abdülhamit/Meşrutiyet/Mütareke) → Üç İstanbul. Mithat Cemal = tek romanla kalıcı.",
+      "tip": "hikaye",
+      "emoji": "🏙️"
+    }
   },
   {
     "name": "Muallim Naci",
@@ -2380,7 +2585,8 @@
       "Recaizade Mahmut Ekrem",
       "Abdülhak Hamit Tarhan",
       "Ziya Paşa"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Necati Cumalı",
@@ -2422,7 +2628,8 @@
       "Necati Bey",
       "Yaşar Kemal",
       "Haldun Taner"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Necip Fazıl Kısakürek",
@@ -2464,7 +2671,14 @@
       "Sezai Karakoç",
       "Yahya Kemal Beyatlı",
       "Arif Nihat Asya"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Necip Fazıl → 'çileli üstad', Büyük Doğu · kaldırımlar şairi",
+      "sahne": "Gece kaldırımlarda yürüyen, iç buhran ve metafizik ıstırap çeken 'üstad'; ruhunun ıstırabını haykırır; bir nehre seslenerek milletin derdini anlatır; sahnede kendi trajedisini kuran bir adamı yazar.",
+      "cozum": "İç ıstırap/metafizik acı (toplu şiir) → Çile · gece + yalnızlık → Kaldırımlar · Sakarya nehrine sesleniş → Sakarya Türküsü · tiyatro → Bir Adam Yaratmak. Büyük Doğu, mistik/İslamcı çizgi.",
+      "tip": "hikaye",
+      "emoji": "🌃"
+    }
   },
   {
     "name": "Orhan Seyfi Orhon",
@@ -2506,7 +2720,8 @@
       "Yusuf Ziya Ortaç",
       "Faruk Nafiz Çamlıbel",
       "Enis Behiç Koryürek"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Samipaşazade Sezai",
@@ -2548,7 +2763,8 @@
       "Nabizade Nazım",
       "Recaizade Mahmut Ekrem",
       "Ahmet Mithat Efendi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Sehi Bey",
@@ -2591,7 +2807,14 @@
       "Latifi",
       "Aşık Çelebi",
       "Kınalızade Hasan Çelebi"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Sehi Bey → 'sekiz cennet', ilk şair tezkiresi",
+      "sahne": "Şairlerin hayat ve eserlerini ilk kez derli toplu kaydeden adam; topladığı şair biyografilerini 'sekiz cennet' adlı bir kitapta sekiz bölüme ayırır — Anadolu sahasının ilk şuara tezkiresi.",
+      "cozum": "Sekiz cennet / sekiz bölüm şair biyografileri → Heşt Bihişt (Anadolu'da ilk şair tezkiresi, 16. yy). Sehi Bey = ilk tezkireci. Tuzak: tezkire = şair biyografileri sözlüğü.",
+      "tip": "hikaye",
+      "emoji": "📚"
+    }
   },
   {
     "name": "Süleyman Çelebi",
@@ -2634,7 +2857,14 @@
       "Yunus Emre",
       "Şeyhi",
       "Ahmedi"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Süleyman Çelebi → mevlit yazarı, peygamberin doğumu",
+      "sahne": "Bursa Ulu Cami imamı; Hz. Peygamber'in doğumunu ve miracını coşkulu beyitlerle anlatan, asırlardır kandillerde okunan o meşhur manzumeyi yazar — adı 'kurtuluş vesilesi' demektir.",
+      "cozum": "Peygamberin doğumu (mevlit) → Vesîletü'n-Necât (halk arasında 'Mevlid'). 15. yy, türünün ilk ve en ünlüsü. Tuzak: Mevlid = Süleyman Çelebi.",
+      "tip": "hikaye",
+      "emoji": "🌙"
+    }
   },
   {
     "name": "Tarık Buğra",
@@ -2676,7 +2906,8 @@
       "Kemal Tahir",
       "Ahmet Hamdi Tanpınar",
       "Mustafa Necati Sepetçioğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Yaşar Kemal",
@@ -2718,7 +2949,8 @@
       "Orhan Kemal",
       "Kemal Tahir",
       "Sabahattin Ali"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Yunus Emre",
@@ -2761,7 +2993,8 @@
       "Mevlana",
       "Hacı Bayram Veli",
       "Ahmet Yesevi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Yusuf Ziya Ortaç",
@@ -2803,7 +3036,8 @@
       "Orhan Seyfi Orhon",
       "Faruk Nafiz Çamlıbel",
       "Halit Fahri Ozansoy"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ziya Paşa",
@@ -2845,7 +3079,8 @@
       "Namık Kemal",
       "Şinasi",
       "Ahmet Mithat Efendi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Şemsettin Sami",
@@ -2887,7 +3122,8 @@
       "Ahmet Mithat Efendi",
       "Namık Kemal",
       "Direktör Ali Bey"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Şeyhülislam Yahya",
@@ -2929,7 +3165,14 @@
       "Taşlıcalı Yahya",
       "Nef'i",
       "Nedim"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Şeyhülislam Yahya → din başı ama rind gazel ustası (ironi)",
+      "sahne": "Devletin en yüksek din makamında oturan biri; buna rağmen en güzel, en rind (dünyevi, şarap-aşk temalı) gazelleri yazar; 17. yüzyılın usta gazel şairi sayılır.",
+      "cozum": "Toplu gazelleri → Divan. Şeyhülislam (din makamı) + rind gazel ustası ironisi (17. yy). Tuzak: makamı din, şiiri dünyevi/aşk.",
+      "tip": "hikaye",
+      "emoji": "☪️"
+    }
   },
   {
     "name": "Adalet Ağaoğlu",
@@ -2965,7 +3208,8 @@
       "Latife Tekin",
       "Pınar Kür",
       "Sevgi Soysal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ahmet Hikmet Müftüoğlu",
@@ -3001,7 +3245,8 @@
       "Ömer Seyfettin",
       "Refik Halit Karay",
       "Aka Gündüz"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ahmet Vefik Paşa",
@@ -3037,7 +3282,8 @@
       "Molière",
       "Direktör Ali Bey",
       "Şinasi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ahmet Yesevi",
@@ -3073,7 +3319,8 @@
       "Yunus Emre",
       "Hacı Bayram Veli",
       "Mevlana"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Arif Nihat Asya",
@@ -3109,7 +3356,8 @@
       "Necip Fazıl Kısakürek",
       "Sezai Karakoç",
       "Mehmet Akif Ersoy"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Aristoteles",
@@ -3145,7 +3393,8 @@
       "Boileau",
       "Homeros",
       "Sofokles"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Brancusi",
@@ -3177,7 +3426,8 @@
     "pozisyon": "Çok yönlü",
     "anekdot": "Romanyalı modern heykeltıraş — Türk edebiyatı yazarı değil. AYT'de paragraf sorularında 'sanat' örneği olarak geçer. 'Bilim insanı veya sanatçı' tarzı paragraflarda dikkat.",
     "klasik_tuzak": "Bu bir edebiyat sorusu değil, paragraf wisdom. Cevap kişisi olarak değil, paragraftaki bilgiyle anlam çıkarma.",
-    "rakipleri": []
+    "rakipleri": [],
+    "kodlama": null
   },
   {
     "name": "Cahit Külebi",
@@ -3213,7 +3463,8 @@
       "Ahmet Kutsi Tecer",
       "Bedri Rahmi Eyüboğlu",
       "Faruk Nafiz Çamlıbel"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Cevat Fehmi Başkut",
@@ -3249,7 +3500,8 @@
       "Haldun Taner",
       "Turgut Özakman",
       "Necati Cumalı"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Direktör Ali Bey",
@@ -3285,7 +3537,8 @@
       "Şinasi",
       "Ahmet Vefik Paşa",
       "Namık Kemal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ece Ayhan",
@@ -3321,7 +3574,8 @@
       "Cemal Süreya",
       "Edip Cansever",
       "Turgut Uyar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Enis Behiç Koryürek",
@@ -3357,7 +3611,8 @@
       "Faruk Nafiz Çamlıbel",
       "Halit Fahri Ozansoy",
       "Yusuf Ziya Ortaç"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Falih Rıfkı Atay",
@@ -3393,7 +3648,8 @@
       "Reşat Nuri Güntekin",
       "Ahmet Haşim",
       "Yakup Kadri Karaosmanoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Fazıl Hüsnü Dağlarca",
@@ -3429,7 +3685,8 @@
       "Necip Fazıl Kısakürek",
       "Yahya Kemal Beyatlı",
       "Arif Nihat Asya"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Freud",
@@ -3461,7 +3718,8 @@
     "pozisyon": "Çok yönlü",
     "anekdot": "Avusturyalı psikanalist, edebiyat değil bilim. AYT'de paragraf-anlam veya akım sorusunda 'bilinçaltı/psikanaliz' bağlamında geçer. Sürrealizm akımının kuramsal arka planı.",
     "klasik_tuzak": "Türk yazarı değil, paragraf wisdom için kullanılır. Sürrealizm akımıyla ilişkilendirildiğinde anlam kazanır.",
-    "rakipleri": []
+    "rakipleri": [],
+    "kodlama": null
   },
   {
     "name": "Hacı Bayram Veli",
@@ -3497,7 +3755,8 @@
       "Yunus Emre",
       "Mevlana",
       "Ahmet Yesevi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Halikarnas Balıkçısı",
@@ -3533,7 +3792,8 @@
       "Sait Faik Abasıyanık",
       "Yaşar Kemal",
       "Memduh Şevket Esendal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Halit Ziya Uşaklıgil",
@@ -3569,7 +3829,8 @@
       "Hüseyin Cahit Yalçın",
       "Mehmet Rauf",
       "Tevfik Fikret"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hamdullah Hamdi",
@@ -3605,7 +3866,8 @@
       "Şeyyad Hamza",
       "Ahmedi",
       "Süleyman Çelebi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hüseyin Rahmi Gürpınar",
@@ -3641,7 +3903,8 @@
       "Ahmet Mithat Efendi",
       "Recaizade Mahmut Ekrem",
       "Halit Ziya Uşaklıgil"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Kaşgarlı Mahmut",
@@ -3677,7 +3940,8 @@
       "Yusuf Has Hacip",
       "Edip Ahmet Yükneki",
       "Ahmet Yesevi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Latife Tekin",
@@ -3713,7 +3977,8 @@
       "Adalet Ağaoğlu",
       "Pınar Kür",
       "Sevgi Soysal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Mary Shelley",
@@ -3745,7 +4010,8 @@
     "pozisyon": "Romancı",
     "anekdot": "İngiliz yazar, 'Frankenstein' (1818) romanının yaratıcısı. AYT'de Romantizm + Gotik roman + bilim-kurgu başlangıcı bağlamında geçer.",
     "klasik_tuzak": "Türk yazarı değil. Romantizm/Gotik akımlar sorulduğunda referans isim.",
-    "rakipleri": []
+    "rakipleri": [],
+    "kodlama": null
   },
   {
     "name": "Mehmet Emin Yurdakul",
@@ -3781,7 +4047,8 @@
       "Ziya Gökalp",
       "Faruk Nafiz Çamlıbel",
       "Ahmet Hikmet Müftüoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Melih Cevdet Anday",
@@ -3817,7 +4084,8 @@
       "Orhan Veli Kanık",
       "Oktay Rifat Horozcu",
       "Cahit Külebi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Mevlana",
@@ -3853,7 +4121,8 @@
       "Yunus Emre",
       "Ahmet Yesevi",
       "Hacı Bayram Veli"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Molière",
@@ -3889,7 +4158,8 @@
       "Ahmet Vefik Paşa",
       "Shakespeare",
       "Direktör Ali Bey"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Nabizade Nazım",
@@ -3925,7 +4195,8 @@
       "Samipaşazade Sezai",
       "Recaizade Mahmut Ekrem",
       "Abdülhak Hamit Tarhan"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Naili",
@@ -3961,7 +4232,8 @@
       "Nef'i",
       "Nabi",
       "Şeyh Galip"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Nazım Hikmet",
@@ -3997,7 +4269,8 @@
       "Orhan Veli Kanık",
       "Necip Fazıl Kısakürek",
       "Yahya Kemal Beyatlı"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Neşati",
@@ -4033,7 +4306,8 @@
       "Naili",
       "Fehim",
       "Şeyh Galip"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Oktay Rifat",
@@ -4069,7 +4343,8 @@
       "Orhan Veli Kanık",
       "Melih Cevdet Anday",
       "Cemal Süreya"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Oğuz Atay",
@@ -4105,7 +4380,8 @@
       "Ahmet Hamdi Tanpınar",
       "Yusuf Atılgan",
       "Peyami Safa"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Peyami Safa",
@@ -4141,7 +4417,8 @@
       "Mehmet Rauf",
       "Ahmet Hamdi Tanpınar",
       "Halit Ziya Uşaklıgil"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Pınar Kür",
@@ -4177,7 +4454,8 @@
       "Adalet Ağaoğlu",
       "Latife Tekin",
       "Sevgi Soysal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Sevgi Soysal",
@@ -4213,7 +4491,8 @@
       "Adalet Ağaoğlu",
       "Pınar Kür",
       "Tomris Uyar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Sezai Karakoç",
@@ -4249,7 +4528,8 @@
       "Necip Fazıl Kısakürek",
       "Arif Nihat Asya",
       "Cahit Zarifoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Shakespeare",
@@ -4281,7 +4561,8 @@
     "pozisyon": "Tiyatrocu",
     "anekdot": "İngiliz tiyatrosunun zirvesi. AYT'de paragraf-anlam veya akım sorusunda evrensel insan teması bağlamında geçer. Rönesans dönemi.",
     "klasik_tuzak": "Türk yazarı değil. Hamlet/Macbeth gibi karakterler 'evrensel insan' örneği olarak paragraflarda geçer.",
-    "rakipleri": []
+    "rakipleri": [],
+    "kodlama": null
   },
   {
     "name": "Süleyman Nazif",
@@ -4317,7 +4598,8 @@
       "Cenap Şahabettin",
       "Hüseyin Cahit Yalçın",
       "Tevfik Fikret"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Tesla",
@@ -4349,7 +4631,8 @@
     "pozisyon": "Çok yönlü",
     "anekdot": "Sırp-Amerikan mucit-mühendis. Türk edebiyatı yazarı DEĞİL. AYT'de paragraf-anlam sorularında 'bilim insanı/yenilik' örneği olarak geçer.",
     "klasik_tuzak": "Bu paragraf wisdom için. Cevap kişiye değil, paragraftaki bilgiye odaklan.",
-    "rakipleri": []
+    "rakipleri": [],
+    "kodlama": null
   },
   {
     "name": "Yusuf Has Hacip",
@@ -4385,7 +4668,8 @@
       "Kaşgarlı Mahmut",
       "Edip Ahmet Yükneki",
       "Ahmet Yesevi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Zati",
@@ -4421,7 +4705,8 @@
       "Hayali Bey",
       "Bağdatlı Ruhi",
       "Necati Bey"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ziya Gökalp",
@@ -4457,7 +4742,14 @@
       "Mehmet Emin Yurdakul",
       "Ömer Seyfettin",
       "Ali Canip Yöntem"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Ziya Gökalp → 'gök-alp', Türkçülüğün babası · ⭐ 2026 Anma Yılı",
+      "sahne": "Milletin fikir babası; 'kültür ayrı, medeniyet ayrı' der; ulaşılmaz bir ülküyü kızıl bir elmaya benzetir; halk masallarını manzum yazar; üç ilkeyi (Türk olmak, Müslüman olmak, çağdaşlaşmak) tek kitapta birleştirir.",
+      "cozum": "Türkçülük teorisi → Türkçülüğün Esasları · ülkü = kızıl elma → Kızılelma · üç ilke → Türkleşmek İslamlaşmak Muasırlaşmak · yeni ülkü şiirleri → Yeni Hayat · çocuk/masal manzumeleri → Altın Işık. ⭐ 2026 Ziya Gökalp Anma Yılı (150. doğum). Tuzak: teorisyen Gökalp ≠ hikâyeci Ömer Seyfettin.",
+      "tip": "hikaye",
+      "emoji": "🍎"
+    }
   },
   {
     "name": "Ömer Seyfettin",
@@ -4493,7 +4785,8 @@
       "Refik Halit Karay",
       "Ahmet Hikmet Müftüoğlu",
       "Yakup Kadri Karaosmanoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "İlhan Berk",
@@ -4529,7 +4822,8 @@
       "Cemal Süreya",
       "Edip Cansever",
       "Turgut Uyar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "İsmet Özel",
@@ -4565,7 +4859,8 @@
       "Sezai Karakoç",
       "Cahit Zarifoğlu",
       "Erdem Bayazıt"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ahmed Arif",
@@ -4591,7 +4886,8 @@
       "Nazım Hikmet",
       "Ataol Behramoğlu",
       "Hasan Hüseyin"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ahmet Muhip Dıranas",
@@ -4617,7 +4913,8 @@
       "Cahit Sıtkı Tarancı",
       "Ziya Osman Saba",
       "Ahmet Hamdi Tanpınar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Asaf Halet Çelebi",
@@ -4643,7 +4940,8 @@
       "Behçet Necatigil",
       "Fazıl Hüsnü Dağlarca",
       "Necip Fazıl Kısakürek"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ataol Behramoğlu",
@@ -4669,7 +4967,8 @@
       "İsmet Özel",
       "Ahmed Arif",
       "Nazım Hikmet"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Bağdatlı Ruhi",
@@ -4695,7 +4994,8 @@
       "Ziya Paşa",
       "Fuzuli",
       "Nabi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Behçet Necatigil",
@@ -4721,7 +5021,8 @@
       "Cahit Külebi",
       "Asaf Halet Çelebi",
       "Behçet Kemal Çağlar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Bilge Karasu",
@@ -4747,7 +5048,8 @@
       "Oğuz Atay",
       "Yusuf Atılgan",
       "Orhan Pamuk"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Cahit Sıtkı Tarancı",
@@ -4773,7 +5075,8 @@
       "Ahmet Muhip Dıranas",
       "Ziya Osman Saba",
       "Ahmet Hamdi Tanpınar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Cemal Süreya",
@@ -4799,7 +5102,8 @@
       "Edip Cansever",
       "Turgut Uyar",
       "Ece Ayhan"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Dertli",
@@ -4825,7 +5129,8 @@
       "Erzurumlu Emrah",
       "Seyrani",
       "Bayburtlu Zihni"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Edip Ahmet Yükneki",
@@ -4851,7 +5156,8 @@
       "Yusuf Has Hacip",
       "Ahmet Yesevi",
       "Kaşgarlı Mahmut"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Edip Cansever",
@@ -4877,7 +5183,8 @@
       "Cemal Süreya",
       "Turgut Uyar",
       "İlhan Berk"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Fakir Baykurt",
@@ -4903,7 +5210,14 @@
       "Yaşar Kemal",
       "Talip Apaydın",
       "Mahmut Makal"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Fakir Baykurt → fakir köyün öğretmeni · Köy Enstitüsü",
+      "sahne": "Köy Enstitüsü çıkışlı öğretmen-yazar; bir Anadolu köyünde, bir ailenin evi ve toprağı için muhtarla, ağa düzeniyle verdiği amansız kavgayı, köy husumetleri (yılanları) üzerinden anlatır.",
+      "cozum": "Köydeki ev/toprak kavgası + husumet → Yılanların Öcü (Kemal Tahir önsözüyle ünlü). Köy Enstitüsü kuşağı, toplumcu köy romanı. Tuzak: Mahmut Makal / Talip Apaydın ile aynı damar.",
+      "tip": "hikaye",
+      "emoji": "🐍"
+    }
   },
   {
     "name": "Füruzan",
@@ -4929,7 +5243,8 @@
       "Sevgi Soysal",
       "Tomris Uyar",
       "Nezihe Meriç"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Güngör Dilmen",
@@ -4955,7 +5270,8 @@
       "Turan Oflazoğlu",
       "Orhan Asena",
       "Turgut Özakman"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hacı Bektaş Veli",
@@ -4981,7 +5297,8 @@
       "Ahmet Yesevi",
       "Yunus Emre",
       "Mevlana"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hasan Ali Toptaş",
@@ -5007,7 +5324,8 @@
       "İhsan Oktay Anar",
       "Latife Tekin",
       "Bilge Karasu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hilmi Yavuz",
@@ -5033,7 +5351,8 @@
       "Sezai Karakoç",
       "İsmet Özel",
       "Behçet Necatigil"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Hoca Dehhani",
@@ -5059,7 +5378,8 @@
       "Âşık Paşa",
       "Ahmedi",
       "Şeyhi"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Karacaoğlan",
@@ -5085,7 +5405,8 @@
       "Köroğlu",
       "Dadaloğlu",
       "Aşık Veysel Şatıroğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Kaygusuz Abdal",
@@ -5111,7 +5432,8 @@
       "Yunus Emre",
       "Pir Sultan Abdal",
       "Hacı Bektaş Veli"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Mahmut Makal",
@@ -5137,7 +5459,8 @@
       "Fakir Baykurt",
       "Talip Apaydın",
       "Yaşar Kemal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Mehmet Rauf",
@@ -5163,7 +5486,14 @@
       "Halit Ziya Uşaklıgil",
       "Hüseyin Cahit Yalçın",
       "Cenap Şahabettin"
-    ]
+    ],
+    "kodlama": {
+      "ad_cagrisimi": "Mehmet Rauf → 'rauf/içli', ilk psikolojik roman",
+      "sahne": "Servet-i Fünun'un içli romancısı; bir yalıda, evli bir kadına âşık olan kuzenin yasak ve bastırılmış duygularını, sonbaharın hüznüyle iç içe anlatır — Türkçede ilk büyük 'iç çözümleme' romanı.",
+      "cozum": "Yalıda yasak aşk + sonbahar hüznü → Eylül (ilk psikolojik roman). Tuzak: Halit Ziya'nın Aşk-ı Memnu'su ile karıştırma — ikisi de Servet-i Fünun + yasak aşk; ama Eylül = Mehmet Rauf.",
+      "tip": "hikaye",
+      "emoji": "🍂"
+    }
   },
   {
     "name": "Mehmet Çınarlı",
@@ -5189,7 +5519,8 @@
       "Munis Faik Ozansoy",
       "İlhan Geçer",
       "Gültekin Samanoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Munis Faik Ozansoy",
@@ -5215,7 +5546,8 @@
       "Mehmet Çınarlı",
       "İlhan Geçer",
       "Gültekin Samanoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Mustafa Kutlu",
@@ -5241,7 +5573,8 @@
       "Sait Faik Abasıyanık",
       "Rasim Özdenören",
       "Sevinç Çokum"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Nurullah Ataç",
@@ -5267,7 +5600,8 @@
       "Suut Kemal Yetkin",
       "Sabahattin Eyuboğlu",
       "Cemil Meriç"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Orhan Pamuk",
@@ -5293,7 +5627,8 @@
       "Oğuz Atay",
       "Bilge Karasu",
       "İhsan Oktay Anar"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Pir Sultan Abdal",
@@ -5319,7 +5654,8 @@
       "Yunus Emre",
       "Kaygusuz Abdal",
       "Karacaoğlan"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Recep Bilginer",
@@ -5345,7 +5681,8 @@
       "Cevat Fehmi Başkut",
       "Turgut Özakman",
       "Haldun Taner"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Rıfat Ilgaz",
@@ -5371,7 +5708,8 @@
       "Aziz Nesin",
       "Orhan Kemal",
       "Nazım Hikmet"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Sait Faik Abasıyanık",
@@ -5397,7 +5735,8 @@
       "Memduh Şevket Esendal",
       "Sabahattin Ali",
       "Orhan Kemal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Samiha Ayverdi",
@@ -5423,7 +5762,8 @@
       "Halide Edip Adıvar",
       "Mustafa Kutlu",
       "Peyami Safa"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Selim İleri",
@@ -5449,7 +5789,8 @@
       "Yusuf Atılgan",
       "Bilge Karasu",
       "Adalet Ağaoğlu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Suut Kemal Yetkin",
@@ -5475,7 +5816,8 @@
       "Nurullah Ataç",
       "Sabahattin Eyuboğlu",
       "Cemil Meriç"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Talip Apaydın",
@@ -5501,7 +5843,8 @@
       "Fakir Baykurt",
       "Mahmut Makal",
       "Orhan Kemal"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Turan Oflazoğlu",
@@ -5527,7 +5870,8 @@
       "Güngör Dilmen",
       "Orhan Asena",
       "Turgut Özakman"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Turgut Uyar",
@@ -5553,7 +5897,8 @@
       "Cemal Süreya",
       "Edip Cansever",
       "Ece Ayhan"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Turgut Özakman",
@@ -5579,7 +5924,8 @@
       "Haldun Taner",
       "Cevat Fehmi Başkut",
       "Recep Bilginer"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Yusuf Atılgan",
@@ -5605,7 +5951,8 @@
       "Oğuz Atay",
       "Bilge Karasu",
       "Vüsat O. Bener"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "Ziya Osman Saba",
@@ -5631,7 +5978,8 @@
       "Cahit Sıtkı Tarancı",
       "Ahmet Muhip Dıranas",
       "Yaşar Nabi Nayır"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "İhsan Oktay Anar",
@@ -5657,7 +6005,8 @@
       "Orhan Pamuk",
       "Hasan Ali Toptaş",
       "Bilge Karasu"
-    ]
+    ],
+    "kodlama": null
   },
   {
     "name": "İlhan Geçer",
@@ -5683,6 +6032,7 @@
       "Mehmet Çınarlı",
       "Munis Faik Ozansoy",
       "Gültekin Samanoğlu"
-    ]
+    ],
+    "kodlama": null
   }
 ]

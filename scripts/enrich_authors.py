@@ -1038,8 +1038,20 @@ def main():
         print(f"HATA: {AUTHORS_PATH} bulunamadı")
         return
     data = json.loads(AUTHORS_PATH.read_text(encoding='utf-8'))
+
+    # REV21 — Hafıza kodlaması kaynağı (build_kodlama.py çıktısı)
+    # data/ kökü generate_data.py ile aynı: Edebiyat Analiz/data/
+    KODLAMA = {}
+    kpath = Path(__file__).parent.parent.parent / 'data' / 'kodlama_kaynak.json'
+    if kpath.exists():
+        try:
+            KODLAMA = json.loads(kpath.read_text(encoding='utf-8'))
+        except Exception as e:
+            print(f"⚠ kodlama_kaynak.json okunamadı: {e}")
+
     enriched = 0
     missing = []
+    kodlanan = 0
     for entry in data:
         name = entry['name']
         if name in ENRICHMENT:
@@ -1056,9 +1068,15 @@ def main():
             entry.setdefault('anekdot', '')
             entry.setdefault('klasik_tuzak', '')
             entry.setdefault('rakipleri', [])
+        # REV21 — kodlama enjekte (her yazar; yoksa None)
+        kd = KODLAMA.get(name)
+        entry['kodlama'] = kd if kd else None
+        if kd:
+            kodlanan += 1
 
     AUTHORS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f"✓ {enriched} yazar zenginleştirildi (toplam {len(data)})")
+    print(f"✓ {kodlanan} yazara hafıza kodlaması eklendi")
     if missing:
         print(f"⚠ Enrichment'ta olmayan {len(missing)} yazar:")
         for m in missing:

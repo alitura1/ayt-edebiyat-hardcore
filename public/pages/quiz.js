@@ -190,6 +190,10 @@ export async function renderQuizSession() {
   if (q.terim) {
     pool = pool.filter(c => c.terim_kategori && (q.terim === 'hepsi' || c.terim_kategori === q.terim));
   }
+  // REV21 — Hafıza kodlaması filtresi (sahne→yazar/eser kartları; dönem veya hepsi)
+  if (q.kodlama) {
+    pool = pool.filter(c => c.kaynak === 'kodlama' && (q.kodlama === 'hepsi' || c.kodlama_donem === q.kodlama));
+  }
   // REV17 — 2026 öncelik filtresi (due_score_2026 alanına göre)
   if (q.oncelik_2026 && q.oncelik_2026 !== 'hepsi') {
     const thresholds = { 'cok_yuksek': 80, 'yuksek': 60, 'orta': 40 };

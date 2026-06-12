@@ -238,6 +238,24 @@ export async function renderAuthorDetail(slug) {
       </div>
     ` : ''}
 
+    <!-- REV21 — HAFIZA KODLAMASI (görsel/işitsel mnemonic) -->
+    ${a.kodlama ? `
+      <div class="mb-4 rounded-xl p-4 bg-gradient-to-br from-purple-500/10 via-fuchsia-500/10 to-violet-500/10 border-2 border-purple-400/40 dark:border-purple-400/30">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-2xl">${a.kodlama.emoji || '🧠'}</span>
+          <span class="text-xs font-bold uppercase tracking-wider text-purple-700 dark:text-purple-300">Hafıza Kodlaması</span>
+          ${a.kodlama.ad_cagrisimi ? `<span class="ml-auto text-[11px] font-mono px-2 py-0.5 rounded-full bg-purple-500/15 text-purple-700 dark:text-purple-200">${a.kodlama.ad_cagrisimi}</span>` : ''}
+        </div>
+        <p class="text-sm leading-relaxed font-medium text-slate-800 dark:text-slate-100 mb-2">🎬 ${a.kodlama.sahne}</p>
+        ${a.kodlama.cozum ? `
+          <details class="mt-1">
+            <summary class="text-xs font-bold text-purple-700 dark:text-purple-300 cursor-pointer">🔑 Çözümü göster</summary>
+            <p class="mt-1.5 text-sm text-slate-700 dark:text-slate-300 leading-relaxed">${a.kodlama.cozum}</p>
+          </details>
+        ` : ''}
+      </div>
+    ` : ''}
+
     <!-- ANEKDOT -->
     ${a.anekdot ? `
       <div class="bg-white dark:bg-slate-900 border-l-4 border-primary-700 dark:border-primary-100 rounded-r-lg p-4 mb-4">

@@ -6,6 +6,7 @@
     "kurulus": "1914-1920'ler",
     "manifesto": "Aruzu bırakıp HECE veznine dönüş, milli tema, sade Türkçe, Anadolu sevdası. Milli Edebiyat ruhunu Cumhuriyet'e taşıyan beşli.",
     "uyeler": ["Faruk Nafiz Çamlıbel", "Yusuf Ziya Ortaç", "Orhan Seyfi Orhon", "Enis Behiç Koryürek", "Halit Fahri Ozansoy"],
+    "grup_kodlama": "5 isim = F-Y-O-E-H → FARUK Nafiz (lider, Han Duvarları) önde; arkada YUSUF Ziya, ORHAN Seyfi, ENİS Behiç, HALİT Fahri. Beşi de HECE + memleket. 'Faruk yola çıkar, dördü hece sayar.'",
     "ortak_ozellikler": [
       "Hece vezni kullanırlar (genelde 11'li veya 7-7'li)",
       "Sade Türkçe (Milli Edebiyat'ın dil sadeleşmesini sürdürürler)",
@@ -28,7 +29,8 @@
     "donem": "cumhuriyet",
     "kurulus": "1941",
     "manifesto": "Şiirden VEZİN, KAFİYE, MECAZ, YÜKSEK ÜSLUP atıldı. Gündelik dilin şiirleşmesi. Sıradan adam + günlük yaşam. 1941'de yayımlanan 'Garip' antolojisi manifestoları.",
-    "uyeler": ["Orhan Veli Kanık", "Melih Cevdet Anday", "Oktay Rifat Horozcu"],
+    "uyeler": ["Orhan Veli Kanık", "Melih Cevdet Anday", "Oktay Rifat"],
+    "grup_kodlama": "Garip üçlüsü = O-M-O → ORHAN Veli (lider) + MELİH Cevdet + OKTAY Rifat. 'Üç arkadaş ölçü-kafiye-mecazı çöpe attı.' ⚠ Nazım Hikmet bu üçlüye DAHİL DEĞİL.",
     "ortak_ozellikler": [
       "Vezin yok, kafiye yok, serbest nazım",
       "Mecaz/imge yok — gündelik düz dil",
@@ -50,6 +52,7 @@
     "kurulus": "1950'ler ortası",
     "manifesto": "Garip'in sade diline TEPKİ. Karmaşık imge, soyutlama, anlam katmanları. Şiir 'anlaşılması gereken' bir nesne değil 'hissedilen' bir varlık.",
     "uyeler": ["Cemal Süreya", "Turgut Uyar", "Edip Cansever", "Ece Ayhan", "İlhan Berk", "Sezai Karakoç"],
+    "grup_kodlama": "Lidersiz 6'lı (Garip'ten farkı bu!). Çıpalar: CEMAL Süreya'nın Üvercinka'sı, EDİP Cansever'in karanfili, ECE Ayhan'ın sivil kara kedisi, TURGUT Uyar + İLHAN Berk + SEZAİ Karakoç. 'İkinci Yeni = imge bombardımanı, lidersiz.'",
     "ortak_ozellikler": [
       "Karmaşık imge + soyut anlam",
       "Anti-Garip — yüksek üslup, mecaz yoğun",
@@ -74,6 +77,7 @@
     "kurulus": "1928",
     "manifesto": "Beş Hececiler'in memleket şiirine TEPKİ. Daha SANATSAL, BİREYSEL, SEMBOLİST tema. 'Canlılık, samimiyet, daima yenilik'.",
     "uyeler": ["Sabri Esat Siyavuşgil", "Cevdet Kudret Solok", "Vasfi Mahir Kocatürk", "Ziya Osman Saba", "Yaşar Nabi Nayır", "Muammer Lütfi Bahşi", "Kenan Hulusi Koray"],
+    "grup_kodlama": "7 meşale, hepsini ezberleme — 2 çıpa yeter: ZİYA Osman Saba (Sebil ve Güvercinler) + YAŞAR Nabi Nayır (Varlık dergisi). Gerisi 1928, Batı'ya dönük 7'li (tek düzyazıcı: Kenan Hulusi). '7 sayısı = Yedi Meşale, 1928, Batı+birey.'",
     "ortak_ozellikler": [
       "Beş Hececiler'in memleket konusuna tepki — Batı'ya yönelim",
       "Sembolist + impresyonist etkiler",
@@ -219,5 +223,27 @@
       "Ziya Gökalp — Türkçülüğün Esasları, Kızıl Elma"
     ],
     "klasik_tuzak": "Genç Kalemler ≠ Beş Hececiler. Genç Kalemler MİLLİ EDEBİYAT ÇEKİRDEĞİ (1911, dil manifestosu), Beş Hececiler CUMHURİYET DEVRİ (1920'ler, hece + memleket). Aralarında 10 yıl var ve Genç Kalemler ÖNCÜ."
+  },
+  {
+    "slug": "maviciler",
+    "ad": "Maviciler (Mavi Hareketi)",
+    "donem": "cumhuriyet",
+    "kurulus": "1952 (Mavi dergisi)",
+    "manifesto": "GARİP akımına TEPKİ. Orhan Veli'nin sade/sığ, basit gündelik diline karşı; zengin, sanatlı, imgeli bir dil + toplumcu (sosyal) gerçekçilik. Attila İlhan öncülüğünde Mavi dergisi (1952) çevresinde.",
+    "uyeler": ["Attila İlhan", "Ferit Edgü", "Ahmet Oktay", "Orhan Duru", "Demir Özlü"],
+    "grup_kodlama": "MAVİ = deniz mavisi → kaptan ATTİLA İLHAN dümende. 'Mavi'de Attila, Garip'in sığ suyuna karşı derin/sanatlı bir dalga.' Garip basit; Maviciler zengin imge + toplumcu.",
+    "ortak_ozellikler": [
+      "Garip'in basit/sade diline TEPKİ — zengin, sanatlı, imgeli dil",
+      "Toplumcu (sosyal) gerçekçilik + romantik duyarlık",
+      "Attila İlhan öncülüğü, 'Mavi' dergisi (1952, Ankara)",
+      "Şiirde lirizm + politik/toplumsal içerik bir arada",
+      "Garip'in 'şairanelik düşmanlığına' karşı şiirsel söyleyişin savunusu"
+    ],
+    "marka_eserler": [
+      "Attila İlhan — Duvar, Sisler Bulvarı, Ben Sana Mecburum, Bela Çiçeği",
+      "Attila İlhan — Sokaktaki Adam, Kurtlar Sofrası (roman)",
+      "Ferit Edgü — sonradan modernist/varoluşçu çizgi (O / Hakkâri'de Bir Mevsim)"
+    ],
+    "klasik_tuzak": "Maviciler ↔ Garip karıştırma TUZAĞI: Garip (1941, Orhan Veli) SADE/sığ/gündelik dil; Maviciler (1952, Attila İlhan) ona TEPKİ — SANATLI/imgeli/toplumcu. Attila İlhan = Mavi'nin kaptanı. ÖSYM şıklarda 'Maviciler / Attila İlhan'ı çeldirici olarak kullanır."
   }
 ]
