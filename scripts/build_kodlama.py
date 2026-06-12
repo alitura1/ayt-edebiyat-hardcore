@@ -436,21 +436,39 @@ def _norm(s):
 
 
 def main():
+    # Inline KODLAMA + opsiyonel data/kodlama_extra_*.json dosyalarını birleştir
+    # (REV21c gibi toplu üretimler ayrı JSON'dan gelir).
+    merged = dict(KODLAMA)
+    extra_n = 0
+    for ef in sorted((DATA_ROOT / 'data').glob('kodlama_extra_*.json')):
+        try:
+            ed = json.loads(ef.read_text(encoding='utf-8'))
+            for name, k in ed.items():
+                if name not in merged:
+                    merged[name] = k
+                    extra_n += 1
+        except Exception as e:
+            print(f"⚠ {ef.name} okunamadı: {e}")
+    if extra_n:
+        print(f"  + {extra_n} ek kodlama (kodlama_extra_*.json)")
+
     # Spoiler check: sahne yazar adının token'larını (>=4 harf) içermemeli.
     authors = {}
     if AUTHORS_PATH.exists():
         authors = {a['name']: a for a in json.loads(AUTHORS_PATH.read_text(encoding='utf-8'))}
     warn = 0
-    for name, k in KODLAMA.items():
+    for name, k in merged.items():
         sahne_n = _norm(k['sahne'])
         # yazar adı token kontrolü
         for tok in name.split():
             if len(tok) >= 4 and _norm(tok) in sahne_n:
                 print(f"⚠ SPOILER (ad): '{name}' → sahnede '{tok}' geçiyor")
                 warn += 1
-        # ilk eser kontrolü (kodlama-eser kartı spoiler'ı)
+        # ilk eser kontrolü (kodlama-eser kartı spoiler'ı; generic eserler kart üretmez → atla)
+        GENERIC = {'Divan', 'Şiirleri', 'Şiirler', 'Şarkıları', 'Nefesler', 'Halk Hikayesi'}
         diger = (authors.get(name, {}).get('diger_eserler') or '')
-        works = [w.strip() for w in diger.split(',') if w.strip()]
+        works = [w.strip() for w in diger.split(',')
+                 if w.strip() and w.split(' (')[0].strip() not in GENERIC]
         for w in works[:1]:
             core = w.split(' (')[0].strip()
             if len(core) >= 5 and _norm(core) in sahne_n:
@@ -463,8 +481,8 @@ def main():
                 warn += 1
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(KODLAMA, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f"✓ {len(KODLAMA)} yazar kodlaması → {OUT}")
+    OUT.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f"✓ {len(merged)} yazar kodlaması → {OUT}")
     print(f"  Spoiler/eksik uyarısı: {warn}")
 
 

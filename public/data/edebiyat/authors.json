@@ -1194,7 +1194,13 @@
       "Yaşar Kemal",
       "Kemal Tahir"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Sabahattin Ali → 'sabah + ali' · toplumcu, içli aşk",
+      "sahne": "Toplumcu gerçekçi bir yazar; bir kuyu kazıcısı gencin trajedisini; Almanya'da bir tabloya/kadına tutulan utangaç bir adamın hüznünü; insanın içindeki şeytanı anlatır.",
+      "cozum": "Kuyu kazan genç → Kuyucaklı Yusuf · tabloya/kadına âşık utangaç adam (Berlin) → Kürk Mantolu Madonna · iç hesaplaşma → İçimizdeki Şeytan · diğer: Değirmen. Cumhuriyet, toplumcu gerçekçilik.",
+      "tip": "hikaye",
+      "emoji": "🧥"
+    }
   },
   {
     "name": "Taşlıcalı Yahya",
@@ -1723,7 +1729,13 @@
       "Necati Bey",
       "Şeyhi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ahmet Paşa → 15. yy 'sultanü'ş-şuara' (şairler sultanı)",
+      "sahne": "Fatih devrinin gözde şairi, sonra gözden düşüp affı için bir kaside yazan saray adamı; 15. yüzyıl Divan şiirinin zirve ismi sayılır.",
+      "cozum": "Af dileyen kaside → Kerem Kasidesi · toplu şiirleri → Divan. 15. yy; 'sultanü'ş-şuara'. Tuzak: 16. yy'ın 'sultanü'ş-şuara'sı Baki ile karıştırma.",
+      "tip": "hikaye",
+      "emoji": "👑"
+    }
   },
   {
     "name": "Baki",
@@ -1938,7 +1950,13 @@
       "Fuzuli",
       "Nedim"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hayali Bey → 16. yy · rind/kalender, hayal",
+      "sahne": "16. yüzyılın rind (kalender, dünya malına aldırmaz) şairi; tasavvufi neşe ve hayal yüklü, içten gazelleriyle Kanuni devrinin sevilen sesidir.",
+      "cozum": "Toplu gazelleri → Hayali Divanı. 16. yy; rind/kalender tavır, tasavvufi hayal. Tuzak: aynı yüzyıl Baki/Fuzuli ile karıştırma.",
+      "tip": "hikaye",
+      "emoji": "🪶"
+    }
   },
   {
     "name": "Köroğlu",
@@ -2368,7 +2386,13 @@
       "Cemal Süreya",
       "Edip Cansever"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Attila İlhan → Maviciler'in kaptanı · toplumcu romantik",
+      "sahne": "Garip'in sade diline karşı çıkan akımın (Mavi) öncüsü; zengin imgeli, sinematik, hem politik hem aşk dolu şiirler yazar; 'sana mecburum' diye haykırır, sisli bulvarları gezer.",
+      "cozum": "Mecburiyet/aşk → Ben Sana Mecburum · ilk kitap → Duvar · sisli kent → Sisler Bulvarı · diğer: Yağmur Kaçağı, Bela Çiçeği. Cumhuriyet; Maviciler, toplumcu romantik. Tuzak: Mavi (1952) = Garip'e tepki.",
+      "tip": "hikaye",
+      "emoji": "🌊"
+    }
   },
   {
     "name": "Bedri Rahmi Eyüboğlu",
@@ -2411,7 +2435,13 @@
       "Ahmet Kutsi Tecer",
       "Fazıl Hüsnü Dağlarca"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Bedri Rahmi → ressam-şair · folklor + renk",
+      "sahne": "Hem ressam hem şair; Anadolu folklorunu, halk motiflerini renkli, coşkulu bir dille şiire döker; koyu meyveli bir ağacın adını taşıyan kitabıyla anılır.",
+      "cozum": "Koyu dut → Karadut. Cumhuriyet; ressam-şair, folklor/halk kültürü + renk imgesi.",
+      "tip": "hikaye",
+      "emoji": "🎨"
+    }
   },
   {
     "name": "Halit Fahri Ozansoy",
@@ -2553,7 +2583,13 @@
       "Yaşar Kemal",
       "Sabahattin Ali"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Kemal Tahir → tarihî/toplumcu · 'Osmanlı farklıydı' tezi",
+      "sahne": "Anadolu tarihini ve toplumunu kendine özgü bir tezle yazan romancı; Osmanlı'nın kuruluşunu ana-devlet imgesiyle, işgal İstanbul'unu ve milli mücadeleyi anlatır.",
+      "cozum": "Osmanlı kuruluşu (ana-devlet) → Devlet Ana · işgal İstanbul'u → Esir Şehrin İnsanları · milli mücadele → Yorgun Savaşçı · diğer: Köyün Kamburu. Cumhuriyet; tarihî/toplumcu roman.",
+      "tip": "hikaye",
+      "emoji": "🏯"
+    }
   },
   {
     "name": "Mithat Cemal Kuntay",
@@ -2646,7 +2682,13 @@
       "Abdülhak Hamit Tarhan",
       "Ziya Paşa"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Muallim Naci → eski/Doğu savunucusu · Recaizade'nin rakibi",
+      "sahne": "Tanzimat'ta eski (Divan) şiiri ve Doğu kültürünü savunan hoca; yenilikçi üstadın 'ezgi' (zemzeme) bildirisine sert bir 'gürleme' ile karşılık verir; bir sözlük de hazırlar.",
+      "cozum": "'Zemzeme'ye karşı 'gürleme' → Demdeme (Recaizade'ye cevap) · sözlük → Lugat-i Naci. Tanzimat II. Tuzak: Recaizade YENİ/Batı ↔ Muallim Naci ESKİ/Doğu.",
+      "tip": "hikaye",
+      "emoji": "📜"
+    }
   },
   {
     "name": "Necati Cumalı",
@@ -2836,7 +2878,13 @@
       "Recaizade Mahmut Ekrem",
       "Ahmet Mithat Efendi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Samipaşazade Sezai → 'esir kız' romancısı (Tanzimat II)",
+      "sahne": "Tanzimat'ın realizme yaklaşan yazarı; satılan, sürülen bir cariyenin (esir kızın) trajik serüvenini anlatır; bir de gündelik 'küçük şeyler'i öyküleştirir (realist öykünün öncüsü).",
+      "cozum": "Esir kızın serüveni → Sergüzeşt · gündelik küçük olaylar → Küçük Şeyler (realist öykü öncüsü). Tanzimat II; köleliğe karşı, realizme geçiş.",
+      "tip": "hikaye",
+      "emoji": "⛓️"
+    }
   },
   {
     "name": "Sehi Bey",
@@ -2979,7 +3027,13 @@
       "Ahmet Hamdi Tanpınar",
       "Mustafa Necati Sepetçioğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Tarık Buğra → tarihî roman · Milli Mücadele + Osmanlı kuruluşu",
+      "sahne": "Tarihi bireyin gözünden yazan romancı; bir Anadolu kasabasındaki gizemli hocanın Milli Mücadele'ye katılışını, Osmanlı'nın kuruluşunu (Osman Bey'i) anlatır.",
+      "cozum": "Kasabadaki gizemli hoca (Milli Mücadele) → Küçük Ağa · Osmanlı kuruluşu → Osmancık · diğer: Dönemeçte, Yağmur Beklerken, Firavun İmanı. Cumhuriyet; tarihî roman.",
+      "tip": "hikaye",
+      "emoji": "🏯"
+    }
   },
   {
     "name": "Yaşar Kemal",
@@ -3022,7 +3076,13 @@
       "Kemal Tahir",
       "Sabahattin Ali"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Yaşar Kemal → Çukurova destancısı · eşkıya, doğa",
+      "sahne": "Çukurova'nın toprağını, ezilen köylüsünü ve dağa çıkan bir eşkıyayı destansı, şiirsel bir dille anlatan büyük romancı; demir gibi yer, bakır gibi gök altında insanın direnişini yazar.",
+      "cozum": "Dağa çıkan halk kahramanı eşkıya → İnce Memed · toprak/köylü direnişi → Yer Demir Gök Bakır, Ortadirek · diğer: Demirciler Çarşısı Cinayeti. Cumhuriyet; toplumcu, destansı anlatım.",
+      "tip": "hikaye",
+      "emoji": "🌾"
+    }
   },
   {
     "name": "Yunus Emre",
@@ -3164,7 +3224,13 @@
       "Şinasi",
       "Ahmet Mithat Efendi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ziya Paşa → Tanzimat I · çelişkili (halk dili ↔ divan)",
+      "sahne": "Tanzimat'ın çelişkili şairi; bir makalede halk şiirini gerçek edebiyat sayar, sonra eski Divan şiirini öven bir antoloji hazırlar; toplumsal eleştirel bentli manzumeleriyle ünlüdür ('Bî-baht olanın...').",
+      "cozum": "Divan şiiri antolojisi → Harabat · halk dili savunan makale → Şiir ve İnşa (çelişki!) · toplumsal eleştirel bentler → Terkib-i Bend, Terci-i Bend. Tanzimat I. Tuzak: Bağdatlı Ruhi'ye nazire = Ziya Paşa Terkib-i Bend.",
+      "tip": "hikaye",
+      "emoji": "⚖️"
+    }
   },
   {
     "name": "Şemsettin Sami",
@@ -3299,7 +3365,13 @@
       "Pınar Kür",
       "Sevgi Soysal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Adalet Ağaoğlu → modernist · bilinç akışı, Cumhuriyet kadını",
+      "sahne": "Bireyin iç sesini ve Cumhuriyet tarihini bilinç akışıyla harmanlayan modernist romancı; bir otel odasında ölmeye yatan kadının iç hesaplaşmasını, bir düğün gecesini anlatır.",
+      "cozum": "Ölmeye yatan kadının iç hesabı → Ölmeye Yatmak · düğün gecesi → Bir Düğün Gecesi · diğer: Fikrimin İnce Gülü, Yüksek Gerilim. Cumhuriyet; modernist, bilinç akışı.",
+      "tip": "hikaye",
+      "emoji": "🛏️"
+    }
   },
   {
     "name": "Ahmet Hikmet Müftüoğlu",
@@ -3379,7 +3451,13 @@
       "Direktör Ali Bey",
       "Şinasi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ahmet Vefik Paşa → Molière çevirmeni · Türk tiyatrosunun kurucusu (Bursa)",
+      "sahne": "Tanzimat devlet adamı; Bursa'da ilk tiyatroyu kurar, Fransız komedi ustasının pinti ihtiyar ve zoraki hekim tiplerini Türkçeye uyarlar; Türkçenin köklerine dair sözlük hazırlar.",
+      "cozum": "Cimri uyarlaması → Cimri (çeviri) · zoraki hekim → Zoraki Tabip (çeviri) · Türkçe sözlük → Lehçe-i Osmani. Tanzimat; Molière çevirmeni, tiyatronun kurucusu.",
+      "tip": "hikaye",
+      "emoji": "🎭"
+    }
   },
   {
     "name": "Ahmet Yesevi",
@@ -3416,7 +3494,13 @@
       "Hacı Bayram Veli",
       "Mevlana"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ahmet Yesevi → 'pir-i Türkistan' · tasavvuf/hikmet",
+      "sahne": "Orta Asya'da tasavvufun atası, 'Türkistan'ın piri'; tarikatını ve öğütlerini sade Türkçe, dörtlük-hece nazımlı 'hikmet'lerle yayar — Anadolu erenlerinin kaynağı.",
+      "cozum": "Hikmet adlı şiirler → Divan-ı Hikmet. Geçiş/tasavvuf; 'Pir-i Türkistan', Yesevilik. Tuzak: Yesevi Orta Asya kaynağı, Yunus Anadolu kolu.",
+      "tip": "hikaye",
+      "emoji": "📿"
+    }
   },
   {
     "name": "Arif Nihat Asya",
@@ -3453,7 +3537,13 @@
       "Sezai Karakoç",
       "Mehmet Akif Ersoy"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Arif Nihat Asya → 'Bayrak şairi' · milliyetçi",
+      "sahne": "Vatan ve millet sevgisini coşkulu dizelere döken milliyetçi şair; al renkli, dalgalanan o milli simgeye yazdığı ünlü şiirle anılır.",
+      "cozum": "Al renkli milli simge → Bayrak · diğer: Heykeltıraş. Cumhuriyet; milliyetçi şiir, 'Bayrak şairi'.",
+      "tip": "hikaye",
+      "emoji": "🚩"
+    }
   },
   {
     "name": "Aristoteles",
@@ -3490,7 +3580,13 @@
       "Homeros",
       "Sofokles"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Aristoteles → klasisizmin kaynağı · 'sanat doğanın taklidi'",
+      "sahne": "Antik Yunan filozofu; tragedyanın kurallarını, 'taklit (mimesis)' ve 'arınma (katharsis)' kavramlarını koyar; söz söyleme ve ahlak üzerine eserler bırakır — klasisizmin kaynağı.",
+      "cozum": "Şiir/tragedya kuramı → Poetika · söz söyleme → Retorik · ahlak → Nikomakhos'a Etik. Klasisizm akımının dayandığı kaynak (akıl, kurallar, mimesis).",
+      "tip": "hikaye",
+      "emoji": "🏛️"
+    }
   },
   {
     "name": "Brancusi",
@@ -3560,7 +3656,13 @@
       "Bedri Rahmi Eyüboğlu",
       "Faruk Nafiz Çamlıbel"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Cahit Külebi → memleketçi, sade, Anadolu",
+      "sahne": "Anadolu'yu, öğretmenliği ve halkı sade, içten bir dille anlatan memleket şairi; sıradan birinin hikâyesini, bir yangını ve memleket sevgisini yazar.",
+      "cozum": "Sıradan insan → Adamın Biri · diğer: Yangın. Cumhuriyet; memleketçi, sade dilli halk şiiri.",
+      "tip": "hikaye",
+      "emoji": "🌾"
+    }
   },
   {
     "name": "Cevat Fehmi Başkut",
@@ -3597,7 +3699,13 @@
       "Turgut Özakman",
       "Necati Cumalı"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Cevat Fehmi Başkut → toplumsal taşlama tiyatrosu",
+      "sahne": "Toplumsal aksaklıkları güldürerek eleştiren oyun yazarı; donmuş bir kasaba düzenini, emekliliği, küçük şehir entrikalarını sahneye taşır.",
+      "cozum": "Donmuş düzen → Buzlar Çözülmeden · emeklilik → Paydos · küçük şehir → Küçük Şehir · diğer: Hacı Kaptan. Cumhuriyet; toplumsal taşlama tiyatrosu.",
+      "tip": "hikaye",
+      "emoji": "🧊"
+    }
   },
   {
     "name": "Direktör Ali Bey",
@@ -3634,7 +3742,13 @@
       "Ahmet Vefik Paşa",
       "Namık Kemal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Direktör Ali Bey → Tanzimat mizah + tiyatro",
+      "sahne": "Tanzimat döneminin mizahçı kalemi; alafranga özentiyi, görgüsüzlüğü iğneleyen güldürüler ve mizahi sözlük/seyahat yazıları kaleme alır.",
+      "cozum": "Alafranga taklit güldürüsü → Kokona Yatıyor, Misafiri İstiskal · mizahi sözlük → Lehçetü'l-Hakayık · gezi → Seyahat Jurnali. Tanzimat; mizah/tiyatro.",
+      "tip": "hikaye",
+      "emoji": "😄"
+    }
   },
   {
     "name": "Ece Ayhan",
@@ -3671,7 +3785,13 @@
       "Edip Cansever",
       "Turgut Uyar"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ece Ayhan → İkinci Yeni · 'sivil şiir' (kendine özgü terim)",
+      "sahne": "İkinci Yeni'nin en aykırı, en karanlık şairi; resmî tarihin dışladığı 'sivil' olanı, kıyıda kalmışları kapalı, sarsıcı imgelerle yazar; bakışsız bir kara kediyle anılır.",
+      "cozum": "Bakışsız kara kedi → Bakışsız Bir Kedi Kara. İkinci Yeni; 'sivil şiir' terimi yalnız onda. Tuzak: İkinci Yeni lidersiz; Ece Ayhan = sivil şiir.",
+      "tip": "hikaye",
+      "emoji": "🐈‍⬛"
+    }
   },
   {
     "name": "Enis Behiç Koryürek",
@@ -3708,7 +3828,13 @@
       "Halit Fahri Ozansoy",
       "Yusuf Ziya Ortaç"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Enis Behiç → Beş Hececi · deniz/gemici teması (sıradışı)",
+      "sahne": "Beş Hececiler'den; hece vezniyle yazsa da denizi, gemicileri ve kahramanlık coşkusunu işleyerek gruptan ayrışır; geçmişten devralınanı konu eden bir kitabı vardır.",
+      "cozum": "Devralınan → Miras. Beş Hececiler (hece); deniz/gemici temasıyla ('Gemiciler') sıradışı. Tuzak: Faruk Nafiz/Yusuf Ziya ile aynı beşli.",
+      "tip": "hikaye",
+      "emoji": "⛵"
+    }
   },
   {
     "name": "Falih Rıfkı Atay",
@@ -3745,7 +3871,13 @@
       "Ahmet Haşim",
       "Yakup Kadri Karaosmanoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Falih Rıfkı Atay → gezi-anı ustası · Atatürk'ün yanında",
+      "sahne": "Atatürk'ün yakınındaki gazeteci-yazar; yeni başkentin kuruluşunu, Filistin cephesindeki bir dağı, Atatürk'le anılarını canlı bir gezi/anı diliyle yazar.",
+      "cozum": "Yeni başkent (Atatürk) → Çankaya · Filistin cephesi dağı → Zeytindağı · Atatürk anıları → Atatürk'ün Bana Anlattıkları. Cumhuriyet; gezi + anı (hatırat).",
+      "tip": "hikaye",
+      "emoji": "🏔️"
+    }
   },
   {
     "name": "Fazıl Hüsnü Dağlarca",
@@ -3782,7 +3914,13 @@
       "Yahya Kemal Beyatlı",
       "Arif Nihat Asya"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Fazıl Hüsnü → 'şiir üreten dev' · epik/destan",
+      "sahne": "Çok üretken, çok yönlü şair; toprağı ana belleyen, savaş şehitlerini ve Kurtuluş Savaşı kahramanlarını destanlaştıran, çocuklara da yazan bir 'şiir çağlayanı'.",
+      "cozum": "Toprak-ana → Toprak Ana · yapma destanlar → Çakır'ın Destanı, Üç Şehitler Destanı · diğer: Havaya Çizilen Dünya. Cumhuriyet; epik/destan + her temada üretken.",
+      "tip": "hikaye",
+      "emoji": "🌍"
+    }
   },
   {
     "name": "Freud",
@@ -3852,7 +3990,13 @@
       "Mevlana",
       "Ahmet Yesevi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hacı Bayram Veli → Bayramiliğin kurucusu (Ankara)",
+      "sahne": "15. yüzyıl Ankara'sının büyük ereni; kendi adıyla anılan tarikatı kurar; sade Türkçe ilahileri ve öğüt sözleri (nutuk) halk arasında yaşar.",
+      "cozum": "Öğüt/ilahi sözleri → Hacı Bayram Veli Nutukları. Tekke; Bayramilik kurucusu. Tuzak: Hacı Bayram (Bayrami, Ankara) ↔ Hacı Bektaş (Bektaşi).",
+      "tip": "hikaye",
+      "emoji": "☪️"
+    }
   },
   {
     "name": "Halikarnas Balıkçısı",
@@ -3889,7 +4033,13 @@
       "Yaşar Kemal",
       "Memduh Şevket Esendal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Halikarnas Balıkçısı → 'Bodrum balıkçısı' (Cevat Şakir) · Mavi Anadoluculuk",
+      "sahne": "Bodrum'a sürgün edilince denize ve Ege uygarlığına âşık olan yazar; balıkçıları, sünger avcılarını, mavi kıyıları ve sürgün hayatını coşkuyla anlatır.",
+      "cozum": "Demir alma komutu (denizci) → Aganta Burina Burinata · sürgün → Mavi Sürgün · diğer: Anadolu'nun Sesi. Cumhuriyet; Mavi Anadoluculuk, deniz/Ege.",
+      "tip": "hikaye",
+      "emoji": "⚓"
+    }
   },
   {
     "name": "Halit Ziya Uşaklıgil",
@@ -3926,7 +4076,13 @@
       "Mehmet Rauf",
       "Tevfik Fikret"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Halit Ziya → Türk romanının ilk büyük ustası · Servet-i Fünun",
+      "sahne": "Servet-i Fünun'un usta romancısı; hayalperest bir şairin hüsranını ('siyaha boyanan mavi hayaller'), bir yalıda kaynanasına kapılan kadının yasak aşkını, kırılan hayatları sanatlı bir dille yazar.",
+      "cozum": "Hayalleri kararan şair → Mai ve Siyah · yalıda yasak aşk → Aşk-ı Memnu · kırılan hayatlar → Kırık Hayatlar · diğer: Sefile, Nemide. Servet-i Fünun; ilk usta roman. Tuzak: Aşk-ı Memnu (Halit Ziya) ↔ Eylül (Mehmet Rauf).",
+      "tip": "hikaye",
+      "emoji": "📘"
+    }
   },
   {
     "name": "Hamdullah Hamdi",
@@ -3963,7 +4119,13 @@
       "Ahmedi",
       "Süleyman Çelebi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hamdullah Hamdi → 15. yy mesnevi şairi (Akşemseddin'in oğlu)",
+      "sahne": "15. yüzyıl mesnevi şairi; peygamber kıssasından bir aşkı (genç ile vezirin karısı), çöldeki bir başka aşkı ve âşıkların armağanını manzumlaştırır; kıyafet ilmine dair de yazar.",
+      "cozum": "Peygamber kıssası aşkı → Yusuf u Züleyha (en ünlü mesnevisi) · çöl aşkı → Leyla vü Mecnun · âşıklar armağanı → Tuhfetü'l-Uşşak · diğer: Kıyafetname. 15. yy mesnevi.",
+      "tip": "hikaye",
+      "emoji": "📜"
+    }
   },
   {
     "name": "Hüseyin Rahmi Gürpınar",
@@ -4000,7 +4162,13 @@
       "Recaizade Mahmut Ekrem",
       "Halit Ziya Uşaklıgil"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hüseyin Rahmi → halk için natüralist mizah · İstanbul",
+      "sahne": "Ahmet Mithat'ın izinden 'halk için' yazan natüralist-mizahçı; İstanbul'un batıl inançlarını, yabancı bir dadı yüzünden dağılan konağı, alafranga züppeleri güldürerek eleştirir.",
+      "cozum": "Konağı baştan çıkaran Fransız mürebbiye → Mürebbiye · alafranga züppe → Şıpsevdi, Şık · diğer: Kuyruklu Yıldız Altında Bir İzdivaç. Milli Edebiyat dönemi; halkçı natüralizm + mizah.",
+      "tip": "hikaye",
+      "emoji": "😹"
+    }
   },
   {
     "name": "Kaşgarlı Mahmut",
@@ -4037,7 +4205,13 @@
       "Edip Ahmet Yükneki",
       "Ahmet Yesevi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Kaşgarlı Mahmut → ilk Türkçe sözlük/ansiklopedi",
+      "sahne": "11. yüzyılda Araplara Türkçeyi öğretmek için diyar diyar gezip Türk lehçelerini, atasözlerini, haritayı derleyen dilci; 'Türk dilinin toplandığı kitap'ı yazar.",
+      "cozum": "Türk lehçeleri sözlüğü → Divânü Lügâti't-Türk (ilk Türkçe sözlük + ansiklopedi + harita). Geçiş dönemi. Tuzak: Kutadgu Bilig (siyasetname) ≠ DLT (sözlük).",
+      "tip": "hikaye",
+      "emoji": "🗺️"
+    }
   },
   {
     "name": "Latife Tekin",
@@ -4074,7 +4248,13 @@
       "Pınar Kür",
       "Sevgi Soysal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Latife Tekin → büyülü gerçekçilik · gecekondu",
+      "sahne": "Yoksulluğu ve gecekonduyu masalsı, büyülü bir dille anlatan yazar; ölümle senli benli bir ailenin masalını, çöplükte kurulan bir mahallenin düşsel öyküsünü yazar.",
+      "cozum": "Ölümle iç içe aile masalı → Sevgili Arsız Ölüm · çöplük-mahalle masalı → Berci Kristin Çöp Masalları. Cumhuriyet; büyülü gerçekçilik.",
+      "tip": "hikaye",
+      "emoji": "🏚️"
+    }
   },
   {
     "name": "Mary Shelley",
@@ -4107,7 +4287,13 @@
     "anekdot": "İngiliz yazar, 'Frankenstein' (1818) romanının yaratıcısı. AYT'de Romantizm + Gotik roman + bilim-kurgu başlangıcı bağlamında geçer.",
     "klasik_tuzak": "Türk yazarı değil. Romantizm/Gotik akımlar sorulduğunda referans isim.",
     "rakipleri": [],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Mary Shelley → ilk bilimkurgu/gotik (romantizm)",
+      "sahne": "19. yüzyıl İngiliz yazarı; bir bilim insanının ceset parçalarından canlı bir yaratık yaratıp felakete sürüklenmesini anlatan, türünün ilk örneği sayılan gotik romanı yazar.",
+      "cozum": "Yaratılan canavar → Frankenstein (ilk bilimkurgu/gotik roman). Romantizm dönemi; ÖSYM Batı edebiyatı/akım sorularında.",
+      "tip": "hikaye",
+      "emoji": "⚡"
+    }
   },
   {
     "name": "Mehmet Emin Yurdakul",
@@ -4144,7 +4330,13 @@
       "Faruk Nafiz Çamlıbel",
       "Ahmet Hikmet Müftüoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Mehmet Emin → 'milletin/yurdun emini' · Türk şiirinin babası",
+      "sahne": "'Ben bir Türk'üm, dinim cinsim uludur' diyen, sade Türkçe ve hece vezniyle halka seslenen milliyetçi şair; savaşa giden askere, uyanan millete sesleniş şiirleri yazar.",
+      "cozum": "Halk sazı/milli şiir → Türk Sazı · savaşa giden asker → Cenge Giderken · millete sesleniş → Ey Türk Uyan, Tan Sesleri, Ordunun Destanı. 'Türk Şairi' / milli edebiyat öncüsü, sade dil + hece.",
+      "tip": "hikaye",
+      "emoji": "🇹🇷"
+    }
   },
   {
     "name": "Melih Cevdet Anday",
@@ -4181,7 +4373,13 @@
       "Oktay Rifat Horozcu",
       "Cahit Külebi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Melih Cevdet → Garip üçlüsü (O-M-O'nun M'si)",
+      "sahne": "Ölçü-kafiyeyi atan üçlünün düşünür kanadı; sonradan akıl ve uygarlık temalı, felsefi şiire yönelir; rahatı kaçan bir ağacın imgesiyle anılır.",
+      "cozum": "Rahatı kaçan ağaç → Rahatı Kaçan Ağaç · ortak antoloji → Garip (Orhan Veli + Oktay Rifat ile). Garip akımı; sonra düşünsel/uygarlıkçı şiir.",
+      "tip": "hikaye",
+      "emoji": "🌳"
+    }
   },
   {
     "name": "Mevlana",
@@ -4218,7 +4416,13 @@
       "Ahmet Yesevi",
       "Hacı Bayram Veli"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Mevlana → tasavvuf · Mevlevilik, 'gel ne olursan ol gel'",
+      "sahne": "13. yüzyıl Konya'sının büyük mutasavvıfı; Farsça, beyitler hâlinde altı ciltlik öğretici-tasavvufi bir başyapıt; coşkun ilahi aşk şiirleri ve sohbet kitapları bırakır.",
+      "cozum": "Altı ciltlik öğretici tasavvuf → Mesnevî · coşkun aşk şiirleri → Divan-ı Kebir · sohbetler → Fihi Mâ Fih, Mecâlis-i Seb'a. Tasavvuf; Mevlevilik kaynağı (Farsça yazdı).",
+      "tip": "hikaye",
+      "emoji": "🕊️"
+    }
   },
   {
     "name": "Molière",
@@ -4255,7 +4459,13 @@
       "Shakespeare",
       "Direktör Ali Bey"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Molière → klasisizm · komedi ustası (Fransız)",
+      "sahne": "17. yüzyıl Fransız klasik komedyacısı; karakter tiplerini (kusurları) sahneye çıkarır: para canlısı bir ihtiyar, sahte bir dindar, sonradan görme bir kibarlık budalası, evhamlı bir hasta.",
+      "cozum": "Para canlısı → Cimri · sahte dindar → Tartuffe · sonradan görme → Kibarlık Budalası · evhamlı → Hastalık Hastası. Klasisizm; ÖSYM'de Batı akımı sorularında.",
+      "tip": "hikaye",
+      "emoji": "🎭"
+    }
   },
   {
     "name": "Nabizade Nazım",
@@ -4292,7 +4502,13 @@
       "Recaizade Mahmut Ekrem",
       "Abdülhak Hamit Tarhan"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Nabizade Nazım → ilk köy romanı · natüralizm",
+      "sahne": "Tanzimat'ın natüralist yazarı; bir Anadolu köyünün gerçekçi tablosunu (çiçek bozuğu bir köylü tipiyle) çizer; bir de kıskançlığın pençesindeki bir kadının trajedisini anlatır.",
+      "cozum": "Köy gerçekçiliği (çiçek bozuğu köylü) → Karabibik (ilk köy romanı) · kıskançlık trajedisi → Zehra. Tanzimat II; natüralizm.",
+      "tip": "hikaye",
+      "emoji": "🌾"
+    }
   },
   {
     "name": "Naili",
@@ -4329,7 +4545,13 @@
       "Nabi",
       "Şeyh Galip"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Naili → 17. yy sebk-i hindi · ince hayal",
+      "sahne": "17. yüzyıl Divan şairi; girift, derin ve ince hayalli (Hint tarzı) gazelleriyle tanınır; az sözle çok şey söyleyen kapalı bir üslubun ustasıdır.",
+      "cozum": "Toplu gazelleri → Naili Divanı. 17. yy; sebk-i hindi (Hint tarzı), ince hayal. Tuzak: Neşati ile aynı üslup (sebk-i hindi).",
+      "tip": "hikaye",
+      "emoji": "🪶"
+    }
   },
   {
     "name": "Nazım Hikmet",
@@ -4366,7 +4588,13 @@
       "Necip Fazıl Kısakürek",
       "Yahya Kemal Beyatlı"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Nazım Hikmet → serbest nazmın öncüsü · toplumcu, hapis",
+      "sahne": "Serbest nazmı Türkçeye getiren toplumcu şair; yıllarca hapis yatar; bir ülkenin insanlarını destansı bir panorama hâlinde, Milli Mücadele'yi ve isyancı bir şeyhi destanlaştırarak yazar.",
+      "cozum": "İnsan panoraması → Memleketimden İnsan Manzaraları · Milli Mücadele → Kuvâyi Milliye Destanı · isyancı şeyh → Şeyh Bedreddin Destanı. Cumhuriyet; serbest nazım + toplumcu gerçekçilik.",
+      "tip": "hikaye",
+      "emoji": "⛓️"
+    }
   },
   {
     "name": "Neşati",
@@ -4446,7 +4674,13 @@
       "Melih Cevdet Anday",
       "Cemal Süreya"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Oktay Rifat → Garip üçlüsünden, sonra İkinci Yeni'ye yakın",
+      "sahne": "Önce ölçü-kafiyeyi atan üçlüdendir; sonra kapalı/imgeli şiire kayar; aşk, avarelik ve yaşayıp ölme üstüne dizeler yazar.",
+      "cozum": "Aşk/avarelik → Yaşayıp Ölmek Aşk ve Avarelik Üstüne Şiirler · ortak antoloji → Garip (Orhan Veli + Melih Cevdet ile). Garip → İkinci Yeni'ye geçiş.",
+      "tip": "hikaye",
+      "emoji": "🖋️"
+    }
   },
   {
     "name": "Oğuz Atay",
@@ -4483,7 +4717,13 @@
       "Yusuf Atılgan",
       "Peyami Safa"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Oğuz Atay → modernist/postmodern · bilinç akışı, ironi",
+      "sahne": "Türk romanında bilinç akışını ve ironiyi zirveye taşıyan modernist; topluma uyamayan, 'tutunamayan' aydınların trajedisini, tehlikeli zihin oyunlarını yazar.",
+      "cozum": "Topluma tutunamayanlar → Tutunamayanlar · zihin oyunları → Tehlikeli Oyunlar · diğer: Korkuyu Beklerken, Bir Bilim Adamının Romanı. Cumhuriyet; modernist, bilinç akışı.",
+      "tip": "hikaye",
+      "emoji": "🎲"
+    }
   },
   {
     "name": "Peyami Safa",
@@ -4563,7 +4803,13 @@
       "Latife Tekin",
       "Sevgi Soysal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Pınar Kür → kadın, suç/gerilim, modern roman",
+      "sahne": "Kadının toplumdaki yerini ve adaletsizliği sorgulayan romancı; idama mahkûm edilen bir kadının dramını, bir cinayetin perde arkasını, küçük insanların oyununu anlatır.",
+      "cozum": "İdamlık kadın → Asılacak Kadın · cinayet kurgusu → Bir Cinayet Romanı · diğer: Yarın Yarın, Küçük Oyuncu. Cumhuriyet; kadın + gerilim/polisiye.",
+      "tip": "hikaye",
+      "emoji": "⚖️"
+    }
   },
   {
     "name": "Sevgi Soysal",
@@ -4600,7 +4846,13 @@
       "Pınar Kür",
       "Tomris Uyar"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Sevgi Soysal → toplumcu, kadın, 12 Mart",
+      "sahne": "Bireyin iç dünyasını toplumsal baskıyla harmanlayan yazar; Ankara'da bir öğle vaktinin kesişen hayatlarını, yaşlı bir teyzenin dünyasını, hapis/baskı deneyimini anlatır.",
+      "cozum": "Ankara öğle vakti kesişmeleri → Yenişehir'de Bir Öğle Vakti · yaşlı teyze → Tante Rosa · diğer: Tutkulu Perçem, Yürümek. Cumhuriyet; toplumcu, kadın, 12 Mart.",
+      "tip": "hikaye",
+      "emoji": "🏙️"
+    }
   },
   {
     "name": "Sezai Karakoç",
@@ -4637,7 +4889,13 @@
       "Arif Nihat Asya",
       "Cahit Zarifoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Sezai Karakoç → Diriliş ekolü · mistik/İslamcı",
+      "sahne": "Önce İkinci Yeni'de görünüp sonra 'diriliş' düşüncesini kuran mistik-İslamcı şair; ünlü bir gül-kadın şiiri ve Hızır'la kırk saatlik metafizik yolculuğuyla anılır.",
+      "cozum": "Gül-kadın → Mona Roza · Hızır'la yolculuk → Hızırla Kırk Saat. Cumhuriyet; Diriliş ekolü kurucusu. Tuzak: Necip Fazıl ÖNCÜ, Sezai Karakoç DİRİLİŞ kurucusu.",
+      "tip": "hikaye",
+      "emoji": "🌹"
+    }
   },
   {
     "name": "Shakespeare",
@@ -4670,7 +4928,13 @@
     "anekdot": "İngiliz tiyatrosunun zirvesi. AYT'de paragraf-anlam veya akım sorusunda evrensel insan teması bağlamında geçer. Rönesans dönemi.",
     "klasik_tuzak": "Türk yazarı değil. Hamlet/Macbeth gibi karakterler 'evrensel insan' örneği olarak paragraflarda geçer.",
     "rakipleri": [],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Shakespeare → Rönesans · trajedi ustası (İngiliz)",
+      "sahne": "İngiliz Rönesans'ının dehası; intikam peşindeki kararsız bir prensi, kıskançlıktan eşini boğan bir komutanı, iki düşman ailenin yasak aşkını, kanlı bir tahtı sahneye taşır.",
+      "cozum": "Kararsız prens → Hamlet · kıskanç komutan → Othello · yasak aşk → Romeo ve Juliet · kanlı taht → Macbeth · diğer: Kral Lear. Rönesans/trajedi; ÖSYM Batı edebiyatı.",
+      "tip": "hikaye",
+      "emoji": "🎭"
+    }
   },
   {
     "name": "Süleyman Nazif",
@@ -4707,7 +4971,13 @@
       "Hüseyin Cahit Yalçın",
       "Tevfik Fikret"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Süleyman Nazif → ateşli vatansever yazar (SF/Fecr)",
+      "sahne": "Servet-i Fünun/Fecr-i Âti çevresinden, vatan ve hürriyet için ateşli yazılar yazan kalem; işgale karşı çıkan yazıları yüzünden sürgün edilir; çobana seslenen bir şiiriyle anılır.",
+      "cozum": "Çobana sesleniş → Çal Çoban Çal. Servet-i Fünun/Fecr-i Âti; vatansever, polemikçi. (İşgal İstanbul'unda 'Kara Bir Gün' yazısıyla ünlü.)",
+      "tip": "hikaye",
+      "emoji": "🔥"
+    }
   },
   {
     "name": "Tesla",
@@ -4777,7 +5047,13 @@
       "Edip Ahmet Yükneki",
       "Ahmet Yesevi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Yusuf Has Hacip → ilk siyasetname (Geçiş dönemi)",
+      "sahne": "11. yüzyıl geçiş dönemi yazarı; dört alegorik kişi (adalet, saadet, akıl, akıbet) arasındaki konuşmalarla devleti nasıl yönetmek gerektiğini öğreten 'mutluluk veren bilgi' kitabını yazar.",
+      "cozum": "Mutluluk veren bilgi (siyasetname) → Kutadgu Bilig (ilk siyasetname; aruz, mesnevi). Geçiş dönemi. Tuzak: Kutadgu Bilig (siyaset) ≠ Atabetü'l Hakayık (ahlak).",
+      "tip": "hikaye",
+      "emoji": "👑"
+    }
   },
   {
     "name": "Zati",
@@ -4814,7 +5090,13 @@
       "Bağdatlı Ruhi",
       "Necati Bey"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Zati → 16. yy, genç şairlerin hocası (dükkân)",
+      "sahne": "16. yüzyıl şairi; remilcilik dükkânında genç şairlere yol gösteren bir usta; mum ile pervane aşkını mesnevileştirir, Edirne'yi öven bir manzume yazar.",
+      "cozum": "Mum + pervane aşkı → Şem ü Pervane · Edirne övgüsü → Edirne Şehrengizi · toplu şiirleri → Divan. 16. yy; genç şairlerin yetiştiricisi.",
+      "tip": "hikaye",
+      "emoji": "🕯️"
+    }
   },
   {
     "name": "Ziya Gökalp",
@@ -4937,7 +5219,13 @@
       "Edip Cansever",
       "Turgut Uyar"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "İlhan Berk → İkinci Yeni · somut/deneysel şiir",
+      "sahne": "İkinci Yeni'nin en deneysel, en soyut şairi; nesneleri, kenti ve denizi imgeye boğan, anlamı geri plana atan somut şiirler yazar.",
+      "cozum": "Deniz imgesi → Galile Denizi. İkinci Yeni; somut/deneysel şiir. Tuzak: Cemal Süreya/Edip Cansever ile aynı grup.",
+      "tip": "hikaye",
+      "emoji": "🌊"
+    }
   },
   {
     "name": "İsmet Özel",
@@ -4974,7 +5262,13 @@
       "Cahit Zarifoğlu",
       "Erdem Bayazıt"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "İsmet Özel → soldan İslamcılığa · sert/militan şiir",
+      "sahne": "Gençliğinde toplumcu, sonra İslamcı çizgiye geçen sert, isyankâr şair; 'kırk' temalı şiirleri ve bir peygamber kıssasının modern yorumuyla anılır.",
+      "cozum": "'Kırk' temalı şiir → Erbain (Şair Erbain) · Yusuf kıssası → Bir Yusuf Masalı · diğer: Of Not Being a Jew. Cumhuriyet; sol→İslamcı dönüşüm, militan şiir.",
+      "tip": "hikaye",
+      "emoji": "🔥"
+    }
   },
   {
     "name": "Ahmed Arif",
@@ -5001,7 +5295,13 @@
       "Ataol Behramoğlu",
       "Hasan Hüseyin"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ahmed Arif → tek kitap · Doğu, hapis, hasret",
+      "sahne": "Tek şiir kitabıyla efsane olan şair; Doğu'nun, hapishanenin, hasretin ve direnişin sesini gür, lirik bir dille haykırır ('zincirini eskittim').",
+      "cozum": "Hasret + prangalar → Hasretinden Prangalar Eskittim (tek kitabı). Cumhuriyet; Doğu/hapis/direniş, toplumcu lirizm.",
+      "tip": "hikaye",
+      "emoji": "⛓️"
+    }
   },
   {
     "name": "Ahmet Muhip Dıranas",
@@ -5094,7 +5394,13 @@
       "Ahmed Arif",
       "Nazım Hikmet"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Ataol Behramoğlu → toplumcu, halkçı şiir",
+      "sahne": "Yaşamı, kardeşliği ve toplumsal mücadeleyi yüksek sesle savunan toplumcu şair; tarihe ve savaşa tanıklık eden uzun anlatı şiirler yazar.",
+      "cozum": "Tarih/savaş anlatısı → Bir Ermeni General. Cumhuriyet; toplumcu gerçekçi, halkçı şiir.",
+      "tip": "hikaye",
+      "emoji": "✊"
+    }
   },
   {
     "name": "Bağdatlı Ruhi",
@@ -5154,7 +5460,13 @@
       "Asaf Halet Çelebi",
       "Behçet Kemal Çağlar"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Behçet Necatigil → ev-aile-ölüm şairi · radyo oyunları",
+      "sahne": "Orta hâlli memurun evini, aile yaşamını, ölümü ve gündelik küçük şeyleri ince bir dille yazan şair; eski toprağa, sade köklere bağlı; küçük bir 'divan' da bırakır.",
+      "cozum": "Eski/sade kök → Eski Toprak · küçük divan → Divançe. Cumhuriyet; 'evler, kadınlar, ölüm' şairi, radyo oyunu ustası.",
+      "tip": "hikaye",
+      "emoji": "🏠"
+    }
   },
   {
     "name": "Bilge Karasu",
@@ -5181,7 +5493,13 @@
       "Yusuf Atılgan",
       "Orhan Pamuk"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Bilge Karasu → 'bilge + kara su' · dilin büyücüsü, modernist",
+      "sahne": "Türkçeyi taşı taşı işleyen modernist usta; uzayıp giden bir günün akşamını, terk edilmiş kedilerin masalsı bahçesini, geceyi soyut/alegorik bir dille kurar.",
+      "cozum": "Uzayan günün akşamı → Uzun Sürmüş Bir Günün Akşamı · göçmüş kediler → Göçmüş Kediler Bahçesi · gece → Gece. Cumhuriyet, modernist, 'dil işçisi'.",
+      "tip": "hikaye",
+      "emoji": "🐈‍⬛"
+    }
   },
   {
     "name": "Cahit Sıtkı Tarancı",
@@ -5208,7 +5526,13 @@
       "Ziya Osman Saba",
       "Ahmet Hamdi Tanpınar"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Cahit Sıtkı → 'yaşama sevinci + ölüm korkusu'",
+      "sahne": "Ölüm korkusunu ve yaşama tutkusunu işleyen saf şiir ustası; 'yolun yarısı' dediği bir yaşa gelince zamanın geçişini ünlü bir şiirle anlatır.",
+      "cozum": "Yolun yarısı (yaş) → Otuz Beş Yaş · diğer: Düşten Güzel, Sonrası. Cumhuriyet; saf şiir, ölüm/zaman teması.",
+      "tip": "hikaye",
+      "emoji": "⏳"
+    }
   },
   {
     "name": "Cemal Süreya",
@@ -5235,7 +5559,13 @@
       "Turgut Uyar",
       "Ece Ayhan"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Cemal Süreya → 'cemal/güzel yüz' · İkinci Yeni, aşkın şairi",
+      "sahne": "İkinci Yeni'nin aşk şairi; kadını, teni, göçebeliği imgelerle yazar; 'Beni öp, sonra doğur beni' der; bir kuş-kadın imgesiyle anılır.",
+      "cozum": "Kuş-kadın → Üvercinka · göçebelik → Göçebe · doğum/aşk → Beni Öp Sonra Doğur Beni. İkinci Yeni (lidersiz 6'lı). Tuzak: Edip Cansever/Turgut Uyar ile aynı grup.",
+      "tip": "hikaye",
+      "emoji": "🕊️"
+    }
   },
   {
     "name": "Dertli",
@@ -5262,7 +5592,13 @@
       "Seyrani",
       "Bayburtlu Zihni"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Dertli → 'dert + saz' · 19. yy âşık",
+      "sahne": "19. yüzyıl saz şairi; içli, kederli koşma ve divanlarıyla, 'Telli sazdır bunun adı' diyen ünlü deyişiyle anılır; halk şiiri geleneğinin güçlü seslerinden.",
+      "cozum": "Toplu deyişleri → Dertli Divanı, Şiirleri. 19. yy âşık edebiyatı (saz şairi).",
+      "tip": "hikaye",
+      "emoji": "🎻"
+    }
   },
   {
     "name": "Edip Ahmet Yükneki",
@@ -5421,7 +5757,13 @@
       "Orhan Asena",
       "Turgut Özakman"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Güngör Dilmen → 'gün + dil' · mit/efsane tiyatrosu",
+      "sahne": "Mitolojiden ve efsaneden beslenen oyun yazarı; kulakları eşek kulağına dönen açgözlü bir kralı, tüketim çılgınlığını anlatan absürt bir lokantayı sahneye taşır.",
+      "cozum": "Eşek kulaklı kral → Midas'ın Kulakları · absürt tüketim → Canlı Maymun Lokantası. Cumhuriyet, mit-efsane tiyatrosu.",
+      "tip": "hikaye",
+      "emoji": "👂"
+    }
   },
   {
     "name": "Hacı Bektaş Veli",
@@ -5448,7 +5790,13 @@
       "Yunus Emre",
       "Mevlana"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hacı Bektaş Veli → Bektaşiliğin piri · 'eline diline beline sahip ol'",
+      "sahne": "13. yüzyıl Anadolu erenlerinden; kendi adını taşıyan bir tarikatın kurucusu; inanç ve ahlak ilkelerini bir 'sözler/makaleler' kitabında toplar; menkıbeleri ve şathiyeleriyle yaşar.",
+      "cozum": "Sözler/ilkeler → Makalat · menkıbeleri → Vilayetname · iğretili/mizahi söyleyiş → Şathiyye. Tekke; Bektaşilik kurucusu. Tuzak: Hacı Bektaş (Bektaşi) ↔ Hacı Bayram (Bayrami).",
+      "tip": "hikaye",
+      "emoji": "☪️"
+    }
   },
   {
     "name": "Hasan Ali Toptaş",
@@ -5475,7 +5823,13 @@
       "Latife Tekin",
       "Bilge Karasu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hasan Ali Toptaş → 'Türk Kafkası' · büyülü/modern",
+      "sahne": "Gerçekle düşü, kayboluşu ve dilin büyüsünü iç içe geçiren modern romancı; bir köyde insanların ortadan kaybolduğu gölgesiz bir dünyayı, hüzünlü hazları anlatır.",
+      "cozum": "Kaybolan/gölgesiz insanlar → Gölgesizler · hüzünlü haz → Bin Hüzünlü Haz. Cumhuriyet; büyülü gerçekçilik/modernizm.",
+      "tip": "hikaye",
+      "emoji": "🌫️"
+    }
   },
   {
     "name": "Hilmi Yavuz",
@@ -5502,7 +5856,13 @@
       "İsmet Özel",
       "Behçet Necatigil"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hilmi Yavuz → gelenek + modern, 'şiirde Doğu'",
+      "sahne": "Divan/Doğu geleneğini modern şiire taşıyan düşünür-şair; bakışı bir kuşa benzetir; doğu imgeleri, yara ve gizem temalı kitaplar yazar.",
+      "cozum": "Bakış-kuş → Bakış Kuşu · Doğu → Doğu Şiirleri · gizem/yara → Gizemli Şiirler, Yara Şiirleri. Cumhuriyet; gelenekçi-modern şiir + deneme.",
+      "tip": "hikaye",
+      "emoji": "🪶"
+    }
   },
   {
     "name": "Hoca Dehhani",
@@ -5529,7 +5889,13 @@
       "Ahmedi",
       "Şeyhi"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Hoca Dehhani → din-DIŞI ilk divan şairi (13. yy)",
+      "sahne": "13. yüzyılda, tasavvufun hâkim olduğu çağda din-dışı (dünyevi) şiirin ilk sesi; Anadolu Selçuklu sultanı için tarihî/destansı büyük bir mesnevi yazar.",
+      "cozum": "Selçuklu sultanına destan → Selçuklu Şehnamesi. 13. yy; din-dışı Divan şiirinin ilk temsilcisi. Tuzak: tasavvufi değil, dünyevi/din-dışı.",
+      "tip": "hikaye",
+      "emoji": "🏯"
+    }
   },
   {
     "name": "Karacaoğlan",
@@ -5556,7 +5922,13 @@
       "Dadaloğlu",
       "Aşık Veysel Şatıroğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Karacaoğlan → 'kara sevda' · güzelleme ustası (17. yy)",
+      "sahne": "17. yüzyılın en lirik saz şairi; aşkı, doğayı, güzeli sade ve içten koşmalarla anlatır; gurbet ve sevda onun başlıca temasıdır (güzelleme).",
+      "cozum": "Aşk/doğa/güzel temalı koşmaları → Şiirleri (güzelleme). 17. yy âşık. Tuzak: aşk=güzelleme (Karacaoğlan), kahramanlık=koçaklama (Köroğlu/Dadaloğlu).",
+      "tip": "hikaye",
+      "emoji": "🌹"
+    }
   },
   {
     "name": "Kaygusuz Abdal",
@@ -5583,7 +5955,13 @@
       "Pir Sultan Abdal",
       "Hacı Bektaş Veli"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Kaygusuz Abdal → tekke + şathiye/mizah",
+      "sahne": "Tekke edebiyatının iğneleyici, mizahi sesi; ciddi dini konuları alaylı, iğretili (şathiye) bir dille söyler; tasasız, alaycı bir dervişin hicvini taşır.",
+      "cozum": "İğretili/mizahi söyleyiş → Şathiyye (Budalanâme, Saraynâme) · toplu şiirleri → Divan. Tekke; şathiye/mizah. Tuzak: Yunus ciddi/sevgi ↔ Kaygusuz alaycı/şathiye.",
+      "tip": "hikaye",
+      "emoji": "🃏"
+    }
   },
   {
     "name": "Mahmut Makal",
@@ -5610,7 +5988,13 @@
       "Talip Apaydın",
       "Yaşar Kemal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Mahmut Makal → Köy Enstitüsü · köy gerçeği tanıklığı",
+      "sahne": "Köy Enstitüsü çıkışlı genç öğretmen; kendi köyünde gördüğü yoksulluğu, çıplak gerçeği, anı-röportaj tadında ilk elden anlatarak büyük yankı uyandırır.",
+      "cozum": "Köyün çıplak gerçeği (tanıklık) → Bizim Köy. Cumhuriyet; Köy Enstitüsü edebiyatının başlatıcısı.",
+      "tip": "hikaye",
+      "emoji": "🏞️"
+    }
   },
   {
     "name": "Mehmet Rauf",
@@ -5670,7 +6054,13 @@
       "İlhan Geçer",
       "Gültekin Samanoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Mehmet Çınarlı → Hisarcılar'ın lideri · 'Hisar' dergisi",
+      "sahne": "İkinci Yeni'nin anlamsızlığına karşı geleneği savunan grubun (Hisar) öncüsü; ölçülü, anlaşılır, gelenekçi şiir yazar; hayalin gerçeği aştığını söyler.",
+      "cozum": "Hayal/gerçek → Gerçek Hayali Aştı. Cumhuriyet; Hisarcılar (gelenekçi, Yahya Kemal mirası). Tuzak: Hisarcılar = İkinci Yeni'nin karşıtı.",
+      "tip": "hikaye",
+      "emoji": "🏰"
+    }
   },
   {
     "name": "Munis Faik Ozansoy",
@@ -5697,7 +6087,13 @@
       "İlhan Geçer",
       "Gültekin Samanoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Munis Faik Ozansoy → Hisarcı · şiir + eleştiri",
+      "sahne": "Hisar dergisi çevresinden gelenekçi şair-eleştirmen; hayalden gerçeğe uzanan, ölçülü ve anlamlı şiiri savunur.",
+      "cozum": "Hayal → hakikat → Hayalden Hakikate. Cumhuriyet; Hisarcılar (gelenekçi). Tuzak: Mehmet Çınarlı ile aynı grup (Hisar).",
+      "tip": "hikaye",
+      "emoji": "🏰"
+    }
   },
   {
     "name": "Mustafa Kutlu",
@@ -5724,7 +6120,13 @@
       "Rasim Özdenören",
       "Sevinç Çokum"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Mustafa Kutlu → gelenekçi/tasavvufi hikâye",
+      "sahne": "Modern hayatın kıyısındaki sade insanları, gönül ve tasavvuf temasıyla anlatan hikâyeci; bir sırrı, yokuştan akan suları, beyhude geçen bir ömrü işler.",
+      "cozum": "Sır → Sır · akıp giden hayat → Yokuşa Akan Sular · boşa geçen ömür → Beyhude Ömrüm · diğer: Kapıları Açmak. Cumhuriyet; gelenekçi/tasavvufi uzun hikâye.",
+      "tip": "hikaye",
+      "emoji": "🍃"
+    }
   },
   {
     "name": "Nurullah Ataç",
@@ -5751,7 +6153,13 @@
       "Sabahattin Eyuboğlu",
       "Cemil Meriç"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Nurullah Ataç → deneme/eleştiri · devrik cümle + öz Türkçe",
+      "sahne": "Türk denemesinin ve eleştirisinin babası; devrik cümleyi ve arı (öz) Türkçeyi savunur; günlük ve karalama tadında özgür yazılar bırakır.",
+      "cozum": "Serbest yazılar → Karalama Defteri · günlük → Günlerin Getirdiği. Cumhuriyet; deneme/eleştiri öncüsü, devrik cümle + öz Türkçe.",
+      "tip": "hikaye",
+      "emoji": "✍️"
+    }
   },
   {
     "name": "Orhan Pamuk",
@@ -5778,7 +6186,13 @@
       "Bilge Karasu",
       "İhsan Oktay Anar"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Orhan Pamuk → Nobel'li (2006) postmodern romancı",
+      "sahne": "Doğu-Batı, kimlik ve İstanbul takıntılı Nobel'li romancı; bir Osmanlı-Venedikli ikizliğini, bir nakkaş cinayetini renklerle, bir aşk müzesini eşyalarla kurar.",
+      "cozum": "Osmanlı-Venedikli benzerlik → Beyaz Kale · nakkaş cinayeti → Benim Adım Kırmızı · eşya/aşk müzesi → Masumiyet Müzesi · diğer: Kara Kitap, Kar. Postmodern; 2006 Nobel.",
+      "tip": "hikaye",
+      "emoji": "🏛️"
+    }
   },
   {
     "name": "Pir Sultan Abdal",
@@ -5805,7 +6219,13 @@
       "Kaygusuz Abdal",
       "Karacaoğlan"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Pir Sultan Abdal → Alevi-Bektaşi isyan sesi · Hızır Paşa'ya idam",
+      "sahne": "16. yüzyıl tekke şairi; halkın hakkını savunan, zalim valiye baş kaldıran deyişler söyler; bu isyankâr dili yüzünden Hızır Paşa tarafından idam edilir.",
+      "cozum": "İsyankâr nefes/deyişleri → Pir Sultan Abdal Deyişleri. Alevi-Bektaşi tekke şiiri, isyan teması. Tuzak: Yunus SEVGİ/hoşgörü ↔ Pir Sultan İSYAN.",
+      "tip": "hikaye",
+      "emoji": "🔥"
+    }
   },
   {
     "name": "Recep Bilginer",
@@ -5832,7 +6252,13 @@
       "Turgut Özakman",
       "Haldun Taner"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Recep Bilginer → toplumsal/politik tiyatro",
+      "sahne": "Gazeteci kökenli oyun yazarı; taşra kadınını, başkaldıran halkı, dostluk ve devlet temalarını sahneye taşıyan toplumsal oyunlar yazar.",
+      "cozum": "Taşra kadını → Sarı Naciye · başkaldırı → İsyancılar · diğer: Gazeteciden Dost, Ben Devletim. Cumhuriyet, toplumsal/politik tiyatro.",
+      "tip": "hikaye",
+      "emoji": "🎭"
+    }
   },
   {
     "name": "Rıfat Ilgaz",
@@ -5925,7 +6351,13 @@
       "Mustafa Kutlu",
       "Peyami Safa"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Samiha Ayverdi → tasavvuf + eski İstanbul özlemi",
+      "sahne": "Eski İstanbul'u, konak hayatını ve tasavvufu yad eden kadın yazar; köklü bir efendinin konağının çöküşünü, bir semt imamının hikâyesini anlatır.",
+      "cozum": "Konağın çöküşü → İbrahim Efendi Konağı · semt imamı → Mesihpaşa İmamı. Cumhuriyet; tasavvufi, eski İstanbul/konak kültürü.",
+      "tip": "hikaye",
+      "emoji": "🕌"
+    }
   },
   {
     "name": "Selim İleri",
@@ -5952,7 +6384,13 @@
       "Bilge Karasu",
       "Adalet Ağaoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Selim İleri → İstanbul, nostalji, geçmiş",
+      "sahne": "Eski İstanbul'a ve geçmişe duyulan hüzünlü özlemi, bireyin yalnızlığını ve ölümü işleyen romancı-denemeci; bir yazlık beldede, ölümün gölgesinde geçen ilişkiler anlatır.",
+      "cozum": "Yazlık belde geceleri → Her Gece Bodrum · ölüm/ilişki → Ölüm İlişkileri · diğer: Cehennem Kraliçesi, Mavi Kanatlarınla Yalnız Benim Olsaydın. Cumhuriyet; nostalji + İstanbul.",
+      "tip": "hikaye",
+      "emoji": "🌃"
+    }
   },
   {
     "name": "Suut Kemal Yetkin",
@@ -5979,7 +6417,13 @@
       "Sabahattin Eyuboğlu",
       "Cemil Meriç"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Suut Kemal Yetkin → estetik + deneme",
+      "sahne": "Sanat ve estetik üzerine düşünen denemeci; edebiyatın ve güzelin ne olduğunu sakin, açık bir dille tartışır.",
+      "cozum": "Edebiyat/estetik denemeleri → Edebiyat Üzerine. Cumhuriyet; deneme + estetik. Tuzak: Nurullah Ataç ile aynı kuşak denemeci.",
+      "tip": "hikaye",
+      "emoji": "📝"
+    }
   },
   {
     "name": "Talip Apaydın",
@@ -6006,7 +6450,13 @@
       "Mahmut Makal",
       "Orhan Kemal"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Talip Apaydın → Köy Enstitüsü · köy romanı",
+      "sahne": "Köy Enstitüsü kuşağından yazar; köyün makineyle (traktörle) tanışmasını, toprağı ve köylünün hayatını gerçekçi bir dille anlatır.",
+      "cozum": "Köye gelen traktör → Sarı Traktör. Cumhuriyet; Köy Enstitüsü/köy edebiyatı. Tuzak: Mahmut Makal/Fakir Baykurt ile aynı damar.",
+      "tip": "hikaye",
+      "emoji": "🚜"
+    }
   },
   {
     "name": "Turan Oflazoğlu",
@@ -6099,7 +6549,13 @@
       "Cevat Fehmi Başkut",
       "Recep Bilginer"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Turgut Özakman → belgesel-tarihî roman/oyun · Kurtuluş Savaşı",
+      "sahne": "Belgelerle tarihi romana döken yazar; Kurtuluş Savaşı'nın o 'çılgın' direnişini, ocak/aile dramlarını ve milli destanları anlatır.",
+      "cozum": "Kurtuluş Savaşı destanı → Şu Çılgın Türkler · aile/ocak → Ocak · diğer: Üç Destan. Cumhuriyet; belgesel tarihî roman + tiyatro.",
+      "tip": "hikaye",
+      "emoji": "⚔️"
+    }
   },
   {
     "name": "Yusuf Atılgan",
@@ -6126,7 +6582,13 @@
       "Bilge Karasu",
       "Vüsat O. Bener"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "Yusuf Atılgan → 'atılan' · bunalım/yabancılaşma",
+      "sahne": "Bir adam otelin kapısından dışarı ATILIYOR; arkasından bir zebani bağırıyor. Adam aylak aylak dolaşıp dönecek yer arıyor.",
+      "cozum": "Otelden atılan + takıntılı kâhya Zebercet → Anayurt Oteli · aylak dolaşan → Aylak Adam. Cumhuriyet; modern birey, yabancılaşma, bunalım.",
+      "tip": "hikaye",
+      "emoji": "🏨"
+    }
   },
   {
     "name": "Ziya Osman Saba",
@@ -6186,7 +6648,13 @@
       "Hasan Ali Toptaş",
       "Bilge Karasu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "İhsan Oktay Anar → postmodern · tarihî-fantastik",
+      "sahne": "Osmanlı zamanına kurgulanmış, gizemli düzenekler ve masalsı haritalarla dolu postmodern romanlar yazar; puslu kıtaları, hile düzeneklerini, suskunları anlatır.",
+      "cozum": "Puslu kıtalar haritası → Puslu Kıtalar Atlası · hile düzenekleri → Kitabü'l-Hiyel · diğer: Suskunlar. Cumhuriyet; postmodern, tarihî-fantastik.",
+      "tip": "hikaye",
+      "emoji": "🗺️"
+    }
   },
   {
     "name": "İlhan Geçer",
@@ -6213,6 +6681,12 @@
       "Munis Faik Ozansoy",
       "Gültekin Samanoğlu"
     ],
-    "kodlama": null
+    "kodlama": {
+      "ad_cagrisimi": "İlhan Geçer → Hisarcı · lirik, gelenekçi",
+      "sahne": "Hisar dergisi çevresinden lirik, içten şair; sevgiyi, hüznü ve geçen yılların izlerini ölçülü bir dille yazar.",
+      "cozum": "Geçen yıllar/izler → Yıllar ve İzler · diğer: Belki, Vurgun, Bir Bulut Geçti. Cumhuriyet; Hisarcılar (gelenekçi/lirik).",
+      "tip": "hikaye",
+      "emoji": "🏰"
+    }
   }
 ]
